@@ -1,2 +1,1 @@
-# Automaatne Sisukokkuvõtja
-Automaatne sisukokkuvõtete tegemine ajaseoste märgenduste põhjal
+# Automaatne sisukokkuvõtete tegemine ajaseoste märgenduste põhjal
