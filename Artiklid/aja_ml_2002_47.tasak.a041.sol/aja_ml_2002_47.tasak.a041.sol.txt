@@ -1,0 +1,15 @@
+0  20.11.2002
+1  Tartu on esimene linn Eestis , kus infot linnaliinibusside väljumisaegade kohta saab tellida mobiiltelefonile .
+2  " Teenus on mõeldud liikuvale linnakodanikule , kes eelistab vastavalt vajadusele bussiaegu küsida , selle asemel et neid meeles pidada , " ütles teenuse looja , Tartu Ülikooli informaatikatudeng Andres Kauts .
+3  Teenuse kasutamiseks tuleb saata SMS sõnum kujul " PEATUS peatuse nimi liini number " lühinumbrile 1311.
+4  Päringu vastusena saadetakse bussi väljumisajad alates päringu saatmise hetkest .
+5  Et saada teada , mis kell väljub buss nr 14 Ihaste peatusest , tuleb saata sõnum kujul " PEATUS IHASTE 14 " lühinumbrile 1311.
+6  Teenus töötab kõikides mobiilivõrkudes ning selle hind on 5 krooni .
+7  Tartu abilinnapea Hannes Astoki sõnul on tegemist käepärase alternatiiviga bussiinfo Interneti-lehele buss.tartu.ee
+8  " SMSi teel bussiaegade tellimine oli hiljuti lõppenud Tartu e-mõtete konkursil üks enim soovitud ideid ja mul on hea meel , et see tudengite eestvõtmisel nüüd teoks on saanud , " ütles Astok .
+9  Andres Kauts kasutas bussiinfo teenuse loomiseks firma Mobi poolt loodud Igaühe M-Äri teenuseportaali abi , mis võimaldab SMS-teenuseid luua vaid mõne minutiga ja ilma erioskusi vajamata .
+10  Lähiajal on plaanis bussiinfo teenus käivitada ka Tallinnas .
+11  Kautsi sõnul võib see toimuda detsembris .
+12  SMS-päringu abil saab küsida Taisto bussiaegu liinil Tartu-Tallinn ja vastupidi ning Tartu taksofirmade andmed .
+13  Saates lühinumbrile 1311 SMSi sisuga " INFO TAISTO " , saabub hetke pärast vastus Taisto liinide Tartust Tallinna poole ja vastupidises suunas sõitvate busside väljumisaegadega .
+14  Sõnum sisuga " INFO TARTAXI " lühinumbrile 1311 toob vastuseks Tartu taksofirmade nimed ja tellimisnumbrid .

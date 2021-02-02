@@ -1,0 +1,15 @@
+0  20.11.2002
+1  EMT ja Eesti Telefon ( ET ) toovad alates 2. detsembrist turule ühise traadita Interneti-ühenduse , mis võimaldab fikseeritud kuutasu eest kasutada piiramatult Internetti kõikjal Eestis .
+2  ET andmeside- ja Interneti-talituse direktori Olav Harjo sõnul on uue ühenduse läbilaskevõime WLANi ( Wireless Local Area Network ) levialades kuni 2 megabitti sekundis ning kõikjal üle Eesti GPRSi ( General Packet Radio Service ) vahendusel kuni 54 kb/s .
+3  " Et tagatud oleks maksimaalne turvalisus kaugtöö tegemisel , pakume klientidele lisaks virtuaalse privaatvõrgu ( IP-VPN ) teenust , " lisas Harjo .
+4  Traadita Interneti teenusega liitunud ei maksa WLAN/GPRS võrgukaardiga GPRSi mahupõhist hinda , vaid kõik kulutused on kaetud kuumaksuga .
+5  Teenusega liitumise tasu on 118 krooni ja kuutasu 495 krooni .
+6  Klient peab teenuse kasutamiseks sõlmima vaid ühe lepingu ning ta saab ise valida , kas hakkab arveid saama Eesti Telefonilt või EMT-lt .
+7  Traadita Interneti-ühenduse kasutamiseks on vaja süle- või pihuarvuti varustada WLAN võrgukaardiga või ühendada GPRS-telefoniga või lisada arvutile ainult WLAN/GPRS võrgukaart .
+8  Esimene WiFiga küla
+9  Nõuni küla Valgamaal sai esimeseks vaba traadita Interneti ( WiFi ) levialaga väikeasulaks Eestis .
+10  Saavutuse autorid on Palupera vallavalitsus , MTÜ Tehnokratt , MTÜ WiFi.ee ja MTÜ Wiirus .
+11  Sel moel rajab Valgamaa teed naabermaakondade Võru ja Põlva arenguks , kus turistidel puudub võimalus kasutada Internetti ööpäev läbi .
+12  Näiteks Tartu- , Valga- ja Viljandimaal on kokku kümme WiFi leviala .
+13  Vt
+14  Vt ka , ML , 24. oktoober

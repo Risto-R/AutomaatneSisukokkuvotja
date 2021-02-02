@@ -1,0 +1,13 @@
+<div0><head> Info bussiaegade kohta SMSi kaudu </head>
+<p> <s> <hi rend="italic"> 20.11.2002 </hi> </s> </p>
+<p> <s> Tartu on esimene linn Eestis , kus infot linnaliinibusside väljumisaegade kohta saab tellida mobiiltelefonile . </s> </p>
+<p> <s> " Teenus on mõeldud liikuvale linnakodanikule , kes eelistab vastavalt vajadusele bussiaegu küsida , selle asemel et neid meeles pidada , " ütles teenuse looja , Tartu Ülikooli informaatikatudeng Andres Kauts . </s> </p>
+<p> <s> Teenuse kasutamiseks tuleb saata SMS sõnum kujul " PEATUS peatuse nimi liini number " lühinumbrile 1311. </s> </p>
+<p> <s> Päringu vastusena saadetakse bussi väljumisajad alates päringu saatmise hetkest . </s> </p>
+<p> <s> Et saada teada , mis kell väljub buss nr 14 Ihaste peatusest , tuleb saata sõnum kujul " PEATUS IHASTE 14 " lühinumbrile 1311. </s> </p>
+<p> <s> Teenus töötab kõikides mobiilivõrkudes ning selle hind on 5 krooni . </s> </p>
+<p> <s> Tartu abilinnapea Hannes Astoki sõnul on tegemist käepärase alternatiiviga bussiinfo Interneti-lehele buss.tartu.ee </s> </p>
+<p> <s> " SMSi teel bussiaegade tellimine oli hiljuti lõppenud Tartu e-mõtete konkursil üks enim soovitud ideid ja mul on hea meel , et see tudengite eestvõtmisel nüüd teoks on saanud , " ütles Astok . </s> </p>
+<p> <s> Andres Kauts kasutas bussiinfo teenuse loomiseks firma Mobi poolt loodud Igaühe M-Äri teenuseportaali abi , mis võimaldab SMS-teenuseid luua vaid mõne minutiga ja ilma erioskusi vajamata . </s> </p>
+<p> <s> Lähiajal on plaanis bussiinfo teenus käivitada ka Tallinnas . </s> <s> Kautsi sõnul võib see toimuda detsembris . </s> </p>
+<p> <s> SMS-päringu abil saab küsida Taisto bussiaegu liinil Tartu-Tallinn ja vastupidi ning Tartu taksofirmade andmed . </s> <s> Saates lühinumbrile 1311 SMSi sisuga " INFO TAISTO " , saabub hetke pärast vastus Taisto liinide Tartust Tallinna poole ja vastupidises suunas sõitvate busside väljumisaegadega . </s> <s> Sõnum sisuga " INFO TARTAXI " lühinumbrile 1311 toob vastuseks Tartu taksofirmade nimed ja tellimisnumbrid . </s> </p></div0>
