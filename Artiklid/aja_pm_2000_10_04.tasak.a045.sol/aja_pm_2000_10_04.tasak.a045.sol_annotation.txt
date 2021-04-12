@@ -1,0 +1,83 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a045.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Pärnu linnavolikogu Reformierakonna fraktsioon [e1 teeb ] võimuliidukaaslasele Isamaaliidule [e1 ettepaneku ] [e2 anda ] haridust ja kultuuri juhtiva abilinnapea koht Reformierakonnale , [e3 ütles ] Reformierakonna Pärnu piirkonna esimees Väino Linde .
+     e1 "teeb ettepaneku"  OVERLAP-OR-AFTER  DCT 
+     e1 "teeb ettepaneku"  AFTER  e3 "ütles" 
+     e1 "teeb ettepaneku"  BEFORE  e2 "anda" 
+     e1 "teeb ettepaneku"  AFTER  e4 "rääkis" 
+     e1 "teeb ettepaneku"  AFTER  e6 "avaldas" 
+     e1 "teeb ettepaneku"  SIMULTANEOUS  e8 "teeb ettepaneku" 
+     e2 "anda"  AFTER  DCT 
+     e2 "anda"  AFTER  e3 "ütles" 
+     e3 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e3 "ütles"  AFTER  e6 "avaldas" 
+     e3 "ütles"  BEFORE-OR-OVERLAP  e4 "rääkis" 
+     e3 "ütles"  BEFORE  e8 "teeb ettepaneku" 
+
+ s1  Linde [e4 rääkis ] , et [t1 üleeile õhtul ] koos [e5 istunud ] Reformierakonna fraktsioon [e6 avaldas ] [e7 rahulolematust ] abilinnapea Sulev Alajõe haridus- ja kultuuripoliitikaga Pärnus ning [e8 teeb ] Isamaaliidule [e8 ettepaneku ] koalitsioonileping üle [e9 vaadata ] .
+     e4 "rääkis"  BEFORE-OR-OVERLAP  DCT 
+     e4 "rääkis"  AFTER  e5 "istunud" 
+     e4 "rääkis"  IS_INCLUDED  e11 "on" 
+     e5 "istunud"  IS_INCLUDED  t1 "üleeile õhtul" 
+     e5 "istunud"  BEFORE  DCT 
+     e5 "istunud"  INCLUDES  e6 "avaldas" 
+     e6 "avaldas"  BEFORE  DCT 
+     e6 "avaldas"  BEFORE  e8 "teeb ettepaneku" 
+     e6 "avaldas"  VAGUE  e7 "rahulolematust" 
+     e6 "avaldas"  IS_INCLUDED  e11 "on" 
+     e7 "rahulolematust"  VAGUE  DCT 
+     e8 "teeb ettepaneku"  OVERLAP-OR-AFTER  DCT 
+     e8 "teeb ettepaneku"  IS_INCLUDED  e11 "on" 
+     e9 "vaadata"  OVERLAP-OR-AFTER  DCT 
+
+ s2  Linde [e10 väitel ] [e11 on ] sama meelt kaks Rahva Usalduse saadikut .
+     e10 "väitel"  BEFORE-OR-OVERLAP  DCT 
+     e10 "väitel"  IS_INCLUDED  e11 "on" 
+     e11 "on"  INCLUDES  DCT 
+     e11 "on"  INCLUDES  e12 "protesteerisid" 
+
+ s3  Linnavolikogu viimase istungi ajal [e12 protesteerisid ] raekoja ees Pärnu täiskasvanute gümnaasiumi õpilased , kelle kooli [e13 ähvardab ] [e14 sulgemine ] .
+     e12 "protesteerisid"  BEFORE  DCT 
+     e12 "protesteerisid"  IS_INCLUDED  e13 "ähvardab" 
+     e12 "protesteerisid"  BEFORE  e15 "kaalunud" 
+     e12 "protesteerisid"  BEFORE  e18 "leidnud" 
+     e13 "ähvardab"  INCLUDES  DCT 
+     e13 "ähvardab"  BEFORE  e14 "sulgemine" 
+     e14 "sulgemine"  AFTER  DCT 
+
+ s4  Pärast seda on opositsioon [e15 kaalunud ] [e16 mõtet ] [e17 avaldada ] linnavalitsusele umbusaldust ja [e18 leidnud ] toetajaid ka koalitsiooni ridadest .
+     e15 "kaalunud"  BEFORE  DCT 
+     e15 "kaalunud"  SIMULTANEOUS  e18 "leidnud" 
+     e15 "kaalunud"  VAGUE  e16 "mõtet" 
+     e15 "kaalunud"  BEFORE  e19 "ütlesid" 
+     e15 "kaalunud"  BEFORE  e20 "tegeldakse" 
+     e15 "kaalunud"  BEFORE  e22 "selge olema" 
+     e16 "mõtet"  BEFORE  DCT 
+     e16 "mõtet"  BEFORE  e17 "avaldada" 
+     e17 "avaldada"  AFTER  DCT 
+     e18 "leidnud"  BEFORE  DCT 
+     e18 "leidnud"  BEFORE-OR-OVERLAP  e20 "tegeldakse" 
+     e18 "leidnud"  BEFORE  e19 "ütlesid" 
+     e18 "leidnud"  BEFORE  e22 "selge olema" 
+
+ s5  Keskerakonda esindav Margus Tammekivi ja koonderakondliku taustaga valimisliitu Pärnakas esindav Märt Mere [e19 ütlesid ] , et umbusaldusavalduse koostamisega [e20 tegeldakse ] ja [t2 nädala lõpuks ] [e21 peaks ] asi [e22 selge ] [e22 olema ] .
+     e19 "ütlesid"  BEFORE-OR-OVERLAP  DCT 
+     e19 "ütlesid"  IS_INCLUDED  e20 "tegeldakse" 
+     e19 "ütlesid"  IS_INCLUDED  e23 "töötab" 
+     e20 "tegeldakse"  INCLUDES  DCT 
+     e20 "tegeldakse"  BEFORE  e21 "peaks" 
+     e20 "tegeldakse"  BEFORE  e22 "selge olema" 
+     e20 "tegeldakse"  IS_INCLUDED  e23 "töötab" 
+     e21 "peaks"  BEFORE-OR-OVERLAP  t2 "nädala lõpuks" 
+     e21 "peaks"  AFTER  DCT 
+     e21 "peaks"  VAGUE  e22 "selge olema" 
+     e22 "selge olema"  BEFORE-OR-OVERLAP  t2 "nädala lõpuks" 
+     e22 "selge olema"  AFTER  DCT 
+     e22 "selge olema"  IS_INCLUDED  e23 "töötab" 
+
+ s6  Teet Roosaar [e23 töötab ] ajalehes Pärnu Postimees
+     e23 "töötab"  INCLUDES  DCT 
+
+

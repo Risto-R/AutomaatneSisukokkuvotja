@@ -1,14 +1,50 @@
 <div0><head> Tõhus tegevus Tamperes </head>
-<p> <s> Tampere vanaautode klubi liikmed saavad kokku iga kuu esimesel kolmapäeval . </s> <s> Kohtumispaik on Restauranta - mõnus palkehitis Tampere lähedal Kangasala juures , põldude ja niitudega ümbritsetud Kirkkojärvi kaunil kaldal . </s> </p>
-<p> <s> Klubi keskuse nimi tuleb sõnadest " restaurointi " ( 'ennistamine' ) ja " järvenranta " . </s> <s> Kui ei olda Restaurantas , käiakse külas mõnes firmas või siis ollakse kambakesi mõne sõiduriista kallal . </s> <s> Ka klubi juht , energiline Aimo Lahti ei pelga käsi õliseks teha . </s> </p>
-<p> <s> Sellise ühistöö viljana taassündinud Timo-nimeline rohekat karva bussiiludus - aastast 1929 pärit liinibuss pärisnimega Diamond T Special - on saanud klubiürituste ehteks . </s> </p>
-<p> <s> Usun , et ka oma järge ootavad Soome vanim tuletõrjeauto Benz Gaggenau aastast 1922 , tuletõrjeauto Bedford ( 1959 ) , Chevrolet' veoauto ( 1946 ) ning väikebuss Goliath Express ( 1960 ) saavad ühisel nõul ja jõul ennistatud niisama heal tasemel . </s> </p>
-<p> <s> Restaurantapäevad juunikuu teisel nädalavahetusel on meie vanamootorrattaklubi UNIC-MOTO korraldatavate Kurtna ( nüüd Tagadi ) restaureerijate päevade Soome analoog . </s> <s> Saadakse kokku , tsiklite ja automobiilide osad kaasas , vahetatakse ja müüakse - et iga vajalik vidin satuks just tolle kätte , kes seda otsib . </s> </p>
-<p> <s> Soome suurim ja vanim (tehnika)vanakraamiturg pakub ka muud täikakaupa nagu meilgi . </s> <s> Sündmuspaigaks on Kangasalal asuva Pikkola kooli maa-ala . </s> </p>
-<p> <s> Nüüd on põhjanaabrid märganud , et ainuüksi suveüritusest jääb väheks ning vajalike osade leidmise huvides peab aastas kokku saama ka teist korda . </s> <s> Parim aeg leiti selleks augustikuu viimasel laupäeval . </s> </p>
-<p> <s> Muuseumisõidukite hindamine on tegevus , milles Eestis astuti mullu alles esimesed sammud . </s> <s> Osalt seejuures Soomest malli võttes . </s> </p>
-<p> <s> <hi rend="bold"> Mujal vanasõiduk maksuta </hi> </s> </p>
-<p> <s> Harrastussõidukid jõuavad kogu maailmas museaalse väärtusega sõiduriistade sekka 25aastaseks saades . </s> </p>
-<p> <s> Restaureeritud või algupärases seisukorras säilitatud liiklusvahendid läbivad seejärel ekspertiisi ja saavad vastava tunnistuse - nüüd ka meil . </s> </p>
-<p> <s> Museaalse väärtusega sõiduk omab mujal maailmas õiguse saada sellele vastav kindlustus ning on vabastatud sõidukimaksust . </s> <s> Selle saavutamise võitlus on meil alles ees , sest ametnikkonnal on kombeks teha seadust oma äranägemise järgi . </s> </p>
-<p> <s> Näiteks vanasõiduki impordil rakendatava maksu kehtestamisel ei juhindutud Rahvusvahelise Vanasõidukiföderatsiooni klassifikatsioonist , vaid vaadati lakke . </s> <s> Rahandustegelase kommentaar seejuures kõlas kummalise mätta otsast : jaksasite sellise auto osta , miks siis nüüd maksu maksta ei jaksa . </s> </p></div0>
+<p>
+ <s> Tampere vanaautode klubi liikmed saavad kokku iga kuu esimesel kolmapäeval . </s>
+<s> Kohtumispaik on Restauranta - mõnus palkehitis Tampere lähedal Kangasala juures , põldude ja niitudega ümbritsetud Kirkkojärvi kaunil kaldal . </s> 
+</p>
+<p>
+ <s> Klubi keskuse nimi tuleb sõnadest " restaurointi " ( 'ennistamine' ) ja " järvenranta " . </s>
+<s> Kui ei olda Restaurantas , käiakse külas mõnes firmas või siis ollakse kambakesi mõne sõiduriista kallal . </s>
+<s> Ka klubi juht , energiline Aimo Lahti ei pelga käsi õliseks teha . </s> 
+</p>
+<p>
+ <s> Sellise ühistöö viljana taassündinud Timo-nimeline rohekat karva bussiiludus - aastast 1929 pärit liinibuss pärisnimega Diamond T Special - on saanud klubiürituste ehteks . </s> 
+</p>
+<p>
+ <s> Usun , et ka oma järge ootavad Soome vanim tuletõrjeauto Benz Gaggenau aastast 1922 , tuletõrjeauto Bedford ( 1959 ) , Chevrolet' veoauto ( 1946 ) ning väikebuss Goliath Express ( 1960 ) saavad ühisel nõul ja jõul ennistatud niisama heal tasemel . </s> 
+</p>
+<p>
+ <s> Restaurantapäevad juunikuu teisel nädalavahetusel on meie vanamootorrattaklubi UNIC-MOTO korraldatavate Kurtna ( nüüd Tagadi ) restaureerijate päevade Soome analoog . </s>
+<s> Saadakse kokku , tsiklite ja automobiilide osad kaasas , vahetatakse ja müüakse - et iga vajalik vidin satuks just tolle kätte , kes seda otsib . </s> 
+</p>
+<p>
+ <s> Soome suurim ja vanim (tehnika)vanakraamiturg pakub ka muud täikakaupa nagu meilgi . </s>
+<s> Sündmuspaigaks on Kangasalal asuva Pikkola kooli maa-ala . </s> 
+</p>
+<p>
+ <s> Nüüd on põhjanaabrid märganud , et ainuüksi suveüritusest jääb väheks ning vajalike osade leidmise huvides peab aastas kokku saama ka teist korda . </s>
+<s> Parim aeg leiti selleks augustikuu viimasel laupäeval . </s> 
+</p>
+<p>
+ <s> Muuseumisõidukite hindamine on tegevus , milles Eestis astuti mullu alles esimesed sammud . </s>
+<s> Osalt seejuures Soomest malli võttes . </s> 
+</p>
+<p>
+ <s> <hi rend="bold"> Mujal vanasõiduk maksuta </hi> </s> 
+</p>
+<p>
+ <s> Harrastussõidukid jõuavad kogu maailmas museaalse väärtusega sõiduriistade sekka 25aastaseks saades . </s> 
+</p>
+<p>
+ <s> Restaureeritud või algupärases seisukorras säilitatud liiklusvahendid läbivad seejärel ekspertiisi ja saavad vastava tunnistuse - nüüd ka meil . </s> 
+</p>
+<p>
+ <s> Museaalse väärtusega sõiduk omab mujal maailmas õiguse saada sellele vastav kindlustus ning on vabastatud sõidukimaksust . </s>
+<s> Selle saavutamise võitlus on meil alles ees , sest ametnikkonnal on kombeks teha seadust oma äranägemise järgi . </s> 
+</p>
+<p>
+ <s> Näiteks vanasõiduki impordil rakendatava maksu kehtestamisel ei juhindutud Rahvusvahelise Vanasõidukiföderatsiooni klassifikatsioonist , vaid vaadati lakke . </s>
+<s> Rahandustegelase kommentaar seejuures kõlas kummalise mätta otsast : jaksasite sellise auto osta , miks siis nüüd maksu maksta ei jaksa . </s> 
+</p>
+</div0>

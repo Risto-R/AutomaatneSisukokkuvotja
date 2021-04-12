@@ -1,0 +1,136 @@
+==================================================
+     aja_ml_2002_47.tasak.a028.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  [e1 Jagan ] nende arvamust , kes [e2 leiavad ] , et omavolilised ehitised [e3 tuleb ] [e4 lammutada ] .
+     e1 "Jagan"  INCLUDES  DCT 
+     e1 "Jagan"  VAGUE  e2 "leiavad" 
+     e1 "Jagan"  VAGUE  e5 "Olgu" 
+     e2 "leiavad"  INCLUDES  DCT 
+     e2 "leiavad"  INCLUDES  e4 "lammutada" 
+     e2 "leiavad"  VAGUE  e3 "tuleb" 
+     e3 "tuleb"  OVERLAP-OR-AFTER  DCT 
+     e3 "tuleb"  OVERLAP-OR-AFTER  e4 "lammutada" 
+     e4 "lammutada"  OVERLAP-OR-AFTER  DCT 
+
+ s2  [e5 Olgu ] need siis kuurid või luksusvillad .
+     e5 "Olgu"  VAGUE  DCT 
+     e5 "Olgu"  VAGUE  e7 "teki" 
+
+ s3  Kui üks selline on pealinna lähedal magusas kohas maha [e6 tõmmatud ] , ei [e7 teki ] enam teistel ka [e8 kiusatust ] seadust [e9 rikkuda ] .
+     e6 "tõmmatud"  AFTER  DCT 
+     e6 "tõmmatud"  BEFORE  e7 "teki" 
+     e7 "teki"  AFTER  DCT 
+     e7 "teki"  BEFORE-OR-OVERLAP  e8 "kiusatust" 
+     e7 "teki"  OVERLAP-OR-AFTER  e13 "usu" ka VAGUE
+     e7 "teki"  OVERLAP-OR-AFTER  e14 "näitab" ka VAGUE
+     e8 "kiusatust"  AFTER  DCT 
+     e8 "kiusatust"  BEFORE-OR-OVERLAP  e9 "rikkuda" 
+     e9 "rikkuda"  AFTER  DCT 
+
+ s4  Kui aga vallaametnike käsi ei ole [e10 tõusnud ] [e11 lammutuskäsku ] [e12 andma ] , siis ma ei [e13 usu ] eriti , et keskkonnainspektsioon [t2 nüüd ] suuremat innukust üles [e14 näitab ] .
+     e10 "tõusnud"  BEFORE-OR-OVERLAP  DCT 
+     e10 "tõusnud"  BEFORE-OR-OVERLAP  e12 "andma" 
+     e10 "tõusnud"  BEFORE  e13 "usu" 
+     e11 "lammutuskäsku"  VAGUE  DCT 
+     e11 "lammutuskäsku"  OVERLAP-OR-AFTER  e12 "andma" 
+     e12 "andma"  BEFORE-OR-OVERLAP  DCT 
+     e13 "usu"  INCLUDES  DCT 
+     e13 "usu"  BEFORE-OR-OVERLAP  e14 "näitab" 
+     e13 "usu"  AFTER  e15 "leidis" 
+     e13 "usu"  IS_INCLUDED  e17 "polegi õige" 
+     e14 "näitab"  IS_INCLUDED  t2 "nüüd" 
+     e14 "näitab"  OVERLAP-OR-AFTER  DCT 
+     e14 "näitab"  AFTER  e15 "leidis" 
+     e14 "näitab"  IS_INCLUDED  e17 "polegi õige" 
+
+ s5  Üks Saare maavalitsuse ametnik [e15 leidis ] , et omavoliliste ehitiste mahatõmbamise kohustust keskkonnainspektsioonile [e16 delegeerida ] [e17 polegi ] [e17 õige ] , sest planeerimis- ja ehitustegevuse järelevalve on [e18 pandud ] ikkagi omavalitsustele .
+     e15 "leidis"  BEFORE-OR-OVERLAP  DCT 
+     e15 "leidis"  IS_INCLUDED  e17 "polegi õige" 
+     e15 "leidis"  BEFORE-OR-OVERLAP  e20 "on kohustus" 
+     e16 "delegeerida"  VAGUE  DCT 
+     e16 "delegeerida"  VAGUE  e17 "polegi õige" 
+     e17 "polegi õige"  VAGUE  DCT 
+     e17 "polegi õige"  AFTER  e18 "pandud" 
+     e17 "polegi õige"  VAGUE  e20 "on kohustus" 
+     e18 "pandud"  BEFORE  DCT 
+
+ s6  Kui linna- või vallaametnik seadustest kinni ei [e19 pea ] , siis [e20 on ] rahva valitud volikogul [e20 kohustus ] see ametnik välja [e21 vahetada ] .
+     e19 "pea"  VAGUE  DCT 
+     e19 "pea"  BEFORE  e20 "on kohustus" 
+     e20 "on kohustus"  VAGUE  DCT 
+     e20 "on kohustus"  BEFORE  e21 "vahetada" 
+     e20 "on kohustus"  SIMULTANEOUS  e22 "teeb" 
+     e21 "vahetada"  VAGUE  DCT 
+
+ s7  Mida [e22 teeb ] aga rahvas ?
+     e22 "teeb"  VAGUE  DCT 
+     e22 "teeb"  SIMULTANEOUS  e23 "kirub" 
+     e22 "teeb"  SIMULTANEOUS  e24 "vingub" 
+
+ s8  Rahvas [e23 kirub ] ja [e24 vingub ] niisama nurga taga , kui kusagil midagi omatahtsi püsti [e25 pannakse ] , randu [e26 suletakse ] ja seega sellesama rahva üle [e27 irvitatakse ] .
+     e23 "kirub"  VAGUE  DCT 
+     e23 "kirub"  OVERLAP-OR-AFTER  e25 "pannakse" 
+     e23 "kirub"  SIMULTANEOUS  e24 "vingub" 
+     e23 "kirub"  IS_INCLUDED  e28 "ole kuulda" 
+     e24 "vingub"  VAGUE  DCT 
+     e24 "vingub"  OVERLAP-OR-AFTER  e25 "pannakse" 
+     e24 "vingub"  IS_INCLUDED  e28 "ole kuulda" 
+     e25 "pannakse"  VAGUE  DCT 
+     e25 "pannakse"  VAGUE  e26 "suletakse" 
+     e26 "suletakse"  VAGUE  DCT 
+     e26 "suletakse"  VAGUE  e27 "irvitatakse" 
+     e27 "irvitatakse"  VAGUE  DCT 
+
+ s9  Ei [e28 ole ] [e28 kuulda ] , et mõni vallaelanik oleks volikogult mõne ametniku [e29 vallandamist ] [e30 nõudnud ] .
+     e28 "ole kuulda"  BEFORE-OR-OVERLAP  DCT 
+     e28 "ole kuulda"  AFTER  e30 "nõudnud" 
+     e28 "ole kuulda"  VAGUE  e31 "tasuks" 
+     e29 "vallandamist"  VAGUE  DCT 
+     e29 "vallandamist"  OVERLAP-OR-AFTER  e30 "nõudnud" 
+     e30 "nõudnud"  BEFORE  DCT 
+
+ s10  Kindlasti ei [e31 tasuks ] ka ainult omavolitsejaid [e32 siunata ] .
+     e31 "tasuks"  VAGUE  DCT 
+     e31 "tasuks"  VAGUE  e32 "siunata" 
+     e31 "tasuks"  VAGUE  e37 "on õigus" 
+     e32 "siunata"  VAGUE  DCT 
+
+ s11  Kui ühele [e33 tehakse ] keskkonnaministeeriumis [e33 erand ] ja [e34 antakse ] [e35 luba ] randa [e36 ehitada ] , siis [e37 on ] [e37 õigus ] ka teisel sama erandit [e38 tahta ] .
+     e33 "tehakse erand"  VAGUE  DCT 
+     e33 "tehakse erand"  SIMULTANEOUS  e34 "antakse" 
+     e34 "antakse"  VAGUE  DCT 
+     e34 "antakse"  BEFORE-OR-OVERLAP  e35 "luba" 
+     e34 "antakse"  BEFORE  e37 "on õigus" 
+     e35 "luba"  VAGUE  DCT 
+     e35 "luba"  BEFORE-OR-OVERLAP  e36 "ehitada" 
+     e36 "ehitada"  VAGUE  DCT 
+     e37 "on õigus"  VAGUE  DCT 
+     e37 "on õigus"  SIMULTANEOUS  e38 "tahta" 
+     e37 "on õigus"  INCLUDES  e39 "räägivad" 
+     e37 "on õigus"  INCLUDES  e40 "ootavadki" 
+     e38 "tahta"  VAGUE  DCT 
+
+ s12  Hiiumaa keskkonnaametnikud [e39 räägivad ] , et araverelisemad ainult seda [e40 ootavadki ] , millal Kassari saare kaitsealal [e41 seadustatakse ] ühe ettevõtja omavoliliselt [e42 püstitatud ] suvila , et siis ka ise kopp maasse [e43 lüüa ] .
+     e39 "räägivad"  BEFORE-OR-OVERLAP  DCT 
+     e39 "räägivad"  IS_INCLUDED  e40 "ootavadki" 
+     e39 "räägivad"  IS_INCLUDED  e45 "annab lootust" 
+     e40 "ootavadki"  INCLUDES  DCT 
+     e40 "ootavadki"  BEFORE  e41 "seadustatakse" 
+     e40 "ootavadki"  IS_INCLUDED  e45 "annab lootust" 
+     e41 "seadustatakse"  AFTER  DCT 
+     e41 "seadustatakse"  AFTER  e42 "püstitatud" 
+     e41 "seadustatakse"  BEFORE-OR-OVERLAP  e43 "lüüa" 
+     e42 "püstitatud"  BEFORE  DCT 
+     e42 "püstitatud"  BEFORE  e43 "lüüa" 
+     e43 "lüüa"  AFTER  DCT 
+
+ s13  See , et minister Kranich ei [e44 vähendanud ] vandeadvokaat Kaasiku mereäärsel kinnistul ehituskeeluvööndit , [e45 annab ] lihtrahvale ehk natukegi [e45 lootust ] , et kõike ei [e46 määra ] raha .
+     e44 "vähendanud"  BEFORE  DCT 
+     e44 "vähendanud"  BEFORE-OR-OVERLAP  e45 "annab lootust" 
+     e45 "annab lootust"  INCLUDES  DCT 
+     e45 "annab lootust"  VAGUE  e46 "määra" 
+     e46 "määra"  INCLUDES  DCT 
+
+

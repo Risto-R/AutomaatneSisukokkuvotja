@@ -1,22 +1,79 @@
 <div0><head> Juhtus </head>
-<p> <s> Nooruk sai peksa ja jäi varast ilma </s> </p>
-<p> <s> Laupäeva õhtul kell 23 teatati politseisse , et raudteejaama lähedal pargis olid kolm noormeest Kastani bussipeatuses läinud kallale 17-aastase noorukile . </s> <s> Teda peksti ja võeti ära Nokia mobiiltelefon ning sadakond krooni . </s> </p>
-<p> <s> Mehelt võeti nahktagi </s> </p>
-<p> <s> Pühapäeva varahommikul kell 4 kutsuti politsei Riia mäele . </s> <s> Seal ühes ärihoovis olid noorelt mehelt ära võetud nahktagi ja käekell . </s> </p>
-<p> <s> Võõrad ronisid lastehaiglasse </s> </p>
-<p> <s> Pühapäeva hilisõhtul enne keskööd märkas Lunini tänava lastehaigla õde kahte meest läbi akna majja ronimas . </s> <s> Naine teavitas asjast ESS Lõuna turvameest , viimane omakorda politseid . </s> </p>
-<p> <s> Sissetungijad pistsid põgenema , kuid politsei sai nad kätte . </s> <s> Tabatud , 36-aastane Allan ja 39-aastane Vladimir , on politseile hästi tuntud . </s> </p>
-<p> <s> Tabati keskealine rattavaras </s> </p>
-<p> <s> Teisipäeval kell 15.44 kutsuti politsei Anne tänava viiekorruselise maja juurde : rattavaras on kätte saadud . </s> <s> Tabatu , 50-aastane mees , seletas , et oli näinud valveta ja lukustamata ratast seina ääres ning otsustanud selle oma keldrisse varaste eest varju viia . </s> </p>
-<p> <s> Naine leidis oma mehe poonuna </s> </p>
-<p> <s> Teisipäeval kell 16 leidis noor naine Luunja vallas Kavastu külas oma mehe poonuna . </s> <s> Võõra vägivalla märke polnud . </s> <s> Politsei pressiesindaja kinnitusel oli mees oma eluga ise hüvasti jätnud . </s> </p>
-<p> <s> Purjus juht rammis veokit </s> </p>
-<p> <s> Teisipäeval kell 18.20 kihutas joobnud 35-aastane Meelis Konksi oma Mazdaga Kaare tänavas seisnud MAZi veoki esiosa alla . </s> <s> Politsei pressiesindaja andmeil oli mees isegi pärast avariid vaielnud , et tema pole purjus . </s> <s> Politsei viis mehe arestimaja kainestuskambrisse välja magama . </s> </p>
-<p> <s> Asotsiaalid ründasid noorukit </s> </p>
-<p> <s> Teisipäeval kell 18.30 helistas bussijaamast politseisse 18-aastane nooruk ja ütles , et tema juurde olid tulnud kaks joobnud asotsiaali ning nõudnud raha . </s> <s> Ründajad võtsid ära suitsupaki , tikud ja helikasseti . </s> </p>
-<p> <s> Politsei sai ründajad koos äravõetud asjadega kätte . </s> <s> Asotsiaalid viidi enne karistuse määramist kainestuskambrisse välja magama . </s> </p>
-<p> <s> Vanemad ajasid lapse kodust välja </s> </p>
-<p> <s> Teisipäeval kell 19.14 viis noorsoopolitsei turvakodusse 10-aastase poisi , kes kurtis , et vanemad olid teda peksnud ja ta kodust välja ajanud . </s> <s> Asjaga tegeleb noorsoopolitsei . </s> </p>
-<p> <s> Pussitamine Roosi tänavas </s> </p>
-<p> <s> Eile öösel kell 1.31 kutsuti kiirabi Roosi tänava korterisse , kus oli pussitatud üht noormeest . </s> <s> Haavatu viidi traumapunkti . </s> <s> Politsei leidis korterist kolm noort meest ja ühe naise , selgus ka , kes oli noaga vehkinud . </s> </p>
-<p> <s> Siis aga teatati politseile , et ohver ei süüdista juhtunus kedagi . </s> </p></div0>
+<p>
+ <s> Nooruk sai peksa ja jäi varast ilma </s> 
+</p>
+<p>
+ <s> Laupäeva õhtul kell 23 teatati politseisse , et raudteejaama lähedal pargis olid kolm noormeest Kastani bussipeatuses läinud kallale 17-aastase noorukile . </s>
+<s> Teda peksti ja võeti ära Nokia mobiiltelefon ning sadakond krooni . </s> 
+</p>
+<p>
+ <s> Mehelt võeti nahktagi </s> 
+</p>
+<p>
+ <s> Pühapäeva varahommikul kell 4 kutsuti politsei Riia mäele . </s>
+<s> Seal ühes ärihoovis olid noorelt mehelt ära võetud nahktagi ja käekell . </s> 
+</p>
+<p>
+ <s> Võõrad ronisid lastehaiglasse </s> 
+</p>
+<p>
+ <s> Pühapäeva hilisõhtul enne keskööd märkas Lunini tänava lastehaigla õde kahte meest läbi akna majja ronimas . </s>
+<s> Naine teavitas asjast ESS Lõuna turvameest , viimane omakorda politseid . </s> 
+</p>
+<p>
+ <s> Sissetungijad pistsid põgenema , kuid politsei sai nad kätte . </s>
+<s> Tabatud , 36-aastane Allan ja 39-aastane Vladimir , on politseile hästi tuntud . </s> 
+</p>
+<p>
+ <s> Tabati keskealine rattavaras </s> 
+</p>
+<p>
+ <s> Teisipäeval kell 15.44 kutsuti politsei Anne tänava viiekorruselise maja juurde : rattavaras on kätte saadud . </s>
+<s> Tabatu , 50-aastane mees , seletas , et oli näinud valveta ja lukustamata ratast seina ääres ning otsustanud selle oma keldrisse varaste eest varju viia . </s> 
+</p>
+<p>
+ <s> Naine leidis oma mehe poonuna </s> 
+</p>
+<p>
+ <s> Teisipäeval kell 16 leidis noor naine Luunja vallas Kavastu külas oma mehe poonuna . </s>
+<s> Võõra vägivalla märke polnud . </s>
+<s> Politsei pressiesindaja kinnitusel oli mees oma eluga ise hüvasti jätnud . </s> 
+</p>
+<p>
+ <s> Purjus juht rammis veokit </s> 
+</p>
+<p>
+ <s> Teisipäeval kell 18.20 kihutas joobnud 35-aastane Meelis Konksi oma Mazdaga Kaare tänavas seisnud MAZi veoki esiosa alla . </s>
+<s> Politsei pressiesindaja andmeil oli mees isegi pärast avariid vaielnud , et tema pole purjus . </s>
+<s> Politsei viis mehe arestimaja kainestuskambrisse välja magama . </s> 
+</p>
+<p>
+ <s> Asotsiaalid ründasid noorukit </s> 
+</p>
+<p>
+ <s> Teisipäeval kell 18.30 helistas bussijaamast politseisse 18-aastane nooruk ja ütles , et tema juurde olid tulnud kaks joobnud asotsiaali ning nõudnud raha . </s>
+<s> Ründajad võtsid ära suitsupaki , tikud ja helikasseti . </s> 
+</p>
+<p>
+ <s> Politsei sai ründajad koos äravõetud asjadega kätte . </s>
+<s> Asotsiaalid viidi enne karistuse määramist kainestuskambrisse välja magama . </s> 
+</p>
+<p>
+ <s> Vanemad ajasid lapse kodust välja </s> 
+</p>
+<p>
+ <s> Teisipäeval kell 19.14 viis noorsoopolitsei turvakodusse 10-aastase poisi , kes kurtis , et vanemad olid teda peksnud ja ta kodust välja ajanud . </s>
+<s> Asjaga tegeleb noorsoopolitsei . </s> 
+</p>
+<p>
+ <s> Pussitamine Roosi tänavas </s> 
+</p>
+<p>
+ <s> Eile öösel kell 1.31 kutsuti kiirabi Roosi tänava korterisse , kus oli pussitatud üht noormeest . </s>
+<s> Haavatu viidi traumapunkti . </s>
+<s> Politsei leidis korterist kolm noort meest ja ühe naise , selgus ka , kes oli noaga vehkinud . </s> 
+</p>
+<p>
+ <s> Siis aga teatati politseile , et ohver ei süüdista juhtunus kedagi . </s> 
+</p>
+</div0>

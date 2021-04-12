@@ -1,0 +1,92 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a028.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Nobelistist kirjaniku Samuel Becketti nime [e1 seostatakse ] enamasti Iiri- või Prantsusmaaga .
+     e1 "seostatakse"  VAGUE  DCT 
+     e1 "seostatakse"  AFTER  e2 "veetis" 
+     e1 "seostatakse"  AFTER  e3 "pani kirja" 
+
+ s1  Iirimaal [e2 veetis ] ta suure osa oma elust ning prantsuse keeles [e3 pani ] ta esmalt [e3 kirja ] suure osa oma kirjatöödest .
+     e2 "veetis"  BEFORE  DCT 
+     e2 "veetis"  VAGUE  e3 "pani kirja" 
+     e2 "veetis"  BEFORE  e4 "teatakse" 
+     e3 "pani kirja"  BEFORE  DCT 
+     e3 "pani kirja"  BEFORE  e4 "teatakse" 
+
+ s2  Becketti põgusatest suhetest Saksamaaga [e4 teatakse ] aga teatriilmas vähe .
+     e4 "teatakse"  INCLUDES  DCT 
+     e4 "teatakse"  INCLUDES  e5 "võtsid nõuks" 
+     e4 "teatakse"  INCLUDES  e7 "korraldasid" 
+
+ s3  Sakslased [e5 võtsid ] [e5 nõuks ] seda viga [e6 parandada ] ning [e7 korraldasid ] Berliinis [t1 üle kahe nädala ] [e8 kestnud ] esimese rahvusvahelise [e9 Becketti-festivali ] .
+     e5 "võtsid nõuks"  BEFORE  DCT 
+     e5 "võtsid nõuks"  BEFORE  e6 "parandada" 
+     e5 "võtsid nõuks"  BEFORE  e7 "korraldasid" 
+     e5 "võtsid nõuks"  BEFORE  e12 "näidati" 
+     e6 "parandada"  BEFORE  DCT 
+     e7 "korraldasid"  BEFORE  DCT 
+     e7 "korraldasid"  BEFORE-OR-OVERLAP  e8 "kestnud" 
+     e7 "korraldasid"  BEFORE-OR-OVERLAP  e9 "Becketti-festivali" 
+     e7 "korraldasid"  BEFORE-OR-OVERLAP  e12 "näidati" 
+     e8 "kestnud"  SIMULTANEOUS  t1 "üle kahe nädala" 
+     e8 "kestnud"  BEFORE  DCT 
+     e8 "kestnud"  SIMULTANEOUS  e9 "Becketti-festivali" 
+     e9 "Becketti-festivali"  BEFORE  DCT 
+
+ s4  [t2 Pühapäeval ] [e10 lõppenud ] [e11 teatrifestivalil ] [e12 näidati ] umbes tosinat [e13 Becketti-lavastust ] , millest mõnedki [e14 etendusid ] üpris tavapäratutes paikades - näiteks endises Ida-Saksa riigipangas ja koguni vangimajas .
+     e10 "lõppenud"  IS_INCLUDED  t2 "Pühapäeval" 
+     e10 "lõppenud"  BEFORE  DCT 
+     e10 "lõppenud"  OVERLAP-OR-AFTER  e11 "teatrifestivalil" 
+     e11 "teatrifestivalil"  BEFORE  DCT 
+     e11 "teatrifestivalil"  INCLUDES  e12 "näidati" 
+     e12 "näidati"  BEFORE  DCT 
+     e12 "näidati"  INCLUDES  e14 "etendusid" 
+     e12 "näidati"  SIMULTANEOUS  e13 "Becketti-lavastust" 
+     e12 "näidati"  AFTER  e15 "oli" 
+     e13 "Becketti-lavastust"  BEFORE  DCT 
+     e13 "Becketti-lavastust"  INCLUDES  e14 "etendusid" 
+     e14 "etendusid"  BEFORE  DCT 
+
+ s5  Becketti elus [e15 oli ] kaks Berliini-perioodi .
+     e15 "oli"  BEFORE  DCT 
+     e15 "oli"  INCLUDES  e16 "veetis" 
+
+ s6  Esimest korda [e16 veetis ] ta seal [t3 kuus kuud ] [t4 [t5 aastail ] 1936-1937 ] , kui võim [e17 oli ] kindlalt juba natside kätes .
+     e16 "veetis"  IS_INCLUDED  t4 "aastail 1936-1937" 
+     e16 "veetis"  BEFORE  DCT 
+     e16 "veetis"  IS_INCLUDED  e17 "oli" 
+     e16 "veetis"  BEFORE  e18 "oli" 
+     e17 "oli"  BEFORE  DCT 
+
+ s7  Ja teist korda [t6 [t7 1960.-1970. ] aastatel ] , kui Lääne-Berliin [e18 oli ] - [t8 tolleaegse ] Iiri suursaadiku sõnu [e19 tarvitades ] - nagu saareke keset ükskõiksuse ja loiduse merd .
+     e18 "oli"  BEFORE  DCT 
+     e18 "oli"  BEFORE  e19 "tarvitades" 
+     e18 "oli"  AFTER  e21 "jõudis" 
+     e19 "tarvitades"  VAGUE  DCT 
+
+ s8  Becketti ilmselt kõige tuntum näidend " Godot'd oodates " , mis [e20 esietendus ] [t9 1953. aastal ] Pariisis , [e21 jõudis ] juba [t10 paari kuu ] möödudes Berliini lavadele , kus see suure menuga vastu [e22 võeti ] .
+     e20 "esietendus"  IS_INCLUDED  t9 "1953. aastal" 
+     e20 "esietendus"  BEFORE  DCT 
+     e20 "esietendus"  BEFORE  e21 "jõudis" 
+     e21 "jõudis"  AFTER  t10 "paari kuu" 
+     e21 "jõudis"  BEFORE  DCT 
+     e21 "jõudis"  BEFORE  e22 "võeti" 
+     e21 "jõudis"  BEFORE  e23 "mängiti" 
+     e22 "võeti"  BEFORE  DCT 
+
+ s9  Õige pea [e23 mängiti ] " Godot'd " aga juba ligi 40 teatris üle Saksamaa , kusjuures üheks mängupaigaks [e24 oli ] ka Wuppertali vangla .
+     e23 "mängiti"  BEFORE  DCT 
+     e23 "mängiti"  INCLUDES  e24 "oli" 
+     e23 "mängiti"  BEFORE  e26 "esitati" 
+     e24 "oli"  BEFORE  DCT 
+
+ s10  Ajaloolist paralleeli silmas [e25 pidades ] [e26 esitati ] [t11 nüüd ] Berliini [e27 teatrifestivalil ] kuulsa kirjaniku " Lõppmäng " just Tegeli lennujaama lähedale jäävas vangimajas .
+     e25 "pidades"  BEFORE  DCT 
+     e25 "pidades"  INCLUDES  e26 "esitati" 
+     e26 "esitati"  IS_INCLUDED  t11 "nüüd" 
+     e26 "esitati"  BEFORE  DCT 
+     e26 "esitati"  IS_INCLUDED  e27 "teatrifestivalil" 
+     e27 "teatrifestivalil"  BEFORE  DCT 
+
+

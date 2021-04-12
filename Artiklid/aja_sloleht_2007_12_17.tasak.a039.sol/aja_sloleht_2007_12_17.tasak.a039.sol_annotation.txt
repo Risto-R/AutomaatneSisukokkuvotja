@@ -1,0 +1,448 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a039.sol
+      DCT: 2007-12-17
+==================================================
+ s0  [t1 Jüripäeva hommikul ] [e1 ärkas ] kahe lapsega üksi kodus [e2 olnud ] Inga Sepp [e3 sünnitusvalu ] peale ning [e4 hakkas ] end haiglasse [e5 minekuks ] [e6 sättima ] . Juba [t2 tunni aja ] pärast [e7 tuli ] aga pisitütar [e7 ilmale ] .
+     e1 "ärkas"  IS_INCLUDED  t1 "Jüripäeva hommikul" 
+     e1 "ärkas"  BEFORE  DCT 
+     e1 "ärkas"  BEFORE  e4 "hakkas" 
+     e1 "ärkas"  BEFORE  e7 "tuli ilmale" 
+     e1 "ärkas"  IS_INCLUDED  e2 "olnud" 
+     e1 "ärkas"  IS_INCLUDED  e3 "sünnitusvalu" 
+     e1 "ärkas"  BEFORE  e10 "oli" 
+     e2 "olnud"  BEFORE  DCT 
+     e3 "sünnitusvalu"  BEFORE  DCT 
+     e4 "hakkas"  BEFORE  DCT 
+     e4 "hakkas"  BEFORE-OR-OVERLAP  e6 "sättima" 
+     e4 "hakkas"  BEFORE  e5 "minekuks" 
+     e4 "hakkas"  BEFORE  e7 "tuli ilmale" 
+     e4 "hakkas"  BEFORE  e10 "oli" 
+     e5 "minekuks"  BEFORE  DCT 
+     e5 "minekuks"  AFTER  e6 "sättima" 
+     e6 "sättima"  BEFORE  DCT 
+     e7 "tuli ilmale"  OVERLAP-OR-AFTER  t2 "tunni aja" 
+     e7 "tuli ilmale"  BEFORE  DCT 
+     e7 "tuli ilmale"  IS_INCLUDED  e10 "oli" 
+
+ s1  Ootamatult [e8 alanud ] [e9 kodusünnituse ] juures [e10 oli ] Inga suurimaks abiliseks [t3 12aastane ] poeg Timo Tomson .
+     e8 "alanud"  BEFORE  DCT 
+     e8 "alanud"  BEFORE-OR-OVERLAP  e9 "kodusünnituse" 
+     e9 "kodusünnituse"  BEFORE  DCT 
+     e9 "kodusünnituse"  INCLUDES  e10 "oli" 
+     e10 "oli"  BEFORE  DCT 
+     e10 "oli"  AFTER  e15 "nägin" 
+     e10 "oli"  BEFORE  e14 "vastab" 
+
+ s2  [e11 Küsimusele ] , kuidas küll poiss niisugusel erakordsel puhul [e12 tegutseda ] [e13 oskas ] , [e14 vastab ] noorsand krapsilt : " Filmis [e15 nägin ] ! "
+     e11 "Küsimusele"  BEFORE-OR-OVERLAP  DCT 
+     e11 "Küsimusele"  AFTER  e12 "tegutseda" 
+     e11 "Küsimusele"  BEFORE  e14 "vastab" 
+     e12 "tegutseda"  BEFORE  DCT 
+     e12 "tegutseda"  SIMULTANEOUS  e13 "oskas" 
+     e13 "oskas"  BEFORE  DCT 
+     e13 "oskas"  BEFORE  e14 "vastab" 
+     e14 "vastab"  BEFORE-OR-OVERLAP  DCT 
+     e14 "vastab"  AFTER  e15 "nägin" 
+     e14 "vastab"  AFTER  e17 "äratasid" 
+     e15 "nägin"  BEFORE  DCT 
+     e15 "nägin"  BEFORE  e17 "äratasid" 
+
+ s3  Sel ekstreemseks [e16 kujunenud ] [t4 kevadise esmaspäeva varahommikul ] [e17 äratasid ] Inga Sepa [e18 sünnitusvalud ] .
+     e16 "kujunenud"  BEFORE  DCT 
+     e16 "kujunenud"  INCLUDES  e17 "äratasid" 
+     e17 "äratasid"  IS_INCLUDED  t4 "kevadise esmaspäeva varahommikul" 
+     e17 "äratasid"  BEFORE  DCT 
+     e17 "äratasid"  IS_INCLUDED  e18 "sünnitusvalud" 
+     e17 "äratasid"  BEFORE-OR-OVERLAP  e19 "oli" 
+     e17 "äratasid"  BEFORE  e22 "meenutab" 
+     e18 "sünnitusvalud"  BEFORE  DCT 
+
+ s4  " Kell [e19 oli ] [t5 4.45 ] , kui kogu see meie [e20 sünnitusetrall ] peale [e21 hakkas ] , " [e22 meenutab ] [t6 nüüd ] juba kolme lapse ema .
+     e19 "oli"  SIMULTANEOUS  t5 "4.45" 
+     e19 "oli"  BEFORE  DCT 
+     e19 "oli"  BEFORE-OR-OVERLAP  e20 "sünnitusetrall" 
+     e19 "oli"  BEFORE  e22 "meenutab" 
+     e19 "oli"  SIMULTANEOUS  e21 "hakkas" 
+     e19 "oli"  IS_INCLUDED  e24 "aega on" 
+     e19 "oli"  SIMULTANEOUS  e23 "Mõtlesin" 
+     e20 "sünnitusetrall"  BEFORE  DCT 
+     e20 "sünnitusetrall"  OVERLAP-OR-AFTER  e21 "hakkas" 
+     e21 "hakkas"  BEFORE  DCT 
+     e22 "meenutab"  IS_INCLUDED  t6 "nüüd" 
+     e22 "meenutab"  BEFORE-OR-OVERLAP  DCT 
+     e22 "meenutab"  AFTER  e23 "Mõtlesin" 
+     e22 "meenutab"  AFTER  e24 "aega on" 
+
+ s5  " [e23 Mõtlesin ] , et [e24 aega ] [e24 on ] küll ja küll . "
+     e23 "Mõtlesin"  BEFORE  DCT 
+     e23 "Mõtlesin"  IS_INCLUDED  e24 "aega on" 
+     e23 "Mõtlesin"  BEFORE  e25 "äratas" 
+     e23 "Mõtlesin"  BEFORE  e26 "palus" 
+     e23 "Mõtlesin"  BEFORE  e27 "oleks" 
+     e24 "aega on"  BEFORE  DCT 
+     e24 "aega on"  BEFORE-OR-OVERLAP  e27 "oleks" 
+     e24 "aega on"  INCLUDES  e25 "äratas" 
+     e24 "aega on"  INCLUDES  e26 "palus" 
+
+ s6  Ta [e25 äratas ] Timo üles ja [e26 palus ] , et poeg kaheaastase õe juures [e27 oleks ] - emme [e28 läheb ] haiglasse [e29 sünnitama ] .
+     e25 "äratas"  BEFORE  DCT 
+     e25 "äratas"  BEFORE  e26 "palus" 
+     e25 "äratas"  BEFORE  e28 "läheb" 
+     e25 "äratas"  BEFORE  e30 "jõudis" 
+     e25 "äratas"  BEFORE  e32 "läksid" 
+     e26 "palus"  BEFORE  DCT 
+     e26 "palus"  BEFORE  e27 "oleks" 
+     e26 "palus"  BEFORE  e28 "läheb" 
+     e26 "palus"  BEFORE  e30 "jõudis" 
+     e26 "palus"  BEFORE  e32 "läksid" 
+     e27 "oleks"  BEFORE  DCT 
+     e27 "oleks"  INCLUDES  e28 "läheb" 
+     e27 "oleks"  VAGUE  e30 "jõudis" ka OVERLAP-OR-AFTER
+     e27 "oleks"  VAGUE  e32 "läksid" ka OVERLAP-OR-AFTER
+     e28 "läheb"  BEFORE  DCT 
+     e28 "läheb"  BEFORE  e29 "sünnitama" 
+     e29 "sünnitama"  BEFORE  DCT 
+
+ s7  Veel [e30 jõudis ] Inga [e31 helistada ] kiirabisse ja abikaasale Soome , kuid siis [e32 läksid ] [e33 valud ] tihedamaks . "
+     e30 "jõudis"  BEFORE  DCT 
+     e30 "jõudis"  BEFORE  e32 "läksid" 
+     e30 "jõudis"  SIMULTANEOUS  e31 "helistada" ka VAGUE
+     e30 "jõudis"  BEFORE  e34 "valu oli" 
+     e30 "jõudis"  BEFORE  e35 "mõtlesin" 
+     e30 "jõudis"  BEFORE  e37 "muigab" 
+     e31 "helistada"  BEFORE  DCT 
+     e31 "helistada"  BEFORE  e32 "läksid" 
+     e32 "läksid"  BEFORE  DCT 
+     e32 "läksid"  IS_INCLUDED  e33 "valud" 
+     e32 "läksid"  BEFORE  e34 "valu oli" 
+     e32 "läksid"  BEFORE  e35 "mõtlesin" 
+     e32 "läksid"  BEFORE  e37 "muigab" 
+     e33 "valud"  BEFORE  DCT 
+
+ s8  Kolmas [e34 valu ] [e34 oli ] [t7 viie minuti pärast ] ja [e35 mõtlesin ] , et oi , [e36 läheb ] kiireks ! " [e37 muigab ] Inga .
+     e34 "valu oli"  SIMULTANEOUS  t7 "viie minuti pärast" 
+     e34 "valu oli"  BEFORE  DCT 
+     e34 "valu oli"  BEFORE-OR-OVERLAP  e35 "mõtlesin" 
+     e34 "valu oli"  BEFORE  e37 "muigab" 
+     e34 "valu oli"  BEFORE  e38 "läkski" 
+     e35 "mõtlesin"  BEFORE  DCT 
+     e35 "mõtlesin"  BEFORE  e36 "läheb" 
+     e35 "mõtlesin"  BEFORE  e38 "läkski" 
+     e36 "läheb"  BEFORE  DCT 
+     e36 "läheb"  BEFORE  e37 "muigab" 
+     e37 "muigab"  BEFORE-OR-OVERLAP  DCT 
+     e37 "muigab"  AFTER  e38 "läkski" 
+
+ s9  Kiireks [e38 läkski ] .
+     e38 "läkski"  BEFORE  DCT 
+     e38 "läkski"  BEFORE-OR-OVERLAP  e39 "jõudnudki" 
+     e38 "läkski"  BEFORE-OR-OVERLAP  e40 "suutnud" 
+
+ s10  Nii kiireks , et haiglasse ta ei [e39 jõudnudki ] ja ka kiirabi ei [e40 suutnud ] nii kärmelt [e41 tulla ] , kui pisike Birgit end juba maailma [e42 pressis ] . "
+     e39 "jõudnudki"  BEFORE  DCT 
+     e39 "jõudnudki"  BEFORE  e42 "pressis" 
+     e39 "jõudnudki"  VAGUE  e40 "suutnud" 
+     e39 "jõudnudki"  BEFORE  e43 "sündis" 
+     e39 "jõudnudki"  BEFORE  e46 "räägib" 
+     e39 "jõudnudki"  IS_INCLUDED  e45 "võttis aega" 
+     e40 "suutnud"  BEFORE  DCT 
+     e40 "suutnud"  BEFORE  e42 "pressis" 
+     e40 "suutnud"  VAGUE  e41 "tulla" 
+     e40 "suutnud"  BEFORE  e43 "sündis" 
+     e40 "suutnud"  BEFORE  e46 "räägib" 
+     e40 "suutnud"  IS_INCLUDED  e45 "võttis aega" 
+     e41 "tulla"  BEFORE  DCT 
+     e41 "tulla"  BEFORE  e42 "pressis" 
+     e42 "pressis"  BEFORE  DCT 
+
+ s11  Laps [e43 sündis ] [t8 5.35 ] , kogu see [e44 trall ] [e45 võttis ] [e45 aega ] [t9 45 minutit ] , " [e46 räägib ] ema . "
+     e43 "sündis"  SIMULTANEOUS  t8 "5.35" 
+     e43 "sündis"  BEFORE  DCT 
+     e43 "sündis"  BEFORE  e46 "räägib" 
+     e43 "sündis"  OVERLAP-OR-AFTER  e44 "trall" 
+     e43 "sündis"  OVERLAP-OR-AFTER  e45 "võttis aega" 
+     e43 "sündis"  OVERLAP-OR-AFTER  e47 "oli kiire" 
+     e44 "trall"  BEFORE  DCT 
+     e44 "trall"  SIMULTANEOUS  e45 "võttis aega" 
+     e45 "võttis aega"  SIMULTANEOUS  t9 "45 minutit" 
+     e45 "võttis aega"  BEFORE  DCT 
+     e45 "võttis aega"  BEFORE  e46 "räägib" 
+     e45 "võttis aega"  SIMULTANEOUS  e47 "oli kiire" 
+     e46 "räägib"  BEFORE-OR-OVERLAP  DCT 
+     e46 "räägib"  AFTER  e47 "oli kiire" 
+
+ s12  See [e47 oli ] väga [e47 kiire ] ja minule [e48 üllatus ] , lastest [e49 rääkimata ] . "
+     e47 "oli kiire"  BEFORE  DCT 
+     e47 "oli kiire"  SIMULTANEOUS  e48 "üllatus" 
+     e47 "oli kiire"  VAGUE  e49 "rääkimata" 
+     e47 "oli kiire"  INCLUDES  e50 "saanud" 
+     e48 "üllatus"  BEFORE  DCT 
+     e48 "üllatus"  VAGUE  e49 "rääkimata" 
+     e49 "rääkimata"  VAGUE  DCT 
+
+ s13  Ei [e50 saanud ] riideid seljast
+     e50 "saanud"  BEFORE  DCT 
+     e50 "saanud"  IS_INCLUDED  e51 "näitas" ka VAGUE
+
+ s14  [t10 Praegu ] [t11 13aastane ] Timo aga [e51 näitas ] üles vaprust , südikust ja asjalikkust .
+     e51 "näitas"  BEFORE  DCT 
+     e51 "näitas"  INCLUDES  e52 "kukkus" 
+
+ s15  Nimelt [e52 kukkus ] kiirustades [e53 sündinud ] pisibeebi , pea ees , põrandale .
+     e52 "kukkus"  BEFORE  DCT 
+     e52 "kukkus"  AFTER  e53 "sündinud" 
+     e52 "kukkus"  AFTER  e54 "jõudnud" 
+     e52 "kukkus"  AFTER  e56 "oli tegemist" 
+     e52 "kukkus"  BEFORE  e58 "muigab" 
+     e53 "sündinud"  BEFORE  DCT 
+
+ s16  " Ma ei [e54 jõudnud ] end diivanile [e55 tõmmata ] nii kiiresti , [e56 oli ] [e56 tegemist ] , et [e57 saaks ] riided seljast , " [e58 muigab ] ema . "
+     e54 "jõudnud"  BEFORE  DCT 
+     e54 "jõudnud"  BEFORE-OR-OVERLAP  e55 "tõmmata" 
+     e54 "jõudnud"  BEFORE  e58 "muigab" 
+     e54 "jõudnud"  SIMULTANEOUS  e56 "oli tegemist" 
+     e54 "jõudnud"  IS_INCLUDED  e59 "oli tragikoomiline" 
+     e55 "tõmmata"  BEFORE  DCT 
+     e55 "tõmmata"  BEFORE  e58 "muigab" 
+     e55 "tõmmata"  VAGUE  e56 "oli tegemist" 
+     e56 "oli tegemist"  BEFORE  DCT 
+     e56 "oli tegemist"  BEFORE-OR-OVERLAP  e57 "saaks" 
+     e56 "oli tegemist"  BEFORE  e58 "muigab" 
+     e56 "oli tegemist"  IS_INCLUDED  e59 "oli tragikoomiline" 
+     e57 "saaks"  BEFORE  DCT 
+     e58 "muigab"  BEFORE-OR-OVERLAP  DCT 
+     e58 "muigab"  AFTER  e59 "oli tragikoomiline" 
+
+ s17  Tagantjärele [e59 oli ] see kõik tõesti natuke [e59 tragikoomiline ] .
+     e59 "oli tragikoomiline"  BEFORE  DCT 
+     e59 "oli tragikoomiline"  BEFORE  e63 "räägib" 
+     e59 "oli tragikoomiline"  INCLUDES  e60 "jõudsin" 
+
+ s18  Ma [e60 jõudsin ] veel [e61 mõelda ] : kuidas ma ta sealt kätte [e62 saan ] ? " [e63 räägib ] Inga .
+     e60 "jõudsin"  BEFORE  DCT 
+     e60 "jõudsin"  BEFORE-OR-OVERLAP  e61 "mõelda" 
+     e60 "jõudsin"  BEFORE  e63 "räägib" 
+     e60 "jõudsin"  BEFORE  e66 "oli platsis" 
+     e60 "jõudsin"  BEFORE  e67 "mässis" 
+     e60 "jõudsin"  BEFORE  e68 "ulatas" 
+     e61 "mõelda"  BEFORE  DCT 
+     e61 "mõelda"  BEFORE  e62 "saan" 
+     e62 "saan"  BEFORE  DCT 
+     e62 "saan"  BEFORE  e63 "räägib" 
+     e63 "räägib"  BEFORE-OR-OVERLAP  DCT 
+     e63 "räägib"  AFTER  e66 "oli platsis" 
+     e63 "räägib"  AFTER  e67 "mässis" 
+     e63 "räägib"  AFTER  e68 "ulatas" 
+
+ s19  Aga enne , kui ta midagi [e64 teha ] [e65 jõudis ] , [e66 oli ] Timo käterätikuga [e66 platsis ] , [e67 mässis ] tita riidesse ning [e68 ulatas ] [e69 üllatunud ] emale .
+     e64 "teha"  BEFORE  DCT 
+     e64 "teha"  OVERLAP-OR-AFTER  e65 "jõudis" 
+     e65 "jõudis"  BEFORE  DCT 
+     e65 "jõudis"  VAGUE  e66 "oli platsis" 
+     e66 "oli platsis"  BEFORE  DCT 
+     e66 "oli platsis"  BEFORE  e67 "mässis" 
+     e66 "oli platsis"  BEFORE  e70 "lõikas" 
+     e67 "mässis"  BEFORE  DCT 
+     e67 "mässis"  BEFORE  e68 "ulatas" 
+     e67 "mässis"  BEFORE  e70 "lõikas" 
+     e68 "ulatas"  BEFORE  DCT 
+     e68 "ulatas"  IS_INCLUDED  e69 "üllatunud" 
+     e68 "ulatas"  BEFORE  e70 "lõikas" 
+     e69 "üllatunud"  BEFORE  DCT 
+
+ s20  Nabanööri [e70 lõikas ] läbi juba kiirabi . "
+     e70 "lõikas"  BEFORE  DCT 
+     e70 "lõikas"  BEFORE  e74 "kiidab" 
+     e70 "lõikas"  IS_INCLUDED  e71 "oli julge" 
+     e70 "lõikas"  IS_INCLUDED  e72 "kartnud" 
+
+ s21  Timo [e71 oli ] väga [e71 julge ] , ei [e72 kartnud ] mitte midagi [e73 sünnitusega ] seonduvat , " [e74 kiidab ] uhke ema .
+     e71 "oli julge"  BEFORE  DCT 
+     e71 "oli julge"  BEFORE  e74 "kiidab" 
+     e71 "oli julge"  SIMULTANEOUS  e72 "kartnud" 
+     e71 "oli julge"  SIMULTANEOUS  e75 "võtsid" 
+     e72 "kartnud"  BEFORE  DCT 
+     e72 "kartnud"  BEFORE  e74 "kiidab" 
+     e72 "kartnud"  IS_INCLUDED  e73 "sünnitusega" 
+     e72 "kartnud"  SIMULTANEOUS  e75 "võtsid" 
+     e73 "sünnitusega"  BEFORE  DCT 
+     e73 "sünnitusega"  BEFORE  e74 "kiidab" 
+     e74 "kiidab"  BEFORE-OR-OVERLAP  DCT 
+     e74 "kiidab"  AFTER  e75 "võtsid" 
+
+ s22  Nii et , Timo , sa [e75 võtsid ] asja rahulikult ?
+     e75 "võtsid"  BEFORE  DCT 
+     e75 "võtsid"  OVERLAP-OR-AFTER  e76 "hakkas" 
+     e75 "võtsid"  OVERLAP-OR-AFTER  e77 "sünnitama" 
+     e75 "võtsid"  SIMULTANEOUS  e78 "olgu" 
+
+ s23  Et ema [e76 hakkas ] [e77 sünnitama ] - [e78 olgu ] siis , mis seal ikka ? "
+     e76 "hakkas"  BEFORE  DCT 
+     e76 "hakkas"  BEFORE-OR-OVERLAP  e77 "sünnitama" 
+     e76 "hakkas"  BEFORE-OR-OVERLAP  e78 "olgu" 
+     e76 "hakkas"  BEFORE  e79 "kostab" 
+     e77 "sünnitama"  BEFORE  DCT 
+     e77 "sünnitama"  BEFORE-OR-OVERLAP  e78 "olgu" 
+     e77 "sünnitama"  BEFORE  e79 "kostab" 
+     e78 "olgu"  VAGUE  DCT 
+     e78 "olgu"  BEFORE  e79 "kostab" 
+
+ s24  Mitte päris niimoodi ikka , " [e79 kostab ] päevakangelane . "
+     e79 "kostab"  BEFORE-OR-OVERLAP  DCT 
+     e79 "kostab"  AFTER  e80 "hirm oli" 
+
+ s25  Väike [e80 hirm ] [e80 oli ] ka .
+     e80 "hirm oli"  BEFORE  DCT 
+     e80 "hirm oli"  INCLUDES  e82 "kukkus" 
+     e80 "hirm oli"  IS_INCLUDED  e83 "on väike" 
+
+ s26  Mitte sellepärast , et [e81 juhtus ] midagi jubedat , aga just lapse pärast --- ta [e82 kukkus ] ikkagi , pea ees , ja ta [e83 on ] nii [e83 väike ] . "
+     e81 "juhtus"  BEFORE  DCT 
+     e81 "juhtus"  BEFORE  e82 "kukkus" 
+     e82 "kukkus"  BEFORE  DCT 
+     e82 "kukkus"  IS_INCLUDED  e83 "on väike" 
+     e82 "kukkus"  AFTER  e86 "sai" 
+     e83 "on väike"  BEFORE  DCT 
+     e83 "on väike"  VAGUE  e86 "sai" 
+
+ s27  [e84 Mõtte ] laps rätti [e85 mähkida ] [e86 sai ] Timo aga televiisorist .
+     e84 "Mõtte"  BEFORE  DCT 
+     e84 "Mõtte"  BEFORE  e85 "mähkida" 
+     e84 "Mõtte"  OVERLAP-OR-AFTER  e86 "sai" 
+     e85 "mähkida"  BEFORE  DCT 
+     e85 "mähkida"  AFTER  e86 "sai" 
+     e86 "sai"  BEFORE  DCT 
+     e86 "sai"  IS_INCLUDED  e87 "Näitavad" ka OVERLAP-OR-AFTER
+
+ s28  [e87 Näitavad ] ju nii paljud sarjad ja filmid , kuidas beebi pärast [e88 sündi ] kenasti riidesse pakitult ema rinnale [e89 pannakse ] .
+     e87 "Näitavad"  VAGUE  DCT 
+     e87 "Näitavad"  INCLUDES  e88 "sündi" 
+     e87 "Näitavad"  INCLUDES  e89 "pannakse" 
+     e87 "Näitavad"  INCLUDES  e91 "on korras" 
+     e88 "sündi"  VAGUE  DCT 
+     e88 "sündi"  BEFORE  e89 "pannakse" 
+     e89 "pannakse"  VAGUE  DCT 
+
+ s29  Hoolimata sellest , et pisike Birgit õnnetul kombel põrandale [e90 kukkus ] , [e91 on ] tema tervisega siiski kõik [e91 korras ] .
+     e90 "kukkus"  BEFORE  DCT 
+     e90 "kukkus"  BEFORE  e91 "on korras" 
+     e91 "on korras"  INCLUDES  DCT 
+     e91 "on korras"  INCLUDES  e93 "tehti" 
+     e91 "on korras"  INCLUDES  e94 "näidanud" 
+
+ s30  Viimased [e92 ultraheliuuringud ] [e93 tehti ] [t12 ülemöödunud nädalal ] ning need midagi halba ei [e94 näidanud ] . "
+     e92 "ultraheliuuringud"  BEFORE  DCT 
+     e92 "ultraheliuuringud"  SIMULTANEOUS  e93 "tehti" 
+     e93 "tehti"  IS_INCLUDED  t12 "ülemöödunud nädalal" 
+     e93 "tehti"  BEFORE  DCT 
+     e93 "tehti"  INCLUDES  e94 "näidanud" 
+     e93 "tehti"  BEFORE  e99 "ütleb" 
+     e93 "tehti"  IS_INCLUDED  e95 "oli" 
+     e93 "tehti"  IS_INCLUDED  e98 "said tehtud" 
+     e94 "näidanud"  BEFORE  DCT 
+     e94 "näidanud"  BEFORE  e99 "ütleb" 
+
+ s31  Neuroloog [e95 oli ] meie looga algusest peale [e96 kursis ] ja kõik [e97 kontrollid ] [e98 said ] ära [e98 tehtud ] , " [e99 ütleb ] Inga .
+     e95 "oli"  BEFORE  DCT 
+     e95 "oli"  BEFORE  e99 "ütleb" 
+     e95 "oli"  INCLUDES  e98 "said tehtud" 
+     e95 "oli"  VAGUE  e96 "kursis" 
+     e95 "oli"  VAGUE  e100 "esitas" 
+     e95 "oli"  VAGUE  e104 "avastas" 
+     e96 "kursis"  BEFORE  DCT 
+     e96 "kursis"  INCLUDES  e97 "kontrollid" 
+     e96 "kursis"  INCLUDES  e98 "said tehtud" 
+     e97 "kontrollid"  BEFORE  DCT 
+     e97 "kontrollid"  BEFORE-OR-OVERLAP  e98 "said tehtud" 
+     e98 "said tehtud"  BEFORE  DCT 
+     e98 "said tehtud"  BEFORE  e99 "ütleb" 
+     e98 "said tehtud"  VAGUE  e100 "esitas" 
+     e98 "said tehtud"  VAGUE  e104 "avastas" 
+     e99 "ütleb"  BEFORE-OR-OVERLAP  DCT 
+     e99 "ütleb"  AFTER  e100 "esitas" 
+     e99 "ütleb"  AFTER  e104 "avastas" 
+
+ s32  Auhind vapruse eest
+ s33  Ema aga [e100 esitas ] Timo tema vapra [e101 käitumise ] eest " Eestimaa uhkuse " auhinna [e102 kandidaadiks ] ning [t13 ühel päeval ] e-kirju [e103 lugedes ] [e104 avastas ] , et poeg ongi välja [e105 valitud ] .
+     e100 "esitas"  BEFORE  DCT 
+     e100 "esitas"  AFTER  e101 "käitumise" 
+     e100 "esitas"  BEFORE-OR-OVERLAP  e102 "kandidaadiks" 
+     e100 "esitas"  BEFORE  e104 "avastas" 
+     e100 "esitas"  BEFORE  e110 "tuli" 
+     e101 "käitumise"  BEFORE  DCT 
+     e101 "käitumise"  BEFORE  e102 "kandidaadiks" 
+     e102 "kandidaadiks"  BEFORE  DCT 
+     e103 "lugedes"  IS_INCLUDED  t13 "ühel päeval" 
+     e103 "lugedes"  BEFORE  DCT 
+     e103 "lugedes"  INCLUDES  e104 "avastas" 
+     e104 "avastas"  BEFORE  DCT 
+     e104 "avastas"  AFTER  e105 "valitud" 
+     e104 "avastas"  SIMULTANEOUS  e110 "tuli" 
+     e105 "valitud"  BEFORE  DCT 
+
+ s34  [e106 Selge ] see , et poisi [e107 kangelastegu ] [e108 hindavad ] kodused elu lõpuni , kuid et ka laiem avalikkus tema söakust [e109 tunnustab ] , [e110 tuli ] meeldiva üllatusena . "
+     e106 "Selge"  INCLUDES  DCT 
+     e106 "Selge"  AFTER  e107 "kangelastegu" 
+     e106 "Selge"  INCLUDES  e108 "hindavad" 
+     e107 "kangelastegu"  BEFORE  DCT 
+     e107 "kangelastegu"  BEFORE  e108 "hindavad" 
+     e108 "hindavad"  INCLUDES  DCT 
+     e108 "hindavad"  INCLUDES  e109 "tunnustab" 
+     e108 "hindavad"  INCLUDES  e110 "tuli" 
+     e109 "tunnustab"  INCLUDES  DCT 
+     e109 "tunnustab"  INCLUDES  e110 "tuli" 
+     e110 "tuli"  BEFORE  DCT 
+     e110 "tuli"  AFTER  e113 "võitnud" 
+     e110 "tuli"  BEFORE  e114 "ütleb" 
+
+ s35  Kui me tavaliselt kuhugi [e111 kandideerime ] või [e112 saadame ] , pole me midagi [e113 võitnud ] , " [e114 ütleb ] Timo isegi .
+     e111 "kandideerime"  VAGUE  DCT 
+     e111 "kandideerime"  BEFORE  e113 "võitnud" 
+     e111 "kandideerime"  VAGUE  e112 "saadame" 
+     e112 "saadame"  VAGUE  DCT 
+     e112 "saadame"  BEFORE  e113 "võitnud" 
+     e113 "võitnud"  BEFORE  DCT 
+     e113 "võitnud"  BEFORE  e114 "ütleb" 
+     e113 "võitnud"  BEFORE  e115 "on" 
+     e114 "ütleb"  BEFORE-OR-OVERLAP  DCT 
+     e114 "ütleb"  IS_INCLUDED  e115 "on" 
+
+ s36  [t14 Nüüd ] [e115 on ] tal aga peen klaasist auhind .
+     e115 "on"  SIMULTANEOUS  t14 "Nüüd" 
+     e115 "on"  INCLUDES  DCT 
+     e115 "on"  INCLUDES  e116 "valitud" 
+
+ s37  Kas on juba ka koht välja [e116 valitud ] , kuhu see [e117 panna ] ? "
+     e116 "valitud"  BEFORE-OR-OVERLAP  DCT 
+     e116 "valitud"  BEFORE  e117 "panna" 
+     e116 "valitud"  BEFORE  e118 "Paneme" 
+     e116 "valitud"  BEFORE  e119 "arvab" 
+     e117 "panna"  OVERLAP-OR-AFTER  DCT 
+
+ s38  [e118 Paneme ] suurde tuppa riiuli peale , " [e119 arvab ] Timo . "
+     e118 "Paneme"  OVERLAP-OR-AFTER  DCT 
+     e118 "Paneme"  AFTER  e119 "arvab" 
+     e118 "Paneme"  BEFORE  e120 "näevad" 
+     e119 "arvab"  BEFORE-OR-OVERLAP  DCT 
+     e119 "arvab"  BEFORE  e120 "näevad" 
+
+ s39  Teleka kohale !
+ s40  Siis kõik [e120 näevad ] seda , kui telekat [e121 vaatavad ] ! "
+     e120 "näevad"  OVERLAP-OR-AFTER  DCT 
+     e120 "näevad"  SIMULTANEOUS  e121 "vaatavad" 
+     e120 "näevad"  AFTER  e122 "naeratab" 
+     e120 "näevad"  AFTER  e123 "arvan" 
+     e121 "vaatavad"  OVERLAP-OR-AFTER  DCT 
+
+ s41  Uhke ema [e122 naeratab ] : " Ma [e123 arvan ] , et me [e124 leiame ] sellele auväärse koha , et kõik [e125 näeks ] - meil [e126 on ] peres Eestimaa uhkus ! "
+     e122 "naeratab"  BEFORE-OR-OVERLAP  DCT 
+     e122 "naeratab"  IS_INCLUDED  e123 "arvan" 
+     e123 "arvan"  INCLUDES  DCT 
+     e123 "arvan"  INCLUDES  e124 "leiame" 
+     e124 "leiame"  OVERLAP-OR-AFTER  DCT 
+     e124 "leiame"  BEFORE-OR-OVERLAP  e125 "näeks" 
+     e125 "näeks"  OVERLAP-OR-AFTER  DCT 
+     e125 "näeks"  IS_INCLUDED  e126 "on" 
+     e126 "on"  INCLUDES  DCT 
+
+

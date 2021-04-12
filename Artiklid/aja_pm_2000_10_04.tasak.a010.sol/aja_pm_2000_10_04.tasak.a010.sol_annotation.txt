@@ -1,0 +1,197 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a010.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Ehitusettevõtja Rašid Šabanov , kes [e1 kavatseb ] 2000 dollariga taskus [e2 seigelda ] Austraaliasse ja tagasi , [e3 otsib ] endale reisikaaslasi .
+     e1 "kavatseb"  INCLUDES  DCT 
+     e1 "kavatseb"  INCLUDES  e2 "seigelda" 
+     e1 "kavatseb"  INCLUDES  e3 "otsib" 
+     e2 "seigelda"  AFTER  DCT 
+     e2 "seigelda"  AFTER  e3 "otsib" 
+     e3 "otsib"  INCLUDES  DCT 
+     e3 "otsib"  SIMULTANEOUS  e5 "soovib" 
+
+ s1  Rõõmsameelne Šabanov , kelle firma Alpin Grupp [e4 remondib ] kõrgeid ehitisi , kirikutorne ja korstnaid , [e5 soovib ] Tartust [e6 teele ] [e6 asuda ] [t1 oktoobri lõpus ] ning [e7 kulgeda ] [e8 hääletades ] ja õnnele [e9 lootes ] läbi Venemaa , Turkmeenia , Iraani , Pakistani , India ja Indoneesia rohelisele mandrile - Austraaliasse .
+     e4 "remondib"  INCLUDES  DCT 
+     e4 "remondib"  VAGUE  e5 "soovib" 
+     e5 "soovib"  INCLUDES  DCT 
+     e5 "soovib"  INCLUDES  e6 "teele asuda" 
+     e5 "soovib"  BEFORE  e12 "kulub" 
+     e6 "teele asuda"  IS_INCLUDED  t1 "oktoobri lõpus" 
+     e6 "teele asuda"  AFTER  DCT 
+     e6 "teele asuda"  BEFORE-OR-OVERLAP  e7 "kulgeda" 
+     e7 "kulgeda"  AFTER  DCT 
+     e7 "kulgeda"  SIMULTANEOUS  e8 "hääletades" 
+     e7 "kulgeda"  SIMULTANEOUS  e9 "lootes" 
+     e8 "hääletades"  AFTER  DCT 
+     e8 "hääletades"  SIMULTANEOUS  e9 "lootes" 
+     e9 "lootes"  AFTER  DCT 
+
+ s2  [t2 Neljakuuliseks ] [e10 kavandatud ] [e11 reisist ] pool [e12 kulub ] [e13 tagasiteele ] , mida [e14 peavad ] muuhulgas [e15 vürtsitama ] [e16 põiked ] Taisse ja Tiibetisse .
+     e10 "kavandatud"  BEFORE  t2 "Neljakuuliseks" 
+     e10 "kavandatud"  BEFORE  DCT 
+     e10 "kavandatud"  BEFORE  e11 "reisist" 
+     e10 "kavandatud"  BEFORE  e12 "kulub" 
+     e11 "reisist"  SIMULTANEOUS  t2 "Neljakuuliseks" 
+     e11 "reisist"  AFTER  DCT 
+     e11 "reisist"  INCLUDES  e12 "kulub" 
+     e12 "kulub"  AFTER  DCT 
+     e12 "kulub"  INCLUDES  e15 "vürtsitama" 
+     e12 "kulub"  SIMULTANEOUS  e13 "tagasiteele" 
+     e12 "kulub"  OVERLAP-OR-AFTER  e17 "kavatseb" 
+     e13 "tagasiteele"  AFTER  DCT 
+     e14 "peavad"  OVERLAP-OR-AFTER  DCT 
+     e14 "peavad"  BEFORE-OR-OVERLAP  e15 "vürtsitama" 
+     e15 "vürtsitama"  AFTER  DCT 
+     e15 "vürtsitama"  OVERLAP-OR-AFTER  e16 "põiked" 
+     e16 "põiked"  AFTER  DCT 
+
+ s3  Eesti piiridesse [e17 kavatseb ] reisimees Šabanov tagasi [e18 jõuda ] [t3 tuleva aasta 3. märtsil ] .
+     e17 "kavatseb"  INCLUDES  DCT 
+     e17 "kavatseb"  INCLUDES  e18 "jõuda" 
+     e17 "kavatseb"  BEFORE-OR-OVERLAP  e19 "saab viisad" 
+     e17 "kavatseb"  BEFORE-OR-OVERLAP  e21 "hoolitsema" 
+     e18 "jõuda"  IS_INCLUDED  t3 "tuleva aasta 3. märtsil" 
+     e18 "jõuda"  AFTER  DCT 
+
+ s4  Hädavajaliku raha , 1980 dollari eest [e19 saab ] [e19 viisad ] , ülejäänu eest [e20 peavad ] enamalt jaolt [e21 hoolitsema ] sõbrad ja hea saatus .
+     e19 "saab viisad"  OVERLAP-OR-AFTER  DCT 
+     e19 "saab viisad"  BEFORE  e21 "hoolitsema" 
+     e19 "saab viisad"  AFTER  e22 "vaatasin" 
+     e19 "saab viisad"  AFTER  e23 "tundus" 
+     e20 "peavad"  AFTER  DCT 
+     e20 "peavad"  BEFORE-OR-OVERLAP  e21 "hoolitsema" 
+     e21 "hoolitsema"  AFTER  DCT 
+     e21 "hoolitsema"  AFTER  e22 "vaatasin" 
+     e21 "hoolitsema"  AFTER  e23 "tundus" 
+
+ s5  " Nõukogude ajal [e22 vaatasin ] igatsusega maailmakaardile , Austraalia [e23 tundus ] mulle nagu kosmos .
+     e22 "vaatasin"  BEFORE  DCT 
+     e22 "vaatasin"  SIMULTANEOUS  e23 "tundus" 
+     e22 "vaatasin"  BEFORE  e24 "on" 
+     e22 "vaatasin"  BEFORE  e26 "ütleb" 
+     e23 "tundus"  BEFORE  DCT 
+     e23 "tundus"  BEFORE  e24 "on" 
+     e23 "tundus"  BEFORE  e26 "ütleb" 
+
+ s6  [t4 Nüüd ] [e24 on ] aeg ja võimalus [e25 minna ] , " [e26 ütleb ] tatari rahvusest julgur , kes [t5 viis aastat tagasi ] Tartu Raekoja kella [e27 remontis ] , [t6 nüüd ] aga [e28 soovib ] inglaste [t7 19. sajandil ] [e29 ehitatud ] koloniaalraudteel läbi Pakistani mägede [e30 sõita ] .
+     e24 "on"  SIMULTANEOUS  t4 "Nüüd" 
+     e24 "on"  INCLUDES  DCT 
+     e24 "on"  INCLUDES  e25 "minna" 
+     e24 "on"  INCLUDES  e26 "ütleb" 
+     e24 "on"  INCLUDES  e31 "saa" 
+     e25 "minna"  AFTER  DCT 
+     e25 "minna"  AFTER  e26 "ütleb" 
+     e26 "ütleb"  BEFORE-OR-OVERLAP  DCT 
+     e26 "ütleb"  AFTER  e27 "remontis" 
+     e26 "ütleb"  BEFORE  e31 "saa" 
+     e27 "remontis"  IS_INCLUDED  t5 "viis aastat tagasi" 
+     e27 "remontis"  BEFORE  DCT 
+     e27 "remontis"  BEFORE  e28 "soovib" 
+     e28 "soovib"  SIMULTANEOUS  t6 "nüüd" 
+     e28 "soovib"  INCLUDES  DCT 
+     e28 "soovib"  INCLUDES  e30 "sõita" 
+     e29 "ehitatud"  IS_INCLUDED  t7 "19. sajandil" 
+     e29 "ehitatud"  BEFORE  DCT 
+     e29 "ehitatud"  BEFORE  e30 "sõita" 
+     e30 "sõita"  AFTER  DCT 
+
+ s7  Võibolla isegi rongi katusel , kui muudmoodi ei [e31 saa ] .
+     e31 "saa"  AFTER  DCT 
+     e31 "saa"  AFTER  e32 "usu" 
+     e31 "saa"  OVERLAP-OR-AFTER  e35 "seab" 
+
+ s8  " Keegi ei [e32 usu ] seal , et valge mister [e33 sõidab ] katusel seepärast , et raha kokku [e34 hoida ] , " [e35 seab ] Šabanov kavalat [e36 säästuplaani ] .
+     e32 "usu"  VAGUE  DCT 
+     e32 "usu"  INCLUDES  e33 "sõidab" 
+     e32 "usu"  VAGUE  e35 "seab" 
+     e32 "usu"  VAGUE  e39 "värvida" 
+     e33 "sõidab"  VAGUE  DCT 
+     e33 "sõidab"  IS_INCLUDED  e34 "hoida" 
+     e34 "hoida"  VAGUE  DCT 
+     e35 "seab"  BEFORE-OR-OVERLAP  DCT 
+     e35 "seab"  BEFORE-OR-OVERLAP  e36 "säästuplaani" 
+     e35 "seab"  BEFORE  e39 "värvida" 
+     e36 "säästuplaani"  BEFORE-OR-OVERLAP  DCT 
+
+ s9  " Ja et meresid [e37 ületada ] , [e38 võib ] laevu [e39 värvida ] . "
+     e37 "ületada"  AFTER  DCT 
+     e37 "ületada"  OVERLAP-OR-AFTER  e39 "värvida" 
+     e38 "võib"  OVERLAP-OR-AFTER  DCT 
+     e38 "võib"  BEFORE-OR-OVERLAP  e39 "värvida" 
+     e39 "värvida"  AFTER  DCT 
+     e39 "värvida"  OVERLAP-OR-AFTER  e41 "on" 
+     e39 "värvida"  VAGUE  e47 "maksan" 
+
+ s10  Üks raha [e40 kokkuhoidmise ] viis [e41 on ] Šabanovil veel varuks , Tartu asupaiga äramõistatamise mäng , mida [e42 võib ] näiteks mägikülas kitsepiima [e43 ostes ] [e44 proovida ] - " Kui sa [e45 ütled ] , kus [e46 asub ] Tartu , siis ma [e47 maksan ] selle eest . "
+     e40 "kokkuhoidmise"  VAGUE  DCT 
+     e40 "kokkuhoidmise"  VAGUE  e41 "on" 
+     e41 "on"  INCLUDES  DCT 
+     e41 "on"  VAGUE  e44 "proovida" 
+     e41 "on"  INCLUDES  e48 "soovib" 
+     e42 "võib"  VAGUE  DCT 
+     e42 "võib"  BEFORE-OR-OVERLAP  e44 "proovida" 
+     e43 "ostes"  VAGUE  DCT 
+     e43 "ostes"  INCLUDES  e44 "proovida" 
+     e44 "proovida"  VAGUE  DCT 
+     e45 "ütled"  VAGUE  DCT 
+     e45 "ütled"  BEFORE  e47 "maksan" 
+     e45 "ütled"  VAGUE  e46 "asub" 
+     e46 "asub"  VAGUE  DCT 
+     e47 "maksan"  VAGUE  DCT 
+     e47 "maksan"  AFTER  e48 "soovib" 
+
+ s11  Seikluseotsijate rühma suuruseks [e48 soovib ] Šabanov kuni kuus inimest .
+     e48 "soovib"  INCLUDES  DCT 
+     e48 "soovib"  INCLUDES  e49 "Sobib" 
+     e48 "soovib"  INCLUDES  e52 "täpsustab" 
+
+ s12  " [e49 Sobib ] igaüks , sest mägedesse me [e50 ronima ] ei [e51 hakka ] , " [e52 täpsustab ] kaaslasi otsiv rändur .
+     e49 "Sobib"  OVERLAP-OR-AFTER  DCT 
+     e49 "Sobib"  INCLUDES  e51 "hakka" 
+     e49 "Sobib"  OVERLAP-OR-AFTER  e52 "täpsustab" 
+     e49 "Sobib"  BEFORE-OR-OVERLAP  e53 "tuleb" 
+     e50 "ronima"  AFTER  DCT 
+     e50 "ronima"  OVERLAP-OR-AFTER  e51 "hakka" 
+     e51 "hakka"  AFTER  DCT 
+     e51 "hakka"  AFTER  e52 "täpsustab" 
+     e52 "täpsustab"  BEFORE-OR-OVERLAP  DCT 
+     e52 "täpsustab"  BEFORE  e53 "tuleb" 
+
+ s13  " Aga võibolla [e53 tuleb ] [e54 ööbida ] telgiga karjuste juures või magamiskotis vaksali põrandal . "
+     e53 "tuleb"  AFTER  DCT 
+     e53 "tuleb"  BEFORE-OR-OVERLAP  e54 "ööbida" 
+     e53 "tuleb"  AFTER  e55 "räägib" 
+     e54 "ööbida"  AFTER  DCT 
+
+ s14  Šabanov [e55 räägib ] sõbrast , kes muudkui tööd [e56 rügas ] , kuni [t8 ühel päeval ] [e57 suri ] .
+     e55 "räägib"  BEFORE-OR-OVERLAP  DCT 
+     e55 "räägib"  AFTER  e56 "rügas" 
+     e55 "räägib"  AFTER  e57 "suri" 
+     e55 "räägib"  IS_INCLUDED  e58 "mõtlen" 
+     e56 "rügas"  BEFORE  DCT 
+     e56 "rügas"  BEFORE  e57 "suri" 
+     e57 "suri"  IS_INCLUDED  t8 "ühel päeval" 
+     e57 "suri"  BEFORE  DCT 
+
+ s15  " [t9 Nüüd ] ma [e58 mõtlen ] , et mille nimel ta [e59 töötas ] .
+     e58 "mõtlen"  SIMULTANEOUS  t9 "Nüüd" 
+     e58 "mõtlen"  INCLUDES  DCT 
+     e58 "mõtlen"  AFTER  e59 "töötas" 
+     e58 "mõtlen"  INCLUDES  e62 "põhjendab" 
+     e58 "mõtlen"  SIMULTANEOUS  e61 "olla eesmärk" ka VAGUE
+     e59 "töötas"  BEFORE  DCT 
+
+ s16  Töö ei [e60 saa ] [e61 olla ] ainukene [e61 eesmärk ] elus , " [e62 põhjendab ] Šabanov [e63 soovi ] [e64 haarata ] rändurikepp .
+     e60 "saa"  VAGUE  DCT 
+     e60 "saa"  VAGUE  e61 "olla eesmärk" 
+     e61 "olla eesmärk"  VAGUE  DCT 
+     e61 "olla eesmärk"  VAGUE  e62 "põhjendab" 
+     e62 "põhjendab"  BEFORE-OR-OVERLAP  DCT 
+     e62 "põhjendab"  BEFORE-OR-OVERLAP  e64 "haarata" 
+     e62 "põhjendab"  IS_INCLUDED  e63 "soovi" 
+     e63 "soovi"  INCLUDES  DCT 
+     e63 "soovi"  INCLUDES  e64 "haarata" 
+     e64 "haarata"  OVERLAP-OR-AFTER  DCT 
+
+

@@ -1,0 +1,122 @@
+==================================================
+     aja_ml_2002_47.tasak.a006.sol
+      DCT: 2002-11-20
+==================================================
+ s0  20.11.2002
+ s1  Tallinna Sadam [e1 ehitab ] Saaremaa süvasadama Küdema lahe läänerannikule endisesse Tamme sadamakohta Mustjala valda .
+     e1 "ehitab"  OVERLAP-OR-AFTER  DCT 
+     e1 "ehitab"  OVERLAP-OR-AFTER  e2 "tahetakse" 
+
+ s2  70 mln kr maksev sadam [e2 tahetakse ] valmis [e3 saada ] [t1 2004. aasta maiks ] .
+     e2 "tahetakse"  INCLUDES  DCT 
+     e2 "tahetakse"  BEFORE-OR-OVERLAP  e3 "saada" 
+     e2 "tahetakse"  BEFORE  e5 "võtma" 
+     e3 "saada"  BEFORE-OR-OVERLAP  t1 "2004. aasta maiks" 
+     e3 "saada"  AFTER  DCT 
+
+ s3  Hooaja jooksul [e4 peaks ] sadam vastu [e5 võtma ] 30-35 kruiisilaeva .
+     e4 "peaks"  AFTER  DCT 
+     e4 "peaks"  VAGUE  e5 "võtma" 
+     e5 "võtma"  AFTER  DCT 
+     e5 "võtma"  AFTER  e6 "põhjendas" 
+     e5 "võtma"  AFTER  e8 "pole vaja" 
+
+ s4  Tallinna Sadama juhtkond [e6 põhjendas ] sadama [e7 ehitamist ] Tammele väikseimate süvenduskuludega , samuti [e8 pole ] [e8 vaja ] sadama maa-ala kelleltki välja [e9 osta ] , sest see [e10 kuulub ] riigile .
+     e6 "põhjendas"  BEFORE-OR-OVERLAP  DCT 
+     e6 "põhjendas"  BEFORE-OR-OVERLAP  e8 "pole vaja" 
+     e6 "põhjendas"  BEFORE  e7 "ehitamist" 
+     e6 "põhjendas"  AFTER  e11 "oli" 
+     e7 "ehitamist"  OVERLAP-OR-AFTER  DCT 
+     e8 "pole vaja"  OVERLAP-OR-AFTER  DCT 
+     e8 "pole vaja"  BEFORE-OR-OVERLAP  e9 "osta" 
+     e8 "pole vaja"  IS_INCLUDED  e10 "kuulub" 
+     e8 "pole vaja"  AFTER  e11 "oli" 
+     e9 "osta"  AFTER  DCT 
+     e9 "osta"  IS_INCLUDED  e10 "kuulub" 
+     e10 "kuulub"  INCLUDES  DCT 
+
+ s5  Tammel [e11 oli ] kalasadam veel [t2 1960. aastate lõpul ] , enne uue kalasadama [e12 rajamist ] Tagalahte Veerele .
+     e11 "oli"  BEFORE-OR-OVERLAP  t2 "1960. aastate lõpul" 
+     e11 "oli"  BEFORE  DCT 
+     e11 "oli"  BEFORE  e12 "rajamist" 
+     e11 "oli"  BEFORE  e13 "ütles" 
+     e11 "oli"  IS_INCLUDED  e14 "on" 
+     e12 "rajamist"  BEFORE  DCT 
+
+ s6  Saare maavanem Jüri Saar [e13 ütles ] , et looduslikult [e14 on ] Tamme ilusaim sadamakoht nii maalt kui merelt vaadatuna .
+     e13 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e13 "ütles"  IS_INCLUDED  e14 "on" 
+     e13 "ütles"  SIMULTANEOUS  e15 "pakub" ka VAGUE
+     e14 "on"  INCLUDES  DCT 
+     e14 "on"  INCLUDES  e15 "pakub" 
+
+ s7  Maavanem [e15 pakub ] selle Põhja-Saaremaale ehitatava sadama nimeks selguse mõttes Saaremaa sadam .
+     e15 "pakub"  BEFORE-OR-OVERLAP  DCT 
+     e15 "pakub"  AFTER  e17 "uskus" 
+     e15 "pakub"  SIMULTANEOUS  e16 "ütles" ka VAGUE
+
+ s8  Mustjala vallavanem Enno Kolter [e16 ütles ] , et [e17 uskus ] juba [t3 kaheksa aastat tagasi ] sadama [e18 tulevat ] just Tammele .
+     e16 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e16 "ütles"  AFTER  e17 "uskus" 
+     e16 "ütles"  AFTER  e18 "tulevat" 
+     e16 "ütles"  AFTER  e19 "tahtis" 
+     e17 "uskus"  SIMULTANEOUS  t3 "kaheksa aastat tagasi" 
+     e17 "uskus"  BEFORE  DCT 
+     e17 "uskus"  BEFORE  e18 "tulevat" 
+     e17 "uskus"  BEFORE  e19 "tahtis" ka VAGUE
+     e18 "tulevat"  VAGUE  DCT 
+
+ s9  Uudepanga lahte [e19 tahtis ] süvasadamat [e20 ehitada ] juba [t4 2000. aasta suveks ] AS Undva Sadam .
+     e19 "tahtis"  BEFORE  DCT 
+     e19 "tahtis"  BEFORE-OR-OVERLAP  e20 "ehitada" 
+     e19 "tahtis"  BEFORE-OR-OVERLAP  e21 "vastu olid" 
+     e20 "ehitada"  BEFORE-OR-OVERLAP  t4 "2000. aasta suveks" 
+     e20 "ehitada"  VAGUE  DCT 
+
+ s10  Selle [e21 vastu ] [e21 olid ] aga eelkõige linnuteadlased , sest Uudepanga lahes [e22 asub ] ohustatud linnu kirjuhaha suurim talvitusala Läänemeres .
+     e21 "vastu olid"  BEFORE  DCT 
+     e21 "vastu olid"  IS_INCLUDED  e22 "asub" 
+     e21 "vastu olid"  BEFORE  e23 "imesta" 
+     e21 "vastu olid"  BEFORE  e24 "ehitatakse" 
+     e22 "asub"  INCLUDES  DCT 
+
+ s11  Toonane AS Undva Sadama nõukogu esimees Jaak Lokk ei [e23 imesta ] , et süvasadam [t5 nüüd ] lõpuks ikkagi [e24 ehitatakse ] .
+     e23 "imesta"  INCLUDES  DCT 
+     e23 "imesta"  BEFORE-OR-OVERLAP  e24 "ehitatakse" 
+     e23 "imesta"  AFTER  e25 "lastud" 
+     e24 "ehitatakse"  OVERLAP-OR-AFTER  t5 "nüüd" 
+     e24 "ehitatakse"  OVERLAP-OR-AFTER  DCT 
+     e24 "ehitatakse"  AFTER  e25 "lastud" 
+
+ s12  " Džinn oli ju pudelist välja [e25 lastud ] .
+     e25 "lastud"  BEFORE  DCT 
+     e25 "lastud"  BEFORE  e26 "tulnuks" 
+     e25 "lastud"  BEFORE  e32 "ütles" 
+
+ s13  [t6 Varem või hiljem ] [e26 tulnuks ] see sadam [e27 teha ] , sest muidu [e28 hakatakse ] [e29 küsima ] , miks te ühe projekti põhja [e30 lasite ] , aga asemele midagi ei [e31 pakkunud ] , " [e32 ütles ] Lokk .
+     e26 "tulnuks"  VAGUE  DCT 
+     e26 "tulnuks"  BEFORE-OR-OVERLAP  e27 "teha" 
+     e26 "tulnuks"  VAGUE  e32 "ütles" 
+     e26 "tulnuks"  IS_INCLUDED  e33 "pidanud" 
+     e27 "teha"  VAGUE  t6 "Varem või hiljem" 
+     e27 "teha"  VAGUE  DCT 
+     e27 "teha"  VAGUE  e28 "hakatakse" 
+     e27 "teha"  VAGUE  e29 "küsima" 
+     e27 "teha"  VAGUE  e32 "ütles" 
+     e28 "hakatakse"  AFTER  DCT 
+     e28 "hakatakse"  BEFORE-OR-OVERLAP  e29 "küsima" 
+     e29 "küsima"  AFTER  DCT 
+     e29 "küsima"  AFTER  e30 "lasite" 
+     e30 "lasite"  BEFORE  DCT 
+     e30 "lasite"  BEFORE-OR-OVERLAP  e31 "pakkunud" 
+     e31 "pakkunud"  BEFORE  DCT 
+     e32 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e32 "ütles"  IS_INCLUDED  e33 "pidanud" 
+
+ s14  Ornitoloogid on [e33 pidanud ] parimaks sadamakohaks Veeret , mis [t7 praegu ] [e34 kuulub ] AS Hiiu Kalurile .
+     e33 "pidanud"  BEFORE-OR-OVERLAP  DCT 
+     e33 "pidanud"  IS_INCLUDED  e34 "kuulub" 
+     e34 "kuulub"  SIMULTANEOUS  t7 "praegu" 
+     e34 "kuulub"  INCLUDES  DCT 
+
+

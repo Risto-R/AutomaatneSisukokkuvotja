@@ -1,14 +1,50 @@
 <div0><head> Valitsus pani TOPi müüki </head>
-<p> <bibl> <author> <s> Hindrek Riikoja , hindrek.riikoja@postimees.ee </s> </author> </bibl> </p>
-<p rend="bold"> <s> Valitsus otsustas eile hoolimata segastest maaküsimustest panna 250 miljoni kroonise alghinnaga müüki AS Tallinna Olümpiapurjespordikeskuse ( TOP ) kogu aktsiapaki . </s> </p>
-<p> <s> Müüki mineva TOPi kompleksi hulka kuuluvad hotell , kaubanduskeskus , spordirajatised , veespordi- ja puhkekeskus ning jahisadam , mille üle on Tallinna linnaga pikki vaidlusi peetud . </s> <s> Müüki läheb TOPi 41 547 aktsiat , ühe aktsia alghinnaks on 6017 krooni . </s> </p>
-<p> <s> Kultuuriminister Signe Kivi sõnul peab valitsus hoolimata mitmete ärimeeste vastuväidetest alghinda reaalseks . </s> <s> Samas on TOPi juhatuse esimees Raimo Kägu nii suure hinna saamises pessimistlikul seisukohal . </s> <s> “ Kuna ma pole omanik , ei ole ma selles osas pädev rääkima , kuid minu arvates on 250 miljonit liiga kõrge hind , ” ütles Kägu BNSile . </s> </p>
-<p> <s> Kulutuuriministeeriumi kantsler Margus Allikmaa on varem öelnud , et valitsus loodab TOPi müügist saada 230 miljonit krooni . </s> </p>
-<p> <s> Kivi sõnul on vähetõenäoline , et erastamise hinda võiks mõjutada segadused ettevõttele kuuluva maaga , mis ei ole siiani katastrisse kantud . </s> <s> “ Maaomandi korrastamine on hetkel pooleli , ent kõik see ei ole omanikule otsuse tegemisel takistuseks , ” lausus Kivi . </s> </p>
-<p> <s> Ministri kinnitusel on kultuuriministeeriumil plaanis lähiajal Tallinna linnajuhtidega ühise laua taha istuda ja maaomandisse selgust tuua . </s> <s> “ Seni on TOPi juhtkond püüdnud kaheksa aastat linnaga maa suhtes kokkuleppele jõuda , kuid tulutult , ” rääkis Kivi . </s> </p>
-<p> <s> Kägu sõnul esitas Tallinna linnavalitsus kevadel TOPi juhatusele ettepanekud firmale kuuluva maa suuruse ja piiride kohta , mille Kägu juhatuse esimehena ka allkirjastas . </s> <s> Septembri keskel aga selgus , et kevadisi plaane oli oluliselt kärbitud ning mitu objekti oli sealt välja jäetud . </s> </p>
-<p> <s> “ Kevadise seisuga võrreldes ei kuulunud meile enam jahisadama kaks kaid ja selle teenindusmaa ning plats , kus talvel aluseid hoitakse , ” rääkis Kägu . </s> <s> Samasid maa-alasid on varem endale soovinud Tallinna linn . </s> </p>
-<p> <s> Kägu sõnul tunnistas maa kärpimist ka Tallinna linnaplaneerimise ameti peaspetsialist Margarita Maamägi , kes ei soostunud aga ütlema , kelle käsul seda tehti . </s> </p>
-<p> <s> “ Meie arvates on sellised kärped ebaseaduslikud ning vastava kaebusega oleme pöördunud ka Harju maavanema Orm Valtsoni poole , kellelt loodame lähiajal seisukoha saada , ” lausus Kägu . </s> </p>
-<p> <s> Harju maavalitsuse pressiesindaja Kristina Männi sõnul on maavanem TOPi juhtkonna kaebusega tutvunud , kuid hinnangut sellele veel antud pole . </s> <s> “ Loodame seda lähipäevadel teha , ” lausus Mänd . </s> </p>
-<p> <s> Vaidlused viimase riigile kuuluva erastamata ärilise kinnisvaraobjekti Tallinna Olümpiapurjespordikeskuse erastamise ümber on kestnud juba mitu aastat . </s> <s> Erastamise vastu on peamiselt olnud ettevõtte praegune juhtkond , kelle arvates teenib TOP peamiselt inimeste huve ja peaks seetõttu jääma riigile . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Hindrek Riikoja , hindrek.riikoja@postimees.ee </s> </author> </bibl> 
+</p>
+<p rend="bold">
+ <s> Valitsus otsustas eile hoolimata segastest maaküsimustest panna 250 miljoni kroonise alghinnaga müüki AS Tallinna Olümpiapurjespordikeskuse ( TOP ) kogu aktsiapaki . </s> 
+</p>
+<p>
+ <s> Müüki mineva TOPi kompleksi hulka kuuluvad hotell , kaubanduskeskus , spordirajatised , veespordi- ja puhkekeskus ning jahisadam , mille üle on Tallinna linnaga pikki vaidlusi peetud . </s>
+<s> Müüki läheb TOPi 41 547 aktsiat , ühe aktsia alghinnaks on 6017 krooni . </s> 
+</p>
+<p>
+ <s> Kultuuriminister Signe Kivi sõnul peab valitsus hoolimata mitmete ärimeeste vastuväidetest alghinda reaalseks . </s>
+<s> Samas on TOPi juhatuse esimees Raimo Kägu nii suure hinna saamises pessimistlikul seisukohal . </s>
+<s> “ Kuna ma pole omanik , ei ole ma selles osas pädev rääkima , kuid minu arvates on 250 miljonit liiga kõrge hind , ” ütles Kägu BNSile . </s> 
+</p>
+<p>
+ <s> Kulutuuriministeeriumi kantsler Margus Allikmaa on varem öelnud , et valitsus loodab TOPi müügist saada 230 miljonit krooni . </s> 
+</p>
+<p>
+ <s> Kivi sõnul on vähetõenäoline , et erastamise hinda võiks mõjutada segadused ettevõttele kuuluva maaga , mis ei ole siiani katastrisse kantud . </s>
+<s> “ Maaomandi korrastamine on hetkel pooleli , ent kõik see ei ole omanikule otsuse tegemisel takistuseks , ” lausus Kivi . </s> 
+</p>
+<p>
+ <s> Ministri kinnitusel on kultuuriministeeriumil plaanis lähiajal Tallinna linnajuhtidega ühise laua taha istuda ja maaomandisse selgust tuua . </s>
+<s> “ Seni on TOPi juhtkond püüdnud kaheksa aastat linnaga maa suhtes kokkuleppele jõuda , kuid tulutult , ” rääkis Kivi . </s> 
+</p>
+<p>
+ <s> Kägu sõnul esitas Tallinna linnavalitsus kevadel TOPi juhatusele ettepanekud firmale kuuluva maa suuruse ja piiride kohta , mille Kägu juhatuse esimehena ka allkirjastas . </s>
+<s> Septembri keskel aga selgus , et kevadisi plaane oli oluliselt kärbitud ning mitu objekti oli sealt välja jäetud . </s> 
+</p>
+<p>
+ <s> “ Kevadise seisuga võrreldes ei kuulunud meile enam jahisadama kaks kaid ja selle teenindusmaa ning plats , kus talvel aluseid hoitakse , ” rääkis Kägu . </s>
+<s> Samasid maa-alasid on varem endale soovinud Tallinna linn . </s> 
+</p>
+<p>
+ <s> Kägu sõnul tunnistas maa kärpimist ka Tallinna linnaplaneerimise ameti peaspetsialist Margarita Maamägi , kes ei soostunud aga ütlema , kelle käsul seda tehti . </s> 
+</p>
+<p>
+ <s> “ Meie arvates on sellised kärped ebaseaduslikud ning vastava kaebusega oleme pöördunud ka Harju maavanema Orm Valtsoni poole , kellelt loodame lähiajal seisukoha saada , ” lausus Kägu . </s> 
+</p>
+<p>
+ <s> Harju maavalitsuse pressiesindaja Kristina Männi sõnul on maavanem TOPi juhtkonna kaebusega tutvunud , kuid hinnangut sellele veel antud pole . </s>
+<s> “ Loodame seda lähipäevadel teha , ” lausus Mänd . </s> 
+</p>
+<p>
+ <s> Vaidlused viimase riigile kuuluva erastamata ärilise kinnisvaraobjekti Tallinna Olümpiapurjespordikeskuse erastamise ümber on kestnud juba mitu aastat . </s>
+<s> Erastamise vastu on peamiselt olnud ettevõtte praegune juhtkond , kelle arvates teenib TOP peamiselt inimeste huve ja peaks seetõttu jääma riigile . </s> 
+</p>
+</div0>

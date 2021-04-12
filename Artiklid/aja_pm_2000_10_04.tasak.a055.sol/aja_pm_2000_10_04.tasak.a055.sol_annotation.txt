@@ -1,0 +1,81 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a055.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Lõuna-Inglismaa kuurortlinnas Bournemouthis [e1 alanud ] [t1 iga-aastasel ] konservatiivide [e2 parteikonverentsil ] on tähelepanu keskpunkti [e3 tõstetud ] veidi üllatuslikult tervishoiupoliitika , vähem üllatuslikult aga ELi temaatika .
+     e1 "alanud"  BEFORE  DCT 
+     e1 "alanud"  BEFORE-OR-OVERLAP  e2 "parteikonverentsil" 
+     e1 "alanud"  BEFORE  e3 "tõstetud" 
+     e2 "parteikonverentsil"  IS_INCLUDED  t1 "iga-aastasel" 
+     e2 "parteikonverentsil"  INCLUDES  DCT 
+     e2 "parteikonverentsil"  INCLUDES  e3 "tõstetud" 
+     e3 "tõstetud"  BEFORE-OR-OVERLAP  DCT 
+     e3 "tõstetud"  BEFORE  e6 "suurendaks" 
+     e3 "tõstetud"  INCLUDES  e4 "rõhutas" 
+
+ s1  Konservatiivide varivalitsuse rahandusminister Michael Portillo [e4 rõhutas ] oma [t2 eilses ] [e5 ettekandes ] , et võimalik tulevane tooride valitsus [e6 suurendaks ] kulutusi tervishoiule , [e7 üritades ] seeläbi [e8 suurendada ] ka erasektori rolli .
+     e4 "rõhutas"  BEFORE  DCT 
+     e4 "rõhutas"  BEFORE  e6 "suurendaks" 
+     e4 "rõhutas"  IS_INCLUDED  e5 "ettekandes" 
+     e4 "rõhutas"  BEFORE-OR-OVERLAP  e10 "ütles" ka VAGUE
+     e4 "rõhutas"  IS_INCLUDED  e13 "ole õige" 
+     e5 "ettekandes"  IS_INCLUDED  t2 "eilses" 
+     e5 "ettekandes"  BEFORE  DCT 
+     e6 "suurendaks"  AFTER  DCT 
+     e6 "suurendaks"  BEFORE-OR-OVERLAP  e7 "üritades" 
+     e6 "suurendaks"  AFTER  e10 "ütles" 
+     e6 "suurendaks"  AFTER  e13 "ole õige" 
+     e7 "üritades"  AFTER  DCT 
+     e7 "üritades"  BEFORE-OR-OVERLAP  e8 "suurendada" 
+     e8 "suurendada"  AFTER  DCT 
+
+ s2  BBC Raadio 4-le [e9 antud ] [e9 intervjuus ] [e10 ütles ] Portillo , et leiboristide poliitika , kus inimesi on [e11 julgustatud ] [e12 investeerima ] oma kodudesse , pensionisse ja haridusse , ei [e13 ole ] [e13 õige ] , sest valitsus on [e14 unustanud ] investeeringud tervishoidu .
+     e9 "antud intervjuus"  BEFORE  DCT 
+     e9 "antud intervjuus"  INCLUDES  e10 "ütles" 
+     e10 "ütles"  BEFORE  DCT 
+     e10 "ütles"  IS_INCLUDED  e13 "ole õige" 
+     e10 "ütles"  IS_INCLUDED  e15 "olnud" 
+     e11 "julgustatud"  BEFORE  DCT 
+     e11 "julgustatud"  BEFORE-OR-OVERLAP  e12 "investeerima" 
+     e11 "julgustatud"  IS_INCLUDED  e13 "ole õige" 
+     e12 "investeerima"  VAGUE  DCT 
+     e13 "ole õige"  INCLUDES  DCT 
+     e13 "ole õige"  INCLUDES  e14 "unustanud" 
+     e13 "ole õige"  VAGUE  e15 "olnud" 
+     e14 "unustanud"  BEFORE  DCT 
+
+ s3  Konservatiivide konverentsi teine põhiteema on [e15 olnud ] [e16 jätkuva ] [e17 vastuseisu ] [e18 rõhutamine ] ELi ühisvaluutale eurole .
+     e15 "olnud"  BEFORE  DCT 
+     e15 "olnud"  VAGUE  e17 "vastuseisu" 
+     e15 "olnud"  VAGUE  e18 "rõhutamine" 
+     e15 "olnud"  BEFORE-OR-OVERLAP  e19 "on" ka SIMULTANEOUS
+     e15 "olnud"  VAGUE  e20 "eelistab" 
+     e15 "olnud"  VAGUE  e21 "üritavad" 
+     e16 "jätkuva"  INCLUDES  DCT 
+     e16 "jätkuva"  VAGUE  e17 "vastuseisu" 
+     e17 "vastuseisu"  INCLUDES  DCT 
+     e18 "rõhutamine"  BEFORE-OR-OVERLAP  DCT 
+
+ s4  See [e19 on ] teema , kus enamik Briti valijaid [e20 eelistab ] konservatiivide seisukohti leiboristide omadele ja toorid [e21 üritavad ] sellest võimalikult palju profiiti [e22 lõigata ] .
+     e19 "on"  INCLUDES  DCT 
+     e19 "on"  INCLUDES  e20 "eelistab" 
+     e19 "on"  INCLUDES  e21 "üritavad" 
+     e19 "on"  INCLUDES  e23 "tugevdab" 
+     e20 "eelistab"  INCLUDES  DCT 
+     e20 "eelistab"  SIMULTANEOUS  e21 "üritavad" 
+     e20 "eelistab"  VAGUE  e23 "tugevdab" 
+     e21 "üritavad"  INCLUDES  DCT 
+     e21 "üritavad"  INCLUDES  e22 "lõigata" 
+     e21 "üritavad"  VAGUE  e23 "tugevdab" 
+     e22 "lõigata"  INCLUDES  DCT 
+
+ s5  Veelgi [e23 tugevdab ] nende positsioone Taani ei-ga [e24 lõppenud ] [e25 referendum ] [t3 möödunud nädalal ] .
+     e23 "tugevdab"  INCLUDES  DCT 
+     e23 "tugevdab"  AFTER  e25 "referendum" 
+     e24 "lõppenud"  IS_INCLUDED  t3 "möödunud nädalal" 
+     e24 "lõppenud"  BEFORE  DCT 
+     e24 "lõppenud"  OVERLAP-OR-AFTER  e25 "referendum" 
+     e25 "referendum"  IS_INCLUDED  t3 "möödunud nädalal" 
+     e25 "referendum"  BEFORE  DCT 
+
+

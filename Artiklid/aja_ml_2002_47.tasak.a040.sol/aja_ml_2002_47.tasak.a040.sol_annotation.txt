@@ -1,0 +1,210 @@
+==================================================
+     aja_ml_2002_47.tasak.a040.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ] 18 .
+ s1  XI
+ s2  [t2 2001 ] [e1 tõmbas ] ungarlane Tibor Meszaros maast lahti 406,5 kg .
+     e1 "tõmbas"  IS_INCLUDED  t2 "2001" 
+     e1 "tõmbas"  BEFORE  DCT 
+     e1 "tõmbas"  AFTER  e2 "sünnitas" 
+
+ s3  Jõutõstmise MRid
+ s4  • Jõutõmme Tibor Meszaros ( Ungari ) 406,5 • Kükk Shane Hamman ( USA ) 457,5 • Selili surumine James Henderson ( USA ) 322,5 • Kogusumma Bill Kazmaier ( USA ) 1 100,0
+ s5  [t3 19. XI ]
+ s6  [t4 1997 ] [e2 sünnitas ] [t5 29aastane ] ühendriiklanna Bobbi McCaughey Iowa osariigi ülikooli haiglas seitsmikud .
+     e2 "sünnitas"  IS_INCLUDED  t4 "1997" 
+     e2 "sünnitas"  BEFORE  DCT 
+     e2 "sünnitas"  AFTER  e3 "eostatud" 
+     e2 "sünnitas"  IDENTITY  e5 "tulid ilmale" 
+
+ s7  Lapsed olid [e3 eostatud ] [e4 katseklaasiviljastusega ] ja [e5 tulid ] [e6 keisrilõikega ] [e5 ilmale ] [t6 31 nädala ] vanuselt .
+     e3 "eostatud"  BEFORE  DCT 
+     e3 "eostatud"  BEFORE  e5 "tulid ilmale" 
+     e3 "eostatud"  IS_INCLUDED  e4 "katseklaasiviljastusega" 
+     e3 "eostatud"  BEFORE  e7 "kaalus" 
+     e4 "katseklaasiviljastusega"  BEFORE  DCT 
+     e5 "tulid ilmale"  BEFORE  DCT 
+     e5 "tulid ilmale"  OVERLAP-OR-AFTER  e6 "keisrilõikega" 
+     e5 "tulid ilmale"  BEFORE-OR-OVERLAP  e7 "kaalus" 
+     e6 "keisrilõikega"  BEFORE  DCT 
+
+ s8  Kergeim laps [e7 kaalus ] 1,048 kg ja raskeim 1,474 kg .
+     e7 "kaalus"  BEFORE  DCT 
+     e7 "kaalus"  OVERLAP-OR-AFTER  e9 "sai" 
+
+ s9  Bobbi ja Kenny McCaughey [t7 3. I 1996 ] [e8 sündinud ] tütar Mikayla [e9 sai ] endale korraga neli venda ja kolm õde : Kenneth Robert , Alexis May , Natalie Sue , Kelsey Ann , Brandon James , Nathanial Roy ja Joel Steven .
+     e8 "sündinud"  IS_INCLUDED  t7 "3. I 1996" 
+     e8 "sündinud"  BEFORE  DCT 
+     e8 "sündinud"  BEFORE  e9 "sai" 
+     e9 "sai"  BEFORE  DCT 
+     e9 "sai"  BEFORE  e10 "on" 
+     e9 "sai"  BEFORE  e12 "ütles" 
+
+ s10  " Igaüks neist [e10 on ] eeskujulik laps , kui ta [e11 on ] [e11 omaette ] , " [e12 ütles ] isa Kenny [t8 mullu novembris ] .
+     e10 "on"  VAGUE  DCT 
+     e10 "on"  SIMULTANEOUS  e11 "on omaette" 
+     e10 "on"  VAGUE  e12 "ütles" 
+     e10 "on"  SIMULTANEOUS  e13 "lähevad" ka VAGUE
+     e11 "on omaette"  VAGUE  DCT 
+     e12 "ütles"  IS_INCLUDED  t8 "mullu novembris" 
+     e12 "ütles"  BEFORE  DCT 
+     e12 "ütles"  VAGUE  e13 "lähevad" 
+
+ s11  " Koos [e13 lähevad ] nad arust ära . "
+     e13 "lähevad"  VAGUE  DCT 
+     e13 "lähevad"  INCLUDES  e16 "mõtleb" ka VAGUE
+     e13 "lähevad"  INCLUDES  e17 "lisas" 
+
+ s12  " Mida üks ei [e14 oska ] välja [e15 mõtelda ] , [e16 mõtleb ] teine , " [e17 lisas ] ema Bobbi .
+     e14 "oska"  VAGUE  DCT 
+     e14 "oska"  BEFORE-OR-OVERLAP  e15 "mõtelda" 
+     e14 "oska"  BEFORE  e16 "mõtleb" 
+     e14 "oska"  VAGUE  e17 "lisas" 
+     e15 "mõtelda"  VAGUE  DCT 
+     e15 "mõtelda"  BEFORE  e16 "mõtleb" 
+     e16 "mõtleb"  VAGUE  DCT 
+     e16 "mõtleb"  VAGUE  e17 "lisas" 
+     e16 "mõtleb"  BEFORE-OR-OVERLAP  e18 "aitavad" ka VAGUE
+     e17 "lisas"  BEFORE  DCT 
+     e17 "lisas"  IS_INCLUDED  e18 "aitavad" 
+
+ s13  " Ja nad [e18 aitavad ] üksteisel [e19 tempe ] [e19 teha ] .
+     e18 "aitavad"  VAGUE  DCT 
+     e18 "aitavad"  BEFORE-OR-OVERLAP  e19 "tempe teha" 
+     e18 "aitavad"  IS_INCLUDED  e20 "on" ka VAGUE
+     e19 "tempe teha"  VAGUE  DCT 
+
+ s14  Alati [e20 on ] kambas keegi , kes midagi kokku [e21 keerab ] . "
+     e20 "on"  VAGUE  DCT 
+     e20 "on"  INCLUDES  e21 "keerab" 
+     e20 "on"  VAGUE  e22 "kaalus" 
+     e21 "keerab"  VAGUE  DCT 
+
+ s15  [t9 20. XI ]
+ s16  [t10 1998 ] [e22 kaalus ] USAs Illinoisi osariigis Gurnee maopargis elav emane tume tiigerpüüton ( Python molurus bivittatus ) Baby 182,76 kg .
+     e22 "kaalus"  IS_INCLUDED  t10 "1998" 
+     e22 "kaalus"  BEFORE  DCT 
+     e22 "kaalus"  BEFORE-OR-OVERLAP  e23 "on" 
+     e22 "kaalus"  BEFORE-OR-OVERLAP  e24 "on" 
+
+ s17  Baby [e23 on ] [t11 21 aastat ] vana , 8,22 m pikk ja tema ümbermõõt [e24 on ] 71,12 cm .
+     e23 "on"  INCLUDES  DCT 
+     e23 "on"  SIMULTANEOUS  e24 "on" 
+     e23 "on"  VAGUE  e25 "sööb" ka INCLUDES
+     e24 "on"  INCLUDES  DCT 
+     e24 "on"  VAGUE  e25 "sööb" ka INCLUDES
+
+ s18  [t12 Iga kahe nädala tagant ] [e25 sööb ] ta neli-viis kana , [e26 neelates ] saagi tervelt .
+     e25 "sööb"  SIMULTANEOUS  t12 "Iga kahe nädala tagant" 
+     e25 "sööb"  INCLUDES  DCT 
+     e25 "sööb"  INCLUDES  e26 "neelates" 
+     e25 "sööb"  VAGUE  e27 "on" 
+     e26 "neelates"  INCLUDES  DCT 
+
+ s19  Maailma raskeim madu [e27 on ] Lõuna-Ameerikas ja Trinidadis elav anakonda ( Eunectes murinus ) .
+     e27 "on"  INCLUDES  DCT 
+     e27 "on"  INCLUDES  e29 "oli" 
+
+ s20  [t13 1960. a ] Brasiilias [e28 tapetud ] emase anakonda pikkus [e29 oli ] 8,45 m ja keha ümbermõõt 1,11 m.
+     e28 "tapetud"  IS_INCLUDED  t13 "1960. a" 
+     e28 "tapetud"  BEFORE  DCT 
+     e28 "tapetud"  VAGUE  e29 "oli" 
+     e29 "oli"  BEFORE  DCT 
+     e29 "oli"  SIMULTANEOUS  e30 "kaalus" 
+
+ s21  Madu [e30 kaalus ] 227 kg .
+     e30 "kaalus"  BEFORE  DCT 
+     e30 "kaalus"  BEFORE  e31 "mõõtis" 
+
+ s22  [t14 21. XI ]
+ s23  [t15 1997 ] [e31 mõõtis ] " Guinnessi maailmarekordite " kohtunik , et Šotimaal Ellonis elava Lorna Sutherlandi [t16 nelja-aastane ] isane valge kass Snowbie [e32 on ] ninaotsast sabaotsani 103 cm pikk .
+     e31 "mõõtis"  IS_INCLUDED  t15 "1997" 
+     e31 "mõõtis"  BEFORE  DCT 
+     e31 "mõõtis"  IS_INCLUDED  e32 "on" 
+     e31 "mõõtis"  AFTER  e33 "lõi" 
+     e32 "on"  BEFORE-OR-OVERLAP  DCT 
+
+ s24  [t17 22. XI ]
+ s25  [t18 1923 ] [e33 lõi ] postivalitsuse ülem Hindrek Rikand sõna " ringhääling " .
+     e33 "lõi"  IS_INCLUDED  t18 "1923" 
+     e33 "lõi"  BEFORE  DCT 
+     e33 "lõi"  BEFORE  e34 "neelas" 
+     e33 "lõi"  BEFORE  e36 "tõi" 
+
+ s26  [t19 23. XI ]
+ s27  [t20 1998 ] [e34 neelas ] šotlane Stevie Starr [e35 TVsaates ] " Guinnessi rekordid " piljardipalli , kimalase ning musta ja valge kuldkala ning [e36 tõi ] need seejärel esile publiku esindaja [e37 määratud ] järjekorras .
+     e34 "neelas"  BEFORE  DCT 
+     e34 "neelas"  BEFORE  e36 "tõi" 
+     e34 "neelas"  IS_INCLUDED  e35 "TVsaates" 
+     e34 "neelas"  BEFORE-OR-OVERLAP  e38 "neelas" 
+     e34 "neelas"  BEFORE  e39 "tõi" 
+     e35 "TVsaates"  BEFORE  DCT 
+     e36 "tõi"  BEFORE  DCT 
+     e36 "tõi"  OVERLAP-OR-AFTER  e37 "määratud" 
+     e36 "tõi"  BEFORE  e38 "neelas" 
+     e36 "tõi"  BEFORE  e39 "tõi" 
+     e37 "määratud"  BEFORE  DCT 
+
+ s28  Samas [e38 neelas ] ta alla sõrmuse , tabaluku ja võtme ning [e39 tõi ] need esile , sõrmus luku küljes kinni .
+     e38 "neelas"  BEFORE  DCT 
+     e38 "neelas"  BEFORE  e39 "tõi" 
+     e38 "neelas"  AFTER  e40 "lasti" 
+     e39 "tõi"  BEFORE  DCT 
+     e39 "tõi"  AFTER  e40 "lasti" 
+
+ s29  [t21 24. XI ]
+ s30  [t22 1918 ] [e40 lasti ] Eesti Vabariigis välja esimesed postmargid .
+     e40 "lasti"  IS_INCLUDED  t22 "1918" 
+     e40 "lasti"  BEFORE  DCT 
+     e40 "lasti"  INCLUDES  e42 "saatis" 
+
+ s31  [t23 Äsja ] [e41 loodud ] Eesti Posti Peavalitsuse ülem Hindrek Rikand [e42 saatis ] oma abikaasale postkaardi , millele [e43 kirjutas ] sõnumi : " Esimesed Eesti postmargid [e44 lähevad ] [e45 käima ] .
+     e41 "loodud"  SIMULTANEOUS  t23 "Äsja" 
+     e41 "loodud"  BEFORE  DCT 
+     e41 "loodud"  BEFORE  e42 "saatis" 
+     e42 "saatis"  BEFORE  DCT 
+     e42 "saatis"  AFTER  e43 "kirjutas" 
+     e42 "saatis"  VAGUE  e46 "Elagu" ka IS_INCLUDED
+     e43 "kirjutas"  BEFORE  DCT 
+     e43 "kirjutas"  BEFORE-OR-OVERLAP  e44 "lähevad" 
+     e44 "lähevad"  BEFORE  DCT 
+     e44 "lähevad"  BEFORE-OR-OVERLAP  e45 "käima" 
+     e45 "käima"  BEFORE  DCT 
+
+ s32  [e46 Elagu ] Eesti post , Eesti riik ja rahwas ! "
+     e46 "Elagu"  VAGUE  DCT 
+     e46 "Elagu"  VAGUE  e47 "frankeeritud" ka INCLUDES
+
+ s33  Postkaart oli [e47 frankeeritud ] roosaka hammastamata 5kopikase postmargiga , mis oli värskelt trükipressi alt [e48 tulnud ] .
+     e47 "frankeeritud"  BEFORE  DCT 
+     e47 "frankeeritud"  AFTER  e48 "tulnud" 
+     e47 "frankeeritud"  OVERLAP-OR-AFTER  e49 "trükiti" 
+     e48 "tulnud"  BEFORE  DCT 
+
+ s34  5kopikane roosa , 15kopikane sinine , 35pennine pruun ja 70pennine roheline lillemustrimark [e49 trükiti ] Bölau trükikojas Nõmmel .
+     e49 "trükiti"  BEFORE  DCT 
+     e49 "trükiti"  BEFORE-OR-OVERLAP  e50 "trükiti" 
+
+ s35  Kuni [t24 1919. a suveni ] [e50 trükiti ] kokku üle kaheksa miljoni lillemustrimargi .
+     e50 "trükiti"  BEFORE-OR-OVERLAP  t24 "1919. a suveni" 
+     e50 "trükiti"  BEFORE  DCT 
+     e50 "trükiti"  OVERLAP-OR-AFTER  e51 "andis" 
+
+ s36  Päris esimesed postmargid [e51 andis ] [t25 16.-19. ] XI 1918 ] välja Rakvere postkontori ülem Aleksander Tom , kes [e52 laskis ] trükikojas [e53 teha ] tsaariaegsetele postimaksevahenditele [e53 ületrüki ] .
+     e51 "andis"  IS_INCLUDED  t25 "16.-" 
+     e51 "andis"  BEFORE  DCT 
+     e51 "andis"  AFTER  e52 "laskis" 
+     e51 "andis"  BEFORE  e54 "tunnista" 
+     e51 "andis"  BEFORE  e55 "on hinnas" 
+     e52 "laskis"  BEFORE  DCT 
+     e52 "laskis"  BEFORE-OR-OVERLAP  e53 "teha ületrüki" 
+     e53 "teha ületrüki"  BEFORE  DCT 
+
+ s37  Eesti Post neid ametlikeks postmarkideks ei [e54 tunnista ] , ent oksjonitel [e55 on ] nad suures [e55 hinnas ] .
+     e54 "tunnista"  INCLUDES  DCT 
+     e54 "tunnista"  SIMULTANEOUS  e55 "on hinnas" 
+     e55 "on hinnas"  INCLUDES  DCT 
+
+ s38  Pildil Eesti esimene ja viimatine , 449. postmark .
+

@@ -1,0 +1,133 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a044.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Kuigi Haabersti linnaosa endine peaarhitekt Riho Hürden [e1 oli ] [t1 eile ] [e1 valmis ] Tallinna linnakohtust [e2 lahkuma ] kas süütu või süüdlasena , [e3 jäi ] ta mõlemast tiitlist ilma , sest kohus [e4 saatis ] ta kriminaalasja kaitsepolitseisse täiendavale [e5 eeluurimisele ] .
+     e1 "oli valmis"  IS_INCLUDED  t1 "eile" 
+     e1 "oli valmis"  BEFORE  DCT 
+     e1 "oli valmis"  BEFORE-OR-OVERLAP  e2 "lahkuma" 
+     e1 "oli valmis"  BEFORE  e3 "jäi" 
+     e2 "lahkuma"  BEFORE  DCT 
+     e2 "lahkuma"  BEFORE  e3 "jäi" 
+     e3 "jäi"  BEFORE  DCT 
+     e3 "jäi"  BEFORE-OR-OVERLAP  e4 "saatis" 
+     e3 "jäi"  BEFORE  e6 "ruttas" 
+     e4 "saatis"  BEFORE  DCT 
+     e4 "saatis"  BEFORE  e5 "eeluurimisele" 
+     e5 "eeluurimisele"  BEFORE-OR-OVERLAP  DCT 
+
+ s1  Selg higine , [e6 ruttas ] Hürden pärast kohtumääruse [e7 ärakuulamist ] trepist alla .
+     e6 "ruttas"  BEFORE  DCT 
+     e6 "ruttas"  AFTER  e7 "ärakuulamist" 
+     e6 "ruttas"  INCLUDES  e8 "lennutas" 
+     e7 "ärakuulamist"  BEFORE  DCT 
+
+ s2  Käigu pealt [e8 lennutas ] ta üle õla lause : " [e9 Terror ] kaitsepolitsei ja prokuratuuri poolt [e10 jätkub ] ! "
+     e8 "lennutas"  BEFORE  DCT 
+     e8 "lennutas"  IS_INCLUDED  e10 "jätkub" 
+     e8 "lennutas"  AFTER  e11 "süüdistas" 
+     e8 "lennutas"  AFTER  e15 "valgustanud" 
+     e9 "Terror"  VAGUE  DCT 
+     e9 "Terror"  SIMULTANEOUS  e10 "jätkub" 
+     e10 "jätkub"  BEFORE-OR-OVERLAP  DCT 
+
+ s3  [t2 Päev varem ] [e11 süüdistas ] Hürden oma viimases [e12 sõnas ] samu ametkondi räiges [e13 seaduserikkumises ] , tema korruptsioonimaigulisi [e14 tegusid ] [e15 valgustanud ] ajakirjandust aga haiglases verejanus .
+     e11 "süüdistas"  IS_INCLUDED  t2 "Päev varem" 
+     e11 "süüdistas"  BEFORE  DCT 
+     e11 "süüdistas"  AFTER  e13 "seaduserikkumises" 
+     e11 "süüdistas"  AFTER  e14 "tegusid" 
+     e11 "süüdistas"  AFTER  e15 "valgustanud" 
+     e11 "süüdistas"  IS_INCLUDED  e12 "sõnas" 
+     e11 "süüdistas"  AFTER  e16 "tekitatud kahju" 
+     e11 "süüdistas"  AFTER  e17 "rikutud" 
+     e11 "süüdistas"  INCLUDES  e18 "sõnas" 
+     e12 "sõnas"  BEFORE  DCT 
+     e13 "seaduserikkumises"  BEFORE  DCT 
+     e14 "tegusid"  BEFORE  DCT 
+     e14 "tegusid"  BEFORE  e15 "valgustanud" 
+     e15 "valgustanud"  BEFORE  DCT 
+     e15 "valgustanud"  BEFORE  e18 "sõnas" 
+     e15 "valgustanud"  SIMULTANEOUS  e16 "tekitatud kahju" ka VAGUE
+     e15 "valgustanud"  SIMULTANEOUS  e17 "rikutud" ka VAGUE
+
+ s4  " Mulle on [e16 tekitatud ] palju teenimatut [e16 kahju ] , minu maine ja tervis on [e17 rikutud ] , " [e18 sõnas ] Hürden .
+     e16 "tekitatud kahju"  BEFORE  DCT 
+     e16 "tekitatud kahju"  BEFORE  e18 "sõnas" 
+     e16 "tekitatud kahju"  SIMULTANEOUS  e17 "rikutud" 
+     e16 "tekitatud kahju"  BEFORE  e20 "välistatud" 
+     e16 "tekitatud kahju"  BEFORE  e23 "raskemaks minna" 
+     e17 "rikutud"  BEFORE  DCT 
+     e17 "rikutud"  BEFORE  e18 "sõnas" 
+     e17 "rikutud"  BEFORE  e20 "välistatud" 
+     e17 "rikutud"  BEFORE  e23 "raskemaks minna" 
+     e18 "sõnas"  BEFORE  DCT 
+     e18 "sõnas"  BEFORE-OR-OVERLAP  e20 "välistatud" 
+     e18 "sõnas"  BEFORE-OR-OVERLAP  e23 "raskemaks minna" 
+
+ s5  Prokurör Kristel Siitami [e19 sõnul ] pole [e20 välistatud ] , et Hürdeni [e21 olukord ] [e22 võib ] [t3 pärast eilset ] [e23 raskemaks ] [e23 minna ] .
+     e19 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e19 "sõnul"  VAGUE  e20 "välistatud" ka IS_INCLUDED
+     e20 "välistatud"  BEFORE-OR-OVERLAP  DCT 
+     e20 "välistatud"  VAGUE  e23 "raskemaks minna" 
+     e20 "välistatud"  OVERLAP-OR-AFTER  e27 "andis hinnangu" ka VAGUE
+     e20 "välistatud"  OVERLAP-OR-AFTER  e29 "selgitas" ka VAGUE
+     e21 "olukord"  INCLUDES  DCT 
+     e21 "olukord"  BEFORE-OR-OVERLAP  e23 "raskemaks minna" 
+     e22 "võib"  OVERLAP-OR-AFTER  t3 "pärast eilset" 
+     e22 "võib"  BEFORE-OR-OVERLAP  DCT 
+     e22 "võib"  BEFORE-OR-OVERLAP  e23 "raskemaks minna" 
+     e23 "raskemaks minna"  OVERLAP-OR-AFTER  t3 "pärast eilset" 
+     e23 "raskemaks minna"  OVERLAP-OR-AFTER  DCT 
+     e23 "raskemaks minna"  OVERLAP-OR-AFTER  e27 "andis hinnangu" 
+     e23 "raskemaks minna"  OVERLAP-OR-AFTER  e29 "selgitas" 
+
+ s6  " Kuigi kohus ei [e24 nõustunud ] Hürdeni väidetavate [e25 kuritegude ] [e26 kvalifikatsiooniga ] , [e27 andis ] ta tema [t4 kolme aasta tagusele ] [e28 tegutsemisele ] negatiivse [e27 hinnangu ] , " [e29 selgitas ] Siitam .
+     e24 "nõustunud"  BEFORE  DCT 
+     e24 "nõustunud"  BEFORE  e27 "andis hinnangu" 
+     e24 "nõustunud"  BEFORE  e29 "selgitas" 
+     e24 "nõustunud"  OVERLAP-OR-AFTER  e26 "kvalifikatsiooniga" 
+     e25 "kuritegude"  BEFORE  DCT 
+     e25 "kuritegude"  BEFORE-OR-OVERLAP  e26 "kvalifikatsiooniga" 
+     e26 "kvalifikatsiooniga"  BEFORE  DCT 
+     e27 "andis hinnangu"  BEFORE  DCT 
+     e27 "andis hinnangu"  AFTER  e28 "tegutsemisele" 
+     e27 "andis hinnangu"  BEFORE  e29 "selgitas" 
+     e27 "andis hinnangu"  AFTER  e31 "üritas" 
+     e27 "andis hinnangu"  AFTER  e32 "pressida" 
+     e28 "tegutsemisele"  IS_INCLUDED  t4 "kolme aasta tagusele" 
+     e28 "tegutsemisele"  BEFORE  DCT 
+     e29 "selgitas"  BEFORE-OR-OVERLAP  DCT 
+     e29 "selgitas"  AFTER  e31 "üritas" 
+     e29 "selgitas"  AFTER  e32 "pressida" 
+
+ s7  [e30 Süüdistuse ] kohaselt [e31 üritas ] linnaametnik Hürden [e32 pressida ] arhitekt Kalvi Voolaiult firmast Kavol Arhitektid välja 120 000 krooni .
+     e30 "Süüdistuse"  BEFORE  DCT 
+     e30 "Süüdistuse"  AFTER  e31 "üritas" 
+     e31 "üritas"  BEFORE  DCT 
+     e31 "üritas"  BEFORE-OR-OVERLAP  e32 "pressida" 
+     e31 "üritas"  BEFORE  e33 "süüdistati" 
+     e31 "üritas"  VAGUE  e35 "esitamises" 
+     e32 "pressida"  BEFORE  DCT 
+     e32 "pressida"  BEFORE  e33 "süüdistati" 
+     e32 "pressida"  VAGUE  e35 "esitamises" 
+
+ s8  Lisaks [e33 süüdistati ] Hürdenit maksuametile tahtlikult [e34 moonutatud ] andmete [e35 esitamises ] .
+     e33 "süüdistati"  BEFORE  DCT 
+     e33 "süüdistati"  AFTER  e35 "esitamises" 
+     e33 "süüdistati"  BEFORE  e38 "esitama" 
+     e34 "moonutatud"  BEFORE  DCT 
+     e34 "moonutatud"  BEFORE  e33 "süüdistati" 
+     e34 "moonutatud"  BEFORE  e35 "esitamises" 
+     e35 "esitamises"  BEFORE  DCT 
+     e35 "esitamises"  BEFORE  e38 "esitama" 
+
+ s9  Kohtu [e36 lahendi ] kohaselt [e37 peab ] kaitsepolitsei [e38 esitama ] Hürdeni asjas uue [e39 süüdistuse ] teiste paragrahvide alusel .
+     e36 "lahendi"  BEFORE  DCT 
+     e36 "lahendi"  BEFORE  e38 "esitama" 
+     e37 "peab"  OVERLAP-OR-AFTER  DCT 
+     e37 "peab"  BEFORE-OR-OVERLAP  e38 "esitama" 
+     e38 "esitama"  OVERLAP-OR-AFTER  DCT 
+     e38 "esitama"  BEFORE-OR-OVERLAP  e39 "süüdistuse" 
+     e39 "süüdistuse"  AFTER  DCT 
+
+

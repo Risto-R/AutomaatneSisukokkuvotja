@@ -1,0 +1,117 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a047.sol
+      DCT: 2007-12-17
+==================================================
+ s0  [t1 Reedeses ] Sirbis [e1 kurdab ] president Toomas Hendrik Ilves , kuidas temaga Gruusia [e2 visiidil ] [e3 kaasas ] [e3 olnud ] Eesti ajakirjanikud [e4 keskendusid ] veinimarkidele ja muule ebaolulisele , [e5 takerdudes ] üksikasjadesse .
+     e1 "kurdab"  BEFORE  DCT 
+     e1 "kurdab"  AFTER  e4 "keskendusid" 
+     e1 "kurdab"  IS_INCLUDED  e7 "on" 
+     e2 "visiidil"  BEFORE  DCT 
+     e2 "visiidil"  SIMULTANEOUS  e3 "kaasas olnud" 
+     e3 "kaasas olnud"  BEFORE  DCT 
+     e3 "kaasas olnud"  BEFORE  e4 "keskendusid" 
+     e4 "keskendusid"  BEFORE  DCT 
+     e4 "keskendusid"  SIMULTANEOUS  e5 "takerdudes" 
+     e4 "keskendusid"  IS_INCLUDED  e7 "on" 
+     e5 "takerdudes"  BEFORE  DCT 
+
+ s1  [t2 Äsja ] [e6 ilmunud ] raamatus Eesti ühe legendaarsema spordiajakirjaniku ja riigikogulase Oskar Lõvi elust [e7 on ] pikk peatükk , kuidas ta Eesti Päevalehes [t3 1936. aasta ] Berliini [e8 olümpiamängudel ] Joseph Goebbelsi [e9 korraldatud ] suurejoonelisest [e10 vastuvõtust ] [e11 kirjutas ] .
+     e6 "ilmunud"  SIMULTANEOUS  t2 "Äsja" 
+     e6 "ilmunud"  BEFORE  DCT 
+     e6 "ilmunud"  IS_INCLUDED  e7 "on" 
+     e7 "on"  INCLUDES  DCT 
+     e7 "on"  AFTER  e11 "kirjutas" 
+     e7 "on"  AFTER  e12 "kirjeldas" 
+     e8 "olümpiamängudel"  IS_INCLUDED  t3 "1936. aasta" 
+     e8 "olümpiamängudel"  BEFORE  DCT 
+     e8 "olümpiamängudel"  BEFORE  e11 "kirjutas" 
+     e8 "olümpiamängudel"  INCLUDES  e9 "korraldatud" 
+     e9 "korraldatud"  BEFORE  DCT 
+     e9 "korraldatud"  BEFORE-OR-OVERLAP  e10 "vastuvõtust" 
+     e10 "vastuvõtust"  BEFORE  DCT 
+     e10 "vastuvõtust"  BEFORE  e11 "kirjutas" 
+     e11 "kirjutas"  BEFORE  DCT 
+
+ s2  Lõvi [e12 kirjeldas ] hämmastava detailitäpsusega menüüd ja veinikaarti .
+     e12 "kirjeldas"  BEFORE  DCT 
+     e12 "kirjeldas"  BEFORE  e13 "kommenteeris" 
+
+ s3  Ja seda kõike [e13 kommenteeris ] Georg Meri
+     e13 "kommenteeris"  BEFORE  DCT 
+     e13 "kommenteeris"  BEFORE  e14 "arvab" 
+     e13 "kommenteeris"  BEFORE  e16 "huvitama" 
+
+ s4  Lennart Meri isa ja Eesti toonane diplomaat Berliinis .
+ s5  ( Miks Ilves [e14 arvab ] , et Ärma talu leib [e15 peab ] kõiki [e16 huvitama ] , aga presidendi [e17 riigivisiidi ] menüü mitte ? )
+     e14 "arvab"  INCLUDES  DCT 
+     e14 "arvab"  INCLUDES  e16 "huvitama" 
+     e14 "arvab"  OVERLAP-OR-AFTER  e19 "oodanud" 
+     e15 "peab"  INCLUDES  DCT 
+     e15 "peab"  VAGUE  e16 "huvitama" 
+     e16 "huvitama"  INCLUDES  DCT 
+     e16 "huvitama"  OVERLAP-OR-AFTER  e19 "oodanud" 
+     e17 "riigivisiidi"  VAGUE  DCT 
+     e17 "riigivisiidi"  VAGUE  e16 "huvitama" 
+
+ s6  Missugust [e18 kajastust ] president Ilves Gruusiast oleks [e19 oodanud ] ?
+     e18 "kajastust"  BEFORE  DCT 
+     e18 "kajastust"  OVERLAP-OR-AFTER  e19 "oodanud" 
+     e19 "oodanud"  BEFORE  DCT 
+     e19 "oodanud"  IS_INCLUDED  e20 "on igapäevane" 
+
+ s7  Kas seda , kuidas altkäemaks [e20 on ] ses riigis endiselt [e20 igapäevane ] ?
+     e20 "on igapäevane"  INCLUDES  DCT 
+     e20 "on igapäevane"  IS_INCLUDED  e23 "olnud" 
+
+ s8  Kas seda , et Gruusia riigipea [e21 käitumine ] on kogu ta [e22 valitsemisperioodi ] jooksul [e23 olnud ] kõike muud , aga mitte 100% demokraatlik ?
+     e21 "käitumine"  VAGUE  DCT 
+     e21 "käitumine"  SIMULTANEOUS  e23 "olnud" 
+     e22 "valitsemisperioodi"  INCLUDES  DCT 
+     e22 "valitsemisperioodi"  SIMULTANEOUS  e23 "olnud" 
+     e23 "olnud"  INCLUDES  DCT 
+     e23 "olnud"  INCLUDES  e24 "teeb" 
+     e23 "olnud"  INCLUDES  e25 "maksab" 
+
+ s9  Kas seda , et mida [e24 teeb ] Mart Laar Gruusias , kes talle selle eest [e25 maksab ] ja kui palju ?
+     e24 "teeb"  INCLUDES  DCT 
+     e24 "teeb"  SIMULTANEOUS  e25 "maksab" 
+     e24 "teeb"  VAGUE  e26 "sokutanud" 
+     e25 "maksab"  INCLUDES  DCT 
+     e25 "maksab"  VAGUE  e26 "sokutanud" 
+
+ s10  Kas seda , et Gruusia riigipea on ameeriklased riigi etteotsa [e26 sokutanud ] ?
+     e26 "sokutanud"  BEFORE  DCT 
+     e26 "sokutanud"  BEFORE  e27 "arvan" 
+     e26 "sokutanud"  BEFORE  e30 "rahul olnud" 
+
+ s11  Ma millegipärast [e27 arvan ] , et president poleks neid teemasid [e28 lugedes ] ja [e29 kommenteerides ] samuti [e30 rahul ] [e30 olnud ] .
+     e27 "arvan"  INCLUDES  DCT 
+     e27 "arvan"  OVERLAP-OR-AFTER  e30 "rahul olnud" 
+     e27 "arvan"  VAGUE  e35 "tasu" 
+     e28 "lugedes"  BEFORE  DCT 
+     e28 "lugedes"  BEFORE-OR-OVERLAP  e30 "rahul olnud" 
+     e29 "kommenteerides"  BEFORE  DCT 
+     e29 "kommenteerides"  OVERLAP-OR-AFTER  e30 "rahul olnud" 
+     e30 "rahul olnud"  BEFORE  DCT 
+     e30 "rahul olnud"  VAGUE  e35 "tasu" 
+
+ s12  Kuni [e31 vastuvõtud ] , [e32 õhtu- ] ja [e33 lõunasöögid ] ning peen menüü [e34 on ] kõigile nähtav osake diplomaatiast , siis ei [e35 tasu ] ka [e36 ironiseerida ] selle [e37 kajastamise ] üle .
+     e31 "vastuvõtud"  VAGUE  DCT 
+     e31 "vastuvõtud"  IS_INCLUDED  e34 "on" 
+     e32 "õhtu-"  VAGUE  DCT 
+     e32 "õhtu-"  IS_INCLUDED  e34 "on" 
+     e33 "lõunasöögid"  VAGUE  DCT 
+     e33 "lõunasöögid"  IS_INCLUDED  e34 "on" 
+     e34 "on"  INCLUDES  DCT 
+     e34 "on"  INCLUDES  e35 "tasu" 
+     e35 "tasu"  INCLUDES  DCT 
+     e35 "tasu"  VAGUE  e36 "ironiseerida" 
+     e35 "tasu"  VAGUE  e38 "on vait" 
+     e36 "ironiseerida"  INCLUDES  DCT 
+     e36 "ironiseerida"  OVERLAP-OR-AFTER  e37 "kajastamise" 
+     e37 "kajastamise"  BEFORE  DCT 
+
+ s13  Muudes küsimuses [e38 on ] teljeriigid sõbralikult [e38 vait ] .
+     e38 "on vait"  VAGUE  DCT 
+
+

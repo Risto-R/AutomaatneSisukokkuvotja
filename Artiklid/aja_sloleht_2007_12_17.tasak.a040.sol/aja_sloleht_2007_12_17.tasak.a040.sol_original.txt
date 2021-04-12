@@ -1,11 +1,41 @@
 <div0><head> " Valge gospeli " jõulukontsert : Rolf Roosalu falsett pani tüdrukud kiljuma </head><bibl> <author> Dagmar Lamp </author> </bibl>
-<p rend="bold"> <s> Kolmapäevaõhtuses Tartu Peetri kirikus suutis Lauri Pihlap Michael Jacksoni loosse " Earth Song " nii palju talle omast Justin Timberlake'i tämbrit panna , et kinnisilmi võiski end selle laulja kontserdile unistada . </s> <s> Rolf Roosalu peaaegu falsetini viidud hääl laulus " O Holy Night " pani aga kuulajad vaimustusest kiljuma . </s> </p>
-<p> <s> " See on naeruväärne ! </s> <s> Kes küll tahab siia tulla ? ! " toriseb istekohta otsiv ingliskeelne välismaalane kolmapäeva õhtul Tartus puupüsti täis Peetri kirikus . </s> <s> Ometi koguneb " Valge gospeli " jõulukontserdile juba teist aastat järjest sadu inimesi . </s> </p>
-<p> <s> Ehkki hea koha saamiseks oleks pidanud kirikusse tulema juba tund aega enne kontserti , on kõik siiski rahulolevad ( mõne välismaalasest erandiga , kelles võimalus Mikk Saart ja Raimondo Laikret laulmas näha ilmselt nii suurt elevust ei tekita ) . </s> </p>
-<p rend="bold"> <s> Eestlased gospelkontserdil vaimustusega püsti ei karga </s> </p>
-<p> <s> Inimesed võiksid vabalt kas või tantsida , julgustab laulja Lauri Pihlap kontserdi avasõnu lausudes . </s> <s> Eestlased jäävad kahjuks ikka konservatiivseks , ei aita ka üliaktiivne koorijuht Anneli Pilpak , kes pingiridade vahel dirigeerides gospelkoorile emotsionaalselt kaasa elab . </s> <s> Ka end lauldes üles kütnud ja publiku sekka tormanud Raimondo Laikre ei suuda inimesi püsti sundida , ehkki kaasa plaksutatakse hoolega . </s> </p>
-<p> <s> Kõige rohkem tütarlaste huilgeid teenib Rolf Roosalu . </s> <s> Tema lauldud " O Holy Night " ning peaaegu falsetini viidud hääl paneb kuulajad vaimustusest kiljuma . </s> <s> Lauri Pihlap suudab aga Michael Jacksoni kuulsa , inimeste südametunnistusele koputava loo " Earth Song " sõnadesse ja kõlasse panna nii palju talle omast Justin Timberlake'i tämbrit , et kinnisilmi võibki end just selle popi laulja kontserdile unistada . </s> </p>
-<p rend="bold"> <s> Kontserdil on koos Eesti nooremate lauljate paremik </s> </p>
-<p> <s> Üllatusi " Valge gospel " ei paku , mõnusat käekarvad-püsti-fiilingut aga küll . </s> <s> Maikeni juhitud WAF-kooli 30liikmeline gospelkoor esitab koos Eesti 17 tuntud lauljaga 17 rohkem ja vähem tuntud kristlikku ( või lihtsalt väga ilusat ja püha ) sõnumit kandvat lugu ning ilmselt leiab igaüks kontserdil endale midagi . </s> </p>
-<p> <s> Kes eelistab Lenna Kuurmaa kähedat häält , kes Mikk Saare habetunud lõuga , kes Bert Pringi lustakat tukka , kes Nele-Liis Vaiksoo ingellikku häält , kes Kaire Vilgatsi ja Susan Lillevälja nakatavat elurõõmu . </s> </p>
-<p> <s> " Valge gospel " tuuritab mööda Eesti kirikuid nädala keskpaigani . </s> <s> Eile oli kontsert Jõhvi Mihkli kirikus , homme esinetakse Türi Püha Martini kirikus ja kolmapäeval Viljandi Pauluse kirikus . </s> </p></div0>
+<p rend="bold">
+ <s> Kolmapäevaõhtuses Tartu Peetri kirikus suutis Lauri Pihlap Michael Jacksoni loosse " Earth Song " nii palju talle omast Justin Timberlake'i tämbrit panna , et kinnisilmi võiski end selle laulja kontserdile unistada . </s>
+<s> Rolf Roosalu peaaegu falsetini viidud hääl laulus " O Holy Night " pani aga kuulajad vaimustusest kiljuma . </s> 
+</p>
+<p>
+ <s> " See on naeruväärne ! </s>
+<s> Kes küll tahab siia tulla ? ! " toriseb istekohta otsiv ingliskeelne välismaalane kolmapäeva õhtul Tartus puupüsti täis Peetri kirikus . </s>
+<s> Ometi koguneb " Valge gospeli " jõulukontserdile juba teist aastat järjest sadu inimesi . </s> 
+</p>
+<p>
+ <s> Ehkki hea koha saamiseks oleks pidanud kirikusse tulema juba tund aega enne kontserti , on kõik siiski rahulolevad ( mõne välismaalasest erandiga , kelles võimalus Mikk Saart ja Raimondo Laikret laulmas näha ilmselt nii suurt elevust ei tekita ) . </s> 
+</p>
+<p rend="bold">
+ <s> Eestlased gospelkontserdil vaimustusega püsti ei karga </s> 
+</p>
+<p>
+ <s> Inimesed võiksid vabalt kas või tantsida , julgustab laulja Lauri Pihlap kontserdi avasõnu lausudes . </s>
+<s> Eestlased jäävad kahjuks ikka konservatiivseks , ei aita ka üliaktiivne koorijuht Anneli Pilpak , kes pingiridade vahel dirigeerides gospelkoorile emotsionaalselt kaasa elab . </s>
+<s> Ka end lauldes üles kütnud ja publiku sekka tormanud Raimondo Laikre ei suuda inimesi püsti sundida , ehkki kaasa plaksutatakse hoolega . </s> 
+</p>
+<p>
+ <s> Kõige rohkem tütarlaste huilgeid teenib Rolf Roosalu . </s>
+<s> Tema lauldud " O Holy Night " ning peaaegu falsetini viidud hääl paneb kuulajad vaimustusest kiljuma . </s>
+<s> Lauri Pihlap suudab aga Michael Jacksoni kuulsa , inimeste südametunnistusele koputava loo " Earth Song " sõnadesse ja kõlasse panna nii palju talle omast Justin Timberlake'i tämbrit , et kinnisilmi võibki end just selle popi laulja kontserdile unistada . </s> 
+</p>
+<p rend="bold">
+ <s> Kontserdil on koos Eesti nooremate lauljate paremik </s> 
+</p>
+<p>
+ <s> Üllatusi " Valge gospel " ei paku , mõnusat käekarvad-püsti-fiilingut aga küll . </s>
+<s> Maikeni juhitud WAF-kooli 30liikmeline gospelkoor esitab koos Eesti 17 tuntud lauljaga 17 rohkem ja vähem tuntud kristlikku ( või lihtsalt väga ilusat ja püha ) sõnumit kandvat lugu ning ilmselt leiab igaüks kontserdil endale midagi . </s> 
+</p>
+<p>
+ <s> Kes eelistab Lenna Kuurmaa kähedat häält , kes Mikk Saare habetunud lõuga , kes Bert Pringi lustakat tukka , kes Nele-Liis Vaiksoo ingellikku häält , kes Kaire Vilgatsi ja Susan Lillevälja nakatavat elurõõmu . </s> 
+</p>
+<p>
+ <s> " Valge gospel " tuuritab mööda Eesti kirikuid nädala keskpaigani . </s>
+<s> Eile oli kontsert Jõhvi Mihkli kirikus , homme esinetakse Türi Püha Martini kirikus ja kolmapäeval Viljandi Pauluse kirikus . </s> 
+</p>
+</div0>

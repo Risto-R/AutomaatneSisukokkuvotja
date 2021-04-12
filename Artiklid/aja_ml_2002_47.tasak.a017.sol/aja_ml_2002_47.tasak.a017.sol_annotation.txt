@@ -1,0 +1,88 @@
+==================================================
+     aja_ml_2002_47.tasak.a017.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  [t2 Suvel ] põhjaliku remondi läbi [e1 teinud ] Kanepi kirikutornis [e2 troonib ] [t3 nüüdsest ] endise risti asemel ao- ehk koidutäht .
+     e1 "teinud"  IS_INCLUDED  t2 "Suvel" 
+     e1 "teinud"  BEFORE  DCT 
+     e1 "teinud"  BEFORE  e2 "troonib" 
+     e2 "troonib"  SIMULTANEOUS  t3 "nüüdsest" 
+     e2 "troonib"  INCLUDES  DCT 
+     e2 "troonib"  SIMULTANEOUS  e4 "ole" 
+
+ s2  Kanepi koguduse õpetaja Margit Laili [e3 sõnul ] ei [e4 ole ] aotähte Eestis ühegi teise kiriku peatornis .
+     e3 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e3 "sõnul"  IS_INCLUDED  e4 "ole" 
+     e4 "ole"  INCLUDES  DCT 
+     e4 "ole"  AFTER  e5 "kõrgus" 
+     e4 "ole"  AFTER  e6 "pidanud" 
+
+ s3  Aotäht [e5 kõrgus ] tornis juba kiriku pühitsemise ajal [t4 1810 ] , kuid see raudplekist täht ei [e6 pidanud ] ilmastikule [t5 sajanditki ] vastu .
+     e5 "kõrgus"  OVERLAP-OR-AFTER  t4 "1810" 
+     e5 "kõrgus"  BEFORE  DCT 
+     e5 "kõrgus"  BEFORE  e6 "pidanud" 
+     e5 "kõrgus"  BEFORE  e7 "oli" 
+     e6 "pidanud"  SIMULTANEOUS  t5 "sajanditki" 
+     e6 "pidanud"  BEFORE  DCT 
+     e6 "pidanud"  BEFORE  e7 "oli" 
+
+ s4  [t6 Aastast 1893 kuni ] [t7 tänavuse suveni ] [e7 oli ] tornis rist .
+     e7 "oli"  IS_INCLUDED  t6 "Aastast 1893 kuni" 
+     e7 "oli"  IS_INCLUDED  t7 "tänavuse suveni" 
+     e7 "oli"  BEFORE  DCT 
+     e7 "oli"  BEFORE  e13 "teab" 
+     e7 "oli"  BEFORE  e8 "seostatakse" 
+
+ s5  " Tähte kirikutornis [e8 seostatakse ] siinsete mõisnike Ungern- Sternbergidega , nende nimi Sternberg [e9 tähendab ] tõlkes tähemäge ja nii nad [e10 lasknud ] tähe tornitippu [e11 panemiseks ] oma kulu ja kirjadega [e12 valmistada ] , " [e13 teab ] Lail üht [e14 oletust ] .
+     e8 "seostatakse"  VAGUE  DCT 
+     e8 "seostatakse"  INCLUDES  e13 "teab" 
+     e8 "seostatakse"  VAGUE  e9 "tähendab" 
+     e8 "seostatakse"  INCLUDES  e15 "valmistati" 
+     e9 "tähendab"  VAGUE  DCT 
+     e9 "tähendab"  INCLUDES  e10 "lasknud" 
+     e10 "lasknud"  BEFORE  DCT 
+     e10 "lasknud"  BEFORE-OR-OVERLAP  e12 "valmistada" 
+     e10 "lasknud"  BEFORE  e13 "teab" 
+     e11 "panemiseks"  BEFORE  DCT 
+     e11 "panemiseks"  AFTER  e12 "valmistada" 
+     e12 "valmistada"  BEFORE  DCT 
+     e13 "teab"  INCLUDES  DCT 
+     e13 "teab"  VAGUE  e14 "oletust" 
+     e13 "teab"  OVERLAP-OR-AFTER  e15 "valmistati" 
+     e14 "oletust"  VAGUE  DCT 
+
+ s6  Vastne täht [e15 valmistati ] Rein Mõtuse töökojas Tallinnas täpselt sarnane algse aotähega , mis [t8 eelmisel aastal ] kirikutornist üles [e16 leiti ] .
+     e15 "valmistati"  BEFORE  DCT 
+     e15 "valmistati"  AFTER  e16 "leiti" 
+     e15 "valmistati"  BEFORE-OR-OVERLAP  e17 "sai" 
+     e16 "leiti"  IS_INCLUDED  t8 "eelmisel aastal" 
+     e16 "leiti"  BEFORE  DCT 
+
+ s7  Lisaks tähele torni tippu [e17 sai ] uue vaskse kuue tornikiiver , millel [e18 vahetati ] enne välja pehkinud puiduosi talastikus .
+     e17 "sai"  BEFORE  DCT 
+     e17 "sai"  AFTER  e18 "vahetati" 
+     e17 "sai"  BEFORE  e20 "läksid" 
+     e17 "sai"  BEFORE  e21 "maksma" 
+     e18 "vahetati"  BEFORE  DCT 
+
+ s8  Margit Laili [e19 teadmisel ] [e20 läksid ] tööd [e21 maksma ] kokku üle poole miljoni krooni , kusjuures koguduse enda kulutused [e22 piirdusid ] vaid remondiaegsete elektrikuludega .
+     e19 "teadmisel"  BEFORE-OR-OVERLAP  DCT 
+     e19 "teadmisel"  AFTER  e20 "läksid" 
+     e20 "läksid"  BEFORE  DCT 
+     e20 "läksid"  SIMULTANEOUS  e21 "maksma" 
+     e20 "läksid"  SIMULTANEOUS  e22 "piirdusid" 
+     e20 "läksid"  OVERLAP-OR-AFTER  e23 "tuli" 
+     e20 "läksid"  OVERLAP-OR-AFTER  e24 "tegi" 
+     e21 "maksma"  BEFORE  DCT 
+     e21 "maksma"  SIMULTANEOUS  e22 "piirdusid" 
+     e21 "maksma"  OVERLAP-OR-AFTER  e23 "tuli" 
+     e21 "maksma"  OVERLAP-OR-AFTER  e24 "tegi" 
+     e22 "piirdusid"  BEFORE  DCT 
+
+ s9  Raha [e23 tuli ] muinsuskaitseameti kaudu Eesti riigilt , tööd [e24 tegi ] osaühing Frantsiskus .
+     e23 "tuli"  BEFORE  DCT 
+     e23 "tuli"  BEFORE  e24 "tegi" ka VAGUE
+     e24 "tegi"  BEFORE  DCT 
+
+

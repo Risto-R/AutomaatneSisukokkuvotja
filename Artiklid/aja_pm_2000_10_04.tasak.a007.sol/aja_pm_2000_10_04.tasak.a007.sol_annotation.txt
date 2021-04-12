@@ -1,0 +1,177 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a007.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Tartu ja maakonna ligi 3500 telefonitaotlejast [e1 saab ] veel [t1 tänavu ] Eesti Telefoni kliendiks paar-kolmsada ootajat .
+     e1 "saab"  IS_INCLUDED  t1 "tänavu" 
+     e1 "saab"  AFTER  DCT 
+     e1 "saab"  AFTER  e2 "on järjekorras" 
+
+ s1  ASil Eesti Telefon [e2 on ] Tartumaal [t2 praegu ] [e2 järjekorras ] ligi 3500 telefonitaotlejat , kellest 800 [e3 elab-töötab ] Tartus .
+     e2 "on järjekorras"  SIMULTANEOUS  t2 "praegu" 
+     e2 "on järjekorras"  INCLUDES  DCT 
+     e2 "on järjekorras"  SIMULTANEOUS  e3 "elab-töötab" 
+     e2 "on järjekorras"  BEFORE  e4 "võtab ühendust" 
+     e2 "on järjekorras"  INCLUDES  e5 "kinnitas" 
+     e3 "elab-töötab"  INCLUDES  DCT 
+
+ s2  " Suurema osaga taotlejatest [e4 võtab ] firma [t3 lähiajal ] [e4 ühendust ] , " [e5 kinnitas ] Eesti Telefoni pressiesindaja Anu Vahtra .
+     e4 "võtab ühendust"  IS_INCLUDED  t3 "lähiajal" 
+     e4 "võtab ühendust"  OVERLAP-OR-AFTER  DCT 
+     e4 "võtab ühendust"  AFTER  e5 "kinnitas" 
+     e4 "võtab ühendust"  AFTER  e6 "ühendab" 
+     e5 "kinnitas"  BEFORE-OR-OVERLAP  DCT 
+     e5 "kinnitas"  IS_INCLUDED  e6 "ühendab" 
+
+ s3  [t4 Praegu ] [e6 ühendab ] Eesti Telefon digitaaljaama Elvas .
+     e6 "ühendab"  SIMULTANEOUS  t4 "Praegu" 
+     e6 "ühendab"  INCLUDES  DCT 
+     e6 "ühendab"  BEFORE  e7 "saab" 
+
+ s4  Seal [e7 saab ] [t5 lähiajal ] , pärast [e8 võrguehitustööde ] [e9 lõppemist ] , digitaaltelefoni 360 inimest või ettevõtet .
+     e7 "saab"  IS_INCLUDED  t5 "lähiajal" 
+     e7 "saab"  AFTER  DCT 
+     e7 "saab"  AFTER  e9 "lõppemist" 
+     e7 "saab"  AFTER  e10 "tee" 
+     e7 "saab"  AFTER  e13 "selgitas" 
+     e8 "võrguehitustööde"  INCLUDES  DCT 
+     e8 "võrguehitustööde"  INCLUDES  e9 "lõppemist" 
+     e9 "lõppemist"  AFTER  DCT 
+
+ s5  " Me ei [e10 tee ] Elvas üleüldist [e11 digitaliseerimist ] ega [e12 numbritemuutust ] , " [e13 selgitas ] Vahtra .
+     e10 "tee"  INCLUDES  DCT 
+     e10 "tee"  INCLUDES  e13 "selgitas" 
+     e10 "tee"  IS_INCLUDED  e11 "digitaliseerimist" 
+     e10 "tee"  IS_INCLUDED  e12 "numbritemuutust" 
+     e10 "tee"  BEFORE  e14 "saavad" 
+     e11 "digitaliseerimist"  VAGUE  DCT 
+     e12 "numbritemuutust"  VAGUE  DCT 
+     e13 "selgitas"  BEFORE-OR-OVERLAP  DCT 
+     e13 "selgitas"  BEFORE  e14 "saavad" 
+
+ s6  " Digitaalühenduse [e14 saavad ] vaid need kliendid , kes seda ise [e15 soovivad ] . "
+     e14 "saavad"  OVERLAP-OR-AFTER  DCT 
+     e14 "saavad"  AFTER  e15 "soovivad" 
+     e14 "saavad"  VAGUE  e17 "on" ka SIMULTANEOUS
+     e15 "soovivad"  INCLUDES  DCT 
+
+ s7  Uue jaama [e16 töölehakkamisel ] Elvas [e17 on ] liitumisvõimalus 120-130 telefonitaotlejal .
+     e16 "töölehakkamisel"  AFTER  DCT 
+     e16 "töölehakkamisel"  INCLUDES  e17 "on" 
+     e17 "on"  AFTER  DCT 
+     e17 "on"  AFTER  e18 "on käsil" 
+
+ s8  Tartus [e18 on ] telefonifirmal [e18 käsil ] Variku linnaosa praeguse 400-numbrise digitaaljaama [e19 laiendamine ] 600-numbriliseks .
+     e18 "on käsil"  INCLUDES  DCT 
+     e18 "on käsil"  SIMULTANEOUS  e19 "laiendamine" 
+     e18 "on käsil"  BEFORE  e22 "on võimalik" 
+     e19 "laiendamine"  INCLUDES  DCT 
+
+ s9  [e20 Tööde ] [e21 lõppedes ] [e22 on ] Variku elanikel [e22 võimalik ] [e23 vahetada ] analoogühendus digitaalse vastu .
+     e20 "Tööde"  INCLUDES  DCT 
+     e20 "Tööde"  INCLUDES  e21 "lõppedes" 
+     e21 "lõppedes"  AFTER  DCT 
+     e21 "lõppedes"  BEFORE  e22 "on võimalik" 
+     e21 "lõppedes"  BEFORE  e23 "vahetada" 
+     e22 "on võimalik"  AFTER  DCT 
+     e22 "on võimalik"  SIMULTANEOUS  e23 "vahetada" 
+     e22 "on võimalik"  AFTER  e26 "osanud" 
+     e23 "vahetada"  AFTER  DCT 
+
+ s10  Kui palju inimesi sealkandis aga Eesti Telefoniga [e24 liituda ] [e25 saab ] , ei [e26 osanud ] Vahtra [e27 vastata ] .
+     e24 "liituda"  AFTER  DCT 
+     e24 "liituda"  AFTER  e26 "osanud" 
+     e24 "liituda"  VAGUE  e25 "saab" 
+     e25 "saab"  AFTER  DCT 
+     e25 "saab"  AFTER  e27 "vastata" 
+     e26 "osanud"  BEFORE-OR-OVERLAP  DCT 
+     e26 "osanud"  VAGUE  e27 "vastata" 
+     e26 "osanud"  BEFORE-OR-OVERLAP  e30 "kostis" 
+     e26 "osanud"  VAGUE  e28 "sõltub" 
+     e27 "vastata"  BEFORE-OR-OVERLAP  DCT 
+
+ s11  " Kõik [e28 sõltub ] sellest , kui palju [e29 on ] analoogtelefoni digitaalse vastu vahetajaid , " [e30 kostis ] ta .
+     e28 "sõltub"  INCLUDES  DCT 
+     e28 "sõltub"  SIMULTANEOUS  e29 "on" 
+     e28 "sõltub"  VAGUE  e30 "kostis" 
+     e28 "sõltub"  VAGUE  e31 "leiavad" 
+     e29 "on"  VAGUE  DCT 
+     e30 "kostis"  BEFORE-OR-OVERLAP  DCT 
+     e30 "kostis"  BEFORE  e31 "leiavad" 
+
+ s12  " Kõik vabad numbrid [e31 leiavad ] kasutajad . "
+     e31 "leiavad"  AFTER  DCT 
+     e31 "leiavad"  AFTER  e32 "lisas" 
+     e31 "leiavad"  IS_INCLUDED  e33 "kaetud" 
+     e31 "leiavad"  VAGUE  e34 "on tegemata" 
+
+ s13  Vahtra [e32 lisas ] , et Tartus on suured elurajoonid telefonivõrguga [e33 kaetud ] , töö [e34 on ] [e34 tegemata ] veel Tammelinna lõunaosas , Vana-Ihaste suvilapiirkonnas ja Ropka linnaosas .
+     e32 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e32 "lisas"  IS_INCLUDED  e33 "kaetud" 
+     e32 "lisas"  BEFORE-OR-OVERLAP  e38 "nentis" 
+     e32 "lisas"  BEFORE  e36 "oska" 
+     e33 "kaetud"  INCLUDES  DCT 
+     e33 "kaetud"  SIMULTANEOUS  e34 "on tegemata" 
+     e33 "kaetud"  INCLUDES  e36 "oska" 
+     e33 "kaetud"  INCLUDES  e38 "nentis" 
+     e34 "on tegemata"  INCLUDES  DCT 
+     e34 "on tegemata"  INCLUDES  e36 "oska" 
+     e34 "on tegemata"  INCLUDES  e38 "nentis" 
+
+ s14  " Millal neis kohtades elavad inimesed telefoni [e35 saavad ] , ei [e36 oska ] ma [t6 praegu ] [e37 öelda ] , " [e38 nentis ] Vahtra .
+     e35 "saavad"  AFTER  DCT 
+     e35 "saavad"  AFTER  e36 "oska" 
+     e35 "saavad"  AFTER  e37 "öelda" 
+     e35 "saavad"  AFTER  e38 "nentis" 
+     e36 "oska"  SIMULTANEOUS  t6 "praegu" 
+     e36 "oska"  INCLUDES  DCT 
+     e36 "oska"  IS_INCLUDED  e39 "ehitab" 
+     e37 "öelda"  SIMULTANEOUS  t6 "praegu" 
+     e37 "öelda"  INCLUDES  DCT 
+     e37 "öelda"  VAGUE  e38 "nentis" 
+     e38 "nentis"  BEFORE-OR-OVERLAP  DCT 
+     e38 "nentis"  IS_INCLUDED  e39 "ehitab" 
+
+ s15  " Eesti Telefon [e39 ehitab ] [t7 igal aastal ] uusi jaamu . "
+     e39 "ehitab"  IS_INCLUDED  t7 "igal aastal" 
+     e39 "ehitab"  INCLUDES  DCT 
+     e39 "ehitab"  INCLUDES  e40 "ehitas" 
+     e39 "ehitab"  INCLUDES  e41 "kasutab" 
+
+ s16  [t8 Tänavu ] [e40 ehitas ] Eesti Telefon uue digitaaljaama Varale , seal [e41 kasutab ] [t9 nüüd ] digitaaltelefoni teenuseid 140 klienti .
+     e40 "ehitas"  BEFORE-OR-OVERLAP  t8 "Tänavu" 
+     e40 "ehitas"  BEFORE  DCT 
+     e40 "ehitas"  BEFORE  e41 "kasutab" 
+     e40 "ehitas"  BEFORE  e42 "sai" 
+     e41 "kasutab"  SIMULTANEOUS  t9 "nüüd" 
+     e41 "kasutab"  INCLUDES  DCT 
+     e41 "kasutab"  AFTER  e42 "sai" 
+
+ s17  Telefoniomanikuks [e42 sai ] 20 Vara telefonitaotlejat .
+     e42 "sai"  BEFORE  DCT 
+     e42 "sai"  BEFORE  e43 "pakub võimalust" 
+
+ s18  Kambja , Nõo , Rõngu , Konguta ja Haaslava valla inimestele [e43 pakub ] Eesti Telefon sõltuvalt Valgjärve RAS-masti levipiirkonnast [e43 võimalust ] [e44 liituda ] raadiotelefoni ühendusega .
+     e43 "pakub võimalust"  INCLUDES  DCT 
+     e43 "pakub võimalust"  VAGUE  e44 "liituda" 
+     e43 "pakub võimalust"  SIMULTANEOUS  e45 "on võimalus" 
+     e44 "liituda"  INCLUDES  DCT 
+
+ s19  400 inimesel [e45 on ] [e45 võimalus ] [e46 liituda ] või [e47 vahetada ] oma analoogtelefon digitaaltelefoni vastu .
+     e45 "on võimalus"  INCLUDES  DCT 
+     e45 "on võimalus"  VAGUE  e46 "liituda" 
+     e45 "on võimalus"  VAGUE  e47 "vahetada" 
+     e45 "on võimalus"  IS_INCLUDED  e48 "on" 
+     e46 "liituda"  INCLUDES  DCT 
+     e46 "liituda"  SIMULTANEOUS  e47 "vahetada" 
+     e47 "vahetada"  INCLUDES  DCT 
+
+ s20  Eesti Telefonil [e48 on ] [t10 praegu ] Tartumaa linnades 32 600 era- ja ligi 6300 äriklienti .
+     e48 "on"  SIMULTANEOUS  t10 "praegu" 
+     e48 "on"  INCLUDES  DCT 
+     e48 "on"  SIMULTANEOUS  e49 "kasutab" 
+
+ s21  Maal [e49 kasutab ] firma teenuseid ligi 8600 era- ja 1500 äriklienti .
+     e49 "kasutab"  INCLUDES  DCT 
+
+

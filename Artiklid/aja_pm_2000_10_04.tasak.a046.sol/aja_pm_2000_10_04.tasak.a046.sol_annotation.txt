@@ -1,0 +1,245 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a046.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Endisesse tootmishoonesse [e1 tuleb ] hokimängijate , iluuisutajate ja tavaliste uisutajate jaoks kolm jääplatsi
+     e1 "tuleb"  AFTER  DCT 
+     e1 "tuleb"  OVERLAP-OR-AFTER  e2 "avab" 
+
+ s1  Tallinnas Lasnamäel endises Dvigateli tootmishoones [e2 avab ] [t1 tuleval nädalal ] uksed pealinna teine jäähall , mille katuse all [e3 hakkab ] korraga [e4 töös ] [e4 olema ] kolm jääplatsi .
+     e2 "avab"  IS_INCLUDED  t1 "tuleval nädalal" 
+     e2 "avab"  AFTER  DCT 
+     e2 "avab"  IS_INCLUDED  e3 "hakkab" 
+     e2 "avab"  AFTER  e5 "ütles" 
+     e3 "hakkab"  AFTER  DCT 
+     e3 "hakkab"  BEFORE-OR-OVERLAP  e4 "töös olema" 
+     e4 "töös olema"  AFTER  DCT 
+
+ s2  Tulevase halli üks omanikest , ASi HK Hall juhatuse esimees Leo Jakobson [e5 ütles ] Postimehele , et kaks täiemõõdulist hokiplatsi [e6 saavad ] ümber poordid ning on eelkõige [e7 mõeldud ] hokimängijatele ja iluuisutajatele .
+     e5 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e5 "ütles"  BEFORE-OR-OVERLAP  e7 "mõeldud" 
+     e5 "ütles"  BEFORE  e6 "saavad" 
+     e5 "ütles"  BEFORE  e10 "mängida" 
+     e5 "ütles"  BEFORE  e11 "on avatud" 
+     e5 "ütles"  BEFORE  e8 "jääb" 
+     e6 "saavad"  AFTER  DCT 
+     e6 "saavad"  IS_INCLUDED  e7 "mõeldud" 
+     e6 "saavad"  BEFORE  e11 "on avatud" 
+     e6 "saavad"  IS_INCLUDED  e8 "jääb" 
+     e7 "mõeldud"  OVERLAP-OR-AFTER  DCT 
+     e7 "mõeldud"  SIMULTANEOUS  e8 "jääb" ka VAGUE
+     e7 "mõeldud"  VAGUE  e11 "on avatud" ka SIMULTANEOUS
+
+ s3  Kolmas väljak [e8 jääb ] poordideta ning sellel [e9 saab ] [t2 kahel päeval nädalas ] [e10 mängida ] olümpiaala curling'ut , [t3 teistel päevadel ] [e11 on ] plats [e11 avatud ] n-ö vaba jääna ehk lihtsalt uisusõprade [e12 kasutada ] .
+     e8 "jääb"  OVERLAP-OR-AFTER  DCT 
+     e8 "jääb"  INCLUDES  e10 "mängida" 
+     e8 "jääb"  BEFORE-OR-OVERLAP  e13 "pääsevad" 
+     e8 "jääb"  BEFORE-OR-OVERLAP  e15 "on lahti" 
+     e9 "saab"  AFTER  DCT 
+     e9 "saab"  BEFORE-OR-OVERLAP  e10 "mängida" 
+     e10 "mängida"  IS_INCLUDED  t2 "kahel päeval nädalas" 
+     e10 "mängida"  AFTER  DCT 
+     e10 "mängida"  VAGUE  e11 "on avatud" 
+     e11 "on avatud"  IS_INCLUDED  t3 "teistel päevadel" 
+     e11 "on avatud"  AFTER  DCT 
+     e11 "on avatud"  SIMULTANEOUS  e12 "kasutada" 
+     e11 "on avatud"  AFTER  e13 "pääsevad" 
+     e11 "on avatud"  INCLUDES  e15 "on lahti" 
+     e12 "kasutada"  AFTER  DCT 
+
+ s4  Hokipoisid [e13 pääsevad ] jääle [e14 treenima ] juba [t4 12. oktoobril ] , harrastajatele [e15 on ] vaba jää [t5 õhtuti ] [e15 lahti ] [t6 alates 16. oktoobrist ] .
+     e13 "pääsevad"  IS_INCLUDED  t4 "12. oktoobril" 
+     e13 "pääsevad"  AFTER  DCT 
+     e13 "pääsevad"  BEFORE-OR-OVERLAP  e14 "treenima" 
+     e13 "pääsevad"  BEFORE  e15 "on lahti" 
+     e13 "pääsevad"  AFTER  e16 "märkis" 
+     e13 "pääsevad"  IS_INCLUDED  e18 "maksab" 
+     e14 "treenima"  AFTER  DCT 
+     e14 "treenima"  VAGUE  e15 "on lahti" 
+     e15 "on lahti"  OVERLAP-OR-AFTER  t6 "alates 16. oktoobrist" 
+     e15 "on lahti"  AFTER  DCT 
+     e15 "on lahti"  AFTER  e16 "märkis" 
+     e15 "on lahti"  IS_INCLUDED  e18 "maksab" 
+
+ s5  Jakobson [e16 märkis ] , et [t7 tund aega ] vabal jääl [e17 uisutamist ] [e18 maksab ] täiskasvanule 25 ja lapsele 12 krooni .
+     e16 "märkis"  BEFORE-OR-OVERLAP  DCT 
+     e16 "märkis"  BEFORE  e18 "maksab" 
+     e16 "märkis"  BEFORE  e19 "nähtud" 
+     e16 "märkis"  BEFORE  e23 "lisas" 
+     e17 "uisutamist"  SIMULTANEOUS  t7 "tund aega" 
+     e17 "uisutamist"  AFTER  DCT 
+     e17 "uisutamist"  AFTER  e18 "maksab" ka VAGUE
+     e18 "maksab"  AFTER  DCT 
+     e18 "maksab"  AFTER  e23 "lisas" 
+     e18 "maksab"  SIMULTANEOUS  e19 "nähtud" 
+
+ s6  " Lapsele on lisaks veel tasuta ette [e19 nähtud ] tass kuuma teed , sest [e20 olgem ] [e20 ausad ] , tegu [e21 on ] jäähalliga ning siin [e22 on ] ikkagi [e22 külm ] , " [e23 lisas ] ta .
+     e19 "nähtud"  AFTER  DCT 
+     e19 "nähtud"  AFTER  e23 "lisas" 
+     e19 "nähtud"  VAGUE  e20 "olgem ausad" 
+     e19 "nähtud"  IS_INCLUDED  e25 "on odavam" 
+     e20 "olgem ausad"  VAGUE  DCT 
+     e20 "olgem ausad"  VAGUE  e21 "on" 
+     e21 "on"  INCLUDES  DCT 
+     e21 "on"  SIMULTANEOUS  e22 "on külm" 
+     e22 "on külm"  INCLUDES  DCT 
+     e23 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e23 "lisas"  IS_INCLUDED  e25 "on odavam" 
+
+ s7  Uue halli [e24 uisutund ] [e25 on ] [e25 odavam ] kui linnahallis , kus täiskasvanul [e26 tuleb ] [t8 tunniajase ] [e27 uisutamise ] eest välja [e28 käia ] 30 krooni ja lapsel 15 krooni .
+     e24 "uisutund"  AFTER  DCT 
+     e24 "uisutund"  IS_INCLUDED  e25 "on odavam" 
+     e25 "on odavam"  INCLUDES  DCT 
+     e25 "on odavam"  INCLUDES  e26 "tuleb" 
+     e25 "on odavam"  INCLUDES  e28 "käia" 
+     e25 "on odavam"  VAGUE  e30 "on puudus" 
+     e26 "tuleb"  INCLUDES  DCT 
+     e26 "tuleb"  BEFORE  e27 "uisutamise" 
+     e26 "tuleb"  VAGUE  e28 "käia" 
+     e27 "uisutamise"  SIMULTANEOUS  t8 "tunniajase" 
+     e27 "uisutamise"  VAGUE  DCT 
+     e28 "käia"  INCLUDES  DCT 
+
+ s8  Jakobsoni [e29 sõnul ] [e30 on ] Tallinnas [t9 praegu ] jääväljakutest suur [e30 puudus ] , mistõttu [e31 tekkis ] ka [e32 idee ] [e33 rajada ] Dvigateli 192 meetri pikkusesse ja 36 meetri laiusesse endisesse tootmishoonesse jäähall .
+     e29 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e29 "sõnul"  IS_INCLUDED  e30 "on puudus" 
+     e30 "on puudus"  SIMULTANEOUS  t9 "praegu" 
+     e30 "on puudus"  INCLUDES  DCT 
+     e30 "on puudus"  INCLUDES  e31 "tekkis" 
+     e30 "on puudus"  INCLUDES  e37 "rääkis" 
+     e30 "on puudus"  SIMULTANEOUS  e34 "mahu" 
+     e30 "on puudus"  SIMULTANEOUS  e35 "on ohtlik" 
+     e31 "tekkis"  BEFORE  DCT 
+     e31 "tekkis"  BEFORE-OR-OVERLAP  e32 "idee" 
+     e32 "idee"  BEFORE  DCT 
+     e32 "idee"  BEFORE-OR-OVERLAP  e33 "rajada" 
+     e33 "rajada"  INCLUDES  DCT 
+
+ s9  " Lapsed ei [e34 mahu ] enam hokiringidesse ning linnahalli vaba jää [e35 on ] lausa [e35 ohtlik ] , sest seal [e36 on ] korraga liiga palju inimesi , " [e37 rääkis ] ta .
+     e34 "mahu"  INCLUDES  DCT 
+     e34 "mahu"  INCLUDES  e37 "rääkis" ka VAGUE
+     e34 "mahu"  SIMULTANEOUS  e35 "on ohtlik" ka VAGUE
+     e34 "mahu"  OVERLAP-OR-AFTER  e38 "oli täis" 
+     e35 "on ohtlik"  INCLUDES  DCT 
+     e35 "on ohtlik"  INCLUDES  e36 "on" ka VAGUE
+     e35 "on ohtlik"  INCLUDES  e37 "rääkis" ka VAGUE
+     e35 "on ohtlik"  OVERLAP-OR-AFTER  e38 "oli täis" 
+     e36 "on"  INCLUDES  DCT 
+     e37 "rääkis"  BEFORE-OR-OVERLAP  DCT 
+     e37 "rääkis"  AFTER  e38 "oli täis" 
+
+ s10  " Seejuures [e38 olid ] kõik jää-ajad nii Talleksis kui ka linnahallis [e38 täis ] . "
+     e38 "oli täis"  BEFORE  DCT 
+     e38 "oli täis"  BEFORE-OR-OVERLAP  e41 "pannud" 
+
+ s11  Jakobsoni [e39 sõnul ] on hokiklubid ja iluuisutajad juba peaaegu kõik uue halli [t10 õhtused ] [e40 treeninguajad ] kinni [e41 pannud ] .
+     e39 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e39 "sõnul"  AFTER  e41 "pannud" 
+     e40 "treeninguajad"  IS_INCLUDED  t10 "õhtused" 
+     e40 "treeninguajad"  AFTER  DCT 
+     e40 "treeninguajad"  VAGUE  e41 "pannud" 
+     e41 "pannud"  BEFORE  DCT 
+     e41 "pannud"  BEFORE  e42 "pakub" 
+
+ s12  Uus hall [e42 pakub ] [t11 hommikuti ] koolidele [e43 võimalust ] lapsi odavalt [e44 uisutama ] [e45 tuua ] , [e46 küsides ] umbes kahe klassitäie laste [t12 tunniajase ] [e47 uisutamise ] eest 300 krooni .
+     e42 "pakub"  SIMULTANEOUS  t11 "hommikuti" 
+     e42 "pakub"  AFTER  DCT 
+     e42 "pakub"  SIMULTANEOUS  e43 "võimalust" 
+     e42 "pakub"  SIMULTANEOUS  e46 "küsides" 
+     e42 "pakub"  AFTER  e50 "lisas" 
+     e42 "pakub"  SIMULTANEOUS  e49 "harrastada" 
+     e43 "võimalust"  AFTER  DCT 
+     e43 "võimalust"  INCLUDES  e45 "tuua" 
+     e43 "võimalust"  SIMULTANEOUS  e46 "küsides" 
+     e44 "uisutama"  AFTER  DCT 
+     e44 "uisutama"  OVERLAP-OR-AFTER  e45 "tuua" 
+     e45 "tuua"  AFTER  DCT 
+     e46 "küsides"  AFTER  DCT 
+     e47 "uisutamise"  SIMULTANEOUS  t12 "tunniajase" 
+     e47 "uisutamise"  AFTER  DCT 
+
+ s13  " Põhjamaa rahvas [e48 saab ] siis ka põhjamaiseid alasid [e49 harrastada ] , " [e50 lisas ] ta .
+     e48 "saab"  AFTER  DCT 
+     e48 "saab"  BEFORE-OR-OVERLAP  e49 "harrastada" 
+     e48 "saab"  AFTER  e51 "käivad" 
+     e48 "saab"  AFTER  e53 "pooleli on" 
+     e48 "saab"  AFTER  e55 "hakatakse" 
+     e49 "harrastada"  AFTER  DCT 
+     e49 "harrastada"  AFTER  e50 "lisas" 
+     e50 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e50 "lisas"  BEFORE  e56 "tegema" 
+     e50 "lisas"  IS_INCLUDED  e51 "käivad" 
+     e50 "lisas"  IS_INCLUDED  e53 "pooleli on" 
+
+ s14  [t13 Hetkel ] [e51 käivad ] Suur-Sõjamäe 14b asuvas tootmishoones kiired [e52 ehitustööd ] , [e53 pooleli ] [e53 on ] abi- ja riietusruumide [e54 ehitamine ] , [t14 täna ] [e55 hakatakse ] platsidele jääd [e56 tegema ] .
+     e51 "käivad"  SIMULTANEOUS  t13 "Hetkel" 
+     e51 "käivad"  INCLUDES  DCT 
+     e51 "käivad"  INCLUDES  e53 "pooleli on" 
+     e51 "käivad"  INCLUDES  e55 "hakatakse" 
+     e51 "käivad"  SIMULTANEOUS  e52 "ehitustööd" 
+     e51 "käivad"  BEFORE  e59 "pidada" 
+     e51 "käivad"  BEFORE  e61 "hakkavad" 
+     e52 "ehitustööd"  INCLUDES  DCT 
+     e53 "pooleli on"  INCLUDES  DCT 
+     e53 "pooleli on"  INCLUDES  e55 "hakatakse" 
+     e53 "pooleli on"  IS_INCLUDED  e54 "ehitamine" 
+     e53 "pooleli on"  BEFORE-OR-OVERLAP  e59 "pidada" 
+     e53 "pooleli on"  BEFORE-OR-OVERLAP  e61 "hakkavad" 
+     e54 "ehitamine"  INCLUDES  DCT 
+     e55 "hakatakse"  IS_INCLUDED  t14 "täna" 
+     e55 "hakatakse"  IS_INCLUDED  DCT 
+     e55 "hakatakse"  BEFORE-OR-OVERLAP  e56 "tegema" 
+     e56 "tegema"  OVERLAP-OR-AFTER  DCT 
+     e56 "tegema"  BEFORE  e59 "pidada" 
+     e56 "tegema"  BEFORE  e61 "hakkavad" 
+
+ s15  Jakobsoni [e57 sõnul ] [e58 saab ] uues hallis [e59 pidada ] ka [e60 hokivõistlusi ] ning seal [e61 hakkavad ] [e62 tööle ] uisulaenutus ja kohvik .
+     e57 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e57 "sõnul"  BEFORE  e59 "pidada" 
+     e58 "saab"  AFTER  DCT 
+     e58 "saab"  BEFORE-OR-OVERLAP  e59 "pidada" 
+     e59 "pidada"  AFTER  DCT 
+     e59 "pidada"  SIMULTANEOUS  e60 "hokivõistlusi" 
+     e59 "pidada"  VAGUE  e61 "hakkavad" 
+     e59 "pidada"  VAGUE  e62 "tööle" 
+     e59 "pidada"  OVERLAP-OR-AFTER  e64 "veavad" 
+     e60 "hokivõistlusi"  AFTER  DCT 
+     e61 "hakkavad"  AFTER  DCT 
+     e61 "hakkavad"  BEFORE-OR-OVERLAP  e62 "tööle" 
+     e61 "hakkavad"  OVERLAP-OR-AFTER  e64 "veavad" 
+     e62 "tööle"  AFTER  DCT 
+
+ s16  Jakobsoni [e63 ütlusel ] [e64 veavad ] umbes 20 miljonit krooni [e65 maksma ] minevat [e66 projekti ] kolm meest , kellel [e67 sai ] laste nadidest uisutamisvõimalustest kõrini .
+     e63 "ütlusel"  BEFORE-OR-OVERLAP  DCT 
+     e63 "ütlusel"  IS_INCLUDED  e64 "veavad" 
+     e64 "veavad"  INCLUDES  DCT 
+     e64 "veavad"  AFTER  e67 "sai" 
+     e64 "veavad"  SIMULTANEOUS  e66 "projekti" 
+     e64 "veavad"  INCLUDES  e69 "võtsid" 
+     e65 "maksma"  OVERLAP-OR-AFTER  DCT 
+     e65 "maksma"  IS_INCLUDED  e66 "projekti" 
+     e66 "projekti"  INCLUDES  DCT 
+     e67 "sai"  BEFORE  DCT 
+
+ s17  Kolme jääplatsi [e68 rajamiseks ] Dvigateli endisesse tootmishoonesse [e69 võtsid ] mehed [e70 pangalaenu ] .
+     e68 "rajamiseks"  INCLUDES  DCT 
+     e68 "rajamiseks"  AFTER  e69 "võtsid" 
+     e69 "võtsid"  BEFORE  DCT 
+     e69 "võtsid"  BEFORE-OR-OVERLAP  e70 "pangalaenu" 
+     e69 "võtsid"  BEFORE  e71 "märkis" 
+     e69 "võtsid"  BEFORE  e74 "laiendada" 
+     e70 "pangalaenu"  INCLUDES  DCT 
+
+ s18  Jakobson [e71 märkis ] , et [e72 vajadusel ] [e73 saab ] uut jääkeskust veelgi [e74 laiendada ] , kui [e75 rajada ] ka kõrval asuvasse samalaadsesse tootmishoonesse jääväljakuid .
+     e71 "märkis"  BEFORE-OR-OVERLAP  DCT 
+     e71 "märkis"  BEFORE  e73 "saab" 
+     e71 "märkis"  BEFORE  e74 "laiendada" 
+     e72 "vajadusel"  VAGUE  DCT 
+     e72 "vajadusel"  BEFORE-OR-OVERLAP  e74 "laiendada" 
+     e73 "saab"  AFTER  DCT 
+     e73 "saab"  BEFORE-OR-OVERLAP  e74 "laiendada" 
+     e74 "laiendada"  AFTER  DCT 
+     e74 "laiendada"  OVERLAP-OR-AFTER  e75 "rajada" 
+     e75 "rajada"  AFTER  DCT 
+
+

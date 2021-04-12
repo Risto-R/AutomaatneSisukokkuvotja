@@ -1,0 +1,123 @@
+==================================================
+     aja_ml_2002_47.tasak.a007.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  EPMÜ teadusprorektori Lembit Nei ( 45 ) ja metsandusteaduskonna dekaani Hardi Tulluse ( 46 ) kõrval [e1 pürib ] rektoritoolile ka mees väljastpoolt - Tartu Ülikooli zooloogia ja hüdrobioloogia instituudi erizooloogia korraline professor Alar Karis ( 44 ) .
+     e1 "pürib"  INCLUDES  DCT 
+     e1 "pürib"  AFTER  e2 "esitas" 
+
+ s2  Tema kandidatuuri [e2 esitas ] maaülikooli endine rektor Nikolai Kozlov .
+     e2 "esitas"  BEFORE  DCT 
+     e2 "esitas"  AFTER  e3 "töötanud" 
+     e2 "esitas"  AFTER  e4 "osalenud" 
+
+ s3  Veterinaariharidusega Alar Karis on [e3 töötanud ] ka Rotterdami ja Londoni ülikoolis ning [e4 osalenud ] rahvusvahelistes projektides .
+     e3 "töötanud"  BEFORE  DCT 
+     e3 "töötanud"  VAGUE  e4 "osalenud" 
+     e3 "töötanud"  VAGUE  e5 "on" 
+     e4 "osalenud"  BEFORE  DCT 
+     e4 "osalenud"  VAGUE  e5 "on" 
+
+ s4  Üks Karise uurimisvaldkondi [e5 on ] transgeensed loomamudelid biotehnoloogias .
+     e5 "on"  INCLUDES  DCT 
+     e5 "on"  VAGUE  e10 "on" 
+
+ s5  Tema töörühma [e6 loodud ] geneetiliselt muundatud hiired , mille abil [e7 uuritakse ] [e8 haiguste ] [e9 teket ] , [e10 on ] nõutud kaup ka välisturul .
+     e6 "loodud"  BEFORE  DCT 
+     e6 "loodud"  BEFORE  e10 "on" 
+     e7 "uuritakse"  VAGUE  DCT 
+     e7 "uuritakse"  VAGUE  e10 "on" 
+     e7 "uuritakse"  VAGUE  e9 "teket" 
+     e8 "haiguste"  VAGUE  DCT 
+     e8 "haiguste"  OVERLAP-OR-AFTER  e9 "teket" 
+     e9 "teket"  VAGUE  DCT 
+     e10 "on"  INCLUDES  DCT 
+     e10 "on"  INCLUDES  e14 "ütles" 
+
+ s6  " Olen oma tööd [e11 teinud ] piisavalt hästi ja [e12 kulutanud ] palju energiat tehnoloogia ülesehitamiseks , seepärast [e13 oli ] kandideerimisotsus minu jaoks väga [e13 raske ] , " [e14 ütles ] Karis .
+     e11 "teinud"  BEFORE  DCT 
+     e11 "teinud"  BEFORE  e14 "ütles" 
+     e11 "teinud"  SIMULTANEOUS  e12 "kulutanud" 
+     e11 "teinud"  BEFORE  e15 "on" 
+     e12 "kulutanud"  BEFORE  DCT 
+     e12 "kulutanud"  BEFORE-OR-OVERLAP  e13 "oli raske" 
+     e12 "kulutanud"  BEFORE  e14 "ütles" 
+     e13 "oli raske"  BEFORE  DCT 
+     e13 "oli raske"  BEFORE  e14 "ütles" 
+     e13 "oli raske"  IS_INCLUDED  e15 "on" 
+     e14 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e14 "ütles"  IS_INCLUDED  e15 "on" 
+
+ s7  " Kuid mul [e15 on ] piisavalt inimesi , kes [e16 suudavad ] tööd [e17 jätkata ] .
+     e15 "on"  INCLUDES  DCT 
+     e15 "on"  INCLUDES  e16 "suudavad" 
+     e15 "on"  INCLUDES  e17 "jätkata" 
+     e15 "on"  VAGUE  e18 "pole naiivne" 
+     e16 "suudavad"  OVERLAP-OR-AFTER  DCT 
+     e16 "suudavad"  BEFORE-OR-OVERLAP  e17 "jätkata" 
+     e17 "jätkata"  OVERLAP-OR-AFTER  DCT 
+
+ s8  Ma [e18 pole ] nii [e18 naiivne ] , et [e19 arvata ] , justkui [e20 saaks ] rektoriametis [e21 käia ] [t2 pühapäeva hommikuti ] teadust [e22 tegemas ] . "
+     e18 "pole naiivne"  VAGUE  DCT 
+     e18 "pole naiivne"  INCLUDES  e19 "arvata" 
+     e18 "pole naiivne"  INCLUDES  e26 "arutles" 
+     e18 "pole naiivne"  VAGUE  e24 "raskendab" 
+     e18 "pole naiivne"  VAGUE  e25 "annab" 
+     e19 "arvata"  VAGUE  DCT 
+     e19 "arvata"  VAGUE  e21 "käia" 
+     e20 "saaks"  VAGUE  DCT 
+     e20 "saaks"  VAGUE  e21 "käia" 
+     e21 "käia"  IS_INCLUDED  t2 "pühapäeva hommikuti" 
+     e21 "käia"  AFTER  DCT 
+     e21 "käia"  VAGUE  e22 "tegemas" 
+     e22 "tegemas"  AFTER  DCT 
+
+ s9  " Et ma [e23 pole ] samast majast , see mõnevõrra [e24 raskendab ] , samas [e25 annab ] aga ka eeliseid , " [e26 arutles ] Karis .
+     e23 "pole"  INCLUDES  DCT 
+     e23 "pole"  BEFORE-OR-OVERLAP  e24 "raskendab" 
+     e24 "raskendab"  AFTER  DCT 
+     e24 "raskendab"  AFTER  e26 "arutles" 
+     e24 "raskendab"  SIMULTANEOUS  e25 "annab" 
+     e24 "raskendab"  OVERLAP-OR-AFTER  e27 "töötanud" 
+     e25 "annab"  AFTER  DCT 
+     e25 "annab"  AFTER  e26 "arutles" 
+     e25 "annab"  OVERLAP-OR-AFTER  e27 "töötanud" 
+     e26 "arutles"  BEFORE-OR-OVERLAP  DCT 
+     e26 "arutles"  AFTER  e27 "töötanud" 
+
+ s10  " Olen [e27 töötanud ] erinevates institutsioonides nii kodu- kui välismaal .
+     e27 "töötanud"  BEFORE-OR-OVERLAP  DCT 
+     e27 "töötanud"  BEFORE  e28 "Näen" 
+
+ s11  [e28 Näen ] EPMÜd mõnevõrra laiemas kontekstis .
+     e28 "Näen"  INCLUDES  DCT 
+     e28 "Näen"  SIMULTANEOUS  e29 "teavad" 
+
+ s12  Samas [e29 teavad ] teised võibolla täpsemalt , millist kraanikaussi [e30 on ] [e30 vaja ] [e31 vahetada ] . "
+     e29 "teavad"  INCLUDES  DCT 
+     e29 "teavad"  BEFORE-OR-OVERLAP  e31 "vahetada" 
+     e29 "teavad"  SIMULTANEOUS  e30 "on vaja" 
+     e29 "teavad"  INCLUDES  e33 "leiavad" 
+     e30 "on vaja"  VAGUE  DCT 
+     e30 "on vaja"  BEFORE-OR-OVERLAP  e31 "vahetada" 
+     e31 "vahetada"  VAGUE  DCT 
+
+ s13  EPMÜ [e32 rektorivalimised ] [e33 leiavad ] aset [t3 18. detsembril ] .
+     e32 "rektorivalimised"  AFTER  DCT 
+     e32 "rektorivalimised"  SIMULTANEOUS  e33 "leiavad" 
+     e33 "leiavad"  IS_INCLUDED  t3 "18. detsembril" 
+     e33 "leiavad"  AFTER  DCT 
+     e33 "leiavad"  BEFORE  e34 "annab" 
+     e33 "leiavad"  BEFORE  e35 "asub" 
+
+ s14  Uus rektor [e34 annab ] ametivande [t4 19. detsembril ] ja [e35 asub ] [e36 tööle ] [t5 uuest aastast ] .
+     e34 "annab"  IS_INCLUDED  t4 "19. detsembril" 
+     e34 "annab"  AFTER  DCT 
+     e34 "annab"  BEFORE  e35 "asub" 
+     e35 "asub"  OVERLAP-OR-AFTER  t5 "uuest aastast" 
+     e35 "asub"  AFTER  DCT 
+     e35 "asub"  BEFORE-OR-OVERLAP  e36 "tööle" 
+     e36 "tööle"  AFTER  DCT 
+
+

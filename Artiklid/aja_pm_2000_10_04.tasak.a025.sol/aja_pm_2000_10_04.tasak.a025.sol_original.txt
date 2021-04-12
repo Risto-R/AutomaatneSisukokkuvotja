@@ -1,11 +1,39 @@
 <div0><head> Omavalitsused rahahädas </head>
-<p rend="italic"> <s> Valdade tugevdamine haldusterritoriaalse reformi abil on vältimatu </s> </p>
-<p> <s> Paljude valdade ja väikelinnade eelarve peamine allikas - üksikisiku tulumaks - jääb sel aastal loodetust märksa väiksemaks ning küsimärgi alla satub kohaliku elu normaalne jätkumine . </s> </p>
-<p> <s> See sunnib tõsiselt mõtlema , kuidas tuua omavalitsused välja pidevast kõikumisest elu ja surma piiril . </s> <s> Kuigi pelk valdade liitmine pole võluvits , mis kõik rikkaks teeb , on see siiski üks võimalus omavalitsuste tugevdamiseks . </s> </p>
-<p> <s> Keerulisest olukorrast väljapääsuks koostavad vallad-linnad negatiivseid lisaeelarveid või pöörduvad abipalvetega valitsuse poole . </s> <s> Seal on aga juba teised abipalujad ees . </s> <s> Kuid selge on seegi , et valitsuse reservfond ei saa jääda alaliseks magasiaidaks , kust kehval ajal eluspüsimiseks viljapeotäisi poetatakse . </s> </p>
-<p> <s> Võimalik , et möödunud aastal valitud uued võimukandjad sattusid juba esimest , st selle aasta eelarvet koostades vaimustusse väljavaatest asuda kohe valimislubadusi täitma ning hindasid valla või linna tegelikke võimeid üle . </s> </p>
-<p> <s> Samas kimbutavad maksude vilets laekumine ja finantsprobleemid aastast aastasse samu omavalitsusi . </s> <s> Hädaliste geograafiline paikneminegi pole üllatus : mida ääremaisem ja väiksem omavalitsus , seda suurem on tõenäosus jääda aasta lõpuks rahamurede küüsi . </s> <s> Rääkimata sellest , et ühe elaniku kohta arvestades erinevad juba tehtud prognoosidki kuni kümme korda . </s> </p>
-<p> <s> Ometi peab väike , paari-kolme tuhande elanikuga vald või linn täitma üldjoontes samu ülesandeid , mis on kümne või viieteistkümne tuhande elanikuga omavalitsuse ees . </s> <s> Teatud kulud , alates vallavalitsusest kuni kohaliku koolini , tuleb katta igal juhul . </s> </p>
-<p> <s> Eesti maksusüsteem on selline , et omavalitsuste sissetulekud sõltuvad suurel määral sealsete elanike jõukusest . </s> <s> Tulusid saab küll ühtlustada , kuid osad vallad jäävad paratamatult ikkagi vaesemaks kui teised ning on ka neid , kes ei saagi kuidagi oma tuludega toime tulla . </s> </p>
-<p> <s> Mingit leevendust võib pakkuda väiksemate ja nõrgemate valdade liitumine , mis annaks lootust suurema eelarve abil ja kokkuhoiu arvel senisest paremini toime tulla . </s> </p>
-<p> <s> Kuni aga kehtib liberaalse haldusterritoriaalse reformi põhimõte ja vallad liituvad vabatahtlikkuse alusel , võiks valitsus hädatoetuste jagamise üle otsustamisel usaldada kohapealseid olusid tundvate maavanemate arvamust . </s> </p></div0>
+<p rend="italic">
+ <s> Valdade tugevdamine haldusterritoriaalse reformi abil on vältimatu </s> 
+</p>
+<p>
+ <s> Paljude valdade ja väikelinnade eelarve peamine allikas - üksikisiku tulumaks - jääb sel aastal loodetust märksa väiksemaks ning küsimärgi alla satub kohaliku elu normaalne jätkumine . </s> 
+</p>
+<p>
+ <s> See sunnib tõsiselt mõtlema , kuidas tuua omavalitsused välja pidevast kõikumisest elu ja surma piiril . </s>
+<s> Kuigi pelk valdade liitmine pole võluvits , mis kõik rikkaks teeb , on see siiski üks võimalus omavalitsuste tugevdamiseks . </s> 
+</p>
+<p>
+ <s> Keerulisest olukorrast väljapääsuks koostavad vallad-linnad negatiivseid lisaeelarveid või pöörduvad abipalvetega valitsuse poole . </s>
+<s> Seal on aga juba teised abipalujad ees . </s>
+<s> Kuid selge on seegi , et valitsuse reservfond ei saa jääda alaliseks magasiaidaks , kust kehval ajal eluspüsimiseks viljapeotäisi poetatakse . </s> 
+</p>
+<p>
+ <s> Võimalik , et möödunud aastal valitud uued võimukandjad sattusid juba esimest , st selle aasta eelarvet koostades vaimustusse väljavaatest asuda kohe valimislubadusi täitma ning hindasid valla või linna tegelikke võimeid üle . </s> 
+</p>
+<p>
+ <s> Samas kimbutavad maksude vilets laekumine ja finantsprobleemid aastast aastasse samu omavalitsusi . </s>
+<s> Hädaliste geograafiline paikneminegi pole üllatus : mida ääremaisem ja väiksem omavalitsus , seda suurem on tõenäosus jääda aasta lõpuks rahamurede küüsi . </s>
+<s> Rääkimata sellest , et ühe elaniku kohta arvestades erinevad juba tehtud prognoosidki kuni kümme korda . </s> 
+</p>
+<p>
+ <s> Ometi peab väike , paari-kolme tuhande elanikuga vald või linn täitma üldjoontes samu ülesandeid , mis on kümne või viieteistkümne tuhande elanikuga omavalitsuse ees . </s>
+<s> Teatud kulud , alates vallavalitsusest kuni kohaliku koolini , tuleb katta igal juhul . </s> 
+</p>
+<p>
+ <s> Eesti maksusüsteem on selline , et omavalitsuste sissetulekud sõltuvad suurel määral sealsete elanike jõukusest . </s>
+<s> Tulusid saab küll ühtlustada , kuid osad vallad jäävad paratamatult ikkagi vaesemaks kui teised ning on ka neid , kes ei saagi kuidagi oma tuludega toime tulla . </s> 
+</p>
+<p>
+ <s> Mingit leevendust võib pakkuda väiksemate ja nõrgemate valdade liitumine , mis annaks lootust suurema eelarve abil ja kokkuhoiu arvel senisest paremini toime tulla . </s> 
+</p>
+<p>
+ <s> Kuni aga kehtib liberaalse haldusterritoriaalse reformi põhimõte ja vallad liituvad vabatahtlikkuse alusel , võiks valitsus hädatoetuste jagamise üle otsustamisel usaldada kohapealseid olusid tundvate maavanemate arvamust . </s> 
+</p>
+</div0>

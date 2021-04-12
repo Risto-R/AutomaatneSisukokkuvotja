@@ -1,0 +1,159 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a019.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Peaministrihärra Mart Laari [e1 kinnitusel ] [e2 pole ] valitsusel [e2 plaanis ] pensione [e3 külmutada ] , vaid [t1 praegu ] [e4 tegeldakse ] sellega , kuidas üle [e5 minna ] pensionide indekseeritud [e6 maksmisele ] .
+     e1 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e1 "kinnitusel"  BEFORE  e3 "külmutada" 
+     e1 "kinnitusel"  IS_INCLUDED  e2 "pole plaanis" 
+     e1 "kinnitusel"  IS_INCLUDED  e4 "tegeldakse" 
+     e2 "pole plaanis"  INCLUDES  DCT 
+     e2 "pole plaanis"  BEFORE-OR-OVERLAP  e3 "külmutada" 
+     e2 "pole plaanis"  SIMULTANEOUS  e4 "tegeldakse" 
+     e2 "pole plaanis"  OVERLAP-OR-AFTER  e7 "külmutatud" 
+     e2 "pole plaanis"  OVERLAP-OR-AFTER  e8 "tõstetud" 
+     e3 "külmutada"  OVERLAP-OR-AFTER  DCT 
+     e4 "tegeldakse"  SIMULTANEOUS  t1 "praegu" 
+     e4 "tegeldakse"  INCLUDES  DCT 
+     e4 "tegeldakse"  BEFORE-OR-OVERLAP  e5 "minna" 
+     e4 "tegeldakse"  OVERLAP-OR-AFTER  e7 "külmutatud" 
+     e4 "tegeldakse"  OVERLAP-OR-AFTER  e8 "tõstetud" 
+     e5 "minna"  AFTER  DCT 
+     e5 "minna"  BEFORE  e6 "maksmisele" 
+     e6 "maksmisele"  AFTER  DCT 
+
+ s1  Tegelikult on pensionid [e7 külmutatud ] küll , pole neid ju [t2 teist aastat ] [e8 tõstetud ] , hoolimata sellest , et keskmine palk on [e9 tõusnud ] , samuti ka tarbijahinna indeks .
+     e7 "külmutatud"  BEFORE-OR-OVERLAP  DCT 
+     e7 "külmutatud"  SIMULTANEOUS  e8 "tõstetud" ka INCLUDES
+     e7 "külmutatud"  BEFORE-OR-OVERLAP  e10 "Meenutame" 
+     e8 "tõstetud"  IS_INCLUDED  t2 "teist aastat" 
+     e8 "tõstetud"  BEFORE  DCT 
+     e8 "tõstetud"  SIMULTANEOUS  e9 "tõusnud" 
+     e8 "tõstetud"  BEFORE-OR-OVERLAP  e10 "Meenutame" 
+     e9 "tõusnud"  BEFORE  DCT 
+
+ s2  [e10 Meenutame ] , et [t3 1992. aastal ] [e11 hakati ] [e12 maksma ] kõigile pensionäridele 260 krooni .
+     e10 "Meenutame"  IS_INCLUDED  DCT 
+     e10 "Meenutame"  AFTER  e11 "hakati" 
+     e10 "Meenutame"  AFTER  e12 "maksma" 
+     e10 "Meenutame"  AFTER  e13 "maksis" 
+     e11 "hakati"  IS_INCLUDED  t3 "1992. aastal" 
+     e11 "hakati"  BEFORE  DCT 
+     e11 "hakati"  BEFORE-OR-OVERLAP  e12 "maksma" 
+     e12 "maksma"  BEFORE  DCT 
+
+ s3  Siis [e13 maksis ] päts leiba umbes 90 senti .
+     e13 "maksis"  BEFORE  DCT 
+     e13 "maksis"  SIMULTANEOUS  e15 "osta" 
+
+ s4  Seega [e14 saanuks ] [e15 osta ] 288 pätsi [t4 kuus ] .
+     e14 "saanuks"  IS_INCLUDED  t4 "kuus" 
+     e14 "saanuks"  BEFORE  DCT 
+     e14 "saanuks"  VAGUE  e15 "osta" 
+     e15 "osta"  INCLUDES  t4 "kuus" 
+     e15 "osta"  BEFORE  DCT 
+     e15 "osta"  BEFORE  e18 "osta" 
+
+ s5  [t5 Nüüd ] [e16 saab ] 1500 krooni eest ( seda pensioni [e17 saavad ] vähesed ) [e18 osta ] 200 pätsi leiba .
+     e16 "saab"  IS_INCLUDED  t5 "Nüüd" 
+     e16 "saab"  INCLUDES  DCT 
+     e16 "saab"  VAGUE  e18 "osta" 
+     e17 "saavad"  INCLUDES  DCT 
+     e17 "saavad"  VAGUE  e18 "osta" 
+     e18 "osta"  IS_INCLUDED  t5 "Nüüd" 
+     e18 "osta"  INCLUDES  DCT 
+     e18 "osta"  OVERLAP-OR-AFTER  e19 "langenud" 
+
+ s6  Selle arvutuse kohaselt on reaalpension [e19 langenud ] 25% .
+     e19 "langenud"  BEFORE-OR-OVERLAP  DCT 
+     e19 "langenud"  BEFORE-OR-OVERLAP  e20 "lohutab" 
+     e19 "langenud"  BEFORE  e22 "suurenema" 
+     e19 "langenud"  BEFORE  e23 "muutub" 
+
+ s7  Rahandusminister Siim Kallas [e20 lohutab ] , et [t6 2002. aastaks ] [e21 peaks ] riigi eelarve [e22 suurenema ] 7% , siis [e23 muutub ] reaalseks ka [e24 pensionitõus ] .
+     e20 "lohutab"  BEFORE-OR-OVERLAP  DCT 
+     e20 "lohutab"  BEFORE  e22 "suurenema" 
+     e20 "lohutab"  BEFORE  e23 "muutub" 
+     e20 "lohutab"  BEFORE  e27 "söönud" 
+     e21 "peaks"  BEFORE-OR-OVERLAP  t6 "2002. aastaks" 
+     e21 "peaks"  OVERLAP-OR-AFTER  DCT 
+     e21 "peaks"  BEFORE-OR-OVERLAP  e22 "suurenema" 
+     e22 "suurenema"  BEFORE-OR-OVERLAP  t6 "2002. aastaks" 
+     e22 "suurenema"  AFTER  DCT 
+     e22 "suurenema"  BEFORE-OR-OVERLAP  e23 "muutub" 
+     e22 "suurenema"  SIMULTANEOUS  e27 "söönud" 
+     e23 "muutub"  AFTER  DCT 
+     e23 "muutub"  BEFORE-OR-OVERLAP  e24 "pensionitõus" 
+     e23 "muutub"  OVERLAP-OR-AFTER  e27 "söönud" 
+     e24 "pensionitõus"  AFTER  DCT 
+
+ s8  [t7 Selleks ajaks ] on [e25 inflatsioon ] [e26 tõusu ] juba ette ära [e27 söönud ] .
+     e25 "inflatsioon"  VAGUE  DCT 
+     e25 "inflatsioon"  SIMULTANEOUS  e27 "söönud" 
+     e26 "tõusu"  AFTER  DCT 
+     e26 "tõusu"  OVERLAP-OR-AFTER  e27 "söönud" 
+     e27 "söönud"  BEFORE-OR-OVERLAP  t7 "Selleks ajaks" 
+     e27 "söönud"  AFTER  DCT 
+     e27 "söönud"  AFTER  e28 "soovitati" 
+     e27 "söönud"  AFTER  e29 "oodata" 
+
+ s9  Nõukogude ajal [e28 soovitati ] meil [e29 oodata ] helget tulevikku - kommunismi .
+     e28 "soovitati"  BEFORE  DCT 
+     e28 "soovitati"  BEFORE-OR-OVERLAP  e29 "oodata" 
+     e28 "soovitati"  BEFORE  e30 "on" 
+     e29 "oodata"  BEFORE  DCT 
+     e29 "oodata"  BEFORE  e30 "on" 
+
+ s10  [t8 Nüüd ] [e30 on ] natuke lühem tärmin , [t9 aasta 2002. ]
+     e30 "on"  SIMULTANEOUS  t8 "Nüüd" 
+     e30 "on"  INCLUDES  DCT 
+     e30 "on"  INCLUDES  e31 "sattus" ka VAGUE
+
+ s11  [t10 19. septembril ] [e31 sattus ] pihku Postimehe lugu " Riik [e32 peab ] ülal 210 koera " .
+     e31 "sattus"  IS_INCLUDED  t10 "19. septembril" 
+     e31 "sattus"  BEFORE  DCT 
+     e31 "sattus"  IS_INCLUDED  e32 "peab" 
+     e31 "sattus"  BEFORE  e33 "Võrdlesin" 
+     e31 "sattus"  BEFORE  e35 "öelda" 
+     e32 "peab"  INCLUDES  DCT 
+
+ s12  [e33 Võrdlesin ] selle artikli andmeid toimetuleku miinimumiga , [e34 Võib ] [e35 öelda ] , et meie inimestele [e36 ettenähtud ] toimetulekusumma [e37 on ] [e37 ligilähedane ] piirivalve lennusalga kõige odavamate koerte omaga .
+     e33 "Võrdlesin"  BEFORE  DCT 
+     e33 "Võrdlesin"  BEFORE-OR-OVERLAP  e35 "öelda" 
+     e33 "Võrdlesin"  IS_INCLUDED  e37 "on ligilähedane" 
+     e33 "Võrdlesin"  IS_INCLUDED  e39 "on väiksemad" 
+     e34 "Võib"  INCLUDES  DCT 
+     e34 "Võib"  VAGUE  e35 "öelda" 
+     e35 "öelda"  INCLUDES  DCT 
+     e35 "öelda"  IS_INCLUDED  e37 "on ligilähedane" 
+     e35 "öelda"  IS_INCLUDED  e39 "on väiksemad" 
+     e36 "ettenähtud"  BEFORE-OR-OVERLAP  DCT 
+     e37 "on ligilähedane"  INCLUDES  DCT 
+
+ s13  Viimaste [e38 kulutused ] kodule ( kuudile ) ja riietele ( olematud ) [e39 on ] seejuures palju [e39 väiksemad ] kui inimestel .
+     e38 "kulutused"  INCLUDES  DCT 
+     e38 "kulutused"  VAGUE  e39 "on väiksemad" 
+     e39 "on väiksemad"  INCLUDES  DCT 
+     e39 "on väiksemad"  SIMULTANEOUS  e40 "arvatud" ka VAGUE
+
+ s14  Igal juhul on Eesti tavainimene [e40 arvatud ] palju vähenõudlikumaks kui Ämari teenistuskoer ( toidule 472 krooni [t11 kuus ] ) .
+     e40 "arvatud"  INCLUDES  DCT 
+     e40 "arvatud"  INCLUDES  e42 "meeldi" ka VAGUE
+     e40 "arvatud"  SIMULTANEOUS  e41 "pole loomavaenulik inimene" ka VAGUE
+     e40 "arvatud"  SIMULTANEOUS  e46 "on kehvem" ka VAGUE
+
+ s15  Ma [e41 pole ] [e41 loomavaenulik ] [e41 inimene ] , aga mulle ei [e42 meeldi ] , et viletsale järjele [e43 jäänud ] riigialamate ( neid [e44 on ] aga palju ja nad [e45 pole ] mitte ainult [e45 pensionärid ] ) elujärg [e46 on ] [e46 kehvem ] kui koeral .
+     e41 "pole loomavaenulik inimene"  INCLUDES  DCT 
+     e41 "pole loomavaenulik inimene"  INCLUDES  e42 "meeldi" 
+     e42 "meeldi"  INCLUDES  DCT 
+     e42 "meeldi"  INCLUDES  e43 "jäänud" 
+     e42 "meeldi"  IS_INCLUDED  e46 "on kehvem" 
+     e43 "jäänud"  BEFORE-OR-OVERLAP  DCT 
+     e44 "on"  INCLUDES  DCT 
+     e44 "on"  VAGUE  e45 "pole pensionärid" 
+     e44 "on"  VAGUE  e46 "on kehvem" 
+     e45 "pole pensionärid"  INCLUDES  DCT 
+     e45 "pole pensionärid"  VAGUE  e46 "on kehvem" 
+     e46 "on kehvem"  INCLUDES  DCT 
+
+

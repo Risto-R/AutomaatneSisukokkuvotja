@@ -1,0 +1,203 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a025.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Valdade [e1 tugevdamine ] haldusterritoriaalse [e2 reformi ] abil [e3 on ] [e3 vältimatu ]
+     e1 "tugevdamine"  AFTER  DCT 
+     e1 "tugevdamine"  IS_INCLUDED  e2 "reformi" 
+     e1 "tugevdamine"  OVERLAP-OR-AFTER  e3 "on vältimatu" 
+     e2 "reformi"  AFTER  DCT 
+     e3 "on vältimatu"  INCLUDES  DCT 
+     e3 "on vältimatu"  INCLUDES  e4 "jääb väiksemaks" 
+     e3 "on vältimatu"  INCLUDES  e6 "satub" 
+
+ s1  Paljude valdade ja väikelinnade eelarve peamine allikas - üksikisiku tulumaks - [e4 jääb ] [t1 sel aastal ] [e5 loodetust ] märksa [e4 väiksemaks ] ning küsimärgi alla [e6 satub ] kohaliku elu normaalne [e7 jätkumine ] .
+     e4 "jääb väiksemaks"  IS_INCLUDED  t1 "sel aastal" 
+     e4 "jääb väiksemaks"  AFTER  DCT 
+     e4 "jääb väiksemaks"  AFTER  e5 "loodetust" 
+     e4 "jääb väiksemaks"  BEFORE-OR-OVERLAP  e6 "satub" 
+     e4 "jääb väiksemaks"  BEFORE-OR-OVERLAP  e8 "sunnib" 
+     e5 "loodetust"  BEFORE  DCT 
+     e6 "satub"  AFTER  DCT 
+     e6 "satub"  BEFORE-OR-OVERLAP  e7 "jätkumine" 
+     e6 "satub"  BEFORE-OR-OVERLAP  e8 "sunnib" 
+     e7 "jätkumine"  AFTER  DCT 
+
+ s2  See [e8 sunnib ] tõsiselt [e9 mõtlema ] , kuidas [e10 tuua ] omavalitsused välja pidevast [e11 kõikumisest ] elu ja surma piiril .
+     e8 "sunnib"  OVERLAP-OR-AFTER  DCT 
+     e8 "sunnib"  BEFORE-OR-OVERLAP  e9 "mõtlema" 
+     e8 "sunnib"  BEFORE  e10 "tuua" 
+     e8 "sunnib"  VAGUE  e13 "pole" 
+     e8 "sunnib"  VAGUE  e15 "on võimalus" 
+     e9 "mõtlema"  OVERLAP-OR-AFTER  DCT 
+     e9 "mõtlema"  BEFORE  e10 "tuua" 
+     e10 "tuua"  AFTER  DCT 
+     e10 "tuua"  OVERLAP-OR-AFTER  e11 "kõikumisest" 
+     e11 "kõikumisest"  INCLUDES  DCT 
+
+ s3  Kuigi pelk valdade [e12 liitmine ] [e13 pole ] võluvits , mis kõik [e14 rikkaks ] [e14 teeb ] , [e15 on ] see siiski üks [e15 võimalus ] omavalitsuste [e16 tugevdamiseks ] .
+     e12 "liitmine"  VAGUE  DCT 
+     e12 "liitmine"  VAGUE  e13 "pole" 
+     e13 "pole"  INCLUDES  DCT 
+     e13 "pole"  INCLUDES  e14 "rikkaks teeb" 
+     e13 "pole"  VAGUE  e15 "on võimalus" 
+     e13 "pole"  VAGUE  e17 "koostavad" 
+     e13 "pole"  VAGUE  e18 "pöörduvad" 
+     e14 "rikkaks teeb"  VAGUE  DCT 
+     e15 "on võimalus"  INCLUDES  DCT 
+     e15 "on võimalus"  VAGUE  e16 "tugevdamiseks" 
+     e15 "on võimalus"  VAGUE  e17 "koostavad" 
+     e15 "on võimalus"  VAGUE  e18 "pöörduvad" 
+     e16 "tugevdamiseks"  AFTER  DCT 
+
+ s4  Keerulisest olukorrast väljapääsuks [e17 koostavad ] vallad-linnad negatiivseid lisaeelarveid või [e18 pöörduvad ] abipalvetega valitsuse poole .
+     e17 "koostavad"  INCLUDES  DCT 
+     e17 "koostavad"  VAGUE  e18 "pöörduvad" 
+     e17 "koostavad"  IS_INCLUDED  e19 "on" 
+     e18 "pöörduvad"  INCLUDES  DCT 
+     e18 "pöörduvad"  IS_INCLUDED  e19 "on" 
+
+ s5  Seal [e19 on ] aga juba teised abipalujad ees .
+     e19 "on"  INCLUDES  DCT 
+     e19 "on"  INCLUDES  e20 "selge on" ka VAGUE
+
+ s6  Kuid [e20 selge ] [e20 on ] seegi , et valitsuse reservfond ei [e21 saa ] [e22 jääda ] alaliseks [e22 magasiaidaks ] , kust kehval ajal [e23 eluspüsimiseks ] viljapeotäisi [e24 poetatakse ] .
+     e20 "selge on"  INCLUDES  DCT 
+     e20 "selge on"  BEFORE-OR-OVERLAP  e22 "jääda magasiaidaks" 
+     e20 "selge on"  VAGUE  e26 "sattusid" 
+     e20 "selge on"  VAGUE  e32 "hindasid" 
+     e21 "saa"  OVERLAP-OR-AFTER  DCT 
+     e21 "saa"  VAGUE  e22 "jääda magasiaidaks" 
+     e22 "jääda magasiaidaks"  OVERLAP-OR-AFTER  DCT 
+     e22 "jääda magasiaidaks"  VAGUE  e23 "eluspüsimiseks" 
+     e22 "jääda magasiaidaks"  VAGUE  e24 "poetatakse" 
+     e23 "eluspüsimiseks"  VAGUE  DCT 
+     e23 "eluspüsimiseks"  VAGUE  e24 "poetatakse" 
+     e24 "poetatakse"  VAGUE  DCT 
+
+ s7  Võimalik , et [t2 möödunud aastal ] [e25 valitud ] uued võimukandjad [e26 sattusid ] juba esimest , st [t3 selle aasta ] [e27 eelarvet ] [e28 koostades ] vaimustusse väljavaatest [e29 asuda ] kohe [e30 valimislubadusi ] [e31 täitma ] ning [e32 hindasid ] valla või linna tegelikke võimeid üle .
+     e25 "valitud"  IS_INCLUDED  t2 "möödunud aastal" 
+     e25 "valitud"  BEFORE  DCT 
+     e25 "valitud"  BEFORE  e26 "sattusid" 
+     e26 "sattusid"  BEFORE  DCT 
+     e26 "sattusid"  BEFORE-OR-OVERLAP  e32 "hindasid" 
+     e26 "sattusid"  IS_INCLUDED  e28 "koostades" 
+     e26 "sattusid"  IS_INCLUDED  e33 "kimbutavad" 
+     e27 "eelarvet"  SIMULTANEOUS  t3 "selle aasta" 
+     e27 "eelarvet"  VAGUE  DCT 
+     e27 "eelarvet"  AFTER  e28 "koostades" 
+     e28 "koostades"  BEFORE  DCT 
+     e28 "koostades"  INCLUDES  e29 "asuda" 
+     e29 "asuda"  BEFORE  DCT 
+     e29 "asuda"  BEFORE-OR-OVERLAP  e31 "täitma" 
+     e30 "valimislubadusi"  BEFORE  DCT 
+     e30 "valimislubadusi"  BEFORE  e31 "täitma" 
+     e31 "täitma"  BEFORE  DCT 
+     e32 "hindasid"  BEFORE  DCT 
+     e32 "hindasid"  IS_INCLUDED  e33 "kimbutavad" 
+
+ s8  Samas [e33 kimbutavad ] maksude vilets [e34 laekumine ] ja [e35 finantsprobleemid ] [t4 aastast aastasse ] samu omavalitsusi .
+     e33 "kimbutavad"  IS_INCLUDED  t4 "aastast aastasse" 
+     e33 "kimbutavad"  INCLUDES  DCT 
+     e33 "kimbutavad"  VAGUE  e34 "laekumine" 
+     e33 "kimbutavad"  VAGUE  e35 "finantsprobleemid" 
+     e33 "kimbutavad"  INCLUDES  e36 "pole üllatus" 
+     e34 "laekumine"  INCLUDES  DCT 
+     e35 "finantsprobleemid"  INCLUDES  DCT 
+
+ s9  Hädaliste geograafiline paikneminegi [e36 pole ] [e36 üllatus ] : mida ääremaisem ja väiksem omavalitsus , seda suurem [e37 on ] tõenäosus [e38 jääda ] [t5 aasta lõpuks ] rahamurede küüsi .
+     e36 "pole üllatus"  INCLUDES  DCT 
+     e36 "pole üllatus"  IS_INCLUDED  e37 "on" 
+     e36 "pole üllatus"  SIMULTANEOUS  e39 "Rääkimata" ka VAGUE
+     e36 "pole üllatus"  SIMULTANEOUS  e41 "erinevad" ka VAGUE
+     e37 "on"  VAGUE  DCT 
+     e37 "on"  INCLUDES  e38 "jääda" 
+     e38 "jääda"  BEFORE-OR-OVERLAP  t5 "aasta lõpuks" 
+     e38 "jääda"  VAGUE  DCT 
+
+ s10  [e39 Rääkimata ] sellest , et ühe elaniku kohta [e40 arvestades ] [e41 erinevad ] juba [e42 tehtud ] prognoosidki kuni kümme korda .
+     e39 "Rääkimata"  INCLUDES  DCT 
+     e39 "Rääkimata"  VAGUE  e41 "erinevad" 
+     e39 "Rääkimata"  SIMULTANEOUS  e44 "täitma" ka VAGUE
+     e40 "arvestades"  INCLUDES  DCT 
+     e40 "arvestades"  INCLUDES  e41 "erinevad" 
+     e41 "erinevad"  INCLUDES  DCT 
+     e41 "erinevad"  AFTER  e42 "tehtud" 
+     e41 "erinevad"  SIMULTANEOUS  e44 "täitma" ka VAGUE
+     e42 "tehtud"  BEFORE  DCT 
+
+ s11  Ometi [e43 peab ] väike , paari-kolme tuhande elanikuga vald või linn [e44 täitma ] üldjoontes samu ülesandeid , mis [e45 on ] kümne või viieteistkümne tuhande elanikuga omavalitsuse ees .
+     e43 "peab"  VAGUE  DCT 
+     e43 "peab"  VAGUE  e44 "täitma" 
+     e44 "täitma"  VAGUE  DCT 
+     e44 "täitma"  SIMULTANEOUS  e45 "on" 
+     e44 "täitma"  SIMULTANEOUS  e47 "katta" 
+     e44 "täitma"  VAGUE  e46 "tuleb" 
+     e45 "on"  VAGUE  DCT 
+
+ s12  Teatud kulud , alates vallavalitsusest kuni kohaliku koolini , [e46 tuleb ] [e47 katta ] igal juhul .
+     e46 "tuleb"  VAGUE  DCT 
+     e46 "tuleb"  BEFORE-OR-OVERLAP  e47 "katta" 
+     e46 "tuleb"  IS_INCLUDED  e48 "on" ka VAGUE
+     e47 "katta"  VAGUE  DCT 
+     e47 "katta"  IS_INCLUDED  e48 "on" 
+
+ s13  Eesti maksusüsteem [e48 on ] selline , et omavalitsuste sissetulekud [e49 sõltuvad ] suurel määral sealsete elanike jõukusest .
+     e48 "on"  VAGUE  DCT 
+     e48 "on"  INCLUDES  e49 "sõltuvad" 
+     e48 "on"  VAGUE  e51 "ühtlustada" 
+     e48 "on"  VAGUE  e52 "jäävad vaesemaks" 
+     e48 "on"  VAGUE  e53 "on" 
+     e49 "sõltuvad"  VAGUE  DCT 
+
+ s14  Tulusid [e50 saab ] küll [e51 ühtlustada ] , kuid osad vallad [e52 jäävad ] paratamatult ikkagi [e52 vaesemaks ] kui teised ning [e53 on ] ka neid , kes ei [e54 saagi ] kuidagi oma tuludega toime [e55 tulla ] .
+     e50 "saab"  VAGUE  DCT 
+     e50 "saab"  VAGUE  e51 "ühtlustada" 
+     e51 "ühtlustada"  VAGUE  DCT 
+     e51 "ühtlustada"  IS_INCLUDED  e52 "jäävad vaesemaks" 
+     e51 "ühtlustada"  VAGUE  e57 "pakkuda" 
+     e52 "jäävad vaesemaks"  OVERLAP-OR-AFTER  DCT 
+     e52 "jäävad vaesemaks"  VAGUE  e53 "on" 
+     e52 "jäävad vaesemaks"  VAGUE  e55 "tulla" 
+     e52 "jäävad vaesemaks"  VAGUE  e57 "pakkuda" 
+     e53 "on"  INCLUDES  DCT 
+     e53 "on"  INCLUDES  e55 "tulla" 
+     e53 "on"  VAGUE  e57 "pakkuda" 
+     e54 "saagi"  OVERLAP-OR-AFTER  DCT 
+     e54 "saagi"  VAGUE  e55 "tulla" 
+     e55 "tulla"  OVERLAP-OR-AFTER  DCT 
+
+ s15  Mingit leevendust [e56 võib ] [e57 pakkuda ] väiksemate ja nõrgemate valdade [e58 liitumine ] , mis [e59 annaks ] [e60 lootust ] suurema eelarve abil ja kokkuhoiu arvel senisest paremini toime [e61 tulla ] .
+     e56 "võib"  INCLUDES  DCT 
+     e56 "võib"  VAGUE  e57 "pakkuda" 
+     e57 "pakkuda"  AFTER  DCT 
+     e57 "pakkuda"  BEFORE-OR-OVERLAP  e58 "liitumine" 
+     e57 "pakkuda"  BEFORE  e59 "annaks" 
+     e57 "pakkuda"  OVERLAP-OR-AFTER  e68 "usaldada" 
+     e58 "liitumine"  OVERLAP-OR-AFTER  DCT 
+     e58 "liitumine"  BEFORE  e59 "annaks" 
+     e59 "annaks"  AFTER  DCT 
+     e59 "annaks"  BEFORE-OR-OVERLAP  e60 "lootust" 
+     e60 "lootust"  AFTER  DCT 
+     e60 "lootust"  BEFORE  e61 "tulla" 
+     e61 "tulla"  AFTER  DCT 
+
+ s16  Kuni aga [e62 kehtib ] liberaalse haldusterritoriaalse [e63 reformi ] põhimõte ja vallad [e64 liituvad ] vabatahtlikkuse alusel , [e65 võiks ] valitsus hädatoetuste [e66 jagamise ] üle [e67 otsustamisel ] [e68 usaldada ] kohapealseid olusid tundvate maavanemate [e69 arvamust ] .
+     e62 "kehtib"  INCLUDES  DCT 
+     e62 "kehtib"  INCLUDES  e64 "liituvad" 
+     e62 "kehtib"  INCLUDES  e68 "usaldada" 
+     e62 "kehtib"  VAGUE  e63 "reformi" 
+     e63 "reformi"  BEFORE  DCT 
+     e64 "liituvad"  INCLUDES  DCT 
+     e64 "liituvad"  INCLUDES  e68 "usaldada" 
+     e65 "võiks"  INCLUDES  DCT 
+     e65 "võiks"  VAGUE  e68 "usaldada" 
+     e66 "jagamise"  VAGUE  DCT 
+     e66 "jagamise"  VAGUE  e67 "otsustamisel" 
+     e67 "otsustamisel"  VAGUE  DCT 
+     e67 "otsustamisel"  IS_INCLUDED  e68 "usaldada" 
+     e68 "usaldada"  INCLUDES  DCT 
+     e68 "usaldada"  IS_INCLUDED  e69 "arvamust" 
+     e69 "arvamust"  INCLUDES  DCT 
+
+

@@ -1,10 +1,35 @@
 <div0><head> Chocolate Boys võitis esimese karika </head><bibl> <author> Gunnar Press </author> </bibl>
-<p rend="bold"> <s> KÄSIPALL : Eesti meeste käsipallikarika võttis aastaks hoiule HC Chocolate Boys , viigistades finaali eilses korduskohtumises võõrsil HC Kehraga 23 : 23. Reedese koduväljakumängu oli Chocolate neljaväravalise vahega võitnud . </s> </p>
-<p> <s> Finaalmängud ei meenutanud mingil moel nädalatagust liigakohtumist , milles Chocolate purustas Kehra hullude numbritega 36 : 18. Ent siis puudusid kaotajate poolelt tähtsad tagamehed Janar Mägi ja Raul Golubkov , kelle luud-liikmed nüüd lahingukõlblikuks praavitati . </s> </p>
-<p> <s> " Selgitasin poistele mängu eel , et me ei hakka aneljaväravalist vahet hoidma , vaid läheme võitma , " rääkis Chocolate'i peatreener Riho-Bruno Bramanis eile . " </s> <s> Kui 8 : 5 ette pääsesime , arvati ometi , et nüüd on kõik kombes ! " </s> </p>
-<p> <s> Kehra viskas seejärel kuus väravat järjest ja juhtis 11 : 8. </s> </p>
-<p> <s> " Nüüd löödi mõistus pähe ja edasine oli meie kontrolli all , " lausus Bramanis . </s> </p>
-<p> <s> " Oli nende kontrolli all , jah , " tunnistas Kehra peatreener Jüri Lepp . " </s> <s> Võime kaitses tugevad olla , aga kui kiirrünnakud lahenduseta jäävad , mängu ei võida . " </s> <s> Kui esimeses kohtumises tundus , et kiirrünnakud enam kehvemad olla ei saa , siis eile tõestas Kehra , et saavad küll . </s> </p>
-<p> <s> Parimad mehed olid taas väravavahid – Chocolate'i Mikola Naum ja Kehra Marius Aleksejev . </s> <s> Nii jäi skoor mõlemalt poolt tagasihoidlikuks . </s> </p>
-<p> <s> Chocolate'i eest viskasid neli väravat Jaanimaa , Martin Noodla , Ego Riener ja Jaanus Rätsep , Kehra poolelt tabas Roman Glinkin 7 ja Janar Mägi 6 korda . </s> </p>
-<p> <s> Kolme aasta eest loodud Chocolate Boys võitis karika esimest korda . </s> <s> " Ei teagi , kus me karikat hoidma hakkame , " tunnistas Chocolate'i president Tarmo Volt , kes ise oli Põlva Serviti peatreenerina kuuekordne karikavõitja . " </s> <s> Esialgu pean trofee vist sahtlisse pistma . " </s> </p></div0>
+<p rend="bold">
+ <s> KÄSIPALL : Eesti meeste käsipallikarika võttis aastaks hoiule HC Chocolate Boys , viigistades finaali eilses korduskohtumises võõrsil HC Kehraga 23 : 23. Reedese koduväljakumängu oli Chocolate neljaväravalise vahega võitnud . </s> 
+</p>
+<p>
+ <s> Finaalmängud ei meenutanud mingil moel nädalatagust liigakohtumist , milles Chocolate purustas Kehra hullude numbritega 36 : 18. Ent siis puudusid kaotajate poolelt tähtsad tagamehed Janar Mägi ja Raul Golubkov , kelle luud-liikmed nüüd lahingukõlblikuks praavitati . </s> 
+</p>
+<p>
+ <s> " Selgitasin poistele mängu eel , et me ei hakka aneljaväravalist vahet hoidma , vaid läheme võitma , " rääkis Chocolate'i peatreener Riho-Bruno Bramanis eile . " </s>
+<s> Kui 8 : 5 ette pääsesime , arvati ometi , et nüüd on kõik kombes ! " </s> 
+</p>
+<p>
+ <s> Kehra viskas seejärel kuus väravat järjest ja juhtis 11 : 8. </s> 
+</p>
+<p>
+ <s> " Nüüd löödi mõistus pähe ja edasine oli meie kontrolli all , " lausus Bramanis . </s> 
+</p>
+<p>
+ <s> " Oli nende kontrolli all , jah , " tunnistas Kehra peatreener Jüri Lepp . " </s>
+<s> Võime kaitses tugevad olla , aga kui kiirrünnakud lahenduseta jäävad , mängu ei võida . " </s>
+<s> Kui esimeses kohtumises tundus , et kiirrünnakud enam kehvemad olla ei saa , siis eile tõestas Kehra , et saavad küll . </s> 
+</p>
+<p>
+ <s> Parimad mehed olid taas väravavahid – Chocolate'i Mikola Naum ja Kehra Marius Aleksejev . </s>
+<s> Nii jäi skoor mõlemalt poolt tagasihoidlikuks . </s> 
+</p>
+<p>
+ <s> Chocolate'i eest viskasid neli väravat Jaanimaa , Martin Noodla , Ego Riener ja Jaanus Rätsep , Kehra poolelt tabas Roman Glinkin 7 ja Janar Mägi 6 korda . </s> 
+</p>
+<p>
+ <s> Kolme aasta eest loodud Chocolate Boys võitis karika esimest korda . </s>
+<s> " Ei teagi , kus me karikat hoidma hakkame , " tunnistas Chocolate'i president Tarmo Volt , kes ise oli Põlva Serviti peatreenerina kuuekordne karikavõitja . " </s>
+<s> Esialgu pean trofee vist sahtlisse pistma . " </s> 
+</p>
+</div0>

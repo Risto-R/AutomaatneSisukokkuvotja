@@ -1,0 +1,90 @@
+==================================================
+     aja_ml_2002_47.tasak.a045.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  [t2 Nädalavahetusel ] [e1 salvestati ] telemängu " Kes tahab saada miljonäriks ? " kuus [e2 saadet ] .
+     e1 "salvestati"  IS_INCLUDED  t2 "Nädalavahetusel" 
+     e1 "salvestati"  BEFORE  DCT 
+     e1 "salvestati"  VAGUE  e2 "saadet" 
+     e1 "salvestati"  BEFORE-OR-OVERLAP  e3 "võidab" 
+     e1 "salvestati"  BEFORE-OR-OVERLAP  e4 "on" 
+     e2 "saadet"  VAGUE  DCT 
+
+ s2  Ühes uues osas [e3 võidab ] noor naine 125 000 krooni - see [e4 on ] Eestis [t3 seni ] suurim summa , mis [e5 miljonimängus ] [e6 võidetud ] .
+     e3 "võidab"  BEFORE  DCT 
+     e3 "võidab"  BEFORE  e4 "on" 
+     e3 "võidab"  AFTER  e7 "oli" 
+     e4 "on"  BEFORE-OR-OVERLAP  t3 "seni" 
+     e4 "on"  BEFORE-OR-OVERLAP  DCT 
+     e4 "on"  AFTER  e6 "võidetud" 
+     e4 "on"  AFTER  e7 "oli" 
+     e5 "miljonimängus"  VAGUE  DCT 
+     e5 "miljonimängus"  INCLUDES  e6 "võidetud" 
+     e6 "võidetud"  BEFORE  DCT 
+
+ s3  Eelmine rekord [e7 oli ] 64 000 krooni .
+     e7 "oli"  BEFORE  DCT 
+     e7 "oli"  BEFORE  e9 "osanud" 
+
+ s4  Millal 125 000kroonine võidumäng eetrisse [e8 jõuab ] , ei [e9 osanud ] TV 3 avalike suhete juht Annika Remmel [e10 öelda ] .
+     e8 "jõuab"  AFTER  DCT 
+     e8 "jõuab"  AFTER  e9 "osanud" 
+     e8 "jõuab"  AFTER  e11 "lisas" 
+     e8 "jõuab"  SIMULTANEOUS  e12 "tuleb" 
+     e9 "osanud"  BEFORE-OR-OVERLAP  DCT 
+     e9 "osanud"  BEFORE-OR-OVERLAP  e10 "öelda" 
+     e9 "osanud"  BEFORE  e11 "lisas" 
+     e9 "osanud"  BEFORE  e12 "tuleb" 
+     e10 "öelda"  BEFORE-OR-OVERLAP  DCT 
+
+ s5  Ta [e11 lisas ] , et see [e12 tuleb ] ekraanile veel [t4 selle aasta jooksul ] .
+     e11 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e11 "lisas"  BEFORE  e12 "tuleb" 
+     e11 "lisas"  AFTER  e15 "võideti" 
+     e12 "tuleb"  IS_INCLUDED  t4 "selle aasta jooksul" 
+     e12 "tuleb"  AFTER  DCT 
+     e12 "tuleb"  AFTER  e15 "võideti" 
+
+ s6  [t5 Nädalavahetusel ] [e13 salvestatud ] [e14 miljonimängudes ] [e15 võideti ] teisigi rahasummasid .
+     e13 "salvestatud"  IS_INCLUDED  t5 "Nädalavahetusel" 
+     e13 "salvestatud"  BEFORE  DCT 
+     e13 "salvestatud"  INCLUDES  e14 "miljonimängudes" 
+     e13 "salvestatud"  INCLUDES  e15 "võideti" 
+     e14 "miljonimängudes"  BEFORE  DCT 
+     e14 "miljonimängudes"  INCLUDES  e15 "võideti" 
+     e15 "võideti"  BEFORE  DCT 
+     e15 "võideti"  BEFORE  e17 "tulemas" 
+     e15 "võideti"  BEFORE  e18 "ütles" 
+
+ s7  " Palju häid [e16 mänge ] on [e17 tulemas ] , " [e18 ütles ] Remmel .
+     e16 "mänge"  AFTER  DCT 
+     e16 "mänge"  SIMULTANEOUS  e17 "tulemas" 
+     e17 "tulemas"  AFTER  DCT 
+     e17 "tulemas"  AFTER  e18 "ütles" 
+     e17 "tulemas"  AFTER  e19 "kogus" 
+     e18 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e18 "ütles"  AFTER  e19 "kogus" 
+
+ s8  Hannes Võrno juhitav telemäng " Kes tahab saada miljonäriks ? " [e19 kogus ] [t6 oktoobris ] kõige suurema vaatajaskonna , [e20 tuues ] teleri ette keskmiselt 312 000 vaatajat saate kohta .
+     e19 "kogus"  SIMULTANEOUS  t6 "oktoobris" 
+     e19 "kogus"  BEFORE  DCT 
+     e19 "kogus"  OVERLAP-OR-AFTER  e20 "tuues" 
+     e19 "kogus"  BEFORE  e23 "ütles" 
+     e19 "kogus"  IS_INCLUDED  e21 "on omasaade" 
+     e20 "tuues"  BEFORE  DCT 
+
+ s9  " Miljonimäng [e21 on ] Eesti eratelekanalitelt esimene [e21 omasaade ] , mis on [e22 jõudnud ] vaadatavustabeli absoluutsesse tippu , " [e23 ütles ] TV 3 meediauuringute juht Margus Paas .
+     e21 "on omasaade"  INCLUDES  DCT 
+     e21 "on omasaade"  INCLUDES  e23 "ütles" 
+     e21 "on omasaade"  OVERLAP-OR-AFTER  e22 "jõudnud" 
+     e21 "on omasaade"  SIMULTANEOUS  e24 "järgnevad" (ka VAGUE)
+     e22 "jõudnud"  BEFORE  DCT 
+     e22 "jõudnud"  BEFORE  e23 "ütles" 
+     e23 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e23 "ütles"  IS_INCLUDED  e24 "järgnevad" 
+
+ s10  EMOR Gallup Media tele- ja raadioauditooriumi päevik-uuringu kohaselt [e24 järgnevad ] miljonimängule vaatajaskonna suuruselt " Pealtnägija " 308 000 , " Aktuaalne kaamera " 247 000 , " Tähed muusikas " 235 000 ja " Robinson " 231 000 vaatajaga .
+     e24 "järgnevad"  INCLUDES  DCT 
+
+

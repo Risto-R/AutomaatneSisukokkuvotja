@@ -1,0 +1,172 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a051.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Venemaa president Vladimir Putin [e1 alustas ] [t1 eile ] [e2 India-visiiti ] , millega [e3 loodab ] pisut [e4 taastada ] kahe riigi vaheliste suhete külma sõja aegset tihedust .
+     e1 "alustas"  IS_INCLUDED  t1 "eile" 
+     e1 "alustas"  BEFORE  DCT 
+     e1 "alustas"  IS_INCLUDED  e2 "India-visiiti" 
+     e1 "alustas"  IS_INCLUDED  e3 "loodab" 
+     e1 "alustas"  BEFORE  e6 "kirjutada" 
+     e1 "alustas"  IS_INCLUDED  e5 "kavatseb" 
+     e2 "India-visiiti"  INCLUDES  DCT 
+     e3 "loodab"  INCLUDES  DCT 
+     e3 "loodab"  VAGUE  e4 "taastada" 
+     e4 "taastada"  INCLUDES  DCT 
+
+ s1  Putin [e5 kavatseb ] koos India liidritega alla [e6 kirjutada ] rohkem kui kümnele lepingule , mis [e7 reguleerivad ] kahe riigi vahelist [e8 koostööd ] majanduse , teaduse , tehnika , kultuuri valdkonnas .
+     e5 "kavatseb"  INCLUDES  DCT 
+     e5 "kavatseb"  BEFORE-OR-OVERLAP  e6 "kirjutada" 
+     e5 "kavatseb"  BEFORE  e7 "reguleerivad" 
+     e5 "kavatseb"  OVERLAP-OR-AFTER  e9 "hinnanud" 
+     e6 "kirjutada"  AFTER  DCT 
+     e6 "kirjutada"  BEFORE  e7 "reguleerivad" 
+     e6 "kirjutada"  AFTER  e9 "hinnanud" 
+     e7 "reguleerivad"  OVERLAP-OR-AFTER  DCT 
+     e7 "reguleerivad"  IS_INCLUDED  e8 "koostööd" 
+     e8 "koostööd"  INCLUDES  DCT 
+
+ s2  Lepingutest tähtsaimaks on vaatlejad [e9 hinnanud ] strateegilise partnerluse [e10 lepingut ] .
+     e9 "hinnanud"  BEFORE  DCT 
+     e9 "hinnanud"  VAGUE  e10 "lepingut" 
+     e9 "hinnanud"  BEFORE  e12 "tõestanud" 
+     e9 "hinnanud"  BEFORE  e13 "ütles" 
+     e10 "lepingut"  VAGUE  DCT 
+
+ s3  " [e11 Läbirääkimised ] ( selle lepingu üle ) on [e12 tõestanud ] India ja Venemaa pikaajaliste rahvuslike ja geopoliitiliste huvide kokkulangevust , " [e13 ütles ] Putin [e14 pressikonverentsil ] pärast seda , kui oli koos India peaministri Atal Behari Vajpayeega dokumendile allkirja [e15 andnud ] .
+     e11 "Läbirääkimised"  BEFORE  DCT 
+     e11 "Läbirääkimised"  BEFORE  e12 "tõestanud" 
+     e12 "tõestanud"  BEFORE  DCT 
+     e12 "tõestanud"  BEFORE  e13 "ütles" 
+     e12 "tõestanud"  VAGUE  e18 "pööranud" 
+     e13 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e13 "ütles"  AFTER  e15 "andnud" 
+     e13 "ütles"  IS_INCLUDED  e14 "pressikonverentsil" 
+     e13 "ütles"  VAGUE  e18 "pööranud" 
+     e14 "pressikonverentsil"  BEFORE  DCT 
+     e15 "andnud"  BEFORE  DCT 
+
+ s4  Vene ajakirjandus on [e16 visiidist ] [e17 kirjutades ] [e18 pööranud ] kõige rohkem tähelepanu Venemaa [e19 relvatarnetele ] Indiasse .
+     e16 "visiidist"  INCLUDES  DCT 
+     e16 "visiidist"  VAGUE  e17 "kirjutades" 
+     e17 "kirjutades"  BEFORE  DCT 
+     e17 "kirjutades"  IS_INCLUDED  e18 "pööranud" 
+     e18 "pööranud"  BEFORE  DCT 
+     e18 "pööranud"  IS_INCLUDED  e19 "relvatarnetele" 
+     e18 "pööranud"  INCLUDES  e20 "nentis" 
+     e18 "pööranud"  INCLUDES  e21 "läks" 
+     e19 "relvatarnetele"  INCLUDES  DCT 
+
+ s5  Ajaleht Segodnja [e20 nentis ] , et Putin [e21 läks ] Indiasse kui Vene relvaekspordifirma Rosvooruzhenije müügimees .
+     e20 "nentis"  BEFORE  DCT 
+     e20 "nentis"  AFTER  e21 "läks" 
+     e20 "nentis"  BEFORE  e25 "kirjutatud" 
+     e21 "läks"  BEFORE  DCT 
+     e21 "läks"  BEFORE  e25 "kirjutatud" 
+
+ s6  Näiteks [e22 peaks ] just [e23 visiidi ] ajal [e24 saama ] alla [e25 kirjutatud ] [e26 leping ] , mille kohaselt India [e27 ostab ] Venemaalt 124 tanki T-90S ja [e28 ehitab ] litsentsi alusel veel 186.
+     e22 "peaks"  OVERLAP-OR-AFTER  DCT 
+     e22 "peaks"  VAGUE  e24 "saama" 
+     e23 "visiidi"  INCLUDES  DCT 
+     e23 "visiidi"  INCLUDES  e25 "kirjutatud" 
+     e24 "saama"  OVERLAP-OR-AFTER  DCT 
+     e24 "saama"  VAGUE  e25 "kirjutatud" 
+     e25 "kirjutatud"  OVERLAP-OR-AFTER  DCT 
+     e25 "kirjutatud"  BEFORE  e27 "ostab" 
+     e25 "kirjutatud"  BEFORE  e28 "ehitab" 
+     e25 "kirjutatud"  VAGUE  e26 "leping" 
+     e25 "kirjutatud"  SIMULTANEOUS  e31 "olema" 
+     e26 "leping"  OVERLAP-OR-AFTER  DCT 
+     e27 "ostab"  AFTER  DCT 
+     e27 "ostab"  BEFORE  e28 "ehitab" ka VAGUE
+     e28 "ehitab"  AFTER  DCT 
+
+ s7  [e29 Tehingu ] hind [e30 peaks ] [e31 olema ] 750 miljonit USA dollarit .
+     e29 "Tehingu"  AFTER  DCT 
+     e29 "Tehingu"  VAGUE  e31 "olema" 
+     e30 "peaks"  OVERLAP-OR-AFTER  DCT 
+     e30 "peaks"  VAGUE  e31 "olema" 
+     e31 "olema"  OVERLAP-OR-AFTER  DCT 
+     e31 "olema"  VAGUE  e33 "loodab" 
+     e31 "olema"  VAGUE  e34 "müüa" 
+
+ s8  Teise " sajandi [e32 tehinguna ] " [e33 loodab ] Venemaa Indiale maha [e34 müüa ] lennukikandja ristleja Admiral Gorshkov ja mõned hävitajad MiG-29 .
+     e32 "tehinguna"  AFTER  DCT 
+     e32 "tehinguna"  IS_INCLUDED  e33 "loodab" 
+     e33 "loodab"  INCLUDES  DCT 
+     e33 "loodab"  BEFORE-OR-OVERLAP  e34 "müüa" 
+     e33 "loodab"  BEFORE  e36 "tooma" 
+     e34 "müüa"  AFTER  DCT 
+     e34 "müüa"  SIMULTANEOUS  e36 "tooma" 
+
+ s9  See [e35 peaks ] Venemaale sisse [e36 tooma ] 1,3 -1,5 miljardit dollarit .
+     e35 "peaks"  AFTER  DCT 
+     e35 "peaks"  VAGUE  e36 "tooma" 
+     e36 "tooma"  AFTER  DCT 
+     e36 "tooma"  AFTER  e37 "käsitlenud" 
+     e36 "tooma"  AFTER  e39 "nentinud" 
+     e36 "tooma"  IS_INCLUDED  e40 "on" 
+
+ s10  Samas on Vene press [e37 käsitlenud ] Vene-India [e38 suhteid ] ka geopoliitilises kontekstis ja [e39 nentinud ] , et siin [e40 on ] Putini ees küllaltki keerukas ristsõnamõistatus .
+     e37 "käsitlenud"  BEFORE  DCT 
+     e37 "käsitlenud"  IS_INCLUDED  e38 "suhteid" 
+     e37 "käsitlenud"  SIMULTANEOUS  e39 "nentinud" 
+     e37 "käsitlenud"  OVERLAP-OR-AFTER  e41 "püüdnud" 
+     e38 "suhteid"  INCLUDES  DCT 
+     e39 "nentinud"  BEFORE  DCT 
+     e39 "nentinud"  IS_INCLUDED  e40 "on" 
+     e39 "nentinud"  OVERLAP-OR-AFTER  e41 "püüdnud" 
+     e40 "on"  INCLUDES  DCT 
+     e40 "on"  OVERLAP-OR-AFTER  e41 "püüdnud" 
+
+ s11  Juba [t2 aastaid ] on Venemaa [e41 püüdnud ] [e42 soojendada ] [e42 suhteid ] India ja Hiinaga , et [e43 oleks ] midagi vastu [e44 panna ] USA liidripositsioonile maailmas .
+     e41 "püüdnud"  SIMULTANEOUS  t2 "aastaid" 
+     e41 "püüdnud"  BEFORE  DCT 
+     e41 "püüdnud"  BEFORE-OR-OVERLAP  e42 "soojendada suhteid" 
+     e41 "püüdnud"  BEFORE  e43 "oleks" 
+     e41 "püüdnud"  BEFORE  e44 "panna" 
+     e41 "püüdnud"  BEFORE-OR-OVERLAP  e45 "tekkinud" 
+     e42 "soojendada suhteid"  BEFORE  DCT 
+     e43 "oleks"  VAGUE  DCT 
+     e43 "oleks"  VAGUE  e44 "panna" 
+     e44 "panna"  VAGUE  DCT 
+
+ s12  [t3 Nüüd ] aga on Venemaal [e45 tekkinud ] palju pakilisem ja isiklikum [e46 vajadus ] [e47 saada ] hästi läbi hoopis Pakistaniga - riigiga , millega Indial jällegi [e48 on ] äärmiselt pingelised suhted .
+     e45 "tekkinud"  IS_INCLUDED  t3 "Nüüd" 
+     e45 "tekkinud"  BEFORE  DCT 
+     e45 "tekkinud"  BEFORE-OR-OVERLAP  e46 "vajadus" 
+     e45 "tekkinud"  IS_INCLUDED  e48 "on" 
+     e45 "tekkinud"  IS_INCLUDED  e49 "on" 
+     e46 "vajadus"  VAGUE  DCT 
+     e46 "vajadus"  BEFORE-OR-OVERLAP  e47 "saada" 
+     e47 "saada"  VAGUE  DCT 
+     e48 "on"  INCLUDES  DCT 
+
+ s13  Pakistan [e49 on ] aga ainus riik maailmas , mis [e50 suudab ] [e51 lävida ] Talebani liikumisega .
+     e49 "on"  INCLUDES  DCT 
+     e49 "on"  SIMULTANEOUS  e50 "suudab" 
+     e49 "on"  SIMULTANEOUS  e51 "lävida" 
+     e49 "on"  INCLUDES  e54 "muutub" 
+     e50 "suudab"  INCLUDES  DCT 
+     e50 "suudab"  VAGUE  e51 "lävida" 
+     e51 "lävida"  INCLUDES  DCT 
+
+ s14  Kuivõrd viimane on [e52 saanud ] oma kontrolli alla peaaegu kogu Afganistani ja [e53 jõudnud ] Tadzhikistani piiri äärde , siis [e54 muutub ] Venemaale - mis [e55 valvab ] Tadzhi-kistani ja Afganistani piiri - Talebaniga suhete [e56 loomine ] elutähtsaks küsimuseks .
+     e52 "saanud"  BEFORE  DCT 
+     e52 "saanud"  BEFORE  e54 "muutub" 
+     e52 "saanud"  SIMULTANEOUS  e53 "jõudnud" 
+     e53 "jõudnud"  BEFORE  DCT 
+     e53 "jõudnud"  BEFORE  e54 "muutub" 
+     e54 "muutub"  INCLUDES  DCT 
+     e54 "muutub"  IS_INCLUDED  e55 "valvab" 
+     e54 "muutub"  VAGUE  e56 "loomine" 
+     e54 "muutub"  SIMULTANEOUS  e58 "oleks kasulik" ka VAGUE
+     e55 "valvab"  INCLUDES  DCT 
+     e56 "loomine"  INCLUDES  DCT 
+
+ s15  Pakistani [e57 vahendus ] siin [e58 oleks ] väga [e58 kasulik ] .
+     e57 "vahendus"  INCLUDES  DCT 
+     e57 "vahendus"  VAGUE  e58 "oleks kasulik" 
+     e58 "oleks kasulik"  INCLUDES  DCT 
+
+

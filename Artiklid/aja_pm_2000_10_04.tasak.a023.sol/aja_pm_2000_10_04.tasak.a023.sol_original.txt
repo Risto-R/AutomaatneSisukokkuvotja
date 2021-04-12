@@ -1,26 +1,81 @@
 <div0><head> Maalapsed talve eel külmas ja näljas </head>
-<p rend="italic"> <s> Raskesse rahalisse seisu sattunud vallad ja väikelinnad paluvad valitsuselt kriisiabiks miljoneid kroone </s> </p>
-<p> <bibl> <author> <s> Toomas Sildam , Ester Vilgats , uudised@postimees.ee </s> </author> </bibl> </p>
-<p rend="bold"> <s> Tootsi väikeasula õpilased pidid eile hämara söökla lõunalauas leppima vaid võileibadega , sest võlapöörisesse kukkunud vald ei suuda enam maksta kooli ja lasteaia elektri ja kütte eest . </s> </p>
-<p> <s> Kunagise turbaimpeeriumi pealinn Tootsi on üks paljudest viletsasse seisu sattunud omavalitsustest , kes nüüd näevad valitsuse reservfondis , regionaalarengu sihtasutuses või eelarvevälises omandireformi fondis viimast õlekõrt , mis nad võlgade keerisest kindlale pinnale välja tõmbaks . </s> </p>
-<p> <s> Esmaspäevast elektri ja kütteta jäänud lasteaed ja põhikool Tootsi aleviku keskuses on sealse suurima tööandja ASi Tootsi Turvas vastukäik mullu kevadest kogunenud valla võlakoormale ja maksmata arvetele , mis nüüdseks on kasvanud miljoni krooni piirist kõrgemale . </s> </p>
-<p rend="bold"> <s> Abipalve Tallinna </s> </p>
-<p> <s> “ Meie tulubaas ei tule kasvavatele kulutustele järele , ” sõnastas vallavanem Kaljo Ahman oma suure mure . </s> </p>
-<p> <s> Lasteaed , kool , hooldekodu , spordikompleks , raamatukogu , saun ja muusikakool võtavad viie ja poole miljoni kroonise eelarvega valla kuludest ligi 70% . </s> </p>
-<p> <s> Eile hommikul jäid elektrivalguseta , hämaras lasteaias lapsed hommikusöögita , sest pliidid ei tööta , lõunaks tõid kokad neile ja põhikooli õpilastele lauale vaid piima ja võileivad . </s> </p>
-<p> <s> “ Õnneks pole ilmad veel nii külmad ega pimedad , praegu saame ka elektri ja kütteta hakkama , ” ütles lasteaia juhataja Maire Klemmer . </s> </p>
-<p> <s> Mõned algklasside õpilased istusid eile tundides siiski juba jopedes . </s> </p>
-<p> <s> Täna faksib Ahman 1150 vallaelaniku nimel murekirja Tallinna , äsjarenoveeritud Stenbocki majja , kus see eredalt valgustatud eesruumis peaminister Mart Laari sekretäri faksist välja vonkleb . </s> </p>
-<p> <s> “ Vajame kolm miljonit krooni vanade võlgade kustutamiseks ja siis igal aastal täiendavalt poolteist miljonit riigi toetust , ” avas Ahman palvekirja sisu . </s> </p>
-<p> <s> Kolm miljonit krooni on sama palju kui vallavolikogu kirjutas selle aasta eelarvesse reale “ toetused riigiasutustelt ” , sest jäi uskuma ministrite lubadusi . </s> </p>
-<p> <s> “ Raha kui sellist ei ole lubanud keegi , aga regionaalminister Asmer ütles aasta tagasi , et kindlasti tuleb Tootsi probleem lahendada ja eelmine minister Peep Aru lubas seda samuti , ” selgitab Ahman kolmemiljonilise eelarveaugu sünnilugu . </s> </p>
-<p> <s> Pärnu maavanem Toomas Kivimägi paneb halastamatu diagnoosi : “ Õhuga eelarve viimine tasakaalu . ” </s> </p>
-<p> <s> Ent maavanem , kuigi valitsuse esindaja , tõstab Tootsi tänase rahaküsimise toetuseks mõlemad käed , sest selle valla puhul ei kehti omavalitsuste rahastamise üldine valem . </s> </p>
-<p rend="bold"> <s> Vallad paluvad raha </s> </p>
-<p> <s> “ Valitsus peab tunnistama erandeid ja Tootsile abiraha leidma , ” on Kivimägi veendunud . </s> <s> “ Muidugi , võime kinni panna lasteaia , sauna , veel midagi - aga kas siis oleks elu elamist väärt ? ” </s> </p>
-<p> <s> Sellist elu ei taha oma kodualevile ka ASi Tootsi Turvas peadirektor Kai Mäeleht . </s> <s> Turbatööstuse 415 töötajast elab 300 Tootsis . </s> <s> Firma maksis mullu riigile korralikult 17,5 miljonit maksukrooni , kuid vallaasutuste ülalpidamist enda kanda võtta ei suuda . </s> </p>
-<p> <s> “ Kui valitsus raha ei anna , siis ma ei tea , mis saab , ” kostab telefonis vaikselt Tootsi vallavanema Kaljo Ahmani hääl . </s> </p>
-<p> <s> “ Kõige hullem , et tahtjaid on palju ja kui ühele antakse , on kohe järgmised ukse taga , ” mõistab Ahman valitsuse kitsikust . </s> </p>
-<p> <s> Regionaalminister Toivo Asmer ennustab , et järgmise aasta lõpuks on valitsuse laual 30 omavalitsuse abipalved . </s> </p>
-<p> <s> Paldiski linn tahab juba praegu ligi kuus miljonit , Narva-Jõesuu kaks miljonit krooni . </s> <s> Täna postitab palvekirja peaminister Laarile ka Kallaste linnapea Tiit Hilpus , kes küsib 170 000 abikrooni , kuigi sai juba kevadel valitsuselt 250 000 laenuks . </s> </p>
-<p rend="italic"> <s> Loe ka juhtkirja </s> </p></div0>
+<p rend="italic">
+ <s> Raskesse rahalisse seisu sattunud vallad ja väikelinnad paluvad valitsuselt kriisiabiks miljoneid kroone </s> 
+</p>
+<p>
+ <bibl> <author> <s> Toomas Sildam , Ester Vilgats , uudised@postimees.ee </s> </author> </bibl> 
+</p>
+<p rend="bold">
+ <s> Tootsi väikeasula õpilased pidid eile hämara söökla lõunalauas leppima vaid võileibadega , sest võlapöörisesse kukkunud vald ei suuda enam maksta kooli ja lasteaia elektri ja kütte eest . </s> 
+</p>
+<p>
+ <s> Kunagise turbaimpeeriumi pealinn Tootsi on üks paljudest viletsasse seisu sattunud omavalitsustest , kes nüüd näevad valitsuse reservfondis , regionaalarengu sihtasutuses või eelarvevälises omandireformi fondis viimast õlekõrt , mis nad võlgade keerisest kindlale pinnale välja tõmbaks . </s> 
+</p>
+<p>
+ <s> Esmaspäevast elektri ja kütteta jäänud lasteaed ja põhikool Tootsi aleviku keskuses on sealse suurima tööandja ASi Tootsi Turvas vastukäik mullu kevadest kogunenud valla võlakoormale ja maksmata arvetele , mis nüüdseks on kasvanud miljoni krooni piirist kõrgemale . </s> 
+</p>
+<p rend="bold">
+ <s> Abipalve Tallinna </s> 
+</p>
+<p>
+ <s> “ Meie tulubaas ei tule kasvavatele kulutustele järele , ” sõnastas vallavanem Kaljo Ahman oma suure mure . </s> 
+</p>
+<p>
+ <s> Lasteaed , kool , hooldekodu , spordikompleks , raamatukogu , saun ja muusikakool võtavad viie ja poole miljoni kroonise eelarvega valla kuludest ligi 70% . </s> 
+</p>
+<p>
+ <s> Eile hommikul jäid elektrivalguseta , hämaras lasteaias lapsed hommikusöögita , sest pliidid ei tööta , lõunaks tõid kokad neile ja põhikooli õpilastele lauale vaid piima ja võileivad . </s> 
+</p>
+<p>
+ <s> “ Õnneks pole ilmad veel nii külmad ega pimedad , praegu saame ka elektri ja kütteta hakkama , ” ütles lasteaia juhataja Maire Klemmer . </s> 
+</p>
+<p>
+ <s> Mõned algklasside õpilased istusid eile tundides siiski juba jopedes . </s> 
+</p>
+<p>
+ <s> Täna faksib Ahman 1150 vallaelaniku nimel murekirja Tallinna , äsjarenoveeritud Stenbocki majja , kus see eredalt valgustatud eesruumis peaminister Mart Laari sekretäri faksist välja vonkleb . </s> 
+</p>
+<p>
+ <s> “ Vajame kolm miljonit krooni vanade võlgade kustutamiseks ja siis igal aastal täiendavalt poolteist miljonit riigi toetust , ” avas Ahman palvekirja sisu . </s> 
+</p>
+<p>
+ <s> Kolm miljonit krooni on sama palju kui vallavolikogu kirjutas selle aasta eelarvesse reale “ toetused riigiasutustelt ” , sest jäi uskuma ministrite lubadusi . </s> 
+</p>
+<p>
+ <s> “ Raha kui sellist ei ole lubanud keegi , aga regionaalminister Asmer ütles aasta tagasi , et kindlasti tuleb Tootsi probleem lahendada ja eelmine minister Peep Aru lubas seda samuti , ” selgitab Ahman kolmemiljonilise eelarveaugu sünnilugu . </s> 
+</p>
+<p>
+ <s> Pärnu maavanem Toomas Kivimägi paneb halastamatu diagnoosi : “ Õhuga eelarve viimine tasakaalu . ” </s> 
+</p>
+<p>
+ <s> Ent maavanem , kuigi valitsuse esindaja , tõstab Tootsi tänase rahaküsimise toetuseks mõlemad käed , sest selle valla puhul ei kehti omavalitsuste rahastamise üldine valem . </s> 
+</p>
+<p rend="bold">
+ <s> Vallad paluvad raha </s> 
+</p>
+<p>
+ <s> “ Valitsus peab tunnistama erandeid ja Tootsile abiraha leidma , ” on Kivimägi veendunud . </s>
+<s> “ Muidugi , võime kinni panna lasteaia , sauna , veel midagi - aga kas siis oleks elu elamist väärt ? ” </s> 
+</p>
+<p>
+ <s> Sellist elu ei taha oma kodualevile ka ASi Tootsi Turvas peadirektor Kai Mäeleht . </s>
+<s> Turbatööstuse 415 töötajast elab 300 Tootsis . </s>
+<s> Firma maksis mullu riigile korralikult 17,5 miljonit maksukrooni , kuid vallaasutuste ülalpidamist enda kanda võtta ei suuda . </s> 
+</p>
+<p>
+ <s> “ Kui valitsus raha ei anna , siis ma ei tea , mis saab , ” kostab telefonis vaikselt Tootsi vallavanema Kaljo Ahmani hääl . </s> 
+</p>
+<p>
+ <s> “ Kõige hullem , et tahtjaid on palju ja kui ühele antakse , on kohe järgmised ukse taga , ” mõistab Ahman valitsuse kitsikust . </s> 
+</p>
+<p>
+ <s> Regionaalminister Toivo Asmer ennustab , et järgmise aasta lõpuks on valitsuse laual 30 omavalitsuse abipalved . </s> 
+</p>
+<p>
+ <s> Paldiski linn tahab juba praegu ligi kuus miljonit , Narva-Jõesuu kaks miljonit krooni . </s>
+<s> Täna postitab palvekirja peaminister Laarile ka Kallaste linnapea Tiit Hilpus , kes küsib 170 000 abikrooni , kuigi sai juba kevadel valitsuselt 250 000 laenuks . </s> 
+</p>
+<p rend="italic">
+ <s> Loe ka juhtkirja </s> 
+</p>
+</div0>

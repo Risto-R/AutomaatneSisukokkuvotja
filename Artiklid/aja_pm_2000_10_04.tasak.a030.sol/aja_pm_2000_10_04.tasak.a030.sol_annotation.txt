@@ -1,0 +1,288 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a030.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Valitsus [e1 otsustas ] [t1 eile ] hoolimata segastest maaküsimustest [e2 panna ] 250 miljoni kroonise alghinnaga [e3 müüki ] AS Tallinna Olümpiapurjespordikeskuse ( TOP ) kogu aktsiapaki .
+     e1 "otsustas"  IS_INCLUDED  t1 "eile" 
+     e1 "otsustas"  BEFORE  DCT 
+     e1 "otsustas"  BEFORE  e2 "panna" 
+     e1 "otsustas"  IS_INCLUDED  e5 "kuuluvad" 
+     e2 "panna"  AFTER  DCT 
+     e2 "panna"  BEFORE-OR-OVERLAP  e3 "müüki" 
+     e3 "müüki"  AFTER  DCT 
+
+ s1  [e4 Müüki ] mineva TOPi kompleksi hulka [e5 kuuluvad ] hotell , kaubanduskeskus , spordirajatised , veespordi- ja puhkekeskus ning jahisadam , mille üle on Tallinna linnaga pikki [e6 vaidlusi ] [e6 peetud ] .
+     e4 "Müüki"  AFTER  DCT 
+     e4 "Müüki"  AFTER  e5 "kuuluvad" 
+     e5 "kuuluvad"  INCLUDES  DCT 
+     e5 "kuuluvad"  INCLUDES  e6 "vaidlusi peetud" 
+     e5 "kuuluvad"  INCLUDES  e8 "läheb" 
+     e5 "kuuluvad"  INCLUDES  e9 "on" 
+     e6 "vaidlusi peetud"  BEFORE  DCT 
+
+ s2  [e7 Müüki ] [e8 läheb ] TOPi 41 547 aktsiat , ühe aktsia alghinnaks [e9 on ] 6017 krooni .
+     e7 "Müüki"  AFTER  DCT 
+     e7 "Müüki"  OVERLAP-OR-AFTER  e8 "läheb" 
+     e8 "läheb"  AFTER  DCT 
+     e8 "läheb"  IS_INCLUDED  e9 "on" 
+     e8 "läheb"  IS_INCLUDED  e11 "peab" 
+     e9 "on"  INCLUDES  DCT 
+     e9 "on"  SIMULTANEOUS  e11 "peab" 
+
+ s3  Kultuuriminister Signe Kivi [e10 sõnul ] [e11 peab ] valitsus hoolimata mitmete ärimeeste vastuväidetest alghinda reaalseks .
+     e10 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e10 "sõnul"  IS_INCLUDED  e11 "peab" 
+     e11 "peab"  INCLUDES  DCT 
+     e11 "peab"  SIMULTANEOUS  e12 "on seisukohal" 
+
+ s4  Samas [e12 on ] TOPi juhatuse esimees Raimo Kägu nii suure hinna saamises pessimistlikul [e12 seisukohal ] .
+     e12 "on seisukohal"  INCLUDES  DCT 
+     e12 "on seisukohal"  INCLUDES  e18 "ütles" 
+     e12 "on seisukohal"  SIMULTANEOUS  e13 "pole omanik" 
+     e12 "on seisukohal"  SIMULTANEOUS  e17 "on" 
+
+ s5  " Kuna ma [e13 pole ] [e13 omanik ] , ei [e14 ole ] ma selles osas [e14 pädev ] [e15 rääkima ] , kuid minu [e16 arvates ] [e17 on ] 250 miljonit liiga kõrge hind , " [e18 ütles ] Kägu BNSile .
+     e13 "pole omanik"  INCLUDES  DCT 
+     e13 "pole omanik"  INCLUDES  e18 "ütles" 
+     e13 "pole omanik"  SIMULTANEOUS  e14 "ole pädev" 
+     e13 "pole omanik"  AFTER  e19 "öelnud" 
+     e14 "ole pädev"  INCLUDES  DCT 
+     e14 "ole pädev"  INCLUDES  e18 "ütles" 
+     e14 "ole pädev"  VAGUE  e15 "rääkima" 
+     e14 "ole pädev"  VAGUE  e17 "on" 
+     e15 "rääkima"  VAGUE  DCT 
+     e16 "arvates"  IS_INCLUDED  DCT 
+     e16 "arvates"  IS_INCLUDED  e17 "on" 
+     e17 "on"  INCLUDES  DCT 
+     e17 "on"  INCLUDES  e18 "ütles" 
+     e17 "on"  AFTER  e19 "öelnud" 
+     e18 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e18 "ütles"  AFTER  e19 "öelnud" 
+
+ s6  Kulutuuriministeeriumi kantsler Margus Allikmaa on [t2 varem ] [e19 öelnud ] , et valitsus [e20 loodab ] TOPi [e21 müügist ] [e22 saada ] 230 miljonit krooni .
+     e19 "öelnud"  IS_INCLUDED  t2 "varem" 
+     e19 "öelnud"  BEFORE  DCT 
+     e19 "öelnud"  IS_INCLUDED  e20 "loodab" 
+     e19 "öelnud"  BEFORE  e24 "on vähetõenäoline" 
+     e20 "loodab"  INCLUDES  DCT 
+     e20 "loodab"  BEFORE-OR-OVERLAP  e21 "müügist" 
+     e20 "loodab"  BEFORE-OR-OVERLAP  e22 "saada" 
+     e21 "müügist"  AFTER  DCT 
+     e21 "müügist"  BEFORE-OR-OVERLAP  e22 "saada" 
+     e22 "saada"  AFTER  DCT 
+
+ s7  Kivi [e23 sõnul ] [e24 on ] [e24 vähetõenäoline ] , et [e25 erastamise ] hinda [e26 võiks ] [e27 mõjutada ] [e28 segadused ] ettevõttele kuuluva maaga , mis ei ole [t3 siiani ] katastrisse [e29 kantud ] .
+     e23 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e23 "sõnul"  IS_INCLUDED  e24 "on vähetõenäoline" 
+     e24 "on vähetõenäoline"  INCLUDES  DCT 
+     e24 "on vähetõenäoline"  INCLUDES  e25 "erastamise" 
+     e24 "on vähetõenäoline"  VAGUE  e27 "mõjutada" 
+     e24 "on vähetõenäoline"  INCLUDES  e35 "lausus" 
+     e24 "on vähetõenäoline"  SIMULTANEOUS  e31 "on pooleli" 
+     e24 "on vähetõenäoline"  SIMULTANEOUS  e32 "ole" 
+     e25 "erastamise"  AFTER  DCT 
+     e25 "erastamise"  IS_INCLUDED  e27 "mõjutada" 
+     e25 "erastamise"  IS_INCLUDED  e28 "segadused" 
+     e26 "võiks"  INCLUDES  DCT 
+     e26 "võiks"  VAGUE  e27 "mõjutada" 
+     e27 "mõjutada"  INCLUDES  DCT 
+     e27 "mõjutada"  INCLUDES  e29 "kantud" 
+     e27 "mõjutada"  IS_INCLUDED  e28 "segadused" 
+     e28 "segadused"  INCLUDES  DCT 
+     e28 "segadused"  INCLUDES  e29 "kantud" 
+     e29 "kantud"  BEFORE-OR-OVERLAP  t3 "siiani" 
+     e29 "kantud"  BEFORE-OR-OVERLAP  DCT 
+
+ s8  " Maaomandi [e30 korrastamine ] [e31 on ] [t4 hetkel ] [e31 pooleli ] , ent kõik see ei [e32 ole ] omanikule otsuse [e33 tegemisel ] [e34 takistuseks ] , " [e35 lausus ] Kivi .
+     e30 "korrastamine"  INCLUDES  DCT 
+     e30 "korrastamine"  SIMULTANEOUS  e31 "on pooleli" 
+     e31 "on pooleli"  SIMULTANEOUS  t4 "hetkel" 
+     e31 "on pooleli"  INCLUDES  DCT 
+     e31 "on pooleli"  INCLUDES  e35 "lausus" 
+     e31 "on pooleli"  SIMULTANEOUS  e32 "ole" 
+     e31 "on pooleli"  SIMULTANEOUS  e37 "on plaanis" 
+     e32 "ole"  INCLUDES  DCT 
+     e32 "ole"  INCLUDES  e33 "tegemisel" 
+     e32 "ole"  INCLUDES  e34 "takistuseks" 
+     e32 "ole"  INCLUDES  e35 "lausus" 
+     e32 "ole"  SIMULTANEOUS  e37 "on plaanis" 
+     e33 "tegemisel"  OVERLAP-OR-AFTER  DCT 
+     e33 "tegemisel"  INCLUDES  e34 "takistuseks" 
+     e34 "takistuseks"  VAGUE  DCT 
+     e35 "lausus"  BEFORE-OR-OVERLAP  DCT 
+     e35 "lausus"  IS_INCLUDED  e37 "on plaanis" 
+
+ s9  Ministri [e36 kinnitusel ] [e37 on ] kultuuriministeeriumil [e37 plaanis ] [t5 lähiajal ] Tallinna linnajuhtidega ühise laua taha [e38 istuda ] ja maaomandisse selgust [e39 tuua ] .
+     e36 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e36 "kinnitusel"  IS_INCLUDED  e37 "on plaanis" 
+     e37 "on plaanis"  BEFORE-OR-OVERLAP  t5 "lähiajal" 
+     e37 "on plaanis"  INCLUDES  DCT 
+     e37 "on plaanis"  BEFORE  e38 "istuda" 
+     e37 "on plaanis"  BEFORE  e39 "tuua" 
+     e37 "on plaanis"  INCLUDES  e43 "rääkis" 
+     e37 "on plaanis"  OVERLAP-OR-AFTER  e40 "püüdnud" 
+     e38 "istuda"  IS_INCLUDED  t5 "lähiajal" 
+     e38 "istuda"  AFTER  DCT 
+     e38 "istuda"  BEFORE-OR-OVERLAP  e39 "tuua" 
+     e39 "tuua"  IS_INCLUDED  t5 "lähiajal" 
+     e39 "tuua"  AFTER  DCT 
+
+ s10  " [t6 Seni ] on TOPi juhtkond [e40 püüdnud ] [t7 kaheksa aastat ] linnaga maa suhtes [e41 kokkuleppele ] [e42 jõuda ] , kuid tulutult , " [e43 rääkis ] Kivi .
+     e40 "püüdnud"  SIMULTANEOUS  t7 "kaheksa aastat" 
+     e40 "püüdnud"  BEFORE-OR-OVERLAP  DCT 
+     e40 "püüdnud"  BEFORE-OR-OVERLAP  e43 "rääkis" 
+     e40 "püüdnud"  BEFORE  e41 "kokkuleppele" 
+     e40 "püüdnud"  BEFORE  e42 "jõuda" 
+     e40 "püüdnud"  INCLUDES  e45 "esitas" 
+     e41 "kokkuleppele"  BEFORE-OR-OVERLAP  DCT 
+     e41 "kokkuleppele"  OVERLAP-OR-AFTER  e42 "jõuda" 
+     e42 "jõuda"  BEFORE-OR-OVERLAP  DCT 
+     e43 "rääkis"  BEFORE-OR-OVERLAP  DCT 
+     e43 "rääkis"  AFTER  e45 "esitas" 
+
+ s11  Kägu [e44 sõnul ] [e45 esitas ] Tallinna linnavalitsus [t8 kevadel ] TOPi juhatusele ettepanekud firmale kuuluva maa suuruse ja piiride kohta , mille Kägu juhatuse esimehena ka [e46 allkirjastas ] .
+     e44 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e44 "sõnul"  AFTER  e45 "esitas" 
+     e45 "esitas"  IS_INCLUDED  t8 "kevadel" 
+     e45 "esitas"  BEFORE  DCT 
+     e45 "esitas"  BEFORE  e46 "allkirjastas" 
+     e45 "esitas"  BEFORE  e47 "selgus" 
+     e46 "allkirjastas"  BEFORE  DCT 
+
+ s12  [t9 Septembri keskel ] aga [e47 selgus ] , et [t10 kevadisi ] [e48 plaane ] oli oluliselt [e49 kärbitud ] ning mitu objekti oli sealt välja [e50 jäetud ] .
+     e47 "selgus"  IS_INCLUDED  t9 "Septembri keskel" 
+     e47 "selgus"  BEFORE  DCT 
+     e47 "selgus"  AFTER  e48 "plaane" 
+     e47 "selgus"  AFTER  e49 "kärbitud" 
+     e47 "selgus"  AFTER  e50 "jäetud" 
+     e47 "selgus"  BEFORE-OR-OVERLAP  e52 "kuulunud" 
+     e47 "selgus"  BEFORE  e54 "rääkis" 
+     e48 "plaane"  SIMULTANEOUS  t10 "kevadisi" 
+     e48 "plaane"  BEFORE-OR-OVERLAP  DCT 
+     e48 "plaane"  BEFORE  e49 "kärbitud" 
+     e48 "plaane"  BEFORE  e50 "jäetud" 
+     e49 "kärbitud"  BEFORE  DCT 
+     e49 "kärbitud"  SIMULTANEOUS  e50 "jäetud" 
+     e50 "jäetud"  BEFORE  DCT 
+
+ s13  " [t11 Kevadise ] [e51 seisuga ] võrreldes ei [e52 kuulunud ] meile enam jahisadama kaks kaid ja selle teenindusmaa ning plats , kus [t12 talvel ] aluseid [e53 hoitakse ] , " [e54 rääkis ] Kägu .
+     e51 "seisuga"  SIMULTANEOUS  t11 "Kevadise" 
+     e51 "seisuga"  BEFORE  DCT 
+     e51 "seisuga"  BEFORE  e52 "kuulunud" 
+     e52 "kuulunud"  BEFORE-OR-OVERLAP  DCT 
+     e52 "kuulunud"  BEFORE-OR-OVERLAP  e54 "rääkis" 
+     e52 "kuulunud"  VAGUE  e53 "hoitakse" 
+     e52 "kuulunud"  AFTER  e55 "soovinud" 
+     e53 "hoitakse"  SIMULTANEOUS  t12 "talvel" 
+     e53 "hoitakse"  VAGUE  DCT 
+     e54 "rääkis"  BEFORE-OR-OVERLAP  DCT 
+     e54 "rääkis"  AFTER  e55 "soovinud" 
+
+ s14  Samasid maa-alasid on [t13 varem ] endale [e55 soovinud ] Tallinna linn .
+     e55 "soovinud"  IS_INCLUDED  t13 "varem" 
+     e55 "soovinud"  BEFORE  DCT 
+     e55 "soovinud"  BEFORE  e57 "tunnistas" 
+
+ s15  Kägu [e56 sõnul ] [e57 tunnistas ] maa [e58 kärpimist ] ka Tallinna linnaplaneerimise ameti peaspetsialist Margarita Maamägi , kes ei [e59 soostunud ] aga [e60 ütlema ] , kelle [e61 käsul ] seda [e62 tehti ] .
+     e56 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e56 "sõnul"  AFTER  e57 "tunnistas" 
+     e57 "tunnistas"  BEFORE  DCT 
+     e57 "tunnistas"  AFTER  e58 "kärpimist" 
+     e57 "tunnistas"  BEFORE  e59 "soostunud" 
+     e57 "tunnistas"  BEFORE  e67 "pöördunud" 
+     e57 "tunnistas"  BEFORE  e70 "lausus" 
+     e57 "tunnistas"  IS_INCLUDED  e64 "on ebaseaduslikud" 
+     e58 "kärpimist"  BEFORE  DCT 
+     e58 "kärpimist"  BEFORE  e59 "soostunud" 
+     e59 "soostunud"  BEFORE  DCT 
+     e59 "soostunud"  BEFORE-OR-OVERLAP  e60 "ütlema" 
+     e60 "ütlema"  BEFORE  DCT 
+     e60 "ütlema"  AFTER  e61 "käsul" 
+     e60 "ütlema"  AFTER  e62 "tehti" 
+     e61 "käsul"  BEFORE  DCT 
+     e61 "käsul"  BEFORE  e62 "tehti" 
+     e62 "tehti"  BEFORE  DCT 
+
+ s16  " Meie [e63 arvates ] [e64 on ] sellised [e65 kärped ] [e64 ebaseaduslikud ] ning vastava [e66 kaebusega ] oleme [e67 pöördunud ] ka Harju maavanema Orm Valtsoni poole , kellelt [e68 loodame ] [t14 lähiajal ] [e69 seisukoha ] [e69 saada ] , " [e70 lausus ] Kägu .
+     e63 "arvates"  INCLUDES  DCT 
+     e63 "arvates"  INCLUDES  e70 "lausus" 
+     e63 "arvates"  IS_INCLUDED  e64 "on ebaseaduslikud" 
+     e64 "on ebaseaduslikud"  INCLUDES  DCT 
+     e64 "on ebaseaduslikud"  INCLUDES  e67 "pöördunud" 
+     e64 "on ebaseaduslikud"  INCLUDES  e70 "lausus" 
+     e64 "on ebaseaduslikud"  INCLUDES  e73 "tutvunud" 
+     e64 "on ebaseaduslikud"  INCLUDES  e75 "antud" 
+     e65 "kärped"  INCLUDES  DCT 
+     e65 "kärped"  INCLUDES  e66 "kaebusega" 
+     e65 "kärped"  SIMULTANEOUS  e64 "on ebaseaduslikud" 
+     e66 "kaebusega"  BEFORE-OR-OVERLAP  DCT 
+     e66 "kaebusega"  BEFORE-OR-OVERLAP  e67 "pöördunud" 
+     e67 "pöördunud"  BEFORE  DCT 
+     e67 "pöördunud"  BEFORE  e68 "loodame" 
+     e67 "pöördunud"  BEFORE  e70 "lausus" 
+     e67 "pöördunud"  BEFORE  e73 "tutvunud" 
+     e67 "pöördunud"  BEFORE  e75 "antud" 
+     e68 "loodame"  BEFORE-OR-OVERLAP  t14 "lähiajal" 
+     e68 "loodame"  INCLUDES  DCT 
+     e68 "loodame"  BEFORE-OR-OVERLAP  e69 "seisukoha saada" 
+     e69 "seisukoha saada"  IS_INCLUDED  t14 "lähiajal" 
+     e69 "seisukoha saada"  AFTER  DCT 
+     e70 "lausus"  BEFORE-OR-OVERLAP  DCT 
+     e70 "lausus"  VAGUE  e73 "tutvunud" 
+     e70 "lausus"  VAGUE  e75 "antud" 
+
+ s17  Harju maavalitsuse pressiesindaja Kristina Männi [e71 sõnul ] on maavanem TOPi juhtkonna [e72 kaebusega ] [e73 tutvunud ] , kuid [e74 hinnangut ] sellele veel [e75 antud ] pole .
+     e71 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e71 "sõnul"  AFTER  e72 "kaebusega" 
+     e71 "sõnul"  AFTER  e73 "tutvunud" 
+     e72 "kaebusega"  BEFORE-OR-OVERLAP  DCT 
+     e72 "kaebusega"  BEFORE  e73 "tutvunud" 
+     e73 "tutvunud"  BEFORE  DCT 
+     e73 "tutvunud"  BEFORE  e74 "hinnangut" 
+     e73 "tutvunud"  BEFORE  e75 "antud" 
+     e73 "tutvunud"  BEFORE  e76 "Loodame" 
+     e73 "tutvunud"  BEFORE  e78 "lausus" 
+     e74 "hinnangut"  VAGUE  DCT 
+     e74 "hinnangut"  VAGUE  e75 "antud" 
+     e75 "antud"  BEFORE-OR-OVERLAP  DCT 
+     e75 "antud"  BEFORE-OR-OVERLAP  e76 "Loodame" 
+     e75 "antud"  BEFORE-OR-OVERLAP  e78 "lausus" 
+
+ s18  " [e76 Loodame ] seda [t15 lähipäevadel ] [e77 teha ] , " [e78 lausus ] Mänd .
+     e76 "Loodame"  BEFORE-OR-OVERLAP  t15 "lähipäevadel" 
+     e76 "Loodame"  INCLUDES  DCT 
+     e76 "Loodame"  BEFORE-OR-OVERLAP  e77 "teha" 
+     e76 "Loodame"  INCLUDES  e78 "lausus" 
+     e76 "Loodame"  IS_INCLUDED  e81 "kestnud" 
+     e77 "teha"  IS_INCLUDED  t15 "lähipäevadel" 
+     e77 "teha"  AFTER  DCT 
+     e77 "teha"  AFTER  e78 "lausus" 
+     e78 "lausus"  BEFORE-OR-OVERLAP  DCT 
+     e78 "lausus"  IS_INCLUDED  e81 "kestnud" 
+
+ s19  [e79 Vaidlused ] viimase riigile kuuluva erastamata ärilise kinnisvaraobjekti Tallinna Olümpiapurjespordikeskuse [e80 erastamise ] ümber on [e81 kestnud ] juba [t16 mitu aastat ] .
+     e79 "Vaidlused"  INCLUDES  DCT 
+     e79 "Vaidlused"  BEFORE  e80 "erastamise" 
+     e79 "Vaidlused"  SIMULTANEOUS  e81 "kestnud" 
+     e80 "erastamise"  AFTER  DCT 
+     e80 "erastamise"  AFTER  e81 "kestnud" 
+     e81 "kestnud"  SIMULTANEOUS  t16 "mitu aastat" 
+     e81 "kestnud"  INCLUDES  DCT 
+     e81 "kestnud"  SIMULTANEOUS  e83 "olnud" 
+
+ s20  [e82 Erastamise ] vastu on peamiselt [e83 olnud ] ettevõtte [t17 praegune ] juhtkond , kelle [e84 arvates ] [e85 teenib ] TOP peamiselt inimeste huve ja [e86 peaks ] seetõttu [e87 jääma ] riigile .
+     e82 "Erastamise"  AFTER  DCT 
+     e82 "Erastamise"  AFTER  e83 "olnud" 
+     e83 "olnud"  INCLUDES  DCT 
+     e83 "olnud"  INCLUDES  e84 "arvates" 
+     e83 "olnud"  VAGUE  e85 "teenib" 
+     e83 "olnud"  VAGUE  e87 "jääma" 
+     e84 "arvates"  INCLUDES  DCT 
+     e84 "arvates"  IS_INCLUDED  e85 "teenib" 
+     e85 "teenib"  INCLUDES  DCT 
+     e85 "teenib"  INCLUDES  e87 "jääma" 
+     e86 "peaks"  INCLUDES  DCT 
+     e86 "peaks"  VAGUE  e87 "jääma" 
+     e87 "jääma"  INCLUDES  DCT 
+
+

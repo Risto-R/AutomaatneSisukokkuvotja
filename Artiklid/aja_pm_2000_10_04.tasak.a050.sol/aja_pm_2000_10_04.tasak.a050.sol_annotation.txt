@@ -1,0 +1,237 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a050.sol
+      DCT: 2000-10-04
+==================================================
+ s0  USA [e1 loodab ] , et uus [e2 konflikt ] [e3 näitab ] pooltele veel kord rahu alternatiive
+     e1 "loodab"  INCLUDES  DCT 
+     e1 "loodab"  IS_INCLUDED  e2 "konflikt" 
+     e1 "loodab"  SIMULTANEOUS  e3 "näitab" 
+     e1 "loodab"  INCLUDES  e4 "kohtub" 
+     e2 "konflikt"  VAGUE  DCT 
+     e2 "konflikt"  INCLUDES  e3 "näitab" 
+     e3 "näitab"  INCLUDES  DCT 
+
+ s1  USA välisminister Madelein Albright [e4 kohtub ] [t1 täna ] Pariisis Iisraeli peaministri Ehud Baraki ja palestiinlaste liidri Yasser Arafatiga , [e5 püüdes ] [e6 lõpetada ] Lähis-Idas taas [e7 puhkenud ] [e8 vägivalda ] .
+     e4 "kohtub"  IS_INCLUDED  t1 "täna" 
+     e4 "kohtub"  IS_INCLUDED  DCT 
+     e4 "kohtub"  BEFORE  e6 "lõpetada" 
+     e4 "kohtub"  IS_INCLUDED  e5 "püüdes" 
+     e4 "kohtub"  AFTER  e12 "luhtunud" 
+     e5 "püüdes"  INCLUDES  DCT 
+     e5 "püüdes"  BEFORE-OR-OVERLAP  e6 "lõpetada" 
+     e6 "lõpetada"  AFTER  DCT 
+     e6 "lõpetada"  AFTER  e7 "puhkenud" 
+     e6 "lõpetada"  IS_INCLUDED  e8 "vägivalda" 
+     e7 "puhkenud"  BEFORE  DCT 
+     e7 "puhkenud"  IS_INCLUDED  e8 "vägivalda" 
+     e8 "vägivalda"  INCLUDES  DCT 
+
+ s2  [t2 Seni ] on kõik [e9 vägivalla ] [e10 peatamise ] [e11 katsed ] [e12 luhtunud ] .
+     e9 "vägivalla"  INCLUDES  DCT 
+     e9 "vägivalla"  INCLUDES  e10 "peatamise" 
+     e10 "peatamise"  BEFORE  DCT 
+     e10 "peatamise"  VAGUE  e11 "katsed" 
+     e11 "katsed"  BEFORE  DCT 
+     e11 "katsed"  BEFORE  e12 "luhtunud" 
+     e12 "luhtunud"  BEFORE-OR-OVERLAP  t2 "Seni" 
+     e12 "luhtunud"  BEFORE  DCT 
+     e12 "luhtunud"  INCLUDES  e13 "läksid" 
+
+ s3  [t3 Eile ] [e13 läksid ] uued [e14 kokkupõrked ] Iisraeli sõdurite ja palestiinlaste vahel lahti vaid [t4 mõni tund ] pärast seda , kui pooled [e15 leppisid ] kokku olukord kontrolli alla [e16 võtta ] .
+     e13 "läksid"  IS_INCLUDED  t3 "Eile" 
+     e13 "läksid"  BEFORE  DCT 
+     e13 "läksid"  AFTER  e15 "leppisid" 
+     e13 "läksid"  BEFORE-OR-OVERLAP  e14 "kokkupõrked" 
+     e13 "läksid"  AFTER  e18 "pidanud" 
+     e14 "kokkupõrked"  BEFORE  DCT 
+     e15 "leppisid"  BEFORE-OR-OVERLAP  t4 "mõni tund" 
+     e15 "leppisid"  BEFORE  DCT 
+     e15 "leppisid"  BEFORE  e16 "võtta" 
+     e16 "võtta"  BEFORE  DCT 
+
+ s4  [e17 Kokkulepe ] ei [e18 pidanud ]
+     e17 "Kokkulepe"  BEFORE  DCT 
+     e17 "Kokkulepe"  BEFORE-OR-OVERLAP  e18 "pidanud" 
+     e18 "pidanud"  BEFORE  DCT 
+     e18 "pidanud"  AFTER  e19 "sõlmisid" 
+
+ s5  Iisraeli armee ülem Läänekaldal ja kohaliku palestiina julgeolekuväe juht [e19 sõlmisid ] [t5 ööl vastu eilset ] [e20 kokkuleppe ] , mille kohaselt palestiinlased [e21 võtavad ] olukorra piirkonnas oma kontrolli alla ja juudiriik [e22 viib ] palestiinlaste omavalitsuse aladelt välja raske sõjatehnika .
+     e19 "sõlmisid"  IS_INCLUDED  t5 "ööl vastu eilset" 
+     e19 "sõlmisid"  BEFORE  DCT 
+     e19 "sõlmisid"  BEFORE-OR-OVERLAP  e20 "kokkuleppe" 
+     e19 "sõlmisid"  BEFORE  e21 "võtavad" 
+     e19 "sõlmisid"  BEFORE  e26 "algasid" 
+     e20 "kokkuleppe"  BEFORE  DCT 
+     e20 "kokkuleppe"  BEFORE  e21 "võtavad" 
+     e21 "võtavad"  INCLUDES  DCT 
+     e21 "võtavad"  INCLUDES  e22 "viib" 
+     e22 "viib"  AFTER  DCT 
+
+ s6  [t6 Päeva teisel poolel ] , kui Läänekaldal Nabluse lähistel [e23 maeti ] [t7 varasemas ] [e24 tulevahetuses ] [e25 hukkunud ] palestiina noorukit , [e26 algasid ] uued [e27 rahutused ] .
+     e23 "maeti"  IS_INCLUDED  t6 "Päeva teisel poolel" 
+     e23 "maeti"  BEFORE  DCT 
+     e23 "maeti"  AFTER  e24 "tulevahetuses" 
+     e23 "maeti"  AFTER  e25 "hukkunud" 
+     e23 "maeti"  BEFORE-OR-OVERLAP  e26 "algasid" 
+     e24 "tulevahetuses"  BEFORE  DCT 
+     e24 "tulevahetuses"  IS_INCLUDED  e25 "hukkunud" 
+     e25 "hukkunud"  BEFORE  DCT 
+     e26 "algasid"  IS_INCLUDED  t6 "Päeva teisel poolel" 
+     e26 "algasid"  BEFORE  DCT 
+     e26 "algasid"  BEFORE-OR-OVERLAP  e27 "rahutused" 
+     e26 "algasid"  BEFORE  e28 "sai surma" 
+     e27 "rahutused"  VAGUE  DCT 
+
+ s7  Tulevahetuses Gaza sektoris [e28 sai ] vähemalt kaks palestiinlast [e28 surma ] .
+     e28 "sai surma"  BEFORE  DCT 
+     e28 "sai surma"  SIMULTANEOUS  e29 "võtnud" ka VAGUE
+
+ s8  Iisrael on kasutusele [e29 võtnud ] ka rünnakukopterid .
+     e29 "võtnud"  BEFORE  DCT 
+     e29 "võtnud"  SIMULTANEOUS  e32 "surma saanud" ka VAGUE
+
+ s9  Alates [t8 eelmisest neljapäevast ] , mil [e30 kokkupõrked ] juutide ja palestiinlaste vahel [e31 puhkesid ] , on [e32 surma ] [e32 saanud ] üle 50 inimese , enamuses palestiinlased .
+     e30 "kokkupõrked"  INCLUDES  DCT 
+     e30 "kokkupõrked"  OVERLAP-OR-AFTER  e31 "puhkesid" 
+     e31 "puhkesid"  IS_INCLUDED  t8 "eelmisest neljapäevast" 
+     e31 "puhkesid"  BEFORE  DCT 
+     e31 "puhkesid"  BEFORE  e32 "surma saanud" 
+     e32 "surma saanud"  OVERLAP-OR-AFTER  t8 "eelmisest neljapäevast" 
+     e32 "surma saanud"  BEFORE  DCT 
+     e32 "surma saanud"  IS_INCLUDED  e33 "haavatud" 
+
+ s10  Üle tuhande palestiinlase on [e33 haavatud ] .
+     e33 "haavatud"  INCLUDES  DCT 
+     e33 "haavatud"  INCLUDES  e34 "sekkunud" 
+
+ s11  Aktiivselt on rahudiplomaatiasse [e34 sekkunud ] president Bill Clinton , kes [e35 vestles ] [t9 nädalavahetusel ] telefonitsi nii Baraki kui ka Arafatiga .
+     e34 "sekkunud"  BEFORE-OR-OVERLAP  DCT 
+     e34 "sekkunud"  INCLUDES  e35 "vestles" 
+     e34 "sekkunud"  INCLUDES  e36 "rõhutas" 
+     e34 "sekkunud"  IS_INCLUDED  e39 "teenida" 
+     e35 "vestles"  IS_INCLUDED  t9 "nädalavahetusel" 
+     e35 "vestles"  BEFORE  DCT 
+
+ s12  Clinton [e36 rõhutas ] , et ajaloo silmis [e37 võib ] [t10 praegune ] [e38 veresaun ] [e39 teenida ] tegelikult üllast rolli , [e40 kinnitades ] mõlemale poolele veel kord , kui [e41 oluline ] [e41 on ] läbirääkimiste laua taha tagasi [e42 pöörduda ] .
+     e36 "rõhutas"  BEFORE-OR-OVERLAP  DCT 
+     e36 "rõhutas"  IS_INCLUDED  e39 "teenida" 
+     e36 "rõhutas"  VAGUE  e40 "kinnitades" 
+     e36 "rõhutas"  IS_INCLUDED  e43 "meelestatud" 
+     e37 "võib"  INCLUDES  DCT 
+     e37 "võib"  VAGUE  e39 "teenida" 
+     e38 "veresaun"  SIMULTANEOUS  t10 "praegune" 
+     e38 "veresaun"  INCLUDES  DCT 
+     e38 "veresaun"  SIMULTANEOUS  e39 "teenida" 
+     e39 "teenida"  INCLUDES  DCT 
+     e39 "teenida"  INCLUDES  e43 "meelestatud" 
+     e40 "kinnitades"  INCLUDES  DCT 
+     e41 "oluline on"  INCLUDES  DCT 
+     e41 "oluline on"  VAGUE  e42 "pöörduda" 
+     e42 "pöörduda"  INCLUDES  DCT 
+
+ s13  Ühendriikide analüütikud on samas Clintoni kui rahutooja suhtes üha skeptilisemalt [e43 meelestatud ] .
+     e43 "meelestatud"  INCLUDES  DCT 
+     e43 "meelestatud"  INCLUDES  e46 "jõua" 
+     e43 "meelestatud"  SIMULTANEOUS  e44 "lubab" 
+
+ s14  Uus kriis ja selle kiire levik [e44 lubab ] [e45 ennustada ] , et allesjäänud [t11 kolme ja poole ametikuu jooksul ] ei [e46 jõua ] Clinton ihaldusväärse välispoliitilise trofeeni .
+     e44 "lubab"  INCLUDES  DCT 
+     e44 "lubab"  INCLUDES  e46 "jõua" 
+     e44 "lubab"  VAGUE  e45 "ennustada" 
+     e44 "lubab"  INCLUDES  e48 "ütles" 
+     e44 "lubab"  VAGUE  e47 "tegu ei ole" 
+     e45 "ennustada"  INCLUDES  DCT 
+     e45 "ennustada"  BEFORE  e46 "jõua" 
+     e46 "jõua"  IS_INCLUDED  t11 "kolme ja poole ametikuu jooksul" 
+     e46 "jõua"  OVERLAP-OR-AFTER  DCT 
+     e46 "jõua"  AFTER  e47 "tegu ei ole" 
+     e46 "jõua"  AFTER  e48 "ütles" 
+
+ s15  " [e47 Tegu ] [e47 ei ] [e47 ole ] vaid järjekordse vägivallapuhanguga , " [e48 ütles ] intervjuus New Timesile endine Iisraeli suursaadik Washingtonis Itamar Rabinovich .
+     e47 "tegu ei ole"  INCLUDES  DCT 
+     e47 "tegu ei ole"  INCLUDES  e48 "ütles" 
+     e47 "tegu ei ole"  INCLUDES  e51 "sõnas" 
+     e47 "tegu ei ole"  SIMULTANEOUS  e50 "on mõju" 
+     e48 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e48 "ütles"  BEFORE  e51 "sõnas" 
+     e48 "ütles"  IS_INCLUDED  e50 "on mõju" 
+
+ s16  " Sel [e49 konfliktil ] [e50 on ] Iisraeli avalikule arvamusele tohutu [e50 mõju ] , " [e51 sõnas ] Rabinovich .
+     e49 "konfliktil"  INCLUDES  DCT 
+     e49 "konfliktil"  SIMULTANEOUS  e50 "on mõju" 
+     e50 "on mõju"  INCLUDES  DCT 
+     e50 "on mõju"  INCLUDES  e51 "sõnas" 
+     e50 "on mõju"  AFTER  e54 "meelestatud" 
+     e51 "sõnas"  BEFORE-OR-OVERLAP  DCT 
+     e51 "sõnas"  AFTER  e54 "meelestatud" 
+
+ s17  " Inimesed olid [t12 viimased kümme aastat ] araablaste ja Iisraeli [e52 konflikti ] [e53 lõpetamise ] suhtes optimistlikult [e54 meelestatud ] .
+     e52 "konflikti"  INCLUDES  DCT 
+     e52 "konflikti"  BEFORE-OR-OVERLAP  e53 "lõpetamise" 
+     e53 "lõpetamise"  VAGUE  DCT 
+     e53 "lõpetamise"  VAGUE  e54 "meelestatud" 
+     e54 "meelestatud"  SIMULTANEOUS  t12 "viimased kümme aastat" 
+     e54 "meelestatud"  BEFORE  DCT 
+     e54 "meelestatud"  BEFORE  e56 "avab" 
+
+ s18  Uus [e55 kriis ] [e56 avab ] mitmed vanad haavad . "
+     e55 "kriis"  INCLUDES  DCT 
+     e55 "kriis"  INCLUDES  e56 "avab" 
+     e56 "avab"  INCLUDES  DCT 
+     e56 "avab"  SIMULTANEOUS  e57 "soovivad" ka VAGUE
+
+ s19  Otsustusvõimetu ÜRO
+ s20  Palestiina liidrid [e57 soovivad ] , et Iisraeli käitumist konfliktis [e58 asuks ] [e59 uurima ] rahvusvaheline komisjon ning et ÜRO Julgeolekunõukogu [e60 võtaks ] vastu [e61 resolutsiooni ] , kus juudiriik teravalt hukka [e62 mõistetakse ] .
+     e57 "soovivad"  INCLUDES  DCT 
+     e57 "soovivad"  BEFORE  e58 "asuks" 
+     e57 "soovivad"  BEFORE  e59 "uurima" 
+     e57 "soovivad"  BEFORE  e60 "võtaks" 
+     e57 "soovivad"  INCLUDES  e63 "pidanud" 
+     e57 "soovivad"  INCLUDES  e64 "suudetud" 
+     e58 "asuks"  AFTER  DCT 
+     e58 "asuks"  BEFORE-OR-OVERLAP  e59 "uurima" 
+     e58 "asuks"  BEFORE  e60 "võtaks" 
+     e58 "asuks"  AFTER  e63 "pidanud" 
+     e58 "asuks"  AFTER  e64 "suudetud" 
+     e59 "uurima"  AFTER  DCT 
+     e59 "uurima"  BEFORE  e60 "võtaks" 
+     e60 "võtaks"  AFTER  DCT 
+     e60 "võtaks"  INCLUDES  e62 "mõistetakse" 
+     e60 "võtaks"  VAGUE  e61 "resolutsiooni" 
+     e60 "võtaks"  AFTER  e63 "pidanud" 
+     e60 "võtaks"  AFTER  e64 "suudetud" 
+     e61 "resolutsiooni"  AFTER  DCT 
+     e61 "resolutsiooni"  INCLUDES  e62 "mõistetakse" 
+     e62 "mõistetakse"  AFTER  DCT 
+
+ s21  Nõukogu liikmed on kinniste uste taga nõu [e63 pidanud ] juba [t13 kaks päeva ] , kuid vähemalt [t14 teisipäeva pärastlõunaks ] ei [e64 suudetud ] kokku [e65 leppida ] , kui karmisõnaliselt [e66 tuleks ] Iisrael hukka [e67 mõista ] .
+     e63 "pidanud"  SIMULTANEOUS  t13 "kaks päeva" 
+     e63 "pidanud"  INCLUDES  DCT 
+     e63 "pidanud"  INCLUDES  e64 "suudetud" 
+     e63 "pidanud"  AFTER  e69 "olid vastu" 
+     e63 "pidanud"  IS_INCLUDED  e71 "on nõus" 
+     e64 "suudetud"  BEFORE-OR-OVERLAP  t14 "teisipäeva pärastlõunaks" 
+     e64 "suudetud"  BEFORE  DCT 
+     e64 "suudetud"  BEFORE  e66 "tuleks" 
+     e64 "suudetud"  VAGUE  e65 "leppida" 
+     e64 "suudetud"  AFTER  e69 "olid vastu" 
+     e64 "suudetud"  IS_INCLUDED  e71 "on nõus" 
+     e65 "leppida"  BEFORE  DCT 
+     e65 "leppida"  BEFORE  e67 "mõista" 
+     e66 "tuleks"  AFTER  DCT 
+     e66 "tuleks"  VAGUE  e67 "mõista" 
+     e67 "mõista"  AFTER  DCT 
+
+ s22  ÜROs töötavate diplomaatide [e68 sõnul ] [e69 olid ] Ühendriigid esialgu igasuguse nõukogu [e70 sekkumise ] [e69 vastu ] , kuid [e71 on ] [t15 nüüd ] põhimõtteliselt resolutsiooni [e72 vastuvõtmisega ] [e71 nõus ] .
+     e68 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e68 "sõnul"  AFTER  e69 "olid vastu" 
+     e69 "olid vastu"  BEFORE  DCT 
+     e69 "olid vastu"  BEFORE  e70 "sekkumise" 
+     e69 "olid vastu"  BEFORE  e71 "on nõus" 
+     e70 "sekkumise"  VAGUE  DCT 
+     e71 "on nõus"  SIMULTANEOUS  t15 "nüüd" 
+     e71 "on nõus"  INCLUDES  DCT 
+     e71 "on nõus"  BEFORE-OR-OVERLAP  e72 "vastuvõtmisega" 
+     e72 "vastuvõtmisega"  OVERLAP-OR-AFTER  DCT 
+
+

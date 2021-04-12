@@ -1,0 +1,163 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a047.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Hundipea sadamas jäämurdja Tarmo naabruses oma saatust [e1 ootav ] muuseumilaev Suur Tõll [e2 võib ] uude koju Admiraliteedi basseinis [e3 jõuda ] [t1 selle kuu lõpuks ] , kuid alles siis , kui vajalik [e4 kokkulepe ] Tallinna Sadama ja Eesti Meremuuseumi vahel [e5 saab ] [e6 sõlmitud ] .
+     e1 "ootav"  INCLUDES  DCT 
+     e1 "ootav"  BEFORE  e3 "jõuda" 
+     e2 "võib"  OVERLAP-OR-AFTER  DCT 
+     e3 "jõuda"  BEFORE-OR-OVERLAP  t1 "selle kuu lõpuks" 
+     e3 "jõuda"  AFTER  DCT 
+     e3 "jõuda"  AFTER  e6 "sõlmitud" 
+     e3 "jõuda"  AFTER  e7 "ütles" 
+     e3 "jõuda"  AFTER  e8 "täpsustanud" 
+     e4 "kokkulepe"  AFTER  DCT 
+     e4 "kokkulepe"  OVERLAP-OR-AFTER  e6 "sõlmitud" 
+     e5 "saab"  AFTER  DCT 
+     e5 "saab"  BEFORE-OR-OVERLAP  e6 "sõlmitud" 
+     e6 "sõlmitud"  AFTER  DCT 
+
+ s1  Eesti Meremuuseumi direktor Urmas Dresen [e7 ütles ] , et [t2 seni ] on Tallinna Sadam ja meremuuseum jäämurdja Admiraliteedi basseini lubava lepingu punkte [e8 täpsustanud ] .
+     e7 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e7 "ütles"  OVERLAP-OR-AFTER  e8 "täpsustanud" 
+     e7 "ütles"  IS_INCLUDED  e10 "tulnud" 
+     e7 "ütles"  IS_INCLUDED  e9 "on" 
+     e7 "ütles"  SIMULTANEOUS  e11 "sõnas" ka VAGUE
+     e8 "täpsustanud"  BEFORE-OR-OVERLAP  t2 "seni" 
+     e8 "täpsustanud"  BEFORE-OR-OVERLAP  DCT 
+     e8 "täpsustanud"  BEFORE-OR-OVERLAP  e10 "tulnud" 
+     e8 "täpsustanud"  BEFORE-OR-OVERLAP  e11 "sõnas" 
+     e8 "täpsustanud"  BEFORE-OR-OVERLAP  e9 "on" 
+
+ s2  " [t3 Praegu ] [e9 on ] lepingu projekt Tallinna Sadamas , vastust sellele pole veel [e10 tulnud ] , " [e11 sõnas ] Dresen .
+     e9 "on"  SIMULTANEOUS  t3 "Praegu" 
+     e9 "on"  INCLUDES  DCT 
+     e9 "on"  INCLUDES  e10 "tulnud" 
+     e9 "on"  INCLUDES  e11 "sõnas" 
+     e9 "on"  BEFORE-OR-OVERLAP  e18 "hakata" 
+     e9 "on"  INCLUDES  e12 "lisas" 
+     e10 "tulnud"  BEFORE-OR-OVERLAP  DCT 
+     e10 "tulnud"  INCLUDES  e11 "sõnas" 
+     e10 "tulnud"  BEFORE-OR-OVERLAP  e18 "hakata" 
+     e10 "tulnud"  INCLUDES  e12 "lisas" 
+     e11 "sõnas"  BEFORE-OR-OVERLAP  DCT 
+     e11 "sõnas"  BEFORE  e12 "lisas" 
+     e11 "sõnas"  BEFORE  e18 "hakata" 
+
+ s3  Urmas Dresen [e12 lisas ] , et ehkki muuseum on [t4 tänaseks ] põhimõtteliselt kokku [e13 leppinud ] ka basseini [e14 süvendama ] [e15 hakkava ] ettevõttega , ei [e16 saa ] too enne midagi [e17 tegema ] [e18 hakata ] , kui sadama ja muuseumi vahel [e19 pole ] kindlat [e19 kokkulepet ] Suure Tõllu [e20 ületoomise ] kohta .
+     e12 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e12 "lisas"  BEFORE-OR-OVERLAP  e18 "hakata" 
+     e12 "lisas"  BEFORE-OR-OVERLAP  e24 "selgitas" 
+     e12 "lisas"  BEFORE  e22 "sõlmida" 
+     e13 "leppinud"  BEFORE-OR-OVERLAP  t4 "tänaseks" 
+     e13 "leppinud"  BEFORE  DCT 
+     e13 "leppinud"  BEFORE  e15 "hakkava" 
+     e13 "leppinud"  BEFORE  e18 "hakata" 
+     e14 "süvendama"  AFTER  DCT 
+     e14 "süvendama"  OVERLAP-OR-AFTER  e15 "hakkava" 
+     e15 "hakkava"  OVERLAP-OR-AFTER  DCT 
+     e16 "saa"  INCLUDES  DCT 
+     e17 "tegema"  AFTER  DCT 
+     e17 "tegema"  OVERLAP-OR-AFTER  e18 "hakata" 
+     e18 "hakata"  OVERLAP-OR-AFTER  DCT 
+     e18 "hakata"  OVERLAP-OR-AFTER  e19 "pole kokkulepet" 
+     e18 "hakata"  AFTER  e24 "selgitas" 
+     e18 "hakata"  OVERLAP-OR-AFTER  e22 "sõlmida" 
+     e19 "pole kokkulepet"  BEFORE  e20 "ületoomise" 
+     e20 "ületoomise"  AFTER  DCT 
+
+ s4  " Siis alles [e21 saame ] [e22 sõlmida ] [e23 lepingu ] ka süvendajaga , " [e24 selgitas ] Dresen .
+     e21 "saame"  AFTER  DCT 
+     e21 "saame"  VAGUE  e22 "sõlmida" 
+     e22 "sõlmida"  AFTER  DCT 
+     e22 "sõlmida"  AFTER  e24 "selgitas" 
+     e22 "sõlmida"  BEFORE-OR-OVERLAP  e23 "lepingu" 
+     e22 "sõlmida"  AFTER  e25 "veninud" 
+     e22 "sõlmida"  AFTER  e26 "viibinud" 
+     e22 "sõlmida"  VAGUE  e30 "tuleb" 
+     e22 "sõlmida"  VAGUE  e31 "viia" 
+     e23 "lepingu"  AFTER  DCT 
+     e24 "selgitas"  BEFORE-OR-OVERLAP  DCT 
+     e24 "selgitas"  BEFORE  e30 "tuleb" 
+     e24 "selgitas"  BEFORE  e31 "viia" 
+     e24 "selgitas"  OVERLAP-OR-AFTER  e25 "veninud" 
+     e24 "selgitas"  OVERLAP-OR-AFTER  e26 "viibinud" 
+
+ s5  " Eks see kõik ole [t5 nüüd ] [e25 veninud ] ja [e26 viibinud ] ja kui alguses [e27 arvasime ] , et [e28 saame ] [t6 septembri lõpuks ] laeva sinna sisse , siis , kui [t7 nüüd ] ilm kah ära [e29 keerab ] , [e30 tuleb ] meil Suur Tõll ajutiselt [e31 viia ] Hundipea sadama väliskai äärest Paljassaare sadamasse . "
+     e25 "veninud"  BEFORE-OR-OVERLAP  t5 "nüüd" 
+     e25 "veninud"  BEFORE-OR-OVERLAP  t7 "nüüd" 
+     e25 "veninud"  BEFORE-OR-OVERLAP  DCT 
+     e25 "veninud"  SIMULTANEOUS  e26 "viibinud" 
+     e25 "veninud"  BEFORE-OR-OVERLAP  e33 "valmistab" 
+     e26 "viibinud"  BEFORE-OR-OVERLAP  t5 "nüüd" 
+     e26 "viibinud"  BEFORE-OR-OVERLAP  t7 "nüüd" 
+     e26 "viibinud"  BEFORE-OR-OVERLAP  DCT 
+     e26 "viibinud"  BEFORE  e30 "tuleb" 
+     e26 "viibinud"  BEFORE-OR-OVERLAP  e33 "valmistab" 
+     e27 "arvasime"  BEFORE  DCT 
+     e27 "arvasime"  BEFORE  e25 "veninud" 
+     e27 "arvasime"  BEFORE  e26 "viibinud" 
+     e27 "arvasime"  BEFORE  e28 "saame" 
+     e28 "saame"  BEFORE-OR-OVERLAP  t6 "septembri lõpuks" 
+     e28 "saame"  BEFORE  DCT 
+     e29 "keerab"  IS_INCLUDED  t5 "nüüd" 
+     e29 "keerab"  IS_INCLUDED  t7 "nüüd" 
+     e29 "keerab"  OVERLAP-OR-AFTER  DCT 
+     e29 "keerab"  BEFORE-OR-OVERLAP  e30 "tuleb" 
+     e29 "keerab"  BEFORE-OR-OVERLAP  e31 "viia" 
+     e30 "tuleb"  AFTER  DCT 
+     e30 "tuleb"  OVERLAP-OR-AFTER  e33 "valmistab" 
+     e31 "viia"  AFTER  DCT 
+
+ s6  Dreseni [e32 sõnul ] [e33 valmistab ] meremuuseumile muret seegi , et [t8 praegu ] Hundipea sadamas [e34 seisvale ] jäälõhkujale huvilised kahjuks ei [e35 pääse ] .
+     e32 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e32 "sõnul"  IS_INCLUDED  e33 "valmistab" 
+     e32 "sõnul"  IS_INCLUDED  e35 "pääse" 
+     e33 "valmistab"  INCLUDES  DCT 
+     e33 "valmistab"  SIMULTANEOUS  e35 "pääse" 
+     e33 "valmistab"  INCLUDES  e36 "taha" 
+     e33 "valmistab"  INCLUDES  e39 "lausus" 
+     e34 "seisvale"  SIMULTANEOUS  t8 "praegu" 
+     e34 "seisvale"  INCLUDES  DCT 
+     e34 "seisvale"  SIMULTANEOUS  e35 "pääse" 
+     e35 "pääse"  INCLUDES  DCT 
+
+ s7  " Ma ei [e36 taha ] ära [e37 sõnuda ] , kas Suur Tõll [e38 saab ] [t9 selle aastanumbri sees ] Admiraliteedi basseini äärde või mitte , " [e39 lausus ] Dresen .
+     e36 "taha"  BEFORE-OR-OVERLAP  DCT 
+     e36 "taha"  BEFORE-OR-OVERLAP  e37 "sõnuda" 
+     e36 "taha"  IS_INCLUDED  e39 "lausus" 
+     e36 "taha"  BEFORE  e42 "lahendatud" 
+     e36 "taha"  IS_INCLUDED  e40 "loodan" 
+     e37 "sõnuda"  BEFORE-OR-OVERLAP  DCT 
+     e37 "sõnuda"  BEFORE  e38 "saab" 
+     e37 "sõnuda"  IS_INCLUDED  e39 "lausus" 
+     e38 "saab"  IS_INCLUDED  t9 "selle aastanumbri sees" 
+     e38 "saab"  AFTER  DCT 
+     e38 "saab"  AFTER  e39 "lausus" 
+     e39 "lausus"  BEFORE-OR-OVERLAP  DCT 
+     e39 "lausus"  BEFORE  e42 "lahendatud" 
+     e39 "lausus"  IS_INCLUDED  e40 "loodan" 
+
+ s8  " Ma [e40 loodan ] siiski siiralt , et [t10 oktoobrikuuga ] [e41 saab ] ehk asjad [e42 lahendatud ] . "
+     e40 "loodan"  BEFORE-OR-OVERLAP  DCT 
+     e40 "loodan"  BEFORE  e42 "lahendatud" 
+     e40 "loodan"  AFTER  e43 "käis" 
+     e41 "saab"  OVERLAP-OR-AFTER  DCT 
+     e41 "saab"  VAGUE  e42 "lahendatud" 
+     e42 "lahendatud"  IS_INCLUDED  t10 "oktoobrikuuga" 
+     e42 "lahendatud"  AFTER  DCT 
+     e42 "lahendatud"  AFTER  e43 "käis" 
+
+ s9  Meremuuseum [e43 käis ] [t11 suvel ] välja idee [e44 idee ] [e45 rajada ] Admiraliteedi basseini äärde mereajaloo keskus , kus [e46 seisaksid ] nii jäämurdja Suur Tõll kui ka allveepaat Lembit .
+     e43 "käis"  IS_INCLUDED  t11 "suvel" 
+     e43 "käis"  BEFORE  DCT 
+     e43 "käis"  BEFORE-OR-OVERLAP  e44 "idee" 
+     e43 "käis"  BEFORE  e45 "rajada" 
+     e43 "käis"  BEFORE  e46 "seisaksid" 
+     e44 "idee"  BEFORE-OR-OVERLAP  DCT 
+     e44 "idee"  BEFORE-OR-OVERLAP  e45 "rajada" 
+     e45 "rajada"  AFTER  DCT 
+     e45 "rajada"  BEFORE  e46 "seisaksid" 
+     e46 "seisaksid"  AFTER  DCT 
+
+

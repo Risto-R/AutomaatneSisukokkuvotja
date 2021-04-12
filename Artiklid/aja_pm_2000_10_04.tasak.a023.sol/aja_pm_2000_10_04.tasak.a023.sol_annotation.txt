@@ -1,0 +1,289 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a023.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Raskesse rahalisse seisu [e1 sattunud ] vallad ja väikelinnad [e2 paluvad ] valitsuselt kriisiabiks miljoneid kroone
+     e1 "sattunud"  BEFORE-OR-OVERLAP  DCT 
+     e1 "sattunud"  BEFORE  e2 "paluvad" 
+     e2 "paluvad"  INCLUDES  DCT 
+     e2 "paluvad"  INCLUDES  e4 "leppima" 
+
+ s1  Tootsi väikeasula õpilased [e3 pidid ] [t1 eile ] hämara söökla lõunalauas [e4 leppima ] vaid võileibadega , sest võlapöörisesse [e5 kukkunud ] vald ei [e6 suuda ] enam [e7 maksta ] kooli ja lasteaia elektri ja kütte eest .
+     e3 "pidid"  BEFORE  DCT 
+     e3 "pidid"  VAGUE  e4 "leppima" 
+     e4 "leppima"  IS_INCLUDED  t1 "eile" 
+     e4 "leppima"  BEFORE  DCT 
+     e4 "leppima"  AFTER  e5 "kukkunud" 
+     e4 "leppima"  VAGUE  e7 "maksta" ka AFTER
+     e4 "leppima"  VAGUE  e6 "suuda" 
+     e4 "leppima"  IS_INCLUDED  e8 "on" 
+     e5 "kukkunud"  BEFORE  DCT 
+     e5 "kukkunud"  BEFORE  e6 "suuda" 
+     e5 "kukkunud"  BEFORE  e7 "maksta" 
+     e6 "suuda"  INCLUDES  DCT 
+     e6 "suuda"  VAGUE  e7 "maksta" 
+     e7 "maksta"  INCLUDES  DCT 
+
+ s2  Kunagise turbaimpeeriumi pealinn Tootsi [e8 on ] üks paljudest viletsasse seisu [e9 sattunud ] omavalitsustest , kes [t2 nüüd ] [e10 näevad ] valitsuse reservfondis , regionaalarengu sihtasutuses või eelarvevälises omandireformi fondis viimast õlekõrt , mis nad võlgade keerisest kindlale pinnale välja [e11 tõmbaks ] .
+     e8 "on"  INCLUDES  DCT 
+     e8 "on"  VAGUE  e10 "näevad" 
+     e8 "on"  VAGUE  e9 "sattunud" 
+     e8 "on"  VAGUE  e13 "on vastukäik" ka INCLUDES
+     e9 "sattunud"  BEFORE  DCT 
+     e9 "sattunud"  BEFORE  e10 "näevad" 
+     e10 "näevad"  SIMULTANEOUS  t2 "nüüd" 
+     e10 "näevad"  INCLUDES  DCT 
+     e10 "näevad"  BEFORE  e11 "tõmbaks" 
+     e11 "tõmbaks"  AFTER  DCT 
+
+ s3  [t3 Esmaspäevast ] elektri ja kütteta [e12 jäänud ] lasteaed ja põhikool Tootsi aleviku keskuses [e13 on ] sealse suurima tööandja ASi Tootsi Turvas [e13 vastukäik ] [t4 mullu kevadest ] [e14 kogunenud ] valla võlakoormale ja maksmata arvetele , mis [t5 nüüdseks ] on [e15 kasvanud ] miljoni krooni piirist kõrgemale .
+     e12 "jäänud"  IS_INCLUDED  t3 "Esmaspäevast" 
+     e12 "jäänud"  BEFORE  DCT 
+     e12 "jäänud"  IS_INCLUDED  e13 "on vastukäik" 
+     e13 "on vastukäik"  INCLUDES  DCT 
+     e13 "on vastukäik"  AFTER  e14 "kogunenud" 
+     e13 "on vastukäik"  IS_INCLUDED  e16 "tule" 
+     e13 "on vastukäik"  OVERLAP-OR-AFTER  e18 "sõnastas" 
+     e14 "kogunenud"  OVERLAP-OR-AFTER  t4 "mullu kevadest" 
+     e14 "kogunenud"  BEFORE  DCT 
+     e14 "kogunenud"  IS_INCLUDED  e15 "kasvanud" 
+     e15 "kasvanud"  BEFORE-OR-OVERLAP  t5 "nüüdseks" 
+     e15 "kasvanud"  BEFORE-OR-OVERLAP  DCT 
+
+ s4  Abipalve Tallinna
+ s5  " Meie tulubaas ei [e16 tule ] kasvavatele [e17 kulutustele ] järele , " [e18 sõnastas ] vallavanem Kaljo Ahman oma suure mure .
+     e16 "tule"  INCLUDES  DCT 
+     e16 "tule"  INCLUDES  e18 "sõnastas" 
+     e16 "tule"  OVERLAP-OR-AFTER  e17 "kulutustele" 
+     e16 "tule"  SIMULTANEOUS  e19 "võtavad" 
+     e17 "kulutustele"  VAGUE  DCT 
+     e17 "kulutustele"  VAGUE  e18 "sõnastas" ka INCLUDES
+     e18 "sõnastas"  BEFORE-OR-OVERLAP  DCT 
+     e18 "sõnastas"  IS_INCLUDED  e19 "võtavad" 
+
+ s6  Lasteaed , kool , hooldekodu , spordikompleks , raamatukogu , saun ja muusikakool [e19 võtavad ] viie ja poole miljoni kroonise eelarvega valla kuludest ligi 70% .
+     e19 "võtavad"  INCLUDES  DCT 
+     e19 "võtavad"  INCLUDES  e20 "jäid" 
+     e19 "võtavad"  INCLUDES  e22 "tõid" 
+
+ s7  [t6 Eile hommikul ] [e20 jäid ] elektrivalguseta , hämaras lasteaias lapsed hommikusöögita , sest pliidid ei [e21 tööta ] , [t7 lõunaks ] [e22 tõid ] kokad neile ja põhikooli õpilastele lauale vaid piima ja võileivad .
+     e20 "jäid"  IS_INCLUDED  t6 "Eile hommikul" 
+     e20 "jäid"  BEFORE  DCT 
+     e20 "jäid"  BEFORE  e22 "tõid" 
+     e20 "jäid"  VAGUE  e21 "tööta" 
+     e20 "jäid"  BEFORE  e24 "saame" 
+     e20 "jäid"  BEFORE  e26 "ütles" 
+     e20 "jäid"  IS_INCLUDED  e23 "pole külmad ega pimedad" 
+     e21 "tööta"  INCLUDES  DCT 
+     e21 "tööta"  INCLUDES  e22 "tõid" 
+     e22 "tõid"  BEFORE-OR-OVERLAP  t7 "lõunaks" 
+     e22 "tõid"  BEFORE  DCT 
+     e22 "tõid"  BEFORE  e26 "ütles" 
+     e22 "tõid"  IS_INCLUDED  e23 "pole külmad ega pimedad" 
+     e22 "tõid"  IS_INCLUDED  e24 "saame" 
+
+ s8  " Õnneks [e23 pole ] ilmad veel nii [e23 külmad ] [e23 ega ] [e23 pimedad ] , [t8 praegu ] [e24 saame ] ka elektri ja kütteta [e25 hakkama ] , " [e26 ütles ] lasteaia juhataja Maire Klemmer .
+     e23 "pole külmad ega pimedad"  INCLUDES  DCT 
+     e23 "pole külmad ega pimedad"  INCLUDES  e24 "saame" 
+     e23 "pole külmad ega pimedad"  INCLUDES  e26 "ütles" 
+     e23 "pole külmad ega pimedad"  INCLUDES  e27 "istusid" 
+     e24 "saame"  SIMULTANEOUS  t8 "praegu" 
+     e24 "saame"  INCLUDES  DCT 
+     e24 "saame"  VAGUE  e25 "hakkama" 
+     e24 "saame"  INCLUDES  e27 "istusid" 
+     e25 "hakkama"  SIMULTANEOUS  t8 "praegu" 
+     e25 "hakkama"  INCLUDES  DCT 
+     e26 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e26 "ütles"  AFTER  e27 "istusid" 
+
+ s9  Mõned algklasside õpilased [e27 istusid ] [t9 eile ] tundides siiski juba jopedes .
+     e27 "istusid"  IS_INCLUDED  t9 "eile" 
+     e27 "istusid"  BEFORE  DCT 
+     e27 "istusid"  BEFORE  e28 "faksib" 
+
+ s10  [t10 Täna ] [e28 faksib ] Ahman 1150 vallaelaniku nimel murekirja Tallinna , äsjarenoveeritud Stenbocki majja , kus see eredalt valgustatud eesruumis peaminister Mart Laari sekretäri faksist välja [e29 vonkleb ] .
+     e28 "faksib"  IS_INCLUDED  t10 "Täna" 
+     e28 "faksib"  IS_INCLUDED  DCT 
+     e28 "faksib"  BEFORE  e29 "vonkleb" 
+     e28 "faksib"  AFTER  e33 "avas" 
+     e28 "faksib"  IS_INCLUDED  e30 "Vajame" 
+     e29 "vonkleb"  OVERLAP-OR-AFTER  DCT 
+
+ s11  " [e30 Vajame ] kolm miljonit krooni vanade võlgade [e31 kustutamiseks ] ja siis [t11 igal aastal ] täiendavalt poolteist miljonit riigi [e32 toetust ] , " [e33 avas ] Ahman palvekirja sisu .
+     e30 "Vajame"  IS_INCLUDED  t11 "igal aastal" 
+     e30 "Vajame"  INCLUDES  DCT 
+     e30 "Vajame"  INCLUDES  e31 "kustutamiseks" ka BEFORE-OR-OVERLAP
+     e30 "Vajame"  INCLUDES  e32 "toetust" ka BEFORE-OR-OVERLAP
+     e30 "Vajame"  INCLUDES  e33 "avas" 
+     e30 "Vajame"  AFTER  e35 "kirjutas" 
+     e30 "Vajame"  SIMULTANEOUS  e34 "on" ka VAGUE
+     e31 "kustutamiseks"  AFTER  DCT 
+     e31 "kustutamiseks"  IS_INCLUDED  e32 "toetust" 
+     e32 "toetust"  IS_INCLUDED  t11 "igal aastal" 
+     e32 "toetust"  INCLUDES  DCT 
+     e33 "avas"  BEFORE-OR-OVERLAP  DCT 
+     e33 "avas"  AFTER  e35 "kirjutas" 
+     e33 "avas"  IS_INCLUDED  e34 "on" 
+
+ s12  Kolm miljonit krooni [e34 on ] sama palju kui vallavolikogu [e35 kirjutas ] [t12 selle aasta ] eelarvesse reale " toetused riigiasutustelt " , sest [e36 jäi ] [e37 uskuma ] ministrite [e38 lubadusi ] .
+     e34 "on"  INCLUDES  DCT 
+     e34 "on"  AFTER  e35 "kirjutas" 
+     e34 "on"  INCLUDES  e44 "selgitab" 
+     e34 "on"  VAGUE  e39 "lubanud" ka SIMULTANEOUS
+     e35 "kirjutas"  BEFORE  DCT 
+     e35 "kirjutas"  AFTER  e37 "uskuma" 
+     e35 "kirjutas"  OVERLAP-OR-AFTER  e36 "jäi" 
+     e35 "kirjutas"  BEFORE-OR-OVERLAP  e39 "lubanud" 
+     e35 "kirjutas"  BEFORE  e44 "selgitab" 
+     e36 "jäi"  BEFORE  DCT 
+     e36 "jäi"  VAGUE  e37 "uskuma" 
+     e37 "uskuma"  BEFORE  DCT 
+     e37 "uskuma"  OVERLAP-OR-AFTER  e38 "lubadusi" 
+     e38 "lubadusi"  BEFORE  DCT 
+
+ s13  " Raha kui sellist ei ole [e39 lubanud ] keegi , aga regionaalminister Asmer [e40 ütles ] [t13 aasta tagasi ] , et kindlasti [e41 tuleb ] Tootsi probleem [e42 lahendada ] ja eelmine minister Peep Aru [e43 lubas ] seda samuti , " [e44 selgitab ] Ahman kolmemiljonilise eelarveaugu sünnilugu .
+     e39 "lubanud"  BEFORE  DCT 
+     e39 "lubanud"  VAGUE  e40 "ütles" 
+     e39 "lubanud"  BEFORE  e45 "paneb" 
+     e40 "ütles"  IS_INCLUDED  t13 "aasta tagasi" 
+     e40 "ütles"  BEFORE  DCT 
+     e40 "ütles"  AFTER  e43 "lubas" 
+     e40 "ütles"  BEFORE  e41 "tuleb" 
+     e40 "ütles"  BEFORE  e42 "lahendada" 
+     e40 "ütles"  BEFORE  e44 "selgitab" 
+     e41 "tuleb"  INCLUDES  DCT 
+     e41 "tuleb"  AFTER  e43 "lubas" 
+     e42 "lahendada"  VAGUE  DCT 
+     e42 "lahendada"  BEFORE  e44 "selgitab" 
+     e43 "lubas"  BEFORE  DCT 
+     e43 "lubas"  BEFORE  e44 "selgitab" 
+     e44 "selgitab"  BEFORE-OR-OVERLAP  DCT 
+     e44 "selgitab"  BEFORE-OR-OVERLAP  e45 "paneb" ka VAGUE
+
+ s14  Pärnu maavanem Toomas Kivimägi [e45 paneb ] halastamatu [e46 diagnoosi ] : " Õhuga eelarve [e47 viimine ] tasakaalu . "
+     e45 "paneb"  BEFORE-OR-OVERLAP  DCT 
+     e45 "paneb"  VAGUE  e46 "diagnoosi" 
+     e45 "paneb"  VAGUE  e47 "viimine" 
+     e45 "paneb"  BEFORE-OR-OVERLAP  e48 "tõstab" 
+     e46 "diagnoosi"  BEFORE-OR-OVERLAP  DCT 
+     e46 "diagnoosi"  VAGUE  e47 "viimine" 
+     e47 "viimine"  VAGUE  DCT 
+
+ s15  Ent maavanem , kuigi valitsuse esindaja , [e48 tõstab ] Tootsi [t14 tänase ] [e49 rahaküsimise ] toetuseks mõlemad käed , sest selle valla puhul ei [e50 kehti ] omavalitsuste rahastamise üldine valem .
+     e48 "tõstab"  BEFORE-OR-OVERLAP  DCT 
+     e48 "tõstab"  BEFORE-OR-OVERLAP  e49 "rahaküsimise" 
+     e48 "tõstab"  IS_INCLUDED  e50 "kehti" 
+     e48 "tõstab"  IS_INCLUDED  e51 "paluvad" 
+     e49 "rahaküsimise"  IS_INCLUDED  t14 "tänase" 
+     e49 "rahaküsimise"  VAGUE  DCT 
+     e49 "rahaküsimise"  IS_INCLUDED  e50 "kehti" 
+     e50 "kehti"  INCLUDES  DCT 
+
+ s16  Vallad [e51 paluvad ] raha
+     e51 "paluvad"  INCLUDES  DCT 
+     e51 "paluvad"  INCLUDES  e53 "tunnistama" 
+     e51 "paluvad"  INCLUDES  e54 "leidma" 
+     e51 "paluvad"  INCLUDES  e55 "veendunud" 
+
+ s17  " Valitsus [e52 peab ] [e53 tunnistama ] erandeid ja Tootsile abiraha [e54 leidma ] , " on Kivimägi [e55 veendunud ] .
+     e52 "peab"  INCLUDES  DCT 
+     e52 "peab"  VAGUE  e53 "tunnistama" 
+     e53 "tunnistama"  AFTER  DCT 
+     e53 "tunnistama"  AFTER  e55 "veendunud" 
+     e53 "tunnistama"  BEFORE  e54 "leidma" 
+     e53 "tunnistama"  BEFORE  e57 "panna" 
+     e53 "tunnistama"  BEFORE  e58 "oleks väärt" 
+     e54 "leidma"  AFTER  DCT 
+     e54 "leidma"  AFTER  e55 "veendunud" 
+     e54 "leidma"  BEFORE  e57 "panna" 
+     e54 "leidma"  BEFORE  e58 "oleks väärt" 
+     e55 "veendunud"  INCLUDES  DCT 
+     e55 "veendunud"  BEFORE  e57 "panna" 
+     e55 "veendunud"  BEFORE  e58 "oleks väärt" 
+
+ s18  " Muidugi , [e56 võime ] kinni [e57 panna ] lasteaia , sauna , veel midagi - aga kas siis [e58 oleks ] elu elamist [e58 väärt ] ? "
+     e56 "võime"  AFTER  DCT 
+     e56 "võime"  VAGUE  e57 "panna" 
+     e57 "panna"  AFTER  DCT 
+     e57 "panna"  BEFORE  e58 "oleks väärt" 
+     e57 "panna"  OVERLAP-OR-AFTER  e60 "taha" 
+     e58 "oleks väärt"  AFTER  DCT 
+     e58 "oleks väärt"  OVERLAP-OR-AFTER  e60 "taha" 
+
+ s19  Sellist [e59 elu ] ei [e60 taha ] oma kodualevile ka ASi Tootsi Turvas peadirektor Kai Mäeleht .
+     e59 "elu"  VAGUE  DCT 
+     e59 "elu"  VAGUE  e60 "taha" 
+     e60 "taha"  INCLUDES  DCT 
+     e60 "taha"  IS_INCLUDED  e61 "elab" 
+
+ s20  Turbatööstuse 415 töötajast [e61 elab ] 300 Tootsis .
+     e61 "elab"  INCLUDES  DCT 
+     e61 "elab"  INCLUDES  e62 "maksis" 
+     e61 "elab"  INCLUDES  e65 "suuda" 
+
+ s21  Firma [e62 maksis ] [t15 mullu ] riigile korralikult 17,5 miljonit maksukrooni , kuid vallaasutuste ülalpidamist enda [e63 kanda ] [e64 võtta ] ei [e65 suuda ] .
+     e62 "maksis"  IS_INCLUDED  t15 "mullu" 
+     e62 "maksis"  BEFORE  DCT 
+     e62 "maksis"  BEFORE  e65 "suuda" 
+     e62 "maksis"  BEFORE  e67 "tea" 
+     e62 "maksis"  BEFORE  e69 "kostab" 
+     e63 "kanda"  INCLUDES  DCT 
+     e64 "võtta"  INCLUDES  DCT 
+     e64 "võtta"  VAGUE  e63 "kanda" 
+     e65 "suuda"  INCLUDES  DCT 
+     e65 "suuda"  VAGUE  e64 "võtta" 
+     e65 "suuda"  INCLUDES  e67 "tea" 
+     e65 "suuda"  INCLUDES  e69 "kostab" 
+
+ s22  " Kui valitsus raha ei [e66 anna ] , siis ma ei [e67 tea ] , mis [e68 saab ] , " [e69 kostab ] telefonis vaikselt Tootsi vallavanema Kaljo Ahmani hääl .
+     e66 "anna"  AFTER  DCT 
+     e66 "anna"  BEFORE  e67 "tea" 
+     e67 "tea"  AFTER  DCT 
+     e67 "tea"  AFTER  e69 "kostab" 
+     e67 "tea"  BEFORE  e68 "saab" 
+     e67 "tea"  AFTER  e73 "mõistab" 
+     e68 "saab"  AFTER  DCT 
+     e68 "saab"  AFTER  e69 "kostab" 
+     e69 "kostab"  BEFORE-OR-OVERLAP  DCT 
+     e69 "kostab"  BEFORE-OR-OVERLAP  e73 "mõistab" 
+
+ s23  " Kõige hullem , et tahtjaid [e70 on ] palju ja kui ühele [e71 antakse ] , [e72 on ] kohe järgmised ukse taga , " [e73 mõistab ] Ahman valitsuse kitsikust .
+     e70 "on"  INCLUDES  DCT 
+     e70 "on"  INCLUDES  e73 "mõistab" 
+     e70 "on"  VAGUE  e71 "antakse" 
+     e71 "antakse"  AFTER  DCT 
+     e71 "antakse"  BEFORE  e72 "on" 
+     e72 "on"  AFTER  DCT 
+     e72 "on"  AFTER  e73 "mõistab" 
+     e73 "mõistab"  BEFORE-OR-OVERLAP  DCT 
+     e73 "mõistab"  BEFORE-OR-OVERLAP  e74 "ennustab" 
+     e73 "mõistab"  BEFORE  e75 "on" 
+
+ s24  Regionaalminister Toivo Asmer [e74 ennustab ] , et [t16 järgmise aasta lõpuks ] [e75 on ] valitsuse laual 30 omavalitsuse abipalved .
+     e74 "ennustab"  BEFORE-OR-OVERLAP  DCT 
+     e74 "ennustab"  BEFORE  e75 "on" 
+     e74 "ennustab"  IS_INCLUDED  e76 "tahab" ka VAGUE
+     e75 "on"  SIMULTANEOUS  t16 "järgmise aasta lõpuks" 
+     e75 "on"  AFTER  DCT 
+     e75 "on"  AFTER  e76 "tahab" 
+
+ s25  Paldiski linn [e76 tahab ] juba [t17 praegu ] ligi kuus miljonit , Narva-Jõesuu kaks miljonit krooni .
+     e76 "tahab"  SIMULTANEOUS  t17 "praegu" 
+     e76 "tahab"  INCLUDES  DCT 
+     e76 "tahab"  INCLUDES  e77 "postitab" 
+
+ s26  [t18 Täna ] [e77 postitab ] palvekirja peaminister Laarile ka Kallaste linnapea Tiit Hilpus , kes [e78 küsib ] 170 000 abikrooni , kuigi [e79 sai ] juba [t19 kevadel ] valitsuselt 250 000 laenuks .
+     e77 "postitab"  IS_INCLUDED  t18 "Täna" 
+     e77 "postitab"  IS_INCLUDED  DCT 
+     e77 "postitab"  AFTER  e79 "sai" 
+     e77 "postitab"  IS_INCLUDED  e78 "küsib" 
+     e77 "postitab"  VAGUE  e80 "Loe" 
+     e78 "küsib"  INCLUDES  DCT 
+     e78 "küsib"  AFTER  e79 "sai" 
+     e79 "sai"  IS_INCLUDED  t19 "kevadel" 
+     e79 "sai"  BEFORE  DCT 
+
+ s27  [e80 Loe ] ka juhtkirja
+     e80 "Loe"  VAGUE  DCT 
+
+

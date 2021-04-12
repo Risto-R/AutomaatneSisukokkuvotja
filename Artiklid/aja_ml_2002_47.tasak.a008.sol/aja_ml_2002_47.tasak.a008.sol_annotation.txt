@@ -1,0 +1,147 @@
+==================================================
+     aja_ml_2002_47.tasak.a008.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  Saaremaa Liha- ja Piimaühistu [e1 ostab ] maakonna piimatootjatele Kesko Agro Eesti ASi kaudu Ukrainast ja mujalt söödamaisi , et [e2 parandada ] lehmade piimaandi .
+     e1 "ostab"  INCLUDES  DCT 
+     e1 "ostab"  INCLUDES  e2 "parandada" 
+     e1 "ostab"  INCLUDES  e5 "suurenenud" 
+     e2 "parandada"  INCLUDES  DCT 
+
+ s2  Muhumaa taluniku Jaan Kesküla [e3 sõnul ] on tänu kõrge energiasisaldusega maisi [e4 söötmisele ] päevane väljalüps lehma kohta [e5 suurenenud ] umbes kaks kilo .
+     e3 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e3 "sõnul"  AFTER  e5 "suurenenud" 
+     e3 "sõnul"  IS_INCLUDED  e4 "söötmisele" 
+     e4 "söötmisele"  BEFORE-OR-OVERLAP  DCT 
+     e4 "söötmisele"  INCLUDES  e5 "suurenenud" 
+     e5 "suurenenud"  BEFORE-OR-OVERLAP  DCT 
+     e5 "suurenenud"  AFTER  e6 "saabus" ka VAGUE
+
+ s3  Esimene maisikoorem [e6 saabus ] Saaremaale [t2 paar nädalat tagasi ] .
+     e6 "saabus"  IS_INCLUDED  t2 "paar nädalat tagasi" 
+     e6 "saabus"  BEFORE  DCT 
+     e6 "saabus"  IS_INCLUDED  e7 "ostnud" 
+
+ s4  Kokku on [e7 ostnud ] ühistu ligi 600 t maisi .
+     e7 "ostnud"  BEFORE  DCT 
+     e7 "ostnud"  AFTER  e10 "kõrgem olnud" 
+     e7 "ostnud"  AFTER  e8 "püüdnud" 
+
+ s5  [t3 Varasematel aastatel ] on suuremad tootjad [e8 püüdnud ] ise maisi [e9 osta ] , kuid väikeste koguste tõttu on hind [e10 kõrgem ] [e10 olnud ] .
+     e8 "püüdnud"  IS_INCLUDED  t3 "Varasematel aastatel" 
+     e8 "püüdnud"  BEFORE  DCT 
+     e8 "püüdnud"  BEFORE-OR-OVERLAP  e9 "osta" 
+     e8 "püüdnud"  SIMULTANEOUS  e10 "kõrgem olnud" 
+     e8 "püüdnud"  VAGUE  e11 "söödetakse" 
+     e9 "osta"  BEFORE  DCT 
+     e10 "kõrgem olnud"  BEFORE  DCT 
+     e10 "kõrgem olnud"  VAGUE  e11 "söödetakse" 
+
+ s6  Kõljala põllumajandusosaühingus ( POÜ ) [e11 söödetakse ] lehmadele maisi juba [t4 kolmandat talve ] .
+     e11 "söödetakse"  SIMULTANEOUS  t4 "kolmandat talve" 
+     e11 "söödetakse"  INCLUDES  DCT 
+     e11 "söödetakse"  VAGUE  e13 "ole" 
+     e11 "söödetakse"  VAGUE  e17 "olema tasakaalus" 
+
+ s7  Osaühingu esimehe Tõnu Posti [e12 sõnul ] ei [e13 ole ] mais imerohi , mis kohe toodangut [e14 tõstma ] [e15 hakkab ] , ka muu sööt [e16 peab ] [e17 olema ] [e17 tasakaalus ] .
+     e12 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e12 "sõnul"  VAGUE  e13 "ole" 
+     e13 "ole"  VAGUE  DCT 
+     e13 "ole"  VAGUE  e14 "tõstma" 
+     e13 "ole"  VAGUE  e17 "olema tasakaalus" 
+     e13 "ole"  VAGUE  e18 "saab" 
+     e13 "ole"  VAGUE  e20 "kipub" 
+     e14 "tõstma"  VAGUE  DCT 
+     e14 "tõstma"  OVERLAP-OR-AFTER  e15 "hakkab" 
+     e15 "hakkab"  VAGUE  DCT 
+     e16 "peab"  VAGUE  DCT 
+     e16 "peab"  VAGUE  e17 "olema tasakaalus" 
+     e17 "olema tasakaalus"  VAGUE  DCT 
+     e17 "olema tasakaalus"  VAGUE  e18 "saab" 
+     e17 "olema tasakaalus"  VAGUE  e20 "kipub" 
+
+ s8  " [t5 Tänapäeval ] [e18 saab ] lehm õigesti [e19 toodetud ] söödast proteiini küll kätte , kuid lehmadel [e20 kipub ] [e21 tekkima ] [e22 energiapuudus ] .
+     e18 "saab"  SIMULTANEOUS  t5 "Tänapäeval" 
+     e18 "saab"  INCLUDES  DCT 
+     e18 "saab"  AFTER  e19 "toodetud" 
+     e18 "saab"  VAGUE  e20 "kipub" 
+     e18 "saab"  INCLUDES  e26 "selgitas" 
+     e18 "saab"  VAGUE  e23 "ongi vaja" 
+     e19 "toodetud"  BEFORE  DCT ka INCLUDES
+     e20 "kipub"  INCLUDES  DCT 
+     e20 "kipub"  SIMULTANEOUS  e21 "tekkima" 
+     e20 "kipub"  INCLUDES  e26 "selgitas" 
+     e20 "kipub"  VAGUE  e23 "ongi vaja" 
+     e21 "tekkima"  INCLUDES  DCT 
+     e21 "tekkima"  BEFORE-OR-OVERLAP  e22 "energiapuudus" 
+     e22 "energiapuudus"  VAGUE  DCT ka INCLUDES
+
+ s9  Maisi [e23 ongi ] [e23 vaja ] söödaratsiooni [e24 lisada ] energia [e25 andmiseks ] , " [e26 selgitas ] Post .
+     e23 "ongi vaja"  INCLUDES  DCT 
+     e23 "ongi vaja"  BEFORE-OR-OVERLAP  e24 "lisada" 
+     e23 "ongi vaja"  VAGUE  e26 "selgitas" 
+     e23 "ongi vaja"  INCLUDES  e27 "kasvatas" 
+     e24 "lisada"  VAGUE  DCT ka INCLUDES
+     e24 "lisada"  BEFORE  e25 "andmiseks" 
+     e24 "lisada"  VAGUE  e26 "selgitas" 
+     e25 "andmiseks"  VAGUE  DCT ka INCLUDES
+     e26 "selgitas"  BEFORE-OR-OVERLAP  DCT 
+     e26 "selgitas"  AFTER  e27 "kasvatas" 
+     e26 "selgitas"  AFTER  e29 "jäi" 
+
+ s10  [t6 Möödunud aastal ] [e27 kasvatas ] Kõljala POÜ ka ise maisi ja [e28 tegi ] sellest silo , kuid vihmase [t7 suve ] tõttu [e29 jäi ] kuivaine sisaldus maisisilos tagasihoidlikuks .
+     e27 "kasvatas"  IS_INCLUDED  t6 "Möödunud aastal" 
+     e27 "kasvatas"  BEFORE  DCT 
+     e27 "kasvatas"  BEFORE-OR-OVERLAP  e28 "tegi" 
+     e27 "kasvatas"  BEFORE  e30 "kasutab" 
+     e28 "tegi"  BEFORE  DCT 
+     e28 "tegi"  BEFORE-OR-OVERLAP  e29 "jäi" 
+     e29 "jäi"  AFTER  t7 "suve" 
+     e29 "jäi"  BEFORE  DCT 
+     e29 "jäi"  BEFORE  e30 "kasutab" 
+
+ s11  Nagu enamik saare talunikke ja väiksemaid suurtootjaid , [e30 kasutab ] ka Kärla POÜ lehmasöödas esmakordselt maisi .
+     e30 "kasutab"  INCLUDES  DCT 
+     e30 "kasutab"  INCLUDES  e33 "tunnistas" 
+     e30 "kasutab"  IS_INCLUDED  e31 "nappinud" 
+
+ s12  " Alati on [e31 nappinud ] raha , et suurt koormat [e32 osta ] , " [e33 tunnistas ] juhatuse esimees Ülar Tänak .
+     e31 "nappinud"  INCLUDES  DCT ka BEFORE?
+     e31 "nappinud"  INCLUDES  e33 "tunnistas" ka BEFORE
+     e31 "nappinud"  SIMULTANEOUS  e32 "osta" 
+     e31 "nappinud"  INCLUDES  e34 "võttis" 
+     e32 "osta"  VAGUE  DCT ka BEFORE?
+     e33 "tunnistas"  BEFORE-OR-OVERLAP  DCT 
+     e33 "tunnistas"  AFTER  e34 "võttis" 
+
+ s13  [t8 Nüüd ] [e34 võttis ] Kärla POÜ esialgu kümme tonni , talunik Jaan Kesküla ühe tonni maisi .
+     e34 "võttis"  IS_INCLUDED  t8 "Nüüd" 
+     e34 "võttis"  BEFORE  DCT 
+     e34 "võttis"  IS_INCLUDED  e36 "on meeldiv" 
+
+ s14  Põllumeeste [e35 meelest ] [e36 on ] [e36 meeldiv ] seegi , et raha ei [e37 pea ] kohe välja [e38 käima ] , vaid see [e39 arvestatakse ] tasaarvelduse korras piimarahast maha .
+     e35 "meelest"  BEFORE-OR-OVERLAP  DCT 
+     e35 "meelest"  VAGUE  e36 "on meeldiv" 
+     e36 "on meeldiv"  INCLUDES  DCT 
+     e36 "on meeldiv"  INCLUDES  e38 "käima" 
+     e36 "on meeldiv"  IS_INCLUDED  e41 "tahetakse" 
+     e36 "on meeldiv"  IS_INCLUDED  e43 "on" 
+     e37 "pea"  INCLUDES  DCT 
+     e37 "pea"  VAGUE  e38 "käima" 
+     e38 "käima"  INCLUDES  DCT 
+     e38 "käima"  VAGUE  e39 "arvestatakse" 
+     e39 "arvestatakse"  INCLUDES  DCT 
+
+ s15  Saaremaa Liha- ja Piimaühistu juhi Paul Alase [e40 sõnul ] [e41 tahetakse ] Saaremaale maisi [t9 edaspidigi ] [e42 tuua ] , probleem [e43 on ] ainult suurte koguste ladustamises .
+     e40 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e40 "sõnul"  IS_INCLUDED  e41 "tahetakse" 
+     e41 "tahetakse"  INCLUDES  DCT 
+     e41 "tahetakse"  BEFORE-OR-OVERLAP  e42 "tuua" 
+     e41 "tahetakse"  SIMULTANEOUS  e43 "on" 
+     e42 "tuua"  IS_INCLUDED  t9 "edaspidigi" 
+     e42 "tuua"  AFTER  DCT 
+     e42 "tuua"  OVERLAP-OR-AFTER  e43 "on" 
+     e43 "on"  INCLUDES  DCT 
+
+

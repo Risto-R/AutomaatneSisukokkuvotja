@@ -1,12 +1,42 @@
 <div0><head> Taani eurohääletuse õppetunnid </head>
-<p> <bibl> <author> <s> ARGO IDEON </s> </author> </bibl> </p>
-<p> <s> Ajakirjanikud lausa kiskusid õblukese blondi naise autost välja . </s> <s> Kaamerate sähvimine ja küsimustetulv takistasid tema teed uksest sisse , trepist üles ning tundus , nagu möödunuks sel viivul korraga terve eluaeg . </s> <s> Mitmekümne telekaamera rõnga vahele surutuna ei jäänud naisel üle muud , kui lähimale lauale karata ning seal parteikaaslaste juubeldavaid ovatsioone vastu võtta . </s> </p>
-<p> <s> Kogu Taani tunnistas Pia Kjærsgaardi triumfi , sest “ Ei eurorahale ” kampaania meditsiiniõe haridusega liider võitis 28. septembri referendumil hiilgavalt suuri ja vägevaid . </s> </p>
-<p> <s> Pisike parempopulistlik Taani Rahvapartei paiskas põrmu kaheksakümmend protsenti riigi poliitliidritest , valitsuse , lõviosa opositsioonist ja söögilaua suurused lehereklaamid euroraha kasuks - omades ise toetust peamiselt juhtumisi samal arvamusel asunud puna-roheliselt vasaktiivalt . </s> </p>
-<p> <s> Kjærsgaardi võidu õhkkonda tunnetaksid kohalikud reformerid , isamaalased ja keskerakondlased siis , kui Tiit Toomsalu neile Riigikogus korraga ära teeks . </s> <s> Sest ka Taanis ei teinud tõsised poliitikud Kjærsgaardist eriti välja , kuni Rahvapartei loosung “ Krooni ja isamaa eest ” naelapea pihta virutas . </s> </p>
-<p> <s> Sotsiaaldemokraadist Taani peaminister Poul Nyrup Rasmusseni aatekaaslased istusid Kjærsgaardi tuhkatriinust kuningannaks tõusmise ajal nördinult oma fraktsiooni punalippudega dekoreeritud toas , ning sama vähe oli lüüasaamise üle rõõmustada Taani opositsioonilistel liberaalidel ja konservatiividel . </s> </p>
-<p> <s> Sest 53,1% euroraha kõrvale lükanud valijaid on nende kõigi ühine kaotus . </s> <s> Rasmussen juhib lõhenenud Taani kõrval ka lõhenenud sotsiaaldemokraate , sest umbes 40% võimupartei toetajaist on euroraha vastu . </s> <s> Oma ridades , ehkki väiksemal määral , tuleb euroskepsisega rinda pista ka Taani paremerakondadel . </s> </p>
-<p> <s> Referendumijärgsel hommikul ilmunud Berlingske Tidende paigutas juhtkirja erandlikult esiküljele . </s> <s> Pealkiri “ Häbi ” väljendab küll vähemuse , kuid ikkagi peaaegu poolte taanlaste meeleolu ja kartust , et see otsus asetab nad väljapoole Euroopa süvenevat koostööd . </s> </p>
-<p> <s> “ See otsus on õnnetus , ” kurtis ajaleht ja pidas selle tagajärjena Taani taandumist euroliidu B-liikmeks . </s> </p>
-<p> <s> Ei saa kuidagi öelda , et euroraha kasuks rääkinuks taanlaste silmis vähe ratsionaalseid argumente , laenuintresside langus olgu vaid üheks näiteks . </s> </p>
-<p> <s> Kuid kolmnurgas demokraatia , argumendid ja emotsioonid osutusid võitjaks kaks äärmist . </s> <s> Pole ime , et end demokraatlikuks pidavad valitsused üritavad rahvahääletusi korraldada enamasti juhtudel , kui tulemus on ette selge . </s> </p></div0>
+<p>
+ <bibl> <author> <s> ARGO IDEON </s> </author> </bibl> 
+</p>
+<p>
+ <s> Ajakirjanikud lausa kiskusid õblukese blondi naise autost välja . </s>
+<s> Kaamerate sähvimine ja küsimustetulv takistasid tema teed uksest sisse , trepist üles ning tundus , nagu möödunuks sel viivul korraga terve eluaeg . </s>
+<s> Mitmekümne telekaamera rõnga vahele surutuna ei jäänud naisel üle muud , kui lähimale lauale karata ning seal parteikaaslaste juubeldavaid ovatsioone vastu võtta . </s> 
+</p>
+<p>
+ <s> Kogu Taani tunnistas Pia Kjærsgaardi triumfi , sest “ Ei eurorahale ” kampaania meditsiiniõe haridusega liider võitis 28. septembri referendumil hiilgavalt suuri ja vägevaid . </s> 
+</p>
+<p>
+ <s> Pisike parempopulistlik Taani Rahvapartei paiskas põrmu kaheksakümmend protsenti riigi poliitliidritest , valitsuse , lõviosa opositsioonist ja söögilaua suurused lehereklaamid euroraha kasuks - omades ise toetust peamiselt juhtumisi samal arvamusel asunud puna-roheliselt vasaktiivalt . </s> 
+</p>
+<p>
+ <s> Kjærsgaardi võidu õhkkonda tunnetaksid kohalikud reformerid , isamaalased ja keskerakondlased siis , kui Tiit Toomsalu neile Riigikogus korraga ära teeks . </s>
+<s> Sest ka Taanis ei teinud tõsised poliitikud Kjærsgaardist eriti välja , kuni Rahvapartei loosung “ Krooni ja isamaa eest ” naelapea pihta virutas . </s> 
+</p>
+<p>
+ <s> Sotsiaaldemokraadist Taani peaminister Poul Nyrup Rasmusseni aatekaaslased istusid Kjærsgaardi tuhkatriinust kuningannaks tõusmise ajal nördinult oma fraktsiooni punalippudega dekoreeritud toas , ning sama vähe oli lüüasaamise üle rõõmustada Taani opositsioonilistel liberaalidel ja konservatiividel . </s> 
+</p>
+<p>
+ <s> Sest 53,1% euroraha kõrvale lükanud valijaid on nende kõigi ühine kaotus . </s>
+<s> Rasmussen juhib lõhenenud Taani kõrval ka lõhenenud sotsiaaldemokraate , sest umbes 40% võimupartei toetajaist on euroraha vastu . </s>
+<s> Oma ridades , ehkki väiksemal määral , tuleb euroskepsisega rinda pista ka Taani paremerakondadel . </s> 
+</p>
+<p>
+ <s> Referendumijärgsel hommikul ilmunud Berlingske Tidende paigutas juhtkirja erandlikult esiküljele . </s>
+<s> Pealkiri “ Häbi ” väljendab küll vähemuse , kuid ikkagi peaaegu poolte taanlaste meeleolu ja kartust , et see otsus asetab nad väljapoole Euroopa süvenevat koostööd . </s> 
+</p>
+<p>
+ <s> “ See otsus on õnnetus , ” kurtis ajaleht ja pidas selle tagajärjena Taani taandumist euroliidu B-liikmeks . </s> 
+</p>
+<p>
+ <s> Ei saa kuidagi öelda , et euroraha kasuks rääkinuks taanlaste silmis vähe ratsionaalseid argumente , laenuintresside langus olgu vaid üheks näiteks . </s> 
+</p>
+<p>
+ <s> Kuid kolmnurgas demokraatia , argumendid ja emotsioonid osutusid võitjaks kaks äärmist . </s>
+<s> Pole ime , et end demokraatlikuks pidavad valitsused üritavad rahvahääletusi korraldada enamasti juhtudel , kui tulemus on ette selge . </s> 
+</p>
+</div0>

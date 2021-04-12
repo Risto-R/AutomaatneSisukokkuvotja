@@ -1,0 +1,311 @@
+==================================================
+     aja_ml_2002_47.tasak.a025.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  Krista Piirimäe Tartu Kivilinna gümnaasiumi kunstiajaloo õpetaja
+ s2  Parlamendilt [e1 tuleb ] [e2 võtta ] [e3 õigus ] iseendale palka ja muid hüvesid [e4 määrata ]
+     e1 "tuleb"  AFTER  DCT 
+     e1 "tuleb"  VAGUE  e2 "võtta" 
+     e2 "võtta"  AFTER  DCT 
+     e2 "võtta"  OVERLAP-OR-AFTER  e3 "õigus" ka VAGUE
+     e2 "võtta"  IS_INCLUDED  e5 "tähendab" 
+     e3 "õigus"  VAGUE  DCT 
+     e3 "õigus"  VAGUE  e4 "määrata" 
+     e4 "määrata"  VAGUE  DCT 
+
+ s3  Mõne meelest [e5 tähendab ] [e6 debatt ] Riigikogu liikmete palkade ümber võõras rahakotis [e7 sorimist ] .
+     e5 "tähendab"  INCLUDES  DCT 
+     e5 "tähendab"  IS_INCLUDED  e6 "debatt" 
+     e5 "tähendab"  VAGUE  e7 "sorimist" 
+     e5 "tähendab"  SIMULTANEOUS  e8 "on vastupidi" 
+     e5 "tähendab"  VAGUE  e10 "sorivad" 
+     e6 "debatt"  VAGUE  DCT 
+     e7 "sorimist"  VAGUE  DCT 
+
+ s4  Tegelikult [e8 on ] lugu [e8 vastupidi ] : endale ise palka [e9 määravad ] riigikogulased [e10 sorivad ] meie kõigi , maksumaksjate rahakotis .
+     e8 "on vastupidi"  INCLUDES  DCT 
+     e8 "on vastupidi"  INCLUDES  e10 "sorivad" 
+     e8 "on vastupidi"  SIMULTANEOUS  e11 "on" ka VAGUE
+     e9 "määravad"  INCLUDES  DCT 
+     e9 "määravad"  SIMULTANEOUS  e10 "sorivad" 
+     e10 "sorivad"  INCLUDES  DCT 
+     e10 "sorivad"  VAGUE  e11 "on" 
+
+ s5  Seepärast [e11 on ] just maksumaksjatel mitte ainult [e12 õigus ] , vaid ka [e13 kohustus ] [e14 otsustada ] selle üle , kes , kuidas ja kui palju meie raha [e15 kasutab ] .
+     e11 "on"  INCLUDES  DCT 
+     e11 "on"  SIMULTANEOUS  e12 "õigus" 
+     e11 "on"  AFTER  e17 "teenis" 
+     e12 "õigus"  INCLUDES  DCT 
+     e12 "õigus"  SIMULTANEOUS  e13 "kohustus" 
+     e13 "kohustus"  INCLUDES  DCT 
+     e13 "kohustus"  VAGUE  e14 "otsustada" 
+     e14 "otsustada"  INCLUDES  DCT 
+     e14 "otsustada"  VAGUE  e15 "kasutab" 
+     e15 "kasutab"  INCLUDES  DCT 
+
+ s6  Alustuseks mõned arvud : enne [e16 sõda ] [e17 teenis ] Tartu kammivabriku tööline 40 krooni [t2 kuus ] , masinakirjutaja 50 , riigikogulane 160 , õpetaja 200 , Eesti panga direktor 350 krooni [t3 kuus ] .
+     e16 "sõda"  BEFORE  DCT 
+     e16 "sõda"  AFTER  e17 "teenis" 
+     e17 "teenis"  SIMULTANEOUS  t2 "kuus" 
+     e17 "teenis"  SIMULTANEOUS  t3 "kuus" 
+     e17 "teenis"  BEFORE  DCT 
+     e17 "teenis"  BEFORE  e18 "on" 
+
+ s7  Soome parlamendiliikme kuupalk [e18 on ] umbes 70 000 krooni , keskkooliõpetaja oma 40 000 krooni .
+     e18 "on"  INCLUDES  DCT 
+     e18 "on"  SIMULTANEOUS  e19 "moodustab" 
+
+ s8  Rootsi parlamendiliikme palk [e19 moodustab ] [t4 praegu ] umbkaudu kaks kuni kaks ja pool keskmist palka .
+     e19 "moodustab"  SIMULTANEOUS  t4 "praegu" 
+     e19 "moodustab"  INCLUDES  DCT 
+     e19 "moodustab"  SIMULTANEOUS  e20 "Tuleb" ka VAGUE
+     e19 "moodustab"  SIMULTANEOUS  e21 "arvestada" ka VAGUE
+     e19 "moodustab"  SIMULTANEOUS  e22 "on" 
+
+ s9  [e20 Tuleb ] [e21 arvestada ] , et kõrgemal palgal [e22 on ] kõrgemad maksud , mis palgavahet veelgi [e23 vähendavad ] .
+     e20 "Tuleb"  INCLUDES  DCT 
+     e20 "Tuleb"  VAGUE  e21 "arvestada" 
+     e21 "arvestada"  INCLUDES  DCT 
+     e21 "arvestada"  VAGUE  e22 "on" 
+     e22 "on"  VAGUE  DCT 
+     e22 "on"  INCLUDES  e23 "vähendavad" 
+     e23 "vähendavad"  VAGUE  DCT 
+
+ s10  Oma särk ihule ligidal
+ s11  Eestis [e24 on ] aga nii , et parlamendisaadik , kelleks [e25 võib ] vabalt [e26 olla ] ka kõrghariduseta inimene , [e27 saab ] rohkem palka kui ülikooli professor .
+     e24 "on"  INCLUDES  DCT 
+     e24 "on"  SIMULTANEOUS  e27 "saab" 
+     e24 "on"  SIMULTANEOUS  e28 "ole ei õige ega õiglane" 
+     e25 "võib"  INCLUDES  DCT 
+     e25 "võib"  VAGUE  e26 "olla" 
+     e26 "olla"  INCLUDES  DCT 
+     e26 "olla"  SIMULTANEOUS  e27 "saab" 
+     e27 "saab"  INCLUDES  DCT 
+
+ s12  See ei [e28 ole ] [e28 ei ] [e28 õige ] [e28 ega ] [e28 õiglane ] .
+     e28 "ole ei õige ega õiglane"  INCLUDES  DCT 
+     e28 "ole ei õige ega õiglane"  AFTER  e31 "võeti" 
+     e28 "ole ei õige ega õiglane"  INCLUDES  e30 "laiutavad" 
+
+ s13  Kõrgete palkade ja pensionide kriitikale [e29 vastates ] [e30 laiutavad ] praegused riigikogulased käsi : " Seadus [e31 võeti ] vastu [t5 1992. aastal ] Illar Hallaste ja Lehte Hainsalu [e32 eestvedamisel ] .
+     e29 "vastates"  INCLUDES  DCT 
+     e29 "vastates"  INCLUDES  e30 "laiutavad" 
+     e30 "laiutavad"  INCLUDES  DCT 
+     e30 "laiutavad"  AFTER  e31 "võeti" 
+     e30 "laiutavad"  AFTER  e33 "oli" 
+     e31 "võeti"  IS_INCLUDED  t5 "1992. aastal" 
+     e31 "võeti"  BEFORE  DCT 
+     e31 "võeti"  IS_INCLUDED  e32 "eestvedamisel" 
+     e31 "võeti"  SIMULTANEOUS  e33 "oli" 
+     e32 "eestvedamisel"  BEFORE  DCT 
+
+ s14  Küllap [e33 oli ] neil mingi eeskuju . "
+     e33 "oli"  BEFORE  DCT 
+     e33 "oli"  BEFORE-OR-OVERLAP  e34 "on vale" ka VAGUE
+
+ s15  Paraku [e34 on ] viide eeskujule [e34 vale ] .
+     e34 "on vale"  INCLUDES  DCT 
+     e34 "on vale"  SIMULTANEOUS  e35 "ole seotud" 
+
+ s16  Mitte kusagil ei [e35 ole ] parlamendiliikme palk [e35 seotud ] keskmise palgaga , [e36 rääkimata ] selle neljakordsest määrast .
+     e35 "ole seotud"  INCLUDES  DCT 
+     e35 "ole seotud"  SIMULTANEOUS  e36 "rääkimata" 
+     e35 "ole seotud"  SIMULTANEOUS  e37 "on" 
+     e36 "rääkimata"  INCLUDES  DCT 
+
+ s17  Oma särk [e37 on ] ihule lähemal ja sellise suhtumise ilmekaimaks näiteks [e38 on ] parlamendipensioni lugu .
+     e37 "on"  VAGUE  DCT 
+     e37 "on"  INCLUDES  e38 "on" 
+     e37 "on"  INCLUDES  e40 "andma" ka VAGUE
+     e38 "on"  INCLUDES  DCT 
+
+ s18  Täispensioni [e39 hakati ] [e40 andma ] juba [t6 kaheaastase ] staaži järgi , ja seda sellepärast , et seaduse vastuvõtjate endi staaž [e41 oli ] selleks hetkeks täpselt nii [e41 pikk ] .
+     e39 "hakati"  BEFORE  DCT 
+     e39 "hakati"  BEFORE-OR-OVERLAP  e40 "andma" 
+     e40 "andma"  BEFORE  DCT 
+     e40 "andma"  IS_INCLUDED  e41 "oli pikk" 
+     e40 "andma"  BEFORE  e42 "ajagem" 
+     e41 "oli pikk"  BEFORE  DCT 
+
+ s19  Aga ärgem [e42 ajagem ] kõike Hallaste ja Hainsalu kaela .
+     e42 "ajagem"  INCLUDES  DCT 
+     e42 "ajagem"  AFTER  e43 "võeti" 
+
+ s20  Seadus [e43 võeti ] vastu peaaegu ühehäälselt .
+     e43 "võeti"  BEFORE  DCT 
+     e43 "võeti"  AFTER  e44 "oli" 
+
+ s21  Väheste vastuhääletajate hulgas [e44 oli ] tuntumatest parlamendiliikmetest näiteks Liia Hänni .
+     e44 "oli"  BEFORE  DCT 
+     e44 "oli"  BEFORE  e45 "olnud" 
+
+ s22  Pealegi oleks [t7 möödunud kümne aasta jooksul ] [e45 olnud ] piisavalt aega seda ümber [e46 teha ] .
+     e45 "olnud"  SIMULTANEOUS  t7 "möödunud kümne aasta jooksul" 
+     e45 "olnud"  BEFORE  DCT 
+     e45 "olnud"  INCLUDES  e46 "teha" 
+     e45 "olnud"  INCLUDES  e47 "muudeti" 
+     e46 "teha"  VAGUE  DCT 
+
+ s23  [t8 1999 ] [e47 muudeti ] pärast tohutut rahva [e48 survet ] [e49 pensioniseadust ] nii , et täispensioni [e50 hakati ] [e51 andma ] [t9 üheksa-aastase ] staaži järgi , 40% pensioni [t10 kolmeaastase ] staaži järgi .
+     e47 "muudeti"  IS_INCLUDED  t8 "1999" 
+     e47 "muudeti"  BEFORE  DCT 
+     e47 "muudeti"  AFTER  e48 "survet" 
+     e47 "muudeti"  BEFORE  e50 "hakati" 
+     e47 "muudeti"  BEFORE  e51 "andma" 
+     e47 "muudeti"  BEFORE  e53 "võtta" ka VAGUE
+     e47 "muudeti"  BEFORE-OR-OVERLAP  e52 "õnnestus" ka VAGUE
+     e48 "survet"  BEFORE  DCT 
+     e48 "survet"  BEFORE  e51 "andma" 
+     e48 "survet"  IS_INCLUDED  e49 "pensioniseadust" 
+     e49 "pensioniseadust"  VAGUE  DCT 
+     e50 "hakati"  BEFORE  DCT 
+     e50 "hakati"  BEFORE-OR-OVERLAP  e51 "andma" 
+     e51 "andma"  BEFORE  DCT 
+
+ s24  Kolmikliidu valitsemise ajal [e52 õnnestus ] alles teab mitmendal katsel [e53 võtta ] vastu Eiki Nestori [e54 muudatusettepanek ] [e55 maksustada ] 5000kroonised ja suuremad eripensionid .
+     e52 "õnnestus"  BEFORE  DCT 
+     e52 "õnnestus"  VAGUE  e53 "võtta" 
+     e52 "õnnestus"  BEFORE  e56 "karta on" 
+     e53 "võtta"  BEFORE  DCT 
+     e53 "võtta"  AFTER  e54 "muudatusettepanek" 
+     e53 "võtta"  BEFORE  e57 "suuda" 
+     e54 "muudatusettepanek"  BEFORE  DCT 
+     e54 "muudatusettepanek"  VAGUE  e55 "maksustada" 
+     e55 "maksustada"  BEFORE  DCT 
+
+ s25  [e56 Karta ] [e56 on ] , et [t11 praegune ] Riigikogu ei [e57 suuda ] heaks [e58 kiita ] ühtki radikaalset [e59 ettepanekut ] iseenda ja tulevaste riigikogulaste sissetulekute [e60 vähendamiseks ] .
+     e56 "karta on"  INCLUDES  DCT 
+     e56 "karta on"  BEFORE  e57 "suuda" 
+     e56 "karta on"  INCLUDES  e61 "nimetanud" 
+     e57 "suuda"  AFTER  DCT 
+     e57 "suuda"  VAGUE  e58 "kiita" 
+     e57 "suuda"  AFTER  e61 "nimetanud" 
+     e58 "kiita"  AFTER  DCT 
+     e58 "kiita"  AFTER  e59 "ettepanekut" 
+     e59 "ettepanekut"  AFTER  DCT 
+     e59 "ettepanekut"  BEFORE  e60 "vähendamiseks" 
+     e60 "vähendamiseks"  AFTER  DCT 
+
+ s26  Peaminister Siim Kallas on seda [e61 nimetanud ] koguni populismiks .
+     e61 "nimetanud"  BEFORE  DCT 
+     e61 "nimetanud"  IS_INCLUDED  e62 "toimib" 
+
+ s27  Taas [e62 toimib ] lihtne psüühiline tõrge : iseenda hüvede [e63 vähendamine ] [e64 läheb ] vastuollu enesealalhoiu instinktiga .
+     e62 "toimib"  INCLUDES  DCT 
+     e62 "toimib"  SIMULTANEOUS  e64 "läheb" 
+     e62 "toimib"  INCLUDES  e65 "kuritarvitab" 
+     e63 "vähendamine"  VAGUE  DCT 
+     e63 "vähendamine"  VAGUE  e64 "läheb" 
+     e64 "läheb"  VAGUE  DCT 
+
+ s28  Kahjuks [e65 kuritarvitab ] parlament edasi oma rahva rahakotti .
+     e65 "kuritarvitab"  OVERLAP-OR-AFTER  DCT 
+     e65 "kuritarvitab"  IS_INCLUDED  e66 "On päevselge" ka VAGUE
+
+ s29  [e66 On ] [e66 päevselge ] , et väljapääs sellest tobedast olukorrast [e67 saab ] [e68 olla ] vaid üks : Riigikogult [e69 tuleb ] [e70 võtta ] [e71 õigus ] iseendale palka ja muid hüvesid [e72 määrata ] .
+     e66 "On päevselge"  INCLUDES  DCT 
+     e66 "On päevselge"  INCLUDES  e68 "olla" 
+     e66 "On päevselge"  BEFORE-OR-OVERLAP  e73 "tuleb" 
+     e66 "On päevselge"  BEFORE  e74 "moodustada" 
+     e67 "saab"  INCLUDES  DCT 
+     e67 "saab"  VAGUE  e68 "olla" 
+     e68 "olla"  INCLUDES  DCT 
+     e68 "olla"  BEFORE  e70 "võtta" 
+     e69 "tuleb"  AFTER  DCT 
+     e69 "tuleb"  VAGUE  e70 "võtta" 
+     e70 "võtta"  AFTER  DCT 
+     e70 "võtta"  AFTER  e71 "õigus" 
+     e71 "õigus"  VAGUE  DCT 
+     e71 "õigus"  VAGUE  e72 "määrata" 
+     e72 "määrata"  VAGUE  DCT 
+
+ s30  Selle asemel [e73 tuleb ] [e74 moodustada ] kutseliitude ja tööandjate esindajatest rahva- või palgakogu , mis näiteks [t12 iga kahe aasta järel ] [e75 määrab ] kindlaks riigikogulase töö tasustamise korra ja samas [e76 kontrollib ] maksumaksja raha [e77 kasutamist ] .
+     e73 "tuleb"  AFTER  DCT 
+     e73 "tuleb"  VAGUE  e74 "moodustada" 
+     e74 "moodustada"  AFTER  DCT 
+     e74 "moodustada"  BEFORE  e75 "määrab" 
+     e75 "määrab"  IS_INCLUDED  t12 "iga kahe aasta järel" 
+     e75 "määrab"  AFTER  DCT 
+     e75 "määrab"  SIMULTANEOUS  e76 "kontrollib" 
+     e76 "kontrollib"  AFTER  DCT 
+     e76 "kontrollib"  IS_INCLUDED  e77 "kasutamist" 
+     e77 "kasutamist"  AFTER  DCT 
+
+ s31  Keskmise küljest lahti
+ s32  Minu [e78 meelest ] [e79 peaks ] moodustatav palgakogu [e80 lähtuma ] kolmest põhiteesist .
+     e78 "meelest"  INCLUDES  DCT 
+     e78 "meelest"  INCLUDES  e80 "lähtuma" 
+     e79 "peaks"  INCLUDES  DCT 
+     e79 "peaks"  VAGUE  e80 "lähtuma" 
+     e80 "lähtuma"  INCLUDES  DCT 
+     e80 "lähtuma"  INCLUDES  e81 "on vaja" 
+
+ s33  Esiteks : parlamendiliikme palk ja sellest tulenev pension [e81 on ] [e81 vaja ] lahti [e82 haakida ] Eesti keskmisest palgast ( mida pealegi [e83 arvestatakse ] valesti ja mis [e84 on ] seetõttu tegelikust [e84 suurem ] ) .
+     e81 "on vaja"  INCLUDES  DCT 
+     e81 "on vaja"  BEFORE-OR-OVERLAP  e82 "haakida" 
+     e81 "on vaja"  IS_INCLUDED  e85 "on ebaõiglane" 
+     e82 "haakida"  AFTER  DCT 
+     e82 "haakida"  VAGUE  e83 "arvestatakse" 
+     e83 "arvestatakse"  INCLUDES  DCT 
+     e83 "arvestatakse"  SIMULTANEOUS  e84 "on suurem" 
+     e84 "on suurem"  INCLUDES  DCT 
+
+ s34  [e85 On ] sügavalt [e85 ebaõiglane ] , kui valdav enamik palgatöötajatest [e86 võitleb ] , hambad risti , mõnekümnekroonise [e87 palgatõusu ] eest , aga ühele grupile - rahva teenritele - [e88 langevad ] sülle sajad ja lõpuks tuhanded kroonid .
+     e85 "on ebaõiglane"  INCLUDES  DCT 
+     e85 "on ebaõiglane"  INCLUDES  e86 "võitleb" 
+     e85 "on ebaõiglane"  INCLUDES  e88 "langevad" 
+     e85 "on ebaõiglane"  VAGUE  e92 "saama" 
+     e86 "võitleb"  INCLUDES  DCT 
+     e86 "võitleb"  BEFORE  e87 "palgatõusu" 
+     e86 "võitleb"  SIMULTANEOUS  e88 "langevad" 
+     e87 "palgatõusu"  VAGUE  DCT 
+     e88 "langevad"  INCLUDES  DCT 
+
+ s35  Teiseks : väljastpoolt Tallinna linna [e89 valitud ] ja Tallinnast väljas [e90 elavad ] Riigikogu liikmed [e91 peavad ] [e92 saama ] sõidu- ja korterikompensatsiooni .
+     e89 "valitud"  BEFORE  DCT 
+     e89 "valitud"  BEFORE  e92 "saama" 
+     e89 "valitud"  IS_INCLUDED  e90 "elavad" 
+     e90 "elavad"  INCLUDES  DCT 
+     e90 "elavad"  INCLUDES  e92 "saama" 
+     e91 "peavad"  INCLUDES  DCT 
+     e91 "peavad"  VAGUE  e92 "saama" 
+     e92 "saama"  VAGUE  DCT 
+     e92 "saama"  IS_INCLUDED  e93 "muutub" ka VAGUE
+
+ s36  Vastasel juhul [e93 muutub ] tervet Eestit käsitlevate küsimuste üle [e94 otsustamine ] senisest veelgi Tallinna-kesksemaks .
+     e93 "muutub"  AFTER  DCT 
+     e93 "muutub"  VAGUE  e94 "otsustamine" 
+     e93 "muutub"  VAGUE  e95 "tuleb" 
+     e93 "muutub"  VAGUE  e96 "tõestada" 
+     e94 "otsustamine"  AFTER  DCT 
+
+ s37  Kolmandaks : kõiki hüvitamisele minevaid kulusid [e95 tuleb ] [e96 tõestada ] vastava kuludokumendi abil .
+     e95 "tuleb"  AFTER  DCT 
+     e95 "tuleb"  VAGUE  e96 "tõestada" 
+     e95 "tuleb"  AFTER  e101 "otsin" 
+     e96 "tõestada"  VAGUE  DCT 
+     e96 "tõestada"  AFTER  e101 "otsin" 
+
+ s38  Kui lugeja [e97 toetab ] sellist [e98 palgareformi ] , siis [e99 rahvaalgatuse ] [e100 käimalükkamiseks ] [e101 otsin ] kaasamõtlejaid .
+     e97 "toetab"  INCLUDES  DCT 
+     e97 "toetab"  BEFORE  e98 "palgareformi" 
+     e97 "toetab"  IS_INCLUDED  e101 "otsin" 
+     e98 "palgareformi"  VAGUE  DCT 
+     e99 "rahvaalgatuse"  AFTER  DCT 
+     e99 "rahvaalgatuse"  OVERLAP-OR-AFTER  e100 "käimalükkamiseks" 
+     e100 "käimalükkamiseks"  AFTER  DCT 
+     e101 "otsin"  INCLUDES  DCT 
+     e101 "otsin"  INCLUDES  e103 "andke" 
+
+ s39  [e102 Palun ] [e103 andke ] endast märku e-kirjaga aadressil : krista.piirimae@hot.ee
+     e102 "Palun"  INCLUDES  DCT 
+     e102 "Palun"  BEFORE-OR-OVERLAP  e103 "andke" 
+     e103 "andke"  AFTER  DCT 
+     e103 "andke"  IS_INCLUDED  e104 "on" 
+
+ s40  Autor [e104 on ] Mõõdukate liige
+     e104 "on"  INCLUDES  DCT 
+
+ s41  Samal teemal : , ML , [t13 14. november ]
+

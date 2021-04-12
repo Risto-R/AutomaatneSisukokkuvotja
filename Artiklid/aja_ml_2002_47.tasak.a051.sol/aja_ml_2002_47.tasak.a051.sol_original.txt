@@ -1,9 +1,30 @@
 <div0><head> Hea lugeja </head>
-<p> <s> <hi rend="italic"> 20.11.2002 </hi> </s> </p>
-<p> <s> Eestimaal on tuhandeid külasid , kus elab väga erinevate soovide ja võimalustega inimesi . </s> <s> Kodukandi Liikumine ühendab aktiivsemaid , n-ö sädeinimesi ja külasid , kus tuntakse rõõmu koostegemisest , õppimisest , enese arendamisest ja uute kogemuste saamisest . </s> </p>
-<p> <s> Väga tähtis roll külaelu edendamisel on valdadel . </s> <s> Seetõttu on ka meie tänase lehekülje teema just sellest valdkonnast . </s> <s> Kui suudetakse saavutada head partnerlussuhted , saavad sellest kasu nii vald kui küla . </s> </p>
-<p> <s> Meie liikmetel on tuua häid näiteid ühistest arendusprojektidest , valdadele nõuandva partnerina töötavatest külavanemate kogudest , vallaga läbi arutatud ja külainimeste aktiivsel osalusel koostatud külade arengukavadest , ühisjõul külakoolides lastele ja täiskasvanutele tegevuste käimapanemisest jm. </s> </p>
-<p> <s> Samas ollakse paljudes külades alles omi tegevusi käivitamas ja hea koostöö vallaga ei suju mitte igal pool ühtviisi hästi . </s> </p>
-<p> <s> Koostöös Maalehega ja meie käivituva </s> </p>
-<p> <s> E-külade projekti toel leiate meie tegemistest , tublidest küladest ja sädeinimestest ning probleemidest igakuiselt ülevaate . </s> <s> Olete teretulnud nii meie tegemistes kaasa lööma kui tõstatatud teemadel arvamust avaldama . </s> </p>
-<p> <s> <hi rend="bold"> Sirje Kuusk , Kodukandi Liikumise juhatuse esimees </hi> </s> </p></div0>
+<p>
+ <s> <hi rend="italic"> 20.11.2002 </hi> </s> 
+</p>
+<p>
+ <s> Eestimaal on tuhandeid külasid , kus elab väga erinevate soovide ja võimalustega inimesi . </s>
+<s> Kodukandi Liikumine ühendab aktiivsemaid , n-ö sädeinimesi ja külasid , kus tuntakse rõõmu koostegemisest , õppimisest , enese arendamisest ja uute kogemuste saamisest . </s> 
+</p>
+<p>
+ <s> Väga tähtis roll külaelu edendamisel on valdadel . </s>
+<s> Seetõttu on ka meie tänase lehekülje teema just sellest valdkonnast . </s>
+<s> Kui suudetakse saavutada head partnerlussuhted , saavad sellest kasu nii vald kui küla . </s> 
+</p>
+<p>
+ <s> Meie liikmetel on tuua häid näiteid ühistest arendusprojektidest , valdadele nõuandva partnerina töötavatest külavanemate kogudest , vallaga läbi arutatud ja külainimeste aktiivsel osalusel koostatud külade arengukavadest , ühisjõul külakoolides lastele ja täiskasvanutele tegevuste käimapanemisest jm. </s> 
+</p>
+<p>
+ <s> Samas ollakse paljudes külades alles omi tegevusi käivitamas ja hea koostöö vallaga ei suju mitte igal pool ühtviisi hästi . </s> 
+</p>
+<p>
+ <s> Koostöös Maalehega ja meie käivituva </s> 
+</p>
+<p>
+ <s> E-külade projekti toel leiate meie tegemistest , tublidest küladest ja sädeinimestest ning probleemidest igakuiselt ülevaate . </s>
+<s> Olete teretulnud nii meie tegemistes kaasa lööma kui tõstatatud teemadel arvamust avaldama . </s> 
+</p>
+<p>
+ <s> <hi rend="bold"> Sirje Kuusk , Kodukandi Liikumise juhatuse esimees </hi> </s> 
+</p>
+</div0>

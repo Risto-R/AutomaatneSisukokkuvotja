@@ -1,0 +1,158 @@
+==================================================
+     aja_ml_2002_47.tasak.a030.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  Viljandis [e1 peetakse ] [t2 29. novembril ] [e2 konverents ] " Õitsev Viljandimaa - kas nostalgiline minevik või helge tulevik ? " .
+     e1 "peetakse"  IS_INCLUDED  t2 "29. novembril" 
+     e1 "peetakse"  AFTER  DCT 
+     e1 "peetakse"  SIMULTANEOUS  e2 "konverents" 
+     e1 "peetakse"  AFTER  e3 "ütles" 
+     e1 "peetakse"  AFTER  e6 "algatas" 
+     e2 "konverents"  AFTER  DCT 
+
+ s2  Viljandi asemaavanem Urmas Tuuleveski [e3 ütles ] , et [e4 konverentsi ] [e5 mõtte ] [e6 algatas ] kohalik taluliit .
+     e3 "ütles"  BEFORE  DCT 
+     e3 "ütles"  AFTER  e6 "algatas" 
+     e3 "ütles"  BEFORE-OR-OVERLAP  e9 "kavas on" 
+     e3 "ütles"  BEFORE  e8 "avab" 
+     e4 "konverentsi"  AFTER  DCT 
+     e4 "konverentsi"  AFTER  e5 "mõtte" 
+     e5 "mõtte"  BEFORE  DCT 
+     e5 "mõtte"  OVERLAP-OR-AFTER  e6 "algatas" 
+     e6 "algatas"  BEFORE  DCT 
+     e6 "algatas"  BEFORE  e8 "avab" 
+     e6 "algatas"  BEFORE  e9 "kavas on" 
+
+ s3  [e7 Konverentsi ] [e8 avab ] ETKLi juhatuse esimees Ilmar Haak , [e9 kavas ] [e9 on ] kümme [e10 sõnavõttu ] mitmete organisatsioonide esindajatelt .
+     e7 "Konverentsi"  AFTER  DCT 
+     e7 "Konverentsi"  OVERLAP-OR-AFTER  e8 "avab" 
+     e8 "avab"  AFTER  DCT 
+     e8 "avab"  IS_INCLUDED  e9 "kavas on" 
+     e8 "avab"  AFTER  e11 "ütles" 
+     e8 "avab"  IS_INCLUDED  e13 "eesmärk on" 
+     e9 "kavas on"  INCLUDES  DCT 
+     e9 "kavas on"  INCLUDES  e10 "sõnavõttu" 
+     e9 "kavas on"  INCLUDES  e11 "ütles" 
+     e9 "kavas on"  SIMULTANEOUS  e13 "eesmärk on" 
+     e10 "sõnavõttu"  AFTER  DCT 
+
+ s4  Ühenduse Kodukant Viljandimaa juhatuse esimees Kaja Kaur [e11 ütles ] , et [e12 konverentsi ] [e13 eesmärk ] [e13 on ] [e14 rääkida ] maaelu [e15 probleemidest ] nii , nagu need [e16 on ] .
+     e11 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e11 "ütles"  IS_INCLUDED  e13 "eesmärk on" 
+     e11 "ütles"  BEFORE-OR-OVERLAP  e17 "Tahame" 
+     e11 "ütles"  VAGUE  e20 "nentis" 
+     e12 "konverentsi"  AFTER  DCT 
+     e12 "konverentsi"  OVERLAP-OR-AFTER  e13 "eesmärk on" 
+     e13 "eesmärk on"  INCLUDES  DCT 
+     e13 "eesmärk on"  BEFORE-OR-OVERLAP  e14 "rääkida" 
+     e13 "eesmärk on"  BEFORE-OR-OVERLAP  e17 "Tahame" 
+     e13 "eesmärk on"  OVERLAP-OR-AFTER  e20 "nentis" 
+     e14 "rääkida"  AFTER  DCT 
+     e14 "rääkida"  IS_INCLUDED  e15 "probleemidest" 
+     e14 "rääkida"  IS_INCLUDED  e16 "on" 
+     e15 "probleemidest"  INCLUDES  DCT 
+     e16 "on"  INCLUDES  DCT 
+
+ s5  " [e17 Tahame ] [e18 teha ] eri organisatsioonidega rohkem [e19 koostööd ] , " [e20 nentis ] Kaur .
+     e17 "Tahame"  OVERLAP-OR-AFTER  DCT 
+     e17 "Tahame"  BEFORE-OR-OVERLAP  e18 "teha" 
+     e17 "Tahame"  OVERLAP-OR-AFTER  e20 "nentis" 
+     e17 "Tahame"  OVERLAP-OR-AFTER  e21 "Tundub" 
+     e17 "Tahame"  OVERLAP-OR-AFTER  e22 "suhelnud" 
+     e18 "teha"  AFTER  DCT 
+     e18 "teha"  SIMULTANEOUS  e19 "koostööd" 
+     e19 "koostööd"  AFTER  DCT 
+     e20 "nentis"  BEFORE-OR-OVERLAP  DCT 
+     e20 "nentis"  AFTER  e22 "suhelnud" 
+     e20 "nentis"  IS_INCLUDED  e21 "Tundub" 
+
+ s6  " [e21 Tundub ] , et [t3 seni ] oleme liiga vähe omavahel [e22 suhelnud ] .
+     e21 "Tundub"  INCLUDES  DCT 
+     e21 "Tundub"  OVERLAP-OR-AFTER  e22 "suhelnud" 
+     e21 "Tundub"  IS_INCLUDED  e23 "eesmärk on" ka VAGUE
+     e22 "suhelnud"  BEFORE-OR-OVERLAP  t3 "seni" 
+     e22 "suhelnud"  BEFORE-OR-OVERLAP  DCT 
+
+ s7  " Ühine [e23 eesmärk ] [e23 on ] , et Viljandimaal [e24 säiliksid ] maakodud , ja sealsed inimesed [e25 leiaksid ] rakendust .
+     e23 "eesmärk on"  INCLUDES  DCT 
+     e23 "eesmärk on"  INCLUDES  e24 "säiliksid" 
+     e23 "eesmärk on"  INCLUDES  e25 "leiaksid" 
+     e23 "eesmärk on"  IS_INCLUDED  e26 "on" ka VAGUE
+     e24 "säiliksid"  OVERLAP-OR-AFTER  DCT 
+     e24 "säiliksid"  SIMULTANEOUS  e25 "leiaksid" 
+     e25 "leiaksid"  OVERLAP-OR-AFTER  DCT 
+
+ s8  Lisaks põllumajanduslikule suurtootmisele [e26 on ] maal väiketalud , kus elavatele inimestele [e27 tuleb ] [e28 leida ] [e29 tegevust ] oma piirkonnas . "
+     e26 "on"  INCLUDES  DCT 
+     e26 "on"  INCLUDES  e27 "tuleb" 
+     e26 "on"  INCLUDES  e28 "leida" 
+     e26 "on"  INCLUDES  e30 "räägib" 
+     e27 "tuleb"  OVERLAP-OR-AFTER  DCT 
+     e27 "tuleb"  BEFORE-OR-OVERLAP  e28 "leida" 
+     e28 "leida"  OVERLAP-OR-AFTER  DCT 
+     e28 "leida"  BEFORE-OR-OVERLAP  e29 "tegevust" 
+     e29 "tegevust"  OVERLAP-OR-AFTER  DCT 
+
+ s9  Viljandi maavanem [e30 räägib ] [t4 tänasest ] Viljandimaast ja majandusminister Liina Tõnisson ettevõtluse [e31 arendamisest ] Viljandimaal .
+     e30 "räägib"  AFTER  DCT 
+     e30 "räägib"  VAGUE  e31 "arendamisest" 
+     e30 "räägib"  VAGUE  e32 "on ettekanne" 
+     e31 "arendamisest"  OVERLAP-OR-AFTER  DCT 
+
+ s10  Eesti Maanaiste Ühenduse esimehelt Tiiu Soansilt [e32 on ] [e32 ettekanne ] peretaludest .
+     e32 "on ettekanne"  AFTER  DCT 
+     e32 "on ettekanne"  VAGUE  e33 "räägib" 
+     e32 "on ettekanne"  VAGUE  e35 "annab" 
+
+ s11  Viljandi volikogu esimees Arnold Kimber [e33 räägib ] sellest , kuidas linn [e34 toetab ] maaettevõtlust ning professor Jaan Leetsar [e35 annab ] teada , kuidas [e36 jätta ] maale rohkem raha .
+     e33 "räägib"  AFTER  DCT 
+     e33 "räägib"  IS_INCLUDED  e34 "toetab" 
+     e33 "räägib"  VAGUE  e35 "annab" 
+     e33 "räägib"  IS_INCLUDED  e38 "säilinud" 
+     e33 "räägib"  IS_INCLUDED  e39 "on magnetiks" 
+     e34 "toetab"  INCLUDES  DCT 
+     e35 "annab"  AFTER  DCT 
+     e35 "annab"  BEFORE  e36 "jätta" 
+     e35 "annab"  IS_INCLUDED  e38 "säilinud" 
+     e35 "annab"  IS_INCLUDED  e39 "on magnetiks" 
+     e36 "jätta"  OVERLAP-OR-AFTER  DCT 
+
+ s12  Sakala peatoimetaja Eve Rohtla [e37 sõnul ] on Viljandimaal [e38 säilinud ] väga huvitava ajalooga häärbereid - need [e39 on ] Viljandimaa [e39 magnetiks ] .
+     e37 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e37 "sõnul"  IS_INCLUDED  e38 "säilinud" 
+     e38 "säilinud"  INCLUDES  DCT 
+     e38 "säilinud"  INCLUDES  e39 "on magnetiks" 
+     e38 "säilinud"  INCLUDES  e42 "on kavas" 
+     e39 "on magnetiks"  INCLUDES  DCT 
+     e39 "on magnetiks"  INCLUDES  e42 "on kavas" 
+
+ s13  [e40 Konverentsi ] [e41 lõpus ] [e42 on ] [e42 kavas ] [t5 ühetunnine ] [e43 diskussioon ] ja [e44 otsuse ] [e45 vastuvõtmine ] .
+     e40 "Konverentsi"  AFTER  DCT 
+     e40 "Konverentsi"  BEFORE-OR-OVERLAP  e41 "lõpus" 
+     e41 "lõpus"  AFTER  DCT 
+     e41 "lõpus"  IS_INCLUDED  e42 "on kavas" 
+     e42 "on kavas"  INCLUDES  DCT 
+     e42 "on kavas"  BEFORE-OR-OVERLAP  e43 "diskussioon" 
+     e42 "on kavas"  BEFORE-OR-OVERLAP  e45 "vastuvõtmine" 
+     e42 "on kavas"  INCLUDES  e47 "on oodatud" 
+     e43 "diskussioon"  SIMULTANEOUS  t5 "ühetunnine" 
+     e43 "diskussioon"  AFTER  DCT 
+     e43 "diskussioon"  BEFORE-OR-OVERLAP  e45 "vastuvõtmine" 
+     e44 "otsuse"  AFTER  DCT 
+     e44 "otsuse"  OVERLAP-OR-AFTER  e45 "vastuvõtmine" 
+     e45 "vastuvõtmine"  AFTER  DCT 
+
+ s14  Korraldajate [e46 sõnul ] [e47 on ] maavalitsuse saalis [t6 kell 10 ] [e48 algavale ] [e49 konverentsile ] [e47 oodatud ] kõik inimesed , kes [e50 huvitatud ] Viljandimaa ajaloost ja arengust .
+     e46 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e46 "sõnul"  IS_INCLUDED  e47 "on oodatud" 
+     e47 "on oodatud"  INCLUDES  DCT 
+     e47 "on oodatud"  IS_INCLUDED  e50 "huvitatud" 
+     e48 "algavale"  SIMULTANEOUS  t6 "kell 10" 
+     e48 "algavale"  AFTER  DCT 
+     e48 "algavale"  BEFORE-OR-OVERLAP  e49 "konverentsile" 
+     e49 "konverentsile"  AFTER  DCT 
+     e49 "konverentsile"  OVERLAP-OR-AFTER  e47 "on oodatud" 
+     e50 "huvitatud"  INCLUDES  DCT 
+
+

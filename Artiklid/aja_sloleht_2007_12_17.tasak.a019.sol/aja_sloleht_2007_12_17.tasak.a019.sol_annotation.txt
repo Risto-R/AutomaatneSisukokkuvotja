@@ -1,0 +1,63 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a019.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Kalevisse [e1 testimisele ] [e2 saabunud ] , [t1 üleeilset ] [e3 kohtumist ] vahetusmeeste pingi otsal tänavariietes [e4 vaadanud ] 223 cm pikkune grusiin Sergo Atuashvili [e5 võib ] alustuseks [e6 mängima ] [e7 hakata ] Kalevi duubli Rapla ehk BC Kaft Mööbli särgis .
+     e1 "testimisele"  INCLUDES  DCT 
+     e1 "testimisele"  AFTER  e2 "saabunud" 
+     e2 "saabunud"  BEFORE  DCT 
+     e2 "saabunud"  BEFORE  e4 "vaadanud" 
+     e2 "saabunud"  BEFORE  e6 "mängima" 
+     e3 "kohtumist"  IS_INCLUDED  t1 "üleeilset" 
+     e3 "kohtumist"  BEFORE  DCT 
+     e3 "kohtumist"  SIMULTANEOUS  e4 "vaadanud" 
+     e4 "vaadanud"  BEFORE  DCT 
+     e4 "vaadanud"  BEFORE  e6 "mängima" 
+     e5 "võib"  OVERLAP-OR-AFTER  DCT 
+     e5 "võib"  BEFORE-OR-OVERLAP  e7 "hakata" 
+     e6 "mängima"  OVERLAP-OR-AFTER  DCT 
+     e7 "hakata"  OVERLAP-OR-AFTER  DCT 
+     e7 "hakata"  BEFORE-OR-OVERLAP  e6 "mängima" 
+     e7 "hakata"  AFTER  e10 "lepitud" 
+
+ s1  Kalevi presidendi Ivar Valdmaa [e8 sõnul ] on Leedu klubist Alytuse Alita üle [e9 tulnud ] [t2 22aastase ] grusiiniga kokku [e10 lepitud ] , et ta [e11 treenib ] meeskonna juures [t3 kümme päeva ] , seejärel [e12 otsustatakse ] , kas temaga [e13 sõlmitakse ] ka pikaajalisem leping .
+     e8 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e8 "sõnul"  AFTER  e10 "lepitud" 
+     e9 "tulnud"  BEFORE  DCT 
+     e9 "tulnud"  BEFORE  e10 "lepitud" 
+     e10 "lepitud"  BEFORE  DCT 
+     e10 "lepitud"  BEFORE  e11 "treenib" 
+     e10 "lepitud"  BEFORE-OR-OVERLAP  e14 "otsust pole" 
+     e10 "lepitud"  BEFORE-OR-OVERLAP  e15 "tundub" 
+     e11 "treenib"  SIMULTANEOUS  t3 "kümme päeva" 
+     e11 "treenib"  INCLUDES  DCT 
+     e11 "treenib"  BEFORE  e12 "otsustatakse" 
+     e12 "otsustatakse"  AFTER  DCT 
+     e12 "otsustatakse"  BEFORE  e13 "sõlmitakse" 
+     e13 "sõlmitakse"  AFTER  DCT 
+
+ s2  " [e14 Otsust ] veel [e14 pole ] , aga [e15 tundub ] , et ta [e16 hakkab ] meiega [e17 treenima ] ja võib-olla ka Kraft Mööblis [e18 mängima ] .
+     e14 "otsust pole"  INCLUDES  DCT 
+     e14 "otsust pole"  SIMULTANEOUS  e15 "tundub" 
+     e14 "otsust pole"  SIMULTANEOUS  e19 "pole kindel" 
+     e15 "tundub"  INCLUDES  DCT 
+     e15 "tundub"  BEFORE-OR-OVERLAP  e16 "hakkab" 
+     e15 "tundub"  SIMULTANEOUS  e19 "pole kindel" 
+     e16 "hakkab"  OVERLAP-OR-AFTER  DCT 
+     e16 "hakkab"  BEFORE-OR-OVERLAP  e17 "treenima" 
+     e16 "hakkab"  BEFORE-OR-OVERLAP  e18 "mängima" 
+     e17 "treenima"  AFTER  DCT 
+     e17 "treenima"  VAGUE  e18 "mängima" 
+     e18 "mängima"  AFTER  DCT 
+
+ s3  Aga see [e19 pole ] veel [e19 kindel ] .
+     e19 "pole kindel"  INCLUDES  DCT 
+     e19 "pole kindel"  BEFORE-OR-OVERLAP  e20 "Vaatame" 
+     e19 "pole kindel"  IS_INCLUDED  e21 "on" 
+
+ s4  [e20 Vaatame ] , milline [e21 on ] ta suhtumine , tervis . "
+     e20 "Vaatame"  OVERLAP-OR-AFTER  DCT 
+     e20 "Vaatame"  IS_INCLUDED  e21 "on" ka VAGUE
+     e21 "on"  INCLUDES  DCT 
+
+

@@ -1,0 +1,122 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a029.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Eesti showtrupp [e1 vıitis ] Venemaa [e2 telekonkursil ] esikoha
+     e1 "vıitis"  BEFORE  DCT 
+     e1 "vıitis"  IS_INCLUDED  e2 "telekonkursil" 
+     e1 "vıitis"  IDENTITY  e3 "vıitnud" 
+     e2 "telekonkursil"  BEFORE  DCT 
+
+ s1  Tallinna Lindakivi kultuurikeskuse show-trupp IRIS on [e3 vıitnud ] Moskvas rahvusvahelisel [e4 telekonkursil ] " Utrennaja svezda " ( " Hommikut‰ht " ) vokaalansamblite arvestuses esikoha .
+     e3 "vıitnud"  BEFORE  DCT 
+     e3 "vıitnud"  IS_INCLUDED  e4 "telekonkursil" 
+     e3 "vıitnud"  IS_INCLUDED  e6 "on t‰helepanuv‰‰rne" 
+     e4 "telekonkursil"  BEFORE  DCT 
+
+ s2  [e5 Vıit ] [e6 on ] [e6 t‰helepanuv‰‰rne ] , sest telekanal OPT [e7 transleerib ] [e8 konkurssi ] ¸le terve Venemaa .
+     e5 "Vıit"  BEFORE  DCT 
+     e5 "Vıit"  IS_INCLUDED  e6 "on t‰helepanuv‰‰rne" 
+     e6 "on t‰helepanuv‰‰rne"  INCLUDES  DCT 
+     e6 "on t‰helepanuv‰‰rne"  VAGUE  e7 "transleerib" 
+     e6 "on t‰helepanuv‰‰rne"  AFTER  e9 "vıitis" 
+     e7 "transleerib"  INCLUDES  DCT 
+     e7 "transleerib"  VAGUE  e8 "konkurssi" 
+     e8 "konkurssi"  VAGUE  DCT 
+
+ s3  [t1 1992. aastal ] [e9 vıitis ] sama [e10 konkursi ] Narva tantsukollektiiv " Ulitshnıi baletT‰navaballett " ) .
+     e9 "vıitis"  IS_INCLUDED  t1 "1992. aastal" 
+     e9 "vıitis"  BEFORE  DCT 
+     e9 "vıitis"  IS_INCLUDED  e10 "konkursi" 
+     e9 "vıitis"  BEFORE  e11 "ootab" 
+     e10 "konkursi"  VAGUE  DCT 
+
+ s4  [t2 Pooleteise aasta p‰rast ] [e11 ootab ] IRISt ees sama [e12 konkursi ] [e13 superfinaal ] .
+     e11 "ootab"  SIMULTANEOUS  t2 "Pooleteise aasta p‰rast" 
+     e11 "ootab"  AFTER  DCT 
+     e11 "ootab"  BEFORE-OR-OVERLAP  e12 "konkursi" 
+     e11 "ootab"  BEFORE-OR-OVERLAP  e13 "superfinaal" 
+     e11 "ootab"  AFTER  e14 "kutsutud" 
+     e12 "konkursi"  VAGUE  DCT 
+     e12 "konkursi"  INCLUDES  e13 "superfinaal" 
+     e13 "superfinaal"  AFTER  DCT 
+
+ s5  Lisaks on IRIS [e14 kutsutud ] juba rahvusvahelisele [e15 konkursile ] Jerevani .
+     e14 "kutsutud"  BEFORE  DCT 
+     e14 "kutsutud"  BEFORE  e15 "konkursile" 
+     e14 "kutsutud"  BEFORE  e16 "osaleb" 
+     e15 "konkursile"  AFTER  DCT 
+
+ s6  Eestis [e16 osaleb ] ansambel Raimond Valgre [e17 laulukonkursil ] Tartus .
+     e16 "osaleb"  AFTER  DCT 
+     e16 "osaleb"  IS_INCLUDED  e17 "laulukonkursil" 
+     e16 "osaleb"  VAGUE  e18 "sihib" kuna algab uus lugu
+     e17 "laulukonkursil"  AFTER  DCT 
+
+ s7  ( PM )
+ s8  Soome popansambel Bomfunk MC's [e18 sihib ] MTV auhinda
+     e18 "sihib"  INCLUDES  DCT 
+     e18 "sihib"  SIMULTANEOUS  e19 "kandideerib" 
+
+ s9  Bomfunk MC's [e19 kandideerib ] esimese Soome ansamblina populaarse muusikakanali MTV Euroopa auhindadele .
+     e19 "kandideerib"  INCLUDES  DCT 
+     e19 "kandideerib"  IS_INCLUDED  e20 "on rivaalideks" 
+
+ s10  Parima uustulnuka kategoorias [e20 on ] Bomfunki [e20 rivaalideks ] Blink 182 , Melanie C , Sonique ja Anastasia .
+     e20 "on rivaalideks"  INCLUDES  DCT 
+     e20 "on rivaalideks"  AFTER  e21 "teinud t‰helennu" 
+
+ s11  Raymond Ebanksist ja Ismo Lappalaisest koosnev ansambel on [t3 viimasel aastal ] [e21 teinud ] tıelise [e21 t‰helennu ] .
+     e21 "teinud t‰helennu"  IS_INCLUDED  t3 "viimasel aastal" 
+     e21 "teinud t‰helennu"  BEFORE-OR-OVERLAP  DCT 
+     e21 "teinud t‰helennu"  INCLUDES  e22 "tıusis" 
+
+ s12  [t4 Augusti algul ] [e22 tıusis ] [t5 t‰navusel ] P¸haj‰rve Beach [e23 Party'lgi ] [e24 osalenud ] Bomfunk MC'si singel " Freestyler " koguni Euroopa singlim¸¸gi edetabeli esikohale .
+     e22 "tıusis"  IS_INCLUDED  t4 "Augusti algul" 
+     e22 "tıusis"  BEFORE  DCT 
+     e22 "tıusis"  AFTER  e23 "Party'lgi" 
+     e22 "tıusis"  AFTER  e24 "osalenud" 
+     e22 "tıusis"  BEFORE  e25 "jagatakse" 
+     e23 "Party'lgi"  IS_INCLUDED  t5 "t‰navusel" 
+     e23 "Party'lgi"  BEFORE  DCT 
+     e23 "Party'lgi"  INCLUDES  e24 "osalenud" 
+     e24 "osalenud"  BEFORE  DCT 
+
+ s13  MTV Euroopa muusikaauhindu [e25 jagatakse ] [t6 16. novembril ] Stockholmis .
+     e25 "jagatakse"  IS_INCLUDED  t6 "16. novembril" 
+     e25 "jagatakse"  AFTER  DCT 
+     e25 "jagatakse"  OVERLAP-OR-AFTER  e26 "eksponeerib" ka VAGUE kuna algab uus lugu
+
+ s14  ( PM )
+ s15  Ermitaaû [e26 eksponeerib ] esimest korda oma ajaloos autot
+     e26 "eksponeerib"  INCLUDES  DCT 
+     e26 "eksponeerib"  IDENTITY  e28 "eksponeerib" 
+     e26 "eksponeerib"  IS_INCLUDED  e29 "on t‰helepanuv‰‰rne" 
+
+ s16  Esimest korda oma [t7 200-aastase ] [e27 ajaloo ] jooksul [e28 eksponeerib ] Peterburis asuv Ermitaazh oma seinte vahel autot - BMW M1 marki masin [e29 on ] [e29 t‰helepanuv‰‰rne ] selle poolest , et [e30 kannab ] ameerika kuulsaima popkunstniku Andy Warholi k‰ega [e31 tehtud ] [e32 maalinguid ] .
+     e27 "ajaloo"  SIMULTANEOUS  t7 "200-aastase" 
+     e27 "ajaloo"  BEFORE-OR-OVERLAP  DCT 
+     e27 "ajaloo"  BEFORE-OR-OVERLAP  e28 "eksponeerib" 
+     e28 "eksponeerib"  INCLUDES  DCT 
+     e28 "eksponeerib"  VAGUE  e29 "on t‰helepanuv‰‰rne" 
+     e28 "eksponeerib"  SIMULTANEOUS  e34 "on v‰ljas" 
+     e29 "on t‰helepanuv‰‰rne"  INCLUDES  DCT 
+     e29 "on t‰helepanuv‰‰rne"  SIMULTANEOUS  e30 "kannab" 
+     e29 "on t‰helepanuv‰‰rne"  INCLUDES  e34 "on v‰ljas" 
+     e30 "kannab"  INCLUDES  DCT 
+     e30 "kannab"  AFTER  e31 "tehtud" 
+     e30 "kannab"  VAGUE  e32 "maalinguid" 
+     e31 "tehtud"  BEFORE  DCT 
+     e31 "tehtud"  VAGUE  e32 "maalinguid" 
+     e32 "maalinguid"  BEFORE  DCT 
+
+ s17  Venemaa kıigi aegade suurimal [e33 Warholi-n‰itusel ] [e34 on ] [e34 v‰ljas ] esinduslik valik kunstniku tˆid , millest varasemad [e35 p‰rinevad ] [t8 1950. ] ja hilisemad [t9 1980. aastatest ] .
+     e33 "Warholi-n‰itusel"  INCLUDES  DCT 
+     e33 "Warholi-n‰itusel"  INCLUDES  e34 "on v‰ljas" 
+     e34 "on v‰ljas"  INCLUDES  DCT 
+     e34 "on v‰ljas"  IS_INCLUDED  e35 "p‰rinevad" 
+     e35 "p‰rinevad"  INCLUDES  t8 "1950." 
+     e35 "p‰rinevad"  INCLUDES  DCT 
+
+ s18  ( PM )
+

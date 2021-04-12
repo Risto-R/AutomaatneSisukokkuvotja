@@ -1,7 +1,22 @@
 <div0><head> Reformikad nõuavad Alajõe väljavahetamist </head>
-<p> <bibl> <author> <s> Teet Roosaar , uudised@postimees.ee </s> </author> </bibl> </p>
-<p> <s> Pärnu linnavolikogu Reformierakonna fraktsioon teeb võimuliidukaaslasele Isamaaliidule ettepaneku anda haridust ja kultuuri juhtiva abilinnapea koht Reformierakonnale , ütles Reformierakonna Pärnu piirkonna esimees Väino Linde . </s> </p>
-<p> <s> Linde rääkis , et üleeile õhtul koos istunud Reformierakonna fraktsioon avaldas rahulolematust abilinnapea Sulev Alajõe haridus- ja kultuuripoliitikaga Pärnus ning teeb Isamaaliidule ettepaneku koalitsioonileping üle vaadata . </s> <s> Linde väitel on sama meelt kaks Rahva Usalduse saadikut . </s> </p>
-<p> <s> Linnavolikogu viimase istungi ajal protesteerisid raekoja ees Pärnu täiskasvanute gümnaasiumi õpilased , kelle kooli ähvardab sulgemine . </s> <s> Pärast seda on opositsioon kaalunud mõtet avaldada linnavalitsusele umbusaldust ja leidnud toetajaid ka koalitsiooni ridadest . </s> </p>
-<p> <s> Keskerakonda esindav Margus Tammekivi ja koonderakondliku taustaga valimisliitu Pärnakas esindav Märt Mere ütlesid , et umbusaldusavalduse koostamisega tegeldakse ja nädala lõpuks peaks asi selge olema . </s> </p>
-<p rend="italic"> <s> Teet Roosaar töötab ajalehes Pärnu Postimees </s> </p></div0>
+<p>
+ <bibl> <author> <s> Teet Roosaar , uudised@postimees.ee </s> </author> </bibl> 
+</p>
+<p>
+ <s> Pärnu linnavolikogu Reformierakonna fraktsioon teeb võimuliidukaaslasele Isamaaliidule ettepaneku anda haridust ja kultuuri juhtiva abilinnapea koht Reformierakonnale , ütles Reformierakonna Pärnu piirkonna esimees Väino Linde . </s> 
+</p>
+<p>
+ <s> Linde rääkis , et üleeile õhtul koos istunud Reformierakonna fraktsioon avaldas rahulolematust abilinnapea Sulev Alajõe haridus- ja kultuuripoliitikaga Pärnus ning teeb Isamaaliidule ettepaneku koalitsioonileping üle vaadata . </s>
+<s> Linde väitel on sama meelt kaks Rahva Usalduse saadikut . </s> 
+</p>
+<p>
+ <s> Linnavolikogu viimase istungi ajal protesteerisid raekoja ees Pärnu täiskasvanute gümnaasiumi õpilased , kelle kooli ähvardab sulgemine . </s>
+<s> Pärast seda on opositsioon kaalunud mõtet avaldada linnavalitsusele umbusaldust ja leidnud toetajaid ka koalitsiooni ridadest . </s> 
+</p>
+<p>
+ <s> Keskerakonda esindav Margus Tammekivi ja koonderakondliku taustaga valimisliitu Pärnakas esindav Märt Mere ütlesid , et umbusaldusavalduse koostamisega tegeldakse ja nädala lõpuks peaks asi selge olema . </s> 
+</p>
+<p rend="italic">
+ <s> Teet Roosaar töötab ajalehes Pärnu Postimees </s> 
+</p>
+</div0>

@@ -1,0 +1,284 @@
+==================================================
+     aja_ml_2002_47.tasak.a023.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  Juba [t2 aastaid ] on [e1 piimavarumisel ] [e2 kestnud ] [e3 anarhia ] .
+     e1 "piimavarumisel"  INCLUDES  DCT 
+     e1 "piimavarumisel"  INCLUDES  e2 "kestnud" 
+     e2 "kestnud"  SIMULTANEOUS  t2 "aastaid" 
+     e2 "kestnud"  BEFORE-OR-OVERLAP  DCT 
+     e2 "kestnud"  SIMULTANEOUS  e3 "anarhia" 
+     e2 "kestnud"  BEFORE-OR-OVERLAP  e7 "tuleb" 
+     e3 "anarhia"  BEFORE-OR-OVERLAP  DCT 
+
+ s2  Kui vahepeal [e4 tundubki ] , et suuremad hädad [e5 hakkavad ] mööda [e6 saama ] , [e7 tuleb ] uus löök .
+     e4 "tundubki"  VAGUE  DCT 
+     e4 "tundubki"  BEFORE-OR-OVERLAP  e5 "hakkavad" 
+     e4 "tundubki"  BEFORE-OR-OVERLAP  e6 "saama" 
+     e4 "tundubki"  BEFORE  e7 "tuleb" 
+     e5 "hakkavad"  VAGUE  DCT 
+     e5 "hakkavad"  BEFORE-OR-OVERLAP  e6 "saama" 
+     e6 "saama"  VAGUE  DCT 
+     e7 "tuleb"  INCLUDES  DCT 
+     e7 "tuleb"  VAGUE  e9 "pälvis" 
+
+ s3  See , et Rapla Dairy [e8 on ] lehmapidajatele [t3 kuude kaupa ] [e8 võlgu ] , [e9 pälvis ] laiemat tähelepanu alles siis , kui riik [e10 tahtis ] firmat juhtivale Afganistani eruohvitserile Jaqub Haidaryle eriliste [e11 teenete ] eest kodakondsuse [e12 kinkida ] .
+     e8 "on võlgu"  SIMULTANEOUS  t3 "kuude kaupa" 
+     e8 "on võlgu"  INCLUDES  DCT 
+     e8 "on võlgu"  INCLUDES  e9 "pälvis" 
+     e9 "pälvis"  BEFORE  DCT 
+     e9 "pälvis"  IS_INCLUDED  e10 "tahtis" 
+     e9 "pälvis"  BEFORE-OR-OVERLAP  e13 "võtab" 
+     e10 "tahtis"  BEFORE  DCT 
+     e10 "tahtis"  BEFORE  e12 "kinkida" 
+     e11 "teenete"  BEFORE  DCT 
+     e11 "teenete"  BEFORE  e12 "kinkida" 
+     e12 "kinkida"  BEFORE  DCT 
+
+ s4  Mure suuruse [e13 võtab ] oma ilmekas lihtsuses kokku põllumajandusministeeriumile [e14 saadetud ] abipalve .
+     e13 "võtab"  INCLUDES  DCT 
+     e13 "võtab"  INCLUDES  e14 "saadetud" 
+     e13 "võtab"  INCLUDES  e15 "kirjutasid" 
+     e14 "saadetud"  BEFORE  DCT 
+
+ s5  Selle [e15 kirjutasid ] kaheksa Noarootsi lehmapidajat , kel piimaraha [t4 seitse kuud ] [e16 saamata ] .
+     e15 "kirjutasid"  BEFORE  DCT 
+     e15 "kirjutasid"  OVERLAP-OR-AFTER  e16 "saamata" 
+     e15 "kirjutasid"  BEFORE-OR-OVERLAP  e17 "seisab" 
+     e16 "saamata"  SIMULTANEOUS  t4 "seitse kuud" 
+     e16 "saamata"  BEFORE-OR-OVERLAP  DCT 
+
+ s6  Kirjas [e17 seisab ] : " Võimaluse piires [e18 palume ] tasuta [e19 abi ] juristi või advokaadi näol , kes [e20 tunneks ] seadusi ja [e21 oskaks ] meid , vaeseid piimatootjaid , [e22 kaitsta ] . "
+     e17 "seisab"  INCLUDES  DCT 
+     e17 "seisab"  VAGUE  e18 "palume" ka INCLUDES
+     e17 "seisab"  IS_INCLUDED  e24 "tähendab" 
+     e18 "palume"  BEFORE-OR-OVERLAP  DCT 
+     e18 "palume"  BEFORE  e19 "abi" 
+     e18 "palume"  IS_INCLUDED  e20 "tunneks" 
+     e19 "abi"  BEFORE-OR-OVERLAP  DCT 
+     e20 "tunneks"  INCLUDES  DCT 
+     e20 "tunneks"  SIMULTANEOUS  e21 "oskaks" 
+     e21 "oskaks"  INCLUDES  DCT 
+     e21 "oskaks"  INCLUDES  e22 "kaitsta" 
+     e22 "kaitsta"  INCLUDES  DCT 
+
+ s7  Mida [t5 kuude kaupa ] [e23 saamata ] piimaraha [e24 tähendab ] , [e25 pole ] [e25 vaja ] [e26 seletada ] maainimesele , kellele see [e27 on ] üks põhilisi elatusallikaid .
+     e23 "saamata"  SIMULTANEOUS  t5 "kuude kaupa" 
+     e23 "saamata"  BEFORE-OR-OVERLAP  DCT 
+     e23 "saamata"  VAGUE  e24 "tähendab" 
+     e24 "tähendab"  VAGUE  DCT 
+     e24 "tähendab"  VAGUE  e25 "pole vaja" 
+     e24 "tähendab"  INCLUDES  e28 "on üksi" 
+     e25 "pole vaja"  VAGUE  DCT 
+     e25 "pole vaja"  VAGUE  e26 "seletada" 
+     e25 "pole vaja"  VAGUE  e27 "on" 
+     e26 "seletada"  VAGUE  DCT 
+     e27 "on"  INCLUDES  DCT 
+
+ s8  Mis kõige hullem - need inimesed [e28 on ] oma murega sisuliselt [e28 üksi ] , sest need , kes [e29 peaksid ] [e30 abi ] [e31 pakkuma ] , [e32 leiavad ] alati tuhat põhjendust , miks [e33 aidata ] [e34 pole ] [e34 võimalik ] .
+     e28 "on üksi"  INCLUDES  DCT 
+     e28 "on üksi"  INCLUDES  e32 "leiavad" 
+     e28 "on üksi"  VAGUE  e31 "pakkuma" 
+     e28 "on üksi"  INCLUDES  e35 "püüab" 
+     e29 "peaksid"  VAGUE  DCT 
+     e29 "peaksid"  VAGUE  e31 "pakkuma" 
+     e30 "abi"  VAGUE  DCT 
+     e30 "abi"  OVERLAP-OR-AFTER  e31 "pakkuma" 
+     e31 "pakkuma"  VAGUE  DCT 
+     e31 "pakkuma"  VAGUE  e32 "leiavad" 
+     e32 "leiavad"  VAGUE  DCT 
+     e32 "leiavad"  IS_INCLUDED  e34 "pole võimalik" 
+     e33 "aidata"  VAGUE  DCT 
+     e33 "aidata"  VAGUE  e34 "pole võimalik" 
+     e34 "pole võimalik"  VAGUE  DCT 
+
+ s9  Põllumajandusministeerium [e35 püüab ] [e36 lahendusi ] [e37 otsida ] piimasektorile [e38 kiiranalüüsi ] [e38 tehes ] .
+     e35 "püüab"  INCLUDES  DCT 
+     e35 "püüab"  BEFORE-OR-OVERLAP  e37 "otsida" 
+     e35 "püüab"  INCLUDES  e39 "Tekib" 
+     e36 "lahendusi"  AFTER  DCT 
+     e36 "lahendusi"  OVERLAP-OR-AFTER  e37 "otsida" 
+     e37 "otsida"  OVERLAP-OR-AFTER  DCT 
+     e37 "otsida"  SIMULTANEOUS  e38 "kiiranalüüsi tehes" 
+     e38 "kiiranalüüsi tehes"  OVERLAP-OR-AFTER  DCT 
+
+ s10  [e39 Tekib ] küsimus , kas [e41 ülevaadet ] piimanduses [e40 toimuvast ] siis ministeeriumil [t6 varem ] [e41 polnudki ] .
+     e39 "Tekib"  INCLUDES  DCT 
+     e39 "Tekib"  AFTER  e41 "ülevaadet polnudki" 
+     e39 "Tekib"  OVERLAP-OR-AFTER  e43 "õpitud" 
+     e41 "ülevaadet polnudki"  IS_INCLUDED  t6 "varem" 
+     e41 "ülevaadet polnudki"  BEFORE  DCT 
+     e41 "ülevaadet polnudki"  IS_INCLUDED  e40 "toimuvast" 
+     e40 "toimuvast"  INCLUDES  DCT 
+
+ s11  Kas [t7 senistest ] [e42 probleemidest ] pole [e43 õpitud ] ?
+     e42 "probleemidest"  IS_INCLUDED  t7 "senistest" 
+     e42 "probleemidest"  BEFORE-OR-OVERLAP  DCT 
+     e42 "probleemidest"  BEFORE-OR-OVERLAP  e43 "õpitud" 
+     e43 "õpitud"  BEFORE-OR-OVERLAP  DCT 
+     e43 "õpitud"  BEFORE  e45 "tuleb" 
+     e43 "õpitud"  BEFORE  e46 "püütakse" 
+
+ s12  Ja kas see [e44 hinnang ] [e45 tuleb ] ikka objektiivne või [e46 püütakse ] seisu [e47 euroläbirääkimiste ] taustal [e48 ilustada ] .
+     e44 "hinnang"  AFTER  DCT 
+     e44 "hinnang"  OVERLAP-OR-AFTER  e45 "tuleb" 
+     e45 "tuleb"  AFTER  DCT 
+     e45 "tuleb"  SIMULTANEOUS  e46 "püütakse" 
+     e45 "tuleb"  OVERLAP-OR-AFTER  e51 "nutavad" 
+     e46 "püütakse"  AFTER  DCT 
+     e46 "püütakse"  BEFORE-OR-OVERLAP  e48 "ilustada" 
+     e46 "püütakse"  IS_INCLUDED  e47 "euroläbirääkimiste" 
+     e46 "püütakse"  OVERLAP-OR-AFTER  e51 "nutavad" 
+     e47 "euroläbirääkimiste"  INCLUDES  DCT 
+     e47 "euroläbirääkimiste"  INCLUDES  e48 "ilustada" 
+     e48 "ilustada"  AFTER  DCT 
+
+ s13  Teised piimatööstused vaevalt Dairyt ja tema eelkäijat Lactot , kes [t8 kunagi ] [e49 sundis ] neid kokkuostuhinda [e50 kergitama ] , taga [e51 nutavad ] .
+     e49 "sundis"  IS_INCLUDED  t8 "kunagi" 
+     e49 "sundis"  BEFORE  DCT 
+     e49 "sundis"  BEFORE-OR-OVERLAP  e50 "kergitama" 
+     e49 "sundis"  BEFORE  e51 "nutavad" 
+     e50 "kergitama"  BEFORE  DCT 
+     e51 "nutavad"  INCLUDES  DCT 
+     e51 "nutavad"  VAGUE  e52 "muretseb" 
+
+ s14  Üks konkurent vähem .
+ s15  Pank [e52 muretseb ] jälle , kuidas oma [e53 laenu ] tagasi [e54 saada ] .
+     e52 "muretseb"  INCLUDES  DCT 
+     e52 "muretseb"  BEFORE-OR-OVERLAP  e54 "saada" 
+     e52 "muretseb"  SIMULTANEOUS  e55 "leiab" ka VAGUE
+     e52 "muretseb"  VAGUE  e57 "on raiskamine" 
+     e53 "laenu"  INCLUDES  DCT 
+     e53 "laenu"  BEFORE  e54 "saada" 
+     e54 "saada"  AFTER  DCT 
+     e54 "saada"  OVERLAP-OR-AFTER  e55 "leiab" 
+     e54 "saada"  VAGUE  e57 "on raiskamine" 
+
+ s16  Peaminister [e55 leiab ] , et rahaline [e56 abi ] raskustes firmadele [e57 on ] [e57 raiskamine ] .
+     e55 "leiab"  INCLUDES  DCT 
+     e55 "leiab"  IS_INCLUDED  e57 "on raiskamine" 
+     e55 "leiab"  IS_INCLUDED  e58 "oodatakse" 
+     e55 "leiab"  IS_INCLUDED  e59 "oodatakse" 
+     e56 "abi"  VAGUE  DCT 
+     e56 "abi"  VAGUE  e57 "on raiskamine" ka IS_INCLUDED
+     e57 "on raiskamine"  VAGUE  DCT 
+     e57 "on raiskamine"  IS_INCLUDED  e58 "oodatakse" 
+     e57 "on raiskamine"  IS_INCLUDED  e59 "oodatakse" 
+
+ s17  Aga maal [e58 oodatakse ] ja [e59 oodatakse ] piimaraha .
+     e58 "oodatakse"  INCLUDES  DCT 
+     e58 "oodatakse"  SIMULTANEOUS  e59 "oodatakse" ka BEFORE-OR-OVERLAP
+     e58 "oodatakse"  VAGUE  e63 "vaadata" ka SIMULTANEOUS
+     e59 "oodatakse"  INCLUDES  DCT 
+     e59 "oodatakse"  VAGUE  e63 "vaadata" ka SIMULTANEOUS
+
+ s18  Kuigi [t9 praegu ] [e60 töötatakse ] välja skeemi Dairy võlgade [e61 katmiseks ] , ei [e62 saa ] Dairyt [e63 vaadata ] ainult üksikjuhtumina .
+     e60 "töötatakse"  SIMULTANEOUS  t9 "praegu" 
+     e60 "töötatakse"  INCLUDES  DCT 
+     e60 "töötatakse"  BEFORE  e61 "katmiseks" 
+     e60 "töötatakse"  IS_INCLUDED  e63 "vaadata" 
+     e61 "katmiseks"  OVERLAP-OR-AFTER  DCT 
+     e62 "saa"  INCLUDES  DCT 
+     e62 "saa"  VAGUE  e63 "vaadata" 
+     e63 "vaadata"  INCLUDES  DCT 
+     e63 "vaadata"  VAGUE  e64 "lonkab" ka SIMULTANEOUS
+     e63 "vaadata"  VAGUE  e65 "jõuta" ka SIMULTANEOUS
+
+ s19  Kogu süsteem [e64 lonkab ] , ainult ei [e65 jõuta ] [e66 kokkuleppele ] , kumb jalg [e67 on ] [e67 haige ] või [e68 on ] [e68 tegu ] hoopis psüühikahäirega .
+     e64 "lonkab"  INCLUDES  DCT 
+     e64 "lonkab"  INCLUDES  e65 "jõuta" 
+     e64 "lonkab"  VAGUE  e69 "kuuluvad" ka SIMULTANEOUS
+     e65 "jõuta"  INCLUDES  DCT 
+     e65 "jõuta"  BEFORE-OR-OVERLAP  e66 "kokkuleppele" 
+     e65 "jõuta"  VAGUE  e67 "on haige" 
+     e65 "jõuta"  VAGUE  e68 "on tegu" 
+     e65 "jõuta"  VAGUE  e69 "kuuluvad" ka SIMULTANEOUS
+     e66 "kokkuleppele"  VAGUE  DCT 
+     e67 "on haige"  VAGUE  DCT 
+     e67 "on haige"  SIMULTANEOUS  e68 "on tegu" 
+     e68 "on tegu"  VAGUE  DCT 
+
+ s20  Teistes , arenenumates riikides , [e69 kuuluvad ] piimatööstused enamasti ühistutele , mis [e70 on ] tootjate endi omad .
+     e69 "kuuluvad"  INCLUDES  DCT 
+     e69 "kuuluvad"  SIMULTANEOUS  e70 "on" 
+     e69 "kuuluvad"  VAGUE  e74 "tahtnud" ka INCLUDES
+     e70 "on"  INCLUDES  DCT 
+
+ s21  Meil [t10 kunagi ] õitsval järjel [e71 olnud ] [e72 ühistegevust ] pole aga riik piisavalt [e73 toetada ] [e74 tahtnud ] .
+     e71 "olnud"  IS_INCLUDED  t10 "kunagi" 
+     e71 "olnud"  BEFORE  DCT 
+     e71 "olnud"  IS_INCLUDED  e72 "ühistegevust" 
+     e72 "ühistegevust"  BEFORE  DCT 
+     e72 "ühistegevust"  BEFORE  e74 "tahtnud" 
+     e72 "ühistegevust"  VAGUE  e73 "toetada" 
+     e73 "toetada"  BEFORE  DCT 
+     e73 "toetada"  BEFORE-OR-OVERLAP  e74 "tahtnud" 
+     e74 "tahtnud"  BEFORE-OR-OVERLAP  DCT 
+     e74 "tahtnud"  BEFORE-OR-OVERLAP  e75 "õitseksid" ka VAGUE
+     e74 "tahtnud"  BEFORE-OR-OVERLAP  e76 "pudeneks" ka VAGUE
+
+ s22  Et suuremad ärid [e75 õitseksid ] ja raha liiga laiali ei [e76 pudeneks ] .
+     e75 "õitseksid"  INCLUDES  DCT 
+     e75 "õitseksid"  SIMULTANEOUS  e76 "pudeneks" 
+     e75 "õitseksid"  VAGUE  e78 "tundub tühine" 
+     e76 "pudeneks"  INCLUDES  DCT 
+     e76 "pudeneks"  VAGUE  e78 "tundub tühine" 
+
+ s23  Ühe või paari lehma [e77 pidamine ] [e78 tundub ] selle kõrval ju nii [e78 tühine ] .
+     e77 "pidamine"  INCLUDES  DCT 
+     e77 "pidamine"  INCLUDES  e78 "tundub tühine" 
+     e78 "tundub tühine"  INCLUDES  DCT 
+     e78 "tundub tühine"  VAGUE  e79 "pole" 
+
+ s24  Ent asi [e79 pole ] mitte lehmades , vaid inimestes .
+     e79 "pole"  INCLUDES  DCT 
+     e79 "pole"  VAGUE  e81 "on otstarbekam" 
+
+ s25  Kui asja kas või puhtmajanduslikult [e80 võtta ] , siis kumb [e81 on ] [e81 otstarbekam ] : kas [e82 maksta ] vaesematele maainimestele näljapajukit sotsiaaltoetuste näol või [e83 anda ] neile [e84 võimalus ] ise toime [e85 tulla ] .
+     e80 "võtta"  VAGUE  DCT 
+     e80 "võtta"  IS_INCLUDED  e81 "on otstarbekam" 
+     e81 "on otstarbekam"  VAGUE  DCT 
+     e81 "on otstarbekam"  VAGUE  e82 "maksta" 
+     e81 "on otstarbekam"  VAGUE  e83 "anda" 
+     e81 "on otstarbekam"  VAGUE  e86 "oskavad" 
+     e81 "on otstarbekam"  VAGUE  e87 "austavad" 
+     e82 "maksta"  VAGUE  DCT 
+     e82 "maksta"  VAGUE  e83 "anda" 
+     e83 "anda"  VAGUE  DCT 
+     e83 "anda"  BEFORE-OR-OVERLAP  e84 "võimalus" 
+     e84 "võimalus"  VAGUE  DCT 
+     e84 "võimalus"  BEFORE-OR-OVERLAP  e85 "tulla" 
+     e85 "tulla"  VAGUE  DCT 
+
+ s26  Läbi töö , mida nad [e86 oskavad ] ja [e87 austavad ] .
+     e86 "oskavad"  VAGUE  DCT 
+     e86 "oskavad"  SIMULTANEOUS  e87 "austavad" 
+     e86 "oskavad"  VAGUE  e88 "võetakse" 
+     e87 "austavad"  VAGUE  DCT 
+     e87 "austavad"  VAGUE  e88 "võetakse" 
+
+ s27  Ka ilmset ebaõiglust [e88 võetakse ] [t11 tänases ] Eestis järjest enam loomuliku nähtusena .
+     e88 "võetakse"  INCLUDES  DCT 
+     e88 "võetakse"  INCLUDES  e89 "jäägi" 
+
+ s28  Nii ei [e89 jäägi ] talumehel [t12 ühel heal päeval ] muud üle , kui viimane lehm käekõrvale [e90 võtta ] ja advokaadi ukse taha [e91 viia ] .
+     e89 "jäägi"  IS_INCLUDED  t12 "ühel heal päeval" 
+     e89 "jäägi"  VAGUE  DCT 
+     e89 "jäägi"  BEFORE-OR-OVERLAP  e90 "võtta" 
+     e89 "jäägi"  BEFORE  e91 "viia" 
+     e89 "jäägi"  BEFORE-OR-OVERLAP  e94 "maksan" 
+     e89 "jäägi"  OVERLAP-OR-AFTER  e92 "saamata" 
+     e89 "jäägi"  OVERLAP-OR-AFTER  e93 "järjekord" 
+     e90 "võtta"  VAGUE  DCT 
+     e90 "võtta"  BEFORE  e91 "viia" 
+     e91 "viia"  VAGUE  DCT 
+
+ s29  Piimaraha [e92 saamata ] , tapamajas [e93 järjekord ] , [e94 maksan ] natuuras .
+     e92 "saamata"  VAGUE  DCT 
+     e92 "saamata"  BEFORE-OR-OVERLAP  e93 "järjekord" 
+     e93 "järjekord"  VAGUE  DCT 
+     e93 "järjekord"  BEFORE  e94 "maksan" 
+     e94 "maksan"  VAGUE  DCT 
+
+

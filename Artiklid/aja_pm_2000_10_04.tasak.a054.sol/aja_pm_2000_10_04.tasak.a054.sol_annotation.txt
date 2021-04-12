@@ -1,0 +1,299 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a054.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Jugoslaavia opositsioon [e1 jätkab ] [e2 üldstreigi ] [t1 teisel päeval ] inimeste [e3 kutsumist ] tänavatele , et [e4 sundida ] president Slobodan Milosevici tagasi [e5 astuma ] .
+     e1 "jätkab"  SIMULTANEOUS  t1 "teisel päeval" 
+     e1 "jätkab"  INCLUDES  DCT 
+     e1 "jätkab"  IS_INCLUDED  e2 "üldstreigi" 
+     e1 "jätkab"  IS_INCLUDED  e4 "sundida" 
+     e1 "jätkab"  SIMULTANEOUS  e3 "kutsumist" 
+     e1 "jätkab"  INCLUDES  e8 "ütles" 
+     e1 "jätkab"  SIMULTANEOUS  e10 "pole" 
+     e2 "üldstreigi"  INCLUDES  t1 "teisel päeval" 
+     e2 "üldstreigi"  INCLUDES  DCT 
+     e3 "kutsumist"  INCLUDES  DCT 
+     e3 "kutsumist"  IS_INCLUDED  e4 "sundida" 
+     e4 "sundida"  INCLUDES  DCT 
+     e4 "sundida"  BEFORE  e5 "astuma" 
+     e5 "astuma"  AFTER  DCT 
+
+ s1  Vaatamata [t2 üleeilsetele ] [e6 massiprotestidele ] ja [e7 üldstreigile ] [e8 ütles ] Milosevic BBC [e9 teatel ] televisioonis , et tal [e10 pole ] kavatsust [e11 astuda ] kõrvale kavandatud teisest voorust .
+     e6 "massiprotestidele"  IS_INCLUDED  t2 "üleeilsetele" 
+     e6 "massiprotestidele"  BEFORE  DCT 
+     e6 "massiprotestidele"  BEFORE  e8 "ütles" 
+     e6 "massiprotestidele"  IS_INCLUDED  e7 "üldstreigile" 
+     e7 "üldstreigile"  INCLUDES  t2 "üleeilsetele" 
+     e7 "üldstreigile"  BEFORE  DCT 
+     e7 "üldstreigile"  BEFORE  e8 "ütles" 
+     e8 "ütles"  BEFORE  DCT 
+     e8 "ütles"  BEFORE  e11 "astuda" 
+     e8 "ütles"  BEFORE  e9 "teatel" 
+     e8 "ütles"  IS_INCLUDED  e10 "pole" 
+     e8 "ütles"  AFTER  e12 "saanud enamust" 
+     e8 "ütles"  IS_INCLUDED  e13 "on vaja" 
+     e9 "teatel"  BEFORE-OR-OVERLAP  DCT 
+     e10 "pole"  INCLUDES  DCT 
+     e10 "pole"  VAGUE  e11 "astuda" 
+     e10 "pole"  AFTER  e12 "saanud enamust" 
+     e10 "pole"  SIMULTANEOUS  e13 "on vaja" 
+     e11 "astuda"  OVERLAP-OR-AFTER  DCT 
+
+ s2  Ametlikel tulemustel ei [e12 saanud ] opositsiooni kandidaat Vojislav Kostunica esimeses voorus vajalikku [e12 enamust ] ja seega [e13 on ] Jugoslaavia võimude [e14 sõnul ] [e13 vaja ] [e15 korraldada ] teine voor .
+     e12 "saanud enamust"  BEFORE  DCT 
+     e12 "saanud enamust"  BEFORE  e13 "on vaja" 
+     e12 "saanud enamust"  BEFORE  e15 "korraldada" 
+     e12 "saanud enamust"  BEFORE  e16 "pole rahul" 
+     e13 "on vaja"  INCLUDES  DCT 
+     e13 "on vaja"  INCLUDES  e15 "korraldada" 
+     e13 "on vaja"  SIMULTANEOUS  e16 "pole rahul" 
+     e14 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e14 "sõnul"  IS_INCLUDED  e13 "on vaja" 
+     e15 "korraldada"  OVERLAP-OR-AFTER  DCT 
+
+ s3  Opositsioon [e16 pole ] aga sellega [e16 rahul ] , [e17 väites ] , et Kostunica [e18 võitis ] juba esimeses voorus .
+     e16 "pole rahul"  INCLUDES  DCT 
+     e16 "pole rahul"  INCLUDES  e17 "väites" 
+     e16 "pole rahul"  BEFORE-OR-OVERLAP  e20 "laguneb" 
+     e16 "pole rahul"  INCLUDES  e19 "hoiatas" 
+     e17 "väites"  BEFORE  DCT 
+     e17 "väites"  AFTER  e18 "võitis" 
+     e18 "võitis"  BEFORE  DCT 
+
+ s4  Milosevic [e19 hoiatas ] televisioonis , et Jugoslaavia [e20 laguneb ] , kui opositsioon [e21 tuleb ] võimule .
+     e19 "hoiatas"  BEFORE  DCT 
+     e19 "hoiatas"  BEFORE  e20 "laguneb" 
+     e19 "hoiatas"  BEFORE  e22 "ütles" 
+     e19 "hoiatas"  SIMULTANEOUS  e23 "näitas" 
+     e20 "laguneb"  OVERLAP-OR-AFTER  DCT 
+     e20 "laguneb"  AFTER  e21 "tuleb" 
+     e20 "laguneb"  AFTER  e22 "ütles" 
+     e20 "laguneb"  AFTER  e23 "näitas" 
+     e21 "tuleb"  AFTER  DCT 
+
+ s5  Opositsiooni üks liidreid Zoran Djindjic [e22 ütles ] , et Milosevici pöördumine [e23 näitas ] " diktaatorit , kes [e24 palub ] [e25 abi ] inimestelt , keda ta [e26 terroriseeris ] [t3 kümme aastat ] " .
+     e22 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e22 "ütles"  AFTER  e23 "näitas" 
+     e22 "ütles"  AFTER  e27 "pidas kõne" 
+     e22 "ütles"  BEFORE-OR-OVERLAP  e28 "ütles" 
+     e23 "näitas"  BEFORE  DCT 
+     e23 "näitas"  IS_INCLUDED  e24 "palub" 
+     e23 "näitas"  BEFORE  e28 "ütles" 
+     e23 "näitas"  SIMULTANEOUS  e27 "pidas kõne" 
+     e24 "palub"  INCLUDES  DCT 
+     e24 "palub"  AFTER  e26 "terroriseeris" 
+     e24 "palub"  BEFORE  e25 "abi" 
+     e25 "abi"  VAGUE  DCT 
+     e26 "terroriseeris"  SIMULTANEOUS  t3 "kümme aastat" 
+     e26 "terroriseeris"  BEFORE  DCT 
+
+ s6  " Milosevic [e27 pidas ] ähvardava , väga närvilise ja ebastabiilse [e27 kõne ] , " [e28 ütles ] Djindjic .
+     e27 "pidas kõne"  BEFORE  DCT 
+     e27 "pidas kõne"  BEFORE  e28 "ütles" 
+     e27 "pidas kõne"  IS_INCLUDED  e29 "olnud" ka VAGUE
+     e28 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e28 "ütles"  IS_INCLUDED  e29 "olnud" ka VAGUE
+
+ s7  Streikijate suurim edu [t4 seni ] on [e29 olnud ] Jugoslaavia kahe suurema kaevanduse töö [e30 peatamine ] , mis [e31 avaldab ] juba [e32 mõju ] elektrijaamadele ja [e33 ähvardab ] [e34 põhjustada ] [e35 elektrikatkestusi ] .
+     e29 "olnud"  BEFORE-OR-OVERLAP  t4 "seni" 
+     e29 "olnud"  BEFORE  DCT 
+     e29 "olnud"  BEFORE  e31 "avaldab" 
+     e29 "olnud"  BEFORE  e33 "ähvardab" 
+     e29 "olnud"  VAGUE  e30 "peatamine" 
+     e29 "olnud"  BEFORE-OR-OVERLAP  e36 "teataski" 
+     e29 "olnud"  BEFORE-OR-OVERLAP  e37 "alustanud" 
+     e30 "peatamine"  BEFORE  DCT 
+     e30 "peatamine"  BEFORE  e31 "avaldab" 
+     e31 "avaldab"  INCLUDES  DCT 
+     e31 "avaldab"  SIMULTANEOUS  e32 "mõju" 
+     e31 "avaldab"  SIMULTANEOUS  e33 "ähvardab" 
+     e32 "mõju"  INCLUDES  DCT 
+     e33 "ähvardab"  INCLUDES  DCT 
+     e33 "ähvardab"  INCLUDES  e34 "põhjustada" 
+     e34 "põhjustada"  INCLUDES  DCT 
+     e34 "põhjustada"  VAGUE  e35 "elektrikatkestusi" 
+     e35 "elektrikatkestusi"  INCLUDES  DCT 
+
+ s8  [t5 Eile ] [e36 teataski ] Serbia elektrikompanii , et on [e37 alustanud ] [e38 elektripiirangutega ] .
+     e36 "teataski"  IS_INCLUDED  t5 "Eile" 
+     e36 "teataski"  BEFORE  DCT 
+     e36 "teataski"  IS_INCLUDED  e37 "alustanud" 
+     e36 "teataski"  IS_INCLUDED  e40 "tulevad" 
+     e37 "alustanud"  BEFORE  DCT 
+     e37 "alustanud"  BEFORE-OR-OVERLAP  e38 "elektripiirangutega" 
+     e37 "alustanud"  IS_INCLUDED  e40 "tulevad" 
+     e38 "elektripiirangutega"  BEFORE  DCT 
+
+ s9  Belgradi sõltumatu raadiojaama Free B92 [e39 teatel ] [e40 tulevad ] [e41 elektrikatkestused ] söepuuduse tõttu , mille [e42 põhjustas ] omakorda Kolubara kaevurite [e43 streik ] .
+     e39 "teatel"  BEFORE-OR-OVERLAP  DCT 
+     e39 "teatel"  IS_INCLUDED  e40 "tulevad" 
+     e40 "tulevad"  INCLUDES  DCT 
+     e40 "tulevad"  AFTER  e42 "põhjustas" 
+     e40 "tulevad"  VAGUE  e41 "elektrikatkestused" 
+     e40 "tulevad"  INCLUDES  e44 "jätkusid" 
+     e41 "elektrikatkestused"  INCLUDES  DCT 
+     e41 "elektrikatkestused"  AFTER  e42 "põhjustas" 
+     e42 "põhjustas"  BEFORE  DCT 
+     e42 "põhjustas"  BEFORE-OR-OVERLAP  e43 "streik" 
+     e43 "streik"  BEFORE  DCT 
+
+ s10  [t6 Eile ] [e44 jätkusid ] Jugoslaavia linnades ka [e45 massimeeleavaldused ] .
+     e44 "jätkusid"  IS_INCLUDED  t6 "Eile" 
+     e44 "jätkusid"  BEFORE  DCT 
+     e44 "jätkusid"  IS_INCLUDED  e45 "massimeeleavaldused" 
+     e44 "jätkusid"  INCLUDES  e47 "arreteeris" 
+     e44 "jätkusid"  INCLUDES  e48 "sai" 
+     e44 "jätkusid"  INCLUDES  e49 "vigastada" 
+     e45 "massimeeleavaldused"  BEFORE-OR-OVERLAP  DCT 
+
+ s11  Free B92 [e46 andmetel ] [e47 arreteeris ] Serbia politsei [t7 eile hommikul ] neli inimest ja mitu [e48 sai ] [e49 vigastada ] , kui politsei [e50 üritas ] [e51 eemaldada ] teetõket Ibari teel Vranici juures .
+     e46 "andmetel"  BEFORE-OR-OVERLAP  DCT 
+     e46 "andmetel"  OVERLAP-OR-AFTER  e47 "arreteeris" 
+     e47 "arreteeris"  IS_INCLUDED  t7 "eile hommikul" 
+     e47 "arreteeris"  BEFORE  DCT 
+     e47 "arreteeris"  BEFORE  e48 "sai" 
+     e47 "arreteeris"  BEFORE  e49 "vigastada" 
+     e47 "arreteeris"  BEFORE-OR-OVERLAP  e52 "arreteeris" 
+     e48 "sai"  BEFORE  DCT 
+     e48 "sai"  SIMULTANEOUS  e49 "vigastada" 
+     e48 "sai"  BEFORE-OR-OVERLAP  e52 "arreteeris" 
+     e49 "vigastada"  BEFORE  DCT 
+     e49 "vigastada"  AFTER  e50 "üritas" 
+     e49 "vigastada"  BEFORE-OR-OVERLAP  e52 "arreteeris" 
+     e50 "üritas"  BEFORE  DCT 
+     e50 "üritas"  SIMULTANEOUS  e51 "eemaldada" 
+     e51 "eemaldada"  BEFORE  DCT 
+
+ s12  Politsei [e52 arreteeris ] [t8 eile ] ka Belgradi transpordikompanii presidendi Dragan Tosici üldstreigi organiseerimise eest Jugoslaavia pealinnas .
+     e52 "arreteeris"  IS_INCLUDED  t8 "eile" 
+     e52 "arreteeris"  BEFORE  DCT 
+     e52 "arreteeris"  BEFORE-OR-OVERLAP  e53 "kutsus" 
+
+ s13  Opositsioon [e53 kutsus ] edasi [e54 püstitama ] Belgradis teetõkkeid .
+     e53 "kutsus"  BEFORE  DCT 
+     e53 "kutsus"  BEFORE  e54 "püstitama" 
+     e53 "kutsus"  BEFORE-OR-OVERLAP  e55 "kavandab" 
+     e53 "kutsus"  BEFORE-OR-OVERLAP  e57 "loodavad" 
+     e54 "püstitama"  VAGUE  DCT 
+
+ s14  [t9 Tänaseks ] [e55 kavandab ] opositsioon suuri [e56 meeleavaldusi ] Belgradis ning [t10 homseks ] [e57 loodavad ] nad kokku [e58 saada ] veelgi rohkem inimesi .
+     e55 "kavandab"  INCLUDES  t9 "Tänaseks" ka BEFORE-OR-OVERLAP
+     e55 "kavandab"  INCLUDES  DCT 
+     e55 "kavandab"  INCLUDES  e56 "meeleavaldusi" 
+     e55 "kavandab"  INCLUDES  e58 "saada" 
+     e55 "kavandab"  SIMULTANEOUS  e57 "loodavad" 
+     e55 "kavandab"  VAGUE  e59 "on" 
+     e56 "meeleavaldusi"  IS_INCLUDED  DCT 
+     e57 "loodavad"  INCLUDES  t10 "homseks" ka BEFORE-OR-OVERLAP
+     e57 "loodavad"  INCLUDES  DCT 
+     e57 "loodavad"  INCLUDES  e58 "saada" 
+     e57 "loodavad"  VAGUE  e59 "on" 
+     e58 "saada"  BEFORE-OR-OVERLAP  t10 "homseks" 
+     e58 "saada"  OVERLAP-OR-AFTER  DCT 
+
+ s15  Armee ülem kindral Nebojsa Pavkovic [e59 on ] läbirääkimistel Kolubara kaevuritega alates [t11 eile hommikust ] .
+     e59 "on"  OVERLAP-OR-AFTER  t11 "eile hommikust" 
+     e59 "on"  INCLUDES  DCT 
+     e59 "on"  INCLUDES  e60 "hoiatanud" 
+
+ s16  Ta on [e60 hoiatanud ] streikijaid , et nood [e61 ähvardavad ] rahvuslikku julgeolekut .
+     e60 "hoiatanud"  BEFORE  DCT 
+     e60 "hoiatanud"  IS_INCLUDED  e61 "ähvardavad" 
+     e60 "hoiatanud"  AFTER  e62 "ütles" 
+     e60 "hoiatanud"  IS_INCLUDED  e65 "tunnustab" 
+     e61 "ähvardavad"  INCLUDES  DCT 
+
+ s17  Samas [e62 ütles ] Pavkovic enne [e63 valimisi ] Free B92 [e64 teatel ] , et armee [e65 tunnustab ] [e66 valimistulemusi ] .
+     e62 "ütles"  BEFORE  DCT 
+     e62 "ütles"  BEFORE  e63 "valimisi" 
+     e62 "ütles"  BEFORE  e64 "teatel" 
+     e62 "ütles"  BEFORE  e65 "tunnustab" 
+     e62 "ütles"  BEFORE  e67 "külastanud" 
+     e63 "valimisi"  BEFORE  DCT 
+     e63 "valimisi"  VAGUE  e64 "teatel" 
+     e64 "teatel"  BEFORE-OR-OVERLAP  DCT 
+     e65 "tunnustab"  INCLUDES  DCT 
+     e65 "tunnustab"  AFTER  e66 "valimistulemusi" 
+     e65 "tunnustab"  OVERLAP-OR-AFTER  e67 "külastanud" 
+     e66 "valimistulemusi"  BEFORE  DCT 
+
+ s18  Kaevureid on [e67 külastanud ] ka Kostunica , kes [e68 kutsus ] neid üles Milosevici vastu edasi [e69 pingutama ] .
+     e67 "külastanud"  BEFORE  DCT 
+     e67 "külastanud"  INCLUDES  e68 "kutsus" 
+     e67 "külastanud"  IS_INCLUDED  e70 "streigib" 
+     e68 "kutsus"  BEFORE  DCT 
+     e68 "kutsus"  BEFORE  e69 "pingutama" 
+     e69 "pingutama"  VAGUE  DCT 
+
+ s19  Kolubaras [e70 streigib ] umbes 4500 töölist .
+     e70 "streigib"  INCLUDES  DCT 
+     e70 "streigib"  INCLUDES  e71 "vihjas" 
+
+ s20  Päevaleht Danas [e71 vihjas ] [t12 eile ] aga [e72 võimalusele ] , et [e73 streikima ] [e74 hakkavad ] ka hüdroelektrijaamad Djerdab 1 ja 2.
+     e71 "vihjas"  IS_INCLUDED  t12 "eile" 
+     e71 "vihjas"  BEFORE  DCT 
+     e71 "vihjas"  BEFORE  e72 "võimalusele" 
+     e71 "vihjas"  BEFORE  e74 "hakkavad" 
+     e71 "vihjas"  OVERLAP-OR-AFTER  e76 "pakkunud" 
+     e71 "vihjas"  OVERLAP-OR-AFTER  e77 "saanud" 
+     e72 "võimalusele"  VAGUE  DCT 
+     e72 "võimalusele"  BEFORE  e73 "streikima" 
+     e73 "streikima"  OVERLAP-OR-AFTER  DCT 
+     e73 "streikima"  BEFORE-OR-OVERLAP  e74 "hakkavad" 
+     e74 "hakkavad"  OVERLAP-OR-AFTER  DCT 
+
+ s21  Venemaa president Vladimir Putin on CNNi [e75 teatel ] [e76 pakkunud ] ennast vahendajaks Milosevici ja Kostunica vahel , kuid on [e77 saanud ] kummaltki [e78 tagasilükkamise ] .
+     e75 "teatel"  BEFORE-OR-OVERLAP  DCT 
+     e75 "teatel"  AFTER  e76 "pakkunud" 
+     e76 "pakkunud"  BEFORE  DCT 
+     e76 "pakkunud"  BEFORE  e77 "saanud" 
+     e76 "pakkunud"  BEFORE  e79 "ütles" 
+     e76 "pakkunud"  BEFORE  e80 "on valmis" 
+     e77 "saanud"  BEFORE  DCT 
+     e77 "saanud"  SIMULTANEOUS  e78 "tagasilükkamise" 
+     e77 "saanud"  BEFORE  e79 "ütles" 
+     e77 "saanud"  BEFORE  e80 "on valmis" 
+     e78 "tagasilükkamise"  BEFORE  DCT 
+
+ s22  Kostunica [e79 ütles ] [t13 eile ] , et [e80 on ] [e80 valmis ] [e81 külastama ] Moskvat , kui [e82 saab ] Putinilt ametliku [e82 kutse ] .
+     e79 "ütles"  IS_INCLUDED  t13 "eile" 
+     e79 "ütles"  BEFORE  DCT 
+     e79 "ütles"  BEFORE  e81 "külastama" 
+     e79 "ütles"  BEFORE  e82 "saab kutse" 
+     e79 "ütles"  IS_INCLUDED  e80 "on valmis" 
+     e79 "ütles"  AFTER  e83 "öelnud" 
+     e79 "ütles"  IS_INCLUDED  e85 "veendunud" 
+     e80 "on valmis"  INCLUDES  DCT 
+     e80 "on valmis"  INCLUDES  e81 "külastama" 
+     e80 "on valmis"  AFTER  e83 "öelnud" 
+     e80 "on valmis"  IS_INCLUDED  e85 "veendunud" ka VAGUE
+     e81 "külastama"  OVERLAP-OR-AFTER  DCT 
+     e81 "külastama"  AFTER  e82 "saab kutse" 
+     e82 "saab kutse"  OVERLAP-OR-AFTER  DCT 
+
+ s23  Putin on ühisavalduses Saksa kantsleri Gerhard Schröderiga [e83 öelnud ] , et on Kostunica [e84 võidus ] [e85 veendunud ] .
+     e83 "öelnud"  BEFORE  DCT 
+     e83 "öelnud"  BEFORE  e84 "võidus" 
+     e83 "öelnud"  IS_INCLUDED  e85 "veendunud" 
+     e83 "öelnud"  VAGUE  e86 "ringlesid" 
+     e84 "võidus"  AFTER  DCT 
+     e84 "võidus"  AFTER  e85 "veendunud" 
+     e85 "veendunud"  INCLUDES  DCT 
+     e85 "veendunud"  VAGUE  e86 "ringlesid" 
+
+ s24  Vene meedias [e86 ringlesid ] [t14 eelmisel nädalal ] [e87 spekulatsioonid ] , et Milosevic [e88 võib ] Venemaalt asüüli [e89 paluda ] .
+     e86 "ringlesid"  SIMULTANEOUS  t14 "eelmisel nädalal" 
+     e86 "ringlesid"  BEFORE  DCT 
+     e86 "ringlesid"  BEFORE  e89 "paluda" 
+     e86 "ringlesid"  VAGUE  e87 "spekulatsioonid" 
+     e86 "ringlesid"  VAGUE  e90 "ettepaneku tegi" 
+     e87 "spekulatsioonid"  BEFORE  DCT 
+     e87 "spekulatsioonid"  BEFORE  e89 "paluda" 
+     e88 "võib"  INCLUDES  DCT 
+     e88 "võib"  VAGUE  e89 "paluda" 
+     e89 "paluda"  INCLUDES  DCT 
+
+ s25  Samalaadse [e90 ettepaneku ] [e90 tegi ] Vene võimudele ka Jugoslaavia endine peaminister Milan Panic .
+     e90 "ettepaneku tegi"  BEFORE  DCT 
+
+

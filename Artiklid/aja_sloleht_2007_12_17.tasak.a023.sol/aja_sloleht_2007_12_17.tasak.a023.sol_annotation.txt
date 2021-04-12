@@ -1,0 +1,195 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a023.sol
+      DCT: 2007-12-17
+==================================================
+ s0  KÄSIPALL
+ s1  Eesti meeste käsipallikarika [e1 võttis ] [t1 aastaks ] hoiule HC Chocolate Boys , [e2 viigistades ] [e3 finaali ] [t2 eilses ] [e4 korduskohtumises ] võõrsil HC Kehraga 23 : 23. [t3 Reedese ] [e5 koduväljakumängu ] oli Chocolate neljaväravalise vahega [e6 võitnud ] .
+     e1 "võttis"  SIMULTANEOUS  t1 "aastaks" 
+     e1 "võttis"  BEFORE  DCT 
+     e1 "võttis"  AFTER  e6 "võitnud" 
+     e1 "võttis"  OVERLAP-OR-AFTER  e2 "viigistades" 
+     e1 "võttis"  AFTER  e11 "puudusid" 
+     e1 "võttis"  OVERLAP-OR-AFTER  e8 "meenutanud" 
+     e2 "viigistades"  BEFORE  DCT 
+     e2 "viigistades"  IS_INCLUDED  e3 "finaali" 
+     e2 "viigistades"  IS_INCLUDED  e4 "korduskohtumises" 
+     e3 "finaali"  BEFORE  DCT 
+     e4 "korduskohtumises"  IS_INCLUDED  t2 "eilses" 
+     e4 "korduskohtumises"  BEFORE  DCT 
+     e5 "koduväljakumängu"  IS_INCLUDED  t3 "Reedese" 
+     e5 "koduväljakumängu"  BEFORE  DCT 
+     e5 "koduväljakumängu"  BEFORE-OR-OVERLAP  e6 "võitnud" 
+     e6 "võitnud"  BEFORE  DCT 
+     e6 "võitnud"  AFTER  e11 "puudusid" 
+     e6 "võitnud"  BEFORE-OR-OVERLAP  e8 "meenutanud" 
+
+ s2  [e7 Finaalmängud ] ei [e8 meenutanud ] mingil moel [t4 nädalatagust ] [e9 liigakohtumist ] , milles Chocolate [e10 purustas ] Kehra hullude numbritega 36 : 18. Ent siis [e11 puudusid ] kaotajate poolelt tähtsad tagamehed Janar Mägi ja Raul Golubkov , kelle luud-liikmed [t5 nüüd ] lahingukõlblikuks [e12 praavitati ] .
+     e7 "Finaalmängud"  BEFORE  DCT 
+     e7 "Finaalmängud"  BEFORE-OR-OVERLAP  e8 "meenutanud" 
+     e8 "meenutanud"  BEFORE  DCT 
+     e8 "meenutanud"  AFTER  e10 "purustas" 
+     e8 "meenutanud"  AFTER  e11 "puudusid" 
+     e8 "meenutanud"  AFTER  e9 "liigakohtumist" 
+     e8 "meenutanud"  AFTER  e13 "Selgitasin" ka VAGUE
+     e8 "meenutanud"  BEFORE  e19 "rääkis" 
+     e9 "liigakohtumist"  IS_INCLUDED  t4 "nädalatagust" 
+     e9 "liigakohtumist"  BEFORE  DCT 
+     e10 "purustas"  BEFORE  DCT 
+     e11 "puudusid"  BEFORE  DCT 
+     e11 "puudusid"  BEFORE  e12 "praavitati" 
+     e11 "puudusid"  BEFORE  e13 "Selgitasin" ka VAGUE
+     e11 "puudusid"  BEFORE  e19 "rääkis" 
+     e12 "praavitati"  IS_INCLUDED  t5 "nüüd" 
+     e12 "praavitati"  BEFORE  DCT 
+
+ s3  " [e13 Selgitasin ] poistele [e14 mängu ] eel , et me ei [e15 hakka ] aneljaväravalist vahet [e16 hoidma ] , vaid [e17 läheme ] [e18 võitma ] , " [e19 rääkis ] Chocolate'i peatreener Riho-Bruno Bramanis [t6 eile ] . "
+     e13 "Selgitasin"  BEFORE  DCT 
+     e13 "Selgitasin"  BEFORE-OR-OVERLAP  e15 "hakka" 
+     e13 "Selgitasin"  BEFORE  e14 "mängu" 
+     e13 "Selgitasin"  BEFORE  e19 "rääkis" 
+     e13 "Selgitasin"  VAGUE  e16 "hoidma" 
+     e13 "Selgitasin"  VAGUE  e18 "võitma" 
+     e13 "Selgitasin"  BEFORE  e21 "arvati" 
+     e13 "Selgitasin"  BEFORE  e22 "on kombes" 
+     e14 "mängu"  BEFORE  DCT 
+     e15 "hakka"  BEFORE  DCT 
+     e15 "hakka"  BEFORE-OR-OVERLAP  e16 "hoidma" 
+     e15 "hakka"  SIMULTANEOUS  e17 "läheme" 
+     e16 "hoidma"  BEFORE  DCT 
+     e16 "hoidma"  SIMULTANEOUS  e18 "võitma" 
+     e17 "läheme"  BEFORE  DCT 
+     e17 "läheme"  BEFORE-OR-OVERLAP  e18 "võitma" 
+     e17 "läheme"  BEFORE  e19 "rääkis" 
+     e18 "võitma"  BEFORE  DCT 
+     e19 "rääkis"  IS_INCLUDED  t6 "eile" 
+     e19 "rääkis"  BEFORE  DCT 
+     e19 "rääkis"  AFTER  e21 "arvati" 
+     e19 "rääkis"  AFTER  e22 "on kombes" 
+
+ s4  Kui 8 : 5 ette [e20 pääsesime ] , [e21 arvati ] ometi , et [t7 nüüd ] [e22 on ] kõik [e22 kombes ] ! "
+     e20 "pääsesime"  BEFORE  DCT 
+     e20 "pääsesime"  BEFORE-OR-OVERLAP  e21 "arvati" 
+     e21 "arvati"  BEFORE  DCT 
+     e21 "arvati"  BEFORE-OR-OVERLAP  e22 "on kombes" 
+     e21 "arvati"  BEFORE  e23 "viskas" 
+     e21 "arvati"  BEFORE  e24 "juhtis" 
+     e22 "on kombes"  IS_INCLUDED  t7 "nüüd" 
+     e22 "on kombes"  BEFORE  DCT 
+     e22 "on kombes"  BEFORE  e23 "viskas" 
+     e22 "on kombes"  BEFORE  e24 "juhtis" 
+
+ s5  Kehra [e23 viskas ] seejärel kuus väravat järjest ja [e24 juhtis ] 11 : 8.
+     e23 "viskas"  BEFORE  DCT 
+     e23 "viskas"  BEFORE  e24 "juhtis" 
+     e23 "viskas"  BEFORE-OR-OVERLAP  e25 "löödi" 
+     e23 "viskas"  BEFORE  e26 "oli" 
+     e23 "viskas"  BEFORE  e27 "lausus" 
+     e24 "juhtis"  BEFORE  DCT 
+     e24 "juhtis"  BEFORE  e26 "oli" 
+     e24 "juhtis"  BEFORE  e27 "lausus" 
+     e24 "juhtis"  SIMULTANEOUS  e25 "löödi" 
+
+ s6  " [t8 Nüüd ] [e25 löödi ] mõistus pähe ja edasine [e26 oli ] meie kontrolli all , " [e27 lausus ] Bramanis .
+     e25 "löödi"  IS_INCLUDED  t8 "Nüüd" 
+     e25 "löödi"  BEFORE  DCT 
+     e25 "löödi"  BEFORE-OR-OVERLAP  e26 "oli" 
+     e25 "löödi"  BEFORE  e27 "lausus" 
+     e25 "löödi"  BEFORE-OR-OVERLAP  e28 "Oli" 
+     e25 "löödi"  BEFORE  e29 "tunnistas" 
+     e26 "oli"  BEFORE  DCT 
+     e26 "oli"  BEFORE  e27 "lausus" 
+     e26 "oli"  BEFORE  e29 "tunnistas" 
+     e26 "oli"  IDENTITY  e28 "Oli" 
+     e27 "lausus"  BEFORE  DCT 
+     e27 "lausus"  AFTER  e28 "Oli" 
+     e27 "lausus"  BEFORE  e29 "tunnistas" 
+
+ s7  " [e28 Oli ] nende kontrolli all , jah , " [e29 tunnistas ] Kehra peatreener Jüri Lepp . "
+     e28 "Oli"  BEFORE  DCT 
+     e28 "Oli"  BEFORE  e29 "tunnistas" 
+     e28 "Oli"  VAGUE  e31 "tugevad olla" 
+     e28 "Oli"  VAGUE  e35 "võida" 
+     e29 "tunnistas"  BEFORE-OR-OVERLAP  DCT 
+     e29 "tunnistas"  VAGUE  e31 "tugevad olla" 
+     e29 "tunnistas"  VAGUE  e35 "võida" 
+
+ s8  [e30 Võime ] kaitses [e31 tugevad ] [e31 olla ] , aga kui [e32 kiirrünnakud ] [e33 lahenduseta ] [e33 jäävad ] , [e34 mängu ] ei [e35 võida ] . "
+     e30 "Võime"  VAGUE  DCT 
+     e30 "Võime"  VAGUE  e31 "tugevad olla" 
+     e31 "tugevad olla"  VAGUE  DCT 
+     e31 "tugevad olla"  INCLUDES  e33 "lahenduseta jäävad" 
+     e31 "tugevad olla"  INCLUDES  e35 "võida" 
+     e31 "tugevad olla"  VAGUE  e41 "tõestas" 
+     e32 "kiirrünnakud"  VAGUE  DCT 
+     e32 "kiirrünnakud"  BEFORE-OR-OVERLAP  e33 "lahenduseta jäävad" 
+     e33 "lahenduseta jäävad"  VAGUE  DCT 
+     e33 "lahenduseta jäävad"  BEFORE  e35 "võida" 
+     e34 "mängu"  VAGUE  DCT 
+     e34 "mängu"  BEFORE-OR-OVERLAP  e35 "võida" 
+     e35 "võida"  VAGUE  DCT 
+     e35 "võida"  VAGUE  e41 "tõestas" 
+     e35 "võida"  VAGUE  e42 "saavad" 
+
+ s9  Kui esimeses [e36 kohtumises ] [e37 tundus ] , et [e38 kiirrünnakud ] enam [e39 kehvemad ] [e39 olla ] ei [e40 saa ] , siis [t9 eile ] [e41 tõestas ] Kehra , et [e42 saavad ] küll .
+     e36 "kohtumises"  BEFORE  DCT 
+     e36 "kohtumises"  INCLUDES  e37 "tundus" 
+     e37 "tundus"  BEFORE  DCT 
+     e37 "tundus"  IS_INCLUDED  e39 "kehvemad olla" 
+     e37 "tundus"  VAGUE  e40 "saa" 
+     e38 "kiirrünnakud"  BEFORE  DCT 
+     e38 "kiirrünnakud"  VAGUE  e39 "kehvemad olla" 
+     e39 "kehvemad olla"  BEFORE  DCT 
+     e39 "kehvemad olla"  BEFORE  e41 "tõestas" 
+     e40 "saa"  BEFORE  DCT 
+     e40 "saa"  BEFORE  e41 "tõestas" 
+     e40 "saa"  VAGUE  e39 "kehvemad olla" 
+     e41 "tõestas"  IS_INCLUDED  t9 "eile" 
+     e41 "tõestas"  BEFORE  DCT 
+     e41 "tõestas"  OVERLAP-OR-AFTER  e42 "saavad" 
+     e41 "tõestas"  OVERLAP-OR-AFTER  e43 "parimad mehed olid" 
+     e42 "saavad"  BEFORE  DCT 
+     e42 "saavad"  SIMULTANEOUS  e43 "parimad mehed olid" ka VAGUE
+
+ s10  [e43 Parimad ] [e43 mehed ] [e43 olid ] taas väravavahid - Chocolate'i Mikola Naum ja Kehra Marius Aleksejev .
+     e43 "parimad mehed olid"  BEFORE  DCT 
+     e43 "parimad mehed olid"  SIMULTANEOUS  e44 "jäi tagasihoidlikuks" 
+
+ s11  Nii [e44 jäi ] skoor mõlemalt poolt [e44 tagasihoidlikuks ] .
+     e44 "jäi tagasihoidlikuks"  BEFORE  DCT 
+     e44 "jäi tagasihoidlikuks"  INCLUDES  e45 "viskasid" 
+     e44 "jäi tagasihoidlikuks"  INCLUDES  e46 "tabas" 
+
+ s12  Chocolate'i eest [e45 viskasid ] neli väravat Jaanimaa , Martin Noodla , Ego Riener ja Jaanus Rätsep , Kehra poolelt [e46 tabas ] Roman Glinkin 7 ja Janar Mägi 6 korda .
+     e45 "viskasid"  BEFORE  DCT 
+     e45 "viskasid"  VAGUE  e46 "tabas" 
+     e45 "viskasid"  BEFORE  e48 "võitis" 
+     e46 "tabas"  BEFORE  DCT 
+     e46 "tabas"  BEFORE  e48 "võitis" 
+
+ s13  [t10 Kolme aasta eest ] [e47 loodud ] Chocolate Boys [e48 võitis ] karika esimest korda .
+     e47 "loodud"  IS_INCLUDED  t10 "Kolme aasta eest" 
+     e47 "loodud"  BEFORE  DCT 
+     e47 "loodud"  BEFORE  e48 "võitis" 
+     e48 "võitis"  BEFORE  DCT 
+     e48 "võitis"  BEFORE  e49 "teagi" 
+     e48 "võitis"  BEFORE  e52 "tunnistas" 
+
+ s14  " Ei [e49 teagi ] , kus me karikat [e50 hoidma ] [e51 hakkame ] , " [e52 tunnistas ] Chocolate'i president Tarmo Volt , kes ise [e53 oli ] Põlva Serviti peatreenerina kuuekordne [e53 karikavõitja ] . "
+     e49 "teagi"  BEFORE-OR-OVERLAP  DCT 
+     e49 "teagi"  BEFORE-OR-OVERLAP  e51 "hakkame" 
+     e49 "teagi"  INCLUDES  e52 "tunnistas" 
+     e49 "teagi"  BEFORE-OR-OVERLAP  e55 "pistma" 
+     e50 "hoidma"  OVERLAP-OR-AFTER  DCT 
+     e51 "hakkame"  OVERLAP-OR-AFTER  DCT 
+     e51 "hakkame"  BEFORE-OR-OVERLAP  e50 "hoidma" 
+     e52 "tunnistas"  BEFORE-OR-OVERLAP  DCT 
+     e52 "tunnistas"  AFTER  e53 "oli karikavõitja" 
+     e52 "tunnistas"  BEFORE  e55 "pistma" 
+     e53 "oli karikavõitja"  BEFORE  DCT 
+
+ s15  Esialgu [e54 pean ] trofee vist sahtlisse [e55 pistma ] . "
+     e54 "pean"  OVERLAP-OR-AFTER  DCT 
+     e54 "pean"  BEFORE-OR-OVERLAP  e55 "pistma" 
+     e55 "pistma"  OVERLAP-OR-AFTER  DCT 
+
+

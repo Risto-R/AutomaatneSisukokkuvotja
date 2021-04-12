@@ -1,12 +1,47 @@
 <div0><head> Telefonijärjekord lohiseb uude aastasse </head>
-<p> <bibl> <author> <s> Vilja Kohler , vilja.kohler@postimees.ee </s> </author> </bibl> </p>
-<p> <s> Tartu ja maakonna ligi 3500 telefonitaotlejast saab veel tänavu Eesti Telefoni kliendiks paar-kolmsada ootajat . </s> </p>
-<p> <s> ASil Eesti Telefon on Tartumaal praegu järjekorras ligi 3500 telefonitaotlejat , kellest 800 elab-töötab Tartus . </s> <s> “ Suurema osaga taotlejatest võtab firma lähiajal ühendust , ” kinnitas Eesti Telefoni pressiesindaja Anu Vahtra . </s> </p>
-<p> <s> Praegu ühendab Eesti Telefon digitaaljaama Elvas . </s> <s> Seal saab lähiajal , pärast võrguehitustööde lõppemist , digitaaltelefoni 360 inimest või ettevõtet . </s> <s> “ Me ei tee Elvas üleüldist digitaliseerimist ega numbritemuutust , ” selgitas Vahtra . </s> <s> “ Digitaalühenduse saavad vaid need kliendid , kes seda ise soovivad . ” </s> </p>
-<p> <s> Uue jaama töölehakkamisel Elvas on liitumisvõimalus 120-130 telefonitaotlejal . </s> </p>
-<p> <s> Tartus on telefonifirmal käsil Variku linnaosa praeguse 400-numbrise digitaaljaama laiendamine 600-numbriliseks . </s> </p>
-<p> <s> Tööde lõppedes on Variku elanikel võimalik vahetada analoogühendus digitaalse vastu . </s> <s> Kui palju inimesi sealkandis aga Eesti Telefoniga liituda saab , ei osanud Vahtra vastata . </s> <s> “ Kõik sõltub sellest , kui palju on analoogtelefoni digitaalse vastu vahetajaid , ” kostis ta . </s> <s> “ Kõik vabad numbrid leiavad kasutajad . ” </s> </p>
-<p> <s> Vahtra lisas , et Tartus on suured elurajoonid telefonivõrguga kaetud , töö on tegemata veel Tammelinna lõunaosas , Vana-Ihaste suvilapiirkonnas ja Ropka linnaosas . </s> <s> “ Millal neis kohtades elavad inimesed telefoni saavad , ei oska ma praegu öelda , ” nentis Vahtra . </s> <s> “ Eesti Telefon ehitab igal aastal uusi jaamu . ” </s> </p>
-<p> <s> Tänavu ehitas Eesti Telefon uue digitaaljaama Varale , seal kasutab nüüd digitaaltelefoni teenuseid 140 klienti . </s> <s> Telefoniomanikuks sai 20 Vara telefonitaotlejat . </s> </p>
-<p> <s> Kambja , Nõo , Rõngu , Konguta ja Haaslava valla inimestele pakub Eesti Telefon sõltuvalt Valgjärve RAS-masti levipiirkonnast võimalust liituda raadiotelefoni ühendusega . </s> <s> 400 inimesel on võimalus liituda või vahetada oma analoogtelefon digitaaltelefoni vastu . </s> </p>
-<p> <s> Eesti Telefonil on praegu Tartumaa linnades 32 600 era- ja ligi 6300 äriklienti . </s> <s> Maal kasutab firma teenuseid ligi 8600 era- ja 1500 äriklienti . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Vilja Kohler , vilja.kohler@postimees.ee </s> </author> </bibl> 
+</p>
+<p>
+ <s> Tartu ja maakonna ligi 3500 telefonitaotlejast saab veel tänavu Eesti Telefoni kliendiks paar-kolmsada ootajat . </s> 
+</p>
+<p>
+ <s> ASil Eesti Telefon on Tartumaal praegu järjekorras ligi 3500 telefonitaotlejat , kellest 800 elab-töötab Tartus . </s>
+<s> “ Suurema osaga taotlejatest võtab firma lähiajal ühendust , ” kinnitas Eesti Telefoni pressiesindaja Anu Vahtra . </s> 
+</p>
+<p>
+ <s> Praegu ühendab Eesti Telefon digitaaljaama Elvas . </s>
+<s> Seal saab lähiajal , pärast võrguehitustööde lõppemist , digitaaltelefoni 360 inimest või ettevõtet . </s>
+<s> “ Me ei tee Elvas üleüldist digitaliseerimist ega numbritemuutust , ” selgitas Vahtra . </s>
+<s> “ Digitaalühenduse saavad vaid need kliendid , kes seda ise soovivad . ” </s> 
+</p>
+<p>
+ <s> Uue jaama töölehakkamisel Elvas on liitumisvõimalus 120-130 telefonitaotlejal . </s> 
+</p>
+<p>
+ <s> Tartus on telefonifirmal käsil Variku linnaosa praeguse 400-numbrise digitaaljaama laiendamine 600-numbriliseks . </s> 
+</p>
+<p>
+ <s> Tööde lõppedes on Variku elanikel võimalik vahetada analoogühendus digitaalse vastu . </s>
+<s> Kui palju inimesi sealkandis aga Eesti Telefoniga liituda saab , ei osanud Vahtra vastata . </s>
+<s> “ Kõik sõltub sellest , kui palju on analoogtelefoni digitaalse vastu vahetajaid , ” kostis ta . </s>
+<s> “ Kõik vabad numbrid leiavad kasutajad . ” </s> 
+</p>
+<p>
+ <s> Vahtra lisas , et Tartus on suured elurajoonid telefonivõrguga kaetud , töö on tegemata veel Tammelinna lõunaosas , Vana-Ihaste suvilapiirkonnas ja Ropka linnaosas . </s>
+<s> “ Millal neis kohtades elavad inimesed telefoni saavad , ei oska ma praegu öelda , ” nentis Vahtra . </s>
+<s> “ Eesti Telefon ehitab igal aastal uusi jaamu . ” </s> 
+</p>
+<p>
+ <s> Tänavu ehitas Eesti Telefon uue digitaaljaama Varale , seal kasutab nüüd digitaaltelefoni teenuseid 140 klienti . </s>
+<s> Telefoniomanikuks sai 20 Vara telefonitaotlejat . </s> 
+</p>
+<p>
+ <s> Kambja , Nõo , Rõngu , Konguta ja Haaslava valla inimestele pakub Eesti Telefon sõltuvalt Valgjärve RAS-masti levipiirkonnast võimalust liituda raadiotelefoni ühendusega . </s>
+<s> 400 inimesel on võimalus liituda või vahetada oma analoogtelefon digitaaltelefoni vastu . </s> 
+</p>
+<p>
+ <s> Eesti Telefonil on praegu Tartumaa linnades 32 600 era- ja ligi 6300 äriklienti . </s>
+<s> Maal kasutab firma teenuseid ligi 8600 era- ja 1500 äriklienti . </s> 
+</p>
+</div0>

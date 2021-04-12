@@ -1,0 +1,25 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a043.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Eesti Rahvuskultuuri Fondi ( ERKF ) sponsorite ja stipendiaatide [e1 austamiskontserdil ] [t1 eile pärastlõunal ] Mustpeade Majas [e2 andis ] sihtasutuse nõukogu esimees Eri Klas kätte [t2 tänavused ] elutöö tänuauhinnad .
+     e1 "austamiskontserdil"  BEFORE  DCT 
+     e1 "austamiskontserdil"  INCLUDES  e2 "andis" 
+     e2 "andis"  IS_INCLUDED  t1 "eile pärastlõunal" 
+     e2 "andis"  BEFORE  DCT 
+     e2 "andis"  SIMULTANEOUS  e3 "pälvisid" 
+
+ s1  Need ERKFi poolt traditsiooniliselt välja antavad auhinnad koos 50 000 krooni suuruse stipendiumiga [e3 pälvisid ] [t3 tänavu ] kunstnik Jüri Arrak , akadeemik Endel Lippmaa , laulja Teo Maiste ja fotograaf Kalju Suur .
+     e3 "pälvisid"  IS_INCLUDED  t3 "tänavu" 
+     e3 "pälvisid"  BEFORE  DCT 
+     e3 "pälvisid"  BEFORE  e5 "eraldab" 
+
+ s2  Vastavalt Eesti Rahvuskultuuri Fondi nõukogu [e4 otsusele ] [e5 eraldab ] sihtasutus [t4 2008. aastal ] stipendiumide ja toetuste [e6 maksmiseks ] 4 890 402 krooni .
+     e4 "otsusele"  BEFORE  DCT 
+     e4 "otsusele"  BEFORE  e5 "eraldab" 
+     e5 "eraldab"  IS_INCLUDED  t4 "2008. aastal" 
+     e5 "eraldab"  AFTER  DCT 
+     e5 "eraldab"  BEFORE-OR-OVERLAP  e6 "maksmiseks" 
+     e6 "maksmiseks"  AFTER  DCT 
+
+

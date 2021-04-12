@@ -1,7 +1,22 @@
 <div0>
-<p> <s> ETV , kell 20.05 , “ Pealtnägija ” . </s> <s> Vahur Kersna ja Mihkel Kärmase saade . </s> </p>
-<p> <s> Kolm nädalat tagasi ilmsiks tulnud kuritegelik infokogumine Kadaka Selveri kaubamaja pangaautomaadist paljastas plastikraha kaitsetuse . </s> <s> Ühe suhteliselt väikese pettuse tõttu peab tunnuskoode vahetama enam kui 600 000 kaardiomanikku . </s> </p>
-<p> <s> Tänases “ Pealtnägijas ” selgub , et korralikku tehnilist taipu nõudvast pangaandmevargusest on saanud Eesti kuritegelike jõudude rahvusvaheline ekspordiartikkel . </s> </p>
-<p> <s> Hansapanga kaardiosakonna juhataja Kalle Vaalma kirjeldab panga ajaloo ühte erakordseimat vargust . </s> </p>
-<p> <s> Režissöör Maire Radsin , toimetaja Mariina Mälk . </s> </p>
-<p> <s> Alates tänasest on “ Pealtnägijat ” võimalik jälgida ka venekeelse sünkroontõlkega Raadio 4 vahendusel . </s> </p></div0>
+<p>
+ <s> ETV , kell 20.05 , “ Pealtnägija ” . </s>
+<s> Vahur Kersna ja Mihkel Kärmase saade . </s> 
+</p>
+<p>
+ <s> Kolm nädalat tagasi ilmsiks tulnud kuritegelik infokogumine Kadaka Selveri kaubamaja pangaautomaadist paljastas plastikraha kaitsetuse . </s>
+<s> Ühe suhteliselt väikese pettuse tõttu peab tunnuskoode vahetama enam kui 600 000 kaardiomanikku . </s> 
+</p>
+<p>
+ <s> Tänases “ Pealtnägijas ” selgub , et korralikku tehnilist taipu nõudvast pangaandmevargusest on saanud Eesti kuritegelike jõudude rahvusvaheline ekspordiartikkel . </s> 
+</p>
+<p>
+ <s> Hansapanga kaardiosakonna juhataja Kalle Vaalma kirjeldab panga ajaloo ühte erakordseimat vargust . </s> 
+</p>
+<p>
+ <s> Režissöör Maire Radsin , toimetaja Mariina Mälk . </s> 
+</p>
+<p>
+ <s> Alates tänasest on “ Pealtnägijat ” võimalik jälgida ka venekeelse sünkroontõlkega Raadio 4 vahendusel . </s> 
+</p>
+</div0>

@@ -1,4 +1,19 @@
 <div0><head> Dodi Fayedil oli ka teine armuke </head><bibl> <author> SLÕL </author> </bibl>
-<p rend="bold"> <s> Kohtus andis tunnistusi modell Kelly Fisher , kes oli Dodi kallim 1997. aastal . </s> </p>
-<p> <s> Ta ütles , et kuulis St. Tropezi minekust ja jahiga sõitmisest Dodi isalt ning uskus , et ta kutsutakse kaasa . </s> <s> Dodi aga lükkas isa jutu ümber ning ütles Kellyle , et peab jääma Londonisse ega sõida kuhugi . </s> <s> 6. augustil 1997 ilmus ühes ajalehes foto , kus Dodi ja Diana suudlevad . " </s> <s> Isa soovitas Dodi unustada , " kurdab Kelly . </s> <s> Mõni aeg tagasi oli Dodi kinkinud talle hiigelsuure safiiriga kihlasõrmuse , peaaegu täpse koopia sõrmusest , mille prints Charles omal ajal Dianale kinkis . " </s> <s> Pärisin temalt , kas ta tahab kihluse lõpetada ? </s> <s> Küsisin , kas meie vahekord on lõppenud ? " </s> <s> Dodi keerutas . " </s> <s> Ma ei saa telefoni teel rääkida , " ja ei vihjanud poole sõnagagi suhte lõppemisele . </s> </p>
-<p> <s> Ta oli maksnud Kellyle 2000 naelsterlingit ( 50 000 krooni ) päevaraha ja ostnud modellile 5 miljonit naelsterlingit maksva maja Los Angeleses , et ta modellitööst loobuks ja ainult Dodile pühenduks . </s> </p></div0>
+<p rend="bold">
+ <s> Kohtus andis tunnistusi modell Kelly Fisher , kes oli Dodi kallim 1997. aastal . </s> 
+</p>
+<p>
+ <s> Ta ütles , et kuulis St. Tropezi minekust ja jahiga sõitmisest Dodi isalt ning uskus , et ta kutsutakse kaasa . </s>
+<s> Dodi aga lükkas isa jutu ümber ning ütles Kellyle , et peab jääma Londonisse ega sõida kuhugi . </s>
+<s> 6. augustil 1997 ilmus ühes ajalehes foto , kus Dodi ja Diana suudlevad . " </s>
+<s> Isa soovitas Dodi unustada , " kurdab Kelly . </s>
+<s> Mõni aeg tagasi oli Dodi kinkinud talle hiigelsuure safiiriga kihlasõrmuse , peaaegu täpse koopia sõrmusest , mille prints Charles omal ajal Dianale kinkis . " </s>
+<s> Pärisin temalt , kas ta tahab kihluse lõpetada ? </s>
+<s> Küsisin , kas meie vahekord on lõppenud ? " </s>
+<s> Dodi keerutas . " </s>
+<s> Ma ei saa telefoni teel rääkida , " ja ei vihjanud poole sõnagagi suhte lõppemisele . </s> 
+</p>
+<p>
+ <s> Ta oli maksnud Kellyle 2000 naelsterlingit ( 50 000 krooni ) päevaraha ja ostnud modellile 5 miljonit naelsterlingit maksva maja Los Angeleses , et ta modellitööst loobuks ja ainult Dodile pühenduks . </s> 
+</p>
+</div0>

@@ -1,0 +1,35 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a016.sol
+      DCT: 2007-12-17
+==================================================
+ s0  KORVPALL
+ s1  Eesti meistriliigas [e1 alistas ] Triobet/Dalkia võõrsil Pärnu KK/Catweesi 70 : 65 ( Dorbek 20 , Sokk 15 , Tulit 12 , Parve 30 , Ringmets ja Käbin 10 ) ja [e2 tõusis ] 11 võiduga teiseks .
+     e1 "alistas"  BEFORE  DCT 
+     e1 "alistas"  BEFORE  e2 "tõusis" 
+     e1 "alistas"  AFTER  e4 "võitis" 
+     e1 "alistas"  AFTER  e6 "alustasid" 
+     e2 "tõusis"  BEFORE  DCT 
+     e2 "tõusis"  AFTER  e4 "võitis" 
+     e2 "tõusis"  AFTER  e6 "alustasid" 
+
+ s2  [e3 Poolaja ] [e4 võitis ] Pärnu 40 : 36 , kuid teist [e5 poolaega ] [e6 alustasid ] külalised 9 : 0 [e7 spurdiga ] .
+     e3 "Poolaja"  BEFORE  DCT 
+     e3 "Poolaja"  INCLUDES  e4 "võitis" 
+     e4 "võitis"  BEFORE  DCT 
+     e4 "võitis"  BEFORE  e6 "alustasid" 
+     e4 "võitis"  BEFORE  e8 "oli" 
+     e4 "võitis"  BEFORE  e9 "tegi spurdi" 
+     e5 "poolaega"  BEFORE  DCT 
+     e5 "poolaega"  INCLUDES  e6 "alustasid" 
+     e6 "alustasid"  BEFORE  DCT 
+     e6 "alustasid"  BEFORE-OR-OVERLAP  e7 "spurdiga" 
+     e6 "alustasid"  BEFORE  e8 "oli" 
+     e6 "alustasid"  BEFORE  e9 "tegi spurdi" 
+     e7 "spurdiga"  BEFORE  DCT 
+
+ s3  Kolmanda veerandaja lõpus [e8 oli ] tablool viik 51 : 51 , kuid siis [e9 tegi ] Triobet/Dalkia otsustava [e9 spurdi ] .
+     e8 "oli"  BEFORE  DCT 
+     e8 "oli"  BEFORE  e9 "tegi spurdi" 
+     e9 "tegi spurdi"  BEFORE  DCT 
+
+

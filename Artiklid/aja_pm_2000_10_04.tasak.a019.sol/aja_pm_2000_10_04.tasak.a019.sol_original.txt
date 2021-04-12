@@ -1,8 +1,33 @@
 <div0><head> Vähem kui teenistuskoerad </head>
-<p> <bibl> <author> <s> VEERA SIRG , Tartu </s> </author> </bibl> </p>
-<p> <s> Peaministrihärra Mart Laari kinnitusel pole valitsusel plaanis pensione külmutada , vaid praegu tegeldakse sellega , kuidas üle minna pensionide indekseeritud maksmisele . </s> </p>
-<p> <s> Tegelikult on pensionid külmutatud küll , pole neid ju teist aastat tõstetud , hoolimata sellest , et keskmine palk on tõusnud , samuti ka tarbijahinna indeks . </s> </p>
-<p> <s> Meenutame , et 1992. aastal hakati maksma kõigile pensionäridele 260 krooni . </s> <s> Siis maksis päts leiba umbes 90 senti . </s> <s> Seega saanuks osta 288 pätsi kuus . </s> <s> Nüüd saab 1500 krooni eest ( seda pensioni saavad vähesed ) osta 200 pätsi leiba . </s> <s> Selle arvutuse kohaselt on reaalpension langenud 25% . </s> </p>
-<p> <s> Rahandusminister Siim Kallas lohutab , et 2002. aastaks peaks riigi eelarve suurenema 7% , siis muutub reaalseks ka pensionitõus . </s> <s> Selleks ajaks on inflatsioon tõusu juba ette ära söönud . </s> <s> Nõukogude ajal soovitati meil oodata helget tulevikku - kommunismi . </s> <s> Nüüd on natuke lühem tärmin , aasta 2002. </s> </p>
-<p> <s> 19. septembril sattus pihku Postimehe lugu “ Riik peab ülal 210 koera ” . </s> <s> Võrdlesin selle artikli andmeid toimetuleku miinimumiga , Võib öelda , et meie inimestele ettenähtud toimetulekusumma on ligilähedane piirivalve lennusalga kõige odavamate koerte omaga . </s> <s> Viimaste kulutused kodule ( kuudile ) ja riietele ( olematud ) on seejuures palju väiksemad kui inimestel . </s> <s> Igal juhul on Eesti tavainimene arvatud palju vähenõudlikumaks kui Ämari teenistuskoer ( toidule 472 krooni kuus ) . </s> </p>
-<p> <s> Ma pole loomavaenulik inimene , aga mulle ei meeldi , et viletsale järjele jäänud riigialamate ( neid on aga palju ja nad pole mitte ainult pensionärid ) elujärg on kehvem kui koeral . </s> </p></div0>
+<p>
+ <bibl> <author> <s> VEERA SIRG , Tartu </s> </author> </bibl> 
+</p>
+<p>
+ <s> Peaministrihärra Mart Laari kinnitusel pole valitsusel plaanis pensione külmutada , vaid praegu tegeldakse sellega , kuidas üle minna pensionide indekseeritud maksmisele . </s> 
+</p>
+<p>
+ <s> Tegelikult on pensionid külmutatud küll , pole neid ju teist aastat tõstetud , hoolimata sellest , et keskmine palk on tõusnud , samuti ka tarbijahinna indeks . </s> 
+</p>
+<p>
+ <s> Meenutame , et 1992. aastal hakati maksma kõigile pensionäridele 260 krooni . </s>
+<s> Siis maksis päts leiba umbes 90 senti . </s>
+<s> Seega saanuks osta 288 pätsi kuus . </s>
+<s> Nüüd saab 1500 krooni eest ( seda pensioni saavad vähesed ) osta 200 pätsi leiba . </s>
+<s> Selle arvutuse kohaselt on reaalpension langenud 25% . </s> 
+</p>
+<p>
+ <s> Rahandusminister Siim Kallas lohutab , et 2002. aastaks peaks riigi eelarve suurenema 7% , siis muutub reaalseks ka pensionitõus . </s>
+<s> Selleks ajaks on inflatsioon tõusu juba ette ära söönud . </s>
+<s> Nõukogude ajal soovitati meil oodata helget tulevikku - kommunismi . </s>
+<s> Nüüd on natuke lühem tärmin , aasta 2002. </s> 
+</p>
+<p>
+ <s> 19. septembril sattus pihku Postimehe lugu “ Riik peab ülal 210 koera ” . </s>
+<s> Võrdlesin selle artikli andmeid toimetuleku miinimumiga , Võib öelda , et meie inimestele ettenähtud toimetulekusumma on ligilähedane piirivalve lennusalga kõige odavamate koerte omaga . </s>
+<s> Viimaste kulutused kodule ( kuudile ) ja riietele ( olematud ) on seejuures palju väiksemad kui inimestel . </s>
+<s> Igal juhul on Eesti tavainimene arvatud palju vähenõudlikumaks kui Ämari teenistuskoer ( toidule 472 krooni kuus ) . </s> 
+</p>
+<p>
+ <s> Ma pole loomavaenulik inimene , aga mulle ei meeldi , et viletsale järjele jäänud riigialamate ( neid on aga palju ja nad pole mitte ainult pensionärid ) elujärg on kehvem kui koeral . </s> 
+</p>
+</div0>

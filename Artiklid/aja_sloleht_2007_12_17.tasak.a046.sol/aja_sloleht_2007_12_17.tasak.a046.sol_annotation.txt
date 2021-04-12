@@ -1,0 +1,81 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a046.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Läti parlament [e1 võttis ] vastu [e2 otsuse ] , mille järgi [e3 võib ] seal [e4 devalveerimispaanikat ] [e5 külvanud ] inimesed vangi [e6 panna ] .
+     e1 "võttis"  BEFORE  DCT 
+     e1 "võttis"  AFTER  e2 "otsuse" 
+     e1 "võttis"  BEFORE  e6 "panna" 
+     e1 "võttis"  BEFORE-OR-OVERLAP  e8 "on" 
+     e1 "võttis"  BEFORE  e7 "Näib" 
+     e2 "otsuse"  BEFORE  DCT 
+     e3 "võib"  INCLUDES  DCT 
+     e3 "võib"  VAGUE  e6 "panna" 
+     e4 "devalveerimispaanikat"  VAGUE  DCT 
+     e4 "devalveerimispaanikat"  BEFORE  e5 "külvanud" 
+     e5 "külvanud"  VAGUE  DCT 
+     e5 "külvanud"  BEFORE  e6 "panna" 
+     e6 "panna"  VAGUE  DCT 
+
+ s1  [e7 Näib ] , et see [e8 on ] mõistlik otsus , sest oma riiki , raha ja piiri [e9 saab ] [e10 valvata ] vaid ise , teistele [e11 loota ] ei [e12 tasu ] .
+     e7 "Näib"  INCLUDES  DCT 
+     e7 "Näib"  VAGUE  e8 "on" 
+     e7 "Näib"  AFTER  e13 "külvati" 
+     e7 "Näib"  IS_INCLUDED  e15 "ole" 
+     e8 "on"  INCLUDES  DCT 
+     e8 "on"  VAGUE  e10 "valvata" 
+     e8 "on"  AFTER  e13 "külvati" 
+     e8 "on"  SIMULTANEOUS  e15 "ole" ka VAGUE
+     e9 "saab"  INCLUDES  DCT 
+     e9 "saab"  VAGUE  e10 "valvata" 
+     e10 "valvata"  INCLUDES  DCT 
+     e10 "valvata"  SIMULTANEOUS  e11 "loota" 
+     e10 "valvata"  SIMULTANEOUS  e12 "tasu" 
+     e11 "loota"  INCLUDES  DCT 
+     e12 "tasu"  INCLUDES  DCT 
+
+ s2  Ka Eestis [e13 külvati ] [e14 devalveerimispaanikat ] , aga süüdi ei [e15 ole ] keegi !
+     e13 "külvati"  BEFORE  DCT 
+     e13 "külvati"  AFTER  e14 "devalveerimispaanikat" 
+     e13 "külvati"  BEFORE  e15 "ole" 
+     e13 "külvati"  VAGUE  e16 "purustasid" 
+     e13 "külvati"  VAGUE  e17 "pole" 
+     e14 "devalveerimispaanikat"  BEFORE  DCT 
+     e14 "devalveerimispaanikat"  BEFORE  e15 "ole" 
+     e15 "ole"  INCLUDES  DCT 
+     e15 "ole"  VAGUE  e16 "purustasid" 
+     e15 "ole"  VAGUE  e17 "pole" 
+
+ s3  [t1 Kevadel ] [e16 purustasid ] peamiselt vene keelt kõnelevad noorukid Tallinna südame , aga korralikest karistustest [e17 pole ] juttugi .
+     e16 "purustasid"  IS_INCLUDED  t1 "Kevadel" 
+     e16 "purustasid"  BEFORE  DCT 
+     e16 "purustasid"  BEFORE  e17 "pole" 
+     e16 "purustasid"  BEFORE  e18 "pääses" 
+     e16 "purustasid"  BEFORE  e19 "veetis" 
+     e16 "purustasid"  BEFORE  e20 "veedab" 
+     e17 "pole"  INCLUDES  DCT 
+     e17 "pole"  INCLUDES  e18 "pääses" 
+     e17 "pole"  INCLUDES  e19 "veetis" 
+     e17 "pole"  INCLUDES  e20 "veedab" 
+
+ s4  Suurem osa [e18 pääses ] trahviga , mõni [e19 veetis ] ja [e20 veedab ] natuke oma noorest elust trellide taga .
+     e18 "pääses"  BEFORE  DCT 
+     e18 "pääses"  BEFORE  e20 "veedab" 
+     e18 "pääses"  SIMULTANEOUS  e19 "veetis" 
+     e18 "pääses"  IS_INCLUDED  e21 "suhtu" 
+     e19 "veetis"  BEFORE  DCT 
+     e19 "veetis"  BEFORE  e20 "veedab" 
+     e19 "veetis"  IS_INCLUDED  e21 "suhtu" 
+     e20 "veedab"  INCLUDES  DCT 
+     e20 "veedab"  IS_INCLUDED  e21 "suhtu" 
+
+ s5  Kahju , et me ei [e21 suhtu ] provokaatoritesse niisama karmilt nagu lätlased .
+     e21 "suhtu"  INCLUDES  DCT 
+     e21 "suhtu"  SIMULTANEOUS  e23 "hoida" 
+
+ s6  Kodus [e22 võiksime ] ohjad ikka enda käes [e23 hoida ] .
+     e22 "võiksime"  INCLUDES  DCT 
+     e22 "võiksime"  VAGUE  e23 "hoida" 
+     e23 "hoida"  INCLUDES  DCT 
+
+

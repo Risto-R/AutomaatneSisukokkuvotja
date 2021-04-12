@@ -1,3 +1,12 @@
 <div0><head> Majandusminister : ärge jagage jootraha ! </head><bibl> <author> SLÕL </author> </bibl>
-<p rend="bold"> <s> Hispaania majandusminister Pedro Solbes kinnitab , et kaasmaalased pole ikka veel mõistnud euro väärtust ja loobivad seepärast kergel käel jootraha . </s> </p>
-<p> <s> " Kole on vaadata , kui inimesed jätavad terve euro jootrahaks tassi kohvi eest , mis maksab vaid kaks eurot , " kõneles majandusminister olukorrast riigis , kus inflatsioon on tõusnud katastroofilise 4,1 protsendini . </s> <s> See on kõrgem kui teistes eurotsooni riikides . </s> <s> BBC kinnitusel oli Hispaanias enne euro tulekut kombeks anda jootrahaks 25 peseetat . </s> <s> Noid rahasid mahtunuks ühte eurosse 166. </s> <s> Majandusministri arvates on just helde jootraha jagamine üks põhjus , miks elukallidus on riigis euro tulekuga järsult tõusnud . </s> </p></div0>
+<p rend="bold">
+ <s> Hispaania majandusminister Pedro Solbes kinnitab , et kaasmaalased pole ikka veel mõistnud euro väärtust ja loobivad seepärast kergel käel jootraha . </s> 
+</p>
+<p>
+ <s> " Kole on vaadata , kui inimesed jätavad terve euro jootrahaks tassi kohvi eest , mis maksab vaid kaks eurot , " kõneles majandusminister olukorrast riigis , kus inflatsioon on tõusnud katastroofilise 4,1 protsendini . </s>
+<s> See on kõrgem kui teistes eurotsooni riikides . </s>
+<s> BBC kinnitusel oli Hispaanias enne euro tulekut kombeks anda jootrahaks 25 peseetat . </s>
+<s> Noid rahasid mahtunuks ühte eurosse 166. </s>
+<s> Majandusministri arvates on just helde jootraha jagamine üks põhjus , miks elukallidus on riigis euro tulekuga järsult tõusnud . </s> 
+</p>
+</div0>

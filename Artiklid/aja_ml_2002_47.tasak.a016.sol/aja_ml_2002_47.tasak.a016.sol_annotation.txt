@@ -1,0 +1,67 @@
+==================================================
+     aja_ml_2002_47.tasak.a016.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  [t2 29. novembril kl [t3 11-17 ] [e1 korraldab ] Eesti Euroopa Liikumine Tartus hotellis Kantri ( Riia 195 ) Euroopa maaelu [e2 foorumi ] .
+     e1 "korraldab"  BEFORE-OR-OVERLAP  t2 "29. novembril kl 11-" 
+     e1 "korraldab"  OVERLAP-OR-AFTER  DCT 
+     e1 "korraldab"  BEFORE-OR-OVERLAP  e2 "foorumi" 
+     e1 "korraldab"  IS_INCLUDED  e3 "lõpetamas" 
+     e2 "foorumi"  AFTER  DCT 
+
+ s2  Eesti valitsus on [e3 lõpetamas ] põllumajanduse ja kalanduse peatüki [e4 läbirääkimisi ] ELi liikmesriikidega .
+     e3 "lõpetamas"  OVERLAP-OR-AFTER  DCT 
+     e3 "lõpetamas"  OVERLAP-OR-AFTER  e4 "läbirääkimisi" 
+     e3 "lõpetamas"  INCLUDES  e6 "tekitanud" 
+     e4 "läbirääkimisi"  INCLUDES  DCT 
+
+ s3  Euroopa Komisjoni [e5 ettepanek ] otsetoetuste , muude toetusmehhanismide suuruse ja põllumajanduspoliitika rahastamise kohta on [e6 tekitanud ] Eestis palju [e7 vastukaja ] .
+     e5 "ettepanek"  BEFORE  DCT 
+     e5 "ettepanek"  BEFORE-OR-OVERLAP  e6 "tekitanud" 
+     e6 "tekitanud"  BEFORE  DCT 
+     e6 "tekitanud"  BEFORE-OR-OVERLAP  e7 "vastukaja" 
+     e6 "tekitanud"  BEFORE-OR-OVERLAP  e9 "eesmärk on" 
+     e7 "vastukaja"  BEFORE  DCT 
+
+ s4  [e8 Foorumi ] [e9 eesmärk ] [e9 on ] lahti [e10 rääkida ] ELi ühtse põllumajanduspoliitika rahastamise [e11 otsuse ] [e12 mõju ] Eestile .
+     e8 "Foorumi"  AFTER  DCT 
+     e8 "Foorumi"  OVERLAP-OR-AFTER  e9 "eesmärk on" 
+     e9 "eesmärk on"  INCLUDES  DCT 
+     e9 "eesmärk on"  BEFORE-OR-OVERLAP  e10 "rääkida" 
+     e9 "eesmärk on"  OVERLAP-OR-AFTER  e15 "seadnud" ka SIMULTANEOUS
+     e10 "rääkida"  AFTER  DCT 
+     e10 "rääkida"  BEFORE-OR-OVERLAP  e12 "mõju" 
+     e11 "otsuse"  BEFORE  DCT 
+     e11 "otsuse"  BEFORE  e12 "mõju" 
+     e12 "mõju"  AFTER  DCT 
+
+ s5  Teisalt , kuna Eestis on [e13 levinud ] nii väärarusaamu kui ka põhjendamatuid ootusi ELi põllumajandus- ja maaelumeetmete [e14 kasutamise ] kohta , on korraldajad [e15 seadnud ] eesmärgiks [e16 anda ] osavõtjaile teavet ka põllumajandusega seotud strukturaalfondidest , eriti nendest , mis [e17 aitavad ] kaasa maapiirkonna [e18 arengule ] .
+     e13 "levinud"  BEFORE-OR-OVERLAP  DCT 
+     e13 "levinud"  BEFORE  e15 "seadnud" 
+     e13 "levinud"  VAGUE  e14 "kasutamise" 
+     e14 "kasutamise"  VAGUE  DCT 
+     e15 "seadnud"  BEFORE  DCT 
+     e15 "seadnud"  BEFORE  e16 "anda" 
+     e15 "seadnud"  BEFORE  e19 "sõna võtavad" 
+     e16 "anda"  AFTER  DCT 
+     e17 "aitavad"  INCLUDES  DCT 
+     e17 "aitavad"  AFTER  e16 "anda" 
+     e17 "aitavad"  IS_INCLUDED  e18 "arengule" 
+     e18 "arengule"  INCLUDES  DCT 
+
+ s6  [e19 Sõna ] [e19 võtavad ] Eesti põllumeeste esindaja Brüsselis Aivar Niinemäe , põllumajandusministeeriumi asekantsler Toomas Kevvai , PRIA esindaja Katrin Noorkõiv jt.
+     e19 "sõna võtavad"  AFTER  DCT 
+     e19 "sõna võtavad"  OVERLAP-OR-AFTER  e21 "oodatakse" 
+
+ s7  [e20 Foorumile ] [e21 oodatakse ] põllumajandustootjaid , maal elavaid ja töötavaid inimesi , kohalike omavalitsuste esindajaid , ajakirjanikke ja kõiki huvilisi .
+     e20 "Foorumile"  AFTER  DCT 
+     e20 "Foorumile"  OVERLAP-OR-AFTER  e21 "oodatakse" 
+     e21 "oodatakse"  OVERLAP-OR-AFTER  DCT 
+     e21 "oodatakse"  OVERLAP-OR-AFTER  e22 "Registreerimine" 
+
+ s8  [e22 Registreerimine ] hiljemalt [t4 25. novembriks ] tel 6 93 52 35 , faks 6 93 52 02 , e-post info@euroopaliikumine.ee
+     e22 "Registreerimine"  BEFORE-OR-OVERLAP  t4 "25. novembriks" 
+     e22 "Registreerimine"  INCLUDES  DCT 
+
+

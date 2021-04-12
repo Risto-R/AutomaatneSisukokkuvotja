@@ -1,0 +1,477 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a042.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Keskkriminaalpolitsei [e1 loodab ] [t1 täna ] [e2 esitada ] [e3 süüdistused ] Tallinna Keskturu direktori Vadim Polishtshuki väidetavatele ihukaitsjatele , keda [e4 kahtlustatakse ] ärimees Mait Metsamaa [e5 palgamõrva ] [e6 tellimise ] [e7 vahendamises ] .
+     e1 "loodab"  BEFORE-OR-OVERLAP  DCT 
+     e1 "loodab"  BEFORE-OR-OVERLAP  e2 "esitada" 
+     e1 "loodab"  IS_INCLUDED  e4 "kahtlustatakse" 
+     e1 "loodab"  AFTER  e10 "õnnestus" 
+     e2 "esitada"  IS_INCLUDED  t1 "täna" 
+     e2 "esitada"  IS_INCLUDED  DCT 
+     e2 "esitada"  BEFORE-OR-OVERLAP  e3 "süüdistused" 
+     e2 "esitada"  IS_INCLUDED  e4 "kahtlustatakse" 
+     e3 "süüdistused"  IS_INCLUDED  DCT 
+     e4 "kahtlustatakse"  INCLUDES  DCT 
+     e4 "kahtlustatakse"  AFTER  e5 "palgamõrva" 
+     e4 "kahtlustatakse"  AFTER  e7 "vahendamises" 
+     e5 "palgamõrva"  BEFORE  DCT 
+     e5 "palgamõrva"  AFTER  e6 "tellimise" 
+     e6 "tellimise"  BEFORE  DCT 
+     e6 "tellimise"  BEFORE  e7 "vahendamises" 
+     e7 "vahendamises"  BEFORE  DCT 
+
+ s1  Kuigi ametlikult Tallinna Keskturu inseneri ja kontrolörina töötavad Sergei Normanov ( 26 ) ja Valeri Guznetsov ( 34 ) on [e8 olnud ] uurijale ütluste [e9 andmisel ] [e8 tõrksad ] , [e10 õnnestus ] keskkriminaalpolitseil tänu salajasele jälitustööle [e11 koguda ] piisavalt süütõendeid , et pärast meestele süüdistuste [e12 esitamist ] [e13 nõuda ] kohtult nende vahi all pidamise [e14 pikendust ] .
+     e8 "olnud tõrksad"  BEFORE-OR-OVERLAP  DCT 
+     e8 "olnud tõrksad"  INCLUDES  e10 "õnnestus" 
+     e8 "olnud tõrksad"  SIMULTANEOUS  e9 "andmisel" 
+     e9 "andmisel"  BEFORE  DCT 
+     e10 "õnnestus"  BEFORE  DCT 
+     e10 "õnnestus"  BEFORE  e13 "nõuda" 
+     e10 "õnnestus"  SIMULTANEOUS  e11 "koguda" 
+     e10 "õnnestus"  AFTER  e15 "vahistas" 
+     e11 "koguda"  BEFORE  DCT 
+     e12 "esitamist"  OVERLAP-OR-AFTER  DCT 
+     e12 "esitamist"  BEFORE  e13 "nõuda" 
+     e13 "nõuda"  OVERLAP-OR-AFTER  DCT 
+     e13 "nõuda"  BEFORE  e14 "pikendust" 
+     e14 "pikendust"  OVERLAP-OR-AFTER  DCT 
+
+ s2  Normanovi ja Guznetsovi [e15 vahistas ] keskkriminaalpolitsei [t2 24. septembril ] .
+     e15 "vahistas"  IS_INCLUDED  t2 "24. septembril" 
+     e15 "vahistas"  BEFORE  DCT 
+     e15 "vahistas"  BEFORE  e16 "esitas" 
+
+ s3  [t3 Esmaspäeva õhtul ] [e16 esitas ] keskkriminaalpolitsei juba ametliku [e17 süüdistuse ] [t4 mullu 12. oktoobril ] Lastekodu 26 majas Metsamaa [e18 tapnud ] Andrei Dudotshkinile ( 26 ) , kes on oma süüd ka [e19 tunnistanud ] .
+     e16 "esitas"  IS_INCLUDED  t3 "Esmaspäeva õhtul" 
+     e16 "esitas"  BEFORE  DCT 
+     e16 "esitas"  BEFORE-OR-OVERLAP  e17 "süüdistuse" 
+     e16 "esitas"  BEFORE  e19 "tunnistanud" 
+     e16 "esitas"  IS_INCLUDED  e25 "on" 
+     e16 "esitas"  OVERLAP-OR-AFTER  e21 "teadnud" 
+     e17 "süüdistuse"  BEFORE  DCT 
+     e17 "süüdistuse"  AFTER  e18 "tapnud" 
+     e18 "tapnud"  IS_INCLUDED  t4 "mullu 12. oktoobril" 
+     e18 "tapnud"  BEFORE  DCT 
+     e18 "tapnud"  BEFORE  e19 "tunnistanud" 
+     e19 "tunnistanud"  BEFORE  DCT 
+
+ s4  Postimehe [e20 andmetel ] ei [e21 teadnud ] Lasnamäel elav narkomaan , et mees , kelle ta oma endise koolivenna Normanovi [e22 tellimusel ] [e23 peab ] maha [e24 laskma ] , [e25 on ] endine Tallinna abilinnapea ja Keskturu nõukogu esimees Metsamaa .
+     e20 "andmetel"  BEFORE-OR-OVERLAP  DCT 
+     e20 "andmetel"  AFTER  e21 "teadnud" 
+     e21 "teadnud"  BEFORE  DCT 
+     e21 "teadnud"  IS_INCLUDED  e22 "tellimusel" 
+     e21 "teadnud"  IS_INCLUDED  e25 "on" 
+     e21 "teadnud"  BEFORE-OR-OVERLAP  e26 "teenis" 
+     e22 "tellimusel"  BEFORE  DCT 
+     e22 "tellimusel"  BEFORE  e24 "laskma" 
+     e23 "peab"  BEFORE  DCT 
+     e23 "peab"  VAGUE  e24 "laskma" 
+     e24 "laskma"  BEFORE  DCT 
+     e24 "laskma"  VAGUE  e25 "on" 
+     e25 "on"  BEFORE  DCT 
+     e25 "on"  INCLUDES  e26 "teenis" 
+
+ s5  Väidetavalt [e26 teenis ] töötu Dudotshkin ühekordse [e27 tellimuse ] [e28 täitmise ] eest umbes 1000 USA dollarit ( [t5 praegu ] üle 17 000 Eesti krooni ) .
+     e26 "teenis"  BEFORE  DCT 
+     e26 "teenis"  AFTER  e27 "tellimuse" 
+     e26 "teenis"  AFTER  e28 "täitmise" 
+     e26 "teenis"  AFTER  e30 "tellisid" 
+     e27 "tellimuse"  BEFORE  DCT 
+     e27 "tellimuse"  BEFORE  e28 "täitmise" 
+     e28 "täitmise"  BEFORE  DCT 
+
+ s6  Politsei ametliku [e29 uurimisversiooni ] järgi [e30 tellisid ] Tallinna Keskturul võimutsevad allilmategelased Mait Metsamaa [e31 tapmise ] selleks , et mitte [e32 maksta ] talle kaheksa miljoni krooni suurust hüvitist , mille eest ärimees [e33 nõustus ] turu [e34 erastamiskonkursist ] kõrvale [e35 jääma ] .
+     e29 "uurimisversiooni"  INCLUDES  DCT 
+     e29 "uurimisversiooni"  AFTER  e30 "tellisid" 
+     e30 "tellisid"  BEFORE  DCT 
+     e30 "tellisid"  BEFORE-OR-OVERLAP  e32 "maksta" 
+     e30 "tellisid"  BEFORE  e31 "tapmise" 
+     e30 "tellisid"  BEFORE  e38 "algatas" 
+     e31 "tapmise"  BEFORE  DCT 
+     e31 "tapmise"  BEFORE  e32 "maksta" 
+     e32 "maksta"  VAGUE  DCT 
+     e32 "maksta"  AFTER  e33 "nõustus" 
+     e33 "nõustus"  BEFORE  DCT 
+     e33 "nõustus"  BEFORE  e34 "erastamiskonkursist" 
+     e33 "nõustus"  BEFORE  e35 "jääma" 
+     e34 "erastamiskonkursist"  BEFORE  DCT 
+     e34 "erastamiskonkursist"  SIMULTANEOUS  e35 "jääma" 
+     e35 "jääma"  BEFORE  DCT 
+
+ s7  Metsamaa [e36 palgamõrva ] [e37 uurimisega ] samaaegselt [e38 algatas ] keskkriminaalpolitsei [t6 eile ] ametkondliku [e39 juurdluse ] leidmaks oma töötajate hulgast isikud , kes [e40 avalikustasid ] ajakirjanduses laia kõlapinda [e41 tekitanud ] [e42 tapmise ] kohta [e43 kogutud ] materjalide üksikasju .
+     e36 "palgamõrva"  BEFORE  DCT 
+     e36 "palgamõrva"  BEFORE  e37 "uurimisega" 
+     e37 "uurimisega"  INCLUDES  DCT 
+     e37 "uurimisega"  INCLUDES  e38 "algatas" 
+     e38 "algatas"  IS_INCLUDED  t6 "eile" 
+     e38 "algatas"  BEFORE  DCT 
+     e38 "algatas"  AFTER  e40 "avalikustasid" 
+     e38 "algatas"  IS_INCLUDED  e39 "juurdluse" 
+     e38 "algatas"  BEFORE-OR-OVERLAP  e44 "keeldusid" 
+     e38 "algatas"  BEFORE  e48 "andnud" 
+     e39 "juurdluse"  INCLUDES  DCT 
+     e39 "juurdluse"  AFTER  e40 "avalikustasid" 
+     e40 "avalikustasid"  BEFORE  DCT 
+     e40 "avalikustasid"  AFTER  e41 "tekitanud" 
+     e41 "tekitanud"  BEFORE  DCT 
+     e41 "tekitanud"  AFTER  e42 "tapmise" 
+     e42 "tapmise"  BEFORE  DCT 
+     e42 "tapmise"  BEFORE  e43 "kogutud" 
+     e43 "kogutud"  BEFORE  DCT 
+
+ s8  Seetõttu [e44 keeldusid ] keskkriminaalpolitsei ametnikud [t7 eile ] igasugustest kommentaaridest , mis [e45 puudutavad ] Metsamaa [e46 mõrva ] [e47 lahendamise ] edusamme , ka ei [e48 andnud ] nad mingit hinnangut Polishtshuki EPL Online'ile antud [e49 intervjuule ] .
+     e44 "keeldusid"  IS_INCLUDED  t7 "eile" 
+     e44 "keeldusid"  BEFORE  DCT 
+     e44 "keeldusid"  IS_INCLUDED  e45 "puudutavad" 
+     e44 "keeldusid"  SIMULTANEOUS  e48 "andnud" 
+     e44 "keeldusid"  VAGUE  e50 "versioon" ka IS_INCLUDED
+     e45 "puudutavad"  INCLUDES  DCT 
+     e45 "puudutavad"  AFTER  e46 "mõrva" 
+     e46 "mõrva"  BEFORE  DCT 
+     e46 "mõrva"  BEFORE  e47 "lahendamise" 
+     e47 "lahendamise"  INCLUDES  DCT 
+     e48 "andnud"  BEFORE  DCT 
+     e48 "andnud"  AFTER  e49 "intervjuule" 
+     e48 "andnud"  VAGUE  e50 "versioon" ka IS_INCLUDED
+     e49 "intervjuule"  BEFORE  DCT 
+
+ s9  Keskturu juhi [e50 versioon ] ärimehe [e51 tapmisest ]
+     e50 "versioon"  INCLUDES  DCT 
+     e50 "versioon"  AFTER  e51 "tapmisest" 
+     e50 "versioon"  AFTER  e53 "sai tellimuse" ka VAGUE
+     e51 "tapmisest"  BEFORE  DCT 
+
+ s10  Tallinna Keskturu juhi Vadim Polishtshuki [e52 väitel ] [e53 sai ] Tallinna endise abilinnapea ja turu nõukogu liikme Mait Metsamaa [e54 tapmise ] [e53 tellimuse ] Jevgeni Bõkov noorem , keda politsei [e55 süüdistab ] ka Polishtshuki enda tapmiskatse [e56 korraldamises ] .
+     e52 "väitel"  BEFORE-OR-OVERLAP  DCT 
+     e52 "väitel"  AFTER  e53 "sai tellimuse" 
+     e53 "sai tellimuse"  BEFORE  DCT 
+     e53 "sai tellimuse"  BEFORE  e55 "süüdistab" 
+     e53 "sai tellimuse"  BEFORE  e58 "jälitas" 
+     e54 "tapmise"  BEFORE  DCT 
+     e54 "tapmise"  AFTER  e53 "sai tellimuse" 
+     e55 "süüdistab"  INCLUDES  DCT 
+     e55 "süüdistab"  AFTER  e56 "korraldamises" 
+     e56 "korraldamises"  BEFORE  DCT 
+
+ s11  Polishtshuki [e57 sõnul ] [e58 jälitas ] noorem Bõkov Metsamaad ka kolme inimese surmaga [e59 lõppenud ] [e60 liiklusõnnetuse ] ajal.
+     e57 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e57 "sõnul"  AFTER  e58 "jälitas" 
+     e58 "jälitas"  BEFORE  DCT 
+     e58 "jälitas"  SIMULTANEOUS  e60 "liiklusõnnetuse" 
+     e58 "jälitas"  BEFORE-OR-OVERLAP  e61 "kaotas" 
+     e58 "jälitas"  BEFORE-OR-OVERLAP  e62 "põrkas" 
+     e59 "lõppenud"  BEFORE  DCT 
+     e59 "lõppenud"  IS_INCLUDED  e60 "liiklusõnnetuse" 
+     e60 "liiklusõnnetuse"  BEFORE  DCT 
+
+ s12  ( [t8 Juulis 1999 ] [e61 kaotas ] Metsamaa Mercedes Tabasalus suurel kiirusel juhitavuse ja [e62 põrkas ] kokku kolme vastutuleva autoga . - PM )
+     e61 "kaotas"  IS_INCLUDED  t8 "Juulis 1999" 
+     e61 "kaotas"  BEFORE  DCT 
+     e61 "kaotas"  BEFORE  e62 "põrkas" 
+     e61 "kaotas"  AFTER  e64 "lasi" 
+     e61 "kaotas"  AFTER  e66 "tapeti" 
+     e61 "kaotas"  IS_INCLUDED  e63 "arvas" 
+     e62 "põrkas"  BEFORE  DCT 
+     e62 "põrkas"  AFTER  e64 "lasi" 
+     e62 "põrkas"  AFTER  e66 "tapeti" 
+     e62 "põrkas"  IS_INCLUDED  e63 "arvas" 
+
+ s13  " Ta [e63 arvas ] , et Metsamaa [e64 lasi ] [e65 tappa ] ta isa ( Jevgeni Bõkov noorema sama nimega isa [e66 tapeti ] [t9 aprillis ] oma kodumaja ees Tallinnas - PM ) .
+     e63 "arvas"  BEFORE  DCT 
+     e63 "arvas"  AFTER  e64 "lasi" 
+     e63 "arvas"  INCLUDES  e67 "sihtis" 
+     e64 "lasi"  BEFORE  DCT 
+     e64 "lasi"  BEFORE-OR-OVERLAP  e65 "tappa" 
+     e64 "lasi"  BEFORE  e67 "sihtis" 
+     e65 "tappa"  BEFORE  DCT 
+     e65 "tappa"  IDENTITY  e66 "tapeti" 
+     e66 "tapeti"  IS_INCLUDED  t9 "aprillis" 
+     e66 "tapeti"  BEFORE  DCT 
+     e66 "tapeti"  BEFORE  e67 "sihtis" 
+
+ s14  Avariipaiga lähedal metsatukas [e67 sihtis ] Metsamaa autot [t10 samal ajal ] vintpüss .
+     e67 "sihtis"  SIMULTANEOUS  t10 "samal ajal" 
+     e67 "sihtis"  BEFORE  DCT 
+     e67 "sihtis"  BEFORE-OR-OVERLAP  e68 "pööras" 
+     e67 "sihtis"  BEFORE  e69 "rääkis" 
+
+ s15  Ent siis [e68 pööras ] Metsamaa vastassuunavööndisse , " [e69 rääkis ] Polishtshuk .
+     e68 "pööras"  BEFORE  DCT 
+     e68 "pööras"  BEFORE  e69 "rääkis" 
+     e68 "pööras"  BEFORE  e70 "tappis" 
+     e69 "rääkis"  BEFORE-OR-OVERLAP  DCT 
+     e69 "rääkis"  AFTER  e70 "tappis" 
+
+ s16  [t11 Ligi kaks kuud hiljem ] [e70 tappis ] mõrvar Metsamaa siiski .
+     e70 "tappis"  IS_INCLUDED  t11 "Ligi kaks kuud hiljem" 
+     e70 "tappis"  BEFORE  DCT 
+     e70 "tappis"  AFTER  e72 "palkasid" 
+
+ s17  Polishtshuki [e71 versiooni ] järgi [e72 palkasid ] [e73 mõrva ] tellijad nii tema kui ka Metsamaa [e74 tapmiseks ] kaks meest .
+     e71 "versiooni"  INCLUDES  DCT 
+     e71 "versiooni"  AFTER  e72 "palkasid" 
+     e72 "palkasid"  BEFORE  DCT 
+     e72 "palkasid"  BEFORE  e73 "mõrva" 
+     e72 "palkasid"  BEFORE  e74 "tapmiseks" 
+     e72 "palkasid"  BEFORE  e75 "põgenenud" 
+     e72 "palkasid"  BEFORE  e76 "istub" 
+     e72 "palkasid"  BEFORE  e77 "ütles" 
+     e73 "mõrva"  BEFORE  DCT 
+     e73 "mõrva"  VAGUE  e74 "tapmiseks" ka IDENTITY
+     e74 "tapmiseks"  BEFORE  DCT 
+
+ s18  " Üks on arvatavasti Venemaale [e75 põgenenud ] , teine - mari rahvusest - [e76 istub ] kinni , " [e77 ütles ] Polishtshuk .
+     e75 "põgenenud"  BEFORE  DCT 
+     e75 "põgenenud"  BEFORE  e77 "ütles" 
+     e75 "põgenenud"  VAGUE  e76 "istub" 
+     e75 "põgenenud"  AFTER  e78 "oli täitja" 
+     e76 "istub"  INCLUDES  DCT 
+     e76 "istub"  INCLUDES  e77 "ütles" 
+     e76 "istub"  AFTER  e78 "oli täitja" 
+     e77 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e77 "ütles"  AFTER  e78 "oli täitja" 
+
+ s19  " Bõkov [e78 oli ] vaid [e79 tellimuse ] [e78 täitja ] .
+     e78 "oli täitja"  BEFORE  DCT 
+     e78 "oli täitja"  SIMULTANEOUS  e80 "oli" 
+     e79 "tellimuse"  BEFORE  DCT 
+     e79 "tellimuse"  BEFORE  e78 "oli täitja" 
+
+ s20  Tellijaid [e80 oli ] üks .
+     e80 "oli"  BEFORE  DCT 
+     e80 "oli"  BEFORE  e81 "ütle" 
+
+ s21  Kes , seda ma [t12 praegu ] ei [e81 ütle ] . "
+     e81 "ütle"  IS_INCLUDED  t12 "praegu" 
+     e81 "ütle"  BEFORE-OR-OVERLAP  DCT 
+     e81 "ütle"  AFTER  e83 "oli" 
+
+ s22  Polishtshuki [e82 sõnul ] [e83 oli ] tapetavate nimekirjas veel kaks isikut , kes [e84 on ] [t13 seni ] [e84 elus ] .
+     e82 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e82 "sõnul"  AFTER  e83 "oli" 
+     e83 "oli"  BEFORE  DCT 
+     e83 "oli"  BEFORE-OR-OVERLAP  e84 "on elus" 
+     e83 "oli"  BEFORE  e86 "ütles" 
+     e83 "oli"  IS_INCLUDED  e85 "pole" 
+     e84 "on elus"  BEFORE-OR-OVERLAP  t13 "seni" 
+     e84 "on elus"  BEFORE-OR-OVERLAP  DCT 
+
+ s23  Neist ühel [e85 pole ] turuga vähimatki seost , [e86 ütles ] turujuht .
+     e85 "pole"  INCLUDES  DCT 
+     e85 "pole"  INCLUDES  e86 "ütles" 
+     e85 "pole"  SIMULTANEOUS  e87 "on" 
+     e86 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e86 "ütles"  IS_INCLUDED  e87 "on" 
+
+ s24  Kes [e87 on ] Andrei Dudotshkin ?
+     e87 "on"  INCLUDES  DCT 
+     e87 "on"  INCLUDES  e88 "töötas" ka VAGUE
+
+ s25  Kas ta [e88 töötas ] turul ?
+     e88 "töötas"  BEFORE  DCT 
+     e88 "töötas"  SIMULTANEOUS  e89 "töötanud" 
+
+ s26  Ei [e89 töötanud ] .
+     e89 "töötanud"  BEFORE  DCT 
+     e89 "töötanud"  BEFORE-OR-OVERLAP  e90 "kuulnud" 
+
+ s27  Ma ei ole tast [e90 kuulnud ] ka .
+     e90 "kuulnud"  BEFORE-OR-OVERLAP  DCT 
+     e90 "kuulnud"  SIMULTANEOUS  e91 "tea" 
+
+ s28  Ma ei [e91 tea ] temast midagi .
+     e91 "tea"  BEFORE-OR-OVERLAP  DCT 
+     e91 "tea"  AFTER  e92 "õppis" 
+
+ s29  Sergei Normanov [e92 õppis ] Dudotshkiniga koos kutsekoolis .
+     e92 "õppis"  BEFORE  DCT 
+     e92 "õppis"  IS_INCLUDED  e93 "tundnud" 
+
+ s30  Guznetsovi ( teist vahialust - toim ) ta ei [e93 tundnud ] .
+     e93 "tundnud"  BEFORE  DCT 
+     e93 "tundnud"  VAGUE  e94 "on vanem" 
+
+ s31  Ta [e94 on ] Dudotshkinist [e94 vanem ] .
+     e94 "on vanem"  INCLUDES  DCT 
+     e94 "on vanem"  INCLUDES  e95 "väidab" 
+     e94 "on vanem"  INCLUDES  e96 "tappis" 
+
+ s32  Miks Dudotshkin [e95 väidab ] , et tema [e96 tappis ] Metsamaa ?
+     e95 "väidab"  INCLUDES  DCT 
+     e95 "väidab"  AFTER  e96 "tappis" 
+     e95 "väidab"  IS_INCLUDED  e97 "on" 
+     e96 "tappis"  BEFORE  DCT 
+     e96 "tappis"  IS_INCLUDED  e97 "on" ka VAGUE
+
+ s33  Ta [e97 on ] ju narkomaan .
+     e97 "on"  INCLUDES  DCT 
+     e97 "on"  INCLUDES  e98 "Pane" 
+     e97 "on"  INCLUDES  e99 "ütleb" 
+     e97 "on"  VAGUE  e100 "oled" 
+
+ s34  [e98 Pane ] süstal lauale ja ta [e99 ütleb ] , et sa [e100 oled ] ta isa .
+     e98 "Pane"  VAGUE  DCT 
+     e98 "Pane"  BEFORE  e99 "ütleb" 
+     e98 "Pane"  VAGUE  e101 "suudaks" 
+     e99 "ütleb"  VAGUE  DCT 
+     e99 "ütleb"  VAGUE  e100 "oled" 
+     e99 "ütleb"  VAGUE  e101 "suudaks" 
+     e100 "oled"  VAGUE  DCT 
+     e100 "oled"  VAGUE  e101 "suudaks" 
+
+ s35  Kas ta [e101 suudaks ] [e102 elada ] [t14 aasta ] pärast [e103 tulistamist ] , kui ta on [e104 mõrvatellimuse ] [e105 täitnud ] ?
+     e101 "suudaks"  VAGUE  DCT 
+     e101 "suudaks"  AFTER  e105 "täitnud" 
+     e101 "suudaks"  BEFORE-OR-OVERLAP  e102 "elada" 
+     e101 "suudaks"  VAGUE  e106 "koristanud" 
+     e102 "elada"  OVERLAP-OR-AFTER  t14 "aasta" 
+     e102 "elada"  VAGUE  DCT 
+     e102 "elada"  AFTER  e103 "tulistamist" 
+     e102 "elada"  AFTER  e105 "täitnud" 
+     e103 "tulistamist"  BEFORE-OR-OVERLAP  t14 "aasta" 
+     e103 "tulistamist"  VAGUE  DCT 
+     e103 "tulistamist"  AFTER  e104 "mõrvatellimuse" 
+     e104 "mõrvatellimuse"  VAGUE  DCT 
+     e104 "mõrvatellimuse"  BEFORE  e105 "täitnud" 
+     e105 "täitnud"  VAGUE  DCT 
+
+ s36  Tellijad oleks ta kohe [e106 koristanud ] .
+     e106 "koristanud"  BEFORE  DCT 
+     e106 "koristanud"  VAGUE  e108 "rääkida" 
+
+ s37  Ta [e107 võib ] ju välja [e108 rääkida ] .
+     e107 "võib"  VAGUE  DCT 
+     e107 "võib"  BEFORE-OR-OVERLAP  e108 "rääkida" 
+     e108 "rääkida"  VAGUE  DCT 
+     e108 "rääkida"  VAGUE  e109 "ütleb" 
+
+ s38  Miks ta seda siis [e109 ütleb ] ?
+     e109 "ütleb"  INCLUDES  DCT 
+     e109 "ütleb"  VAGUE  e110 "tea" 
+     e109 "ütleb"  VAGUE  e111 "ütles" 
+     e109 "ütleb"  VAGUE  e112 "leiti" 
+
+ s39  Ma ei [e110 tea ] , mida ta [e111 ütles ] või kas [e112 leiti ] püstol .
+     e110 "tea"  INCLUDES  DCT 
+     e110 "tea"  AFTER  e111 "ütles" 
+     e110 "tea"  AFTER  e112 "leiti" 
+     e110 "tea"  INCLUDES  e113 "tuleb" 
+     e111 "ütles"  BEFORE  DCT 
+     e111 "ütles"  VAGUE  e112 "leiti" 
+     e111 "ütles"  BEFORE  e113 "tuleb" 
+     e112 "leiti"  BEFORE  DCT 
+     e112 "leiti"  BEFORE  e113 "tuleb" 
+
+ s40  Seda [e113 tuleb ] politseilt [e114 küsida ] .
+     e113 "tuleb"  OVERLAP-OR-AFTER  DCT 
+     e113 "tuleb"  BEFORE-OR-OVERLAP  e114 "küsida" 
+     e113 "tuleb"  OVERLAP-OR-AFTER  e115 "kommenteeri" 
+     e114 "küsida"  OVERLAP-OR-AFTER  DCT 
+
+ s41  Ma ei [e115 kommenteeri ] seda , sest ma ei [e116 tea ] , mis [e117 toimub ] .
+     e115 "kommenteeri"  OVERLAP-OR-AFTER  DCT 
+     e115 "kommenteeri"  IS_INCLUDED  e116 "tea" 
+     e115 "kommenteeri"  IS_INCLUDED  e119 "on provokatsioon" 
+     e116 "tea"  INCLUDES  DCT 
+     e116 "tea"  IS_INCLUDED  e117 "toimub" 
+     e117 "toimub"  INCLUDES  DCT 
+
+ s42  See , mis [e118 toimub ] , [e119 on ] [e119 provokatsioon ] .
+     e118 "toimub"  INCLUDES  DCT 
+     e118 "toimub"  SIMULTANEOUS  e119 "on provokatsioon" 
+     e119 "on provokatsioon"  INCLUDES  DCT 
+     e119 "on provokatsioon"  INCLUDES  e122 "üritavad" 
+
+ s43  Kuna nad ei [e120 suutud ] mind [e121 tappa ] , siis nüüd [e122 üritavad ] nad [e123 tappa ] mind puhaste kätega .
+     e120 "suutud"  BEFORE  DCT 
+     e120 "suutud"  BEFORE-OR-OVERLAP  e121 "tappa" 
+     e120 "suutud"  BEFORE  e122 "üritavad" 
+     e121 "tappa"  BEFORE  DCT 
+     e121 "tappa"  BEFORE  e122 "üritavad" 
+     e121 "tappa"  BEFORE  e123 "tappa" 
+     e122 "üritavad"  OVERLAP-OR-AFTER  DCT 
+     e122 "üritavad"  BEFORE-OR-OVERLAP  e123 "tappa" 
+     e122 "üritavad"  VAGUE  e124 "mõelge" 
+     e122 "üritavad"  VAGUE  e125 "tahtsid" 
+     e123 "tappa"  OVERLAP-OR-AFTER  DCT 
+
+ s44  Kes ?
+ s45  Konkurendid .
+ s46  No [e124 mõelge ] , kes [t15 tollal ] [e125 tahtsid ] turgu endale ?
+     e124 "mõelge"  OVERLAP-OR-AFTER  DCT 
+     e124 "mõelge"  AFTER  e125 "tahtsid" 
+     e124 "mõelge"  AFTER  e126 "tahtsid" 
+     e125 "tahtsid"  SIMULTANEOUS  t15 "tollal" 
+     e125 "tahtsid"  BEFORE  DCT 
+     e125 "tahtsid"  SIMULTANEOUS  e126 "tahtsid" 
+
+ s47  Paljud [e126 tahtsid ] turgu .
+     e126 "tahtsid"  BEFORE  DCT 
+     e126 "tahtsid"  BEFORE  e129 "võtta" 
+
+ s48  Kui mind [e127 poleks ] , [e128 saaks ] turu tagasi [e129 võtta ] .
+     e127 "poleks"  INCLUDES  DCT 
+     e127 "poleks"  INCLUDES  e129 "võtta" 
+     e128 "saaks"  AFTER  DCT 
+     e128 "saaks"  BEFORE-OR-OVERLAP  e129 "võtta" 
+     e129 "võtta"  AFTER  DCT 
+     e129 "võtta"  VAGUE  e130 "krediiti pole" 
+     e129 "võtta"  VAGUE  e131 "tööta" 
+
+ s49  [t16 Kaks kuud ] [e130 krediiti ] [e130 pole ] ja turg ei [e131 tööta ] enam .
+     e130 "krediiti pole"  SIMULTANEOUS  t16 "Kaks kuud" 
+     e130 "krediiti pole"  VAGUE  DCT 
+     e130 "krediiti pole"  BEFORE-OR-OVERLAP  e131 "tööta" 
+     e130 "krediiti pole"  IS_INCLUDED  e132 "teavad" 
+     e131 "tööta"  VAGUE  DCT 
+     e131 "tööta"  IS_INCLUDED  e132 "teavad" 
+
+ s50  Nad [e132 teavad ] seda .
+     e132 "teavad"  INCLUDES  DCT 
+     e132 "teavad"  INCLUDES  e134 "olid" 
+
+ s51  Teise Keskturule [e133 konkureerinud ] firma Rivingtoni Halduse OÜ taga [e134 olid ] Meelis Lao ja jurist Aivar Pihlak .
+     e133 "konkureerinud"  BEFORE  DCT 
+     e133 "konkureerinud"  VAGUE  e134 "olid" 
+     e134 "olid"  BEFORE-OR-OVERLAP  DCT 
+     e134 "olid"  INCLUDES  e136 "tellida" 
+
+ s52  Kas nemad [e135 võisid ] [e136 tellida ] [e137 mõrvad ] ?
+     e135 "võisid"  BEFORE  DCT 
+     e135 "võisid"  VAGUE  e136 "tellida" 
+     e136 "tellida"  BEFORE  DCT 
+     e136 "tellida"  BEFORE  e137 "mõrvad" 
+     e136 "tellida"  VAGUE  e138 "läheks" 
+     e137 "mõrvad"  BEFORE  DCT 
+
+ s53  Ei , Meelis ei [e138 läheks ] selle peale välja .
+     e138 "läheks"  INCLUDES  DCT 
+     e138 "läheks"  VAGUE  e140 "olete" 
+
+ s54  Kes te pärast Keskturu [e139 erastamist ] ameti poolest [e140 olete ] ?
+     e139 "erastamist"  BEFORE  DCT 
+     e139 "erastamist"  BEFORE  e140 "olete" 
+     e140 "olete"  INCLUDES  DCT 
+     e140 "olete"  VAGUE  e141 "ongi" 
+
+ s55  Koordinaator .
+ s56  Turu juhatuse koordinaator ja nõunik .
+ s57  Kas selline ametinimetus [e141 ongi ] töölepingus ?
+     e141 "ongi"  INCLUDES  DCT 
+     e141 "ongi"  SIMULTANEOUS  e142 "suur on" 
+
+ s58  Kui [e142 suur ] teie palk [e142 on ] ?
+     e142 "suur on"  INCLUDES  DCT 
+     e142 "suur on"  INCLUDES  e143 "Vaatab" 
+
+ s59  ( [e143 Vaatab ] lauakatte alt pabereid . )
+     e143 "Vaatab"  BEFORE-OR-OVERLAP  DCT 
+     e143 "Vaatab"  IS_INCLUDED  e144 "teenin" 
+
+ s60  Jah , koordinaator .
+ s61  7000 krooni [e144 teenin ] .
+     e144 "teenin"  INCLUDES  DCT 
+
+ s62  Allikas : EPL Online
+

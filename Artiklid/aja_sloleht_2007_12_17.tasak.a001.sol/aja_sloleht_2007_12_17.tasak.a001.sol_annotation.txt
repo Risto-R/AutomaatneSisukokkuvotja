@@ -1,0 +1,103 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a001.sol
+      DCT: 2007-12-17
+==================================================
+ s0  [t1 2009. aastast ] [e1 tuleb ] Saksamaal kõik majad [e2 soojustada ] nii , et kütteks [e3 kuluks ] energiat 30% vähem kui [t2 praegu ] , [e4 teatas ] minister Wolfgang Tiefensee .
+     e1 "tuleb"  OVERLAP-OR-AFTER  t1 "2009. aastast" 
+     e1 "tuleb"  AFTER  DCT 
+     e1 "tuleb"  AFTER  e3 "kuluks" 
+     e1 "tuleb"  AFTER  e4 "teatas" 
+     e1 "tuleb"  INCLUDES  e5 "karistatakse" 
+     e2 "soojustada"  OVERLAP-OR-AFTER  t1 "2009. aastast" 
+     e2 "soojustada"  AFTER  DCT 
+     e2 "soojustada"  AFTER  e4 "teatas" 
+     e2 "soojustada"  BEFORE  e3 "kuluks" 
+     e3 "kuluks"  AFTER  t2 "praegu" 
+     e3 "kuluks"  AFTER  DCT 
+     e3 "kuluks"  AFTER  e4 "teatas" 
+     e4 "teatas"  BEFORE-OR-OVERLAP  DCT 
+     e4 "teatas"  BEFORE  e5 "karistatakse" 
+
+ s1  Vastasel korral [e5 karistatakse ] majaomanikke kuni 50 000 euro suuruse trahviga .
+     e5 "karistatakse"  AFTER  DCT 
+     e5 "karistatakse"  AFTER  e7 "käia" 
+
+ s2  [t3 Tänavuste ] [t4 jõulude ajal ] [e6 võib ] energiaga veel pillavalt ümber [e7 käia ] . "
+     e6 "võib"  AFTER  DCT 
+     e6 "võib"  VAGUE  e7 "käia" 
+     e7 "käia"  SIMULTANEOUS  t4 "jõulude ajal" 
+     e7 "käia"  AFTER  DCT 
+     e7 "käia"  AFTER  e11 "arutleb" 
+     e7 "käia"  BEFORE  e12 "tasub" 
+     e7 "käia"  BEFORE  e9 "saavutama" 
+
+ s3  [t5 2020. aastaks ] [e8 peame ] [e9 saavutama ] küttekulutuste [e10 vähenemise ] 50 miljardi euro võrra , " [e11 arutleb ] Tiefensee , et lõppkokkuvõttes [e12 tasub ] hoonete [e13 soojustamine ] , milleks majaomanikel [e14 kulub ] arvutuste järgi 15,2 miljardit eurot , ennast mitmekordselt ära .
+     e8 "peame"  AFTER  DCT 
+     e8 "peame"  VAGUE  e9 "saavutama" 
+     e9 "saavutama"  BEFORE-OR-OVERLAP  t5 "2020. aastaks" 
+     e9 "saavutama"  AFTER  DCT 
+     e9 "saavutama"  AFTER  e10 "vähenemise" 
+     e9 "saavutama"  AFTER  e11 "arutleb" 
+     e9 "saavutama"  AFTER  e15 "pole viimane" 
+     e10 "vähenemise"  AFTER  DCT 
+     e10 "vähenemise"  AFTER  e11 "arutleb" 
+     e11 "arutleb"  BEFORE-OR-OVERLAP  DCT 
+     e11 "arutleb"  BEFORE  e12 "tasub" 
+     e11 "arutleb"  IS_INCLUDED  e15 "pole viimane" 
+     e12 "tasub"  AFTER  DCT 
+     e12 "tasub"  AFTER  e13 "soojustamine" 
+     e12 "tasub"  AFTER  e14 "kulub" 
+     e13 "soojustamine"  AFTER  DCT 
+     e14 "kulub"  AFTER  DCT 
+
+ s4  [t6 2009. aasta ] tähtaeg [e15 pole ] aga [e15 viimane ] .
+     e15 "pole viimane"  INCLUDES  DCT 
+     e15 "pole viimane"  BEFORE  e17 "tuleb" 
+
+ s5  Ministri [e16 arvates ] [e17 tuleb ] hiljemalt [t7 2012. aastal ] [e18 nõuda ] majaomanikelt uut [e19 tegevusplaani ] , et [e20 vähendada ] küttekulu veel 30% võrra .
+     e16 "arvates"  BEFORE-OR-OVERLAP  DCT 
+     e16 "arvates"  BEFORE  e17 "tuleb" 
+     e17 "tuleb"  OVERLAP-OR-AFTER  DCT 
+     e17 "tuleb"  VAGUE  e18 "nõuda" 
+     e17 "tuleb"  IS_INCLUDED  e22 "piisama" 
+     e18 "nõuda"  BEFORE-OR-OVERLAP  t7 "2012. aastal" 
+     e18 "nõuda"  AFTER  DCT 
+     e18 "nõuda"  BEFORE-OR-OVERLAP  e19 "tegevusplaani" 
+     e18 "nõuda"  BEFORE  e20 "vähendada" 
+     e19 "tegevusplaani"  AFTER  DCT 
+     e20 "vähendada"  AFTER  DCT 
+
+ s6  Ka [e21 peab ] uuenevatest energiaallikatest [e22 piisama ] 14% majade [e23 kütmiseks ] .
+     e21 "peab"  VAGUE  DCT 
+     e21 "peab"  VAGUE  e22 "piisama" 
+     e22 "piisama"  VAGUE  DCT 
+     e22 "piisama"  VAGUE  e23 "kütmiseks" 
+     e22 "piisama"  OVERLAP-OR-AFTER  e24 "panustanud" 
+     e23 "kütmiseks"  VAGUE  DCT 
+
+ s7  Saksamaa ongi järjest rohkem [e24 panustanud ] hoonetele päikesepaneelide [e25 paigaldamisse ] .
+     e24 "panustanud"  BEFORE-OR-OVERLAP  DCT 
+     e24 "panustanud"  INCLUDES  e25 "paigaldamisse" 
+     e24 "panustanud"  BEFORE-OR-OVERLAP  e26 "puudutab" ka VAGUE
+     e25 "paigaldamisse"  VAGUE  DCT 
+
+ s8  Korraldus [e26 puudutab ] siiski ainult uusi , alles ehitatavaid maju .
+     e26 "puudutab"  OVERLAP-OR-AFTER  DCT 
+     e26 "puudutab"  OVERLAP-OR-AFTER  e27 "loodavad" 
+     e26 "puudutab"  SIMULTANEOUS  e28 "elavneb" 
+     e26 "puudutab"  SIMULTANEOUS  e30 "tulebki" 
+
+ s9  Sakslased [e27 loodavad ] , et rohelise energiakauba müük maailmas [e28 elavneb ] , ja kuivõrd Saksamaa [e29 on ] seadmete valmistamisel teistest ees , siis [e30 tulebki ] tehastesse 300 000 töökohta juurde , et ostjate [e31 nõudlust ] [e32 rahuldada ] .
+     e27 "loodavad"  INCLUDES  DCT 
+     e27 "loodavad"  BEFORE  e28 "elavneb" 
+     e27 "loodavad"  SIMULTANEOUS  e29 "on" 
+     e28 "elavneb"  AFTER  DCT 
+     e29 "on"  INCLUDES  DCT 
+     e29 "on"  BEFORE  e30 "tulebki" 
+     e30 "tulebki"  AFTER  DCT 
+     e30 "tulebki"  BEFORE-OR-OVERLAP  e32 "rahuldada" 
+     e31 "nõudlust"  AFTER  DCT 
+     e31 "nõudlust"  BEFORE  e32 "rahuldada" 
+     e32 "rahuldada"  AFTER  DCT 
+
+

@@ -1,3 +1,9 @@
 <div0><head> Rahvuskultuuri Fond jagas auhindu </head><bibl> <author> SLÕL </author> </bibl>
-<p rend="bold"> <s> Eesti Rahvuskultuuri Fondi ( ERKF ) sponsorite ja stipendiaatide austamiskontserdil eile pärastlõunal Mustpeade Majas andis sihtasutuse nõukogu esimees Eri Klas kätte tänavused elutöö tänuauhinnad . </s> </p>
-<p> <s> Need ERKFi poolt traditsiooniliselt välja antavad auhinnad koos 50 000 krooni suuruse stipendiumiga pälvisid tänavu kunstnik Jüri Arrak , akadeemik Endel Lippmaa , laulja Teo Maiste ja fotograaf Kalju Suur . </s> <s> Vastavalt Eesti Rahvuskultuuri Fondi nõukogu otsusele eraldab sihtasutus 2008. aastal stipendiumide ja toetuste maksmiseks 4 890 402 krooni . </s> </p></div0>
+<p rend="bold">
+ <s> Eesti Rahvuskultuuri Fondi ( ERKF ) sponsorite ja stipendiaatide austamiskontserdil eile pärastlõunal Mustpeade Majas andis sihtasutuse nõukogu esimees Eri Klas kätte tänavused elutöö tänuauhinnad . </s> 
+</p>
+<p>
+ <s> Need ERKFi poolt traditsiooniliselt välja antavad auhinnad koos 50 000 krooni suuruse stipendiumiga pälvisid tänavu kunstnik Jüri Arrak , akadeemik Endel Lippmaa , laulja Teo Maiste ja fotograaf Kalju Suur . </s>
+<s> Vastavalt Eesti Rahvuskultuuri Fondi nõukogu otsusele eraldab sihtasutus 2008. aastal stipendiumide ja toetuste maksmiseks 4 890 402 krooni . </s> 
+</p>
+</div0>

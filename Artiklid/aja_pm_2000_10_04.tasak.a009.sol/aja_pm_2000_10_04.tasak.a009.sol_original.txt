@@ -1,15 +1,58 @@
 <div0><head> Tartu on veel aidsivaba </head>
-<p> <bibl> <author> <s> Kristel Rõss , kristel.ross@postimees.ee </s> </author> </bibl> </p>
-<p rend="bold"> <s> Aidsipuhang Narvas ehmatas ka tartlasi - kitsukese aidsikabineti ukse taha tekkis isegi järjekord , kuid ühtki HIV-positiivset testitute hulgas polnud . </s> </p>
-<p> <s> “ Eriti hirmunud olid need , kes sageli välismaal käivad , ” nentis Tartu aidsiennetuskeskuse spetsialist Olga Notberg . </s> <s> Nii mõnelegi kontrolli tulnule oleks ära kulunud psühholoogi abi , lisas ta . </s> </p>
-<p> <s> Tartu noorte nõustamiskeskuse arstil Karin Mõistusel pole olnud ühtki aidsihaiget patsienti . </s> <s> “ Paaril korral on noored minult küll küsinud , kus saab aidsitesti teha , ” ütles ta . </s> <s> Ka narkomaane on Tartu patsientide hulgas harva , lisas arst . </s> </p>
-<p> <s> Riigi finantseeritavas aidsikabinetis käib vereproovi andmas igal nädalal 20-30 inimest . </s> <s> “ Õnneks on aidsiproov andnud positiivse tulemuse vaid ühel korral ja seegi osutus valepositiivseks , ” on Olga Notberg rahul . </s> </p>
-<p> <s> “ Positiivse vastuse korral teen alati kordusproovi , ” selgitas spetsialist . </s> <s> Nakatunu vereproov läheb Tallinnasse Merimetsa haigla kontroll-laborisse , kus saab teha eriti täpseid uuringuid . </s> </p>
-<p> <s> Seal pole enam võimalik anonüümseks jääda , sest tuleb esitada haigekassa kaart . </s> <s> Aidsi ravi on kallis , ühe kuuri maksumus on 10 000 - 11 000 krooni kuus . </s> <s> Ravimid ei võta küll haigust ära , kuid pärsivad viiruse paljunemist . </s> </p>
-<p> <s> Eelmisel aastal nõustas Notberg HIV-positiivset Põlva noormeest , kes sai nakkuse Rootsis . </s> <s> Notbergi hinnangul ei ole Eesti ühiskond veel selleks valmis , et leppida aidsihaigega enda kõrval . </s> </p>
-<p> <s> “ Mujal maailmas on HI-viiruse kandja ahistamine karistatav , ” lisas ta . </s> <s> Inimene võib tööd jätkata seni , kui ta oma ülesannetega toime tuleb . </s> <s> Pealegi ei ole aids tavaolukorras nakkav , viirus levib ainult sugulisel teel , süstides või vere kaudu . </s> </p>
-<p> <s> Ometi ei usu Notberg , et Tartus HI-viiruse kandjaid pole . </s> <s> “ Tõenäoliselt pole nad lihtsalt sattunud Tartu aidsikabineti vaatevälja , ” nentis ta . </s> </p>
-<p> <s> Riigi finantseeritavaid aidsiennetuskeskusi on Eestis kolm : Tartus , Tallinnas ja Narvas . </s> </p>
-<p> <s> Aidsiennetuskeskuse üks ülesandeid on jagada noortele konsultatsiooni . </s> <s> Notberg pakub koolide terviseõpetajatele võimalust tellida noortele loenguid turvaseksist ning uimastitest ja aidsist hoidumisest . </s> </p>
-<p> <s> “ Noored ei karda ju midagi , nemad usuvad , et aidsi võib saada ainult kusagil Aafrikas , ” tõdes ta . </s> <s> Ometi on Eestiski aidsi surnud üle 20 inimese . </s> </p>
-<p> <s> Aidsi põhjustav viirus hävitab organismi immuunsüsteemi , mis peaks inimest nii viiruste kui bakterite eest kaitsma . </s> <s> Notberg tutvustab noortele aidsi esmaseid sümptomeid : väsimus , palavik , lümfisõlmede suurenemine , kehakaalu langus jms. </s> </p></div0>
+<p>
+ <bibl> <author> <s> Kristel Rõss , kristel.ross@postimees.ee </s> </author> </bibl> 
+</p>
+<p rend="bold">
+ <s> Aidsipuhang Narvas ehmatas ka tartlasi - kitsukese aidsikabineti ukse taha tekkis isegi järjekord , kuid ühtki HIV-positiivset testitute hulgas polnud . </s> 
+</p>
+<p>
+ <s> “ Eriti hirmunud olid need , kes sageli välismaal käivad , ” nentis Tartu aidsiennetuskeskuse spetsialist Olga Notberg . </s>
+<s> Nii mõnelegi kontrolli tulnule oleks ära kulunud psühholoogi abi , lisas ta . </s> 
+</p>
+<p>
+ <s> Tartu noorte nõustamiskeskuse arstil Karin Mõistusel pole olnud ühtki aidsihaiget patsienti . </s>
+<s> “ Paaril korral on noored minult küll küsinud , kus saab aidsitesti teha , ” ütles ta . </s>
+<s> Ka narkomaane on Tartu patsientide hulgas harva , lisas arst . </s> 
+</p>
+<p>
+ <s> Riigi finantseeritavas aidsikabinetis käib vereproovi andmas igal nädalal 20-30 inimest . </s>
+<s> “ Õnneks on aidsiproov andnud positiivse tulemuse vaid ühel korral ja seegi osutus valepositiivseks , ” on Olga Notberg rahul . </s> 
+</p>
+<p>
+ <s> “ Positiivse vastuse korral teen alati kordusproovi , ” selgitas spetsialist . </s>
+<s> Nakatunu vereproov läheb Tallinnasse Merimetsa haigla kontroll-laborisse , kus saab teha eriti täpseid uuringuid . </s> 
+</p>
+<p>
+ <s> Seal pole enam võimalik anonüümseks jääda , sest tuleb esitada haigekassa kaart . </s>
+<s> Aidsi ravi on kallis , ühe kuuri maksumus on 10 000 - 11 000 krooni kuus . </s>
+<s> Ravimid ei võta küll haigust ära , kuid pärsivad viiruse paljunemist . </s> 
+</p>
+<p>
+ <s> Eelmisel aastal nõustas Notberg HIV-positiivset Põlva noormeest , kes sai nakkuse Rootsis . </s>
+<s> Notbergi hinnangul ei ole Eesti ühiskond veel selleks valmis , et leppida aidsihaigega enda kõrval . </s> 
+</p>
+<p>
+ <s> “ Mujal maailmas on HI-viiruse kandja ahistamine karistatav , ” lisas ta . </s>
+<s> Inimene võib tööd jätkata seni , kui ta oma ülesannetega toime tuleb . </s>
+<s> Pealegi ei ole aids tavaolukorras nakkav , viirus levib ainult sugulisel teel , süstides või vere kaudu . </s> 
+</p>
+<p>
+ <s> Ometi ei usu Notberg , et Tartus HI-viiruse kandjaid pole . </s>
+<s> “ Tõenäoliselt pole nad lihtsalt sattunud Tartu aidsikabineti vaatevälja , ” nentis ta . </s> 
+</p>
+<p>
+ <s> Riigi finantseeritavaid aidsiennetuskeskusi on Eestis kolm : Tartus , Tallinnas ja Narvas . </s> 
+</p>
+<p>
+ <s> Aidsiennetuskeskuse üks ülesandeid on jagada noortele konsultatsiooni . </s>
+<s> Notberg pakub koolide terviseõpetajatele võimalust tellida noortele loenguid turvaseksist ning uimastitest ja aidsist hoidumisest . </s> 
+</p>
+<p>
+ <s> “ Noored ei karda ju midagi , nemad usuvad , et aidsi võib saada ainult kusagil Aafrikas , ” tõdes ta . </s>
+<s> Ometi on Eestiski aidsi surnud üle 20 inimese . </s> 
+</p>
+<p>
+ <s> Aidsi põhjustav viirus hävitab organismi immuunsüsteemi , mis peaks inimest nii viiruste kui bakterite eest kaitsma . </s>
+<s> Notberg tutvustab noortele aidsi esmaseid sümptomeid : väsimus , palavik , lümfisõlmede suurenemine , kehakaalu langus jms. </s> 
+</p>
+</div0>

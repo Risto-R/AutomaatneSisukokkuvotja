@@ -1,10 +1,31 @@
 <div0><head> Suur Tõll võib Admiraliteedi basseini jõuda kuu lõpuks </head>
-<p> <bibl> <author> <s> Jaanus Putting , jaanus.putting@postimees.ee </s> </author> </bibl> </p>
-<p> <s> Hundipea sadamas jäämurdja Tarmo naabruses oma saatust ootav muuseumilaev Suur Tõll võib uude koju Admiraliteedi basseinis jõuda selle kuu lõpuks , kuid alles siis , kui vajalik kokkulepe Tallinna Sadama ja Eesti Meremuuseumi vahel saab sõlmitud . </s> </p>
-<p> <s> Eesti Meremuuseumi direktor Urmas Dresen ütles , et seni on Tallinna Sadam ja meremuuseum jäämurdja Admiraliteedi basseini lubava lepingu punkte täpsustanud . </s> </p>
-<p> <s> “ Praegu on lepingu projekt Tallinna Sadamas , vastust sellele pole veel tulnud , ” sõnas Dresen . </s> </p>
-<p> <s> Urmas Dresen lisas , et ehkki muuseum on tänaseks põhimõtteliselt kokku leppinud ka basseini süvendama hakkava ettevõttega , ei saa too enne midagi tegema hakata , kui sadama ja muuseumi vahel pole kindlat kokkulepet Suure Tõllu ületoomise kohta . </s> </p>
-<p> <s> “ Siis alles saame sõlmida lepingu ka süvendajaga , ” selgitas Dresen . </s> <s> “ Eks see kõik ole nüüd veninud ja viibinud ja kui alguses arvasime , et saame septembri lõpuks laeva sinna sisse , siis , kui nüüd ilm kah ära keerab , tuleb meil Suur Tõll ajutiselt viia Hundipea sadama väliskai äärest Paljassaare sadamasse . ” </s> </p>
-<p> <s> Dreseni sõnul valmistab meremuuseumile muret seegi , et praegu Hundipea sadamas seisvale jäälõhkujale huvilised kahjuks ei pääse . </s> </p>
-<p> <s> “ Ma ei taha ära sõnuda , kas Suur Tõll saab selle aastanumbri sees Admiraliteedi basseini äärde või mitte , ” lausus Dresen . </s> <s> “ Ma loodan siiski siiralt , et oktoobrikuuga saab ehk asjad lahendatud . ” </s> </p>
-<p> <s> Meremuuseum käis suvel välja idee idee rajada Admiraliteedi basseini äärde mereajaloo keskus , kus seisaksid nii jäämurdja Suur Tõll kui ka allveepaat Lembit . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Jaanus Putting , jaanus.putting@postimees.ee </s> </author> </bibl> 
+</p>
+<p>
+ <s> Hundipea sadamas jäämurdja Tarmo naabruses oma saatust ootav muuseumilaev Suur Tõll võib uude koju Admiraliteedi basseinis jõuda selle kuu lõpuks , kuid alles siis , kui vajalik kokkulepe Tallinna Sadama ja Eesti Meremuuseumi vahel saab sõlmitud . </s> 
+</p>
+<p>
+ <s> Eesti Meremuuseumi direktor Urmas Dresen ütles , et seni on Tallinna Sadam ja meremuuseum jäämurdja Admiraliteedi basseini lubava lepingu punkte täpsustanud . </s> 
+</p>
+<p>
+ <s> “ Praegu on lepingu projekt Tallinna Sadamas , vastust sellele pole veel tulnud , ” sõnas Dresen . </s> 
+</p>
+<p>
+ <s> Urmas Dresen lisas , et ehkki muuseum on tänaseks põhimõtteliselt kokku leppinud ka basseini süvendama hakkava ettevõttega , ei saa too enne midagi tegema hakata , kui sadama ja muuseumi vahel pole kindlat kokkulepet Suure Tõllu ületoomise kohta . </s> 
+</p>
+<p>
+ <s> “ Siis alles saame sõlmida lepingu ka süvendajaga , ” selgitas Dresen . </s>
+<s> “ Eks see kõik ole nüüd veninud ja viibinud ja kui alguses arvasime , et saame septembri lõpuks laeva sinna sisse , siis , kui nüüd ilm kah ära keerab , tuleb meil Suur Tõll ajutiselt viia Hundipea sadama väliskai äärest Paljassaare sadamasse . ” </s> 
+</p>
+<p>
+ <s> Dreseni sõnul valmistab meremuuseumile muret seegi , et praegu Hundipea sadamas seisvale jäälõhkujale huvilised kahjuks ei pääse . </s> 
+</p>
+<p>
+ <s> “ Ma ei taha ära sõnuda , kas Suur Tõll saab selle aastanumbri sees Admiraliteedi basseini äärde või mitte , ” lausus Dresen . </s>
+<s> “ Ma loodan siiski siiralt , et oktoobrikuuga saab ehk asjad lahendatud . ” </s> 
+</p>
+<p>
+ <s> Meremuuseum käis suvel välja idee idee rajada Admiraliteedi basseini äärde mereajaloo keskus , kus seisaksid nii jäämurdja Suur Tõll kui ka allveepaat Lembit . </s> 
+</p>
+</div0>

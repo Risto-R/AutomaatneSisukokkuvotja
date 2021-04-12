@@ -1,0 +1,45 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a015.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Eesti meistrivõistluste soosikuks [e1 kerkis ] Jelena Glebova puudumisel [t1 mullune ] Eesti juunioride [e2 meister ] Svetlana Issakova , kes 129 punktiga [e3 noppiski ] esikoha .
+     e1 "kerkis"  BEFORE-OR-OVERLAP  DCT 
+     e1 "kerkis"  AFTER  e2 "meister" 
+     e1 "kerkis"  SIMULTANEOUS  e3 "noppiski" 
+     e1 "kerkis"  SIMULTANEOUS  e4 "kogus" 
+     e2 "meister"  SIMULTANEOUS  t1 "mullune" 
+     e2 "meister"  BEFORE  DCT 
+     e3 "noppiski"  BEFORE-OR-OVERLAP  DCT 
+
+ s1  Suurima punktisumma ( 135 ) [e4 kogus ] aga hoopis juunioride parim , veel üks Anna Levandi õpilane Jasmine Alexandra Costa .
+     e4 "kogus"  BEFORE-OR-OVERLAP  DCT 
+     e4 "kogus"  IS_INCLUDED  e5 "harjutab" 
+     e4 "kogus"  IS_INCLUDED  e6 "on püüdlik" 
+     e4 "kogus"  IS_INCLUDED  e7 "treenib" 
+
+ s2  " Ta [e5 harjutab ] koos minuga , [e6 on ] väga [e6 püüdlik ] ja [e7 treenib ] väga hoolikalt .
+     e5 "harjutab"  INCLUDES  DCT 
+     e5 "harjutab"  VAGUE  e6 "on püüdlik" 
+     e5 "harjutab"  VAGUE  e7 "treenib" 
+     e5 "harjutab"  INCLUDES  e8 "on" 
+     e5 "harjutab"  INCLUDES  e9 "tunnustas" 
+     e6 "on püüdlik"  INCLUDES  DCT 
+     e6 "on püüdlik"  VAGUE  e7 "treenib" 
+     e6 "on püüdlik"  INCLUDES  e9 "tunnustas" 
+     e7 "treenib"  INCLUDES  DCT 
+     e7 "treenib"  INCLUDES  e8 "on" 
+     e7 "treenib"  INCLUDES  e9 "tunnustas" 
+
+ s3  Mul [e8 on ] tema võidu üle väga hea meel ! " [e9 tunnustas ] Glebova treeningukaaslast .
+     e8 "on"  INCLUDES  DCT 
+     e8 "on"  INCLUDES  e9 "tunnustas" 
+     e8 "on"  INCLUDES  e10 "võtsid koha" ka VAGUE
+     e9 "tunnustas"  BEFORE-OR-OVERLAP  DCT 
+     e9 "tunnustas"  VAGUE  e10 "võtsid koha" ka OVERLAP-OR-AFTER
+
+ s4  Naisteklassis [e10 võtsid ] teise-kolmanda [e10 koha ] Johanna Allik ja lühikava [e11 võitnud ] Olga Ikonnikova .
+     e10 "võtsid koha"  BEFORE-OR-OVERLAP  DCT 
+     e10 "võtsid koha"  AFTER  e11 "võitnud" 
+     e11 "võitnud"  BEFORE-OR-OVERLAP  DCT 
+
+

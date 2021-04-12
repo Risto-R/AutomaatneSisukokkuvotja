@@ -1,0 +1,86 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a022.sol
+      DCT: 2007-12-17
+==================================================
+ s0  [e1 Seisa ] sirgelt , kuid samas lõdvestunult , kõht sisse [e2 tõmmatud ] , puusad ja õlad sirged , rind [e3 lõdvestunud ] .
+     e1 "Seisa"  VAGUE  DCT 
+     e1 "Seisa"  SIMULTANEOUS  e2 "tõmmatud" 
+     e1 "Seisa"  SIMULTANEOUS  e6 "kantud" 
+     e2 "tõmmatud"  VAGUE  DCT 
+     e2 "tõmmatud"  SIMULTANEOUS  e3 "lõdvestunud" 
+     e3 "lõdvestunud"  VAGUE  DCT 
+
+ s1  Keha raskus [e4 peab ] [e5 olema ] võrdselt mõlemale jalale [e6 kantud ] .
+     e4 "peab"  VAGUE  DCT 
+     e4 "peab"  VAGUE  e5 "olema" 
+     e5 "olema"  VAGUE  DCT 
+     e5 "olema"  SIMULTANEOUS  e6 "kantud" 
+     e6 "kantud"  VAGUE  DCT 
+     e6 "kantud"  SIMULTANEOUS  e7 "tõstetud" 
+
+ s2  Lõug pole üles [e7 tõstetud ] , vaid pigem pisut all , [e8 jätkates ] pikka selgroojoont .
+     e7 "tõstetud"  VAGUE  DCT 
+     e7 "tõstetud"  SIMULTANEOUS  e8 "jätkates" 
+     e7 "tõstetud"  VAGUE  e9 "aitab" ka IS_INCLUDED
+     e8 "jätkates"  VAGUE  DCT 
+
+ s3  Pikk kael [e9 aitab ] [e10 vältida ] skolioosi ( kõvera selgroo ) [e11 tekkimist ] ja [e12 lõdvestada ] lõualihaseid .
+     e9 "aitab"  VAGUE  DCT 
+     e9 "aitab"  SIMULTANEOUS  e10 "vältida" 
+     e9 "aitab"  VAGUE  e13 "kasuta" 
+     e10 "vältida"  VAGUE  DCT 
+     e10 "vältida"  SIMULTANEOUS  e12 "lõdvestada" 
+     e10 "vältida"  VAGUE  e11 "tekkimist" 
+     e11 "tekkimist"  VAGUE  DCT 
+     e11 "tekkimist"  VAGUE  e12 "lõdvestada" 
+     e12 "lõdvestada"  VAGUE  DCT 
+
+ s4  Sirge rühi säilitamiseks [e13 kasuta ] vastaslihased selja ülaosas , et abaluid alla ja tahapoole [e14 tõmmata ] , [e15 hoides ] rinnakorvi avatuna , aga mitte ette [e16 lükatuna ] .
+     e13 "kasuta"  VAGUE  DCT 
+     e13 "kasuta"  BEFORE-OR-OVERLAP  e14 "tõmmata" 
+     e13 "kasuta"  VAGUE  e18 "hoida" 
+     e14 "tõmmata"  VAGUE  DCT 
+     e14 "tõmmata"  SIMULTANEOUS  e15 "hoides" 
+     e15 "hoides"  VAGUE  DCT 
+     e15 "hoides"  SIMULTANEOUS  e16 "lükatuna" 
+     e16 "lükatuna"  VAGUE  DCT 
+
+ s5  Õlad [e17 tuleb ] alati [e18 hoida ] lõdvestunult , nii [e19 sportides ] kui ka igapäevaelus .
+     e17 "tuleb"  VAGUE  DCT 
+     e17 "tuleb"  VAGUE  e18 "hoida" 
+     e18 "hoida"  VAGUE  DCT 
+     e18 "hoida"  SIMULTANEOUS  e19 "sportides" 
+     e18 "hoida"  VAGUE  e20 "vähendab" 
+     e18 "hoida"  VAGUE  e21 "paneb" 
+     e19 "sportides"  VAGUE  DCT 
+
+ s6  Pinge õlgades [e20 vähendab ] liikumise ulatust ja [e21 paneb ] lihaseid kokku [e22 tõmbuma ] .
+     e20 "vähendab"  VAGUE  DCT 
+     e20 "vähendab"  SIMULTANEOUS  e21 "paneb" 
+     e20 "vähendab"  VAGUE  e24 "pea" 
+     e21 "paneb"  VAGUE  DCT 
+     e21 "paneb"  VAGUE  e22 "tõmbuma" 
+     e21 "paneb"  VAGUE  e24 "pea" 
+     e22 "tõmbuma"  VAGUE  DCT 
+
+ s7  Kui [e23 istud ] toolil või põrandal , [e24 pea ] silmas õlgu ja alaselga .
+     e23 "istud"  VAGUE  DCT 
+     e23 "istud"  SIMULTANEOUS  e24 "pea" 
+     e24 "pea"  VAGUE  DCT 
+     e24 "pea"  VAGUE  e25 "Tõmba" 
+
+ s8  [e25 Tõmba ] kõht sisse , et mitte [e26 küürutada ] .
+     e25 "Tõmba"  VAGUE  DCT 
+     e25 "Tõmba"  BEFORE-OR-OVERLAP  e26 "küürutada" 
+     e25 "Tõmba"  VAGUE  e27 "Tõsta" 
+     e26 "küürutada"  VAGUE  DCT 
+
+ s9  [e27 Tõsta ] puusad üles , et selgroog [e28 oleks ] [e28 sirge ] ning selle alt [e29 jookseks ] joon kuni pealaeni välja .
+     e27 "Tõsta"  VAGUE  DCT 
+     e27 "Tõsta"  BEFORE  e28 "oleks sirge" 
+     e27 "Tõsta"  BEFORE  e29 "jookseks" 
+     e28 "oleks sirge"  VAGUE  DCT 
+     e28 "oleks sirge"  SIMULTANEOUS  e29 "jookseks" 
+     e29 "jookseks"  VAGUE  DCT 
+
+

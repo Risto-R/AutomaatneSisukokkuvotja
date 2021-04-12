@@ -1,18 +1,58 @@
 <div0><head> Poolitamiskava erutab põllumajandusülikooli </head>
-<p> <bibl> <author> <s> Tõnu Korrol , tartu@postimees.ee </s> </author> </bibl> </p>
-<p rend="bold"> <s> Põllumajandusülikoolis on tekitanud ärevust haridusministeeriumi kava jagada kool kaheks : luua tehnikaalade põhjal Tartusse uus rakenduslik kõrgkool ja liita ülejäänud erialad Tartu Ülikooliga . </s> </p>
-<p> <s> Haridusministrit nõustavas komisjonis tekkinud idee kohaselt rajataks Tartu Lennukolledži ja põllumajandusülikooli tehnikaalade põhjal Tartu tehnikakõrgkool . </s> </p>
-<p> <s> Tartu Ülikooliga liidetaks seega ainult osa erialasid , mitte terve põllumajandusülikool , nagu varem välja pakutud . </s> <s> Idee peaks teostuma 2002.-2003. aastal . </s> </p>
-<p rend="bold"> <s> Poolt ja vastu </s> </p>
-<p> <s> “ Mulle jäänud mulje järgi kalduvad komisjoni liikmed selgelt toetama põllumajandusülikooli poolitamist , ” tõdes Tartu Postimehele Eesti Üliõpilaskondade Liidu juhatuse esimees Leif Kalev , kes kuulub ka ise haridusministrit nõustavasse komisjoni . </s> </p>
-<p> <s> Kalevi hinnangul on kooli kaheks jagamine kasulik vaid siis , kui sellest muutub tudengitele midagi paremaks ja õnnestub ka raha kokku hoida . </s> <s> “ Tuleks küsida üliõpilaste arvamust , ” nentis ta . </s> </p>
-<p> <s> Põllumajandusülikooli rektor Henn Elmet peab kooli jagamise ja teiste kõrgkoolidega liitmise ideed mõtlematuseks . </s> <s> “ Teiste koolidega integreerumine saab anda ainult negatiivse tulemuse , ” on Elmet kindel . </s> </p>
-<p> <s> Tema väitel on paljud senised kõrgkoolide ja teadusasutuste integreerimise katsed ebaõnnestunud ning igas põhjamaaski on põllumajanduserialadele spetsialiseerunud ülikool alles jäänud . </s> </p>
-<p> <s> Henn Elmeti hinnangul muudab põllumajandusülikooli jagamise raskeks ka see , et selle teaduskonnad ja instituudid on omavahel väga tihedalt seotud . </s> </p>
-<p rend="bold"> <s> Aktiivne üliõpilasesindus </s> </p>
-<p> <s> Põllumajandusülikooli üliõpilasesinduse aseesimehe Karel Rüütli väitel on esinduse liikmed kooli jagamise vastu . </s> </p>
-<p> <s> Vastuseisu kinnitab ka üliõpilasesinduse korraldatud küsitlus . </s> <s> Küsimusele , kas nad pooldavad iseseisva põllumajandusülikooli kaotamist , vastas neli viiendikku tudengitest eitavalt . </s> </p>
-<p> <s> Rektor Elmet ei kuulu haridusministrit nõustavasse komisjoni , kuigi paljude teiste ülikoolide rektorid või esindajad kuuluvad . </s> <s> Rüütli hinnangul mõjutab see komisjoni otsuseid . </s> </p>
-<p> <s> “ Komisjoni liikmed kalduvad vaadetelt koalitsiooni poole , aga meie rektor pigem opositsiooni poole , ” märkis Rüütli , “ näib , et valitsuse koridorides on asi juba ära otsustatud . ” </s> </p>
-<p> <s> Põllumajandusülikooli tulevikuväljavaadete arutamiseks korraldab üliõpilasesindus täna arutelu , kuhu on esinema kutsutud haridusministeeriumi , ülikooli , põllumajandusülikooli ja lennukolledži esindajad . </s> </p>
-<p> <s> Tartu Ülikooli rektor Jaak Aaviksoo ega Tartu Lennukolledži rektor Villu Mikita ei soovinud eile Tartu Postimehele Eesti Põllumajandusülikooli võimaliku poolitamise ning sellest tulenevat erialade ülevõtmise teemat kommenteerida . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Tõnu Korrol , tartu@postimees.ee </s> </author> </bibl> 
+</p>
+<p rend="bold">
+ <s> Põllumajandusülikoolis on tekitanud ärevust haridusministeeriumi kava jagada kool kaheks : luua tehnikaalade põhjal Tartusse uus rakenduslik kõrgkool ja liita ülejäänud erialad Tartu Ülikooliga . </s> 
+</p>
+<p>
+ <s> Haridusministrit nõustavas komisjonis tekkinud idee kohaselt rajataks Tartu Lennukolledži ja põllumajandusülikooli tehnikaalade põhjal Tartu tehnikakõrgkool . </s> 
+</p>
+<p>
+ <s> Tartu Ülikooliga liidetaks seega ainult osa erialasid , mitte terve põllumajandusülikool , nagu varem välja pakutud . </s>
+<s> Idee peaks teostuma 2002.-2003. aastal . </s> 
+</p>
+<p rend="bold">
+ <s> Poolt ja vastu </s> 
+</p>
+<p>
+ <s> “ Mulle jäänud mulje järgi kalduvad komisjoni liikmed selgelt toetama põllumajandusülikooli poolitamist , ” tõdes Tartu Postimehele Eesti Üliõpilaskondade Liidu juhatuse esimees Leif Kalev , kes kuulub ka ise haridusministrit nõustavasse komisjoni . </s> 
+</p>
+<p>
+ <s> Kalevi hinnangul on kooli kaheks jagamine kasulik vaid siis , kui sellest muutub tudengitele midagi paremaks ja õnnestub ka raha kokku hoida . </s>
+<s> “ Tuleks küsida üliõpilaste arvamust , ” nentis ta . </s> 
+</p>
+<p>
+ <s> Põllumajandusülikooli rektor Henn Elmet peab kooli jagamise ja teiste kõrgkoolidega liitmise ideed mõtlematuseks . </s>
+<s> “ Teiste koolidega integreerumine saab anda ainult negatiivse tulemuse , ” on Elmet kindel . </s> 
+</p>
+<p>
+ <s> Tema väitel on paljud senised kõrgkoolide ja teadusasutuste integreerimise katsed ebaõnnestunud ning igas põhjamaaski on põllumajanduserialadele spetsialiseerunud ülikool alles jäänud . </s> 
+</p>
+<p>
+ <s> Henn Elmeti hinnangul muudab põllumajandusülikooli jagamise raskeks ka see , et selle teaduskonnad ja instituudid on omavahel väga tihedalt seotud . </s> 
+</p>
+<p rend="bold">
+ <s> Aktiivne üliõpilasesindus </s> 
+</p>
+<p>
+ <s> Põllumajandusülikooli üliõpilasesinduse aseesimehe Karel Rüütli väitel on esinduse liikmed kooli jagamise vastu . </s> 
+</p>
+<p>
+ <s> Vastuseisu kinnitab ka üliõpilasesinduse korraldatud küsitlus . </s>
+<s> Küsimusele , kas nad pooldavad iseseisva põllumajandusülikooli kaotamist , vastas neli viiendikku tudengitest eitavalt . </s> 
+</p>
+<p>
+ <s> Rektor Elmet ei kuulu haridusministrit nõustavasse komisjoni , kuigi paljude teiste ülikoolide rektorid või esindajad kuuluvad . </s>
+<s> Rüütli hinnangul mõjutab see komisjoni otsuseid . </s> 
+</p>
+<p>
+ <s> “ Komisjoni liikmed kalduvad vaadetelt koalitsiooni poole , aga meie rektor pigem opositsiooni poole , ” märkis Rüütli , “ näib , et valitsuse koridorides on asi juba ära otsustatud . ” </s> 
+</p>
+<p>
+ <s> Põllumajandusülikooli tulevikuväljavaadete arutamiseks korraldab üliõpilasesindus täna arutelu , kuhu on esinema kutsutud haridusministeeriumi , ülikooli , põllumajandusülikooli ja lennukolledži esindajad . </s> 
+</p>
+<p>
+ <s> Tartu Ülikooli rektor Jaak Aaviksoo ega Tartu Lennukolledži rektor Villu Mikita ei soovinud eile Tartu Postimehele Eesti Põllumajandusülikooli võimaliku poolitamise ning sellest tulenevat erialade ülevõtmise teemat kommenteerida . </s> 
+</p>
+</div0>

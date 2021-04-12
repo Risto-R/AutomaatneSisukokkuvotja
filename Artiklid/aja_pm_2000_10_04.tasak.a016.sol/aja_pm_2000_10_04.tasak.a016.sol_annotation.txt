@@ -1,0 +1,265 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a016.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Nooruk [e1 sai ] peksa ja [e2 jäi ] varast ilma
+     e1 "sai"  BEFORE  DCT 
+     e1 "sai"  BEFORE-OR-OVERLAP  e2 "jäi" 
+     e1 "sai"  BEFORE  e3 "teatati" 
+     e1 "sai"  SIMULTANEOUS  e4 "läinud" 
+     e2 "jäi"  BEFORE  DCT 
+     e2 "jäi"  AFTER  e4 "läinud" 
+     e2 "jäi"  BEFORE  e3 "teatati" 
+
+ s1  [t1 Laupäeva õhtul kell 23 ] [e3 teatati ] politseisse , et raudteejaama lähedal pargis olid kolm noormeest Kastani bussipeatuses [e4 läinud ] kallale [t2 17-aastase ] noorukile .
+     e3 "teatati"  SIMULTANEOUS  t1 "Laupäeva õhtul kell 23" 
+     e3 "teatati"  BEFORE  DCT 
+     e3 "teatati"  AFTER  e4 "läinud" 
+     e3 "teatati"  AFTER  e5 "peksti" 
+     e3 "teatati"  AFTER  e6 "võeti" 
+     e4 "läinud"  BEFORE  DCT 
+     e4 "läinud"  BEFORE  e6 "võeti" 
+     e4 "läinud"  SIMULTANEOUS  e5 "peksti" 
+
+ s2  Teda [e5 peksti ] ja [e6 võeti ] ära Nokia mobiiltelefon ning sadakond krooni .
+     e5 "peksti"  BEFORE  DCT 
+     e5 "peksti"  BEFORE-OR-OVERLAP  e6 "võeti" 
+     e5 "peksti"  BEFORE  e7 "võeti" (ka VAGUE
+     e6 "võeti"  BEFORE  DCT 
+     e6 "võeti"  BEFORE  e7 "võeti" (ka VAGUE
+
+ s3  Mehelt [e7 võeti ] nahktagi
+     e7 "võeti"  BEFORE  DCT 
+     e7 "võeti"  BEFORE  e8 "kutsuti" 
+
+ s4  [t3 Pühapäeva varahommikul kell 4 ] [e8 kutsuti ] politsei Riia mäele .
+     e8 "kutsuti"  SIMULTANEOUS  t3 "Pühapäeva varahommikul kell 4" 
+     e8 "kutsuti"  BEFORE  DCT 
+     e8 "kutsuti"  AFTER  e9 "võetud" 
+
+ s5  Seal ühes ärihoovis olid noorelt mehelt ära [e9 võetud ] nahktagi ja käekell .
+     e9 "võetud"  BEFORE  DCT 
+     e9 "võetud"  BEFORE  e10 "ronisid" (ka VAGUE
+
+ s6  Võõrad [e10 ronisid ] lastehaiglasse
+     e10 "ronisid"  BEFORE  DCT 
+     e10 "ronisid"  IDENTITY  e12 "ronimas" 
+     e10 "ronisid"  INCLUDES  e11 "märkas" 
+
+ s7  [t4 Pühapäeva hilisõhtul enne keskööd ] [e11 märkas ] Lunini tänava lastehaigla õde kahte meest läbi akna majja [e12 ronimas ] .
+     e11 "märkas"  IS_INCLUDED  t4 "Pühapäeva hilisõhtul enne keskööd" 
+     e11 "märkas"  BEFORE  DCT 
+     e11 "märkas"  IS_INCLUDED  e12 "ronimas" 
+     e11 "märkas"  BEFORE  e13 "teavitas" 
+     e11 "märkas"  IS_INCLUDED  e14 "asjast" 
+     e12 "ronimas"  BEFORE  DCT 
+     e12 "ronimas"  IDENTITY  e14 "asjast" 
+     e12 "ronimas"  INCLUDES  e13 "teavitas" 
+
+ s8  Naine [e13 teavitas ] [e14 asjast ] ESS Lõuna turvameest , viimane omakorda politseid .
+     e13 "teavitas"  BEFORE  DCT 
+     e13 "teavitas"  IS_INCLUDED  e14 "asjast" 
+     e13 "teavitas"  BEFORE  e15 "pistsid" 
+     e13 "teavitas"  BEFORE  e16 "põgenema" 
+     e13 "teavitas"  BEFORE  e17 "sai" 
+     e14 "asjast"  BEFORE  DCT 
+     e14 "asjast"  BEFORE-OR-OVERLAP  e16 "põgenema" 
+     e14 "asjast"  BEFORE  e17 "sai" 
+
+ s9  Sissetungijad [e15 pistsid ] [e16 põgenema ] , kuid politsei [e17 sai ] nad kätte .
+     e15 "pistsid"  BEFORE  DCT 
+     e15 "pistsid"  BEFORE-OR-OVERLAP  e16 "põgenema" 
+     e15 "pistsid"  BEFORE  e17 "sai" 
+     e15 "pistsid"  IS_INCLUDED  e18 "on tuntud" 
+     e16 "põgenema"  BEFORE  DCT 
+     e16 "põgenema"  BEFORE  e17 "sai" 
+     e16 "põgenema"  IS_INCLUDED  e18 "on tuntud" 
+     e17 "sai"  BEFORE  DCT 
+     e17 "sai"  IS_INCLUDED  e18 "on tuntud" 
+
+ s10  Tabatud , [t5 36-aastane ] Allan ja [t6 39-aastane ] Vladimir , [e18 on ] politseile hästi [e18 tuntud ] .
+     e18 "on tuntud"  INCLUDES  DCT 
+     e18 "on tuntud"  INCLUDES  e19 "Tabati" (ka VAGUE
+
+ s11  [e19 Tabati ] keskealine rattavaras
+     e19 "Tabati"  BEFORE  DCT 
+     e19 "Tabati"  BEFORE  e20 "kutsuti" 
+     e19 "Tabati"  SIMULTANEOUS  e21 "saadud" 
+
+ s12  [t7 Teisipäeval kell 15.44 ] [e20 kutsuti ] politsei Anne tänava viiekorruselise maja juurde : rattavaras on kätte [e21 saadud ] .
+     e20 "kutsuti"  SIMULTANEOUS  t7 "Teisipäeval kell 15.44" 
+     e20 "kutsuti"  BEFORE  DCT 
+     e20 "kutsuti"  AFTER  e21 "saadud" 
+     e20 "kutsuti"  AFTER  e23 "näinud" 
+     e20 "kutsuti"  AFTER  e24 "otsustanud" 
+     e20 "kutsuti"  BEFORE  e22 "seletas" 
+     e21 "saadud"  BEFORE  DCT 
+     e21 "saadud"  AFTER  e23 "näinud" 
+     e21 "saadud"  AFTER  e24 "otsustanud" 
+     e21 "saadud"  BEFORE  e22 "seletas" 
+
+ s13  Tabatu , [t8 50-aastane ] mees , [e22 seletas ] , et oli [e23 näinud ] valveta ja lukustamata ratast seina ääres ning [e24 otsustanud ] selle oma keldrisse varaste eest varju [e25 viia ] .
+     e22 "seletas"  BEFORE  DCT 
+     e22 "seletas"  AFTER  e23 "näinud" 
+     e22 "seletas"  VAGUE  e26 "leidis" 
+     e23 "näinud"  BEFORE  DCT 
+     e23 "näinud"  BEFORE  e24 "otsustanud" 
+     e24 "otsustanud"  BEFORE  DCT 
+     e24 "otsustanud"  BEFORE-OR-OVERLAP  e25 "viia" 
+     e25 "viia"  BEFORE  DCT 
+
+ s14  Naine [e26 leidis ] oma mehe [e27 poonuna ]
+     e26 "leidis"  BEFORE  DCT 
+     e26 "leidis"  AFTER  e27 "poonuna" 
+     e26 "leidis"  IDENTITY  e28 "leidis" 
+     e27 "poonuna"  BEFORE  DCT 
+
+ s15  [t9 Teisipäeval kell 16 ] [e28 leidis ] noor naine Luunja vallas Kavastu külas oma mehe [e29 poonuna ] .
+     e28 "leidis"  SIMULTANEOUS  t9 "Teisipäeval kell 16" 
+     e28 "leidis"  BEFORE  DCT 
+     e28 "leidis"  AFTER  e29 "poonuna" 
+     e28 "leidis"  IS_INCLUDED  e31 "märke polnud" 
+     e29 "poonuna"  BEFORE  DCT 
+
+ s16  Võõra [e30 vägivalla ] [e31 märke ] [e31 polnud ] .
+     e30 "vägivalla"  BEFORE  DCT 
+     e30 "vägivalla"  BEFORE-OR-OVERLAP  e31 "märke polnud" 
+     e31 "märke polnud"  BEFORE  DCT 
+     e31 "märke polnud"  OVERLAP-OR-AFTER  e33 "jätnud" 
+
+ s17  Politsei pressiesindaja [e32 kinnitusel ] oli mees oma eluga ise hüvasti [e33 jätnud ] .
+     e32 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e32 "kinnitusel"  AFTER  e33 "jätnud" 
+     e33 "jätnud"  BEFORE  DCT 
+     e33 "jätnud"  BEFORE  e34 "rammis" (ka VAGUE
+
+ s18  Purjus juht [e34 rammis ] veokit
+     e34 "rammis"  BEFORE  DCT 
+     e34 "rammis"  OVERLAP-OR-AFTER  e35 "kihutas" 
+
+ s19  [t10 Teisipäeval kell 18.20 ] [e35 kihutas ] [e36 joobnud ] [t11 35-aastane ] Meelis Konksi oma Mazdaga Kaare tänavas [e37 seisnud ] MAZi veoki esiosa alla .
+     e35 "kihutas"  SIMULTANEOUS  t10 "Teisipäeval kell 18.20" 
+     e35 "kihutas"  BEFORE  DCT 
+     e35 "kihutas"  IS_INCLUDED  e36 "joobnud" 
+     e35 "kihutas"  IS_INCLUDED  e37 "seisnud" 
+     e35 "kihutas"  BEFORE  e40 "vaielnud" 
+     e35 "kihutas"  IS_INCLUDED  e41 "pole purjus" 
+     e36 "joobnud"  BEFORE  DCT 
+     e37 "seisnud"  BEFORE-OR-OVERLAP  DCT 
+
+ s20  Politsei pressiesindaja [e38 andmeil ] oli mees isegi pärast [e39 avariid ] [e40 vaielnud ] , et tema [e41 pole ] [e41 purjus ] .
+     e38 "andmeil"  BEFORE-OR-OVERLAP  DCT 
+     e38 "andmeil"  AFTER  e39 "avariid" 
+     e38 "andmeil"  AFTER  e40 "vaielnud" 
+     e39 "avariid"  BEFORE  DCT 
+     e39 "avariid"  BEFORE  e40 "vaielnud" 
+     e40 "vaielnud"  BEFORE  DCT 
+     e40 "vaielnud"  IS_INCLUDED  e41 "pole purjus" 
+     e40 "vaielnud"  BEFORE  e42 "viis" 
+     e41 "pole purjus"  BEFORE  DCT 
+     e41 "pole purjus"  INCLUDES  e42 "viis" 
+
+ s21  Politsei [e42 viis ] mehe arestimaja kainestuskambrisse välja [e43 magama ] .
+     e42 "viis"  BEFORE  DCT 
+     e42 "viis"  BEFORE  e43 "magama" 
+     e42 "viis"  BEFORE  e44 "ründasid" (ka VAGUE
+     e43 "magama"  BEFORE  DCT 
+
+ s22  Asotsiaalid [e44 ründasid ] noorukit
+     e44 "ründasid"  BEFORE  DCT 
+     e44 "ründasid"  BEFORE  e45 "helistas" 
+     e44 "ründasid"  BEFORE  e46 "ütles" 
+     e44 "ründasid"  INCLUDES  e47 "tulnud" 
+     e44 "ründasid"  INCLUDES  e49 "nõudnud" 
+
+ s23  [t12 Teisipäeval kell 18.30 ] [e45 helistas ] bussijaamast politseisse [t13 18-aastane ] nooruk ja [e46 ütles ] , et tema juurde olid [e47 tulnud ] kaks [e48 joobnud ] asotsiaali ning [e49 nõudnud ] raha .
+     e45 "helistas"  SIMULTANEOUS  t12 "Teisipäeval kell 18.30" 
+     e45 "helistas"  BEFORE  DCT 
+     e45 "helistas"  BEFORE-OR-OVERLAP  e46 "ütles" 
+     e45 "helistas"  AFTER  e50 "võtsid" 
+     e46 "ütles"  OVERLAP-OR-AFTER  t12 "Teisipäeval kell 18.30" 
+     e46 "ütles"  BEFORE  DCT 
+     e46 "ütles"  AFTER  e47 "tulnud" 
+     e46 "ütles"  AFTER  e49 "nõudnud" 
+     e46 "ütles"  AFTER  e50 "võtsid" 
+     e47 "tulnud"  BEFORE  DCT 
+     e47 "tulnud"  BEFORE-OR-OVERLAP  e49 "nõudnud" 
+     e47 "tulnud"  IS_INCLUDED  e48 "joobnud" 
+     e47 "tulnud"  BEFORE  e50 "võtsid" 
+     e48 "joobnud"  BEFORE  DCT 
+     e49 "nõudnud"  BEFORE  DCT 
+     e49 "nõudnud"  IS_INCLUDED  e48 "joobnud" 
+     e49 "nõudnud"  BEFORE  e50 "võtsid" 
+
+ s24  Ründajad [e50 võtsid ] ära suitsupaki , tikud ja helikasseti .
+     e50 "võtsid"  BEFORE  DCT 
+     e50 "võtsid"  BEFORE  e51 "sai" 
+
+ s25  Politsei [e51 sai ] ründajad koos [e52 äravõetud ] asjadega kätte .
+     e51 "sai"  BEFORE  DCT 
+     e51 "sai"  AFTER  e52 "äravõetud" 
+     e51 "sai"  BEFORE  e53 "viidi" 
+     e52 "äravõetud"  BEFORE  DCT 
+
+ s26  Asotsiaalid [e53 viidi ] enne karistuse [e54 määramist ] kainestuskambrisse välja [e55 magama ] .
+     e53 "viidi"  BEFORE  DCT 
+     e53 "viidi"  BEFORE  e54 "määramist" 
+     e53 "viidi"  BEFORE  e55 "magama" 
+     e53 "viidi"  VAGUE  e56 "ajasid" 
+     e54 "määramist"  VAGUE  DCT 
+     e54 "määramist"  BEFORE  e55 "magama" 
+     e55 "magama"  BEFORE  DCT 
+
+ s27  Vanemad [e56 ajasid ] lapse kodust välja
+     e56 "ajasid"  BEFORE  DCT 
+     e56 "ajasid"  BEFORE  e57 "viis" 
+
+ s28  [t14 Teisipäeval kell 19.14 ] [e57 viis ] noorsoopolitsei turvakodusse [t15 10-aastase ] poisi , kes [e58 kurtis ] , et vanemad olid teda [e59 peksnud ] ja ta kodust välja [e60 ajanud ] .
+     e57 "viis"  SIMULTANEOUS  t14 "Teisipäeval kell 19.14" 
+     e57 "viis"  BEFORE  DCT 
+     e57 "viis"  AFTER  e58 "kurtis" 
+     e57 "viis"  IS_INCLUDED  e61 "tegeleb" 
+     e58 "kurtis"  BEFORE  DCT 
+     e58 "kurtis"  AFTER  e59 "peksnud" 
+     e58 "kurtis"  AFTER  e60 "ajanud" 
+     e59 "peksnud"  BEFORE  DCT 
+     e59 "peksnud"  BEFORE-OR-OVERLAP  e60 "ajanud" 
+     e60 "ajanud"  BEFORE  DCT 
+
+ s29  Asjaga [e61 tegeleb ] noorsoopolitsei .
+     e61 "tegeleb"  INCLUDES  DCT 
+     e61 "tegeleb"  INCLUDES  e62 "Pussitamine" (ka VAGUE
+
+ s30  [e62 Pussitamine ] Roosi tänavas
+     e62 "Pussitamine"  IS_INCLUDED  DCT 
+     e62 "Pussitamine"  BEFORE  e63 "kutsuti" 
+
+ s31  [t16 Eile öösel kell 1.31 ] [e63 kutsuti ] kiirabi Roosi tänava korterisse , kus oli [e64 pussitatud ] üht noormeest .
+     e63 "kutsuti"  SIMULTANEOUS  t16 "Eile öösel kell 1.31" 
+     e63 "kutsuti"  IS_INCLUDED  DCT 
+     e63 "kutsuti"  AFTER  e64 "pussitatud" 
+     e63 "kutsuti"  BEFORE  e65 "viidi" 
+     e64 "pussitatud"  IS_INCLUDED  DCT 
+
+ s32  Haavatu [e65 viidi ] traumapunkti .
+     e65 "viidi"  IS_INCLUDED  DCT 
+     e65 "viidi"  AFTER  e68 "vehkinud" 
+     e65 "viidi"  OVERLAP-OR-AFTER  e66 "leidis" 
+     e65 "viidi"  OVERLAP-OR-AFTER  e67 "selgus" 
+
+ s33  Politsei [e66 leidis ] korterist kolm noort meest ja ühe naise , [e67 selgus ] ka , kes oli noaga [e68 vehkinud ] .
+     e66 "leidis"  IS_INCLUDED  DCT 
+     e66 "leidis"  BEFORE  e67 "selgus" 
+     e66 "leidis"  BEFORE  e69 "teatati" 
+     e67 "selgus"  IS_INCLUDED  DCT 
+     e67 "selgus"  AFTER  e68 "vehkinud" 
+     e67 "selgus"  BEFORE  e69 "teatati" 
+     e68 "vehkinud"  IS_INCLUDED  DCT 
+     e68 "vehkinud"  BEFORE  e69 "teatati" 
+
+ s34  Siis aga [e69 teatati ] politseile , et ohver ei [e70 süüdista ] juhtunus kedagi .
+     e69 "teatati"  IS_INCLUDED  DCT 
+     e69 "teatati"  IS_INCLUDED  e70 "süüdista" 
+     e70 "süüdista"  IS_INCLUDED  DCT 
+
+

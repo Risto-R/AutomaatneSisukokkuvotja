@@ -1,3 +1,14 @@
 <div0><head> Kas olla lihtsalt sale või heas füüsilises vormis ? </head><bibl> <author> SLÕL </author> </bibl>
-<p rend="bold"> <s> USA teadlased peavad pikaealisuse puhul head füüsilist vormi saledusest tähtsamaks . </s> </p>
-<p> <s> Trenažööril tehtud testides osalenud naistel ja meestel , kes olid küll ülekaalulised , kuid treenitud , oli väiksem suremusrisk kui saledatel treenimata inimestel . </s> <s> Lõuna-California ülikooli liikumisekspert Steven Blair ja tema kolleegid jälgisid 12 aasta vältel ligi 2600 üle 60aastast inimest . </s> <s> Treenimata inimeste seas oli suremus neli korda kõrgem kui väga heas füüsilises vormis olnutel . " </s> <s> Heas vormis olek kaitseb üle 60aastaseid mehi ja naisi surma eest , ükskõik , kas nad on normaalkaalus , ülekaalulised või rasvunud , " nendib Blair . </s> <s> Tema sõnul on uuringu tulemused olulised , sest ülekaaluliste inimeste hulk kasvab üle maailma . </s> <s> Kuid tihti keskendutakse vaid salenemisele , aktiivsus ja treenitus jäävad tagaplaanile . </s> <s> Seega pole ülekaalulistel tarvis liikumist karta – pikaealisuseks pole tarvis drastilisi samme , ka mõõdukas füüsiline aktiivsus on tervisele kasulik . </s> </p></div0>
+<p rend="bold">
+ <s> USA teadlased peavad pikaealisuse puhul head füüsilist vormi saledusest tähtsamaks . </s> 
+</p>
+<p>
+ <s> Trenažööril tehtud testides osalenud naistel ja meestel , kes olid küll ülekaalulised , kuid treenitud , oli väiksem suremusrisk kui saledatel treenimata inimestel . </s>
+<s> Lõuna-California ülikooli liikumisekspert Steven Blair ja tema kolleegid jälgisid 12 aasta vältel ligi 2600 üle 60aastast inimest . </s>
+<s> Treenimata inimeste seas oli suremus neli korda kõrgem kui väga heas füüsilises vormis olnutel . " </s>
+<s> Heas vormis olek kaitseb üle 60aastaseid mehi ja naisi surma eest , ükskõik , kas nad on normaalkaalus , ülekaalulised või rasvunud , " nendib Blair . </s>
+<s> Tema sõnul on uuringu tulemused olulised , sest ülekaaluliste inimeste hulk kasvab üle maailma . </s>
+<s> Kuid tihti keskendutakse vaid salenemisele , aktiivsus ja treenitus jäävad tagaplaanile . </s>
+<s> Seega pole ülekaalulistel tarvis liikumist karta – pikaealisuseks pole tarvis drastilisi samme , ka mõõdukas füüsiline aktiivsus on tervisele kasulik . </s> 
+</p>
+</div0>

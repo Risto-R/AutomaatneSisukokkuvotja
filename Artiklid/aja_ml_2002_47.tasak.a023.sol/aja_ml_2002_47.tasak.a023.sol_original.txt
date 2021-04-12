@@ -1,11 +1,52 @@
 <div0><head> Viimane lehm advokaadile </head>
-<p> <s> <hi rend="italic"> 20.11.2002 </hi> </s> </p>
-<p> <s> Juba aastaid on piimavarumisel kestnud anarhia . </s> <s> Kui vahepeal tundubki , et suuremad hädad hakkavad mööda saama , tuleb uus löök . </s> <s> See , et Rapla Dairy on lehmapidajatele kuude kaupa võlgu , pälvis laiemat tähelepanu alles siis , kui riik tahtis firmat juhtivale Afganistani eruohvitserile Jaqub Haidaryle eriliste teenete eest kodakondsuse kinkida . </s> </p>
-<p> <s> Mure suuruse võtab oma ilmekas lihtsuses kokku põllumajandusministeeriumile saadetud abipalve . </s> <s> Selle kirjutasid kaheksa Noarootsi lehmapidajat , kel piimaraha seitse kuud saamata . </s> <s> Kirjas seisab : " Võimaluse piires palume tasuta abi juristi või advokaadi näol , kes tunneks seadusi ja oskaks meid , vaeseid piimatootjaid , kaitsta . " </s> </p>
-<p> <s> Mida kuude kaupa saamata piimaraha tähendab , pole vaja seletada maainimesele , kellele see on üks põhilisi elatusallikaid . </s> <s> Mis kõige hullem - need inimesed on oma murega sisuliselt üksi , sest need , kes peaksid abi pakkuma , leiavad alati tuhat põhjendust , miks aidata pole võimalik . </s> </p>
-<p> <s> Põllumajandusministeerium püüab lahendusi otsida piimasektorile kiiranalüüsi tehes . </s> <s> Tekib küsimus , kas ülevaadet piimanduses toimuvast siis ministeeriumil varem polnudki . </s> <s> Kas senistest probleemidest pole õpitud ? </s> <s> Ja kas see hinnang tuleb ikka objektiivne või püütakse seisu euroläbirääkimiste taustal ilustada . </s> </p>
-<p> <s> Teised piimatööstused vaevalt Dairyt ja tema eelkäijat Lactot , kes kunagi sundis neid kokkuostuhinda kergitama , taga nutavad . </s> <s> Üks konkurent vähem . </s> <s> Pank muretseb jälle , kuidas oma laenu tagasi saada . </s> <s> Peaminister leiab , et rahaline abi raskustes firmadele on raiskamine . </s> <s> Aga maal oodatakse ja oodatakse piimaraha . </s> </p>
-<p> <s> Kuigi praegu töötatakse välja skeemi Dairy võlgade katmiseks , ei saa Dairyt vaadata ainult üksikjuhtumina . </s> <s> Kogu süsteem lonkab , ainult ei jõuta kokkuleppele , kumb jalg on haige või on tegu hoopis psüühikahäirega . </s> </p>
-<p> <s> Teistes , arenenumates riikides , kuuluvad piimatööstused enamasti ühistutele , mis on tootjate endi omad . </s> <s> Meil kunagi õitsval järjel olnud ühistegevust pole aga riik piisavalt toetada tahtnud . </s> <s> Et suuremad ärid õitseksid ja raha liiga laiali ei pudeneks . </s> </p>
-<p> <s> Ühe või paari lehma pidamine tundub selle kõrval ju nii tühine . </s> <s> Ent asi pole mitte lehmades , vaid inimestes . </s> <s> Kui asja kas või puhtmajanduslikult võtta , siis kumb on otstarbekam : kas maksta vaesematele maainimestele näljapajukit sotsiaaltoetuste näol või anda neile võimalus ise toime tulla . </s> <s> Läbi töö , mida nad oskavad ja austavad . </s> </p>
-<p> <s> Ka ilmset ebaõiglust võetakse tänases Eestis järjest enam loomuliku nähtusena . </s> <s> Nii ei jäägi talumehel ühel heal päeval muud üle , kui viimane lehm käekõrvale võtta ja advokaadi ukse taha viia . </s> <s> Piimaraha saamata , tapamajas järjekord , maksan natuuras . </s> </p></div0>
+<p>
+ <s> <hi rend="italic"> 20.11.2002 </hi> </s> 
+</p>
+<p>
+ <s> Juba aastaid on piimavarumisel kestnud anarhia . </s>
+<s> Kui vahepeal tundubki , et suuremad hädad hakkavad mööda saama , tuleb uus löök . </s>
+<s> See , et Rapla Dairy on lehmapidajatele kuude kaupa võlgu , pälvis laiemat tähelepanu alles siis , kui riik tahtis firmat juhtivale Afganistani eruohvitserile Jaqub Haidaryle eriliste teenete eest kodakondsuse kinkida . </s> 
+</p>
+<p>
+ <s> Mure suuruse võtab oma ilmekas lihtsuses kokku põllumajandusministeeriumile saadetud abipalve . </s>
+<s> Selle kirjutasid kaheksa Noarootsi lehmapidajat , kel piimaraha seitse kuud saamata . </s>
+<s> Kirjas seisab : " Võimaluse piires palume tasuta abi juristi või advokaadi näol , kes tunneks seadusi ja oskaks meid , vaeseid piimatootjaid , kaitsta . " </s> 
+</p>
+<p>
+ <s> Mida kuude kaupa saamata piimaraha tähendab , pole vaja seletada maainimesele , kellele see on üks põhilisi elatusallikaid . </s>
+<s> Mis kõige hullem - need inimesed on oma murega sisuliselt üksi , sest need , kes peaksid abi pakkuma , leiavad alati tuhat põhjendust , miks aidata pole võimalik . </s> 
+</p>
+<p>
+ <s> Põllumajandusministeerium püüab lahendusi otsida piimasektorile kiiranalüüsi tehes . </s>
+<s> Tekib küsimus , kas ülevaadet piimanduses toimuvast siis ministeeriumil varem polnudki . </s>
+<s> Kas senistest probleemidest pole õpitud ? </s>
+<s> Ja kas see hinnang tuleb ikka objektiivne või püütakse seisu euroläbirääkimiste taustal ilustada . </s> 
+</p>
+<p>
+ <s> Teised piimatööstused vaevalt Dairyt ja tema eelkäijat Lactot , kes kunagi sundis neid kokkuostuhinda kergitama , taga nutavad . </s>
+<s> Üks konkurent vähem . </s>
+<s> Pank muretseb jälle , kuidas oma laenu tagasi saada . </s>
+<s> Peaminister leiab , et rahaline abi raskustes firmadele on raiskamine . </s>
+<s> Aga maal oodatakse ja oodatakse piimaraha . </s> 
+</p>
+<p>
+ <s> Kuigi praegu töötatakse välja skeemi Dairy võlgade katmiseks , ei saa Dairyt vaadata ainult üksikjuhtumina . </s>
+<s> Kogu süsteem lonkab , ainult ei jõuta kokkuleppele , kumb jalg on haige või on tegu hoopis psüühikahäirega . </s> 
+</p>
+<p>
+ <s> Teistes , arenenumates riikides , kuuluvad piimatööstused enamasti ühistutele , mis on tootjate endi omad . </s>
+<s> Meil kunagi õitsval järjel olnud ühistegevust pole aga riik piisavalt toetada tahtnud . </s>
+<s> Et suuremad ärid õitseksid ja raha liiga laiali ei pudeneks . </s> 
+</p>
+<p>
+ <s> Ühe või paari lehma pidamine tundub selle kõrval ju nii tühine . </s>
+<s> Ent asi pole mitte lehmades , vaid inimestes . </s>
+<s> Kui asja kas või puhtmajanduslikult võtta , siis kumb on otstarbekam : kas maksta vaesematele maainimestele näljapajukit sotsiaaltoetuste näol või anda neile võimalus ise toime tulla . </s>
+<s> Läbi töö , mida nad oskavad ja austavad . </s> 
+</p>
+<p>
+ <s> Ka ilmset ebaõiglust võetakse tänases Eestis järjest enam loomuliku nähtusena . </s>
+<s> Nii ei jäägi talumehel ühel heal päeval muud üle , kui viimane lehm käekõrvale võtta ja advokaadi ukse taha viia . </s>
+<s> Piimaraha saamata , tapamajas järjekord , maksan natuuras . </s> 
+</p>
+</div0>

@@ -1,0 +1,67 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a018.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Eelmistel [e1 olümpiamängudel ] [e2 läks ] eestlastel kehvasti .
+     e1 "olümpiamängudel"  BEFORE  DCT 
+     e1 "olümpiamängudel"  INCLUDES  e2 "läks" 
+     e2 "läks"  BEFORE  DCT 
+     e2 "läks"  BEFORE  e3 "saadi kuldmedal" 
+
+ s1  Seekord õnneks märksa paremini , kümnevõistluses [e3 saadi ] [e4 kauaoodatud ] [e3 kuldmedal ] .
+     e3 "saadi kuldmedal"  BEFORE  DCT 
+     e3 "saadi kuldmedal"  AFTER  e4 "kauaoodatud" 
+     e3 "saadi kuldmedal"  BEFORE-OR-OVERLAP  e8 "ületrükk" ka VAGUE
+     e3 "saadi kuldmedal"  BEFORE-OR-OVERLAP  e7 "on" 
+     e4 "kauaoodatud"  BEFORE  DCT 
+
+ s2  Üks moodus selle [e5 sündmuse ] [e6 jäädvustamiseks ] [e7 on ] muidugi päris uus ja uhke postmark , aga miks mitte ka [e8 ületrükk ] olümpiamargil .
+     e5 "sündmuse"  BEFORE  DCT 
+     e5 "sündmuse"  BEFORE  e6 "jäädvustamiseks" 
+     e6 "jäädvustamiseks"  VAGUE  DCT 
+     e6 "jäädvustamiseks"  VAGUE  e7 "on" 
+     e7 "on"  VAGUE  DCT 
+     e7 "on"  VAGUE  e8 "ületrükk" 
+     e7 "on"  VAGUE  e9 "on" 
+     e8 "ületrükk"  VAGUE  DCT 
+     e8 "ületrükk"  VAGUE  e9 "on" 
+
+ s3  Paraku [e9 on ] meie vastav mark üsna suurte värvipindadega .
+     e9 "on"  INCLUDES  DCT 
+     e9 "on"  AFTER  e10 "tehti ületrükk" ka VAGUE
+
+ s4  Omal ajal [e10 tehti ] [e10 ületrükk ] väga traagilise [e11 sündmuse ] puhul .
+     e10 "tehti ületrükk"  BEFORE  DCT 
+     e10 "tehti ületrükk"  AFTER  e11 "sündmuse" 
+     e10 "tehti ületrükk"  SIMULTANEOUS  e12 "sai" 
+     e11 "sündmuse"  BEFORE  DCT 
+
+ s5  Urvaste kirikuga mark [e12 sai ] juurde kirja " +20 kr Estonia laevahuku ohvrite fondi " .
+     e12 "sai"  BEFORE  DCT 
+     e12 "sai"  SIMULTANEOUS  e14 "oli lihtne ja asjalik" 
+
+ s6  [t1 Tollane ] [e13 ületrükk ] [e14 oli ] [e14 lihtne ] [e14 ja ] [e14 asjalik ] .
+     e13 "ületrükk"  SIMULTANEOUS  t1 "Tollane" 
+     e13 "ületrükk"  BEFORE  DCT 
+     e13 "ületrükk"  IS_INCLUDED  e14 "oli lihtne ja asjalik" 
+     e14 "oli lihtne ja asjalik"  BEFORE  DCT 
+     e14 "oli lihtne ja asjalik"  BEFORE  e15 "Loodame" 
+     e14 "oli lihtne ja asjalik"  BEFORE  e16 "tahab" 
+     e14 "oli lihtne ja asjalik"  BEFORE  e17 "oskab" 
+
+ s7  [e15 Loodame ] , et Eesti Post [e16 tahab ] ja [e17 oskab ] Noole [e18 võitu ] Sydneys [e19 rõhutada ] ja et see tal hästi välja [e20 tuleb ] .
+     e15 "Loodame"  INCLUDES  DCT 
+     e15 "Loodame"  BEFORE  e20 "tuleb" 
+     e15 "Loodame"  INCLUDES  e16 "tahab" 
+     e15 "Loodame"  INCLUDES  e17 "oskab" 
+     e16 "tahab"  INCLUDES  DCT 
+     e16 "tahab"  BEFORE-OR-OVERLAP  e19 "rõhutada" 
+     e17 "oskab"  INCLUDES  DCT 
+     e17 "oskab"  BEFORE-OR-OVERLAP  e19 "rõhutada" 
+     e17 "oskab"  BEFORE-OR-OVERLAP  e20 "tuleb" 
+     e18 "võitu"  BEFORE  DCT 
+     e19 "rõhutada"  OVERLAP-OR-AFTER  DCT 
+     e19 "rõhutada"  AFTER  e18 "võitu" 
+     e20 "tuleb"  AFTER  DCT 
+
+

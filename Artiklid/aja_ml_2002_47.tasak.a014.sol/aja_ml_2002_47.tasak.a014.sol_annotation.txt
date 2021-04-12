@@ -1,0 +1,389 @@
+==================================================
+     aja_ml_2002_47.tasak.a014.sol
+      DCT: 2002-11-21
+==================================================
+ s0  [t1 21.11.2002 ]
+ s1  Keskkonnainspektorid [e1 peavad ] [e2 hakkama ] omavolilisi ehitisi [e3 lammutama ]
+     e1 "peavad"  OVERLAP-OR-AFTER  DCT 
+     e1 "peavad"  VAGUE  e2 "hakkama" 
+     e2 "hakkama"  AFTER  DCT 
+     e2 "hakkama"  BEFORE-OR-OVERLAP  e3 "lammutama" 
+     e2 "hakkama"  OVERLAP-OR-AFTER  e4 "võttis" 
+     e3 "lammutama"  AFTER  DCT 
+     e3 "lammutama"  AFTER  e4 "võttis" 
+
+ s2  Riigikogu [e4 võttis ] [t2 eelmisel kolmapäeval ] vastu uue [e5 planeerimisseaduse ] , mis [e6 annab ] keskkonnainspektsioonile [t3 uuest aastast ] [e7 õiguse ] [e8 sundlammutada ] looduskaitsealadele ning ranna- ja kaldakaitsevööndisse ebaseaduslikult [e9 püstitatud ] ehitisi .
+     e4 "võttis"  IS_INCLUDED  t2 "eelmisel kolmapäeval" 
+     e4 "võttis"  BEFORE  DCT 
+     e4 "võttis"  BEFORE  e6 "annab" 
+     e4 "võttis"  VAGUE  e5 "planeerimisseaduse" 
+     e4 "võttis"  IS_INCLUDED  e11 "on õigus" 
+     e4 "võttis"  IS_INCLUDED  e12 "kasuta" 
+     e5 "planeerimisseaduse"  BEFORE-OR-OVERLAP  DCT 
+     e6 "annab"  OVERLAP-OR-AFTER  t3 "uuest aastast" 
+     e6 "annab"  AFTER  DCT 
+     e6 "annab"  BEFORE-OR-OVERLAP  e7 "õiguse" 
+     e7 "õiguse"  AFTER  DCT 
+     e7 "õiguse"  BEFORE-OR-OVERLAP  e8 "sundlammutada" 
+     e8 "sundlammutada"  AFTER  DCT 
+     e8 "sundlammutada"  AFTER  e9 "püstitatud" 
+     e9 "püstitatud"  INCLUDES  DCT 
+
+ s3  [t4 Praeguse ] [e10 seaduse ] järgi [e11 on ] see [e11 õigus ] kohalikel omavalitsustel , aga enamasti nad seda ei [e12 kasuta ] .
+     e10 "seaduse"  SIMULTANEOUS  t4 "Praeguse" 
+     e10 "seaduse"  INCLUDES  DCT 
+     e10 "seaduse"  SIMULTANEOUS  e11 "on õigus" 
+     e11 "on õigus"  INCLUDES  DCT 
+     e11 "on õigus"  INCLUDES  e12 "kasuta" 
+     e11 "on õigus"  VAGUE  e13 "on" ka SIMULTANEOUS
+     e12 "kasuta"  VAGUE  DCT 
+     e12 "kasuta"  VAGUE  e13 "on" ka SIMULTANEOUS
+
+ s4  Ehituskeeluvöönd [e13 on ] meresaartel 200 , mandril 100 ja siseveekogude ääres 50 m veepiirist .
+     e13 "on"  INCLUDES  DCT 
+     e13 "on"  VAGUE  e14 "näidishukkamised" 
+
+ s5  Hoiatuseks [e14 näidishukkamised ]
+     e14 "näidishukkamised"  VAGUE  DCT 
+     e14 "näidishukkamised"  AFTER  e16 "läinud räigeks" 
+     e14 "näidishukkamised"  AFTER  e20 "põhjendas" 
+     e14 "näidishukkamised"  AFTER  e24 "andmist" 
+
+ s6  " [e15 Omavolitsemine ] on [e16 läinud ] juba nii [e16 räigeks ] , et [e17 pidime ] midagi ette [e18 võtma ] , muidu [e19 jääb ] riik õiguskorra kaitsel [e19 narriks ] , " [e20 põhjendas ] keskkonnaministeeriumi planeeringute osakonna juhataja Jüri Lass keskkonnainspektsioonile [e21 sundlammutamise ] [e22 korraldamise ] [e23 õiguse ] [e24 andmist ] .
+     e15 "Omavolitsemine"  BEFORE-OR-OVERLAP  DCT 
+     e15 "Omavolitsemine"  BEFORE-OR-OVERLAP  e16 "läinud räigeks" 
+     e16 "läinud räigeks"  BEFORE-OR-OVERLAP  DCT 
+     e16 "läinud räigeks"  BEFORE  e18 "võtma" 
+     e16 "läinud räigeks"  BEFORE  e20 "põhjendas" 
+     e16 "läinud räigeks"  IS_INCLUDED  e26 "rikuvad" 
+     e16 "läinud räigeks"  IS_INCLUDED  e27 "veendunud" 
+     e17 "pidime"  BEFORE  DCT 
+     e17 "pidime"  VAGUE  e18 "võtma" 
+     e18 "võtma"  BEFORE  DCT 
+     e18 "võtma"  BEFORE-OR-OVERLAP  e19 "jääb narriks" ka VAGUE
+     e18 "võtma"  BEFORE  e20 "põhjendas" 
+     e19 "jääb narriks"  OVERLAP-OR-AFTER  DCT 
+     e19 "jääb narriks"  VAGUE  e20 "põhjendas" 
+     e20 "põhjendas"  BEFORE-OR-OVERLAP  DCT 
+     e20 "põhjendas"  AFTER  e24 "andmist" 
+     e20 "põhjendas"  IS_INCLUDED  e26 "rikuvad" 
+     e20 "põhjendas"  IS_INCLUDED  e27 "veendunud" 
+     e21 "sundlammutamise"  VAGUE  DCT 
+     e21 "sundlammutamise"  OVERLAP-OR-AFTER  e22 "korraldamise" 
+     e22 "korraldamise"  VAGUE  DCT 
+     e22 "korraldamise"  OVERLAP-OR-AFTER  e23 "õiguse" 
+     e23 "õiguse"  AFTER  DCT 
+     e23 "õiguse"  OVERLAP-OR-AFTER  e24 "andmist" 
+     e24 "andmist"  BEFORE  DCT 
+     e24 "andmist"  OVERLAP-OR-AFTER  e26 "rikuvad" 
+     e24 "andmist"  OVERLAP-OR-AFTER  e27 "veendunud" 
+
+ s7  Lassi [e25 sõnul ] [e26 rikuvad ] omavolilised ehitajad seadust täiesti teadlikult : nad on [e27 veendunud ] , et midagi ei [e28 juhtu ] ja küll takkajärgi nende elamud [e29 seadustatakse ] .
+     e25 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e25 "sõnul"  VAGUE  e26 "rikuvad" 
+     e26 "rikuvad"  INCLUDES  DCT 
+     e26 "rikuvad"  IS_INCLUDED  e27 "veendunud" 
+     e26 "rikuvad"  SIMULTANEOUS  e30 "on põhjendus" ka VAGUE
+     e26 "rikuvad"  SIMULTANEOUS  e32 "vaatavad" ka VAGUE
+     e26 "rikuvad"  VAGUE  e33 "lähed" 
+     e27 "veendunud"  INCLUDES  DCT 
+     e27 "veendunud"  BEFORE-OR-OVERLAP  e28 "juhtu" 
+     e27 "veendunud"  VAGUE  e30 "on põhjendus" 
+     e27 "veendunud"  VAGUE  e32 "vaatavad" 
+     e27 "veendunud"  VAGUE  e33 "lähed" 
+     e28 "juhtu"  VAGUE  DCT 
+     e28 "juhtu"  BEFORE-OR-OVERLAP  e29 "seadustatakse" 
+     e29 "seadustatakse"  VAGUE  DCT 
+
+ s8  Vallaametnikel [e30 on ] [e30 põhjendus ] , miks nad [e31 omavolitsemistele ] läbi sõrmede [e32 vaatavad ] : kuidas sa [e33 lähed ] teise inimese suvilat või elamut [e34 lõhkuma ] , kui too liiati vahel [e35 on ] valla suurim [e35 ettevõtja ] .
+     e30 "on põhjendus"  INCLUDES  DCT 
+     e30 "on põhjendus"  VAGUE  e32 "vaatavad" 
+     e30 "on põhjendus"  VAGUE  e33 "lähed" 
+     e30 "on põhjendus"  INCLUDES  e38 "ütles" ka VAGUE
+     e30 "on põhjendus"  SIMULTANEOUS  e36 "kardavad" ka VAGUE
+     e31 "omavolitsemistele"  INCLUDES  DCT 
+     e31 "omavolitsemistele"  INCLUDES  e32 "vaatavad" 
+     e32 "vaatavad"  INCLUDES  DCT 
+     e32 "vaatavad"  INCLUDES  e38 "ütles" 
+     e32 "vaatavad"  SIMULTANEOUS  e36 "kardavad" ka VAGUE
+     e33 "lähed"  VAGUE  DCT 
+     e33 "lähed"  BEFORE-OR-OVERLAP  e34 "lõhkuma" 
+     e33 "lähed"  VAGUE  e35 "on ettevõtja" 
+     e33 "lähed"  VAGUE  e36 "kardavad" 
+     e33 "lähed"  VAGUE  e38 "ütles" 
+     e34 "lõhkuma"  VAGUE  DCT 
+     e34 "lõhkuma"  VAGUE  e35 "on ettevõtja" 
+     e35 "on ettevõtja"  INCLUDES  DCT 
+
+ s9  " Vallavanemad [e36 kardavad ] , et pärast [e37 pannakse ] kättemaksuks ta oma saunale tuli otsa , " [e38 ütles ] Lass .
+     e36 "kardavad"  INCLUDES  DCT 
+     e36 "kardavad"  BEFORE-OR-OVERLAP  e37 "pannakse" 
+     e36 "kardavad"  INCLUDES  e38 "ütles" 
+     e36 "kardavad"  INCLUDES  e40 "paneb" 
+     e36 "kardavad"  INCLUDES  e41 "ohkama" 
+     e37 "pannakse"  VAGUE  DCT 
+     e38 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e38 "ütles"  BEFORE-OR-OVERLAP  e40 "paneb" ka VAGUE
+     e38 "ütles"  BEFORE-OR-OVERLAP  e41 "ohkama" ka VAGUE
+
+ s10  [e39 Seadusemuudatus ] [e40 paneb ] keskkonnainspektsiooni Läänemaa osakonna Hiiumaa büroo juhataja kt Marek Põllu [e41 ohkama ] .
+     e39 "Seadusemuudatus"  BEFORE  DCT 
+     e39 "Seadusemuudatus"  BEFORE  e40 "paneb" 
+     e39 "Seadusemuudatus"  BEFORE  e41 "ohkama" 
+     e40 "paneb"  BEFORE-OR-OVERLAP  DCT 
+     e40 "paneb"  BEFORE-OR-OVERLAP  e41 "ohkama" 
+     e40 "paneb"  IS_INCLUDED  e42 "õnnelikud ole" 
+     e40 "paneb"  IS_INCLUDED  e43 "on loogiline" 
+     e41 "ohkama"  BEFORE-OR-OVERLAP  DCT 
+     e41 "ohkama"  IS_INCLUDED  e42 "õnnelikud ole" 
+     e41 "ohkama"  IS_INCLUDED  e43 "on loogiline" 
+
+ s11  " Ega me selle üle eriti [e42 õnnelikud ] [e42 ole ] , aga teisest küljest [e43 on ] see [e43 loogiline ] . "
+     e42 "õnnelikud ole"  INCLUDES  DCT 
+     e42 "õnnelikud ole"  SIMULTANEOUS  e43 "on loogiline" 
+     e42 "õnnelikud ole"  BEFORE-OR-OVERLAP  e47 "teki" 
+     e42 "õnnelikud ole"  INCLUDES  e44 "loodab" 
+     e43 "on loogiline"  INCLUDES  DCT 
+     e43 "on loogiline"  BEFORE-OR-OVERLAP  e47 "teki" 
+     e43 "on loogiline"  INCLUDES  e44 "loodab" 
+
+ s12  Jüri Lass [e44 loodab ] väga , et kui maakonnas on üks [e45 sundlammutamine ] läbi [e46 viidud ] , siis omavolilisi ehitisi enam nii lihtsalt ei [e47 teki ] .
+     e44 "loodab"  INCLUDES  DCT 
+     e44 "loodab"  BEFORE  e47 "teki" 
+     e44 "loodab"  BEFORE-OR-OVERLAP  e48 "ongi vaja" 
+     e44 "loodab"  INCLUDES  e51 "ütles" 
+     e45 "sundlammutamine"  AFTER  DCT 
+     e45 "sundlammutamine"  BEFORE-OR-OVERLAP  e46 "viidud" 
+     e46 "viidud"  AFTER  DCT 
+     e46 "viidud"  BEFORE  e47 "teki" 
+     e47 "teki"  AFTER  DCT 
+     e47 "teki"  AFTER  e51 "ütles" 
+     e47 "teki"  OVERLAP-OR-AFTER  e48 "ongi vaja" 
+
+ s13  " Selleks [e48 ongi ] meil [e48 vaja ] [e49 näidishukkamisi ] [e50 teha ] , " [e51 ütles ] Lass .
+     e48 "ongi vaja"  OVERLAP-OR-AFTER  DCT 
+     e48 "ongi vaja"  BEFORE-OR-OVERLAP  e50 "teha" 
+     e48 "ongi vaja"  OVERLAP-OR-AFTER  e51 "ütles" 
+     e48 "ongi vaja"  SIMULTANEOUS  e53 "tuleks" 
+     e49 "näidishukkamisi"  AFTER  DCT 
+     e49 "näidishukkamisi"  SIMULTANEOUS  e50 "teha" 
+     e50 "teha"  AFTER  DCT 
+     e50 "teha"  OVERLAP-OR-AFTER  e51 "ütles" 
+     e51 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e51 "ütles"  BEFORE-OR-OVERLAP  e53 "tuleks" 
+
+ s14  Marek Põllu [e52 sõnul ] [e53 tuleks ] Hiiumaal kohe [e54 lammutada ] kolm ehitist .
+     e52 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e52 "sõnul"  BEFORE-OR-OVERLAP  e53 "tuleks" 
+     e52 "sõnul"  VAGUE  e54 "lammutada" 
+     e53 "tuleks"  OVERLAP-OR-AFTER  DCT 
+     e53 "tuleks"  BEFORE-OR-OVERLAP  e54 "lammutada" 
+     e53 "tuleks"  AFTER  e56 "andnud" 
+     e54 "lammutada"  OVERLAP-OR-AFTER  DCT 
+
+ s15  Sarve maastikukaitsealal juba [t5 1996. aastast ] 25 meetrit veepiirist [e55 seisev ] majake on [e56 andnud ] Sarve sündroomi nime kogu ebaseaduslike ehitiste nähtusele .
+     e55 "seisev"  OVERLAP-OR-AFTER  t5 "1996. aastast" 
+     e55 "seisev"  INCLUDES  DCT 
+     e56 "andnud"  BEFORE  DCT 
+     e56 "andnud"  BEFORE-OR-OVERLAP  e57 "taotles" 
+
+ s16  Käina vald [e57 taotles ] keskkonnaministeeriumilt Käina lahe - Kassari maastikukaitseala kaitse-eeskirjade [e58 muutmist ] , et [e59 seadustada ] valla ühe suurema ettevõtja Kaljo Endi majake kaitseala sihtkaitsevööndis .
+     e57 "taotles"  BEFORE  DCT 
+     e57 "taotles"  BEFORE  e58 "muutmist" 
+     e57 "taotles"  BEFORE  e59 "seadustada" 
+     e57 "taotles"  IS_INCLUDED  e61 "keelatud" 
+     e58 "muutmist"  VAGUE  DCT 
+     e59 "seadustada"  BEFORE  DCT 
+
+ s17  Seal on igasugune [e60 majandustegevus ] [e61 keelatud ] .
+     e60 "majandustegevus"  VAGUE  DCT 
+     e60 "majandustegevus"  VAGUE  e61 "keelatud" 
+     e61 "keelatud"  INCLUDES  DCT 
+     e61 "keelatud"  INCLUDES  e62 "täiendas" 
+
+ s18  Valitsus [e62 täiendas ] selle kaitseala kaitse-eeskirja , [e63 lubades ] sinna [e64 rajada ] tootmisega mitteseotud ehitisi kaitseala tarbeks .
+     e62 "täiendas"  BEFORE  DCT 
+     e62 "täiendas"  BEFORE-OR-OVERLAP  e63 "lubades" 
+     e62 "täiendas"  BEFORE  e64 "rajada" 
+     e62 "täiendas"  BEFORE  e65 "kuulu" 
+     e63 "lubades"  BEFORE  DCT 
+     e63 "lubades"  BEFORE-OR-OVERLAP  e64 "rajada" 
+     e64 "rajada"  INCLUDES  DCT 
+
+ s19  Nende hulka elamud ei [e65 kuulu ] .
+     e65 "kuulu"  INCLUDES  DCT 
+     e65 "kuulu"  SIMULTANEOUS  e67 "ehitada" 
+
+ s20  Kaitseala tarbeks [e66 võib ] [e67 ehitada ] ainult linnuvaatlustorne , laudteid , lõkkeplatse ja istepinke .
+     e66 "võib"  INCLUDES  DCT 
+     e66 "võib"  VAGUE  e67 "ehitada" 
+     e67 "ehitada"  VAGUE  DCT 
+     e67 "ehitada"  VAGUE  e69 "lähe" 
+
+ s21  [e68 Lammutamine ] ei [e69 lähe ] libedalt
+     e68 "Lammutamine"  VAGUE  DCT 
+     e68 "Lammutamine"  VAGUE  e69 "lähe" 
+     e69 "lähe"  INCLUDES  DCT 
+     e69 "lähe"  VAGUE  e72 "olemas" 
+
+ s22  Loata ehitise [e70 lammutamise ] [e71 pretsedent ] on Eestis [e72 olemas ] .
+     e70 "lammutamise"  BEFORE  DCT 
+     e70 "lammutamise"  BEFORE  e71 "pretsedent" 
+     e71 "pretsedent"  INCLUDES  DCT 
+     e71 "pretsedent"  SIMULTANEOUS  e72 "olemas" 
+     e72 "olemas"  INCLUDES  DCT 
+     e72 "olemas"  OVERLAP-OR-AFTER  e73 "lasti" 
+
+ s23  Saaremaal Harilaiul [e73 lasti ] ühe soomlase hütike selle püstipanijatel nii kiiresti ära [e74 koristada ] , et kui inspektsiooni mehed kohale [e75 jõudsid ] , [e76 polnud ] [e76 jälgegi ] järel .
+     e73 "lasti"  BEFORE  DCT 
+     e73 "lasti"  BEFORE-OR-OVERLAP  e74 "koristada" 
+     e73 "lasti"  BEFORE  e76 "polnud jälgegi" 
+     e73 "lasti"  BEFORE  e78 "ütles" 
+     e73 "lasti"  SIMULTANEOUS  e79 "tegutsenud" 
+     e74 "koristada"  BEFORE  DCT 
+     e74 "koristada"  BEFORE  e75 "jõudsid" 
+     e74 "koristada"  BEFORE  e76 "polnud jälgegi" 
+     e75 "jõudsid"  BEFORE  DCT 
+     e75 "jõudsid"  IS_INCLUDED  e76 "polnud jälgegi" 
+     e76 "polnud jälgegi"  BEFORE  DCT 
+
+ s24  Ehkki see [e77 oli ] väike kokkupandav palkmaja , [e78 ütles ] vallavanem Aivar Kallas , et niisama kindlakäeliselt oleks ta [e79 tegutsenud ] mis tahes villa puhul .
+     e77 "oli"  BEFORE  DCT 
+     e77 "oli"  BEFORE  e78 "ütles" 
+     e78 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e78 "ütles"  AFTER  e79 "tegutsenud" 
+     e78 "ütles"  VAGUE  e80 "läinud" 
+     e79 "tegutsenud"  BEFORE  DCT 
+     e79 "tegutsenud"  VAGUE  e80 "läinud" 
+
+ s25  Nii hõlpsalt ei [e80 läinud ] aga Võrumaa Urvaste vallavalitsusel .
+     e80 "läinud"  BEFORE  DCT 
+     e80 "läinud"  INCLUDES  e82 "kaebas" 
+
+ s26  Lõõdla järve äärde ranna- ja kaldakaitsevööndisse saun-suvila püsti [e81 pannud ] Aare Vein [e82 kaebas ] vallavalitsuse kohtusse pärast seda , kui vald [e83 kuulutas ] ajalehes välja tema hoone [e84 lammutamiseks ] [e85 vähempakkumise ] .
+     e81 "pannud"  BEFORE  DCT 
+     e81 "pannud"  BEFORE  e82 "kaebas" 
+     e81 "pannud"  BEFORE  e83 "kuulutas" 
+     e82 "kaebas"  BEFORE  DCT 
+     e82 "kaebas"  AFTER  e83 "kuulutas" 
+     e82 "kaebas"  OVERLAP-OR-AFTER  e87 "reageerinud" 
+     e83 "kuulutas"  BEFORE  DCT 
+     e83 "kuulutas"  BEFORE-OR-OVERLAP  e85 "vähempakkumise" 
+     e83 "kuulutas"  BEFORE  e84 "lammutamiseks" 
+     e84 "lammutamiseks"  VAGUE  DCT 
+     e85 "vähempakkumise"  BEFORE  DCT 
+
+ s27  Valla juristi Aivar Hiisi [e86 sõnul ] ei olnud mees [e87 reageerinud ] valla [e88 korraldustele ] [e89 koristada ] ise oma hoone rannast ära .
+     e86 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e86 "sõnul"  AFTER  e87 "reageerinud" 
+     e87 "reageerinud"  BEFORE  DCT 
+     e87 "reageerinud"  OVERLAP-OR-AFTER  e88 "korraldustele" 
+     e87 "reageerinud"  OVERLAP-OR-AFTER  e90 "tegi" 
+     e88 "korraldustele"  BEFORE  DCT 
+     e88 "korraldustele"  BEFORE-OR-OVERLAP  e89 "koristada" 
+     e89 "koristada"  VAGUE  DCT 
+
+ s28  Juba [t6 eelmisel sügisel ] [e90 tegi ] Urvaste vallavalitsus esimese [e91 korralduse ] , mida [e92 pikendas ] [t7 tänavu mais ] veel kuni [t8 1. juulini ] .
+     e90 "tegi"  IS_INCLUDED  t6 "eelmisel sügisel" 
+     e90 "tegi"  BEFORE  DCT 
+     e90 "tegi"  BEFORE-OR-OVERLAP  e91 "korralduse" 
+     e90 "tegi"  BEFORE  e92 "pikendas" 
+     e90 "tegi"  BEFORE  e94 "läks" 
+     e91 "korralduse"  BEFORE  DCT 
+     e92 "pikendas"  IS_INCLUDED  t7 "tänavu mais" 
+     e92 "pikendas"  BEFORE  DCT 
+
+ s29  Hiisi [e93 arvates ] [e94 läks ] Vein kohtusse aja võitmiseks .
+     e93 "arvates"  BEFORE-OR-OVERLAP  DCT 
+     e93 "arvates"  OVERLAP-OR-AFTER  e94 "läks" 
+     e94 "läks"  BEFORE  DCT 
+     e94 "läks"  BEFORE-OR-OVERLAP  e97 "lootis" 
+     e94 "läks"  BEFORE-OR-OVERLAP  e98 "on võimalik" 
+     e94 "läks"  BEFORE  e95 "ees olid" 
+
+ s30  " [e95 Ees ] [e95 olid ] [e96 valimised ] , ehk [e97 lootis ] ta , et uue volikoguga [e98 on ] [e98 võimalik ] asjad korda [e99 ajada ] . "
+     e95 "ees olid"  BEFORE  DCT 
+     e95 "ees olid"  BEFORE-OR-OVERLAP  e96 "valimised" 
+     e95 "ees olid"  SIMULTANEOUS  e97 "lootis" 
+     e95 "ees olid"  VAGUE  e101 "lubanud" 
+     e96 "valimised"  BEFORE  DCT 
+     e97 "lootis"  BEFORE  DCT 
+     e97 "lootis"  BEFORE  e98 "on võimalik" 
+     e97 "lootis"  BEFORE  e99 "ajada" 
+     e97 "lootis"  VAGUE  e101 "lubanud" 
+     e98 "on võimalik"  BEFORE  DCT 
+     e98 "on võimalik"  BEFORE-OR-OVERLAP  e99 "ajada" 
+     e98 "on võimalik"  VAGUE  e101 "lubanud" 
+     e99 "ajada"  VAGUE  DCT 
+
+ s31  [t9 Paar aastat ] kohtus [e100 jaurata ] on [e101 lubanud ] ajakirjandusele ka vandeadvokaat Viktor Kaasik , kellele Harjumaa Jõelähtme vallavalitsus [e102 andis ] ebaseaduslikult loa [e103 ehitada ] merele lähemale kui 100 meetrit ning hiljem [e104 peatas ] selle .
+     e100 "jaurata"  IS_INCLUDED  t9 "Paar aastat" 
+     e100 "jaurata"  OVERLAP-OR-AFTER  DCT 
+     e100 "jaurata"  OVERLAP-OR-AFTER  e101 "lubanud" 
+     e101 "lubanud"  BEFORE  DCT 
+     e101 "lubanud"  AFTER  e102 "andis" 
+     e101 "lubanud"  AFTER  e108 "ehitama" 
+     e101 "lubanud"  OVERLAP-OR-AFTER  e106 "teadis" 
+     e102 "andis"  BEFORE  DCT 
+     e102 "andis"  BEFORE  e103 "ehitada" 
+     e102 "andis"  BEFORE  e104 "peatas" 
+     e103 "ehitada"  BEFORE  DCT 
+     e104 "peatas"  BEFORE  DCT 
+
+ s32  Lassi [e105 sõnul ] [e106 teadis ] Kaasik väga hästi , et [e107 hakkas ] [e108 ehitama ] seadusega vastuolus oleva loa alusel .
+     e105 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e105 "sõnul"  AFTER  e106 "teadis" 
+     e106 "teadis"  BEFORE  DCT 
+     e106 "teadis"  INCLUDES  e107 "hakkas" 
+     e106 "teadis"  INCLUDES  e108 "ehitama" 
+     e106 "teadis"  BEFORE-OR-OVERLAP  e110 "nimetada" 
+     e106 "teadis"  BEFORE  e111 "ütles" 
+     e107 "hakkas"  BEFORE  DCT 
+     e107 "hakkas"  BEFORE-OR-OVERLAP  e108 "ehitama" 
+     e108 "ehitama"  BEFORE  DCT 
+     e108 "ehitama"  BEFORE-OR-OVERLAP  e110 "nimetada" 
+     e108 "ehitama"  BEFORE  e111 "ütles" 
+
+ s33  " Kaasik ei [e109 saa ] kuidagi [e110 nimetada ] ennast heauskseks kodanikuks , " [e111 ütles ] Lass .
+     e109 "saa"  INCLUDES  DCT 
+     e109 "saa"  VAGUE  e110 "nimetada" 
+     e110 "nimetada"  INCLUDES  DCT 
+     e110 "nimetada"  INCLUDES  e111 "ütles" 
+     e110 "nimetada"  OVERLAP-OR-AFTER  e114 "taotles" 
+     e110 "nimetada"  VAGUE  e115 "vähendamist" 
+     e111 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e111 "ütles"  AFTER  e114 "taotles" 
+     e111 "ütles"  VAGUE  e115 "vähendamist" 
+
+ s34  Sest veel enne seda , kui vandeadvokaat [e112 läks ] vallalt ehitusluba [e113 nõutama ] , [e114 taotles ] ta keskkonnaministeeriumilt ehituskeeluvööndi [e115 vähendamist ] 100 meetrilt 50 meetri peale .
+     e112 "läks"  BEFORE  DCT 
+     e112 "läks"  AFTER  e114 "taotles" 
+     e112 "läks"  BEFORE-OR-OVERLAP  e113 "nõutama" 
+     e113 "nõutama"  BEFORE  DCT 
+     e113 "nõutama"  AFTER  e114 "taotles" 
+     e114 "taotles"  BEFORE  DCT 
+     e114 "taotles"  BEFORE  e115 "vähendamist" 
+     e114 "taotles"  BEFORE  e116 "ütles" 
+     e114 "taotles"  BEFORE  e117 "sõnas" 
+     e115 "vähendamist"  VAGUE  DCT 
+     e115 "vähendamist"  VAGUE  e116 "ütles" 
+     e115 "vähendamist"  VAGUE  e117 "sõnas" 
+
+ s35  " Minister [e116 ütles ] talle ära , " [e117 sõnas ] Lass .
+     e116 "ütles"  BEFORE  DCT 
+     e116 "ütles"  BEFORE  e117 "sõnas" 
+     e116 "ütles"  IDENTITY  e118 "keeldus" 
+     e117 "sõnas"  BEFORE-OR-OVERLAP  DCT 
+     e117 "sõnas"  AFTER  e118 "keeldus" 
+
+ s36  Kranich [e118 keeldus ] põhjusel , et [e119 tegemist ] [e119 on ] väga väärtusliku rannaluitestikuga ning metsaga , kus ehitustegevuse [e120 toomine ] liiga lähedale merele [e121 kahjustaks ] rannamaastikku .
+     e118 "keeldus"  BEFORE  DCT 
+     e118 "keeldus"  IS_INCLUDED  e119 "tegemist on" 
+     e119 "tegemist on"  INCLUDES  DCT 
+     e119 "tegemist on"  VAGUE  e121 "kahjustaks" 
+     e120 "toomine"  VAGUE  DCT 
+     e120 "toomine"  BEFORE  e121 "kahjustaks" 
+     e121 "kahjustaks"  VAGUE  DCT 
+
+ s37  Samal teemal : ML , [t10 30. mai ]
+

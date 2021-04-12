@@ -1,0 +1,126 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a044.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Reformi- ja Keskerakond [e1 tahavad ] [e2 rikkuda ] õiguskantsler Allar Jõksi , president Ilvese ja kõikide teiste demokraatiast ning avatud ühiskonnast lugupidavate inimeste [e3 jõulurahu ] .
+     e1 "tahavad"  INCLUDES  DCT 
+     e1 "tahavad"  BEFORE-OR-OVERLAP  e2 "rikkuda" 
+     e1 "tahavad"  SIMULTANEOUS  e4 "eesmärk on" 
+     e2 "rikkuda"  AFTER  DCT 
+     e2 "rikkuda"  IS_INCLUDED  e3 "jõulurahu" 
+     e3 "jõulurahu"  VAGUE  DCT 
+
+ s1  Kahe suure , kuid [t1 praegu ] mitte koalitsioonipartneri [e4 eesmärk ] [e4 on ] ära [e5 hoida ] , et Jõks uueks ametiajaks õiguskantsleri ametisse [e6 jääks ] .
+     e4 "eesmärk on"  INCLUDES  DCT 
+     e4 "eesmärk on"  BEFORE-OR-OVERLAP  e5 "hoida" 
+     e4 "eesmärk on"  BEFORE  e6 "jääks" 
+     e4 "eesmärk on"  SIMULTANEOUS  e7 "on" 
+     e5 "hoida"  OVERLAP-OR-AFTER  DCT 
+     e5 "hoida"  SIMULTANEOUS  e6 "jääks" 
+     e6 "jääks"  OVERLAP-OR-AFTER  DCT 
+
+ s2  Nende soosik [e7 on ] Ülle Madise .
+     e7 "on"  INCLUDES  DCT 
+     e7 "on"  SIMULTANEOUS  e8 "on vastu" ka IS_INCLUDED
+
+ s3  SL Õhtuleht [e8 on ] [e8 vastu ] suurte erakondade teerullipoliitikale ning olematutele põhjendustele , miks Jõks ei [e9 võiks ] oma ametis [e10 jätkata ] .
+     e8 "on vastu"  INCLUDES  DCT 
+     e8 "on vastu"  BEFORE-OR-OVERLAP  e10 "jätkata" 
+     e8 "on vastu"  IS_INCLUDED  e11 "on" 
+     e9 "võiks"  AFTER  DCT 
+     e9 "võiks"  VAGUE  e10 "jätkata" 
+     e10 "jätkata"  AFTER  DCT 
+
+ s4  Ta [e11 on ] aus , avameelne , selge jutuga , poliitiliste sümpaatiateta ja ühe vähesena [e12 juhib ] Eestis tähelepanu [e13 nüanssidele ] , mille üle parlament vaid [e14 naerab ] .
+     e11 "on"  INCLUDES  DCT 
+     e11 "on"  SIMULTANEOUS  e12 "juhib" 
+     e11 "on"  INCLUDES  e16 "häbistanud" 
+     e12 "juhib"  INCLUDES  DCT 
+     e12 "juhib"  IS_INCLUDED  e13 "nüanssidele" 
+     e12 "juhib"  SIMULTANEOUS  e14 "naerab" 
+     e13 "nüanssidele"  VAGUE  DCT 
+     e13 "nüanssidele"  INCLUDES  e14 "naerab" 
+     e14 "naerab"  INCLUDES  DCT 
+
+ s5  Oma poliitilise eesmärgi [e15 saavutamise ] nimel on erakonnad [e16 häbistanud ] demokraatia , parlamendi , Jõksi ja Madise mainet .
+     e15 "saavutamise"  VAGUE  DCT 
+     e15 "saavutamise"  INCLUDES  e16 "häbistanud" 
+     e16 "häbistanud"  BEFORE  DCT 
+     e16 "häbistanud"  INCLUDES  e17 "levitada" 
+
+ s6  Üks absurdsemaid samme oli [e17 levitada ] " kurba uudist " , et kui Jõks [e18 peaks ] koha [e19 kaotama ] , [e20 läheb ] see maksumaksjale [e21 maksma ] miljon krooni .
+     e17 "levitada"  BEFORE  DCT 
+     e17 "levitada"  BEFORE  e19 "kaotama" 
+     e17 "levitada"  BEFORE  e21 "maksma" 
+     e17 "levitada"  SIMULTANEOUS  e22 "oli" 
+     e18 "peaks"  VAGUE  DCT 
+     e18 "peaks"  VAGUE  e19 "kaotama" 
+     e19 "kaotama"  VAGUE  DCT 
+     e19 "kaotama"  BEFORE  e20 "läheb" 
+     e19 "kaotama"  BEFORE  e21 "maksma" 
+     e20 "läheb"  OVERLAP-OR-AFTER  DCT 
+     e20 "läheb"  VAGUE  e21 "maksma" 
+     e21 "maksma"  OVERLAP-OR-AFTER  DCT 
+
+ s7  Toon [e22 oli ] selline , et Jõks [e23 on ] selles ise [e23 süüdi ] ...
+     e22 "oli"  BEFORE  DCT 
+     e22 "oli"  IS_INCLUDED  e23 "on süüdi" 
+     e22 "oli"  VAGUE  e24 "Tule" 
+     e23 "on süüdi"  INCLUDES  DCT 
+
+ s8  [e24 Tule ] taevas appi !
+     e24 "Tule"  VAGUE  DCT 
+     e24 "Tule"  VAGUE  e25 "tahavad" 
+     e24 "Tule"  VAGUE  e26 "hääletada" 
+     e24 "Tule"  VAGUE  e27 "loodavad" 
+
+ s9  [t2 Sel nädalal ] [e25 tahavad ] Reformi- ja Keskerakond Jõksi kiiresti maha [e26 hääletada ] ning [e27 loodavad ] , et siis [e28 esitab ] president Madise kandidatuuri .
+     e25 "tahavad"  IS_INCLUDED  t2 "Sel nädalal" 
+     e25 "tahavad"  INCLUDES  DCT 
+     e25 "tahavad"  BEFORE-OR-OVERLAP  e26 "hääletada" 
+     e25 "tahavad"  IS_INCLUDED  e27 "loodavad" 
+     e25 "tahavad"  BEFORE  e30 "õnnestub" 
+     e25 "tahavad"  IS_INCLUDED  e29 "pole kindel" 
+     e26 "hääletada"  OVERLAP-OR-AFTER  DCT 
+     e26 "hääletada"  BEFORE  e28 "esitab" 
+     e26 "hääletada"  IS_INCLUDED  e27 "loodavad" 
+     e26 "hääletada"  BEFORE  e30 "õnnestub" 
+     e26 "hääletada"  IS_INCLUDED  e29 "pole kindel" 
+     e27 "loodavad"  INCLUDES  DCT 
+     e27 "loodavad"  BEFORE-OR-OVERLAP  e28 "esitab" 
+     e27 "loodavad"  BEFORE  e30 "õnnestub" 
+     e27 "loodavad"  IS_INCLUDED  e29 "pole kindel" 
+     e28 "esitab"  AFTER  DCT 
+     e28 "esitab"  AFTER  e29 "pole kindel" 
+     e28 "esitab"  IS_INCLUDED  e30 "õnnestub" 
+
+ s10  SL Õhtuleht [e29 pole ] nii [e29 kindel ] , et presidenti [e30 õnnestub ] nii lihtsalt [e31 lollitada ] .
+     e29 "pole kindel"  INCLUDES  DCT 
+     e29 "pole kindel"  BEFORE-OR-OVERLAP  e30 "õnnestub" 
+     e29 "pole kindel"  VAGUE  e31 "lollitada" 
+     e29 "pole kindel"  IS_INCLUDED  e32 "on" 
+     e30 "õnnestub"  AFTER  DCT 
+     e30 "õnnestub"  VAGUE  e31 "lollitada" 
+     e30 "õnnestub"  IS_INCLUDED  e32 "on" 
+     e31 "lollitada"  AFTER  DCT 
+
+ s11  Jõks [e32 on ] silmatorkavalt hea ja sõltumatu kandidaat , kelle töö on Eestis [t3 seni ] üksnes õhku [e33 puhastanud ] ja [e34 korrastanud ] .
+     e32 "on"  INCLUDES  DCT 
+     e32 "on"  OVERLAP-OR-AFTER  e33 "puhastanud" 
+     e32 "on"  OVERLAP-OR-AFTER  e34 "korrastanud" 
+     e32 "on"  INCLUDES  e36 "tõestab" 
+     e32 "on"  SIMULTANEOUS  e37 "on" 
+     e33 "puhastanud"  BEFORE-OR-OVERLAP  t3 "seni" 
+     e33 "puhastanud"  BEFORE  DCT 
+     e33 "puhastanud"  SIMULTANEOUS  e34 "korrastanud" 
+     e34 "korrastanud"  BEFORE-OR-OVERLAP  t3 "seni" 
+     e34 "korrastanud"  BEFORE  DCT 
+
+ s12  Tema jõuga [e35 eemalelükkamine ] [e36 tõestab ] vaid , et [e37 on ] õigel teel .
+     e35 "eemalelükkamine"  VAGUE  DCT 
+     e35 "eemalelükkamine"  BEFORE  e36 "tõestab" 
+     e36 "tõestab"  INCLUDES  DCT 
+     e36 "tõestab"  IS_INCLUDED  e37 "on" 
+     e37 "on"  INCLUDES  DCT 
+
+

@@ -1,12 +1,40 @@
 <div0><head> Eesti esimene trükikoda alustas Tartu raekoja taga </head>
-<p> <s> Ene-Lille Jaansoni kinnitusel eksivad need , kes on väitnud , et Tartu ülikooli trükikoda alustas tööd puumajas praeguse ülikooli peahoone esisel alal . </s> </p>
-<p> <s> Lugedes Academia Gustaviana senati protokolle ja uurides Rootsi sõjaarhiivist toodud 17. sajandi Tartu krundiplaane , võib öelda : rootsiaegse ülikooli trükikoda seadis end 1632. aastal sisse Tartu bürgermeistri Nicolaus Russe majas . </s> </p>
-<p> <s> Russe krunt asus raekoja taga praegusel Pirogovi ausammast ümbritseval alal . </s> <s> Protokollidest nähtub , et ülikool on Russele trükikoja majja võtmise eest üüri maksnud . </s> </p>
-<p> <s> Veel nähtub ülikooli senati protokollidest , et juba 1637. aastal on ülikooli trükikoda töötanud Jost Schütte majas Rüütli ja Munga tänava nurgal , praegu rajatava spordimuuseumi kohal ( Rüütli 19 ) . </s> </p>
-<p> <s> 1640. aastal sai ülikool trükikojale oma , kivist maja rootsi pastoraadi kõrvale . </s> <s> Seda kohta tähistabki praegu kivist raamat ülikooli vana kohviku õuel . </s> </p>
-<p> <s> Rootsi-Vene sõja ajal ( 1656-1661 ) , kui ülikoolis katkes õppetöö , olid ülikooli trükikoja seadmed ja raamatud sissemüürituna peidus Maarja kirikus altari läheduses . </s> </p>
-<p> <s> Ülikoolile on õppe- ja teaduskirjandust trükitud mitmel pool linnas , ka tolleaegses peahoones . </s> <s> Praegu seisab selle hoone vundamendil vana arestimaja . </s> </p>
-<p> <s> Peahoonesse polevat trükikoda siiski hästi sobinud : lakkamatu askeldamine ja trükiving olevat häirinud õppetööd . </s> </p>
-<p> <s> Viimane rootsiaegse Tartu ülikooli trükikoja töökoht oli Maarja kiriku õue peal koolimajas ( ülikooli praeguse peahoone taga ) . </s> <s> Kirik olevat kandnud hoolt ka trükikoja eest . </s> </p>
-<p> <s> 1699 , Põhjasõja eelõhtul , viidi ülikool Tartust Pärnusse . </s> <s> Loomulikult viidi kaasa ka trükikoda , raamatukogu ja arhiiv . </s> </p>
-<p> <s> 1710. aastal lahkus ülikool pealetungivate Vene vägede eest Rootsi . </s> </p></div0>
+<p>
+ <s> Ene-Lille Jaansoni kinnitusel eksivad need , kes on väitnud , et Tartu ülikooli trükikoda alustas tööd puumajas praeguse ülikooli peahoone esisel alal . </s> 
+</p>
+<p>
+ <s> Lugedes Academia Gustaviana senati protokolle ja uurides Rootsi sõjaarhiivist toodud 17. sajandi Tartu krundiplaane , võib öelda : rootsiaegse ülikooli trükikoda seadis end 1632. aastal sisse Tartu bürgermeistri Nicolaus Russe majas . </s> 
+</p>
+<p>
+ <s> Russe krunt asus raekoja taga praegusel Pirogovi ausammast ümbritseval alal . </s>
+<s> Protokollidest nähtub , et ülikool on Russele trükikoja majja võtmise eest üüri maksnud . </s> 
+</p>
+<p>
+ <s> Veel nähtub ülikooli senati protokollidest , et juba 1637. aastal on ülikooli trükikoda töötanud Jost Schütte majas Rüütli ja Munga tänava nurgal , praegu rajatava spordimuuseumi kohal ( Rüütli 19 ) . </s> 
+</p>
+<p>
+ <s> 1640. aastal sai ülikool trükikojale oma , kivist maja rootsi pastoraadi kõrvale . </s>
+<s> Seda kohta tähistabki praegu kivist raamat ülikooli vana kohviku õuel . </s> 
+</p>
+<p>
+ <s> Rootsi-Vene sõja ajal ( 1656-1661 ) , kui ülikoolis katkes õppetöö , olid ülikooli trükikoja seadmed ja raamatud sissemüürituna peidus Maarja kirikus altari läheduses . </s> 
+</p>
+<p>
+ <s> Ülikoolile on õppe- ja teaduskirjandust trükitud mitmel pool linnas , ka tolleaegses peahoones . </s>
+<s> Praegu seisab selle hoone vundamendil vana arestimaja . </s> 
+</p>
+<p>
+ <s> Peahoonesse polevat trükikoda siiski hästi sobinud : lakkamatu askeldamine ja trükiving olevat häirinud õppetööd . </s> 
+</p>
+<p>
+ <s> Viimane rootsiaegse Tartu ülikooli trükikoja töökoht oli Maarja kiriku õue peal koolimajas ( ülikooli praeguse peahoone taga ) . </s>
+<s> Kirik olevat kandnud hoolt ka trükikoja eest . </s> 
+</p>
+<p>
+ <s> 1699 , Põhjasõja eelõhtul , viidi ülikool Tartust Pärnusse . </s>
+<s> Loomulikult viidi kaasa ka trükikoda , raamatukogu ja arhiiv . </s> 
+</p>
+<p>
+ <s> 1710. aastal lahkus ülikool pealetungivate Vene vägede eest Rootsi . </s> 
+</p>
+</div0>

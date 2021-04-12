@@ -1,0 +1,180 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a021.sol
+      DCT: 2000-10-04
+==================================================
+ s0  [t1 Tänavu ] [e1 istus ] Tartu Ülikoolis lisaks 15 riigieelarvelisele kohale koolipinki poolteist korda rohkem tasulistel kohtadel suhtekorraldusharidust nõutavaid noori inimesi , avatud ülikoolis veel samapalju .
+     e1 "istus"  IS_INCLUDED  t1 "Tänavu" 
+     e1 "istus"  BEFORE  DCT 
+     e1 "istus"  BEFORE  e2 "tekib" 
+
+ s1  Paratamatult [e2 tekib ] küsimus , kas neile kõigile [e3 jätkub ] töökohti .
+     e2 "tekib"  INCLUDES  DCT 
+     e2 "tekib"  BEFORE-OR-OVERLAP  e3 "jätkub" 
+     e2 "tekib"  BEFORE-OR-OVERLAP  e4 "laieneb" 
+     e3 "jätkub"  AFTER  DCT 
+
+ s2  Tööpõld [e4 laieneb ]
+     e4 "laieneb"  OVERLAP-OR-AFTER  DCT 
+     e4 "laieneb"  OVERLAP-OR-AFTER  e5 "Arvan" 
+     e4 "laieneb"  OVERLAP-OR-AFTER  e6 "õhuta" 
+
+ s3  [e5 Arvan ] , et ei [e6 õhuta ] tühje [e7 lootusi ] , [e8 öeldes ] , et Eesti [e9 vajab ] haritud kommunikatsioonispetsialiste .
+     e5 "Arvan"  INCLUDES  DCT 
+     e5 "Arvan"  INCLUDES  e6 "õhuta" 
+     e5 "Arvan"  OVERLAP-OR-AFTER  e10 "suurenenud" 
+     e6 "õhuta"  INCLUDES  DCT 
+     e6 "õhuta"  SIMULTANEOUS  e8 "öeldes" 
+     e6 "õhuta"  VAGUE  e7 "lootusi" 
+     e6 "õhuta"  OVERLAP-OR-AFTER  e10 "suurenenud" 
+     e7 "lootusi"  INCLUDES  DCT 
+     e8 "öeldes"  INCLUDES  DCT 
+     e8 "öeldes"  IS_INCLUDED  e9 "vajab" 
+     e9 "vajab"  INCLUDES  DCT 
+
+ s4  Suhtekorralduslik tööpõld on plahvatuslikult [e10 suurenenud ] .
+     e10 "suurenenud"  BEFORE-OR-OVERLAP  DCT 
+     e10 "suurenenud"  BEFORE-OR-OVERLAP  e11 "seavad eesmärgiks" 
+     e10 "suurenenud"  BEFORE-OR-OVERLAP  e13 "muutub oluliseks" 
+     e10 "suurenenud"  BEFORE-OR-OVERLAP  e14 "kasvab" 
+
+ s5  Ettevõtted [e11 seavad ] kasumi kõrval [e11 eesmärgiks ] [e12 kestmise ] , teadmiste kõrval [e13 muutub ] [e13 oluliseks ] tundetarkus , emotsioonide turg [e14 kasvab ] kiiremini kui asjastatud kaupade turg .
+     e11 "seavad eesmärgiks"  INCLUDES  DCT 
+     e11 "seavad eesmärgiks"  INCLUDES  e13 "muutub oluliseks" 
+     e11 "seavad eesmärgiks"  VAGUE  e12 "kestmise" 
+     e11 "seavad eesmärgiks"  INCLUDES  e15 "muutub avatumaks" 
+     e11 "seavad eesmärgiks"  INCLUDES  e18 "toimida" 
+     e12 "kestmise"  INCLUDES  DCT 
+     e13 "muutub oluliseks"  OVERLAP-OR-AFTER  DCT 
+     e13 "muutub oluliseks"  SIMULTANEOUS  e14 "kasvab" 
+     e13 "muutub oluliseks"  SIMULTANEOUS  e15 "muutub avatumaks" 
+     e13 "muutub oluliseks"  SIMULTANEOUS  e18 "toimida" 
+     e14 "kasvab"  OVERLAP-OR-AFTER  DCT 
+     e14 "kasvab"  SIMULTANEOUS  e15 "muutub avatumaks" 
+     e14 "kasvab"  SIMULTANEOUS  e18 "toimida" 
+
+ s6  Ühiskond ise [e15 muutub ] [e15 avatumaks ] ja avalikkuse [e16 toetuseta ] ei [e17 saa ] [e18 toimida ] ei riik ega eraettevõte .
+     e15 "muutub avatumaks"  OVERLAP-OR-AFTER  DCT 
+     e15 "muutub avatumaks"  SIMULTANEOUS  e18 "toimida" 
+     e15 "muutub avatumaks"  AFTER  e20 "kogutud" 
+     e15 "muutub avatumaks"  OVERLAP-OR-AFTER  e19 "on suurem" 
+     e16 "toetuseta"  VAGUE  DCT 
+     e16 "toetuseta"  SIMULTANEOUS  e18 "toimida" 
+     e17 "saa"  OVERLAP-OR-AFTER  DCT 
+     e17 "saa"  VAGUE  e18 "toimida" 
+     e18 "toimida"  VAGUE  DCT 
+     e18 "toimida"  AFTER  e20 "kogutud" 
+     e18 "toimida"  OVERLAP-OR-AFTER  e19 "on suurem" 
+
+ s7  Globaalsete korporatsioonide kasutatav raha [e19 on ] [e19 suurem ] kui Eesti riigi eelarve , nende oskusteave turumajanduses [t2 aastatega ] [e20 kogutud ] .
+     e19 "on suurem"  INCLUDES  DCT 
+     e19 "on suurem"  OVERLAP-OR-AFTER  e20 "kogutud" 
+     e19 "on suurem"  VAGUE  e21 "võtab" 
+     e19 "on suurem"  VAGUE  e23 "toetab" 
+     e20 "kogutud"  SIMULTANEOUS  t2 "aastatega" 
+     e20 "kogutud"  BEFORE-OR-OVERLAP  DCT 
+     e20 "kogutud"  VAGUE  e21 "võtab" 
+     e20 "kogutud"  VAGUE  e23 "toetab" 
+
+ s8  Sageli [e21 võtab ] erafirma enda [e22 kanda ] osa riigi ülesannetest , [e23 toetab ] seal , kus riik [e24 hakkama ] ei [e25 saa ] .
+     e21 "võtab"  VAGUE  DCT 
+     e21 "võtab"  BEFORE-OR-OVERLAP  e22 "kanda" 
+     e21 "võtab"  SIMULTANEOUS  e23 "toetab" 
+     e21 "võtab"  VAGUE  e26 "esitab" 
+     e22 "kanda"  VAGUE  DCT 
+     e23 "toetab"  VAGUE  DCT 
+     e23 "toetab"  OVERLAP-OR-AFTER  e24 "hakkama" 
+     e23 "toetab"  OVERLAP-OR-AFTER  e25 "saa" 
+     e23 "toetab"  VAGUE  e26 "esitab" 
+     e24 "hakkama"  VAGUE  DCT 
+     e24 "hakkama"  SIMULTANEOUS  e25 "saa" 
+     e25 "saa"  VAGUE  DCT 
+
+ s9  Seega [e26 esitab ] ühiskond suhtekorraldusele uusi ja keerulisi [e27 nõudmisi ] , millega ei [e28 saa ] [e29 hakkama ] inimene , kel erialaseid teadmisi [e30 asendab ] [e31 soov ] hästi [e32 teenida ] , ennast [e33 eksponeerida ] ja [e34 suhelda ] .
+     e26 "esitab"  INCLUDES  DCT 
+     e26 "esitab"  BEFORE-OR-OVERLAP  e28 "saa" 
+     e26 "esitab"  BEFORE-OR-OVERLAP  e29 "hakkama" 
+     e26 "esitab"  VAGUE  e27 "nõudmisi" 
+     e26 "esitab"  IS_INCLUDED  e35 "vajatakse" 
+     e27 "nõudmisi"  INCLUDES  DCT 
+     e27 "nõudmisi"  VAGUE  e29 "hakkama" 
+     e28 "saa"  VAGUE  DCT 
+     e28 "saa"  IS_INCLUDED  e30 "asendab" 
+     e28 "saa"  SIMULTANEOUS  e29 "hakkama" 
+     e29 "hakkama"  VAGUE  DCT 
+     e29 "hakkama"  IS_INCLUDED  e30 "asendab" 
+     e30 "asendab"  VAGUE  DCT 
+     e30 "asendab"  VAGUE  e31 "soov" 
+     e31 "soov"  VAGUE  DCT 
+     e31 "soov"  VAGUE  e32 "teenida" 
+     e31 "soov"  VAGUE  e33 "eksponeerida" 
+     e31 "soov"  VAGUE  e34 "suhelda" 
+     e32 "teenida"  VAGUE  DCT 
+     e32 "teenida"  SIMULTANEOUS  e33 "eksponeerida" 
+     e33 "eksponeerida"  VAGUE  DCT 
+     e33 "eksponeerida"  SIMULTANEOUS  e34 "suhelda" 
+     e34 "suhelda"  VAGUE  DCT 
+
+ s10  Spetsialiste [e35 vajatakse ]
+     e35 "vajatakse"  INCLUDES  DCT 
+     e35 "vajatakse"  INCLUDES  e36 "näe" 
+
+ s11  Ma ei [e36 näe ] veel niipea [e37 võimalust ] , et suhtekorralduse põhitehnikaid [e38 õppinud ] spetsialistid ei [e39 leiaks ] tööd tehnilisel ja müügitasandil .
+     e36 "näe"  INCLUDES  DCT 
+     e36 "näe"  BEFORE-OR-OVERLAP  e37 "võimalust" 
+     e36 "näe"  BEFORE-OR-OVERLAP  e39 "leiaks" 
+     e36 "näe"  BEFORE-OR-OVERLAP  e41 "vajataks" ka VAGUE
+     e37 "võimalust"  VAGUE  DCT 
+     e38 "õppinud"  VAGUE  DCT 
+     e38 "õppinud"  BEFORE  e39 "leiaks" 
+     e39 "leiaks"  OVERLAP-OR-AFTER  DCT 
+
+ s12  Ning et ühiskonnaanalüüsi ja strateegilise kommunikatsiooni oskusi [e40 õppinud ] spetsialiste ei [e41 vajataks ] tippjuhtide seas .
+     e40 "õppinud"  VAGUE  DCT 
+     e40 "õppinud"  BEFORE  e41 "vajataks" 
+     e41 "vajataks"  OVERLAP-OR-AFTER  DCT 
+     e41 "vajataks"  OVERLAP-OR-AFTER  e43 "juttugi olla" 
+
+ s13  Paraku ei [e42 saa ] siin aga [e43 juttugi ] [e43 olla ] spetsialistist , kes [t3 ühel päeval ] lihtsalt [e44 hakkab ] suhtekorraldajaks .
+     e42 "saa"  VAGUE  DCT 
+     e42 "saa"  VAGUE  e43 "juttugi olla" 
+     e43 "juttugi olla"  VAGUE  DCT 
+     e43 "juttugi olla"  VAGUE  e44 "hakkab" 
+     e43 "juttugi olla"  INCLUDES  e45 "taha" ka VAGUE
+     e44 "hakkab"  IS_INCLUDED  t3 "ühel päeval" 
+     e44 "hakkab"  VAGUE  DCT 
+
+ s14  Põhjanaabrid Soomes ja Rootsis ei [e45 taha ] [e46 kasutada ] endast [e47 kõneldes ] terminit " suhtekorraldaja " .
+     e45 "taha"  INCLUDES  DCT 
+     e45 "taha"  IS_INCLUDED  e47 "kõneldes" 
+     e45 "taha"  VAGUE  e46 "kasutada" 
+     e45 "taha"  OVERLAP-OR-AFTER  e48 "devalveerunud" 
+     e46 "kasutada"  INCLUDES  DCT 
+     e46 "kasutada"  IS_INCLUDED  e47 "kõneldes" 
+     e47 "kõneldes"  INCLUDES  DCT 
+
+ s15  See sõna on [e48 devalveerunud ] [e49 mitteharitud ] kolleegide tõttu .
+     e48 "devalveerunud"  BEFORE-OR-OVERLAP  DCT 
+     e48 "devalveerunud"  VAGUE  e49 "mitteharitud" 
+     e48 "devalveerunud"  BEFORE-OR-OVERLAP  e50 "nimetab" 
+     e49 "mitteharitud"  VAGUE  DCT 
+
+ s16  Enamik tipptegijaid [e50 nimetab ] end kommunikatsioonispetsialistiks .
+     e50 "nimetab"  INCLUDES  DCT 
+     e50 "nimetab"  BEFORE-OR-OVERLAP  e52 "saa" 
+     e50 "nimetab"  INCLUDES  e51 "arvangi" 
+
+ s17  Nii [e51 arvangi ] , et noored kolleegid suhtekorraldajatena tööd ei [e52 saa ] .
+     e51 "arvangi"  INCLUDES  DCT 
+     e51 "arvangi"  BEFORE  e52 "saa" 
+     e51 "arvangi"  BEFORE  e54 "saavad tegijad" 
+     e51 "arvangi"  SIMULTANEOUS  e53 "Loodan" 
+     e52 "saa"  AFTER  DCT 
+     e52 "saa"  AFTER  e53 "Loodan" 
+     e52 "saa"  SIMULTANEOUS  e54 "saavad tegijad" 
+
+ s18  [e53 Loodan ] , et neist [e54 saavad ] tublid [e54 tegijad ] otsustamise tasandil , kommunikatsioonijuhtidena .
+     e53 "Loodan"  INCLUDES  DCT 
+     e53 "Loodan"  BEFORE-OR-OVERLAP  e54 "saavad tegijad" 
+     e54 "saavad tegijad"  AFTER  DCT 
+
+

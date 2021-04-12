@@ -1,8 +1,25 @@
 <div0><head> Korvpallinaiskonnad alustavad </head>
-<p> <bibl> <author> <s> Johannes Miller , tartu@postimees.ee </s> </author> </bibl> </p>
-<p> <s> Täna alustavad hooaega korvpallinaiskonnad . </s> <s> Meistriliigasse on neid jäänud vaid neli . </s> </p>
-<p> <s> Meistrivõistlustele on truuks jäänud ka oma kunagise hiilguse minetanud Tartu naiskorvpallurid , kellele viimased hooajad on toonud vaid viimaseid kohti . </s> </p>
-<p> <s> Õnneks pole kaotused pärssinud kohalike treenerite taotlusi , ikka leidub neid , kes on nõus vastkomplekteeritud naiskonna treeneri pingile istuma . </s> <s> Tänavu on sõbrakäe ulatanud Pille Russak , Maire Sulg ja Kaire Asi . </s> </p>
-<p> <s> Turu tänava spordisaalis harjutanud noored mängijad , kellest mitu on jõudnud kõrgkooli , esindavad Emajõelinna TÜ SK nime all . </s> </p>
-<p> <s> Täna kell 18.45 alustavad oma esimest mängu ülikooli spordihallis TÜ SK - TPÜ/ELK , veel on avavoorus vastamisi AGA/Löfberg Lila - TTÜ SK . </s> </p>
-<p> <s> Enne kui jõutakse medalimängudeni , tuleb omavahel neljal korral kohtuda . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Johannes Miller , tartu@postimees.ee </s> </author> </bibl> 
+</p>
+<p>
+ <s> Täna alustavad hooaega korvpallinaiskonnad . </s>
+<s> Meistriliigasse on neid jäänud vaid neli . </s> 
+</p>
+<p>
+ <s> Meistrivõistlustele on truuks jäänud ka oma kunagise hiilguse minetanud Tartu naiskorvpallurid , kellele viimased hooajad on toonud vaid viimaseid kohti . </s> 
+</p>
+<p>
+ <s> Õnneks pole kaotused pärssinud kohalike treenerite taotlusi , ikka leidub neid , kes on nõus vastkomplekteeritud naiskonna treeneri pingile istuma . </s>
+<s> Tänavu on sõbrakäe ulatanud Pille Russak , Maire Sulg ja Kaire Asi . </s> 
+</p>
+<p>
+ <s> Turu tänava spordisaalis harjutanud noored mängijad , kellest mitu on jõudnud kõrgkooli , esindavad Emajõelinna TÜ SK nime all . </s> 
+</p>
+<p>
+ <s> Täna kell 18.45 alustavad oma esimest mängu ülikooli spordihallis TÜ SK - TPÜ/ELK , veel on avavoorus vastamisi AGA/Löfberg Lila - TTÜ SK . </s> 
+</p>
+<p>
+ <s> Enne kui jõutakse medalimängudeni , tuleb omavahel neljal korral kohtuda . </s> 
+</p>
+</div0>

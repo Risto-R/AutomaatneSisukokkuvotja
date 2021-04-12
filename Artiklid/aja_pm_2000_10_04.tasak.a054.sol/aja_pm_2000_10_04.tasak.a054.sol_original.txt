@@ -1,18 +1,63 @@
 <div0><head> Opositsioon kruvib Jugoslaavias pinget </head>
-<p> <bibl> <author> <s> Erkki Bahovski , erkki.bahovski@postimees.ee </s> </author> </bibl> </p>
-<p rend="bold"> <s> Jugoslaavia opositsioon jätkab üldstreigi teisel päeval inimeste kutsumist tänavatele , et sundida president Slobodan Milosevici tagasi astuma . </s> </p>
-<p> <s> Vaatamata üleeilsetele massiprotestidele ja üldstreigile ütles Milosevic BBC teatel televisioonis , et tal pole kavatsust astuda kõrvale kavandatud teisest voorust . </s> </p>
-<p> <s> Ametlikel tulemustel ei saanud opositsiooni kandidaat Vojislav Kostunica esimeses voorus vajalikku enamust ja seega on Jugoslaavia võimude sõnul vaja korraldada teine voor . </s> <s> Opositsioon pole aga sellega rahul , väites , et Kostunica võitis juba esimeses voorus . </s> </p>
-<p> <s> Milosevic hoiatas televisioonis , et Jugoslaavia laguneb , kui opositsioon tuleb võimule . </s> </p>
-<p> <s> Opositsiooni üks liidreid Zoran Djindjic ütles , et Milosevici pöördumine näitas “ diktaatorit , kes palub abi inimestelt , keda ta terroriseeris kümme aastat ” . </s> </p>
-<p> <s> “ Milosevic pidas ähvardava , väga närvilise ja ebastabiilse kõne , ” ütles Djindjic . </s> </p>
-<p> <s> Streikijate suurim edu seni on olnud Jugoslaavia kahe suurema kaevanduse töö peatamine , mis avaldab juba mõju elektrijaamadele ja ähvardab põhjustada elektrikatkestusi . </s> </p>
-<p> <s> Eile teataski Serbia elektrikompanii , et on alustanud elektripiirangutega . </s> <s> Belgradi sõltumatu raadiojaama Free B92 teatel tulevad elektrikatkestused söepuuduse tõttu , mille põhjustas omakorda Kolubara kaevurite streik . </s> </p>
-<p> <s> Eile jätkusid Jugoslaavia linnades ka massimeeleavaldused . </s> <s> Free B92 andmetel arreteeris Serbia politsei eile hommikul neli inimest ja mitu sai vigastada , kui politsei üritas eemaldada teetõket Ibari teel Vranici juures . </s> </p>
-<p> <s> Politsei arreteeris eile ka Belgradi transpordikompanii presidendi Dragan Tosici üldstreigi organiseerimise eest Jugoslaavia pealinnas . </s> <s> Opositsioon kutsus edasi püstitama Belgradis teetõkkeid . </s> </p>
-<p> <s> Tänaseks kavandab opositsioon suuri meeleavaldusi Belgradis ning homseks loodavad nad kokku saada veelgi rohkem inimesi . </s> </p>
-<p> <s> Armee ülem kindral Nebojsa Pavkovic on läbirääkimistel Kolubara kaevuritega alates eile hommikust . </s> <s> Ta on hoiatanud streikijaid , et nood ähvardavad rahvuslikku julgeolekut . </s> <s> Samas ütles Pavkovic enne valimisi Free B92 teatel , et armee tunnustab valimistulemusi . </s> </p>
-<p> <s> Kaevureid on külastanud ka Kostunica , kes kutsus neid üles Milosevici vastu edasi pingutama . </s> <s> Kolubaras streigib umbes 4500 töölist . </s> </p>
-<p> <s> Päevaleht Danas vihjas eile aga võimalusele , et streikima hakkavad ka hüdroelektrijaamad Djerdab 1 ja 2. </s> </p>
-<p> <s> Venemaa president Vladimir Putin on CNNi teatel pakkunud ennast vahendajaks Milosevici ja Kostunica vahel , kuid on saanud kummaltki tagasilükkamise . </s> <s> Kostunica ütles eile , et on valmis külastama Moskvat , kui saab Putinilt ametliku kutse . </s> <s> Putin on ühisavalduses Saksa kantsleri Gerhard Schröderiga öelnud , et on Kostunica võidus veendunud . </s> </p>
-<p> <s> Vene meedias ringlesid eelmisel nädalal spekulatsioonid , et Milosevic võib Venemaalt asüüli paluda . </s> <s> Samalaadse ettepaneku tegi Vene võimudele ka Jugoslaavia endine peaminister Milan Panic . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Erkki Bahovski , erkki.bahovski@postimees.ee </s> </author> </bibl> 
+</p>
+<p rend="bold">
+ <s> Jugoslaavia opositsioon jätkab üldstreigi teisel päeval inimeste kutsumist tänavatele , et sundida president Slobodan Milosevici tagasi astuma . </s> 
+</p>
+<p>
+ <s> Vaatamata üleeilsetele massiprotestidele ja üldstreigile ütles Milosevic BBC teatel televisioonis , et tal pole kavatsust astuda kõrvale kavandatud teisest voorust . </s> 
+</p>
+<p>
+ <s> Ametlikel tulemustel ei saanud opositsiooni kandidaat Vojislav Kostunica esimeses voorus vajalikku enamust ja seega on Jugoslaavia võimude sõnul vaja korraldada teine voor . </s>
+<s> Opositsioon pole aga sellega rahul , väites , et Kostunica võitis juba esimeses voorus . </s> 
+</p>
+<p>
+ <s> Milosevic hoiatas televisioonis , et Jugoslaavia laguneb , kui opositsioon tuleb võimule . </s> 
+</p>
+<p>
+ <s> Opositsiooni üks liidreid Zoran Djindjic ütles , et Milosevici pöördumine näitas “ diktaatorit , kes palub abi inimestelt , keda ta terroriseeris kümme aastat ” . </s> 
+</p>
+<p>
+ <s> “ Milosevic pidas ähvardava , väga närvilise ja ebastabiilse kõne , ” ütles Djindjic . </s> 
+</p>
+<p>
+ <s> Streikijate suurim edu seni on olnud Jugoslaavia kahe suurema kaevanduse töö peatamine , mis avaldab juba mõju elektrijaamadele ja ähvardab põhjustada elektrikatkestusi . </s> 
+</p>
+<p>
+ <s> Eile teataski Serbia elektrikompanii , et on alustanud elektripiirangutega . </s>
+<s> Belgradi sõltumatu raadiojaama Free B92 teatel tulevad elektrikatkestused söepuuduse tõttu , mille põhjustas omakorda Kolubara kaevurite streik . </s> 
+</p>
+<p>
+ <s> Eile jätkusid Jugoslaavia linnades ka massimeeleavaldused . </s>
+<s> Free B92 andmetel arreteeris Serbia politsei eile hommikul neli inimest ja mitu sai vigastada , kui politsei üritas eemaldada teetõket Ibari teel Vranici juures . </s> 
+</p>
+<p>
+ <s> Politsei arreteeris eile ka Belgradi transpordikompanii presidendi Dragan Tosici üldstreigi organiseerimise eest Jugoslaavia pealinnas . </s>
+<s> Opositsioon kutsus edasi püstitama Belgradis teetõkkeid . </s> 
+</p>
+<p>
+ <s> Tänaseks kavandab opositsioon suuri meeleavaldusi Belgradis ning homseks loodavad nad kokku saada veelgi rohkem inimesi . </s> 
+</p>
+<p>
+ <s> Armee ülem kindral Nebojsa Pavkovic on läbirääkimistel Kolubara kaevuritega alates eile hommikust . </s>
+<s> Ta on hoiatanud streikijaid , et nood ähvardavad rahvuslikku julgeolekut . </s>
+<s> Samas ütles Pavkovic enne valimisi Free B92 teatel , et armee tunnustab valimistulemusi . </s> 
+</p>
+<p>
+ <s> Kaevureid on külastanud ka Kostunica , kes kutsus neid üles Milosevici vastu edasi pingutama . </s>
+<s> Kolubaras streigib umbes 4500 töölist . </s> 
+</p>
+<p>
+ <s> Päevaleht Danas vihjas eile aga võimalusele , et streikima hakkavad ka hüdroelektrijaamad Djerdab 1 ja 2. </s> 
+</p>
+<p>
+ <s> Venemaa president Vladimir Putin on CNNi teatel pakkunud ennast vahendajaks Milosevici ja Kostunica vahel , kuid on saanud kummaltki tagasilükkamise . </s>
+<s> Kostunica ütles eile , et on valmis külastama Moskvat , kui saab Putinilt ametliku kutse . </s>
+<s> Putin on ühisavalduses Saksa kantsleri Gerhard Schröderiga öelnud , et on Kostunica võidus veendunud . </s> 
+</p>
+<p>
+ <s> Vene meedias ringlesid eelmisel nädalal spekulatsioonid , et Milosevic võib Venemaalt asüüli paluda . </s>
+<s> Samalaadse ettepaneku tegi Vene võimudele ka Jugoslaavia endine peaminister Milan Panic . </s> 
+</p>
+</div0>

@@ -1,0 +1,132 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a004.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Kohtus [e1 andis ] [e2 tunnistusi ] modell Kelly Fisher , kes [e3 oli ] Dodi [e3 kallim ] [t1 1997. aastal ] .
+     e1 "andis"  BEFORE  DCT 
+     e1 "andis"  AFTER  e3 "oli kallim" 
+     e1 "andis"  VAGUE  e2 "tunnistusi" 
+     e1 "andis"  AFTER  e5 "kuulis" 
+     e1 "andis"  AFTER  e8 "uskus" 
+     e1 "andis"  INCLUDES  e4 "ütles" 
+     e2 "tunnistusi"  BEFORE  DCT 
+     e3 "oli kallim"  IS_INCLUDED  t1 "1997. aastal" 
+     e3 "oli kallim"  BEFORE  DCT 
+
+ s1  Ta [e4 ütles ] , et [e5 kuulis ] St. Tropezi [e6 minekust ] ja jahiga [e7 sõitmisest ] Dodi isalt ning [e8 uskus ] , et ta [e9 kutsutakse ] kaasa .
+     e4 "ütles"  BEFORE  DCT 
+     e4 "ütles"  AFTER  e5 "kuulis" 
+     e4 "ütles"  AFTER  e10 "lükkas" 
+     e4 "ütles"  AFTER  e12 "ütles" 
+     e4 "ütles"  AFTER  e14 "jääma" 
+     e5 "kuulis"  BEFORE  DCT 
+     e5 "kuulis"  BEFORE-OR-OVERLAP  e8 "uskus" 
+     e5 "kuulis"  BEFORE  e6 "minekust" 
+     e5 "kuulis"  BEFORE  e10 "lükkas" 
+     e5 "kuulis"  BEFORE  e12 "ütles" 
+     e5 "kuulis"  BEFORE  e14 "jääma" 
+     e6 "minekust"  BEFORE  DCT 
+     e6 "minekust"  BEFORE  e7 "sõitmisest" 
+     e7 "sõitmisest"  BEFORE  DCT 
+     e8 "uskus"  BEFORE  DCT 
+     e8 "uskus"  BEFORE  e9 "kutsutakse" 
+     e8 "uskus"  BEFORE-OR-OVERLAP  e10 "lükkas" 
+     e8 "uskus"  BEFORE-OR-OVERLAP  e12 "ütles" 
+     e8 "uskus"  BEFORE  e14 "jääma" 
+     e9 "kutsutakse"  BEFORE  DCT 
+
+ s2  Dodi aga [e10 lükkas ] isa [e11 jutu ] ümber ning [e12 ütles ] Kellyle , et [e13 peab ] [e14 jääma ] Londonisse ega [e15 sõida ] kuhugi .
+     e10 "lükkas"  BEFORE  DCT 
+     e10 "lükkas"  AFTER  e11 "jutu" 
+     e10 "lükkas"  BEFORE  e12 "ütles" 
+     e10 "lükkas"  BEFORE  e16 "ilmus" ka VAGUE
+     e11 "jutu"  BEFORE  DCT 
+     e12 "ütles"  BEFORE  DCT 
+     e12 "ütles"  BEFORE  e14 "jääma" 
+     e12 "ütles"  BEFORE  e16 "ilmus" 
+     e13 "peab"  BEFORE  DCT 
+     e13 "peab"  VAGUE  e14 "jääma" 
+     e14 "jääma"  BEFORE  DCT 
+     e14 "jääma"  SIMULTANEOUS  e15 "sõida" 
+     e14 "jääma"  BEFORE  e16 "ilmus" ka VAGUE
+     e15 "sõida"  BEFORE  DCT 
+
+ s3  [t2 6. augustil 1997 ] [e16 ilmus ] ühes ajalehes foto , kus Dodi ja Diana [e17 suudlevad ] . "
+     e16 "ilmus"  IS_INCLUDED  t2 "6. augustil 1997" 
+     e16 "ilmus"  BEFORE  DCT 
+     e16 "ilmus"  AFTER  e17 "suudlevad" 
+     e16 "ilmus"  BEFORE  e18 "soovitas" 
+     e16 "ilmus"  BEFORE  e20 "kurdab" 
+     e17 "suudlevad"  BEFORE  DCT 
+
+ s4  Isa [e18 soovitas ] Dodi [e19 unustada ] , " [e20 kurdab ] Kelly .
+     e18 "soovitas"  BEFORE  DCT 
+     e18 "soovitas"  BEFORE  e19 "unustada" 
+     e18 "soovitas"  BEFORE  e20 "kurdab" 
+     e18 "soovitas"  AFTER  e21 "kinkinud" 
+     e19 "unustada"  BEFORE  DCT 
+     e19 "unustada"  BEFORE  e20 "kurdab" 
+     e20 "kurdab"  BEFORE-OR-OVERLAP  DCT 
+     e20 "kurdab"  AFTER  e21 "kinkinud" 
+
+ s5  [t3 Mõni aeg tagasi ] oli Dodi [e21 kinkinud ] talle hiigelsuure safiiriga kihlasõrmuse , peaaegu täpse koopia sõrmusest , mille prints Charles omal ajal Dianale [e22 kinkis ] . "
+     e21 "kinkinud"  SIMULTANEOUS  t3 "Mõni aeg tagasi" 
+     e21 "kinkinud"  BEFORE  DCT 
+     e21 "kinkinud"  AFTER  e22 "kinkis" 
+     e21 "kinkinud"  BEFORE  e23 "Pärisin" 
+     e21 "kinkinud"  BEFORE  e24 "tahab" 
+     e22 "kinkis"  BEFORE  DCT 
+
+ s6  [e23 Pärisin ] temalt , kas ta [e24 tahab ] [e25 kihluse ] [e26 lõpetada ] ?
+     e23 "Pärisin"  BEFORE  DCT 
+     e23 "Pärisin"  IS_INCLUDED  e24 "tahab" 
+     e23 "Pärisin"  VAGUE  e26 "lõpetada" 
+     e23 "Pärisin"  SIMULTANEOUS  e27 "Küsisin" 
+     e23 "Pärisin"  VAGUE  e29 "lõppenud" 
+     e24 "tahab"  BEFORE  DCT 
+     e24 "tahab"  INCLUDES  e26 "lõpetada" 
+     e24 "tahab"  IS_INCLUDED  e25 "kihluse" 
+     e24 "tahab"  SIMULTANEOUS  e29 "lõppenud" 
+     e24 "tahab"  VAGUE  e27 "Küsisin" 
+     e25 "kihluse"  BEFORE  DCT 
+     e25 "kihluse"  INCLUDES  e26 "lõpetada" 
+     e26 "lõpetada"  BEFORE  DCT 
+
+ s7  [e27 Küsisin ] , kas meie [e28 vahekord ] on [e29 lõppenud ] ? "
+     e27 "Küsisin"  BEFORE  DCT 
+     e27 "Küsisin"  IS_INCLUDED  e28 "vahekord" 
+     e27 "Küsisin"  VAGUE  e29 "lõppenud" 
+     e27 "Küsisin"  BEFORE  e30 "keerutas" 
+     e28 "vahekord"  BEFORE  DCT 
+     e28 "vahekord"  INCLUDES  e29 "lõppenud" 
+     e29 "lõppenud"  BEFORE  DCT 
+     e29 "lõppenud"  BEFORE-OR-OVERLAP  e30 "keerutas" 
+
+ s8  Dodi [e30 keerutas ] . "
+     e30 "keerutas"  BEFORE  DCT 
+     e30 "keerutas"  SIMULTANEOUS  e32 "rääkida" 
+     e30 "keerutas"  SIMULTANEOUS  e33 "vihjanud" 
+
+ s9  Ma ei [e31 saa ] telefoni teel [e32 rääkida ] , " ja ei [e33 vihjanud ] poole sõnagagi suhte [e34 lõppemisele ] .
+     e31 "saa"  BEFORE  DCT 
+     e31 "saa"  VAGUE  e32 "rääkida" 
+     e32 "rääkida"  BEFORE  DCT 
+     e32 "rääkida"  SIMULTANEOUS  e33 "vihjanud" 
+     e32 "rääkida"  AFTER  e35 "maksnud" 
+     e32 "rääkida"  AFTER  e36 "ostnud" 
+     e33 "vihjanud"  BEFORE  DCT 
+     e33 "vihjanud"  BEFORE  e34 "lõppemisele" 
+     e33 "vihjanud"  AFTER  e35 "maksnud" 
+     e33 "vihjanud"  AFTER  e36 "ostnud" 
+     e34 "lõppemisele"  BEFORE  DCT 
+
+ s10  Ta oli [e35 maksnud ] Kellyle 2000 naelsterlingit ( 50 000 krooni ) päevaraha ja [e36 ostnud ] modellile 5 miljonit naelsterlingit maksva maja Los , et ta modellitööst [e37 loobuks ] ja ainult Dodile [e38 pühenduks ] .
+     e35 "maksnud"  BEFORE  DCT 
+     e35 "maksnud"  SIMULTANEOUS  e36 "ostnud" 
+     e36 "ostnud"  BEFORE  DCT 
+     e36 "ostnud"  BEFORE  e37 "loobuks" 
+     e37 "loobuks"  BEFORE  DCT 
+     e37 "loobuks"  BEFORE  e38 "pühenduks" 
+     e38 "pühenduks"  BEFORE  DCT 
+
+

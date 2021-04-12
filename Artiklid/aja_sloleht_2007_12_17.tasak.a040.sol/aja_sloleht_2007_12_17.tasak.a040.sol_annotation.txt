@@ -1,0 +1,200 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a040.sol
+      DCT: 2007-12-17
+==================================================
+ s0  [t1 Kolmapäevaõhtuses ] Tartu Peetri kirikus [e1 suutis ] Lauri Pihlap Michael Jacksoni loosse " Earth Song " nii palju talle omast Justin Timberlake'i tämbrit [e2 panna ] , et kinnisilmi [e3 võiski ] end selle laulja [e4 kontserdile ] [e5 unistada ] . Rolf Roosalu peaaegu falsetini [e6 viidud ] hääl laulus " O Holy Night " [e7 pani ] aga kuulajad vaimustusest [e8 kiljuma ] .
+     e1 "suutis"  BEFORE  DCT 
+     e1 "suutis"  BEFORE-OR-OVERLAP  e2 "panna" 
+     e1 "suutis"  BEFORE-OR-OVERLAP  e5 "unistada" 
+     e1 "suutis"  VAGUE  e7 "pani" 
+     e1 "suutis"  AFTER  e9 "on naeruväärne" 
+     e2 "panna"  BEFORE  DCT 
+     e2 "panna"  SIMULTANEOUS  e5 "unistada" 
+     e3 "võiski"  BEFORE  DCT 
+     e3 "võiski"  VAGUE  e5 "unistada" 
+     e4 "kontserdile"  VAGUE  DCT 
+     e4 "kontserdile"  SIMULTANEOUS  e5 "unistada" ka VAGUE
+     e5 "unistada"  BEFORE  DCT 
+     e6 "viidud"  BEFORE  DCT 
+     e6 "viidud"  INCLUDES  e7 "pani" 
+     e6 "viidud"  INCLUDES  e8 "kiljuma" 
+     e7 "pani"  BEFORE  DCT 
+     e7 "pani"  BEFORE-OR-OVERLAP  e8 "kiljuma" 
+     e7 "pani"  AFTER  e9 "on naeruväärne" 
+     e8 "kiljuma"  BEFORE  DCT 
+
+ s1  " See [e9 on ] [e9 naeruväärne ] !
+     e9 "on naeruväärne"  BEFORE  DCT 
+     e9 "on naeruväärne"  INCLUDES  e12 "toriseb" 
+     e9 "on naeruväärne"  SIMULTANEOUS  e10 "tahab" ka VAGUE
+
+ s2  Kes küll [e10 tahab ] siia [e11 tulla ] ? ! " [e12 toriseb ] istekohta [e13 otsiv ] ingliskeelne välismaalane [t2 kolmapäeva õhtul ] Tartus puupüsti täis Peetri kirikus .
+     e10 "tahab"  BEFORE  DCT 
+     e10 "tahab"  BEFORE-OR-OVERLAP  e11 "tulla" 
+     e10 "tahab"  INCLUDES  e12 "toriseb" 
+     e10 "tahab"  SIMULTANEOUS  e14 "koguneb" ka VAGUE
+     e11 "tulla"  BEFORE  DCT 
+     e11 "tulla"  VAGUE  e12 "toriseb" 
+     e12 "toriseb"  IS_INCLUDED  t2 "kolmapäeva õhtul" 
+     e12 "toriseb"  BEFORE  DCT 
+     e12 "toriseb"  IS_INCLUDED  e13 "otsiv" 
+     e12 "toriseb"  IS_INCLUDED  e14 "koguneb" 
+     e13 "otsiv"  BEFORE  DCT 
+
+ s3  Ometi [e14 koguneb ] " Valge gospeli " [e15 jõulukontserdile ] juba [t3 teist aastat ] järjest sadu inimesi .
+     e14 "koguneb"  IS_INCLUDED  t3 "teist aastat" 
+     e14 "koguneb"  BEFORE  DCT 
+     e14 "koguneb"  BEFORE-OR-OVERLAP  e15 "jõulukontserdile" 
+     e14 "koguneb"  SIMULTANEOUS  e20 "on rahulolevad" 
+     e15 "jõulukontserdile"  BEFORE  DCT 
+
+ s4  Ehkki hea koha [e16 saamiseks ] oleks [e17 pidanud ] kirikusse [e18 tulema ] juba [t4 tund aega ] enne [e19 kontserti ] , [e20 on ] kõik siiski [e20 rahulolevad ] ( mõne välismaalasest erandiga , kelles [e21 võimalus ] Mikk Saart ja Raimondo Laikret [e22 laulmas ] [e23 näha ] ilmselt nii suurt elevust ei [e24 tekita ] ) .
+     e16 "saamiseks"  BEFORE  DCT 
+     e16 "saamiseks"  OVERLAP-OR-AFTER  e18 "tulema" 
+     e17 "pidanud"  BEFORE  DCT 
+     e17 "pidanud"  VAGUE  e18 "tulema" 
+     e18 "tulema"  BEFORE-OR-OVERLAP  t4 "tund aega" 
+     e18 "tulema"  BEFORE  DCT 
+     e18 "tulema"  BEFORE  e19 "kontserti" 
+     e18 "tulema"  BEFORE  e20 "on rahulolevad" 
+     e19 "kontserti"  OVERLAP-OR-AFTER  t4 "tund aega" 
+     e19 "kontserti"  BEFORE  DCT 
+     e20 "on rahulolevad"  BEFORE  DCT 
+     e20 "on rahulolevad"  SIMULTANEOUS  e24 "tekita" 
+     e20 "on rahulolevad"  BEFORE-OR-OVERLAP  e26 "karga" 
+     e21 "võimalus"  BEFORE  DCT 
+     e21 "võimalus"  BEFORE-OR-OVERLAP  e23 "näha" 
+     e21 "võimalus"  BEFORE-OR-OVERLAP  e24 "tekita" 
+     e22 "laulmas"  BEFORE  DCT 
+     e22 "laulmas"  SIMULTANEOUS  e23 "näha" 
+     e23 "näha"  BEFORE  DCT 
+     e24 "tekita"  BEFORE  DCT 
+
+ s5  Eestlased [e25 gospelkontserdil ] vaimustusega püsti ei [e26 karga ]
+     e25 "gospelkontserdil"  BEFORE  DCT 
+     e25 "gospelkontserdil"  INCLUDES  e26 "karga" 
+     e26 "karga"  BEFORE  DCT 
+     e26 "karga"  OVERLAP-OR-AFTER  e29 "julgustab" 
+     e26 "karga"  VAGUE  e28 "tantsida" 
+
+ s6  Inimesed [e27 võiksid ] vabalt kas või [e28 tantsida ] , [e29 julgustab ] laulja Lauri Pihlap [e30 kontserdi ] avasõnu [e31 lausudes ] .
+     e27 "võiksid"  BEFORE  DCT 
+     e27 "võiksid"  VAGUE  e28 "tantsida" 
+     e28 "tantsida"  BEFORE  DCT 
+     e28 "tantsida"  OVERLAP-OR-AFTER  e29 "julgustab" 
+     e28 "tantsida"  VAGUE  e32 "jäävad" 
+     e28 "tantsida"  VAGUE  e33 "aita" 
+     e29 "julgustab"  BEFORE  DCT 
+     e29 "julgustab"  IS_INCLUDED  e30 "kontserdi" 
+     e29 "julgustab"  IS_INCLUDED  e31 "lausudes" 
+     e29 "julgustab"  BEFORE-OR-OVERLAP  e32 "jäävad" 
+     e29 "julgustab"  BEFORE-OR-OVERLAP  e33 "aita" 
+     e30 "kontserdi"  BEFORE  DCT 
+     e30 "kontserdi"  INCLUDES  e31 "lausudes" 
+     e31 "lausudes"  BEFORE  DCT 
+
+ s7  Eestlased [e32 jäävad ] kahjuks ikka konservatiivseks , ei [e33 aita ] ka üliaktiivne koorijuht Anneli Pilpak , kes pingiridade vahel [e34 dirigeerides ] gospelkoorile emotsionaalselt kaasa [e35 elab ] .
+     e32 "jäävad"  BEFORE  DCT 
+     e32 "jäävad"  SIMULTANEOUS  e33 "aita" 
+     e32 "jäävad"  INCLUDES  e39 "suuda" 
+     e32 "jäävad"  INCLUDES  e41 "plaksutatakse" 
+     e33 "aita"  BEFORE  DCT 
+     e33 "aita"  INCLUDES  e35 "elab" 
+     e33 "aita"  INCLUDES  e39 "suuda" 
+     e33 "aita"  INCLUDES  e41 "plaksutatakse" 
+     e34 "dirigeerides"  BEFORE  DCT 
+     e34 "dirigeerides"  SIMULTANEOUS  e35 "elab" 
+     e35 "elab"  BEFORE  DCT 
+
+ s8  Ka end [e36 lauldes ] üles [e37 kütnud ] ja publiku sekka [e38 tormanud ] Raimondo Laikre ei [e39 suuda ] inimesi püsti [e40 sundida ] , ehkki kaasa [e41 plaksutatakse ] hoolega .
+     e36 "lauldes"  BEFORE  DCT 
+     e36 "lauldes"  BEFORE-OR-OVERLAP  e37 "kütnud" 
+     e36 "lauldes"  BEFORE  e39 "suuda" 
+     e37 "kütnud"  BEFORE  DCT 
+     e37 "kütnud"  BEFORE-OR-OVERLAP  e38 "tormanud" 
+     e37 "kütnud"  BEFORE  e39 "suuda" 
+     e38 "tormanud"  BEFORE  DCT 
+     e38 "tormanud"  BEFORE  e39 "suuda" 
+     e39 "suuda"  BEFORE  DCT 
+     e39 "suuda"  BEFORE-OR-OVERLAP  e40 "sundida" 
+     e39 "suuda"  IS_INCLUDED  e41 "plaksutatakse" 
+     e39 "suuda"  VAGUE  e43 "teenib" 
+     e40 "sundida"  BEFORE  DCT 
+     e40 "sundida"  IS_INCLUDED  e41 "plaksutatakse" 
+     e41 "plaksutatakse"  BEFORE  DCT 
+     e41 "plaksutatakse"  VAGUE  e43 "teenib" 
+
+ s9  Kõige rohkem tütarlaste [e42 huilgeid ] [e43 teenib ] Rolf Roosalu .
+     e42 "huilgeid"  BEFORE  DCT 
+     e42 "huilgeid"  OVERLAP-OR-AFTER  e43 "teenib" 
+     e43 "teenib"  BEFORE  DCT 
+     e43 "teenib"  SIMULTANEOUS  e46 "paneb" 
+
+ s10  Tema [e44 lauldud ] " O Holy Night " ning peaaegu falsetini [e45 viidud ] hääl [e46 paneb ] kuulajad vaimustusest [e47 kiljuma ] .
+     e44 "lauldud"  BEFORE  DCT 
+     e44 "lauldud"  INCLUDES  e46 "paneb" 
+     e44 "lauldud"  VAGUE  e45 "viidud" 
+     e45 "viidud"  BEFORE  DCT 
+     e45 "viidud"  INCLUDES  e46 "paneb" 
+     e46 "paneb"  BEFORE  DCT 
+     e46 "paneb"  BEFORE-OR-OVERLAP  e47 "kiljuma" 
+     e46 "paneb"  VAGUE  e48 "suudab" 
+     e47 "kiljuma"  BEFORE  DCT 
+
+ s11  Lauri Pihlap [e48 suudab ] aga Michael Jacksoni kuulsa , inimeste südametunnistusele koputava loo " Earth Song " sõnadesse ja kõlasse [e49 panna ] nii palju talle omast Justin Timberlake'i tämbrit , et kinnisilmi [e50 võibki ] end just selle popi laulja [e51 kontserdile ] [e52 unistada ] .
+     e48 "suudab"  BEFORE  DCT 
+     e48 "suudab"  BEFORE-OR-OVERLAP  e49 "panna" 
+     e48 "suudab"  BEFORE-OR-OVERLAP  e52 "unistada" 
+     e48 "suudab"  IS_INCLUDED  e54 "on koos" 
+     e49 "panna"  BEFORE  DCT 
+     e49 "panna"  SIMULTANEOUS  e52 "unistada" 
+     e50 "võibki"  BEFORE  DCT 
+     e50 "võibki"  VAGUE  e52 "unistada" 
+     e51 "kontserdile"  VAGUE  DCT 
+     e51 "kontserdile"  SIMULTANEOUS  e52 "unistada" 
+     e52 "unistada"  BEFORE  DCT 
+
+ s12  [e53 Kontserdil ] [e54 on ] [e54 koos ] Eesti nooremate lauljate paremik
+     e53 "Kontserdil"  INCLUDES  DCT 
+     e53 "Kontserdil"  INCLUDES  e54 "on koos" 
+     e54 "on koos"  INCLUDES  DCT 
+     e54 "on koos"  INCLUDES  e55 "paku" 
+
+ s13  Üllatusi " Valge gospel " ei [e55 paku ] , mõnusat [e56 käekarvad-püsti-fiilingut ] aga küll .
+     e55 "paku"  INCLUDES  DCT 
+     e55 "paku"  SIMULTANEOUS  e56 "käekarvad-püsti-fiilingut" 
+     e55 "paku"  INCLUDES  e59 "leiab" 
+     e55 "paku"  SIMULTANEOUS  e58 "esitab" 
+     e56 "käekarvad-püsti-fiilingut"  INCLUDES  DCT 
+
+ s14  Maikeni [e57 juhitud ] WAF-kooli 30liikmeline gospelkoor [e58 esitab ] koos Eesti 17 tuntud lauljaga 17 rohkem ja vähem tuntud kristlikku ( või lihtsalt väga ilusat ja püha ) sõnumit kandvat lugu ning ilmselt [e59 leiab ] igaüks [e60 kontserdil ] endale midagi .
+     e57 "juhitud"  VAGUE  DCT 
+     e57 "juhitud"  INCLUDES  e58 "esitab" 
+     e58 "esitab"  INCLUDES  DCT 
+     e58 "esitab"  INCLUDES  e59 "leiab" 
+     e58 "esitab"  VAGUE  e61 "eelistab" 
+     e59 "leiab"  INCLUDES  DCT 
+     e59 "leiab"  INCLUDES  e60 "kontserdil" 
+     e59 "leiab"  VAGUE  e61 "eelistab" 
+     e60 "kontserdil"  INCLUDES  DCT 
+
+ s15  Kes [e61 eelistab ] Lenna Kuurmaa kähedat häält , kes Mikk Saare habetunud lõuga , kes Bert Pringi lustakat tukka , kes Nele-Liis Vaiksoo ingellikku häält , kes Kaire Vilgatsi ja Susan Lillevälja nakatavat elurõõmu .
+     e61 "eelistab"  INCLUDES  DCT 
+     e61 "eelistab"  VAGUE  e62 "tuuritab" 
+
+ s16  " Valge gospel " [e62 tuuritab ] mööda Eesti kirikuid [t5 nädala keskpaigani ] .
+     e62 "tuuritab"  BEFORE-OR-OVERLAP  t5 "nädala keskpaigani" 
+     e62 "tuuritab"  INCLUDES  DCT 
+     e62 "tuuritab"  INCLUDES  e63 "oli" 
+     e62 "tuuritab"  INCLUDES  e65 "esinetakse" 
+
+ s17  [t6 Eile ] [e63 oli ] [e64 kontsert ] Jõhvi Mihkli kirikus , [t7 homme ] [e65 esinetakse ] Türi Püha Martini kirikus ja [t8 kolmapäeval ] Viljandi Pauluse kirikus .
+     e63 "oli"  IS_INCLUDED  t6 "Eile" 
+     e63 "oli"  BEFORE  DCT 
+     e63 "oli"  BEFORE  e65 "esinetakse" 
+     e63 "oli"  SIMULTANEOUS  e64 "kontsert" 
+     e64 "kontsert"  BEFORE  DCT 
+     e65 "esinetakse"  IS_INCLUDED  t7 "homme" 
+     e65 "esinetakse"  AFTER  DCT 
+
+

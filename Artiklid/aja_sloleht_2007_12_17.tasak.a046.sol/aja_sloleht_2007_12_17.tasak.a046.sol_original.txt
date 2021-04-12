@@ -1,3 +1,13 @@
 <div0><head> Võitlus provokaatoritega </head><bibl> <author> SLÕL </author> </bibl>
-<p rend="bold"> <s> Läti parlament võttis vastu otsuse , mille järgi võib seal devalveerimispaanikat külvanud inimesed vangi panna . </s> </p>
-<p> <s> Näib , et see on mõistlik otsus , sest oma riiki , raha ja piiri saab valvata vaid ise , teistele loota ei tasu . </s> <s> Ka Eestis külvati devalveerimispaanikat , aga süüdi ei ole keegi ! </s> <s> Kevadel purustasid peamiselt vene keelt kõnelevad noorukid Tallinna südame , aga korralikest karistustest pole juttugi . </s> <s> Suurem osa pääses trahviga , mõni veetis ja veedab natuke oma noorest elust trellide taga . </s> <s> Kahju , et me ei suhtu provokaatoritesse niisama karmilt nagu lätlased . </s> <s> Kodus võiksime ohjad ikka enda käes hoida . </s> </p></div0>
+<p rend="bold">
+ <s> Läti parlament võttis vastu otsuse , mille järgi võib seal devalveerimispaanikat külvanud inimesed vangi panna . </s> 
+</p>
+<p>
+ <s> Näib , et see on mõistlik otsus , sest oma riiki , raha ja piiri saab valvata vaid ise , teistele loota ei tasu . </s>
+<s> Ka Eestis külvati devalveerimispaanikat , aga süüdi ei ole keegi ! </s>
+<s> Kevadel purustasid peamiselt vene keelt kõnelevad noorukid Tallinna südame , aga korralikest karistustest pole juttugi . </s>
+<s> Suurem osa pääses trahviga , mõni veetis ja veedab natuke oma noorest elust trellide taga . </s>
+<s> Kahju , et me ei suhtu provokaatoritesse niisama karmilt nagu lätlased . </s>
+<s> Kodus võiksime ohjad ikka enda käes hoida . </s> 
+</p>
+</div0>

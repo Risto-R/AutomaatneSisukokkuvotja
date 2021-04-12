@@ -1,13 +1,43 @@
 <div0><head> Putin taastab sidemeid Indiaga </head>
-<p> <bibl> <author> <s> Kadri Liik , Moskva , valis@postimees.ee </s> </author> </bibl> </p>
-<p> <s> Venemaa president Vladimir Putin alustas eile India-visiiti , millega loodab pisut taastada kahe riigi vaheliste suhete külma sõja aegset tihedust . </s> </p>
-<p> <s> Putin kavatseb koos India liidritega alla kirjutada rohkem kui kümnele lepingule , mis reguleerivad kahe riigi vahelist koostööd majanduse , teaduse , tehnika , kultuuri valdkonnas . </s> </p>
-<p> <s> Lepingutest tähtsaimaks on vaatlejad hinnanud strateegilise partnerluse lepingut . </s> </p>
-<p> <s> “ Läbirääkimised ( selle lepingu üle ) on tõestanud India ja Venemaa pikaajaliste rahvuslike ja geopoliitiliste huvide kokkulangevust , ” ütles Putin pressikonverentsil pärast seda , kui oli koos India peaministri Atal Behari Vajpayeega dokumendile allkirja andnud . </s> </p>
-<p> <s> Vene ajakirjandus on visiidist kirjutades pööranud kõige rohkem tähelepanu Venemaa relvatarnetele Indiasse . </s> <s> Ajaleht Segodnja nentis , et Putin läks Indiasse kui Vene relvaekspordifirma Rosvooruzhenije müügimees . </s> </p>
-<p> <s> Näiteks peaks just visiidi ajal saama alla kirjutatud leping , mille kohaselt India ostab Venemaalt 124 tanki T-90S ja ehitab litsentsi alusel veel 186. </s> <s> Tehingu hind peaks olema 750 miljonit USA dollarit . </s> </p>
-<p> <s> Teise “ sajandi tehinguna ” loodab Venemaa Indiale maha müüa lennukikandja ristleja Admiral Gorshkov ja mõned hävitajad MiG-29 . </s> <s> See peaks Venemaale sisse tooma 1,3 -1,5 miljardit dollarit . </s> </p>
-<p> <s> Samas on Vene press käsitlenud Vene-India suhteid ka geopoliitilises kontekstis ja nentinud , et siin on Putini ees küllaltki keerukas ristsõnamõistatus . </s> </p>
-<p> <s> Juba aastaid on Venemaa püüdnud soojendada suhteid India ja Hiinaga , et oleks midagi vastu panna USA liidripositsioonile maailmas . </s> </p>
-<p> <s> Nüüd aga on Venemaal tekkinud palju pakilisem ja isiklikum vajadus saada hästi läbi hoopis Pakistaniga - riigiga , millega Indial jällegi on äärmiselt pingelised suhted . </s> </p>
-<p> <s> Pakistan on aga ainus riik maailmas , mis suudab lävida Talebani liikumisega . </s> <s> Kuivõrd viimane on saanud oma kontrolli alla peaaegu kogu Afganistani ja jõudnud Tadzhikistani piiri äärde , siis muutub Venemaale - mis valvab Tadzhi-kistani ja Afganistani piiri - Talebaniga suhete loomine elutähtsaks küsimuseks . </s> <s> Pakistani vahendus siin oleks väga kasulik . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Kadri Liik , Moskva , valis@postimees.ee </s> </author> </bibl> 
+</p>
+<p>
+ <s> Venemaa president Vladimir Putin alustas eile India-visiiti , millega loodab pisut taastada kahe riigi vaheliste suhete külma sõja aegset tihedust . </s> 
+</p>
+<p>
+ <s> Putin kavatseb koos India liidritega alla kirjutada rohkem kui kümnele lepingule , mis reguleerivad kahe riigi vahelist koostööd majanduse , teaduse , tehnika , kultuuri valdkonnas . </s> 
+</p>
+<p>
+ <s> Lepingutest tähtsaimaks on vaatlejad hinnanud strateegilise partnerluse lepingut . </s> 
+</p>
+<p>
+ <s> “ Läbirääkimised ( selle lepingu üle ) on tõestanud India ja Venemaa pikaajaliste rahvuslike ja geopoliitiliste huvide kokkulangevust , ” ütles Putin pressikonverentsil pärast seda , kui oli koos India peaministri Atal Behari Vajpayeega dokumendile allkirja andnud . </s> 
+</p>
+<p>
+ <s> Vene ajakirjandus on visiidist kirjutades pööranud kõige rohkem tähelepanu Venemaa relvatarnetele Indiasse . </s>
+<s> Ajaleht Segodnja nentis , et Putin läks Indiasse kui Vene relvaekspordifirma Rosvooruzhenije müügimees . </s> 
+</p>
+<p>
+ <s> Näiteks peaks just visiidi ajal saama alla kirjutatud leping , mille kohaselt India ostab Venemaalt 124 tanki T-90S ja ehitab litsentsi alusel veel 186. </s>
+<s> Tehingu hind peaks olema 750 miljonit USA dollarit . </s> 
+</p>
+<p>
+ <s> Teise “ sajandi tehinguna ” loodab Venemaa Indiale maha müüa lennukikandja ristleja Admiral Gorshkov ja mõned hävitajad MiG-29 . </s>
+<s> See peaks Venemaale sisse tooma 1,3 -1,5 miljardit dollarit . </s> 
+</p>
+<p>
+ <s> Samas on Vene press käsitlenud Vene-India suhteid ka geopoliitilises kontekstis ja nentinud , et siin on Putini ees küllaltki keerukas ristsõnamõistatus . </s> 
+</p>
+<p>
+ <s> Juba aastaid on Venemaa püüdnud soojendada suhteid India ja Hiinaga , et oleks midagi vastu panna USA liidripositsioonile maailmas . </s> 
+</p>
+<p>
+ <s> Nüüd aga on Venemaal tekkinud palju pakilisem ja isiklikum vajadus saada hästi läbi hoopis Pakistaniga - riigiga , millega Indial jällegi on äärmiselt pingelised suhted . </s> 
+</p>
+<p>
+ <s> Pakistan on aga ainus riik maailmas , mis suudab lävida Talebani liikumisega . </s>
+<s> Kuivõrd viimane on saanud oma kontrolli alla peaaegu kogu Afganistani ja jõudnud Tadzhikistani piiri äärde , siis muutub Venemaale - mis valvab Tadzhi-kistani ja Afganistani piiri - Talebaniga suhete loomine elutähtsaks küsimuseks . </s>
+<s> Pakistani vahendus siin oleks väga kasulik . </s> 
+</p>
+</div0>

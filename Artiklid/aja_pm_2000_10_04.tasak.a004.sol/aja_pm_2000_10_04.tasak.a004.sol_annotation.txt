@@ -1,0 +1,222 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a004.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Tartu linnavalitsus [e1 tunnistas ] [t1 eile ] bussifirma Liikor [e2 erastamise ] [e3 nurjunuks ] , kuid ei [e4 otsustanud ] ettevõtte saatust .
+     e1 "tunnistas"  IS_INCLUDED  t1 "eile" 
+     e1 "tunnistas"  BEFORE  DCT 
+     e1 "tunnistas"  AFTER  e2 "erastamise" 
+     e1 "tunnistas"  BEFORE  e4 "otsustanud" 
+     e1 "tunnistas"  VAGUE  e3 "nurjunuks" 
+     e1 "tunnistas"  BEFORE  e5 "kinnitab" 
+     e2 "erastamise"  BEFORE  DCT 
+     e3 "nurjunuks"  BEFORE  DCT 
+     e4 "otsustanud"  BEFORE  DCT 
+     e4 "otsustanud"  BEFORE  e5 "kinnitab" 
+
+ s1  Rootsi firma Connex Transport AB aga [e5 kinnitab ] [e6 huvi ] Liikorit [e7 osta ] .
+     e5 "kinnitab"  BEFORE-OR-OVERLAP  DCT 
+     e5 "kinnitab"  IS_INCLUDED  e6 "huvi" 
+     e5 "kinnitab"  INCLUDES  e8 "kinnitas" 
+     e5 "kinnitab"  IS_INCLUDED  e9 "süveneb" 
+     e6 "huvi"  INCLUDES  DCT 
+     e6 "huvi"  BEFORE-OR-OVERLAP  e7 "osta" 
+     e7 "osta"  AFTER  DCT 
+
+ s2  Connex Transport AB Kesk-Euroopa äriarendusosakonna juhataja Charles Michael Fagnon [e8 kinnitas ] [t2 eile ] , et firma [e9 süveneb ] [t3 praegu ] Liikori [e10 olukorda ] .
+     e8 "kinnitas"  IS_INCLUDED  t2 "eile" 
+     e8 "kinnitas"  BEFORE  DCT 
+     e8 "kinnitas"  IS_INCLUDED  e9 "süveneb" 
+     e8 "kinnitas"  IS_INCLUDED  e12 "sõltub" 
+     e8 "kinnitas"  SIMULTANEOUS  e13 "märkis" 
+     e9 "süveneb"  SIMULTANEOUS  t3 "praegu" 
+     e9 "süveneb"  INCLUDES  DCT 
+     e9 "süveneb"  IS_INCLUDED  e10 "olukorda" 
+     e9 "süveneb"  INCLUDES  e13 "märkis" 
+     e9 "süveneb"  IS_INCLUDED  e12 "sõltub" 
+     e10 "olukorda"  INCLUDES  DCT 
+
+ s3  " Liikori [e11 ostmine ] [e12 sõltub ] tingimustest , " [e13 märkis ] Fagnon [e14 telefonivestluses ] Tartu Postimehele .
+     e11 "ostmine"  AFTER  DCT 
+     e11 "ostmine"  VAGUE  e12 "sõltub" 
+     e12 "sõltub"  INCLUDES  DCT 
+     e12 "sõltub"  INCLUDES  e13 "märkis" 
+     e12 "sõltub"  INCLUDES  e15 "Süveneme" 
+     e13 "märkis"  BEFORE  DCT 
+     e13 "märkis"  IS_INCLUDED  e14 "telefonivestluses" 
+     e13 "märkis"  IS_INCLUDED  e15 "Süveneme" 
+     e14 "telefonivestluses"  BEFORE  DCT 
+
+ s4  " [e15 Süveneme ] Tartu liinibusside [e16 olukorda ] , et [e17 teada ] [e17 saada ] [e18 väljavahetamist ] vajavate busside hulk .
+     e15 "Süveneme"  INCLUDES  DCT 
+     e15 "Süveneme"  BEFORE  e17 "teada saada" 
+     e15 "Süveneme"  IS_INCLUDED  e16 "olukorda" 
+     e15 "Süveneme"  BEFORE-OR-OVERLAP  e20 "optimeerida" 
+     e15 "Süveneme"  BEFORE-OR-OVERLAP  e21 "parandada" 
+     e15 "Süveneme"  SIMULTANEOUS  e19 "Uurime" 
+     e16 "olukorda"  INCLUDES  DCT 
+     e17 "teada saada"  AFTER  DCT 
+     e17 "teada saada"  BEFORE  e18 "väljavahetamist" 
+     e18 "väljavahetamist"  AFTER  DCT 
+
+ s5  [e19 Uurime ] , kuidas [e20 optimeerida ] liine ja [e21 parandada ] töötingimusi . "
+     e19 "Uurime"  INCLUDES  DCT 
+     e19 "Uurime"  BEFORE  e20 "optimeerida" 
+     e19 "Uurime"  BEFORE  e21 "parandada" 
+     e19 "Uurime"  INCLUDES  e26 "vastas" 
+     e19 "Uurime"  INCLUDES  e28 "oska" 
+     e20 "optimeerida"  AFTER  DCT 
+     e20 "optimeerida"  SIMULTANEOUS  e21 "parandada" 
+     e20 "optimeerida"  AFTER  e26 "vastas" 
+     e20 "optimeerida"  AFTER  e28 "oska" 
+     e21 "parandada"  AFTER  DCT 
+     e21 "parandada"  AFTER  e26 "vastas" 
+     e21 "parandada"  AFTER  e28 "oska" 
+
+ s6  [e22 Küsimusele ] , kas linnavalitsuse [e23 soov ] [e24 saada ] Liikorist vähemalt 20 miljonit krooni on üle [e25 pakutud ] , [e26 vastas ] Fagnon : " Kas 20 miljonit krooni [e27 on ] sobiv hind , ei [e28 oska ] [e29 öelda ] .
+     e22 "Küsimusele"  BEFORE  DCT 
+     e22 "Küsimusele"  AFTER  e25 "pakutud" 
+     e22 "Küsimusele"  BEFORE  e26 "vastas" 
+     e23 "soov"  INCLUDES  DCT 
+     e23 "soov"  INCLUDES  e24 "saada" 
+     e23 "soov"  INCLUDES  e25 "pakutud" 
+     e24 "saada"  INCLUDES  DCT 
+     e24 "saada"  VAGUE  e25 "pakutud" 
+     e25 "pakutud"  BEFORE  DCT 
+     e26 "vastas"  BEFORE  DCT 
+     e26 "vastas"  IS_INCLUDED  e28 "oska" 
+     e26 "vastas"  IS_INCLUDED  e30 "tea" 
+     e26 "vastas"  IS_INCLUDED  e31 "oleme nõus" 
+     e27 "on"  INCLUDES  DCT 
+     e27 "on"  INCLUDES  e28 "oska" 
+     e27 "on"  VAGUE  e29 "öelda" 
+     e28 "oska"  INCLUDES  DCT 
+     e28 "oska"  VAGUE  e29 "öelda" 
+     e28 "oska"  SIMULTANEOUS  e30 "tea" 
+     e29 "öelda"  INCLUDES  DCT 
+
+ s7  Me ei [e30 tea ] veel Liikori väärtust , kuid [e31 oleme ] [e31 nõus ] selle eest [e32 pakkuma ] õiglast hinda . "
+     e30 "tea"  INCLUDES  DCT 
+     e30 "tea"  VAGUE  e31 "oleme nõus" 
+     e30 "tea"  VAGUE  e32 "pakkuma" 
+     e30 "tea"  BEFORE-OR-OVERLAP  e36 "pole plaanis" 
+     e30 "tea"  INCLUDES  e33 "kinnitas" 
+     e31 "oleme nõus"  INCLUDES  DCT 
+     e31 "oleme nõus"  BEFORE-OR-OVERLAP  e32 "pakkuma" 
+     e31 "oleme nõus"  BEFORE-OR-OVERLAP  e36 "pole plaanis" 
+     e31 "oleme nõus"  INCLUDES  e33 "kinnitas" 
+     e32 "pakkuma"  AFTER  DCT 
+
+ s8  Fagnon [e33 kinnitas ] , et kui Connex Transport [e34 peaks ] Liikori [e35 ostma ] , [e36 pole ] neil [e36 plaanis ] raha kiirelt , näiteks [t4 viie aastaga ] , tagasi [e37 teenida ] , et siis [e38 minema ] minna .
+     e33 "kinnitas"  BEFORE  DCT 
+     e33 "kinnitas"  BEFORE  e35 "ostma" 
+     e33 "kinnitas"  IS_INCLUDED  e39 "on pikemaajalised" 
+     e33 "kinnitas"  SIMULTANEOUS  e40 "väitis" 
+     e34 "peaks"  AFTER  DCT 
+     e34 "peaks"  VAGUE  e35 "ostma" 
+     e35 "ostma"  AFTER  DCT 
+     e35 "ostma"  IS_INCLUDED  e36 "pole plaanis" 
+     e36 "pole plaanis"  OVERLAP-OR-AFTER  DCT 
+     e36 "pole plaanis"  INCLUDES  e37 "teenida" 
+     e36 "pole plaanis"  IS_INCLUDED  e39 "on pikemaajalised" 
+     e36 "pole plaanis"  OVERLAP-OR-AFTER  e40 "väitis" 
+     e37 "teenida"  SIMULTANEOUS  t4 "viie aastaga" 
+     e37 "teenida"  AFTER  DCT 
+     e37 "teenida"  BEFORE  e38 "minema" 
+     e38 "minema"  AFTER  DCT 
+
+ s9  " Meie plaanid [e39 on ] [e39 pikemaajalised ] , " [e40 väitis ] ta .
+     e39 "on pikemaajalised"  INCLUDES  DCT 
+     e39 "on pikemaajalised"  INCLUDES  e40 "väitis" 
+     e39 "on pikemaajalised"  AFTER  e44 "saabus" 
+     e40 "väitis"  BEFORE  DCT 
+
+ s10  [t5 Möödunud neljapäeval ] , kui [e41 lõppes ] ASi Liikor [e42 erastamine ] , millele ei [e43 laekunud ] ühtegi pakkumist , [e44 saabus ] linnapea Andrus Ansipile Connex Transport AB faks , milles rootslased [e45 põhjendasid ] [e46 erastamisest ] [e47 loobumist ] sellega , et nad ei [e48 näe ] [e49 võimalust ] [t6 tuleval aastal ] 39 Liikori bussi uuemate vastu [e50 vahetada ] .
+     e41 "lõppes"  IS_INCLUDED  t5 "Möödunud neljapäeval" 
+     e41 "lõppes"  BEFORE  DCT 
+     e41 "lõppes"  BEFORE  e44 "saabus" 
+     e41 "lõppes"  IS_INCLUDED  e42 "erastamine" 
+     e41 "lõppes"  IS_INCLUDED  e43 "laekunud" 
+     e42 "erastamine"  BEFORE  DCT 
+     e42 "erastamine"  INCLUDES  e43 "laekunud" 
+     e43 "laekunud"  BEFORE  DCT 
+     e44 "saabus"  IS_INCLUDED  t5 "Möödunud neljapäeval" 
+     e44 "saabus"  BEFORE  DCT 
+     e44 "saabus"  BEFORE  e45 "põhjendasid" 
+     e44 "saabus"  AFTER  e52 "saanud" 
+     e44 "saabus"  BEFORE  e53 "kommenteeris" 
+     e44 "saabus"  BEFORE  e55 "selgitas" 
+     e44 "saabus"  IS_INCLUDED  e51 "pole" 
+     e45 "põhjendasid"  BEFORE  DCT 
+     e45 "põhjendasid"  AFTER  e47 "loobumist" 
+     e45 "põhjendasid"  IS_INCLUDED  e48 "näe" 
+     e46 "erastamisest"  BEFORE  DCT 
+     e46 "erastamisest"  INCLUDES  e47 "loobumist" 
+     e47 "loobumist"  BEFORE  DCT 
+     e48 "näe"  INCLUDES  DCT 
+     e48 "näe"  VAGUE  e49 "võimalust" 
+     e49 "võimalust"  INCLUDES  DCT 
+     e49 "võimalust"  VAGUE  e50 "vahetada" 
+     e50 "vahetada"  IS_INCLUDED  t6 "tuleval aastal" 
+     e50 "vahetada"  AFTER  DCT 
+
+ s11  " Mingit sellist kohustust [e51 pole ] , nad on meist väga valesti aru [e52 saanud ] , " [e53 kommenteeris ] Ansip [e54 saabunud ] kirja ja [e55 selgitas ] seda ka Fagnonile , mispeale Connex Transport AB [e56 asus ] taas Liikorit puudutavaid materjale läbi [e57 vaatama ] .
+     e51 "pole"  INCLUDES  DCT 
+     e51 "pole"  INCLUDES  e52 "saanud" 
+     e51 "pole"  INCLUDES  e53 "kommenteeris" 
+     e51 "pole"  VAGUE  e58 "kavatseb" 
+     e51 "pole"  VAGUE  e60 "kuulutab" 
+     e51 "pole"  VAGUE  e64 "arutatud" 
+     e52 "saanud"  BEFORE  DCT 
+     e52 "saanud"  BEFORE  e53 "kommenteeris" 
+     e52 "saanud"  BEFORE  e58 "kavatseb" 
+     e52 "saanud"  BEFORE  e60 "kuulutab" 
+     e52 "saanud"  BEFORE  e64 "arutatud" 
+     e53 "kommenteeris"  BEFORE  DCT 
+     e53 "kommenteeris"  AFTER  e54 "saabunud" 
+     e53 "kommenteeris"  BEFORE  e55 "selgitas" 
+     e53 "kommenteeris"  BEFORE  e58 "kavatseb" 
+     e53 "kommenteeris"  BEFORE  e60 "kuulutab" 
+     e53 "kommenteeris"  BEFORE  e64 "arutatud" 
+     e54 "saabunud"  BEFORE  DCT 
+     e55 "selgitas"  BEFORE  DCT 
+     e55 "selgitas"  BEFORE  e56 "asus" 
+     e55 "selgitas"  BEFORE  e58 "kavatseb" 
+     e55 "selgitas"  BEFORE  e60 "kuulutab" 
+     e55 "selgitas"  BEFORE  e64 "arutatud" 
+     e56 "asus"  BEFORE  DCT 
+     e56 "asus"  BEFORE  e57 "vaatama" 
+     e57 "vaatama"  BEFORE  DCT 
+
+ s12  Kas linnavalitsus [e58 kavatseb ] ASi Liikor maha [e59 müüa ] otsustuskorras või [e60 kuulutab ] välja uue [e61 erastamiskonkursi ] , seda abilinnapea Aksel Kivi [e62 väitel ] [t7 eilsel ] linnavalitsuse [e63 istungil ] ei [e64 arutatud ] .
+     e58 "kavatseb"  INCLUDES  DCT 
+     e58 "kavatseb"  AFTER  e64 "arutatud" 
+     e58 "kavatseb"  BEFORE-OR-OVERLAP  e59 "müüa" 
+     e58 "kavatseb"  INCLUDES  e62 "väitel" 
+     e58 "kavatseb"  VAGUE  e60 "kuulutab" 
+     e58 "kavatseb"  BEFORE-OR-OVERLAP  e66 "lase" 
+     e58 "kavatseb"  VAGUE  e65 "kinnitanud" 
+     e59 "müüa"  AFTER  DCT 
+     e60 "kuulutab"  AFTER  DCT 
+     e60 "kuulutab"  AFTER  e62 "väitel" 
+     e60 "kuulutab"  AFTER  e64 "arutatud" 
+     e60 "kuulutab"  BEFORE  e61 "erastamiskonkursi" 
+     e60 "kuulutab"  BEFORE-OR-OVERLAP  e66 "lase" 
+     e60 "kuulutab"  VAGUE  e65 "kinnitanud" 
+     e61 "erastamiskonkursi"  AFTER  DCT 
+     e62 "väitel"  BEFORE-OR-OVERLAP  DCT 
+     e62 "väitel"  AFTER  e63 "istungil" 
+     e62 "väitel"  AFTER  e64 "arutatud" 
+     e63 "istungil"  IS_INCLUDED  t7 "eilsel" 
+     e63 "istungil"  BEFORE  DCT 
+     e63 "istungil"  INCLUDES  e64 "arutatud" 
+     e64 "arutatud"  BEFORE  DCT 
+     e64 "arutatud"  BEFORE  e66 "lase" 
+     e64 "arutatud"  VAGUE  e65 "kinnitanud" 
+
+ s13  Linnapea Andrus Ansip on Tartu Postimehele [e65 kinnitanud ] , et linn ei [e66 lase ] Liikori hinda mingil juhul alla 20 miljoni krooni .
+     e65 "kinnitanud"  BEFORE  DCT 
+     e65 "kinnitanud"  BEFORE  e66 "lase" 
+     e66 "lase"  AFTER  DCT 
+
+

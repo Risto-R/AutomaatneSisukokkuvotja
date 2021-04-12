@@ -1,0 +1,226 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a037.sol
+      DCT: 2007-12-17
+==================================================
+ s0  " Eestimaa [e1 uhkus ] " [e2 on ] TV3 ja Elioni [e3 koostööprojekt ] . Suurejoonelisel [e4 vastuvõtul ] [e5 tänatakse ] lihtsaid ja tunnustust väärivaid inimesi , kes on [e6 teinud ] midagi palju rohkemat , kui ühiskond neilt [e7 oodanud ] on .
+     e1 "uhkus"  INCLUDES  DCT 
+     e1 "uhkus"  SIMULTANEOUS  e2 "on" 
+     e2 "on"  INCLUDES  DCT 
+     e2 "on"  INCLUDES  e5 "tänatakse" 
+     e2 "on"  SIMULTANEOUS  e3 "koostööprojekt" 
+     e2 "on"  INCLUDES  e9 "korraldati" 
+     e3 "koostööprojekt"  INCLUDES  DCT 
+     e4 "vastuvõtul"  VAGUE  DCT 
+     e4 "vastuvõtul"  INCLUDES  e5 "tänatakse" 
+     e5 "tänatakse"  INCLUDES  DCT 
+     e5 "tänatakse"  AFTER  e6 "teinud" 
+     e5 "tänatakse"  INCLUDES  e9 "korraldati" 
+     e6 "teinud"  BEFORE  DCT 
+     e6 "teinud"  IS_INCLUDED  e7 "oodanud" 
+     e7 "oodanud"  VAGUE  DCT 
+
+ s1  [e8 Heategevusgala ] [e9 korraldati ] juba [t1 kolmandat aastat ] .
+     e8 "Heategevusgala"  BEFORE  DCT 
+     e8 "Heategevusgala"  OVERLAP-OR-AFTER  e9 "korraldati" 
+     e9 "korraldati"  IS_INCLUDED  t1 "kolmandat aastat" 
+     e9 "korraldati"  BEFORE  DCT 
+     e9 "korraldati"  BEFORE-OR-OVERLAP  e10 "kutsuti" 
+
+ s2  [t2 Tänavu ] [e10 kutsuti ] lavale kümme sangarit , kelle televaatajate [e11 esitatud ] ligi 300 kandidaadi seast [e12 valis ] välja auväärt ühiskonnategelastest koosnev žürii .
+     e10 "kutsuti"  IS_INCLUDED  t2 "Tänavu" 
+     e10 "kutsuti"  BEFORE  DCT 
+     e10 "kutsuti"  AFTER  e11 "esitatud" 
+     e10 "kutsuti"  AFTER  e12 "valis" 
+     e10 "kutsuti"  IS_INCLUDED  e13 "kuulub" 
+     e11 "esitatud"  BEFORE  DCT 
+     e11 "esitatud"  BEFORE  e12 "valis" 
+     e12 "valis"  BEFORE  DCT 
+
+ s3  Eestimaa uhkustele [e13 kuulub ] tänu ning Ivo Lille loodud sümboolne klaasist auhind .
+     e13 "kuulub"  INCLUDES  DCT 
+     e13 "kuulub"  VAGUE  e14 "uhkus" 
+
+ s4  " Eestimaa [e14 uhkus ] [t3 2007 ] "
+     e14 "uhkus"  SIMULTANEOUS  t3 "2007" 
+     e14 "uhkus"  INCLUDES  DCT 
+
+ s5  Abistaja Taimar Visla
+ s6  Taimar Visla [e15 on ] [t4 seitsmeaastane ] Konguta algkooli õpilane , kes [e16 korraldas ] Elva väikelastekodu toetuseks [e17 rahakogumiskampaania ] , mille tulemusena [e18 anti ] lastekodule rohkem kui 3000 krooni , hulga-liselt mänguasju ja raamatuid .
+     e15 "on"  INCLUDES  DCT 
+     e15 "on"  INCLUDES  e16 "korraldas" 
+     e15 "on"  INCLUDES  e20 "elasid" 
+     e16 "korraldas"  BEFORE  DCT 
+     e16 "korraldas"  BEFORE-OR-OVERLAP  e17 "rahakogumiskampaania" 
+     e16 "korraldas"  BEFORE  e18 "anti" 
+     e17 "rahakogumiskampaania"  BEFORE  DCT 
+     e18 "anti"  BEFORE  DCT 
+
+ s7  Taimari [e19 heategevusprojektile ] [e20 elasid ] kaasa kõik Konguta kooli lapsed , kes omakorda [e21 korraldasid ] [e22 ettevõtmise ] toetuseks [e23 heategevuslaatasid ] .
+     e19 "heategevusprojektile"  BEFORE  DCT 
+     e19 "heategevusprojektile"  INCLUDES  e20 "elasid" 
+     e20 "elasid"  BEFORE  DCT 
+     e20 "elasid"  SIMULTANEOUS  e21 "korraldasid" 
+     e20 "elasid"  IS_INCLUDED  e24 "korraldanud" 
+     e21 "korraldasid"  BEFORE  DCT 
+     e21 "korraldasid"  BEFORE-OR-OVERLAP  e23 "heategevuslaatasid" 
+     e21 "korraldasid"  IS_INCLUDED  e22 "ettevõtmise" 
+     e22 "ettevõtmise"  BEFORE  DCT 
+     e23 "heategevuslaatasid"  BEFORE  DCT 
+
+ s8  Abistaja Õnne Pollisinski
+ s9  Ujumistreener Õnne Pollisinski on põhitöö kõrvalt juba [t5 ligi 20 aastat ] [e24 korraldanud ] puudega lastele ja noortele [e25 ujumiskursusi ] .
+     e24 "korraldanud"  SIMULTANEOUS  t5 "ligi 20 aastat" 
+     e24 "korraldanud"  INCLUDES  DCT 
+     e24 "korraldanud"  SIMULTANEOUS  e25 "ujumiskursusi" 
+     e24 "korraldanud"  INCLUDES  e29 "on" 
+     e25 "ujumiskursusi"  VAGUE  DCT 
+
+ s10  Enamik [e26 paraolümpiamängudel ] ja teistel puudega inimeste [e27 võistlustel ] medaleid [e28 võitnud ] Eesti ujujaid [e29 on ] tema õpilased .
+     e26 "paraolümpiamängudel"  BEFORE  DCT 
+     e26 "paraolümpiamängudel"  VAGUE  e27 "võistlustel" 
+     e27 "võistlustel"  BEFORE  DCT 
+     e27 "võistlustel"  INCLUDES  e28 "võitnud" 
+     e28 "võitnud"  BEFORE  DCT 
+     e28 "võitnud"  IS_INCLUDED  e29 "on" 
+     e29 "on"  INCLUDES  DCT 
+
+ s11  Elupäästjad Kuldar Keskküla , Üllar Ahu ja Kunnar Paiste
+ s12  Kurtna küla kolm noormeest Kuldar Keskküla , Üllar Ahu ja Kunnar Paiste [e30 tõid ] kolm inimest välja vanast [e31 põlevast ] mõisahoonest .
+     e30 "tõid"  BEFORE  DCT 
+     e30 "tõid"  IS_INCLUDED  e31 "põlevast" 
+     e31 "põlevast"  BEFORE  DCT 
+
+ s13  Abistaja Karl Mäesepp
+ s14  Rakvere mees Karl Mäesepp [e32 on ] vabatahtlik puudust kannatavate inimeste [e32 toetaja ] [e32 ja ] [e32 abistaja ] .
+     e32 "on toetaja ja abistaja"  INCLUDES  DCT 
+     e32 "on toetaja ja abistaja"  INCLUDES  e33 "tegelnud" 
+     e32 "on toetaja ja abistaja"  INCLUDES  e34 "toetusprojektidega" 
+
+ s15  [t6 Ligi 15 aastat ] on ta [e33 tegelnud ] mitmesuguste [e34 toetusprojektidega ] - [e35 toonud ] liikumispuudega inimestele välismaalt ratastoole , [e36 korraldanud ] abipakkide [e37 kogumist ] jms. kodututele , vaestele ning puudust kannatavatele peredele .
+     e33 "tegelnud"  SIMULTANEOUS  t6 "Ligi 15 aastat" 
+     e33 "tegelnud"  BEFORE-OR-OVERLAP  DCT 
+     e33 "tegelnud"  INCLUDES  e34 "toetusprojektidega" 
+     e33 "tegelnud"  INCLUDES  e35 "toonud" 
+     e33 "tegelnud"  INCLUDES  e36 "korraldanud" 
+     e34 "toetusprojektidega"  BEFORE-OR-OVERLAP  DCT 
+     e35 "toonud"  BEFORE  DCT 
+     e35 "toonud"  VAGUE  e36 "korraldanud" 
+     e36 "korraldanud"  BEFORE  DCT 
+     e36 "korraldanud"  BEFORE-OR-OVERLAP  e37 "kogumist" 
+     e37 "kogumist"  BEFORE  DCT 
+
+ s16  Elupäästja Gert Karivere
+ s17  [t7 Üheksa-aastane ] Rapla koolipoiss Gert Karivere [e38 päästis ] oma väikevenna elu .
+     e38 "päästis"  BEFORE  DCT 
+     e38 "päästis"  AFTER  e39 "kukkus" 
+     e38 "päästis"  VAGUE  e41 "uppunud" 
+
+ s18  Rapla gümnaasiumi teise klassi õpilase Gerdi [t8 nelja-aastase ] veli Kevin [e39 kukkus ] [t9 15. märtsil ] koos jalgrattaga üle pea ulatuvasse vette ja oleks suurema venna julge [e40 tegutsemiseta ] [e41 uppunud ] .
+     e39 "kukkus"  IS_INCLUDED  t9 "15. märtsil" 
+     e39 "kukkus"  BEFORE  DCT 
+     e39 "kukkus"  BEFORE  e40 "tegutsemiseta" 
+     e40 "tegutsemiseta"  BEFORE  DCT 
+     e40 "tegutsemiseta"  BEFORE  e41 "uppunud" 
+     e41 "uppunud"  BEFORE  DCT 
+
+ s19  Abistaja Ann Paal
+ s20  Tallinna Lastehaigla kirurg Ann Paal [e42 juhib ] vesipeahaigete ja seljaajusongaga laste seltsi ning [e43 võitleb ] ratastooli jäänud laste võrdsete võimaluste eest .
+     e42 "juhib"  INCLUDES  DCT 
+     e42 "juhib"  SIMULTANEOUS  e43 "võitleb" 
+     e42 "juhib"  INCLUDES  e44 "korraldanud" 
+     e43 "võitleb"  INCLUDES  DCT 
+     e43 "võitleb"  INCLUDES  e44 "korraldanud" 
+
+ s21  [t10 Aastaid ] on ta [e44 korraldanud ] liikumispuudega inimeste osavõtul antavat jõulukontserti " [e45 Jõulupäike ] " , kus ratastoolilapsed [e46 esinevad ] koos kutseliste muusikutega .
+     e44 "korraldanud"  SIMULTANEOUS  t10 "Aastaid" 
+     e44 "korraldanud"  BEFORE-OR-OVERLAP  DCT 
+     e44 "korraldanud"  BEFORE-OR-OVERLAP  e45 "Jõulupäike" 
+     e44 "korraldanud"  VAGUE  e46 "esinevad" 
+     e45 "Jõulupäike"  VAGUE  DCT 
+     e45 "Jõulupäike"  INCLUDES  e46 "esinevad" 
+     e46 "esinevad"  VAGUE  DCT 
+
+ s22  Elupäästja Tiiu Jaansoo
+ s23  Porkuni kooli õpetaja Tiiu Jaansoo [e47 päästis ] [e48 langetõvehoo ] tõttu järve [e49 kukkunud ] koolipoisi elu .
+     e47 "päästis"  BEFORE  DCT 
+     e47 "päästis"  AFTER  e48 "langetõvehoo" 
+     e47 "päästis"  AFTER  e49 "kukkunud" 
+     e47 "päästis"  AFTER  e50 "tabas" 
+     e48 "langetõvehoo"  BEFORE  DCT 
+     e48 "langetõvehoo"  BEFORE-OR-OVERLAP  e49 "kukkunud" 
+     e49 "kukkunud"  BEFORE  DCT 
+
+ s24  [t11 9. mai lõunal ] [e50 tabas ] Porkuni kooli õpilast Ergot [e51 epilepsiahoog ] .
+     e50 "tabas"  IS_INCLUDED  t11 "9. mai lõunal" 
+     e50 "tabas"  BEFORE  DCT 
+     e50 "tabas"  VAGUE  e51 "epilepsiahoog" 
+     e50 "tabas"  BEFORE  e52 "kaotas" 
+     e50 "tabas"  BEFORE  e53 "kukkus" 
+     e50 "tabas"  BEFORE  e54 "veeres" 
+     e51 "epilepsiahoog"  BEFORE  DCT 
+
+ s25  Poiss [e52 kaotas ] teadvuse , [e53 kukkus ] ja [e54 veeres ] teetammilt alla - pea ees järve .
+     e52 "kaotas"  BEFORE  DCT 
+     e52 "kaotas"  BEFORE  e53 "kukkus" 
+     e52 "kaotas"  BEFORE  e54 "veeres" 
+     e52 "kaotas"  IS_INCLUDED  e55 "oli" 
+     e53 "kukkus"  BEFORE  DCT 
+     e53 "kukkus"  BEFORE  e54 "veeres" 
+     e53 "kukkus"  IS_INCLUDED  e55 "oli" 
+     e54 "veeres"  BEFORE  DCT 
+     e54 "veeres"  IS_INCLUDED  e55 "oli" 
+
+ s26  Õnneks [e55 oli ] läheduses Tiiu , kes [e56 tõmbas ] Ergo veest välja ning [e57 puhastas ] lapse hingamisteed .
+     e55 "oli"  BEFORE  DCT 
+     e55 "oli"  BEFORE  e56 "tõmbas" 
+     e55 "oli"  BEFORE  e57 "puhastas" 
+     e56 "tõmbas"  BEFORE  DCT 
+     e56 "tõmbas"  BEFORE  e57 "puhastas" 
+     e57 "puhastas"  BEFORE  DCT 
+
+ s27  Elupäästja Ants Väliste
+ s28  Antsla valla bussijuht Ants Väliste [e58 päästis ] tee ääres põlevasse autosse lõksu [e59 jäänud ] inimese .
+     e58 "päästis"  BEFORE  DCT 
+     e58 "päästis"  AFTER  e59 "jäänud" 
+     e58 "päästis"  BEFORE  e61 "lahvatas" 
+     e59 "jäänud"  BEFORE  DCT 
+
+ s29  Vaid [t12 mõni minut ] pärast seda , kui Ants avariilise sõiduki juhi autost välja [e60 tõi ] , [e61 lahvatas ] see lausleekidesse .
+     e60 "tõi"  BEFORE-OR-OVERLAP  t12 "mõni minut" 
+     e60 "tõi"  BEFORE  DCT 
+     e60 "tõi"  BEFORE  e61 "lahvatas" 
+     e61 "lahvatas"  OVERLAP-OR-AFTER  t12 "mõni minut" 
+     e61 "lahvatas"  BEFORE  DCT 
+
+ s30  Abistaja Heldur Kraaner
+ s31  Heldur Kraaner [e62 on ] lapserikaste perede ja kasuperede ühenduste [e62 eestvedaja ] [e62 ning ] aktiivne [e62 toetaja ] .
+     e62 "on eestvedaja ning toetaja"  INCLUDES  DCT 
+     e62 "on eestvedaja ning toetaja"  SIMULTANEOUS  e63 "kasvab" 
+
+ s32  Viie lapse isa peres [e63 kasvab ] ka üks kasupoeg .
+     e63 "kasvab"  INCLUDES  DCT 
+     e63 "kasvab"  SIMULTANEOUS  e64 "aitab" 
+     e63 "kasvab"  VAGUE  e65 "viia" 
+
+ s33  Heldur [e64 aitab ] läbi [e65 viia ] lapserikastele peredele suunatud [e66 heategevusprojekte ] ning [e67 ühisüritusi ] .
+     e64 "aitab"  INCLUDES  DCT 
+     e64 "aitab"  BEFORE-OR-OVERLAP  e65 "viia" 
+     e64 "aitab"  IS_INCLUDED  e68 "on tuntud" 
+     e65 "viia"  VAGUE  DCT 
+     e65 "viia"  IS_INCLUDED  e66 "heategevusprojekte" 
+     e65 "viia"  IS_INCLUDED  e67 "ühisüritusi" 
+     e65 "viia"  IS_INCLUDED  e68 "on tuntud" 
+     e66 "heategevusprojekte"  VAGUE  DCT 
+     e66 "heategevusprojekte"  VAGUE  e67 "ühisüritusi" 
+     e67 "ühisüritusi"  VAGUE  DCT 
+
+ s34  Lisaks [e68 on ] ta kodukülas Sürgaveres [e68 tuntud ] kuldsete kätega mehena , kes [e69 aitab ] kõiki , kel [e70 abi ] [e71 vaja ] .
+     e68 "on tuntud"  INCLUDES  DCT 
+     e68 "on tuntud"  INCLUDES  e69 "aitab" 
+     e69 "aitab"  INCLUDES  DCT 
+     e69 "aitab"  AFTER  e71 "vaja" 
+     e70 "abi"  INCLUDES  DCT 
+     e70 "abi"  VAGUE  e71 "vaja" 
+     e71 "vaja"  VAGUE  DCT 
+
+

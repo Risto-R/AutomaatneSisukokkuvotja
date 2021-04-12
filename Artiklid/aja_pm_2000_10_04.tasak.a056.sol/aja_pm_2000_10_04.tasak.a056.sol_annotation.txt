@@ -1,0 +1,62 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a056.sol
+      DCT: 2000-10-04
+==================================================
+ s0  ETV , [t1 kell 20.05 ] , " [e1 Pealtnägija ] " .
+     e1 "Pealtnägija"  OVERLAP-OR-AFTER  t1 "kell 20.05" 
+     e1 "Pealtnägija"  IS_INCLUDED  DCT 
+     e1 "Pealtnägija"  VAGUE  e2 "saade" 
+
+ s1  Vahur Kersna ja Mihkel Kärmase [e2 saade ] .
+     e2 "saade"  IS_INCLUDED  DCT 
+     e2 "saade"  VAGUE  e5 "paljastas" 
+
+ s2  [t2 Kolm nädalat tagasi ] ilmsiks [e3 tulnud ] kuritegelik [e4 infokogumine ] Kadaka Selveri kaubamaja pangaautomaadist [e5 paljastas ] plastikraha [e6 kaitsetuse ] .
+     e3 "tulnud"  IS_INCLUDED  t2 "Kolm nädalat tagasi" 
+     e3 "tulnud"  BEFORE  DCT 
+     e3 "tulnud"  AFTER  e4 "infokogumine" 
+     e3 "tulnud"  BEFORE  e5 "paljastas" 
+     e4 "infokogumine"  BEFORE  DCT 
+     e4 "infokogumine"  BEFORE  e5 "paljastas" 
+     e5 "paljastas"  BEFORE  DCT 
+     e5 "paljastas"  VAGUE  e6 "kaitsetuse" 
+     e5 "paljastas"  BEFORE  e9 "vahetama" 
+     e6 "kaitsetuse"  INCLUDES  DCT 
+
+ s3  Ühe suhteliselt väikese [e7 pettuse ] tõttu [e8 peab ] tunnuskoode [e9 vahetama ] enam kui 600 000 kaardiomanikku .
+     e7 "pettuse"  BEFORE  DCT 
+     e7 "pettuse"  BEFORE  e9 "vahetama" 
+     e8 "peab"  INCLUDES  DCT 
+     e8 "peab"  VAGUE  e9 "vahetama" 
+     e9 "vahetama"  INCLUDES  DCT 
+     e9 "vahetama"  INCLUDES  e11 "selgub" 
+     e9 "vahetama"  IS_INCLUDED  e13 "saanud" 
+
+ s4  [t3 Tänases ] " [e10 Pealtnägijas ] " [e11 selgub ] , et korralikku tehnilist taipu nõudvast [e12 pangaandmevargusest ] on [e13 saanud ] Eesti kuritegelike jõudude rahvusvaheline ekspordiartikkel .
+     e10 "Pealtnägijas"  IS_INCLUDED  t3 "Tänases" 
+     e10 "Pealtnägijas"  IS_INCLUDED  DCT 
+     e10 "Pealtnägijas"  INCLUDES  e11 "selgub" 
+     e11 "selgub"  IS_INCLUDED  DCT 
+     e11 "selgub"  IS_INCLUDED  e13 "saanud" 
+     e11 "selgub"  INCLUDES  e14 "kirjeldab" 
+     e12 "pangaandmevargusest"  BEFORE  DCT 
+     e12 "pangaandmevargusest"  VAGUE  e13 "saanud" 
+     e13 "saanud"  INCLUDES  DCT 
+     e13 "saanud"  INCLUDES  e14 "kirjeldab" 
+
+ s5  Hansapanga kaardiosakonna juhataja Kalle Vaalma [e14 kirjeldab ] panga ajaloo ühte erakordseimat [e15 vargust ] .
+     e14 "kirjeldab"  IS_INCLUDED  DCT 
+     e14 "kirjeldab"  AFTER  e15 "vargust" 
+     e14 "kirjeldab"  BEFORE-OR-OVERLAP  e16 "on võimalik" 
+     e15 "vargust"  BEFORE  DCT 
+
+ s6  Režissöör Maire Radsin , toimetaja Mariina Mälk .
+ s7  Alates [t4 tänasest ] [e16 on ] " [e17 Pealtnägijat ] " [e16 võimalik ] [e18 jälgida ] ka venekeelse sünkroontõlkega Raadio 4 vahendusel .
+     e16 "on võimalik"  OVERLAP-OR-AFTER  t4 "tänasest" 
+     e16 "on võimalik"  OVERLAP-OR-AFTER  DCT 
+     e16 "on võimalik"  INCLUDES  e18 "jälgida" 
+     e17 "Pealtnägijat"  INCLUDES  DCT 
+     e17 "Pealtnägijat"  INCLUDES  e18 "jälgida" 
+     e18 "jälgida"  VAGUE  DCT 
+
+

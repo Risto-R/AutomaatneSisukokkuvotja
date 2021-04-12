@@ -1,0 +1,162 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a058.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Susan Sarandon on [e1 suutnud ] [e2 teha ] karjääri Hollywoodi tavasid [e3 eirates ] .
+     e1 "suutnud"  BEFORE  DCT 
+     e1 "suutnud"  BEFORE-OR-OVERLAP  e2 "teha" 
+     e1 "suutnud"  IS_INCLUDED  e3 "eirates" 
+     e1 "suutnud"  OVERLAP-OR-AFTER  e7 "muutunud" 
+     e1 "suutnud"  VAGUE  e4 "kipub" 
+     e2 "teha"  BEFORE  DCT 
+     e2 "teha"  OVERLAP-OR-AFTER  e7 "muutunud" 
+     e2 "teha"  VAGUE  e4 "kipub" 
+     e3 "eirates"  BEFORE  DCT 
+
+ s1  Teiste naisnäitlejate loometee [e4 kipub ] nende [e5 vananedes ] allamäge [e6 minema ] , kuid tema on [e7 muutunud ] üha paremaks , [e8 säilitades ] seksisümboli staatuse .
+     e4 "kipub"  INCLUDES  DCT 
+     e4 "kipub"  IS_INCLUDED  e5 "vananedes" 
+     e4 "kipub"  VAGUE  e6 "minema" 
+     e4 "kipub"  VAGUE  e7 "muutunud" 
+     e4 "kipub"  VAGUE  e10 "sai" 
+     e4 "kipub"  VAGUE  e9 "olid" 
+     e5 "vananedes"  VAGUE  DCT 
+     e6 "minema"  VAGUE  DCT 
+     e6 "minema"  VAGUE  e7 "muutunud" 
+     e7 "muutunud"  BEFORE  DCT 
+     e7 "muutunud"  IS_INCLUDED  e8 "säilitades" 
+     e7 "muutunud"  AFTER  e10 "sai" 
+     e7 "muutunud"  AFTER  e9 "olid" 
+     e8 "säilitades"  BEFORE-OR-OVERLAP  DCT 
+
+ s2  Susan Tomalini vanemad [e9 olid ] tõsiusklikud katoliiklased ja tüdruk [e10 sai ] hariduse nunnade käe all .
+     e9 "olid"  BEFORE  DCT 
+     e9 "olid"  INCLUDES  e10 "sai" 
+     e9 "olid"  INCLUDES  e11 "jäi" 
+     e10 "sai"  BEFORE  DCT 
+     e10 "sai"  BEFORE  e11 "jäi" 
+
+ s3  Sellest hoolimata [e11 jäi ] temasse mässumeelsust .
+     e11 "jäi"  BEFORE  DCT 
+     e11 "jäi"  BEFORE-OR-OVERLAP  e12 "sai" 
+
+ s4  See [e12 sai ] sihipärasema väljundi [t1 60ndatel aastatel ] , mil ta [e13 osales ] õppurina Vietnami sõja ja inimõiguste rikkumise vastastes [e14 demonstratsioonides ] .
+     e12 "sai"  IS_INCLUDED  t1 "60ndatel aastatel" 
+     e12 "sai"  BEFORE  DCT 
+     e12 "sai"  INCLUDES  e13 "osales" 
+     e12 "sai"  BEFORE  e15 "ootamatum oli" 
+     e13 "osales"  BEFORE  DCT 
+     e13 "osales"  IS_INCLUDED  e14 "demonstratsioonides" 
+     e14 "demonstratsioonides"  BEFORE  DCT 
+
+ s5  Seda [e15 ootamatum ] [e15 oli ] tema [e16 astumine ] katoliku ülikooli Washingtonis .
+     e15 "ootamatum oli"  BEFORE  DCT 
+     e15 "ootamatum oli"  IS_INCLUDED  e16 "astumine" 
+     e15 "ootamatum oli"  BEFORE  e17 "tudeeris" 
+     e16 "astumine"  BEFORE  DCT 
+
+ s6  Susan [e17 tudeeris ] edukalt nii inglise filoloogiat kui teatrikunsti .
+     e17 "tudeeris"  BEFORE  DCT 
+     e17 "tudeeris"  INCLUDES  e18 "leidis" 
+
+ s7  Ülikoolist [e18 leidis ] ta ka oma esimese abikaasa - kursusekaaslase Chris Sarandoni .
+     e18 "leidis"  BEFORE  DCT 
+     e18 "leidis"  BEFORE-OR-OVERLAP  e20 "algas" 
+
+ s8  Sarandoni [e19 tähelend ] [e20 algas ] modellina .
+     e19 "tähelend"  BEFORE  DCT 
+     e19 "tähelend"  OVERLAP-OR-AFTER  e20 "algas" 
+     e20 "algas"  BEFORE  DCT 
+     e20 "algas"  BEFORE  e21 "tulid" 
+     e20 "algas"  BEFORE  e24 "saabus" 
+
+ s9  Peagi [e21 tulid ] esimesed [e22 rollipakkumised ] ning [e23 läbilöök ] [e24 saabus ] [t2 1975. aastal ] kahe filmiga - " Suur Waldo Pepper " ja " The Rocky Horror Picture Show " .
+     e21 "tulid"  BEFORE  DCT 
+     e21 "tulid"  BEFORE  e24 "saabus" 
+     e21 "tulid"  VAGUE  e22 "rollipakkumised" 
+     e21 "tulid"  BEFORE  e25 "tõusis" 
+     e22 "rollipakkumised"  BEFORE  DCT 
+     e23 "läbilöök"  BEFORE  DCT 
+     e23 "läbilöök"  OVERLAP-OR-AFTER  e24 "saabus" 
+     e24 "saabus"  IS_INCLUDED  t2 "1975. aastal" 
+     e24 "saabus"  BEFORE  DCT 
+     e24 "saabus"  BEFORE  e25 "tõusis" 
+
+ s10  Viimane [e25 tõusis ] peagi kultusfilmiks .
+     e25 "tõusis"  BEFORE  DCT 
+     e25 "tõusis"  BEFORE-OR-OVERLAP  e27 "riietuvad" 
+
+ s11  Selle [e26 vaatamaminekuks ] [e27 riietuvad ] tõelised fännid [t3 tänini ] transvestiitideks .
+     e26 "vaatamaminekuks"  VAGUE  DCT 
+     e26 "vaatamaminekuks"  AFTER  e27 "riietuvad" 
+     e27 "riietuvad"  INCLUDES  DCT 
+     e27 "riietuvad"  INCLUDES  e29 "kandideeris" 
+
+ s12  [e28 Osatäitmise ] eest " Atlantic Citys " ( [t4 1980 ] ) [e29 kandideeris ] ta esimest korda Oscarile .
+     e28 "Osatäitmise"  BEFORE  DCT 
+     e28 "Osatäitmise"  BEFORE  e29 "kandideeris" 
+     e29 "kandideeris"  BEFORE  DCT 
+     e29 "kandideeris"  BEFORE-OR-OVERLAP  e30 "saanud" ka IS_INCLUDED
+
+ s13  Temast oli [e30 saanud ] kuulsus , kelle näitlejatöö , aga ka [e31 armulood ] [e32 pakkusid ] huvi paljudele .
+     e30 "saanud"  BEFORE  DCT 
+     e30 "saanud"  BEFORE  e32 "pakkusid" 
+     e30 "saanud"  BEFORE  e33 "seotud" ka INCLUDES
+     e31 "armulood"  BEFORE  DCT 
+     e31 "armulood"  INCLUDES  e32 "pakkusid" 
+     e32 "pakkusid"  BEFORE  DCT 
+
+ s14  [t5 1980. aastal ] oli Sarandon [e33 seotud ] prantsuse režissööri Louis Malle'iga , kellele [e34 järgnes ] [t6 14 aastat ] noorem Sean Penn .
+     e33 "seotud"  IS_INCLUDED  t5 "1980. aastal" 
+     e33 "seotud"  BEFORE  DCT 
+     e33 "seotud"  BEFORE  e34 "järgnes" 
+     e33 "seotud"  BEFORE  e35 "Sündis" 
+     e34 "järgnes"  BEFORE  DCT 
+
+ s15  [e35 Sündis ] tütar , kelle isaks [e36 oli ] hoopis itaalia režissöör Franco Amurri .
+     e35 "Sündis"  BEFORE  DCT 
+     e35 "Sündis"  IS_INCLUDED  e36 "oli" 
+     e35 "Sündis"  BEFORE  e37 "saabus" 
+     e36 "oli"  BEFORE  DCT 
+
+ s16  Sarandoni karjääri kõrgpunkt [e37 saabus ] [t7 1986. aastal ] " Eastwicki nõidadega " , milles [e38 mängisid ] ka Cher , Michelle Pfeiffer ja Jack Nicholson .
+     e37 "saabus"  IS_INCLUDED  t7 "1986. aastal" 
+     e37 "saabus"  BEFORE  DCT 
+     e37 "saabus"  OVERLAP-OR-AFTER  e38 "mängisid" 
+     e37 "saabus"  IS_INCLUDED  e40 "jätkusid" 
+     e38 "mängisid"  BEFORE  DCT 
+
+ s17  [e39 Armulood ] aga [e40 jätkusid ] .
+     e39 "Armulood"  BEFORE  DCT 
+     e39 "Armulood"  INCLUDES  e40 "jätkusid" 
+     e40 "jätkusid"  BEFORE  DCT 
+     e40 "jätkusid"  INCLUDES  e41 "jagas" 
+
+ s18  [t8 1988. aastal ] [e41 jagas ] Sarandon voodit Kevin Costneriga , kelle peagi [e42 vahetas ] välja nooruke näitleja ja lavastaja Tim Robbins .
+     e41 "jagas"  IS_INCLUDED  t8 "1988. aastal" 
+     e41 "jagas"  BEFORE  DCT 
+     e41 "jagas"  BEFORE  e42 "vahetas" 
+     e41 "jagas"  BEFORE  e43 "elab" 
+     e41 "jagas"  BEFORE  e44 "on" 
+     e42 "vahetas"  BEFORE  DCT 
+
+ s19  Viimasega [e43 elab ] näitlejanna kokku [t9 tänapäevalgi ] , neil [e44 on ] kaks last .
+     e43 "elab"  SIMULTANEOUS  t9 "tänapäevalgi" 
+     e43 "elab"  INCLUDES  DCT 
+     e43 "elab"  SIMULTANEOUS  e44 "on" 
+     e43 "elab"  INCLUDES  e45 "kandideeris" 
+     e44 "on"  INCLUDES  DCT 
+     e44 "on"  VAGUE  e45 "kandideeris" 
+
+ s20  Sarandon [e45 kandideeris ] Oscarile ka [e46 osatäitmiste ] eest filmides " Thelma ja Louise " , " Lorenzo õliKlient " .
+     e45 "kandideeris"  BEFORE  DCT 
+     e45 "kandideeris"  OVERLAP-OR-AFTER  e46 "osatäitmiste" 
+     e45 "kandideeris"  BEFORE  e48 "tuli" 
+     e46 "osatäitmiste"  BEFORE  DCT 
+
+ s21  [e47 Võit ] [e48 tuli ] filmiga " Dead Man Walking " ( [t10 1995 ] ) .
+     e47 "Võit"  BEFORE  DCT 
+     e47 "Võit"  VAGUE  e48 "tuli" 
+     e48 "tuli"  BEFORE  DCT 
+
+

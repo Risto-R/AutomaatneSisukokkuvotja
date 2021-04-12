@@ -1,11 +1,41 @@
 <div0><head> Septembris ei müüdud Eestis ühtegi Fordi </head>
-<p> <bibl> <author> <s> Harki Uljas , harli.uljas@postimees.ee </s> </author> </bibl> </p>
-<p rend="bold"> <s> Diilerivahetuse tõttu ei müüdud Eestis eelmisel kuul ühtegi Fordi . </s> <s> Uue diileri kinnitusel autosid küll müüdi , kuid neid ei jõutud veel ostjatele kätte anda . </s> </p>
-<p> <s> Kokku müüdi septembris Eestis 1090 autot , neist 949 olid sõiduautod ja 141 veoautod . </s> <s> Suurimateks müüjateks kõikide sõiduvahendite kokkuvõttes olid Volkswagen , Toyota ja Peugeot vastavalt 100 , 95 ja 95 autoga . </s> <s> Sõiduautode seas olid suurimad automüüjad Toyota 92 , Volkswagen 91 ja Nissan 77 autoga . </s> </p>
-<p> <s> Üheksa kuuga on kõige rohkem autosid Eestisse müünud Peugeot , talle järgnevad Volkswagen , Toyota , Nissan , Mazda , Citroën ja Opel . </s> <s> Peugeot edestab Volkswagenit hetkel 60 autoga , Toyota jääb maha 48 autoga . </s> </p>
-<p> <s> Volkswageni müügijuhi Ivar Kulbini kinnitusel on salongis küll pisut vähem inimesi , kuid heale müügile on kaasa aidanud korralik kliendibaas , sest firmad tahavad autoparki täiendada . </s> </p>
-<p> <s> Aasta kokkuvõttes on üheksa kuuga müüdud 9283 autot , millest 1296 olid veoautod . </s> <s> Nii eelmise aasta septembriga kui ka üheksa kuu kokkuvõttes tuleb müük ligi poole suurem . </s> <s> Möödunud kuul edestas Viking Motors senist suurimat Opeli müüjat Ascarit . </s> </p>
-<p> <s> Viking Motorsi müügidirektori Leemet Tamme sõnul aitasid numbrile kaasa ettevõtete suurostud . </s> <s> Ka järgmisel kuul peaks Opeli tulemus olema päris hea - üle saja auto , seda tänu politseiameti autoostukonkursi võitmisele Ascari ja Carringu poolt , samuti ootab Viking Motorsis ligi 50 autot üleandmist . </s> </p>
-<p> <s> Septembris ei müüdud ühtegi Fordi . </s> <s> Sõiduautomüügis tähendas see Fordile üldises edetabelis langemist 11. kohalt 14. kohale . </s> </p>
-<p> <s> AS Info-Auto Fordi autosalongi müügidirektor Toomas Putmaker tõdes , et septembri viimastel päevadel 12 autot küll saabus , kuid statistikas läheb kirja üleandmisaeg , mis on nende autode puhul oktoobris . </s> </p>
-<p> <s> Möödunud kuul oli väga tihe rebimine ka kõige enammüüduma automudeli osas . </s> <s> Nii on Volkswagen Borat/Golfi müüdud 54 autot , Nissan Almerat 46 , Toyota Avensist ja Daewoo Lanost 44 autot . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Harki Uljas , harli.uljas@postimees.ee </s> </author> </bibl> 
+</p>
+<p rend="bold">
+ <s> Diilerivahetuse tõttu ei müüdud Eestis eelmisel kuul ühtegi Fordi . </s>
+<s> Uue diileri kinnitusel autosid küll müüdi , kuid neid ei jõutud veel ostjatele kätte anda . </s> 
+</p>
+<p>
+ <s> Kokku müüdi septembris Eestis 1090 autot , neist 949 olid sõiduautod ja 141 veoautod . </s>
+<s> Suurimateks müüjateks kõikide sõiduvahendite kokkuvõttes olid Volkswagen , Toyota ja Peugeot vastavalt 100 , 95 ja 95 autoga . </s>
+<s> Sõiduautode seas olid suurimad automüüjad Toyota 92 , Volkswagen 91 ja Nissan 77 autoga . </s> 
+</p>
+<p>
+ <s> Üheksa kuuga on kõige rohkem autosid Eestisse müünud Peugeot , talle järgnevad Volkswagen , Toyota , Nissan , Mazda , Citroën ja Opel . </s>
+<s> Peugeot edestab Volkswagenit hetkel 60 autoga , Toyota jääb maha 48 autoga . </s> 
+</p>
+<p>
+ <s> Volkswageni müügijuhi Ivar Kulbini kinnitusel on salongis küll pisut vähem inimesi , kuid heale müügile on kaasa aidanud korralik kliendibaas , sest firmad tahavad autoparki täiendada . </s> 
+</p>
+<p>
+ <s> Aasta kokkuvõttes on üheksa kuuga müüdud 9283 autot , millest 1296 olid veoautod . </s>
+<s> Nii eelmise aasta septembriga kui ka üheksa kuu kokkuvõttes tuleb müük ligi poole suurem . </s>
+<s> Möödunud kuul edestas Viking Motors senist suurimat Opeli müüjat Ascarit . </s> 
+</p>
+<p>
+ <s> Viking Motorsi müügidirektori Leemet Tamme sõnul aitasid numbrile kaasa ettevõtete suurostud . </s>
+<s> Ka järgmisel kuul peaks Opeli tulemus olema päris hea - üle saja auto , seda tänu politseiameti autoostukonkursi võitmisele Ascari ja Carringu poolt , samuti ootab Viking Motorsis ligi 50 autot üleandmist . </s> 
+</p>
+<p>
+ <s> Septembris ei müüdud ühtegi Fordi . </s>
+<s> Sõiduautomüügis tähendas see Fordile üldises edetabelis langemist 11. kohalt 14. kohale . </s> 
+</p>
+<p>
+ <s> AS Info-Auto Fordi autosalongi müügidirektor Toomas Putmaker tõdes , et septembri viimastel päevadel 12 autot küll saabus , kuid statistikas läheb kirja üleandmisaeg , mis on nende autode puhul oktoobris . </s> 
+</p>
+<p>
+ <s> Möödunud kuul oli väga tihe rebimine ka kõige enammüüduma automudeli osas . </s>
+<s> Nii on Volkswagen Borat/Golfi müüdud 54 autot , Nissan Almerat 46 , Toyota Avensist ja Daewoo Lanost 44 autot . </s> 
+</p>
+</div0>

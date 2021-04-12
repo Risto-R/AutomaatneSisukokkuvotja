@@ -1,0 +1,170 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a051.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Kanadalast Piotr Staniaszeki [e1 tabas ] järjekordset mobiiliarvet [e2 avades ] ebameeldiv üllatus - mobiilifirma [e3 väitel ] oli ta [e4 kõnelnud ] rohkem kui 85 000 dollari ehk rohkem kui 890 930 krooni eest .
+     e1 "tabas"  BEFORE  DCT 
+     e1 "tabas"  AFTER  e4 "kõnelnud" 
+     e1 "tabas"  OVERLAP-OR-AFTER  e2 "avades" 
+     e1 "tabas"  OVERLAP-OR-AFTER  e5 "tekkinud" 
+     e2 "avades"  BEFORE  DCT 
+     e3 "väitel"  BEFORE  DCT 
+     e3 "väitel"  OVERLAP-OR-AFTER  e4 "kõnelnud" 
+     e4 "kõnelnud"  BEFORE  DCT 
+     e4 "kõnelnud"  BEFORE-OR-OVERLAP  e5 "tekkinud" 
+
+ s1  Röögatu arve ei [e5 tekkinud ] siiski kallitest [e6 kaugekõnedest ] või lustiliinidele [e7 helistamisest ] .
+     e5 "tekkinud"  BEFORE  DCT 
+     e5 "tekkinud"  OVERLAP-OR-AFTER  e6 "kaugekõnedest" 
+     e5 "tekkinud"  OVERLAP-OR-AFTER  e7 "helistamisest" 
+     e5 "tekkinud"  OVERLAP-OR-AFTER  e10 "kasutada" 
+     e5 "tekkinud"  OVERLAP-OR-AFTER  e8 "arvanud" 
+     e6 "kaugekõnedest"  BEFORE  DCT 
+     e7 "helistamisest"  BEFORE  DCT 
+
+ s2  Staniaszek oli [e8 arvanud ] , et [e9 saab ] oma telefoni [e10 kasutada ] ka modemina ning mõnesajakroonise kuumaksu eest piiramatult netis [e11 surfata ] .
+     e8 "arvanud"  BEFORE  DCT 
+     e8 "arvanud"  BEFORE-OR-OVERLAP  e10 "kasutada" 
+     e8 "arvanud"  BEFORE-OR-OVERLAP  e11 "surfata" 
+     e8 "arvanud"  BEFORE-OR-OVERLAP  e12 "laadis" 
+     e9 "saab"  BEFORE  DCT 
+     e9 "saab"  VAGUE  e10 "kasutada" 
+     e10 "kasutada"  BEFORE  DCT 
+     e10 "kasutada"  SIMULTANEOUS  e11 "surfata" 
+     e10 "kasutada"  SIMULTANEOUS  e12 "laadis" 
+     e11 "surfata"  BEFORE  DCT 
+
+ s3  Sidefirma Bell Mobility kundena [e12 laadis ] ta telefoni abil internetist alla täispikki mängufilme ja muid suuri faile .
+     e12 "laadis"  BEFORE  DCT 
+     e12 "laadis"  SIMULTANEOUS  e16 "tiksutas" 
+
+ s4  Et ta [e13 ületas ] nende [e14 allalaadimisega ] lepingus kindlaks [e15 määratud ] andmesidemahu , [e16 tiksutas ] telefonifirma arvet järjest suuremaks .
+     e13 "ületas"  BEFORE  DCT 
+     e13 "ületas"  BEFORE-OR-OVERLAP  e16 "tiksutas" 
+     e13 "ületas"  BEFORE  e15 "määratud" 
+     e13 "ületas"  OVERLAP-OR-AFTER  e14 "allalaadimisega" 
+     e14 "allalaadimisega"  BEFORE  DCT 
+     e15 "määratud"  BEFORE  DCT 
+     e16 "tiksutas"  BEFORE  DCT 
+     e16 "tiksutas"  BEFORE  e19 "tuli" 
+     e16 "tiksutas"  BEFORE  e20 "vähendas" 
+
+ s5  Pärast seda , kui lepingutingimusi valesti [e17 mõistnud ] Staniaszek hiigelarve pärast [e18 lamenti ] [e18 lõi ] , [e19 tuli ] Bell Mobility talle vastu ning [e20 vähendas ] summa 3243 dollarile .
+     e17 "mõistnud"  BEFORE  DCT 
+     e17 "mõistnud"  INCLUDES  e18 "lamenti lõi" 
+     e18 "lamenti lõi"  BEFORE  DCT 
+     e18 "lamenti lõi"  BEFORE  e19 "tuli" 
+     e19 "tuli"  BEFORE  DCT 
+     e19 "tuli"  SIMULTANEOUS  e20 "vähendas" 
+     e19 "tuli"  BEFORE-OR-OVERLAP  e21 "pole päri" 
+     e19 "tuli"  BEFORE-OR-OVERLAP  e22 "kavatseb" 
+     e19 "tuli"  BEFORE-OR-OVERLAP  e23 "vaidlustada" 
+     e20 "vähendas"  BEFORE  DCT 
+     e20 "vähendas"  BEFORE-OR-OVERLAP  e21 "pole päri" 
+     e20 "vähendas"  BEFORE-OR-OVERLAP  e22 "kavatseb" 
+     e20 "vähendas"  BEFORE-OR-OVERLAP  e23 "vaidlustada" 
+
+ s6  Kuid Staniaszek [e21 pole ] ka sellega [e21 päri ] ja [e22 kavatseb ] arve [e23 vaidlustada ] .
+     e21 "pole päri"  BEFORE  DCT 
+     e21 "pole päri"  BEFORE-OR-OVERLAP  e22 "kavatseb" 
+     e21 "pole päri"  BEFORE-OR-OVERLAP  e23 "vaidlustada" 
+     e21 "pole päri"  INCLUDES  e24 "ütles" 
+     e21 "pole päri"  OVERLAP-OR-AFTER  e26 "pidas" 
+     e22 "kavatseb"  OVERLAP-OR-AFTER  DCT 
+     e22 "kavatseb"  BEFORE-OR-OVERLAP  e23 "vaidlustada" 
+     e22 "kavatseb"  AFTER  e26 "pidas" 
+     e22 "kavatseb"  OVERLAP-OR-AFTER  e24 "ütles" 
+     e23 "vaidlustada"  OVERLAP-OR-AFTER  DCT 
+     e23 "vaidlustada"  AFTER  e24 "ütles" 
+     e23 "vaidlustada"  AFTER  e26 "pidas" 
+
+ s7  [t1 22aastane ] Calgaryst pärit naftapuurija [e24 ütles ] [t2 novembrikuist ] arvet [e25 kommenteerides ] , et [e26 pidas ] seda esialgu [e27 eksituseks ] .
+     e24 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e24 "ütles"  AFTER  e26 "pidas" 
+     e24 "ütles"  IS_INCLUDED  e25 "kommenteerides" 
+     e24 "ütles"  AFTER  e28 "olnud" 
+     e24 "ütles"  AFTER  e29 "võttis ühendust" 
+     e24 "ütles"  AFTER  e30 "kurtis" 
+     e25 "kommenteerides"  BEFORE  DCT 
+     e26 "pidas"  BEFORE  DCT 
+     e26 "pidas"  VAGUE  e27 "eksituseks" 
+     e26 "pidas"  BEFORE-OR-OVERLAP  e29 "võttis ühendust" 
+     e26 "pidas"  BEFORE-OR-OVERLAP  e30 "kurtis" 
+     e26 "pidas"  SIMULTANEOUS  e28 "olnud" 
+     e27 "eksituseks"  BEFORE  DCT 
+
+ s8  Arve oli esmalt [e28 olnud ] 65 000 dollarit , piisavalt suur , ja mees [e29 võttis ] telefonifirmaga [e29 ühendust ] ning [e30 kurtis ] oma [e31 muret ] .
+     e28 "olnud"  BEFORE  DCT 
+     e28 "olnud"  BEFORE-OR-OVERLAP  e29 "võttis ühendust" 
+     e28 "olnud"  OVERLAP-OR-AFTER  e32 "laadinud" 
+     e28 "olnud"  OVERLAP-OR-AFTER  e33 "kasvanud" 
+     e29 "võttis ühendust"  BEFORE  DCT 
+     e29 "võttis ühendust"  BEFORE  e30 "kurtis" 
+     e29 "võttis ühendust"  AFTER  e33 "kasvanud" 
+     e30 "kurtis"  BEFORE  DCT 
+     e30 "kurtis"  VAGUE  e31 "muret" 
+     e30 "kurtis"  AFTER  e32 "laadinud" 
+     e30 "kurtis"  OVERLAP-OR-AFTER  e33 "kasvanud" 
+     e31 "muret"  BEFORE  DCT 
+
+ s9  Seks ajaks oli ta aga veel filme ja muud kraami alla [e32 laadinud ] ning arve oli [e33 kasvanud ] 85 000 dollarini .
+     e32 "laadinud"  BEFORE  DCT 
+     e32 "laadinud"  BEFORE-OR-OVERLAP  e33 "kasvanud" 
+     e32 "laadinud"  VAGUE  e35 "on" 
+     e32 "laadinud"  VAGUE  e36 "saatvat" 
+     e33 "kasvanud"  BEFORE  DCT 
+     e33 "kasvanud"  VAGUE  e35 "on" 
+     e33 "kasvanud"  VAGUE  e36 "saatvat" 
+
+ s10  Staniaszeki [e34 sõnul ] [e35 on ] tema mobiiliarve tavaliselt umbes 150 dollarit ning seejuures [e36 saatvat ] Bell Mobility talle tihtipeale [e37 hoiatusi ] , et tema arve [e38 on ] väga [e38 suur ] .
+     e34 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e34 "sõnul"  IS_INCLUDED  e35 "on" 
+     e35 "on"  INCLUDES  DCT 
+     e35 "on"  VAGUE  e36 "saatvat" 
+     e35 "on"  VAGUE  e39 "lülitatud" 
+     e35 "on"  VAGUE  e40 "kurtis" 
+     e36 "saatvat"  VAGUE  DCT 
+     e36 "saatvat"  IS_INCLUDED  e38 "on suur" 
+     e36 "saatvat"  VAGUE  e37 "hoiatusi" 
+     e36 "saatvat"  VAGUE  e39 "lülitatud" 
+     e36 "saatvat"  VAGUE  e40 "kurtis" 
+     e37 "hoiatusi"  VAGUE  DCT 
+     e38 "on suur"  VAGUE  DCT 
+
+ s11  " Mõnikord on telefon välja [e39 lülitatud ] ka tavapärasest saja dollari võrra suurema arve puhul , " [e40 kurtis ] Staniaszek . "
+     e39 "lülitatud"  BEFORE  DCT 
+     e39 "lülitatud"  BEFORE  e40 "kurtis" 
+     e39 "lülitatud"  BEFORE  e41 "on" 
+     e39 "lülitatud"  BEFORE  e42 "võtnud" 
+     e40 "kurtis"  BEFORE-OR-OVERLAP  DCT 
+     e40 "kurtis"  IS_INCLUDED  e41 "on" 
+     e40 "kurtis"  OVERLAP-OR-AFTER  e42 "võtnud" 
+
+ s12  [t3 Nüüd ] [e41 on ] ülekulu 85 000 ja keegi ei [e42 võtnud ] vaevaks mind [e43 hoiatada ] . "
+     e41 "on"  SIMULTANEOUS  t3 "Nüüd" 
+     e41 "on"  INCLUDES  DCT 
+     e41 "on"  OVERLAP-OR-AFTER  e42 "võtnud" 
+     e41 "on"  OVERLAP-OR-AFTER  e43 "hoiatada" 
+     e41 "on"  INCLUDES  e44 "kinnitas" 
+     e41 "on"  INCLUDES  e45 "on valmis" 
+     e42 "võtnud"  BEFORE  DCT 
+     e42 "võtnud"  BEFORE-OR-OVERLAP  e43 "hoiatada" 
+     e42 "võtnud"  BEFORE-OR-OVERLAP  e44 "kinnitas" 
+     e42 "võtnud"  BEFORE  e45 "on valmis" 
+     e43 "hoiatada"  BEFORE  DCT 
+
+ s13  Bell Mobility esindaja [e44 kinnitas ] , et firma [e45 on ] [e45 valmis ] arvet [e46 vähendama ] 3243 dollarile , sest just nii palju [e47 maksnuks ] Staniaszek [e48 allalaetud ] kraami eest juhul , kui ta [e49 kasutanuks ] kõige soodsamat andmesidelepingut .
+     e44 "kinnitas"  BEFORE-OR-OVERLAP  DCT 
+     e44 "kinnitas"  BEFORE  e46 "vähendama" 
+     e44 "kinnitas"  IS_INCLUDED  e45 "on valmis" 
+     e45 "on valmis"  INCLUDES  DCT 
+     e45 "on valmis"  AFTER  e47 "maksnuks" 
+     e45 "on valmis"  BEFORE-OR-OVERLAP  e46 "vähendama" 
+     e46 "vähendama"  OVERLAP-OR-AFTER  DCT 
+     e47 "maksnuks"  BEFORE  DCT 
+     e47 "maksnuks"  AFTER  e48 "allalaetud" 
+     e47 "maksnuks"  OVERLAP-OR-AFTER  e49 "kasutanuks" 
+     e48 "allalaetud"  BEFORE  DCT 
+     e49 "kasutanuks"  BEFORE  DCT 
+
+

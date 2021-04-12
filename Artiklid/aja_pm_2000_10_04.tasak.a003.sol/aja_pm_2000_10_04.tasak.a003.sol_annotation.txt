@@ -1,0 +1,387 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a003.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Rannu valla servas Väike-Rakkes [e1 kustutavad ] pritsimehed juba [t1 kolmandat päeva ] [e2 põlevat ] tuhandet tonni briketti , selle omanik Sangla Turvas [e3 kahtlustab ] [e4 süütamist ] .
+     e1 "kustutavad"  INCLUDES  DCT 
+     e1 "kustutavad"  SIMULTANEOUS  e2 "põlevat" 
+     e1 "kustutavad"  SIMULTANEOUS  e3 "kahtlustab" 
+     e1 "kustutavad"  IS_INCLUDED  e5 "asub" 
+     e2 "põlevat"  SIMULTANEOUS  t1 "kolmandat päeva" 
+     e2 "põlevat"  INCLUDES  DCT 
+     e3 "kahtlustab"  INCLUDES  DCT 
+     e3 "kahtlustab"  AFTER  e4 "süütamist" 
+     e3 "kahtlustab"  IS_INCLUDED  e5 "asub" 
+     e4 "süütamist"  BEFORE  DCT 
+
+ s1  Sangla Turba brikett [e5 asub ] kunagises väetisehoidlas , mille firma [e6 kohandas ] briketi ladustamiseks .
+     e5 "asub"  INCLUDES  DCT 
+     e5 "asub"  AFTER  e6 "kohandas" 
+     e5 "asub"  INCLUDES  e7 "meenutasid" 
+     e6 "kohandas"  BEFORE  DCT 
+
+ s2  [t2 Eile päeval ] [e7 meenutasid ] hoidlat vaid üksikud betoonpostid ja paar söestunud puittala .
+     e7 "meenutasid"  INCLUDES  t2 "Eile päeval" 
+     e7 "meenutasid"  BEFORE  DCT 
+     e7 "meenutasid"  IS_INCLUDED  e8 "kustutamine" 
+
+ s3  Aeganõudev [e8 kustutamine ]
+     e8 "kustutamine"  INCLUDES  DCT 
+     e8 "kustutamine"  INCLUDES  e10 "lahvatasid" 
+     e8 "kustutamine"  INCLUDES  e9 "hõõgus" 
+
+ s4  Poolsada meetrit pikk , kümmekond meetrit lai ja neli meetrit kõrge turbahunnik [e9 hõõgus ] eredalt isegi päevavalguses , pidevalt [e10 lahvatasid ] leegid .
+     e9 "hõõgus"  BEFORE  DCT 
+     e9 "hõõgus"  SIMULTANEOUS  e10 "lahvatasid" 
+     e9 "hõõgus"  SIMULTANEOUS  e11 "virvendas" 
+     e9 "hõõgus"  SIMULTANEOUS  e13 "tunda" 
+     e10 "lahvatasid"  BEFORE  DCT 
+     e10 "lahvatasid"  SIMULTANEOUS  e11 "virvendas" 
+     e10 "lahvatasid"  SIMULTANEOUS  e13 "tunda" 
+
+ s5  Ümbrus [e11 virvendas ] kuumusest , vastu tuultki oli [e12 palavust ] [e13 tunda ] paarikümne meetri kaugusele .
+     e11 "virvendas"  BEFORE  DCT 
+     e11 "virvendas"  SIMULTANEOUS  e12 "palavust" 
+     e11 "virvendas"  SIMULTANEOUS  e13 "tunda" 
+     e11 "virvendas"  VAGUE  e14 "ütles" 
+     e11 "virvendas"  VAGUE  e16 "on spetsiifiline" 
+     e12 "palavust"  BEFORE  DCT 
+     e13 "tunda"  BEFORE  DCT 
+     e13 "tunda"  VAGUE  e14 "ütles" 
+     e13 "tunda"  VAGUE  e16 "on spetsiifiline" 
+
+ s6  Päästetöid juhtiv Puhja tugikomando pealik Gennadi Leppik [e14 ütles ] , et sellise põlengu [e15 kusutamine ] [e16 on ] väga [e16 spetsiifiline ] .
+     e14 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e14 "ütles"  VAGUE  e15 "kusutamine" 
+     e14 "ütles"  VAGUE  e16 "on spetsiifiline" 
+     e14 "ütles"  VAGUE  e18 "uhada" 
+     e14 "ütles"  VAGUE  e19 "poleks" 
+     e15 "kusutamine"  INCLUDES  DCT 
+     e15 "kusutamine"  SIMULTANEOUS  e16 "on spetsiifiline" 
+     e16 "on spetsiifiline"  INCLUDES  DCT 
+     e16 "on spetsiifiline"  VAGUE  e18 "uhada" 
+     e16 "on spetsiifiline"  VAGUE  e19 "poleks" 
+
+ s7  " [e17 Võiksime ] hunnikusse tonnide viisi vett [e18 uhada ] , kuid kasu [e19 poleks ] miskit .
+     e17 "Võiksime"  INCLUDES  DCT 
+     e17 "Võiksime"  VAGUE  e18 "uhada" 
+     e18 "uhada"  INCLUDES  DCT 
+     e18 "uhada"  BEFORE-OR-OVERLAP  e19 "poleks" 
+     e18 "uhada"  VAGUE  e21 "suitseks" 
+     e18 "uhada"  VAGUE  e22 "lausus" 
+     e19 "poleks"  VAGUE  DCT 
+     e19 "poleks"  VAGUE  e21 "suitseks" 
+     e19 "poleks"  VAGUE  e22 "lausus" 
+
+ s8  Vabalt [e20 põledes ] [e21 suitseks ] see vähemalt [t3 neli nädalat ] , " [e22 lausus ] ta .
+     e20 "põledes"  INCLUDES  DCT 
+     e20 "põledes"  SIMULTANEOUS  e21 "suitseks" 
+     e21 "suitseks"  SIMULTANEOUS  t3 "neli nädalat" 
+     e21 "suitseks"  INCLUDES  DCT 
+     e21 "suitseks"  INCLUDES  e22 "lausus" 
+     e21 "suitseks"  INCLUDES  e23 "märkis" 
+     e21 "suitseks"  INCLUDES  e29 "segada" 
+     e21 "suitseks"  SIMULTANEOUS  e24 "põleb" 
+     e22 "lausus"  BEFORE-OR-OVERLAP  DCT 
+     e22 "lausus"  BEFORE-OR-OVERLAP  e23 "märkis" 
+     e22 "lausus"  BEFORE  e29 "segada" 
+     e22 "lausus"  IS_INCLUDED  e24 "põleb" 
+
+ s9  Leppik [e23 märkis ] , et briketihunnik [e24 põleb ] ainult pealt , kuid [e25 tulekahjust ] [e26 jagusaamiseks ] [e27 tuleb ] see laiali [e28 lükata ] ning vee ja poriga läbi [e29 segada ] .
+     e23 "märkis"  BEFORE-OR-OVERLAP  DCT 
+     e23 "märkis"  IS_INCLUDED  e24 "põleb" 
+     e23 "märkis"  BEFORE  e31 "lükkas" 
+     e23 "märkis"  INCLUDES  e30 "kahandaski" 
+     e24 "põleb"  INCLUDES  DCT 
+     e24 "põleb"  INCLUDES  e27 "tuleb" 
+     e24 "põleb"  INCLUDES  e28 "lükata" 
+     e24 "põleb"  INCLUDES  e30 "kahandaski" 
+     e24 "põleb"  INCLUDES  e31 "lükkas" 
+     e25 "tulekahjust"  INCLUDES  DCT 
+     e25 "tulekahjust"  BEFORE  e26 "jagusaamiseks" 
+     e26 "jagusaamiseks"  AFTER  DCT 
+     e27 "tuleb"  OVERLAP-OR-AFTER  DCT 
+     e28 "lükata"  AFTER  DCT 
+     e28 "lükata"  BEFORE  e29 "segada" 
+     e29 "segada"  AFTER  DCT 
+     e29 "segada"  AFTER  e30 "kahandaski" 
+     e29 "segada"  AFTER  e31 "lükkas" 
+
+ s10  Nii [e30 kahandaski ] Sangla Turba ekskavaator briketihunnikut kopaga , linttraktor [e31 lükkas ] põleva ja hõõguva küttematerjali laiali .
+     e30 "kahandaski"  BEFORE  DCT 
+     e30 "kahandaski"  BEFORE  e31 "lükkas" ka VAGUE
+     e30 "kahandaski"  IS_INCLUDED  e32 "tõusid" ka VAGUE
+     e31 "lükkas"  BEFORE  DCT 
+     e31 "lükkas"  IS_INCLUDED  e32 "tõusid" ka VAGUE
+
+ s11  Vahetevahel [e32 tõusid ] traktori kõrvale mitme meetri kõrgused leegid .
+     e32 "tõusid"  BEFORE  DCT 
+     e32 "tõusid"  BEFORE-OR-OVERLAP  e33 "summutasid" 
+     e32 "tõusid"  BEFORE  e34 "jahutasid" 
+
+ s12  Pritsimehed [e33 summutasid ] leegi kiiresti ja [e34 jahutasid ] pidevalt ka traktorit .
+     e33 "summutasid"  BEFORE  DCT 
+     e33 "summutasid"  SIMULTANEOUS  e34 "jahutasid" 
+     e33 "summutasid"  SIMULTANEOUS  e35 "aurustus" 
+     e34 "jahutasid"  BEFORE  DCT 
+     e34 "jahutasid"  VAGUE  e35 "aurustus" 
+
+ s13  Otse turbahunnikusse lastud veejuga [e35 aurustus ] valju pahinaga .
+     e35 "aurustus"  BEFORE  DCT 
+     e35 "aurustus"  AFTER  e38 "summutanud" 
+     e35 "aurustus"  VAGUE  e37 "tunnistas" 
+
+ s14  Linttraktorit [e36 juhtinud ] [t4 56-aastane ] Eino Avi [e37 tunnistas ] , et ta on [t5 varemgi ] raudruunaga turbapõlenguid [e38 summutanud ] , kuid seekord [e39 tuleb ] kuuma tulekoldega suisa silmitsi [e40 seista ] .
+     e36 "juhtinud"  BEFORE  DCT 
+     e36 "juhtinud"  VAGUE  e37 "tunnistas" 
+     e37 "tunnistas"  BEFORE-OR-OVERLAP  DCT 
+     e37 "tunnistas"  AFTER  e38 "summutanud" 
+     e37 "tunnistas"  VAGUE  e40 "seista" 
+     e37 "tunnistas"  BEFORE-OR-OVERLAP  e42 "ütles" 
+     e37 "tunnistas"  IS_INCLUDED  e41 "käib" 
+     e38 "summutanud"  IS_INCLUDED  t5 "varemgi" 
+     e38 "summutanud"  BEFORE  DCT 
+     e38 "summutanud"  BEFORE  e40 "seista" 
+     e38 "summutanud"  BEFORE  e41 "käib" 
+     e38 "summutanud"  BEFORE  e42 "ütles" 
+     e39 "tuleb"  INCLUDES  DCT 
+     e39 "tuleb"  VAGUE  e40 "seista" 
+     e40 "seista"  INCLUDES  DCT 
+
+ s15  " Vahel [e41 käib ] sahmakas tuld üle katuse , " [e42 ütles ] briketisuitsust tahmase näoga Eino Avi .
+     e41 "käib"  INCLUDES  DCT 
+     e41 "käib"  INCLUDES  e42 "ütles" 
+     e41 "käib"  SIMULTANEOUS  e43 "on kinni" 
+     e42 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e42 "ütles"  VAGUE  e43 "on kinni" 
+
+ s16  " Aga kabiin [e43 on ] [e43 kinni ] .
+     e43 "on kinni"  INCLUDES  DCT 
+     e43 "on kinni"  IS_INCLUDED  e44 "ole" 
+     e43 "on kinni"  IS_INCLUDED  e45 "kastavad" 
+
+ s17  Hirmu ei [e44 ole ] , tuletõrjujad [e45 kastavad ] kogu aeg .
+     e44 "ole"  INCLUDES  DCT 
+     e44 "ole"  SIMULTANEOUS  e45 "kastavad" 
+     e44 "ole"  IS_INCLUDED  e46 "teha" 
+     e44 "ole"  IS_INCLUDED  e47 "on" 
+     e45 "kastavad"  INCLUDES  DCT 
+     e45 "kastavad"  IS_INCLUDED  e46 "teha" 
+     e45 "kastavad"  IS_INCLUDED  e47 "on" 
+
+ s18  Ja mis [e46 teha ] , töö [e47 on ] töö . "
+     e46 "teha"  VAGUE  DCT 
+     e46 "teha"  SIMULTANEOUS  e47 "on" 
+     e46 "teha"  INCLUDES  e48 "tahtnud" 
+     e47 "on"  VAGUE  DCT 
+     e47 "on"  INCLUDES  e48 "tahtnud" 
+
+ s19  Gennadi Leppik ei [e48 tahtnud ] [e49 ennustada ] , millal [e50 kustutamine ] [e51 lõpeb ] .
+     e48 "tahtnud"  BEFORE  DCT 
+     e48 "tahtnud"  BEFORE  e51 "lõpeb" 
+     e48 "tahtnud"  BEFORE  e53 "märkis" 
+     e49 "ennustada"  BEFORE  DCT 
+     e49 "ennustada"  BEFORE  e51 "lõpeb" 
+     e50 "kustutamine"  INCLUDES  DCT 
+     e50 "kustutamine"  INCLUDES  e51 "lõpeb" 
+     e51 "lõpeb"  AFTER  DCT 
+
+ s20  " Kõige optimistlikumalt [e52 öeldes ] [t6 homme ] ( s.o [t7 täna ] - A.A ) , " [e53 märkis ] ta .
+     e52 "öeldes"  BEFORE  t6 "homme" 
+     e52 "öeldes"  BEFORE-OR-OVERLAP  DCT 
+     e52 "öeldes"  VAGUE  e53 "märkis" 
+     e53 "märkis"  BEFORE  t6 "homme" 
+     e53 "märkis"  BEFORE-OR-OVERLAP  DCT 
+     e53 "märkis"  IS_INCLUDED  e54 "oska" 
+
+ s21  " Aga ei [e54 oska ] [e55 lubada ] .
+     e54 "oska"  BEFORE  DCT 
+     e54 "oska"  VAGUE  e55 "lubada" 
+     e54 "oska"  BEFORE-OR-OVERLAP  e58 "aitaks" 
+     e55 "lubada"  BEFORE  DCT 
+
+ s22  Kui vihma [e56 hakkab ] [e57 sadama ] , [e58 aitaks ] see ainult siis , kui [e59 kallaks ] [t8 nädal aega ] jutti . "
+     e56 "hakkab"  AFTER  DCT 
+     e56 "hakkab"  BEFORE-OR-OVERLAP  e57 "sadama" 
+     e57 "sadama"  AFTER  DCT 
+     e57 "sadama"  IDENTITY  e59 "kallaks" 
+     e57 "sadama"  VAGUE  e58 "aitaks" 
+     e58 "aitaks"  AFTER  DCT 
+     e58 "aitaks"  VAGUE  e59 "kallaks" 
+     e58 "aitaks"  AFTER  e60 "käis" 
+     e59 "kallaks"  SIMULTANEOUS  t8 "nädal aega" 
+     e59 "kallaks"  AFTER  DCT 
+
+ s23  [t9 Kahe ööpäevaga ] [e60 käis ] sündmuskohal kümme Tartumaa päästeteenistuse Rannu , Puhja , Tõrvandi , Konguta ja Elva tugikomando autot .
+     e60 "käis"  IS_INCLUDED  t9 "Kahe ööpäevaga" 
+     e60 "käis"  BEFORE  DCT 
+     e60 "käis"  AFTER  e63 "saabus" 
+
+ s24  Esimene [e61 teade ] [e62 põlengust ] [e63 saabus ] häirekeskusesse [t10 esmaspäeva öösel kell 2.31. ]
+     e61 "teade"  BEFORE  DCT 
+     e61 "teade"  BEFORE  e63 "saabus" 
+     e61 "teade"  IS_INCLUDED  e62 "põlengust" 
+     e62 "põlengust"  INCLUDES  DCT 
+     e62 "põlengust"  INCLUDES  e63 "saabus" 
+     e63 "saabus"  SIMULTANEOUS  t10 "esmaspäeva öösel kell 2.31." 
+     e63 "saabus"  BEFORE  DCT 
+     e63 "saabus"  BEFORE  e65 "langenud" 
+     e63 "saabus"  BEFORE  e66 "sumbunud" 
+
+ s25  Kui esimene tuletõrjeauto kohale [e64 jõudis ] , oli hoidla katus sisse [e65 langenud ] ning suurem leek [e66 sumbunud ] .
+     e64 "jõudis"  BEFORE  DCT 
+     e64 "jõudis"  AFTER  e65 "langenud" 
+     e64 "jõudis"  AFTER  e66 "sumbunud" 
+     e65 "langenud"  BEFORE  DCT 
+     e65 "langenud"  BEFORE-OR-OVERLAP  e66 "sumbunud" 
+     e65 "langenud"  BEFORE  e67 "pole" 
+     e66 "sumbunud"  BEFORE  DCT 
+     e66 "sumbunud"  BEFORE  e67 "pole" 
+
+ s26  Õnneks [e67 pole ] [e68 põlengul ] kuhugi [e69 levida ] , sest tulekolle [e70 asub ] põllul , elumajadest ja teistest hoonetest eemal .
+     e67 "pole"  INCLUDES  DCT 
+     e67 "pole"  SIMULTANEOUS  e70 "asub" 
+     e67 "pole"  VAGUE  e69 "levida" 
+     e67 "pole"  INCLUDES  e71 "toovad" 
+     e68 "põlengul"  INCLUDES  DCT 
+     e69 "levida"  INCLUDES  DCT 
+     e69 "levida"  SIMULTANEOUS  e70 "asub" 
+     e70 "asub"  INCLUDES  DCT 
+
+ s27  Vett [e71 toovad ] paakautod kahe kilomeetri kauguselt tiigist .
+     e71 "toovad"  INCLUDES  DCT 
+     e71 "toovad"  INCLUDES  e72 "hindas" 
+
+ s28  Kahju 350 000 krooni
+ s29  Aktsiaseltsi Sangla Turvas juhataja Rait Abras [e72 hindas ] , et [e73 põleng ] [e74 toob ] firmale kahju ligikaudu 350 000 krooni .
+     e72 "hindas"  BEFORE  DCT 
+     e72 "hindas"  BEFORE  e74 "toob" 
+     e72 "hindas"  IS_INCLUDED  e73 "põleng" 
+     e72 "hindas"  AFTER  e75 "oli" 
+     e72 "hindas"  BEFORE-OR-OVERLAP  e77 "ütles" 
+     e73 "põleng"  INCLUDES  DCT 
+     e73 "põleng"  VAGUE  e74 "toob" 
+     e74 "toob"  OVERLAP-OR-AFTER  DCT 
+
+ s30  " See [e75 oli ] ekspordi vaheladu , milles [e76 oli ] tuhat tonni briketti , [t11 eelmise kevade ] ekspordi ülejääki , " [e77 ütles ] ta .
+     e75 "oli"  BEFORE  DCT 
+     e75 "oli"  BEFORE  e77 "ütles" 
+     e75 "oli"  INCLUDES  e76 "oli" 
+     e75 "oli"  BEFORE-OR-OVERLAP  e79 "oli" 
+     e75 "oli"  BEFORE  e78 "märkis" 
+     e76 "oli"  BEFORE  DCT 
+     e76 "oli"  BEFORE  e77 "ütles" 
+     e77 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e77 "ütles"  BEFORE-OR-OVERLAP  e78 "märkis" 
+     e77 "ütles"  OVERLAP-OR-AFTER  e79 "oli" 
+
+ s31  Abras [e78 märkis ] , et tõenäoliselt [e79 oli ] tulekahju põhjuseks kellelgi kuritahtlik [e80 lohakus ] või [e81 süütamine ] .
+     e78 "märkis"  BEFORE-OR-OVERLAP  DCT 
+     e78 "märkis"  AFTER  e79 "oli" 
+     e78 "märkis"  AFTER  e80 "lohakus" 
+     e78 "märkis"  AFTER  e81 "süütamine" 
+     e78 "märkis"  AFTER  e82 "oli lukus" 
+     e78 "märkis"  AFTER  e84 "viskas" 
+     e78 "märkis"  BEFORE-OR-OVERLAP  e85 "oletas" 
+     e79 "oli"  BEFORE  DCT 
+     e79 "oli"  BEFORE  e85 "oletas" 
+     e79 "oli"  OVERLAP-OR-AFTER  e82 "oli lukus" 
+     e79 "oli"  OVERLAP-OR-AFTER  e84 "viskas" 
+     e80 "lohakus"  BEFORE  DCT 
+     e80 "lohakus"  VAGUE  e81 "süütamine" 
+     e81 "süütamine"  BEFORE  DCT 
+
+ s32  " Ladu [e82 oli ] [e82 lukus ] , võibolla [e83 murdis ] briketivaras sisse ja [e84 viskas ] maha suitsukoni , " [e85 oletas ] ta .
+     e82 "oli lukus"  BEFORE  DCT 
+     e82 "oli lukus"  BEFORE  e83 "murdis" 
+     e82 "oli lukus"  BEFORE  e84 "viskas" 
+     e82 "oli lukus"  BEFORE  e85 "oletas" 
+     e82 "oli lukus"  IS_INCLUDED  e86 "sütti" 
+     e83 "murdis"  BEFORE  DCT 
+     e83 "murdis"  BEFORE  e84 "viskas" 
+     e83 "murdis"  BEFORE  e85 "oletas" 
+     e84 "viskas"  BEFORE  DCT 
+     e84 "viskas"  BEFORE  e85 "oletas" 
+     e84 "viskas"  IS_INCLUDED  e86 "sütti" 
+     e85 "oletas"  BEFORE-OR-OVERLAP  DCT 
+     e85 "oletas"  IS_INCLUDED  e86 "sütti" 
+
+ s33  " Brikett ise ei [e86 sütti ] . "
+     e86 "sütti"  INCLUDES  DCT 
+     e86 "sütti"  INCLUDES  e87 "lisas" 
+     e86 "sütti"  INCLUDES  e89 "läinud" 
+
+ s34  Rait Abras [e87 lisas ] , et häviv brikett oleks [t12 sel ] sügisel ] [e88 müüki ] [e89 läinud ] .
+     e87 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e87 "lisas"  VAGUE  e88 "müüki" 
+     e87 "lisas"  VAGUE  e89 "läinud" 
+     e87 "lisas"  BEFORE-OR-OVERLAP  e92 "tõdes" 
+     e87 "lisas"  BEFORE  e90 "jääb" 
+     e88 "müüki"  OVERLAP-OR-AFTER  DCT 
+     e89 "läinud"  IS_INCLUDED  t12 "sel sügisel" 
+     e89 "läinud"  OVERLAP-OR-AFTER  DCT 
+     e89 "läinud"  AFTER  e92 "tõdes" 
+     e89 "läinud"  VAGUE  e90 "jääb" ka SIMULTANEOUS
+
+ s35  " [t13 Nüüd ] [e90 jääb ] kasu [e91 saamata ] , " [e92 tõdes ] ta .
+     e90 "jääb"  IS_INCLUDED  t13 "Nüüd" 
+     e90 "jääb"  AFTER  DCT 
+     e90 "jääb"  AFTER  e92 "tõdes" 
+     e90 "jääb"  VAGUE  e95 "seisma jää" 
+     e91 "saamata"  AFTER  DCT 
+     e91 "saamata"  AFTER  e92 "tõdes" 
+     e92 "tõdes"  BEFORE-OR-OVERLAP  DCT 
+     e92 "tõdes"  BEFORE  e95 "seisma jää" 
+
+ s36  " Aga ega [e93 eksport ] ja kodumaine [e94 müük ] seepärast [e95 seisma ] [e95 jää ] .
+     e93 "eksport"  INCLUDES  DCT 
+     e93 "eksport"  SIMULTANEOUS  e94 "müük" 
+     e93 "eksport"  VAGUE  e95 "seisma jää" 
+     e94 "müük"  INCLUDES  DCT 
+     e94 "müük"  VAGUE  e95 "seisma jää" 
+     e95 "seisma jää"  OVERLAP-OR-AFTER  DCT 
+     e95 "seisma jää"  IS_INCLUDED  e96 "töötab" 
+     e95 "seisma jää"  IS_INCLUDED  e97 "varustatud" 
+
+ s37  Tehas [e96 töötab ] pidevalt ja teised laod on briketiga [e97 varustatud ] .
+     e96 "töötab"  INCLUDES  DCT 
+     e96 "töötab"  SIMULTANEOUS  e97 "varustatud" 
+     e96 "töötab"  INCLUDES  e98 "teki" 
+     e97 "varustatud"  INCLUDES  DCT 
+     e97 "varustatud"  INCLUDES  e98 "teki" 
+
+ s38  Selles mõttes probleeme ei [e98 teki ] . "
+     e98 "teki"  OVERLAP-OR-AFTER  DCT 
+     e98 "teki"  AFTER  e99 "lisas" 
+     e98 "teki"  VAGUE  e100 "kannata" 
+
+ s39  Abras [e99 lisas ] , et usutavasti ei [e100 kannata ] [e101 tulekahju ] tõttu ka ühegi töötaja palk .
+     e99 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e99 "lisas"  BEFORE  e100 "kannata" 
+     e99 "lisas"  IS_INCLUDED  e104 "moodustab" 
+     e100 "kannata"  OVERLAP-OR-AFTER  DCT 
+     e100 "kannata"  AFTER  e101 "tulekahju" 
+     e100 "kannata"  IS_INCLUDED  e104 "moodustab" 
+     e101 "tulekahju"  INCLUDES  DCT 
+
+ s40  [t14 Praegu ] tulekahjus [e102 häviv ] ja kustutustöödes [e103 riknev ] tuhat tonni briketti [e104 moodustab ] viiendiku Sangla Turba [t15 ühe kuu ] [e105 ekspordist ] .
+     e102 "häviv"  SIMULTANEOUS  t14 "Praegu" 
+     e102 "häviv"  INCLUDES  DCT 
+     e102 "häviv"  SIMULTANEOUS  e103 "riknev" 
+     e102 "häviv"  SIMULTANEOUS  e104 "moodustab" 
+     e103 "riknev"  INCLUDES  DCT 
+     e103 "riknev"  SIMULTANEOUS  e104 "moodustab" 
+     e104 "moodustab"  INCLUDES  DCT 
+     e104 "moodustab"  VAGUE  e105 "ekspordist" 
+     e104 "moodustab"  IS_INCLUDED  e106 "toodab" 
+     e105 "ekspordist"  INCLUDES  DCT 
+
+ s41  Sangla Turvas [e106 toodab ] [t16 aastas ] 30 000 tonni briketti , millest pool [e107 läheb ] [e108 eksporti ] .
+     e106 "toodab"  SIMULTANEOUS  t16 "aastas" 
+     e106 "toodab"  INCLUDES  DCT 
+     e106 "toodab"  BEFORE  e107 "läheb" 
+     e106 "toodab"  BEFORE  e108 "eksporti" 
+     e107 "läheb"  VAGUE  DCT 
+     e108 "eksporti"  VAGUE  DCT 
+
+

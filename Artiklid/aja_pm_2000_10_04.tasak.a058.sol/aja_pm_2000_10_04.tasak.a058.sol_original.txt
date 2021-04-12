@@ -1,12 +1,47 @@
 <div0>
-<p> <bibl> <author> <s> SIIM HOLVANDUS , meedia@postimees.ee </s> </author> </bibl> </p>
-<p> <s> Susan Sarandon on suutnud teha karjääri Hollywoodi tavasid eirates . </s> <s> Teiste naisnäitlejate loometee kipub nende vananedes allamäge minema , kuid tema on muutunud üha paremaks , säilitades seksisümboli staatuse . </s> </p>
-<p> <s> Susan Tomalini vanemad olid tõsiusklikud katoliiklased ja tüdruk sai hariduse nunnade käe all . </s> <s> Sellest hoolimata jäi temasse mässumeelsust . </s> </p>
-<p> <s> See sai sihipärasema väljundi 60ndatel aastatel , mil ta osales õppurina Vietnami sõja ja inimõiguste rikkumise vastastes demonstratsioonides . </s> <s> Seda ootamatum oli tema astumine katoliku ülikooli Washingtonis . </s> </p>
-<p> <s> Susan tudeeris edukalt nii inglise filoloogiat kui teatrikunsti . </s> <s> Ülikoolist leidis ta ka oma esimese abikaasa - kursusekaaslase Chris Sarandoni . </s> </p>
-<p> <s> Sarandoni tähelend algas modellina . </s> <s> Peagi tulid esimesed rollipakkumised ning läbilöök saabus 1975. aastal kahe filmiga - “ Suur Waldo Pepper ” ja “ The Rocky Horror Picture Show ” . </s> </p>
-<p> <s> Viimane tõusis peagi kultusfilmiks . </s> <s> Selle vaatamaminekuks riietuvad tõelised fännid tänini transvestiitideks . </s> </p>
-<p> <s> Osatäitmise eest “ Atlantic Citys ” ( 1980 ) kandideeris ta esimest korda Oscarile . </s> <s> Temast oli saanud kuulsus , kelle näitlejatöö , aga ka armulood pakkusid huvi paljudele . </s> </p>
-<p> <s> 1980. aastal oli Sarandon seotud prantsuse režissööri Louis Malle'iga , kellele järgnes 14 aastat noorem Sean Penn . </s> <s> Sündis tütar , kelle isaks oli hoopis itaalia režissöör Franco Amurri . </s> </p>
-<p> <s> Sarandoni karjääri kõrgpunkt saabus 1986. aastal “ Eastwicki nõidadega ” , milles mängisid ka Cher , Michelle Pfeiffer ja Jack Nicholson . </s> <s> Armulood aga jätkusid . </s> <s> 1988. aastal jagas Sarandon voodit Kevin Costneriga , kelle peagi vahetas välja nooruke näitleja ja lavastaja Tim Robbins . </s> <s> Viimasega elab näitlejanna kokku tänapäevalgi , neil on kaks last . </s> </p>
-<p> <s> Sarandon kandideeris Oscarile ka osatäitmiste eest filmides “ Thelma ja Louise ” , “ Lorenzo õliKlient ” . </s> <s> Võit tuli filmiga “ Dead Man Walking ” ( 1995 ) . </s> </p></div0>
+<p>
+ <bibl> <author> <s> SIIM HOLVANDUS , meedia@postimees.ee </s> </author> </bibl> 
+</p>
+<p>
+ <s> Susan Sarandon on suutnud teha karjääri Hollywoodi tavasid eirates . </s>
+<s> Teiste naisnäitlejate loometee kipub nende vananedes allamäge minema , kuid tema on muutunud üha paremaks , säilitades seksisümboli staatuse . </s> 
+</p>
+<p>
+ <s> Susan Tomalini vanemad olid tõsiusklikud katoliiklased ja tüdruk sai hariduse nunnade käe all . </s>
+<s> Sellest hoolimata jäi temasse mässumeelsust . </s> 
+</p>
+<p>
+ <s> See sai sihipärasema väljundi 60ndatel aastatel , mil ta osales õppurina Vietnami sõja ja inimõiguste rikkumise vastastes demonstratsioonides . </s>
+<s> Seda ootamatum oli tema astumine katoliku ülikooli Washingtonis . </s> 
+</p>
+<p>
+ <s> Susan tudeeris edukalt nii inglise filoloogiat kui teatrikunsti . </s>
+<s> Ülikoolist leidis ta ka oma esimese abikaasa - kursusekaaslase Chris Sarandoni . </s> 
+</p>
+<p>
+ <s> Sarandoni tähelend algas modellina . </s>
+<s> Peagi tulid esimesed rollipakkumised ning läbilöök saabus 1975. aastal kahe filmiga - “ Suur Waldo Pepper ” ja “ The Rocky Horror Picture Show ” . </s> 
+</p>
+<p>
+ <s> Viimane tõusis peagi kultusfilmiks . </s>
+<s> Selle vaatamaminekuks riietuvad tõelised fännid tänini transvestiitideks . </s> 
+</p>
+<p>
+ <s> Osatäitmise eest “ Atlantic Citys ” ( 1980 ) kandideeris ta esimest korda Oscarile . </s>
+<s> Temast oli saanud kuulsus , kelle näitlejatöö , aga ka armulood pakkusid huvi paljudele . </s> 
+</p>
+<p>
+ <s> 1980. aastal oli Sarandon seotud prantsuse režissööri Louis Malle'iga , kellele järgnes 14 aastat noorem Sean Penn . </s>
+<s> Sündis tütar , kelle isaks oli hoopis itaalia režissöör Franco Amurri . </s> 
+</p>
+<p>
+ <s> Sarandoni karjääri kõrgpunkt saabus 1986. aastal “ Eastwicki nõidadega ” , milles mängisid ka Cher , Michelle Pfeiffer ja Jack Nicholson . </s>
+<s> Armulood aga jätkusid . </s>
+<s> 1988. aastal jagas Sarandon voodit Kevin Costneriga , kelle peagi vahetas välja nooruke näitleja ja lavastaja Tim Robbins . </s>
+<s> Viimasega elab näitlejanna kokku tänapäevalgi , neil on kaks last . </s> 
+</p>
+<p>
+ <s> Sarandon kandideeris Oscarile ka osatäitmiste eest filmides “ Thelma ja Louise ” , “ Lorenzo õliKlient ” . </s>
+<s> Võit tuli filmiga “ Dead Man Walking ” ( 1995 ) . </s> 
+</p>
+</div0>

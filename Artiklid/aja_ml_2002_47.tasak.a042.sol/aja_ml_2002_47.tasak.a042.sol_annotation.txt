@@ -1,0 +1,102 @@
+==================================================
+     aja_ml_2002_47.tasak.a042.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  EMT ja Eesti Telefon ( ET ) [e1 toovad ] alates [t2 2. detsembrist ] turule ühise traadita Interneti-ühenduse , mis [e2 võimaldab ] fikseeritud kuutasu eest [e3 kasutada ] piiramatult Internetti kõikjal Eestis .
+     e1 "toovad"  OVERLAP-OR-AFTER  t2 "2. detsembrist" 
+     e1 "toovad"  AFTER  DCT 
+     e1 "toovad"  BEFORE  e2 "võimaldab" 
+     e1 "toovad"  BEFORE  e3 "kasutada" 
+     e1 "toovad"  IS_INCLUDED  e5 "on" 
+     e2 "võimaldab"  AFTER  DCT 
+     e2 "võimaldab"  INCLUDES  e3 "kasutada" 
+     e3 "kasutada"  AFTER  DCT 
+
+ s2  ET andmeside- ja Interneti-talituse direktori Olav Harjo [e4 sõnul ] [e5 on ] uue ühenduse läbilaskevõime WLANi ( Wireless Local Area Network ) levialades kuni 2 megabitti sekundis ning kõikjal üle Eesti GPRSi ( General Packet Radio Service ) vahendusel kuni 54 kb/s .
+     e4 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e4 "sõnul"  IS_INCLUDED  e5 "on" 
+     e5 "on"  INCLUDES  DCT 
+     e5 "on"  INCLUDES  e8 "pakume" 
+     e5 "on"  INCLUDES  e9 "lisas" 
+
+ s3  " Et [e6 tagatud ] oleks maksimaalne turvalisus kaugtöö [e7 tegemisel ] , [e8 pakume ] klientidele lisaks virtuaalse privaatvõrgu ( IP-VPN ) teenust , " [e9 lisas ] Harjo .
+     e6 "tagatud"  VAGUE  DCT 
+     e6 "tagatud"  IS_INCLUDED  e7 "tegemisel" 
+     e6 "tagatud"  VAGUE  e8 "pakume" 
+     e7 "tegemisel"  VAGUE  DCT 
+     e8 "pakume"  AFTER  DCT 
+     e8 "pakume"  AFTER  e9 "lisas" 
+     e8 "pakume"  VAGUE  e10 "maksa" 
+     e9 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e9 "lisas"  BEFORE-OR-OVERLAP  e10 "maksa" 
+     e9 "lisas"  BEFORE-OR-OVERLAP  e11 "kaetud" 
+
+ s4  Traadita Interneti teenusega liitunud ei [e10 maksa ] WLAN/GPRS võrgukaardiga GPRSi mahupõhist hinda , vaid kõik kulutused on [e11 kaetud ] kuumaksuga .
+     e10 "maksa"  INCLUDES  DCT 
+     e10 "maksa"  SIMULTANEOUS  e11 "kaetud" 
+     e10 "maksa"  VAGUE  e13 "on" 
+     e11 "kaetud"  INCLUDES  DCT 
+     e11 "kaetud"  VAGUE  e13 "on" 
+
+ s5  Teenusega [e12 liitumise ] tasu [e13 on ] 118 krooni ja kuutasu 495 krooni .
+     e12 "liitumise"  OVERLAP-OR-AFTER  DCT 
+     e12 "liitumise"  IS_INCLUDED  e13 "on" 
+     e13 "on"  INCLUDES  DCT 
+     e13 "on"  INCLUDES  e15 "sõlmima" 
+     e13 "on"  INCLUDES  e17 "valida" 
+
+ s6  Klient [e14 peab ] teenuse kasutamiseks [e15 sõlmima ] vaid ühe lepingu ning ta [e16 saab ] ise [e17 valida ] , kas [e18 hakkab ] arveid [e19 saama ] Eesti Telefonilt või EMT-lt .
+     e14 "peab"  AFTER  DCT 
+     e14 "peab"  VAGUE  e15 "sõlmima" 
+     e15 "sõlmima"  AFTER  DCT 
+     e15 "sõlmima"  SIMULTANEOUS  e17 "valida" 
+     e15 "sõlmima"  VAGUE  e21 "on vaja" 
+     e16 "saab"  AFTER  DCT 
+     e17 "valida"  AFTER  DCT 
+     e17 "valida"  BEFORE  e18 "hakkab" 
+     e17 "valida"  BEFORE  e19 "saama" 
+     e17 "valida"  VAGUE  e21 "on vaja" 
+     e18 "hakkab"  AFTER  DCT 
+     e18 "hakkab"  BEFORE  e19 "saama" 
+     e19 "saama"  AFTER  DCT 
+
+ s7  Traadita Interneti-ühenduse [e20 kasutamiseks ] [e21 on ] [e21 vaja ] süle- või pihuarvuti [e22 varustada ] WLAN võrgukaardiga või [e23 ühendada ] GPRS-telefoniga või [e24 lisada ] arvutile ainult WLAN/GPRS võrgukaart .
+     e20 "kasutamiseks"  VAGUE  DCT 
+     e20 "kasutamiseks"  AFTER  e21 "on vaja" 
+     e21 "on vaja"  OVERLAP-OR-AFTER  DCT 
+     e21 "on vaja"  VAGUE  e22 "varustada" 
+     e22 "varustada"  VAGUE  DCT 
+     e22 "varustada"  VAGUE  e23 "ühendada" 
+     e22 "varustada"  VAGUE  e24 "lisada" 
+     e23 "ühendada"  VAGUE  DCT 
+     e23 "ühendada"  VAGUE  e24 "lisada" 
+     e24 "lisada"  VAGUE  DCT 
+
+ s8  Esimene WiFiga küla
+ s9  Nõuni küla Valgamaal [e25 sai ] esimeseks vaba traadita Interneti ( WiFi ) levialaga väikeasulaks Eestis .
+     e25 "sai"  BEFORE  DCT 
+     e25 "sai"  IS_INCLUDED  e27 "on" 
+
+ s10  [e26 Saavutuse ] autorid [e27 on ] Palupera vallavalitsus , MTÜ Tehnokratt , MTÜ WiFi.ee ja MTÜ Wiirus .
+     e26 "Saavutuse"  BEFORE  DCT 
+     e26 "Saavutuse"  IS_INCLUDED  e27 "on" 
+     e27 "on"  INCLUDES  DCT 
+     e27 "on"  SIMULTANEOUS  e28 "rajab" ka VAGUE
+
+ s11  Sel moel [e28 rajab ] Valgamaa teed naabermaakondade Võru ja Põlva arenguks , kus turistidel [e29 puudub ] [e29 võimalus ] [e30 kasutada ] Internetti [t3 ööpäev läbi ] .
+     e28 "rajab"  INCLUDES  DCT 
+     e28 "rajab"  IS_INCLUDED  e29 "puudub võimalus" 
+     e28 "rajab"  VAGUE  e30 "kasutada" 
+     e28 "rajab"  IS_INCLUDED  e31 "on" ka VAGUE
+     e29 "puudub võimalus"  INCLUDES  DCT 
+     e29 "puudub võimalus"  VAGUE  e30 "kasutada" 
+     e30 "kasutada"  SIMULTANEOUS  t3 "ööpäev läbi" 
+     e30 "kasutada"  INCLUDES  DCT 
+
+ s12  Näiteks Tartu- , Valga- ja Viljandimaal [e31 on ] kokku kümme WiFi leviala .
+     e31 "on"  INCLUDES  DCT 
+
+ s13  Vt
+ s14  Vt ka , ML , [t4 24. oktoober ]
+

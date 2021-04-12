@@ -1,0 +1,142 @@
+==================================================
+     aja_ml_2002_47.tasak.a041.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  Tartu [e1 on ] esimene linn Eestis , kus infot linnaliinibusside väljumisaegade kohta [e2 saab ] [e3 tellida ] mobiiltelefonile .
+     e1 "on"  INCLUDES  DCT 
+     e1 "on"  SIMULTANEOUS  e3 "tellida" 
+     e1 "on"  INCLUDES  e8 "ütles" 
+     e1 "on"  SIMULTANEOUS  e4 "mõeldud" ka VAGUE
+     e2 "saab"  INCLUDES  DCT 
+     e2 "saab"  VAGUE  e3 "tellida" 
+     e3 "tellida"  INCLUDES  DCT 
+
+ s2  " Teenus on [e4 mõeldud ] liikuvale linnakodanikule , kes [e5 eelistab ] vastavalt vajadusele bussiaegu [e6 küsida ] , selle asemel et neid meeles [e7 pidada ] , " [e8 ütles ] teenuse looja , Tartu Ülikooli informaatikatudeng Andres Kauts .
+     e4 "mõeldud"  INCLUDES  DCT 
+     e4 "mõeldud"  INCLUDES  e8 "ütles" 
+     e4 "mõeldud"  VAGUE  e5 "eelistab" 
+     e4 "mõeldud"  INCLUDES  e11 "saata" 
+     e5 "eelistab"  INCLUDES  DCT 
+     e5 "eelistab"  INCLUDES  e6 "küsida" 
+     e6 "küsida"  INCLUDES  DCT 
+     e6 "küsida"  IS_INCLUDED  e7 "pidada" 
+     e7 "pidada"  INCLUDES  DCT 
+     e8 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e8 "ütles"  VAGUE  e11 "saata" 
+
+ s3  Teenuse [e9 kasutamiseks ] [e10 tuleb ] [e11 saata ] SMS sõnum kujul " PEATUS peatuse nimi liini number " lühinumbrile 1311.
+     e9 "kasutamiseks"  VAGUE  DCT 
+     e9 "kasutamiseks"  OVERLAP-OR-AFTER  e11 "saata" 
+     e10 "tuleb"  INCLUDES  DCT 
+     e10 "tuleb"  VAGUE  e11 "saata" 
+     e11 "saata"  VAGUE  DCT 
+     e11 "saata"  BEFORE  e12 "saadetakse" 
+
+ s4  Päringu vastusena [e12 saadetakse ] bussi väljumisajad alates päringu [e13 saatmise ] hetkest .
+     e12 "saadetakse"  INCLUDES  DCT 
+     e12 "saadetakse"  AFTER  e13 "saatmise" 
+     e12 "saadetakse"  VAGUE  e18 "saata" 
+     e13 "saatmise"  VAGUE  DCT 
+
+ s5  Et [e14 saada ] [e15 teada ] , mis kell [e16 väljub ] buss nr 14 Ihaste peatusest , [e17 tuleb ] [e18 saata ] sõnum kujul " PEATUS IHASTE 14 " lühinumbrile 1311.
+     e14 "saada"  VAGUE  DCT 
+     e14 "saada"  VAGUE  e15 "teada" 
+     e15 "teada"  VAGUE  DCT 
+     e15 "teada"  AFTER  e18 "saata" 
+     e15 "teada"  VAGUE  e16 "väljub" 
+     e16 "väljub"  INCLUDES  DCT 
+     e16 "väljub"  VAGUE  e18 "saata" 
+     e17 "tuleb"  INCLUDES  DCT 
+     e17 "tuleb"  VAGUE  e18 "saata" 
+     e18 "saata"  INCLUDES  DCT 
+     e18 "saata"  IS_INCLUDED  e19 "töötab" 
+     e18 "saata"  IS_INCLUDED  e20 "on" 
+
+ s6  Teenus [e19 töötab ] kõikides mobiilivõrkudes ning selle hind [e20 on ] 5 krooni .
+     e19 "töötab"  INCLUDES  DCT 
+     e19 "töötab"  SIMULTANEOUS  e20 "on" 
+     e19 "töötab"  SIMULTANEOUS  e22 "on tegemist" 
+     e20 "on"  INCLUDES  DCT 
+     e20 "on"  SIMULTANEOUS  e22 "on tegemist" 
+
+ s7  Tartu abilinnapea Hannes Astoki [e21 sõnul ] [e22 on ] [e22 tegemist ] käepärase alternatiiviga bussiinfo Interneti-lehele buss.tartu.ee
+     e21 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e21 "sõnul"  IS_INCLUDED  e22 "on tegemist" 
+     e22 "on tegemist"  INCLUDES  DCT 
+     e22 "on tegemist"  AFTER  e24 "oli" 
+     e22 "on tegemist"  INCLUDES  e30 "ütles" 
+     e22 "on tegemist"  SIMULTANEOUS  e27 "on" ka VAGUE
+
+ s8  " SMSi teel bussiaegade [e23 tellimine ] [e24 oli ] [t2 hiljuti ] [e25 lõppenud ] Tartu e-mõtete [e26 konkursil ] üks enim soovitud ideid ja mul [e27 on ] hea meel , et see tudengite [e28 eestvõtmisel ] [t3 nüüd ] teoks on [e29 saanud ] , " [e30 ütles ] Astok .
+     e23 "tellimine"  VAGUE  DCT 
+     e23 "tellimine"  VAGUE  e24 "oli" 
+     e24 "oli"  BEFORE  DCT 
+     e24 "oli"  BEFORE  e27 "on" 
+     e24 "oli"  BEFORE  e29 "saanud" 
+     e24 "oli"  BEFORE  e30 "ütles" 
+     e24 "oli"  INCLUDES  e25 "lõppenud" 
+     e24 "oli"  INCLUDES  e31 "kasutas" 
+     e25 "lõppenud"  SIMULTANEOUS  t2 "hiljuti" 
+     e25 "lõppenud"  BEFORE  DCT 
+     e25 "lõppenud"  IS_INCLUDED  e26 "konkursil" 
+     e26 "konkursil"  BEFORE  DCT 
+     e27 "on"  INCLUDES  DCT 
+     e27 "on"  AFTER  e28 "eestvõtmisel" 
+     e27 "on"  INCLUDES  e30 "ütles" 
+     e27 "on"  AFTER  e31 "kasutas" 
+     e28 "eestvõtmisel"  BEFORE  DCT 
+     e28 "eestvõtmisel"  BEFORE-OR-OVERLAP  e29 "saanud" 
+     e29 "saanud"  IS_INCLUDED  t3 "nüüd" 
+     e29 "saanud"  BEFORE  DCT 
+     e29 "saanud"  BEFORE  e30 "ütles" 
+     e30 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e30 "ütles"  AFTER  e31 "kasutas" 
+
+ s9  Andres Kauts [e31 kasutas ] bussiinfo teenuse [e32 loomiseks ] firma Mobi poolt loodud Igaühe M-Äri teenuseportaali abi , mis [e33 võimaldab ] SMS-teenuseid [e34 luua ] vaid [t4 mõne minutiga ] ja ilma erioskusi [e35 vajamata ] .
+     e31 "kasutas"  BEFORE  DCT 
+     e31 "kasutas"  BEFORE-OR-OVERLAP  e32 "loomiseks" 
+     e31 "kasutas"  IS_INCLUDED  e33 "võimaldab" 
+     e31 "kasutas"  VAGUE  e34 "luua" 
+     e31 "kasutas"  BEFORE  e36 "on plaanis" 
+     e32 "loomiseks"  BEFORE  DCT 
+     e33 "võimaldab"  INCLUDES  DCT 
+     e33 "võimaldab"  VAGUE  e34 "luua" 
+     e33 "võimaldab"  VAGUE  e35 "vajamata" 
+     e34 "luua"  SIMULTANEOUS  t4 "mõne minutiga" 
+     e34 "luua"  INCLUDES  DCT 
+     e35 "vajamata"  VAGUE  DCT 
+
+ s10  [t5 Lähiajal ] [e36 on ] [e36 plaanis ] bussiinfo teenus [e37 käivitada ] ka Tallinnas .
+     e36 "on plaanis"  BEFORE-OR-OVERLAP  t5 "Lähiajal" 
+     e36 "on plaanis"  AFTER  DCT 
+     e36 "on plaanis"  BEFORE-OR-OVERLAP  e37 "käivitada" 
+     e36 "on plaanis"  BEFORE  e40 "toimuda" 
+     e37 "käivitada"  SIMULTANEOUS  t5 "Lähiajal" 
+     e37 "käivitada"  AFTER  DCT 
+
+ s11  Kautsi [e38 sõnul ] [e39 võib ] see [e40 toimuda ] [t6 detsembris ] .
+     e38 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e38 "sõnul"  BEFORE  e40 "toimuda" 
+     e39 "võib"  AFTER  DCT 
+     e39 "võib"  VAGUE  e40 "toimuda" 
+     e40 "toimuda"  IS_INCLUDED  t6 "detsembris" 
+     e40 "toimuda"  AFTER  DCT 
+     e40 "toimuda"  IS_INCLUDED  e42 "küsida" 
+
+ s12  SMS-päringu abil [e41 saab ] [e42 küsida ] Taisto bussiaegu liinil Tartu-Tallinn ja vastupidi ning Tartu taksofirmade andmed .
+     e41 "saab"  INCLUDES  DCT 
+     e41 "saab"  VAGUE  e42 "küsida" 
+     e42 "küsida"  INCLUDES  DCT 
+     e42 "küsida"  INCLUDES  e44 "saabub" 
+
+ s13  [e43 Saates ] lühinumbrile 1311 SMSi sisuga " INFO TAISTO " , [e44 saabub ] hetke pärast vastus Taisto liinide Tartust Tallinna poole ja vastupidises suunas sõitvate busside väljumisaegadega .
+     e43 "Saates"  VAGUE  DCT 
+     e43 "Saates"  BEFORE  e44 "saabub" 
+     e44 "saabub"  INCLUDES  DCT 
+     e44 "saabub"  VAGUE  e45 "toob" 
+
+ s14  Sõnum sisuga " INFO TARTAXI " lühinumbrile 1311 [e45 toob ] vastuseks Tartu taksofirmade nimed ja tellimisnumbrid .
+     e45 "toob"  INCLUDES  DCT 
+
+

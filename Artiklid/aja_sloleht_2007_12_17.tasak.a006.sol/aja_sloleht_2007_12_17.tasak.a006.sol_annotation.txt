@@ -1,0 +1,68 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a006.sol
+      DCT: 2007-12-17
+==================================================
+ s0  [t1 Sel nädalal ] [e1 teatab ] Suurbritannia valitsus [e2 kavast ] kolmandatest riikidest saabuvate turistide [e3 õigusi ] [e4 kärpida ] .
+     e1 "teatab"  IS_INCLUDED  t1 "Sel nädalal" 
+     e1 "teatab"  OVERLAP-OR-AFTER  DCT 
+     e1 "teatab"  AFTER  e2 "kavast" 
+     e1 "teatab"  BEFORE-OR-OVERLAP  e5 "antakse" 
+     e2 "kavast"  OVERLAP-OR-AFTER  DCT 
+     e2 "kavast"  BEFORE  e4 "kärpida" 
+     e3 "õigusi"  VAGUE  DCT 
+     e3 "õigusi"  INCLUDES  e4 "kärpida" 
+     e4 "kärpida"  AFTER  DCT 
+
+ s1  Väljastpoolt Euroopa Liitu pärit inimestele [e5 antakse ] [t2 tulevikus ] [e6 õigus ] [e7 viibida ] Suurbritannia pinnal [t3 senise ] [t4 kuue [t4 kuu ] asemel vaid [t5 kolm kuud ] .
+     e5 "antakse"  IS_INCLUDED  t2 "tulevikus" 
+     e5 "antakse"  AFTER  DCT 
+     e5 "antakse"  BEFORE  e6 "õigus" 
+     e5 "antakse"  BEFORE  e11 "deponeerima" 
+     e6 "õigus"  AFTER  DCT 
+     e6 "õigus"  INCLUDES  e7 "viibida" 
+     e7 "viibida"  SIMULTANEOUS  t5 "kolm kuud" 
+     e7 "viibida"  AFTER  DCT 
+
+ s2  Kui riiki [e8 tullakse ] sugulaste või tuttavate [e9 kutsel ] , siis [e10 peavad ] nood [e11 deponeerima ] vähemalt 1000 naelsterlingit ( 25 000 krooni ) [e12 katmaks ] kutsutu võimalikke tagasisaatmiskulusid .
+     e8 "tullakse"  AFTER  DCT 
+     e8 "tullakse"  AFTER  e11 "deponeerima" 
+     e8 "tullakse"  AFTER  e9 "kutsel" 
+     e9 "kutsel"  AFTER  DCT 
+     e10 "peavad"  AFTER  DCT 
+     e10 "peavad"  BEFORE-OR-OVERLAP  e11 "deponeerima" 
+     e11 "deponeerima"  AFTER  DCT 
+     e11 "deponeerima"  BEFORE  e12 "katmaks" 
+     e11 "deponeerima"  OVERLAP-OR-AFTER  e14 "tahetakse" ka VAGUE
+     e12 "katmaks"  AFTER  DCT 
+
+ s3  [e13 Kaotada ] [e14 tahetakse ] ka inimeste [e15 õigus ] [e16 kaevata ] kohtusse , kui immigratsiooniametnikud nad viisast ilma [e17 jätavad ] .
+     e13 "Kaotada"  AFTER  DCT 
+     e13 "Kaotada"  AFTER  e14 "tahetakse" 
+     e13 "Kaotada"  AFTER  e15 "õigus" 
+     e14 "tahetakse"  INCLUDES  DCT 
+     e14 "tahetakse"  BEFORE  e17 "jätavad" 
+     e14 "tahetakse"  OVERLAP-OR-AFTER  e20 "maksma" 
+     e15 "õigus"  INCLUDES  DCT 
+     e15 "õigus"  INCLUDES  e16 "kaevata" 
+     e16 "kaevata"  VAGUE  DCT 
+     e16 "kaevata"  AFTER  e17 "jätavad" 
+     e17 "jätavad"  VAGUE  DCT 
+
+ s4  [t6 Praegu ] on riik [e18 pidanud ] kohtutele selliste kaebuste [e19 käsitlemise ] eest [e20 maksma ] [t7 aastas ] 30-40 miljonit naelsterlingit . "
+     e18 "pidanud"  BEFORE  DCT 
+     e18 "pidanud"  BEFORE-OR-OVERLAP  e20 "maksma" 
+     e19 "käsitlemise"  BEFORE  DCT 
+     e19 "käsitlemise"  BEFORE  e20 "maksma" 
+     e20 "maksma"  BEFORE-OR-OVERLAP  t6 "Praegu" 
+     e20 "maksma"  BEFORE  DCT 
+     e20 "maksma"  BEFORE  e22 "leidma" 
+     e20 "maksma"  INCLUDES  e23 "teatab" 
+
+ s5  Apellatsiooniks [e21 peab ] [e22 leidma ] lihtsama ja odavama mooduse , " [e23 teatab ] immigratsiooniminister Liam Byrne .
+     e21 "peab"  OVERLAP-OR-AFTER  DCT 
+     e21 "peab"  BEFORE-OR-OVERLAP  e22 "leidma" 
+     e22 "leidma"  AFTER  DCT 
+     e22 "leidma"  AFTER  e23 "teatab" 
+     e23 "teatab"  BEFORE-OR-OVERLAP  DCT 
+
+

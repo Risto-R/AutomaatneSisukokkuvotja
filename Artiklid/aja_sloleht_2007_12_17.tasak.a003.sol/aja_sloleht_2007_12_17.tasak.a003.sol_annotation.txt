@@ -1,0 +1,329 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a003.sol
+      DCT: 2007-12-17
+==================================================
+ s0  " Printsess Diana süda oli valust [e1 lõhkemas ] , kui Hasnat Khan [e2 teatas ] , et ei [e3 abiellu ] temaga . Ta [e4 otsis ] Dodi Fayedilt vaid [e5 lohutust ] , mitte [e6 armastust ] , " [e7 kinnitas ] Diana ja Dodi [e8 hukkumise ] [e9 asjaolusid ] uurivas Londoni kohtus printsessi lähemaid sõbratare Rosa Monckton .
+     e1 "lõhkemas"  BEFORE  DCT 
+     e1 "lõhkemas"  BEFORE-OR-OVERLAP  e4 "otsis" 
+     e1 "lõhkemas"  BEFORE  e7 "kinnitas" 
+     e1 "lõhkemas"  OVERLAP-OR-AFTER  e2 "teatas" 
+     e1 "lõhkemas"  BEFORE  e13 "kinnitas" 
+     e1 "lõhkemas"  IS_INCLUDED  e10 "armastas" 
+     e1 "lõhkemas"  OVERLAP-OR-AFTER  e11 "lootis" 
+     e2 "teatas"  BEFORE  DCT 
+     e2 "teatas"  BEFORE-OR-OVERLAP  e3 "abiellu" 
+     e3 "abiellu"  BEFORE  DCT 
+     e4 "otsis"  BEFORE  DCT 
+     e4 "otsis"  BEFORE-OR-OVERLAP  e5 "lohutust" 
+     e4 "otsis"  BEFORE-OR-OVERLAP  e6 "armastust" 
+     e4 "otsis"  BEFORE  e7 "kinnitas" 
+     e4 "otsis"  BEFORE  e13 "kinnitas" 
+     e4 "otsis"  OVERLAP-OR-AFTER  e10 "armastas" 
+     e4 "otsis"  OVERLAP-OR-AFTER  e11 "lootis" 
+     e5 "lohutust"  BEFORE  DCT 
+     e5 "lohutust"  SIMULTANEOUS  e6 "armastust" 
+     e6 "armastust"  BEFORE  DCT 
+     e7 "kinnitas"  BEFORE-OR-OVERLAP  DCT 
+     e7 "kinnitas"  VAGUE  e9 "asjaolusid" 
+     e7 "kinnitas"  AFTER  e10 "armastas" 
+     e7 "kinnitas"  AFTER  e11 "lootis" 
+     e7 "kinnitas"  SIMULTANEOUS  e13 "kinnitas" ka VAGUE
+     e8 "hukkumise"  BEFORE  DCT 
+     e8 "hukkumise"  BEFORE  e9 "asjaolusid" 
+     e9 "asjaolusid"  BEFORE  DCT 
+
+ s1  " Diana [e10 armastas ] kirurg Hasnat Khani kogu südamest ja [e11 lootis ] , et neil [e12 on ] ühine tulevik , " [e13 kinnitas ] Rosa Monckton kohtule Sunday Telegraphi [e14 andmeil ] .
+     e10 "armastas"  BEFORE  DCT 
+     e10 "armastas"  BEFORE  e13 "kinnitas" 
+     e10 "armastas"  INCLUDES  e11 "lootis" 
+     e10 "armastas"  INCLUDES  e17 "rääkinud" 
+     e11 "lootis"  BEFORE  DCT 
+     e11 "lootis"  BEFORE-OR-OVERLAP  e12 "on" 
+     e11 "lootis"  BEFORE  e13 "kinnitas" 
+     e11 "lootis"  INCLUDES  e17 "rääkinud" 
+     e12 "on"  BEFORE  DCT 
+     e13 "kinnitas"  BEFORE  DCT 
+     e13 "kinnitas"  BEFORE  e14 "andmeil" 
+     e13 "kinnitas"  AFTER  e17 "rääkinud" 
+     e14 "andmeil"  BEFORE  DCT 
+
+ s2  Kõigest [t1 kaks nädalat ] enne oma traagilist [e15 surma ] , Kreeka saartel [e16 puhates ] , oli Diana [e17 rääkinud ] sõpradega ainult Hasnatist . "
+     e15 "surma"  OVERLAP-OR-AFTER  t1 "kaks nädalat" 
+     e15 "surma"  BEFORE  DCT 
+     e15 "surma"  AFTER  e17 "rääkinud" 
+     e16 "puhates"  BEFORE  DCT 
+     e16 "puhates"  INCLUDES  e17 "rääkinud" 
+     e17 "rääkinud"  BEFORE-OR-OVERLAP  t1 "kaks nädalat" 
+     e17 "rääkinud"  BEFORE  DCT 
+     e17 "rääkinud"  BEFORE-OR-OVERLAP  e18 "mõistsin" 
+     e17 "rääkinud"  IS_INCLUDED  e19 "igatseb" 
+
+ s3  Ma [e18 mõistsin ] , et ta [e19 igatseb ] seda meest .
+     e18 "mõistsin"  BEFORE  DCT 
+     e18 "mõistsin"  IS_INCLUDED  e19 "igatseb" 
+     e18 "mõistsin"  BEFORE  e22 "ütleb" 
+     e18 "mõistsin"  IS_INCLUDED  e20 "polnud jutuks" 
+     e19 "igatseb"  BEFORE  DCT 
+     e19 "igatseb"  BEFORE  e22 "ütleb" 
+     e19 "igatseb"  INCLUDES  e20 "polnud jutuks" 
+
+ s4  Kordagi [e20 polnud ] [e20 jutuks ] [e21 abielu ] Dodi Fayediga , " [e22 ütleb ] Monckton .
+     e20 "polnud jutuks"  BEFORE  DCT 
+     e20 "polnud jutuks"  BEFORE  e21 "abielu" 
+     e20 "polnud jutuks"  BEFORE  e22 "ütleb" 
+     e20 "polnud jutuks"  SIMULTANEOUS  e23 "oli valmis" 
+     e21 "abielu"  BEFORE  DCT 
+     e22 "ütleb"  BEFORE-OR-OVERLAP  DCT 
+     e22 "ütleb"  AFTER  e23 "oli valmis" 
+
+ s5  Printsess [e23 oli ] [e23 valmis ] vastu [e24 võtma ] islami .
+     e23 "oli valmis"  BEFORE  DCT 
+     e23 "oli valmis"  BEFORE-OR-OVERLAP  e24 "võtma" 
+     e23 "oli valmis"  BEFORE-OR-OVERLAP  e25 "jäi" 
+     e24 "võtma"  BEFORE  DCT 
+
+ s6  See samm [e25 jäi ] [e26 astumata ] vaid sellepärast , et Hasnat [e27 otsustas ] nende [e28 vahekorrale ] [e29 lõpu ] [e29 teha ] . "
+     e25 "jäi"  BEFORE  DCT 
+     e25 "jäi"  OVERLAP-OR-AFTER  e27 "otsustas" 
+     e25 "jäi"  SIMULTANEOUS  e26 "astumata" 
+     e25 "jäi"  BEFORE  e31 "ehmunud" 
+     e25 "jäi"  BEFORE  e33 "ütles" 
+     e25 "jäi"  VAGUE  e34 "võta" 
+     e26 "astumata"  BEFORE  DCT 
+     e27 "otsustas"  BEFORE  DCT 
+     e27 "otsustas"  BEFORE-OR-OVERLAP  e29 "lõpu teha" 
+     e28 "vahekorrale"  BEFORE  DCT 
+     e28 "vahekorrale"  BEFORE-OR-OVERLAP  e29 "lõpu teha" 
+     e29 "lõpu teha"  BEFORE  DCT 
+
+ s7  Kui ajalehtedes [e30 ilmusid ] esimesed fotod Dianast ja Dodist , oli printsess [e31 ehmunud ] ja endast [e32 väljas ] ning [e33 ütles ] mulle : " [t2 Nüüd ] ei [e34 võta ] Hasnat mind enam tagasi . " "
+     e30 "ilmusid"  BEFORE  DCT 
+     e30 "ilmusid"  BEFORE-OR-OVERLAP  e33 "ütles" 
+     e30 "ilmusid"  BEFORE  e31 "ehmunud" 
+     e31 "ehmunud"  BEFORE  DCT 
+     e31 "ehmunud"  BEFORE-OR-OVERLAP  e33 "ütles" 
+     e31 "ehmunud"  SIMULTANEOUS  e32 "väljas" 
+     e31 "ehmunud"  IS_INCLUDED  e36 "oli võimatu" 
+     e32 "väljas"  BEFORE  DCT 
+     e33 "ütles"  BEFORE  DCT 
+     e33 "ütles"  BEFORE  e34 "võta" 
+     e33 "ütles"  IS_INCLUDED  e36 "oli võimatu" 
+     e34 "võta"  IS_INCLUDED  t2 "Nüüd" 
+     e34 "võta"  BEFORE  DCT 
+     e34 "võta"  IS_INCLUDED  e36 "oli võimatu" 
+
+ s8  Kirurg : [e35 abielu ] [e36 oli ] [e36 võimatu ]
+     e35 "abielu"  BEFORE  DCT 
+     e35 "abielu"  AFTER  e36 "oli võimatu" 
+     e36 "oli võimatu"  BEFORE  DCT 
+     e36 "oli võimatu"  BEFORE  e37 "kirjutab" 
+     e36 "oli võimatu"  INCLUDES  e38 "lõpetas" 
+
+ s9  Sunday Telegraph [e37 kirjutab ] , et Hasnat Khan [e38 lõpetas ] [e39 suhted ] Dianaga [t3 1997. aasta suvel ] , [t4 mõni kuu ] enne printsessi [e40 surma ] , sest tema [e41 veendumuse ] [e41 kohaselt ] [e42 olnuks ] nende [e43 abielu ] [e42 võimatu ] . "
+     e37 "kirjutab"  BEFORE-OR-OVERLAP  DCT 
+     e37 "kirjutab"  AFTER  e38 "lõpetas" 
+     e37 "kirjutab"  AFTER  e46 "öelnud" 
+     e37 "kirjutab"  VAGUE  e45 "lahutaksime" 
+     e38 "lõpetas"  IS_INCLUDED  t3 "1997. aasta suvel" 
+     e38 "lõpetas"  BEFORE  DCT 
+     e38 "lõpetas"  BEFORE-OR-OVERLAP  e42 "olnuks võimatu" 
+     e38 "lõpetas"  BEFORE  e40 "surma" 
+     e38 "lõpetas"  OVERLAP-OR-AFTER  e39 "suhted" 
+     e38 "lõpetas"  VAGUE  e45 "lahutaksime" 
+     e38 "lõpetas"  VAGUE  e46 "öelnud" 
+     e39 "suhted"  BEFORE  DCT 
+     e40 "surma"  OVERLAP-OR-AFTER  t4 "mõni kuu" 
+     e40 "surma"  BEFORE  DCT 
+     e41 "veendumuse kohaselt"  BEFORE  DCT 
+     e41 "veendumuse kohaselt"  IS_INCLUDED  e42 "olnuks võimatu" 
+     e42 "olnuks võimatu"  BEFORE  DCT 
+     e42 "olnuks võimatu"  VAGUE  e43 "abielu" 
+     e43 "abielu"  BEFORE  DCT 
+
+ s10  Kui ma [e44 võtaksin ] ta [e44 naiseks ] , siis [e45 lahutaksime ] [t5 hiljemalt aasta pärast ] , " oli Hasnat oma perekonnale [e46 öelnud ] . "
+     e44 "võtaksin naiseks"  BEFORE  t5 "hiljemalt aasta pärast" 
+     e44 "võtaksin naiseks"  VAGUE  DCT 
+     e44 "võtaksin naiseks"  BEFORE  e45 "lahutaksime" 
+     e44 "võtaksin naiseks"  VAGUE  e46 "öelnud" 
+     e45 "lahutaksime"  IS_INCLUDED  t5 "hiljemalt aasta pärast" 
+     e45 "lahutaksime"  VAGUE  DCT 
+     e45 "lahutaksime"  AFTER  e46 "öelnud" 
+     e45 "lahutaksime"  VAGUE  e47 "oleme erinevad" 
+     e46 "öelnud"  BEFORE  DCT 
+     e46 "öelnud"  IS_INCLUDED  e47 "oleme erinevad" 
+
+ s11  Me [e47 oleme ] kultuuritaustalt [e47 erinevad ] , nagu [e48 võiksid ] [e49 olla ] inimesed kahelt eri planeedilt .
+     e47 "oleme erinevad"  INCLUDES  DCT 
+     e47 "oleme erinevad"  VAGUE  e49 "olla" 
+     e47 "oleme erinevad"  SIMULTANEOUS  e50 "on" 
+     e48 "võiksid"  VAGUE  DCT 
+     e48 "võiksid"  BEFORE-OR-OVERLAP  e49 "olla" 
+     e49 "olla"  VAGUE  DCT 
+
+ s12  Tema [e50 on ] Veenuselt , mina Marsilt . "
+     e50 "on"  INCLUDES  DCT 
+     e50 "on"  INCLUDES  e52 "algas" 
+
+ s13  Kirurgi ja printsess Diana [e51 vahekord ] [e52 algas ] [t6 1995. aastal ] .
+     e51 "vahekord"  BEFORE  DCT 
+     e51 "vahekord"  OVERLAP-OR-AFTER  e52 "algas" 
+     e52 "algas"  IS_INCLUDED  t6 "1995. aastal" 
+     e52 "algas"  BEFORE  DCT 
+     e52 "algas"  BEFORE-OR-OVERLAP  e53 "viibisid" 
+
+ s14  Enamasti [e53 viibisid ] armunud Hasnat Khani korteris Londoni Chelseas .
+     e53 "viibisid"  BEFORE  DCT 
+     e53 "viibisid"  IS_INCLUDED  e54 "varjas" 
+     e53 "viibisid"  IS_INCLUDED  e57 "oli" 
+
+ s15  Tõsi , Diana [e54 varjas ] seda [e55 suhet ] avalikkuse eest suure hoolega ja tema [e56 armastusest ] Pakistani päritolu kirurgi vastu [e57 oli ] ajakirjanduses tema eluajal vähe juttu .
+     e54 "varjas"  BEFORE  DCT 
+     e54 "varjas"  SIMULTANEOUS  e55 "suhet" 
+     e54 "varjas"  SIMULTANEOUS  e57 "oli" 
+     e54 "varjas"  BEFORE  e58 "lahkus" 
+     e55 "suhet"  BEFORE  DCT 
+     e56 "armastusest"  VAGUE  e57 "oli" 
+     e57 "oli"  BEFORE  DCT 
+     e57 "oli"  BEFORE  e58 "lahkus" 
+
+ s16  [t7 Praegu ] [t8 48aastane ] Hasnat [e58 lahkus ] Suurbritanniast vaid [t9 paar kuud tagasi ] .
+     e58 "lahkus"  IS_INCLUDED  t9 "paar kuud tagasi" 
+     e58 "lahkus"  BEFORE  DCT 
+     e58 "lahkus"  VAGUE  e59 "rääkis" 
+
+ s17  Tema isa [e59 rääkis ] ajakirjanikele , et poeg oli Dianat [e60 iseloomustanud ] kui väga iseseisvat ja lahke olekuga naist . "
+     e59 "rääkis"  BEFORE  DCT 
+     e59 "rääkis"  AFTER  e60 "iseloomustanud" 
+     e59 "rääkis"  AFTER  e61 "mõtles" 
+     e59 "rääkis"  AFTER  e63 "loobus" 
+     e59 "rääkis"  SIMULTANEOUS  e68 "ütles" ka VAGUE
+     e60 "iseloomustanud"  BEFORE  DCT 
+     e60 "iseloomustanud"  BEFORE  e68 "ütles" 
+     e60 "iseloomustanud"  INCLUDES  e61 "mõtles" 
+     e60 "iseloomustanud"  INCLUDES  e63 "loobus" 
+
+ s18  Mu poeg [e61 mõtles ] [e62 paluda ] tema kätt , kuid [e63 loobus ] siis sellest , sest [e64 teadis ] , et [e65 abielu ] kahe eri usku inimese vahel ei [e66 saa ] [e67 olla ] [e67 püsiv ] , " [e68 ütles ] isa .
+     e61 "mõtles"  BEFORE  DCT 
+     e61 "mõtles"  BEFORE  e62 "paluda" 
+     e61 "mõtles"  BEFORE  e63 "loobus" 
+     e61 "mõtles"  BEFORE  e68 "ütles" 
+     e61 "mõtles"  BEFORE  e69 "abiellus" 
+     e62 "paluda"  BEFORE  DCT 
+     e62 "paluda"  BEFORE  e63 "loobus" 
+     e62 "paluda"  BEFORE  e68 "ütles" 
+     e63 "loobus"  BEFORE  DCT 
+     e63 "loobus"  IS_INCLUDED  e64 "teadis" 
+     e63 "loobus"  BEFORE  e69 "abiellus" 
+     e64 "teadis"  BEFORE  DCT 
+     e64 "teadis"  VAGUE  e67 "olla püsiv" 
+     e65 "abielu"  VAGUE  DCT 
+     e65 "abielu"  VAGUE  e67 "olla püsiv" 
+     e66 "saa"  VAGUE  DCT 
+     e66 "saa"  BEFORE-OR-OVERLAP  e67 "olla püsiv" 
+     e67 "olla püsiv"  VAGUE  DCT 
+     e68 "ütles"  BEFORE  DCT 
+     e68 "ütles"  VAGUE  e69 "abiellus" 
+
+ s19  Hasnat Khan [e69 abiellus ] enne Suurbritanniast [e70 lahkumist ] Afganistani kuningasuguvõsa liikme , [t10 29aastase ] Hadia Sher Aliga .
+     e69 "abiellus"  BEFORE  DCT 
+     e69 "abiellus"  BEFORE  e70 "lahkumist" 
+     e69 "abiellus"  VAGUE  e72 "pareeris" 
+     e70 "lahkumist"  BEFORE  DCT 
+
+ s20  Rosa Moncktoni [e71 jutu ] kohtus [e72 pareeris ] Diana kasuema krahvinna Raine Spencer , kes [e73 ütles ] , et Dodi Fayed ja Diana olid [e74 armunud ] , ja [e75 on ] [e75 usutav ] , et neil [e76 oli ] [e76 plaan ] [e77 abielluda ] .
+     e71 "jutu"  BEFORE  DCT 
+     e71 "jutu"  BEFORE  e72 "pareeris" 
+     e72 "pareeris"  BEFORE  DCT 
+     e72 "pareeris"  INCLUDES  e73 "ütles" 
+     e72 "pareeris"  AFTER  e78 "polnud lähedane" 
+     e73 "ütles"  BEFORE  DCT 
+     e73 "ütles"  AFTER  e74 "armunud" 
+     e73 "ütles"  VAGUE  e75 "on usutav" 
+     e74 "armunud"  BEFORE  DCT 
+     e74 "armunud"  BEFORE  e75 "on usutav" 
+     e74 "armunud"  INCLUDES  e76 "oli plaan" 
+     e75 "on usutav"  BEFORE-OR-OVERLAP  DCT 
+     e75 "on usutav"  AFTER  e76 "oli plaan" 
+     e76 "oli plaan"  BEFORE  DCT 
+     e76 "oli plaan"  BEFORE-OR-OVERLAP  e77 "abielluda" 
+     e77 "abielluda"  BEFORE  DCT 
+
+ s21  Kuid krahvinna [e78 polnud ] printsessile kuigi [e78 lähedane ] .
+     e78 "polnud lähedane"  BEFORE  DCT 
+     e78 "polnud lähedane"  INCLUDES  e79 "suhe" 
+
+ s22  Diana karske [e79 suhe ] Dodiga
+     e79 "suhe"  BEFORE  DCT 
+     e79 "suhe"  BEFORE  e81 "kinnitanud" 
+     e79 "suhe"  SIMULTANEOUS  e82 "maganud" 
+
+ s23  Seevastu on printsessi lähedaste sõprade hulka [e80 loetud ] ajakirjanik Taki Theodoracopulos [t11 varem ] [e81 kinnitanud ] , et Diana ja Dodi ei [e82 maganud ] kunagi ühes voodis .
+     e80 "loetud"  INCLUDES  DCT 
+     e80 "loetud"  INCLUDES  e81 "kinnitanud" 
+     e81 "kinnitanud"  IS_INCLUDED  t11 "varem" 
+     e81 "kinnitanud"  BEFORE  DCT 
+     e81 "kinnitanud"  AFTER  e82 "maganud" 
+     e81 "kinnitanud"  AFTER  e85 "ootas" 
+     e81 "kinnitanud"  BEFORE  e83 "kõneldakse" 
+     e82 "maganud"  BEFORE  DCT 
+     e82 "maganud"  BEFORE  e83 "kõneldakse" 
+     e82 "maganud"  VAGUE  e85 "ootas" ka SIMULTANEOUS
+
+ s24  " [t12 Praegu ] [e83 kõneldakse ] palju , et kui Diana Alma silla tunnelis [e84 surma ] [e84 sai ] , siis [e85 ootas ] ta Dodi last .
+     e83 "kõneldakse"  IS_INCLUDED  t12 "Praegu" 
+     e83 "kõneldakse"  BEFORE-OR-OVERLAP  DCT 
+     e83 "kõneldakse"  AFTER  e84 "surma sai" 
+     e83 "kõneldakse"  AFTER  e85 "ootas" 
+     e83 "kõneldakse"  AFTER  e86 "küsisin" 
+     e83 "kõneldakse"  AFTER  e88 "naeris" 
+     e83 "kõneldakse"  AFTER  e89 "ütles" 
+     e83 "kõneldakse"  AFTER  e91 "olen" 
+     e84 "surma sai"  BEFORE  DCT 
+     e84 "surma sai"  OVERLAP-OR-AFTER  e85 "ootas" 
+     e85 "ootas"  BEFORE  DCT 
+     e85 "ootas"  VAGUE  e86 "küsisin" 
+     e85 "ootas"  VAGUE  e88 "naeris" 
+     e85 "ootas"  VAGUE  e89 "ütles" 
+     e85 "ootas"  VAGUE  e91 "olen" 
+
+ s25  Ma [e86 küsisin ] seda temalt [t13 kolm päeva ] enne [e87 õnnetust ] - ta [e88 naeris ] mulle näkku ja [e89 ütles ] , et kui Dodi [e90 on ] tema [e90 armuke ] , siis [e91 olen ] seda ka mina .
+     e86 "küsisin"  BEFORE-OR-OVERLAP  t13 "kolm päeva" 
+     e86 "küsisin"  BEFORE  DCT 
+     e86 "küsisin"  BEFORE  e87 "õnnetust" 
+     e86 "küsisin"  BEFORE  e88 "naeris" 
+     e86 "küsisin"  BEFORE  e89 "ütles" 
+     e86 "küsisin"  BEFORE  e93 "ütles" 
+     e86 "küsisin"  IS_INCLUDED  e92 "maganud" 
+     e87 "õnnetust"  OVERLAP-OR-AFTER  t13 "kolm päeva" 
+     e87 "õnnetust"  BEFORE  DCT 
+     e88 "naeris"  BEFORE  DCT 
+     e88 "naeris"  BEFORE-OR-OVERLAP  e89 "ütles" 
+     e88 "naeris"  BEFORE  e93 "ütles" 
+     e88 "naeris"  IS_INCLUDED  e92 "maganud" 
+     e89 "ütles"  BEFORE  DCT 
+     e89 "ütles"  VAGUE  e91 "olen" 
+     e89 "ütles"  BEFORE  e93 "ütles" 
+     e89 "ütles"  IS_INCLUDED  e92 "maganud" 
+     e90 "on armuke"  VAGUE  DCT 
+     e90 "on armuke"  SIMULTANEOUS  e91 "olen" 
+     e91 "olen"  VAGUE  DCT 
+     e91 "olen"  BEFORE  e93 "ütles" 
+     e91 "olen"  IS_INCLUDED  e92 "maganud" 
+
+ s26  Nad ei [e92 maganud ] koos , " [e93 ütles ] Taki .
+     e92 "maganud"  BEFORE  DCT 
+     e92 "maganud"  BEFORE  e93 "ütles" 
+     e92 "maganud"  BEFORE  e97 "nõudnud" 
+     e93 "ütles"  BEFORE  DCT 
+     e93 "ütles"  OVERLAP-OR-AFTER  e97 "nõudnud" 
+
+ s27  Londoni kohus on Diana ja Dodi Fayedi [e94 surma ] [e95 asjaolude ] kohta tunnistusi [e96 kuulates ] muu hulgas välja [e97 nõudnud ] printsessi kirjad Dodile ja kuninganna Elizabeth II abikaasale Philipile .
+     e94 "surma"  BEFORE  DCT 
+     e94 "surma"  VAGUE  e95 "asjaolude" 
+     e95 "asjaolude"  BEFORE  DCT 
+     e95 "asjaolude"  INCLUDES  e96 "kuulates" 
+     e96 "kuulates"  BEFORE  DCT 
+     e96 "kuulates"  INCLUDES  e97 "nõudnud" 
+     e97 "nõudnud"  BEFORE  DCT 
+
+

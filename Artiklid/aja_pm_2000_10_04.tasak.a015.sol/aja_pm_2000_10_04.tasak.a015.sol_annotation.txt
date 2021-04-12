@@ -1,0 +1,126 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a015.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Ene-Lille Jaansoni [e1 kinnitusel ] [e2 eksivad ] need , kes on [e3 väitnud ] , et Tartu ülikooli trükikoda [e4 alustas ] [e5 tööd ] puumajas [t1 praeguse ] ülikooli peahoone esisel alal .
+     e1 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e1 "kinnitusel"  IS_INCLUDED  e2 "eksivad" 
+     e2 "eksivad"  INCLUDES  DCT 
+     e2 "eksivad"  INCLUDES  e3 "väitnud" 
+     e2 "eksivad"  AFTER  e11 "seadis" 
+     e2 "eksivad"  VAGUE  e10 "öelda" ka BEFORE
+     e3 "väitnud"  BEFORE-OR-OVERLAP  DCT 
+     e3 "väitnud"  AFTER  e4 "alustas" 
+     e4 "alustas"  BEFORE  DCT 
+     e4 "alustas"  BEFORE-OR-OVERLAP  e5 "tööd" 
+     e5 "tööd"  BEFORE  DCT 
+
+ s1  [e6 Lugedes ] Academia Gustaviana senati protokolle ja [e7 uurides ] Rootsi sõjaarhiivist [e8 toodud ] [t2 17. sajandi ] Tartu krundiplaane , [e9 võib ] [e10 öelda ] : rootsiaegse ülikooli trükikoda [e11 seadis ] end [t3 1632. aastal ] sisse Tartu bürgermeistri Nicolaus Russe majas .
+     e6 "Lugedes"  INCLUDES  DCT 
+     e6 "Lugedes"  INCLUDES  e10 "öelda" 
+     e6 "Lugedes"  SIMULTANEOUS  e7 "uurides" 
+     e7 "uurides"  INCLUDES  DCT 
+     e7 "uurides"  AFTER  e8 "toodud" 
+     e7 "uurides"  INCLUDES  e10 "öelda" 
+     e8 "toodud"  BEFORE  DCT 
+     e9 "võib"  INCLUDES  DCT 
+     e9 "võib"  VAGUE  e10 "öelda" 
+     e10 "öelda"  INCLUDES  DCT 
+     e10 "öelda"  AFTER  e11 "seadis" 
+     e10 "öelda"  AFTER  e12 "asus" 
+     e11 "seadis"  IS_INCLUDED  t3 "1632. aastal" 
+     e11 "seadis"  BEFORE  DCT 
+     e11 "seadis"  IS_INCLUDED  e12 "asus" 
+
+ s2  Russe krunt [e12 asus ] raekoja taga [t4 praegusel ] Pirogovi ausammast ümbritseval alal .
+     e12 "asus"  BEFORE  DCT 
+     e12 "asus"  BEFORE  e13 "nähtub" 
+     e12 "asus"  INCLUDES  e15 "maksnud" 
+
+ s3  Protokollidest [e13 nähtub ] , et ülikool on Russele trükikoja majja [e14 võtmise ] eest üüri [e15 maksnud ] .
+     e13 "nähtub"  INCLUDES  DCT 
+     e13 "nähtub"  AFTER  e14 "võtmise" 
+     e13 "nähtub"  AFTER  e15 "maksnud" 
+     e13 "nähtub"  SIMULTANEOUS  e16 "nähtub" 
+     e14 "võtmise"  BEFORE  DCT 
+     e14 "võtmise"  VAGUE  e15 "maksnud" 
+     e15 "maksnud"  BEFORE  DCT 
+     e15 "maksnud"  BEFORE  e17 "töötanud" 
+
+ s4  Veel [e16 nähtub ] ülikooli senati protokollidest , et juba [t5 1637. aastal ] on ülikooli trükikoda [e17 töötanud ] Jost Schütte majas Rüütli ja Munga tänava nurgal , [t6 praegu ] [e18 rajatava ] spordimuuseumi kohal ( Rüütli 19 ) .
+     e16 "nähtub"  INCLUDES  DCT 
+     e16 "nähtub"  AFTER  e17 "töötanud" 
+     e16 "nähtub"  AFTER  e19 "sai" 
+     e17 "töötanud"  OVERLAP-OR-AFTER  t5 "1637. aastal" 
+     e17 "töötanud"  BEFORE  DCT 
+     e17 "töötanud"  BEFORE  e18 "rajatava" 
+     e17 "töötanud"  BEFORE-OR-OVERLAP  e19 "sai" 
+     e18 "rajatava"  SIMULTANEOUS  t6 "praegu" 
+     e18 "rajatava"  INCLUDES  DCT 
+
+ s5  [t7 1640. aastal ] [e19 sai ] ülikool trükikojale oma , kivist maja rootsi pastoraadi kõrvale .
+     e19 "sai"  IS_INCLUDED  t7 "1640. aastal" 
+     e19 "sai"  BEFORE  DCT 
+     e19 "sai"  BEFORE  e20 "tähistabki" 
+
+ s6  Seda kohta [e20 tähistabki ] [t8 praegu ] kivist raamat ülikooli vana kohviku õuel .
+     e20 "tähistabki"  SIMULTANEOUS  t8 "praegu" 
+     e20 "tähistabki"  INCLUDES  DCT 
+     e20 "tähistabki"  AFTER  e24 "olid peidus" 
+
+ s7  Rootsi-Vene [e21 sõja ] ajal ( [t9 [t10 1656-1661 ] ] ) , kui ülikoolis [e22 katkes ] [e23 õppetöö ] , [e24 olid ] ülikooli trükikoja seadmed ja raamatud sissemüürituna [e24 peidus ] Maarja kirikus altari läheduses .
+     e21 "sõja"  SIMULTANEOUS  t9 "1656" 
+     e21 "sõja"  BEFORE  DCT 
+     e21 "sõja"  INCLUDES  e22 "katkes" 
+     e21 "sõja"  INCLUDES  e24 "olid peidus" 
+     e22 "katkes"  BEFORE  DCT 
+     e22 "katkes"  BEFORE-OR-OVERLAP  e24 "olid peidus" 
+     e22 "katkes"  OVERLAP-OR-AFTER  e23 "õppetöö" 
+     e23 "õppetöö"  BEFORE  DCT 
+     e24 "olid peidus"  BEFORE  DCT 
+     e24 "olid peidus"  IS_INCLUDED  e25 "trükitud" 
+
+ s8  Ülikoolile on õppe- ja teaduskirjandust [e25 trükitud ] mitmel pool linnas , ka [t11 tolleaegses ] peahoones .
+     e25 "trükitud"  BEFORE  DCT 
+     e25 "trükitud"  BEFORE  e26 "seisab" 
+
+ s9  [t12 Praegu ] [e26 seisab ] selle hoone vundamendil vana arestimaja .
+     e26 "seisab"  SIMULTANEOUS  t12 "Praegu" 
+     e26 "seisab"  INCLUDES  DCT 
+     e26 "seisab"  AFTER  e27 "sobinud" 
+     e26 "seisab"  AFTER  e28 "häirinud" 
+
+ s10  Peahoonesse polevat trükikoda siiski hästi [e27 sobinud ] : lakkamatu askeldamine ja trükiving olevat [e28 häirinud ] [e29 õppetööd ] .
+     e27 "sobinud"  BEFORE  DCT 
+     e27 "sobinud"  SIMULTANEOUS  e28 "häirinud" 
+     e27 "sobinud"  BEFORE  e30 "oli" ka VAGUE
+     e28 "häirinud"  BEFORE  DCT 
+     e28 "häirinud"  SIMULTANEOUS  e29 "õppetööd" 
+     e28 "häirinud"  BEFORE  e30 "oli" ka VAGUE
+     e29 "õppetööd"  BEFORE  DCT 
+
+ s11  Viimane rootsiaegse Tartu ülikooli trükikoja töökoht [e30 oli ] Maarja kiriku õue peal koolimajas ( ülikooli [t13 praeguse ] peahoone taga ) .
+     e30 "oli"  BEFORE  DCT 
+     e30 "oli"  SIMULTANEOUS  e31 "kandnud hoolt" 
+
+ s12  Kirik olevat [e31 kandnud ] [e31 hoolt ] ka trükikoja eest .
+     e31 "kandnud hoolt"  BEFORE  DCT 
+     e31 "kandnud hoolt"  BEFORE  e33 "viidi" 
+
+ s13  [t14 1699 ] , Põhjasõja [e32 eelõhtul ] , [e33 viidi ] ülikool Tartust Pärnusse .
+     e32 "eelõhtul"  IS_INCLUDED  t14 "1699" 
+     e32 "eelõhtul"  BEFORE  DCT 
+     e32 "eelõhtul"  INCLUDES  e33 "viidi" 
+     e33 "viidi"  IS_INCLUDED  t14 "1699" 
+     e33 "viidi"  BEFORE  DCT 
+     e33 "viidi"  SIMULTANEOUS  e34 "viidi" 
+
+ s14  Loomulikult [e34 viidi ] kaasa ka trükikoda , raamatukogu ja arhiiv .
+     e34 "viidi"  BEFORE  DCT 
+     e34 "viidi"  BEFORE  e35 "lahkus" 
+
+ s15  [t15 1710. aastal ] [e35 lahkus ] ülikool pealetungivate Vene vägede eest Rootsi .
+     e35 "lahkus"  IS_INCLUDED  t15 "1710. aastal" 
+     e35 "lahkus"  BEFORE  DCT 
+
+

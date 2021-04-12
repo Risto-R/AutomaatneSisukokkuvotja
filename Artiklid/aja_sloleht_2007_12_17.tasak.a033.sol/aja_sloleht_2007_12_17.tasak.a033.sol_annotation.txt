@@ -1,0 +1,356 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a033.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Lühiraja [e1 EMil ] Debrecenis [e2 lõpetas ] Martin Liivamägi 100 m kompleksujumise [e3 poolfinaali ] 54,68 ga üheksandana , ent [e4 pääses ] pärast ühe mehe [e5 loobumist ] ometi [e6 finaali ] . Seal [e7 andis ] 54,96 seitsmenda koha .
+     e1 "EMil"  BEFORE  DCT 
+     e1 "EMil"  INCLUDES  e2 "lõpetas" 
+     e2 "lõpetas"  BEFORE  DCT 
+     e2 "lõpetas"  BEFORE  e4 "pääses" 
+     e2 "lõpetas"  BEFORE  e7 "andis" 
+     e2 "lõpetas"  IS_INCLUDED  e3 "poolfinaali" 
+     e2 "lõpetas"  BEFORE  e8 "oli" 
+     e3 "poolfinaali"  VAGUE  DCT 
+     e4 "pääses"  BEFORE  DCT 
+     e4 "pääses"  AFTER  e5 "loobumist" 
+     e4 "pääses"  BEFORE  e6 "finaali" 
+     e4 "pääses"  BEFORE  e7 "andis" 
+     e4 "pääses"  AFTER  e8 "oli" 
+     e5 "loobumist"  BEFORE  DCT 
+     e5 "loobumist"  BEFORE  e6 "finaali" 
+     e6 "finaali"  OVERLAP-OR-AFTER  DCT 
+     e7 "andis"  BEFORE  DCT 
+     e7 "andis"  AFTER  e8 "oli" 
+
+ s1  Loobuja [e8 oli ] hollandlane Robin van Aggele .
+     e8 "oli"  BEFORE  DCT 
+     e8 "oli"  BEFORE  e13 "rääkis" 
+     e8 "oli"  BEFORE  e9 "tea" 
+
+ s2  " Ma ei [e9 tea ] , miks ta [e10 loobus ] , aga [e11 kuulsin ] sellest [t1 hommikul ] , kui 50 m liblikaks [e12 soojendust ] [e12 tegin ] , " [e13 rääkis ] Liivamägi . "
+     e9 "tea"  INCLUDES  DCT 
+     e9 "tea"  AFTER  e10 "loobus" 
+     e9 "tea"  INCLUDES  e11 "kuulsin" 
+     e9 "tea"  INCLUDES  e13 "rääkis" 
+     e9 "tea"  INCLUDES  e14 "Muutsime" 
+     e9 "tea"  INCLUDES  e16 "tundnud" 
+     e10 "loobus"  BEFORE  DCT 
+     e10 "loobus"  BEFORE  e11 "kuulsin" 
+     e11 "kuulsin"  IS_INCLUDED  t1 "hommikul" 
+     e11 "kuulsin"  BEFORE  DCT 
+     e11 "kuulsin"  IS_INCLUDED  e12 "soojendust tegin" 
+     e12 "soojendust tegin"  BEFORE  DCT 
+     e13 "rääkis"  BEFORE-OR-OVERLAP  DCT 
+     e13 "rääkis"  AFTER  e14 "Muutsime" 
+     e13 "rääkis"  AFTER  e16 "tundnud" 
+
+ s3  [e14 Muutsime ] [e15 soojendusujumist ] kohe , aga mingit erilist erutust ma ei [e16 tundnud ] .
+     e14 "Muutsime"  BEFORE  DCT 
+     e14 "Muutsime"  BEFORE-OR-OVERLAP  e16 "tundnud" 
+     e14 "Muutsime"  IS_INCLUDED  e15 "soojendusujumist" 
+     e14 "Muutsime"  BEFORE-OR-OVERLAP  e17 "Üllatunud" 
+     e15 "soojendusujumist"  BEFORE  DCT 
+     e16 "tundnud"  BEFORE  DCT 
+     e16 "tundnud"  BEFORE-OR-OVERLAP  e17 "Üllatunud" 
+
+ s4  [e17 Üllatunud ] olin küll . "
+     e17 "Üllatunud"  BEFORE  DCT 
+     e17 "Üllatunud"  BEFORE  e20 "olla paremad" 
+
+ s5  Kohad [e18 head ] , tulemused [e19 võinuks ] [e20 paremad ] [e20 olla ]
+     e18 "head"  INCLUDES  DCT 
+     e18 "head"  VAGUE  e20 "olla paremad" 
+     e19 "võinuks"  BEFORE  DCT 
+     e19 "võinuks"  VAGUE  e20 "olla paremad" 
+     e20 "olla paremad"  BEFORE  DCT 
+     e20 "olla paremad"  AFTER  e21 "läks" 
+     e20 "olla paremad"  OVERLAP-OR-AFTER  e23 "vastanud" 
+
+ s6  [t2 Laupäeval ] [e21 läks ] Liivamägi eel-ujumisest edasi neljandana ( 54,77 ) , kuid [e22 poolfinaalis ] ei [e23 vastanud ] 54,68 päriselt [e24 lootustele ] .
+     e21 "läks"  IS_INCLUDED  t2 "Laupäeval" 
+     e21 "läks"  BEFORE  DCT 
+     e21 "läks"  BEFORE  e22 "poolfinaalis" 
+     e21 "läks"  BEFORE  e23 "vastanud" 
+     e21 "läks"  BEFORE  e26 "jäi" 
+     e22 "poolfinaalis"  BEFORE  DCT 
+     e22 "poolfinaalis"  INCLUDES  e23 "vastanud" 
+     e23 "vastanud"  BEFORE  DCT 
+     e23 "vastanud"  AFTER  e24 "lootustele" 
+     e23 "vastanud"  SIMULTANEOUS  e26 "jäi" 
+     e24 "lootustele"  BEFORE  DCT 
+
+ s7  [e25 Ületamata ] [e26 jäi ] nii Indrek Sei Eesti rekord 54,22 kui ka isiklik tippmark 54,56 .
+     e25 "Ületamata"  BEFORE  DCT 
+     e25 "Ületamata"  VAGUE  e26 "jäi" 
+     e26 "jäi"  BEFORE  DCT 
+     e26 "jäi"  AFTER  e27 "oli" 
+     e26 "jäi"  AFTER  e29 "pääsesin" 
+     e26 "jäi"  BEFORE  e30 "arutles" 
+
+ s8  " 100 meetri eesmärk [e27 oli ] [e28 poolfinaal ] ja sinna ma [e29 pääsesin ] , " [e30 arutles ] Liivamägi . "
+     e27 "oli"  BEFORE  DCT 
+     e27 "oli"  BEFORE  e28 "poolfinaal" 
+     e27 "oli"  BEFORE  e29 "pääsesin" 
+     e27 "oli"  BEFORE  e30 "arutles" 
+     e27 "oli"  BEFORE  e31 "on vähem" 
+     e28 "poolfinaal"  BEFORE  DCT 
+     e28 "poolfinaal"  AFTER  e29 "pääsesin" 
+     e29 "pääsesin"  BEFORE  DCT 
+     e29 "pääsesin"  BEFORE  e30 "arutles" 
+     e29 "pääsesin"  BEFORE  e31 "on vähem" 
+     e30 "arutles"  BEFORE-OR-OVERLAP  DCT 
+     e30 "arutles"  AFTER  e31 "on vähem" 
+
+ s9  Aga 200 meetrile keskendumise järel [e31 on ] kiiruslikku jõudu ikka [e31 vähem ] .
+     e31 "on vähem"  VAGUE  DCT 
+     e31 "on vähem"  INCLUDES  e34 "teinud" 
+     e31 "on vähem"  VAGUE  e33 "tulla" 
+
+ s10  100 meetris [e32 võinuks ] isiklik [e33 tulla ] nii-öelda töö käigus - liiati ei [e34 teinud ] ma ühtki tõsist [e35 viga ] , mis sprinditulemust otseti [e36 mõjutanuks ] . "
+     e32 "võinuks"  BEFORE  DCT 
+     e32 "võinuks"  VAGUE  e33 "tulla" 
+     e33 "tulla"  BEFORE  DCT 
+     e33 "tulla"  OVERLAP-OR-AFTER  e34 "teinud" 
+     e33 "tulla"  BEFORE  e38 "õnnestunud" 
+     e33 "tulla"  BEFORE  e40 "kehitas" 
+     e33 "tulla"  BEFORE  e41 "teab" 
+     e34 "teinud"  BEFORE  DCT 
+     e34 "teinud"  VAGUE  e35 "viga" 
+     e34 "teinud"  VAGUE  e36 "mõjutanuks" 
+     e34 "teinud"  BEFORE  e38 "õnnestunud" 
+     e34 "teinud"  BEFORE  e40 "kehitas" 
+     e34 "teinud"  BEFORE  e41 "teab" 
+     e35 "viga"  BEFORE  DCT 
+     e35 "viga"  VAGUE  e36 "mõjutanuks" 
+     e36 "mõjutanuks"  BEFORE  DCT 
+
+ s11  Treener Urmas Jaamuli [e37 hinnangul ] ei [e38 õnnestunud ] [e39 liblik-etapp ] , ent Liivamägi ise [e40 kehitas ] õlgu : " Ju treener [e41 teab ] , mida ta selle all [e42 mõtleb ] .
+     e37 "hinnangul"  BEFORE-OR-OVERLAP  DCT 
+     e37 "hinnangul"  AFTER  e38 "õnnestunud" 
+     e38 "õnnestunud"  BEFORE  DCT 
+     e38 "õnnestunud"  BEFORE  e40 "kehitas" 
+     e38 "õnnestunud"  VAGUE  e39 "liblik-etapp" 
+     e38 "õnnestunud"  BEFORE  e43 "tea" 
+     e39 "liblik-etapp"  BEFORE  DCT 
+     e40 "kehitas"  BEFORE  DCT 
+     e40 "kehitas"  IS_INCLUDED  e41 "teab" 
+     e40 "kehitas"  IS_INCLUDED  e43 "tea" 
+     e41 "teab"  INCLUDES  DCT 
+     e41 "teab"  SIMULTANEOUS  e42 "mõtleb" 
+     e41 "teab"  SIMULTANEOUS  e43 "tea" 
+     e42 "mõtleb"  INCLUDES  DCT 
+
+ s12  Mina ei [e43 tea ] . "
+     e43 "tea"  INCLUDES  DCT 
+     e43 "tea"  AFTER  e45 "andis kohad" 
+     e43 "tea"  AFTER  e47 "olla paremad" 
+     e43 "tea"  INCLUDES  e48 "tähendas" 
+
+ s13  " [e44 EM ] tervikuna [e45 andis ] loodetud [e45 kohad ] , aga tulemused [e46 võinuks ] pisut [e47 paremad ] [e47 olla ] , " [e48 tähendas ] Liivamägi .
+     e44 "EM"  BEFORE  DCT 
+     e44 "EM"  INCLUDES  e45 "andis kohad" 
+     e45 "andis kohad"  BEFORE  DCT 
+     e45 "andis kohad"  BEFORE  e48 "tähendas" 
+     e45 "andis kohad"  VAGUE  e47 "olla paremad" 
+     e45 "andis kohad"  BEFORE  e49 "ajanud" 
+     e46 "võinuks"  BEFORE  DCT 
+     e46 "võinuks"  VAGUE  e47 "olla paremad" 
+     e47 "olla paremad"  BEFORE  DCT 
+     e47 "olla paremad"  BEFORE  e48 "tähendas" 
+     e47 "olla paremad"  BEFORE  e49 "ajanud" 
+     e47 "olla paremad"  BEFORE  e51 "unistanud" 
+     e48 "tähendas"  BEFORE-OR-OVERLAP  DCT 
+     e48 "tähendas"  SIMULTANEOUS  e49 "ajanud" 
+     e48 "tähendas"  SIMULTANEOUS  e51 "unistanud" 
+
+ s14  Ta ei [e49 ajanud ] medalitajäämist [t3 septembrikuise ] [e50 põlvevigastuse ] süüks ega [e51 unistanud ] [t4 tuleva aasta ] [e52 pjedestaalikohast ] . "
+     e49 "ajanud"  BEFORE  DCT 
+     e49 "ajanud"  AFTER  e50 "põlvevigastuse" 
+     e49 "ajanud"  SIMULTANEOUS  e51 "unistanud" 
+     e49 "ajanud"  BEFORE  e55 "tulen" 
+     e50 "põlvevigastuse"  IS_INCLUDED  t3 "septembrikuise" 
+     e50 "põlvevigastuse"  BEFORE  DCT 
+     e51 "unistanud"  BEFORE  DCT 
+     e51 "unistanud"  BEFORE  e52 "pjedestaalikohast" 
+     e51 "unistanud"  BEFORE  e55 "tulen" 
+     e52 "pjedestaalikohast"  IS_INCLUDED  t4 "tuleva aasta" 
+     e52 "pjedestaalikohast"  AFTER  DCT 
+
+ s15  Kui USAs [e53 õpin ] , siis vaevalt ma lühiraja [e54 EMile ] üldse [e55 tulen ] .
+     e53 "õpin"  INCLUDES  DCT 
+     e53 "õpin"  INCLUDES  e55 "tulen" 
+     e54 "EMile"  AFTER  DCT 
+     e54 "EMile"  AFTER  e55 "tulen" 
+     e55 "tulen"  AFTER  DCT 
+     e55 "tulen"  AFTER  e56 "Tean" 
+     e55 "tulen"  OVERLAP-OR-AFTER  e57 "on tähtsam" 
+
+ s16  [e56 Tean ] , et [t5 praegu ] [e57 on ] kõige [e57 tähtsam ] Pekingi [e58 olümpia ] ja tähtsuselt järgmine Itaalias toimuv pika raja [e59 EM ] . "
+     e56 "Tean"  INCLUDES  DCT 
+     e56 "Tean"  SIMULTANEOUS  e57 "on tähtsam" 
+     e56 "Tean"  AFTER  e61 "lisas" 
+     e56 "Tean"  AFTER  e62 "oli kehv" 
+     e57 "on tähtsam"  SIMULTANEOUS  t5 "praegu" 
+     e57 "on tähtsam"  INCLUDES  DCT 
+     e57 "on tähtsam"  INCLUDES  e58 "olümpia" 
+     e57 "on tähtsam"  INCLUDES  e59 "EM" 
+     e57 "on tähtsam"  OVERLAP-OR-AFTER  e61 "lisas" 
+     e58 "olümpia"  AFTER  DCT 
+     e58 "olümpia"  VAGUE  e59 "EM" 
+     e59 "EM"  AFTER  DCT 
+
+ s17  Ootamatu [e60 finaali ] järel [e61 lisas ] Liivamägi : " Vaat [t6 nüüd ] [e62 oli ] pööre selilist rinnulisse küll tibake [e62 kehv ] .
+     e60 "finaali"  BEFORE  DCT 
+     e60 "finaali"  BEFORE  e61 "lisas" 
+     e61 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e61 "lisas"  AFTER  e62 "oli kehv" 
+     e61 "lisas"  AFTER  e63 "tundsin" 
+     e62 "oli kehv"  IS_INCLUDED  t6 "nüüd" 
+     e62 "oli kehv"  BEFORE  DCT 
+     e62 "oli kehv"  IS_INCLUDED  e63 "tundsin" 
+
+ s18  Ning tervikuna [e63 tundsin ] veel kord , kuidas 100 meetri kiirust ja särtsu ikkagi [e64 pole ] . "
+     e63 "tundsin"  BEFORE  DCT 
+     e63 "tundsin"  IS_INCLUDED  e64 "pole" 
+     e63 "tundsin"  BEFORE  e65 "üritab" 
+     e64 "pole"  INCLUDES  DCT 
+
+ s19  [t7 Reedel ] [e65 üritab ] Tallinnas olümpiapiletit [e66 kindlustada ]
+     e65 "üritab"  IS_INCLUDED  t7 "Reedel" 
+     e65 "üritab"  AFTER  DCT 
+     e65 "üritab"  INCLUDES  e66 "kindlustada" 
+     e65 "üritab"  IDENTITY  e68 "üritab" 
+     e66 "kindlustada"  AFTER  DCT 
+     e66 "kindlustada"  IDENTITY  e69 "kindlustada" 
+
+ s20  [t8 Sel reedel ] Tallinnas toimuval pika raja Kalev [e67 Openil ] [e68 üritab ] Liivamägi olümpiapiletit [e69 kindlustada ] .
+     e67 "Openil"  IS_INCLUDED  t8 "Sel reedel" 
+     e67 "Openil"  AFTER  DCT 
+     e67 "Openil"  INCLUDES  e68 "üritab" 
+     e68 "üritab"  IS_INCLUDED  t8 "Sel reedel" 
+     e68 "üritab"  AFTER  DCT 
+     e68 "üritab"  INCLUDES  e69 "kindlustada" 
+     e68 "üritab"  AFTER  e70 "täidetud" 
+     e68 "üritab"  IS_INCLUDED  e72 "tuleb" 
+     e68 "üritab"  IS_INCLUDED  e75 "kinnitada" 
+     e69 "kindlustada"  AFTER  DCT 
+
+ s21  Tal on 200 m kompleksis [e70 täidetud ] Pekingi A-norm ja olümpiakomitee [e71 nõudel ] [e72 tuleb ] seda [e73 alanud ] [e74 hooajal ] vähemalt B-normiga [e75 kinnitada ] .
+     e70 "täidetud"  BEFORE  DCT 
+     e70 "täidetud"  BEFORE  e71 "nõudel" 
+     e70 "täidetud"  BEFORE  e75 "kinnitada" 
+     e70 "täidetud"  BEFORE  e78 "olla" 
+     e70 "täidetud"  BEFORE  e80 "räägib" 
+     e71 "nõudel"  BEFORE-OR-OVERLAP  DCT 
+     e71 "nõudel"  BEFORE  e75 "kinnitada" 
+     e72 "tuleb"  INCLUDES  DCT 
+     e72 "tuleb"  VAGUE  e75 "kinnitada" 
+     e72 "tuleb"  AFTER  e80 "räägib" 
+     e73 "alanud"  INCLUDES  DCT 
+     e73 "alanud"  IS_INCLUDED  e74 "hooajal" 
+     e74 "hooajal"  INCLUDES  DCT 
+     e74 "hooajal"  INCLUDES  e75 "kinnitada" 
+     e75 "kinnitada"  AFTER  DCT 
+     e75 "kinnitada"  AFTER  e80 "räägib" 
+     e75 "kinnitada"  VAGUE  e78 "olla" 
+
+ s22  2.05 , 65 [e76 võiks ] mehele , kes on [e77 ujunud ] 2.01 , 37ga , [e78 olla ] [e79 naljategu ] , kuid Liivamägi [e80 räägib ] : " [t9 Esmaspäev ] [e81 kulub ] kojusõidule , ka [t10 ööst ] [e82 läheb ] hulk tuksi .
+     e76 "võiks"  INCLUDES  DCT 
+     e76 "võiks"  VAGUE  e78 "olla" 
+     e77 "ujunud"  BEFORE  DCT 
+     e77 "ujunud"  BEFORE  e78 "olla" 
+     e78 "olla"  INCLUDES  DCT 
+     e78 "olla"  AFTER  e80 "räägib" 
+     e78 "olla"  VAGUE  e79 "naljategu" 
+     e78 "olla"  INCLUDES  e83 "tuleb" 
+     e78 "olla"  INCLUDES  e84 "harjuda" 
+     e79 "naljategu"  INCLUDES  DCT 
+     e80 "räägib"  BEFORE-OR-OVERLAP  DCT 
+     e80 "räägib"  BEFORE  e81 "kulub" 
+     e80 "räägib"  BEFORE  e82 "läheb" 
+     e80 "räägib"  BEFORE  e83 "tuleb" 
+     e80 "räägib"  BEFORE  e84 "harjuda" 
+     e81 "kulub"  SIMULTANEOUS  t9 "Esmaspäev" 
+     e81 "kulub"  SIMULTANEOUS  DCT 
+     e81 "kulub"  BEFORE  e82 "läheb" 
+     e82 "läheb"  IS_INCLUDED  t10 "ööst" 
+     e82 "läheb"  AFTER  DCT 
+
+ s23  Siis [e83 tuleb ] [e84 harjuda ] lühikesest basseinist pikka üle [e85 minemisega ] ...
+     e83 "tuleb"  AFTER  DCT 
+     e83 "tuleb"  VAGUE  e84 "harjuda" 
+     e84 "harjuda"  AFTER  DCT 
+     e84 "harjuda"  IS_INCLUDED  e85 "minemisega" 
+     e84 "harjuda"  BEFORE  e86 "oleks hea" 
+     e85 "minemisega"  AFTER  DCT 
+
+ s24  Normitäitmine [e86 oleks ] [e86 hea ] küll ! "
+     e86 "oleks hea"  AFTER  DCT 
+     e86 "oleks hea"  AFTER  e90 "sõnas" 
+     e86 "oleks hea"  OVERLAP-OR-AFTER  e87 "Näis" 
+     e86 "oleks hea"  OVERLAP-OR-AFTER  e89 "suudab" 
+
+ s25  " [e87 Näis ] , kuidas Martin end [e88 motiveerida ] [e89 suudab ] , " [e90 sõnas ] Jaamul . "
+     e87 "Näis"  AFTER  DCT 
+     e87 "Näis"  AFTER  e90 "sõnas" 
+     e87 "Näis"  SIMULTANEOUS  e88 "motiveerida" 
+     e87 "Näis"  IS_INCLUDED  e91 "on raske" 
+     e87 "Näis"  IS_INCLUDED  e93 "on valmis" 
+     e88 "motiveerida"  AFTER  DCT 
+     e88 "motiveerida"  VAGUE  e89 "suudab" 
+     e89 "suudab"  AFTER  DCT 
+     e89 "suudab"  AFTER  e90 "sõnas" 
+     e89 "suudab"  IS_INCLUDED  e91 "on raske" 
+     e89 "suudab"  IS_INCLUDED  e93 "on valmis" 
+     e90 "sõnas"  BEFORE-OR-OVERLAP  DCT 
+     e90 "sõnas"  BEFORE  e91 "on raske" 
+     e90 "sõnas"  IS_INCLUDED  e93 "on valmis" 
+
+ s26  Konkurentideta [e91 on ] [e91 raske ] [e92 ujuda ] , aga vormilt [e93 on ] ta B-normiks muidugi [e93 valmis ] . "
+     e91 "on raske"  INCLUDES  DCT 
+     e91 "on raske"  IS_INCLUDED  e93 "on valmis" 
+     e91 "on raske"  SIMULTANEOUS  e92 "ujuda" 
+     e91 "on raske"  AFTER  e95 "ütles" 
+     e91 "on raske"  OVERLAP-OR-AFTER  e97 "tuleb" 
+     e92 "ujuda"  VAGUE  DCT 
+     e93 "on valmis"  INCLUDES  DCT 
+     e93 "on valmis"  AFTER  e95 "ütles" 
+     e93 "on valmis"  OVERLAP-OR-AFTER  e97 "tuleb" 
+
+ s27  [e94 EMi ] eel [e95 ütles ] Jaamul , et kui Liivamägi 200 m kompleksi alla 1.58 ei [e96 uju ] , [e97 tuleb ] erakorraline plaane muutev [e98 koosolek ] .
+     e94 "EMi"  BEFORE  DCT 
+     e94 "EMi"  AFTER  e95 "ütles" 
+     e95 "ütles"  BEFORE  DCT 
+     e95 "ütles"  BEFORE  e96 "uju" 
+     e95 "ütles"  BEFORE  e97 "tuleb" 
+     e95 "ütles"  BEFORE  e100 "pole" 
+     e95 "ütles"  BEFORE  e99 "lisab" 
+     e96 "uju"  BEFORE  DCT 
+     e96 "uju"  BEFORE  e97 "tuleb" 
+     e97 "tuleb"  BEFORE  DCT 
+     e97 "tuleb"  BEFORE-OR-OVERLAP  e98 "koosolek" 
+     e97 "tuleb"  VAGUE  e100 "pole" ka SIMULTANEOUS
+     e97 "tuleb"  VAGUE  e99 "lisab" 
+     e98 "koosolek"  BEFORE  DCT 
+
+ s28  [t11 Nüüd ] , pärast 1.58 , 11 ja 5. kohaga lõppenud võistlust [e99 lisab ] ta : " Hullu [e100 pole ] .
+     e99 "lisab"  IS_INCLUDED  t11 "Nüüd" 
+     e99 "lisab"  BEFORE-OR-OVERLAP  DCT 
+     e99 "lisab"  IS_INCLUDED  e100 "pole" 
+     e99 "lisab"  BEFORE  e101 "istume" 
+     e100 "pole"  INCLUDES  DCT 
+     e100 "pole"  INCLUDES  e101 "istume" 
+
+ s29  Maha [e101 istume ] küll , ja võimalik , et [e102 teeme ] esimeseks [t12 jaanuarikuiseks ] [e103 USA-laagriks ] mõned [e102 muudatused ] .
+     e101 "istume"  AFTER  DCT 
+     e101 "istume"  BEFORE  e102 "teeme muudatused" 
+     e101 "istume"  BEFORE-OR-OVERLAP  e104 "pole suured" 
+     e102 "teeme muudatused"  AFTER  DCT 
+     e102 "teeme muudatused"  BEFORE  e103 "USA-laagriks" 
+     e103 "USA-laagriks"  IS_INCLUDED  t12 "jaanuarikuiseks" 
+     e103 "USA-laagriks"  AFTER  DCT 
+
+ s30  Kuid need [e104 pole ] [e104 suured ] . "
+     e104 "pole suured"  AFTER  DCT 
+
+

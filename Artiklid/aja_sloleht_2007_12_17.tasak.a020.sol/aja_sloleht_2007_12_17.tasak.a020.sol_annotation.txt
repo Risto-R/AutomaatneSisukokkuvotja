@@ -1,0 +1,48 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a020.sol
+      DCT: 2007-12-17
+==================================================
+ s0  AUTORALLI
+ s1  Markko Märtin [e1 võitis ] Itaalias Bettega memoriaali rallisprindis . [e2 Finaalis ] [e3 alistas ] ta soomlase Toni Gardemeisteri 3 : 2.
+     e1 "võitis"  BEFORE-OR-OVERLAP  DCT 
+     e1 "võitis"  OVERLAP-OR-AFTER  e3 "alistas" 
+     e1 "võitis"  AFTER  e5 "alistas" 
+     e1 "võitis"  AFTER  e7 "võitis" 
+     e2 "Finaalis"  BEFORE-OR-OVERLAP  DCT 
+     e2 "Finaalis"  BEFORE-OR-OVERLAP  e3 "alistas" 
+     e3 "alistas"  BEFORE-OR-OVERLAP  DCT 
+     e3 "alistas"  AFTER  e5 "alistas" 
+     e3 "alistas"  AFTER  e7 "võitis" 
+
+ s2  Subaru Imprezaga [e4 kihutanud ] Märtin [e5 alistas ] Gardemeisteri teises , neljandas ja viiendas [e6 sõidus ] , soomlane [e7 võitis ] esimese ja kolmanda [e8 sõidu ] .
+     e4 "kihutanud"  BEFORE-OR-OVERLAP  DCT 
+     e4 "kihutanud"  BEFORE-OR-OVERLAP  e5 "alistas" 
+     e5 "alistas"  BEFORE-OR-OVERLAP  DCT 
+     e5 "alistas"  OVERLAP-OR-AFTER  e6 "sõidus" 
+     e5 "alistas"  VAGUE  e7 "võitis" 
+     e5 "alistas"  BEFORE  e10 "oli viimane" 
+     e6 "sõidus"  BEFORE-OR-OVERLAP  DCT 
+     e7 "võitis"  BEFORE-OR-OVERLAP  DCT 
+     e7 "võitis"  OVERLAP-OR-AFTER  e8 "sõidu" 
+     e7 "võitis"  BEFORE  e10 "oli viimane" 
+     e8 "sõidu"  BEFORE-OR-OVERLAP  DCT 
+
+ s3  Kiireim [e9 sõit ] [e10 oli ] [e11 finaali ] [e10 viimane ] , kus Märtin [e12 läbis ] lõpuringi rekordilise [t1 49,38 ga ] .
+     e9 "sõit"  BEFORE-OR-OVERLAP  DCT 
+     e9 "sõit"  SIMULTANEOUS  e10 "oli viimane" 
+     e10 "oli viimane"  BEFORE-OR-OVERLAP  DCT 
+     e10 "oli viimane"  INCLUDES  e12 "läbis" 
+     e10 "oli viimane"  BEFORE-OR-OVERLAP  e13 "kuulus" 
+     e11 "finaali"  BEFORE-OR-OVERLAP  DCT 
+     e11 "finaali"  INCLUDES  e10 "oli viimane" 
+     e12 "läbis"  SIMULTANEOUS  t1 "49,38 ga" 
+     e12 "läbis"  BEFORE-OR-OVERLAP  DCT 
+
+ s4  Ka parim koguaeg 2.31 , 22 [e13 kuulus ] Märtinile .
+     e13 "kuulus"  BEFORE-OR-OVERLAP  DCT 
+     e13 "kuulus"  AFTER  e14 "alistas" 
+
+ s5  Poolfinaalis [e14 alistas ] Märtin itaallase Simone Campedelli 2 : 0 , Gardemeister belglase Francois Duvali 2 : 1.
+     e14 "alistas"  BEFORE-OR-OVERLAP  DCT 
+
+

@@ -1,0 +1,50 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a032.sol
+      DCT: 2007-12-17
+==================================================
+ s0  JALGPALL
+ s1  AC Milan [e1 võitis ] Tokyos klubide maailma karika , kui [e2 alistas ] [e3 finaalis ] Argentiina klubi Boca Juniorsi 4 : 2 ( 21. ja 71.
+     e1 "võitis"  BEFORE  DCT 
+     e1 "võitis"  OVERLAP-OR-AFTER  e2 "alistas" 
+     e1 "võitis"  AFTER  e4 "hiilgas" 
+     e2 "alistas"  BEFORE  DCT 
+     e2 "alistas"  IS_INCLUDED  e3 "finaalis" 
+     e3 "finaalis"  BEFORE  DCT 
+
+ s2  Inzaghi , 50.
+ s3  Nesta , 61.
+ s4  Kaka
+ s5  22. Palacio , 85. Ledesma ) .
+ s6  Milani poolel [e4 hiilgas ] Kaka , kes arvatavasti [e5 kuulutatakse ] [t1 täna ] ka FIFA Aasta Mängijaks .
+     e4 "hiilgas"  BEFORE  DCT 
+     e4 "hiilgas"  BEFORE  e5 "kuulutatakse" 
+     e4 "hiilgas"  INCLUDES  e6 "lõi" 
+     e4 "hiilgas"  INCLUDES  e7 "andis" 
+     e5 "kuulutatakse"  IS_INCLUDED  t1 "täna" 
+     e5 "kuulutatakse"  AFTER  DCT 
+
+ s7  Brasiillane [e6 lõi ] värava ja [e7 andis ] Inzaghile kaks resultatiivset söötu .
+     e6 "lõi"  BEFORE  DCT 
+     e6 "lõi"  VAGUE  e7 "andis" 
+     e6 "lõi"  OVERLAP-OR-AFTER  e8 "oli" 
+     e7 "andis"  BEFORE  DCT 
+     e7 "andis"  OVERLAP-OR-AFTER  e8 "oli" 
+
+ s8  " Maailma karikas [e8 oli ] üks väheseid auhindu , mis mul [e9 puudus ] .
+     e8 "oli"  BEFORE  DCT 
+     e8 "oli"  SIMULTANEOUS  e9 "puudus" 
+     e8 "oli"  BEFORE  e10 "sain" 
+     e8 "oli"  BEFORE  e12 "ütles" 
+     e9 "puudus"  BEFORE  DCT 
+
+ s9  Imeline , et lõpuks [e10 sain ] teda oma käte vahel [e11 hoida ] , " [e12 ütles ] Kaka , kes [t2 varem ] [e13 tulnud ] maailmameistriks , Itaalia meistriks ja Euroopa Meistrite Liiga võitjaks .
+     e10 "sain"  BEFORE  DCT 
+     e10 "sain"  VAGUE  e11 "hoida" 
+     e11 "hoida"  BEFORE  DCT 
+     e11 "hoida"  BEFORE  e12 "ütles" 
+     e12 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e12 "ütles"  AFTER  e13 "tulnud" 
+     e13 "tulnud"  IS_INCLUDED  t2 "varem" 
+     e13 "tulnud"  BEFORE  DCT 
+
+

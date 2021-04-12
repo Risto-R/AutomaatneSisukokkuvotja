@@ -1,0 +1,132 @@
+==================================================
+     aja_ml_2002_47.tasak.a031.sol
+      DCT: 2002-11-20
+==================================================
+ s0  20.11.2002
+ s1  Turgudel [e1 valitseb ] [t1 praegu ] suur [e2 vaikus ] enne jõulueelset [e3 tungi ] .
+     e1 "valitseb"  SIMULTANEOUS  t1 "praegu" 
+     e1 "valitseb"  INCLUDES  DCT 
+     e1 "valitseb"  BEFORE  e3 "tungi" 
+     e1 "valitseb"  SIMULTANEOUS  e2 "vaikus" 
+     e1 "valitseb"  SIMULTANEOUS  e4 "on vähem" 
+     e2 "vaikus"  INCLUDES  DCT 
+     e2 "vaikus"  BEFORE  e3 "tungi" 
+     e3 "tungi"  AFTER  DCT 
+
+ s2  Nii liha- kui ka puu- ja juurviljamüüjaid [e4 on ] [e4 vähem ] kui [t2 varasematel aastatel ] .
+     e4 "on vähem"  AFTER  t2 "varasematel aastatel" 
+     e4 "on vähem"  INCLUDES  DCT 
+     e4 "on vähem"  AFTER  e5 "tõmmanud" 
+
+ s3  [t3 Viimasel ajal ] on turgudelt ostjaid ära [e5 tõmmanud ] ka vilgas uute kaupluste [e6 avamine ] .
+     e5 "tõmmanud"  SIMULTANEOUS  t3 "Viimasel ajal" 
+     e5 "tõmmanud"  BEFORE  DCT 
+     e5 "tõmmanud"  OVERLAP-OR-AFTER  e6 "avamine" 
+     e5 "tõmmanud"  OVERLAP-OR-AFTER  e7 "avati" 
+     e6 "avamine"  BEFORE  DCT 
+
+ s4  Valgas [e7 avati ] [t4 hiljuti ] turu vahetus läheduses Säästumarket ja paljud turule tõttajad [e8 saavad ] juba [t5 varahommikul ] sealt kõik vajaliku kätte .
+     e7 "avati"  SIMULTANEOUS  t4 "hiljuti" 
+     e7 "avati"  BEFORE  DCT 
+     e7 "avati"  BEFORE  e8 "saavad" 
+     e7 "avati"  IS_INCLUDED  e9 "pakub" 
+     e8 "saavad"  IS_INCLUDED  t5 "varahommikul" 
+     e8 "saavad"  INCLUDES  DCT 
+
+ s5  Enam huvi [e9 pakub ] piirilinna Valga turg lätlastele , kes siit lihakraami [e10 ostmas ] [e11 käivad ] .
+     e9 "pakub"  INCLUDES  DCT 
+     e9 "pakub"  INCLUDES  e11 "käivad" 
+     e9 "pakub"  INCLUDES  e12 "on odavamad" 
+     e10 "ostmas"  INCLUDES  DCT 
+     e11 "käivad"  INCLUDES  DCT 
+     e11 "käivad"  SIMULTANEOUS  e10 "ostmas" 
+
+ s6  Lihahinnad [e12 on ] Valga turul [e12 odavamad ] kui [t6 möödunud aastal ] .
+     e12 "on odavamad"  AFTER  t6 "möödunud aastal" 
+     e12 "on odavamad"  INCLUDES  DCT 
+     e12 "on odavamad"  AFTER  e13 "maksis" 
+
+ s7  [t7 Eelmise aasta 20. novembril ] [e13 maksis ] seakarbonaad keskmiselt 60 kr , [t8 tänavu ] 56 kr/kg .
+     e13 "maksis"  SIMULTANEOUS  t7 "Eelmise aasta 20. novembril" 
+     e13 "maksis"  BEFORE  DCT 
+     e13 "maksis"  BEFORE  e15 "on odavam" 
+     e13 "maksis"  SIMULTANEOUS  e14 "maksis" 
+
+ s8  Võikilo [e14 maksis ] [t9 möödunud aastal ] Valgas 35 kr , [t10 tänavu ] [e15 on ] see 5 kr [e15 odavam ] .
+     e14 "maksis"  IS_INCLUDED  t9 "möödunud aastal" 
+     e14 "maksis"  BEFORE  DCT 
+     e14 "maksis"  BEFORE  e15 "on odavam" 
+     e14 "maksis"  BEFORE  e17 "näha" 
+     e15 "on odavam"  IS_INCLUDED  t10 "tänavu" 
+     e15 "on odavam"  INCLUDES  DCT 
+     e15 "on odavam"  SIMULTANEOUS  e17 "näha" 
+
+ s9  Pärast [t11 eelmise aasta ] suurt toidukaupade [e16 hinnatõusu ] on [t12 sel aastal ] selgelt [e17 näha ] , et enamik piima- ja lihatooteid [e18 on ] tugevas siseturukonkurentsis [t13 mullusest ] madalama hinnaga .
+     e16 "hinnatõusu"  IS_INCLUDED  t11 "eelmise aasta" 
+     e16 "hinnatõusu"  BEFORE  DCT 
+     e16 "hinnatõusu"  BEFORE  e17 "näha" 
+     e17 "näha"  IS_INCLUDED  t12 "sel aastal" 
+     e17 "näha"  INCLUDES  DCT 
+     e17 "näha"  SIMULTANEOUS  e18 "on" 
+     e17 "näha"  SIMULTANEOUS  e19 "on" 
+     e18 "on"  AFTER  t13 "mullusest" 
+     e18 "on"  INCLUDES  DCT 
+
+ s10  Vastupidi [e19 on ] aga juurviljaga , mille kilohinnad [e20 ületavad ] [t14 aastataguseid ] keskeltläbi krooni võrra .
+     e19 "on"  INCLUDES  DCT 
+     e19 "on"  SIMULTANEOUS  e20 "ületavad" 
+     e19 "on"  SIMULTANEOUS  e21 "maksab" 
+     e20 "ületavad"  AFTER  t14 "aastataguseid" 
+     e20 "ületavad"  INCLUDES  DCT 
+
+ s11  Tallinna Keskturul [e21 maksab ] kartul [t15 praegu ] 3.50 ja Nõmme turul 5 kr , [t16 möödunud aasta novembri teises pooles ] vastavalt 3 ja 4 kr/g .
+     e21 "maksab"  SIMULTANEOUS  t15 "praegu" 
+     e21 "maksab"  INCLUDES  DCT 
+     e21 "maksab"  SIMULTANEOUS  e22 "maksab" 
+
+ s12  Värske kapsas [e22 maksab ] Keskturul 4.50 ning porgand ja peet 6 kr , mõlemad 1 kr kilo kohta [e23 kallimad ] kui [t17 möödunud aastal ] .
+     e22 "maksab"  INCLUDES  DCT 
+     e22 "maksab"  SIMULTANEOUS  e23 "kallimad" 
+     e22 "maksab"  OVERLAP-OR-AFTER  e24 "lõppesid" 
+     e23 "kallimad"  AFTER  t17 "möödunud aastal" 
+     e23 "kallimad"  INCLUDES  DCT 
+
+ s13  Kodumaised tomatid [e24 lõppesid ] turgudel juba [t18 nädal tagasi ] .
+     e24 "lõppesid"  IS_INCLUDED  t18 "nädal tagasi" 
+     e24 "lõppesid"  BEFORE  DCT 
+     e24 "lõppesid"  AFTER  e25 "oli" 
+
+ s14  [t19 Möödunud aastal ] [e25 oli ] Eesti tomat [t20 20. novembril ] müügil hinnaga 30 kr/kg .
+     e25 "oli"  IS_INCLUDED  t19 "Möödunud aastal" 
+     e25 "oli"  BEFORE  DCT 
+     e25 "oli"  BEFORE  e26 "on" 
+
+ s15  Tõeline hinnapomm [e26 on ] [t21 tänavu ] jõhvikas , mille kilogramm [e27 maksab ] Tallinna Keskturul 50 kr ja Nõmme turul 37 kr.
+     e26 "on"  SIMULTANEOUS  t21 "tänavu" 
+     e26 "on"  INCLUDES  DCT 
+     e26 "on"  SIMULTANEOUS  e27 "maksab" 
+     e26 "on"  AFTER  e28 "maksid" 
+     e27 "maksab"  INCLUDES  DCT 
+
+ s16  [t22 Möödunud aastal ] [e28 maksid ] jõhvikad 18-20 kr.
+     e28 "maksid"  SIMULTANEOUS  t22 "Möödunud aastal" 
+     e28 "maksid"  BEFORE  DCT 
+     e28 "maksid"  BEFORE  e29 "tõusevad" 
+     e28 "maksid"  BEFORE  e30 "kerkinud" 
+
+ s17  Kui turgudel köögiviljahinnad aina [e29 tõusevad ] , siis kauplustes toidukaupade hinnad sellisel määral enam [e30 kerkinud ] ei ole .
+     e29 "tõusevad"  INCLUDES  DCT 
+     e29 "tõusevad"  VAGUE  e30 "kerkinud" 
+     e29 "tõusevad"  VAGUE  e32 "surunud" ka SIMULTANEOUS
+     e30 "kerkinud"  BEFORE-OR-OVERLAP  DCT 
+     e30 "kerkinud"  VAGUE  e32 "surunud" ka SIMULTANEOUS
+
+ s18  Tugev konkurents poodide vahel on vastupidiselt [t23 eelmise aasta ] suurele [e31 hinnatõusule ] paljude toidukaupade hinnad [t24 aastatagusest ] isegi madalamale [e32 surunud ] .
+     e31 "hinnatõusule"  IS_INCLUDED  t23 "eelmise aasta" 
+     e31 "hinnatõusule"  BEFORE  DCT 
+     e31 "hinnatõusule"  BEFORE  e32 "surunud" 
+     e32 "surunud"  AFTER  t24 "aastatagusest" 
+     e32 "surunud"  BEFORE  DCT 
+
+ s19  Eesti Konjunktuuriinstituut
+

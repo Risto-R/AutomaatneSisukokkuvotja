@@ -1,0 +1,187 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a034.sol
+      DCT: 2000-10-04
+==================================================
+ s0  [e1 Nõudluse ] pidev [e2 suurenemine ] [e3 viis ] [t1 eile ] EVP hinna börsil 65 sendini , [t2 kuuga ] on hind [e4 kerkinud ] juba 15 sendi ehk ligi kolmandiku võrra .
+     e1 "Nõudluse"  BEFORE-OR-OVERLAP  DCT 
+     e1 "Nõudluse"  INCLUDES  e2 "suurenemine" 
+     e2 "suurenemine"  BEFORE-OR-OVERLAP  DCT 
+     e2 "suurenemine"  INCLUDES  e3 "viis" 
+     e3 "viis"  IS_INCLUDED  t1 "eile" 
+     e3 "viis"  BEFORE  DCT 
+     e3 "viis"  IS_INCLUDED  e4 "kerkinud" 
+     e3 "viis"  IS_INCLUDED  e7 "seotud" 
+     e4 "kerkinud"  SIMULTANEOUS  t2 "kuuga" 
+     e4 "kerkinud"  BEFORE-OR-OVERLAP  DCT 
+     e4 "kerkinud"  VAGUE  e7 "seotud" 
+
+ s1  [e5 Nõudluse ] [e6 suurenemine ] on [e7 seotud ] üha hoogustuva [e8 maaerastamisega ] .
+     e5 "Nõudluse"  INCLUDES  DCT 
+     e5 "Nõudluse"  INCLUDES  e6 "suurenemine" 
+     e6 "suurenemine"  INCLUDES  DCT 
+     e6 "suurenemine"  SIMULTANEOUS  e7 "seotud" 
+     e7 "seotud"  INCLUDES  DCT 
+     e7 "seotud"  VAGUE  e8 "maaerastamisega" 
+     e7 "seotud"  OVERLAP-OR-AFTER  e10 "väljastatud" 
+     e7 "seotud"  OVERLAP-OR-AFTER  e11 "vähenenud" 
+     e8 "maaerastamisega"  INCLUDES  DCT 
+
+ s2  Rahandusministeeriumi [e9 andmeil ] on erastamisväärtpabereid [t3 seni ] [e10 väljastatud ] 13,95 miljardi EVP krooni eest ja kasutusarvete jääk on [e11 vähenenud ] 1,997 miljardi EVPni .
+     e9 "andmeil"  BEFORE-OR-OVERLAP  DCT 
+     e9 "andmeil"  AFTER  e10 "väljastatud" 
+     e10 "väljastatud"  BEFORE-OR-OVERLAP  t3 "seni" 
+     e10 "väljastatud"  BEFORE-OR-OVERLAP  DCT 
+     e10 "väljastatud"  SIMULTANEOUS  e11 "vähenenud" 
+     e10 "väljastatud"  BEFORE  e13 "väljastatakse" 
+     e11 "vähenenud"  BEFORE-OR-OVERLAP  DCT 
+     e11 "vähenenud"  BEFORE  e13 "väljastatakse" 
+
+ s3  Ministeeriumi finantsteenuste osakonna nõuniku Uku Hänni [e12 hinnangul ] [e13 väljastatakse ] veel kuni [t4 2002. aasta 1. aprillini ] , mil [e14 lõpeb ] EVPde kasutustähtaeg , ligikaudu 0,3 miljardit EVPd .
+     e12 "hinnangul"  BEFORE-OR-OVERLAP  DCT 
+     e12 "hinnangul"  BEFORE  e13 "väljastatakse" 
+     e13 "väljastatakse"  BEFORE-OR-OVERLAP  t4 "2002. aasta 1. aprillini" 
+     e13 "väljastatakse"  OVERLAP-OR-AFTER  DCT 
+     e13 "väljastatakse"  BEFORE  e14 "lõpeb" 
+     e13 "väljastatakse"  AFTER  e15 "kahanenud" 
+     e14 "lõpeb"  IS_INCLUDED  t4 "2002. aasta 1. aprillini" 
+     e14 "lõpeb"  AFTER  DCT 
+
+ s4  EVPde arv on [t5 aasta algusega ] võrreldes [e15 kahanenud ] ligi poole miljardi krooni võrra , mis [e16 põhjustabki ] nende defitsiiti .
+     e15 "kahanenud"  AFTER  t5 "aasta algusega" 
+     e15 "kahanenud"  BEFORE  DCT 
+     e15 "kahanenud"  BEFORE  e16 "põhjustabki" 
+     e15 "kahanenud"  BEFORE-OR-OVERLAP  e17 "on" 
+     e16 "põhjustabki"  INCLUDES  DCT 
+
+ s5  Ka kasutusarvetel olevatele ja veel väljastatavatele EVPdele [e17 on ] müüdavate riigivaradega katet küllaga .
+     e17 "on"  INCLUDES  DCT 
+     e17 "on"  SIMULTANEOUS  e19 "jälgib" ka VAGUE
+     e17 "on"  VAGUE  e21 "teeb" 
+
+ s6  Hänni [e18 sõnul ] [e19 jälgib ] valitsus tähelepanelikult EVP [e20 hinnarallit ] ja [e21 teeb ] vastavalt sellele oma järgmised EVPsid puudutavad otsused .
+     e18 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e18 "sõnul"  IS_INCLUDED  e19 "jälgib" 
+     e19 "jälgib"  INCLUDES  DCT 
+     e19 "jälgib"  INCLUDES  e21 "teeb" 
+     e19 "jälgib"  SIMULTANEOUS  e20 "hinnarallit" 
+     e19 "jälgib"  INCLUDES  e22 "on" 
+     e20 "hinnarallit"  INCLUDES  DCT 
+     e21 "teeb"  OVERLAP-OR-AFTER  DCT 
+     e21 "teeb"  VAGUE  e22 "on" 
+
+ s7  [t6 Hetkel ] [e22 on ] hinda tasakaalustavaks mehhanismiks metsamaa [e23 müük ] järelmaksuga .
+     e22 "on"  SIMULTANEOUS  t6 "Hetkel" 
+     e22 "on"  INCLUDES  DCT 
+     e22 "on"  VAGUE  e23 "müük" 
+     e22 "on"  SIMULTANEOUS  e25 "ostetakse" ka VAGUE
+     e23 "müük"  INCLUDES  DCT 
+
+ s8  Hänni [e24 kinnitusel ] [e25 ostetakse ] EVP [e26 kallinemise ] tõttu juba [t7 praegu ] 60 protsenti metsamaast sellisel viisil .
+     e24 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e24 "kinnitusel"  IS_INCLUDED  e25 "ostetakse" 
+     e25 "ostetakse"  SIMULTANEOUS  t7 "praegu" 
+     e25 "ostetakse"  INCLUDES  DCT 
+     e25 "ostetakse"  IS_INCLUDED  e26 "kallinemise" 
+     e25 "ostetakse"  BEFORE-OR-OVERLAP  e28 "tasuda" 
+     e26 "kallinemise"  INCLUDES  DCT 
+
+ s9  Maa eest [e27 võib ] [e28 tasuda ] osade kaupa kuni [t8 50 aasta jooksul ] .
+     e27 "võib"  IS_INCLUDED  t8 "50 aasta jooksul" 
+     e27 "võib"  OVERLAP-OR-AFTER  DCT 
+     e27 "võib"  VAGUE  e28 "tasuda" 
+     e28 "tasuda"  IS_INCLUDED  t8 "50 aasta jooksul" 
+     e28 "tasuda"  OVERLAP-OR-AFTER  DCT 
+     e28 "tasuda"  VAGUE  e29 "kaotavad" ka OVERLAP-OR-AFTER
+
+ s10  Kõige enam [e29 kaotavad ] EVP [e30 kallinemisega ] need , kes alles [t9 nüüd ] [e31 asuvad ] väärtpabereid [e32 ostma ] sundüürnikele võimaldatava [e33 EVP-laenu ] katteks .
+     e29 "kaotavad"  AFTER  DCT 
+     e29 "kaotavad"  AFTER  e31 "asuvad" 
+     e29 "kaotavad"  AFTER  e32 "ostma" 
+     e29 "kaotavad"  IS_INCLUDED  e30 "kallinemisega" 
+     e29 "kaotavad"  SIMULTANEOUS  e38 "maksma" 
+     e30 "kallinemisega"  INCLUDES  DCT 
+     e31 "asuvad"  IS_INCLUDED  t9 "nüüd" 
+     e31 "asuvad"  OVERLAP-OR-AFTER  DCT 
+     e31 "asuvad"  BEFORE-OR-OVERLAP  e32 "ostma" 
+     e32 "ostma"  IS_INCLUDED  t9 "nüüd" 
+     e32 "ostma"  OVERLAP-OR-AFTER  DCT 
+     e32 "ostma"  VAGUE  e33 "EVP-laenu" 
+     e33 "EVP-laenu"  VAGUE  DCT 
+
+ s11  [t10 Kevadega ] [e34 võrreldes ] [e35 peavad ] EVPde [e36 varumisega ] hiljaks [e37 jäänud ] [e38 maksma ] [e39 laenu ] tagasi ligi kaks korda rohkem .
+     e34 "võrreldes"  AFTER  t10 "Kevadega" 
+     e34 "võrreldes"  INCLUDES  DCT 
+     e34 "võrreldes"  INCLUDES  e35 "peavad" 
+     e34 "võrreldes"  VAGUE  e36 "varumisega" 
+     e35 "peavad"  OVERLAP-OR-AFTER  DCT 
+     e35 "peavad"  VAGUE  e38 "maksma" 
+     e36 "varumisega"  VAGUE  DCT 
+     e36 "varumisega"  VAGUE  e37 "jäänud" 
+     e37 "jäänud"  BEFORE  DCT 
+     e38 "maksma"  OVERLAP-OR-AFTER  DCT 
+     e38 "maksma"  AFTER  e37 "jäänud" 
+     e38 "maksma"  AFTER  e39 "laenu" 
+     e38 "maksma"  IS_INCLUDED  e41 "olnud" ka VAGUE
+     e39 "laenu"  VAGUE  DCT 
+
+ s12  Hänni [e40 sõnul ] on EVP väärtus [e41 olnud ] kogu oma kehtivusaja jooksul suures kõikumises .
+     e40 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e40 "sõnul"  IS_INCLUDED  e41 "olnud" 
+     e41 "olnud"  INCLUDES  DCT 
+     e41 "olnud"  INCLUDES  e44 "püsinud" 
+     e41 "olnud"  INCLUDES  e45 "rääkis" 
+
+ s13  " EVPde eest [e42 kompenseerimine ] ja kattevara [e43 erastamine ] ei [e44 püsinud ] tasakaalus , " [e45 rääkis ] Hänni .
+     e42 "kompenseerimine"  BEFORE  DCT 
+     e42 "kompenseerimine"  INCLUDES  e44 "püsinud" 
+     e42 "kompenseerimine"  SIMULTANEOUS  e43 "erastamine" 
+     e43 "erastamine"  BEFORE  DCT 
+     e43 "erastamine"  INCLUDES  e44 "püsinud" 
+     e44 "püsinud"  BEFORE  DCT 
+     e44 "püsinud"  BEFORE  e45 "rääkis" 
+     e44 "püsinud"  BEFORE  e47 "jätkub" 
+     e45 "rääkis"  BEFORE-OR-OVERLAP  DCT 
+     e45 "rääkis"  BEFORE  e47 "jätkub" 
+
+ s14  Hänni [e46 kinnitusel ] [e47 jätkub ] [e48 kompenseerimine ] ka pärast EVPde kasutusaja [e49 lõppu ] .
+     e46 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e46 "kinnitusel"  BEFORE  e47 "jätkub" 
+     e47 "jätkub"  AFTER  DCT 
+     e47 "jätkub"  AFTER  e49 "lõppu" 
+     e47 "jätkub"  BEFORE-OR-OVERLAP  e48 "kompenseerimine" 
+     e47 "jätkub"  AFTER  e50 "kinnitas" 
+     e48 "kompenseerimine"  AFTER  DCT 
+     e49 "lõppu"  AFTER  DCT 
+
+ s15  " Seda näiteks kas juba rahas või teatud intressiga riigi võlakirjade näol . "
+ s16  Valitsus [e50 kinnitas ] [t11 eile ] [e51 erastamisest ] laekuva raha [e52 kasutamise ] seaduse [e53 muudatused ] , mille kohaselt [e54 langeb ] ära [e55 kohustus ] [e56 kasutada ] raha vaid omandireformi [e57 kulutuste ] ja [e58 läbiviimise ] katteks .
+     e50 "kinnitas"  IS_INCLUDED  t11 "eile" 
+     e50 "kinnitas"  BEFORE  DCT 
+     e50 "kinnitas"  BEFORE  e53 "muudatused" 
+     e50 "kinnitas"  BEFORE  e54 "langeb" 
+     e50 "kinnitas"  VAGUE  e51 "erastamisest" 
+     e50 "kinnitas"  BEFORE  e61 "kinnitama" 
+     e51 "erastamisest"  VAGUE  DCT 
+     e52 "kasutamise"  VAGUE  DCT 
+     e52 "kasutamise"  VAGUE  e53 "muudatused" 
+     e53 "muudatused"  INCLUDES  DCT 
+     e53 "muudatused"  INCLUDES  e54 "langeb" 
+     e54 "langeb"  OVERLAP-OR-AFTER  DCT 
+     e54 "langeb"  VAGUE  e55 "kohustus" 
+     e55 "kohustus"  VAGUE  DCT 
+     e55 "kohustus"  INCLUDES  e56 "kasutada" 
+     e56 "kasutada"  VAGUE  DCT 
+     e57 "kulutuste"  VAGUE  DCT 
+     e57 "kulutuste"  SIMULTANEOUS  e58 "läbiviimise" 
+     e57 "kulutuste"  VAGUE  e56 "kasutada" 
+     e58 "läbiviimise"  VAGUE  DCT 
+     e58 "läbiviimise"  VAGUE  e56 "kasutada" 
+
+ s17  Seaduse [e59 muudatused ] [e60 peab ] [e61 kinnitama ] veel Riigikogu .
+     e59 "muudatused"  INCLUDES  DCT 
+     e59 "muudatused"  BEFORE  e61 "kinnitama" 
+     e60 "peab"  AFTER  DCT 
+     e60 "peab"  VAGUE  e61 "kinnitama" 
+     e61 "kinnitama"  AFTER  DCT 
+
+

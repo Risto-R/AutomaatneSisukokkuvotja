@@ -1,0 +1,81 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a012.sol
+      DCT: 2000-10-04
+==================================================
+ s0  [t1 T‰na ] [e1 alustavad ] [e2 hooaega ] korvpallinaiskonnad .
+     e1 "alustavad"  IS_INCLUDED  t1 "T‰na" 
+     e1 "alustavad"  IS_INCLUDED  DCT 
+     e1 "alustavad"  BEFORE-OR-OVERLAP  e2 "hooaega" 
+     e1 "alustavad"  OVERLAP-OR-AFTER  e3 "j‰‰nud" 
+     e2 "hooaega"  OVERLAP-OR-AFTER  DCT 
+
+ s1  Meistriliigasse on neid [e3 j‰‰nud ] vaid neli .
+     e3 "j‰‰nud"  BEFORE-OR-OVERLAP  DCT 
+     e3 "j‰‰nud"  BEFORE-OR-OVERLAP  e5 "j‰‰nud" 
+
+ s2  [e4 Meistrivıistlustele ] on truuks [e5 j‰‰nud ] ka oma kunagise hiilguse [e6 minetanud ] Tartu naiskorvpallurid , kellele viimased [e7 hooajad ] on [e8 toonud ] vaid viimaseid kohti .
+     e4 "Meistrivıistlustele"  VAGUE  DCT 
+     e4 "Meistrivıistlustele"  INCLUDES  e5 "j‰‰nud" 
+     e5 "j‰‰nud"  INCLUDES  DCT 
+     e5 "j‰‰nud"  AFTER  e6 "minetanud" 
+     e5 "j‰‰nud"  AFTER  e8 "toonud" 
+     e5 "j‰‰nud"  OVERLAP-OR-AFTER  e10 "p‰rssinud" ka VAGUE
+     e5 "j‰‰nud"  SIMULTANEOUS  e12 "leidub" ka VAGUE
+     e6 "minetanud"  BEFORE  DCT 
+     e7 "hooajad"  BEFORE  DCT 
+     e7 "hooajad"  BEFORE-OR-OVERLAP  e8 "toonud" 
+     e8 "toonud"  BEFORE  DCT 
+
+ s3  ’nneks pole [e9 kaotused ] [e10 p‰rssinud ] kohalike treenerite [e11 taotlusi ] , ikka [e12 leidub ] neid , kes [e13 on ] [e13 nıus ] [e14 vastkomplekteeritud ] naiskonna treeneri pingile [e15 istuma ] .
+     e9 "kaotused"  BEFORE  DCT 
+     e9 "kaotused"  BEFORE-OR-OVERLAP  e10 "p‰rssinud" 
+     e10 "p‰rssinud"  BEFORE-OR-OVERLAP  DCT 
+     e10 "p‰rssinud"  VAGUE  e11 "taotlusi" 
+     e10 "p‰rssinud"  VAGUE  e12 "leidub" 
+     e10 "p‰rssinud"  SIMULTANEOUS  e16 "ulatanud" ka VAGUE
+     e11 "taotlusi"  BEFORE-OR-OVERLAP  DCT 
+     e12 "leidub"  INCLUDES  DCT 
+     e12 "leidub"  SIMULTANEOUS  e13 "on nıus" 
+     e12 "leidub"  OVERLAP-OR-AFTER  e16 "ulatanud" 
+     e13 "on nıus"  INCLUDES  DCT 
+     e13 "on nıus"  BEFORE-OR-OVERLAP  e15 "istuma" 
+     e14 "vastkomplekteeritud"  VAGUE  DCT 
+     e15 "istuma"  VAGUE  DCT 
+
+ s4  [t2 T‰navu ] on sıbrak‰e [e16 ulatanud ] Pille Russak , Maire Sulg ja Kaire Asi .
+     e16 "ulatanud"  IS_INCLUDED  t2 "T‰navu" 
+     e16 "ulatanud"  BEFORE  DCT 
+     e16 "ulatanud"  BEFORE-OR-OVERLAP  e19 "esindavad" 
+
+ s5  Turu t‰nava spordisaalis [e17 harjutanud ] noored m‰ngijad , kellest mitu on [e18 jıudnud ] kırgkooli , [e19 esindavad ] Emajıelinna T‹ SK nime all .
+     e17 "harjutanud"  BEFORE-OR-OVERLAP  DCT 
+     e17 "harjutanud"  VAGUE  e18 "jıudnud" 
+     e18 "jıudnud"  BEFORE  DCT 
+     e18 "jıudnud"  BEFORE  e19 "esindavad" 
+     e19 "esindavad"  IS_INCLUDED  DCT 
+     e19 "esindavad"  OVERLAP-OR-AFTER  e20 "alustavad" 
+     e19 "esindavad"  OVERLAP-OR-AFTER  e22 "on vastamisi" 
+
+ s6  [t3 T‰na kell 18.45 ] [e20 alustavad ] oma esimest [e21 m‰ngu ] ¸likooli spordihallis T‹ SK - TP‹/ELK , veel [e22 on ] [e23 avavoorus ] [e22 vastamisi ] AGA/Lˆfberg Lila - TT‹ SK .
+     e20 "alustavad"  SIMULTANEOUS  t3 "T‰na kell 18.45" 
+     e20 "alustavad"  IS_INCLUDED  DCT 
+     e20 "alustavad"  BEFORE-OR-OVERLAP  e21 "m‰ngu" 
+     e20 "alustavad"  BEFORE-OR-OVERLAP  e22 "on vastamisi" 
+     e20 "alustavad"  BEFORE  e26 "tuleb" 
+     e21 "m‰ngu"  IS_INCLUDED  DCT 
+     e22 "on vastamisi"  IS_INCLUDED  DCT 
+     e22 "on vastamisi"  IS_INCLUDED  e23 "avavoorus" 
+     e22 "on vastamisi"  BEFORE  e26 "tuleb" 
+     e23 "avavoorus"  IS_INCLUDED  DCT 
+
+ s7  Enne kui [e24 jıutakse ] [e25 medalim‰ngudeni ] , [e26 tuleb ] omavahel neljal korral [e27 kohtuda ] .
+     e24 "jıutakse"  AFTER  DCT 
+     e24 "jıutakse"  AFTER  e26 "tuleb" 
+     e24 "jıutakse"  AFTER  e27 "kohtuda" 
+     e24 "jıutakse"  BEFORE-OR-OVERLAP  e25 "medalim‰ngudeni" 
+     e25 "medalim‰ngudeni"  AFTER  DCT 
+     e26 "tuleb"  AFTER  DCT 
+     e26 "tuleb"  BEFORE-OR-OVERLAP  e27 "kohtuda" 
+     e27 "kohtuda"  AFTER  DCT 
+
+

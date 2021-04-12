@@ -1,0 +1,249 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a009.sol
+      DCT: 2000-10-04
+==================================================
+ s0  [e1 Aidsipuhang ] Narvas [e2 ehmatas ] ka tartlasi - kitsukese aidsikabineti ukse taha [e3 tekkis ] isegi [e4 järjekord ] , kuid ühtki HIV-positiivset testitute hulgas [e5 polnud ] .
+     e1 "Aidsipuhang"  BEFORE-OR-OVERLAP  DCT 
+     e1 "Aidsipuhang"  BEFORE-OR-OVERLAP  e2 "ehmatas" 
+     e2 "ehmatas"  BEFORE  DCT 
+     e2 "ehmatas"  BEFORE-OR-OVERLAP  e3 "tekkis" 
+     e2 "ehmatas"  BEFORE  e5 "polnud" 
+     e2 "ehmatas"  BEFORE  e8 "nentis" 
+     e2 "ehmatas"  IS_INCLUDED  e6 "olid" 
+     e3 "tekkis"  BEFORE  DCT 
+     e3 "tekkis"  BEFORE-OR-OVERLAP  e4 "järjekord" 
+     e3 "tekkis"  BEFORE  e5 "polnud" 
+     e3 "tekkis"  BEFORE  e8 "nentis" 
+     e3 "tekkis"  IS_INCLUDED  e6 "olid" 
+     e4 "järjekord"  BEFORE  DCT 
+     e5 "polnud"  BEFORE  DCT 
+     e5 "polnud"  BEFORE  e8 "nentis" 
+     e5 "polnud"  IS_INCLUDED  e6 "olid" 
+
+ s1  " Eriti hirmunud [e6 olid ] need , kes sageli välismaal [e7 käivad ] , " [e8 nentis ] Tartu aidsiennetuskeskuse spetsialist Olga Notberg .
+     e6 "olid"  BEFORE  DCT 
+     e6 "olid"  BEFORE  e8 "nentis" 
+     e6 "olid"  VAGUE  e7 "käivad" 
+     e6 "olid"  BEFORE  e10 "lisas" 
+     e6 "olid"  SIMULTANEOUS  e9 "kulunud" 
+     e7 "käivad"  VAGUE  DCT 
+     e8 "nentis"  BEFORE-OR-OVERLAP  DCT 
+     e8 "nentis"  AFTER  e9 "kulunud" 
+     e8 "nentis"  BEFORE  e10 "lisas" 
+
+ s2  Nii mõnelegi kontrolli tulnule oleks ära [e9 kulunud ] psühholoogi abi , [e10 lisas ] ta .
+     e9 "kulunud"  BEFORE  DCT 
+     e9 "kulunud"  BEFORE  e10 "lisas" 
+     e9 "kulunud"  IS_INCLUDED  e11 "olnud" 
+     e10 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e10 "lisas"  OVERLAP-OR-AFTER  e11 "olnud" 
+
+ s3  Tartu noorte nõustamiskeskuse arstil Karin Mõistusel pole [e11 olnud ] ühtki aidsihaiget patsienti .
+     e11 "olnud"  BEFORE  DCT 
+     e11 "olnud"  INCLUDES  e12 "küsinud" 
+     e11 "olnud"  INCLUDES  e15 "ütles" 
+
+ s4  " Paaril korral on noored minult küll [e12 küsinud ] , kus [e13 saab ] aidsitesti [e14 teha ] , " [e15 ütles ] ta .
+     e12 "küsinud"  BEFORE  DCT 
+     e12 "küsinud"  BEFORE  e14 "teha" 
+     e12 "küsinud"  BEFORE  e15 "ütles" 
+     e12 "küsinud"  BEFORE  e17 "lisas" 
+     e12 "küsinud"  IS_INCLUDED  e16 "on" 
+     e13 "saab"  VAGUE  DCT 
+     e13 "saab"  VAGUE  e14 "teha" 
+     e14 "teha"  VAGUE  DCT 
+     e15 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e15 "ütles"  BEFORE  e17 "lisas" 
+     e15 "ütles"  IS_INCLUDED  e16 "on" 
+
+ s5  Ka narkomaane [e16 on ] Tartu patsientide hulgas harva , [e17 lisas ] arst .
+     e16 "on"  VAGUE  DCT 
+     e16 "on"  INCLUDES  e17 "lisas" 
+     e16 "on"  VAGUE  e18 "käib" 
+     e17 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e17 "lisas"  VAGUE  e18 "käib" 
+
+ s6  Riigi finantseeritavas aidsikabinetis [e18 käib ] vereproovi [e19 andmas ] [t1 igal nädalal ] 20-30 inimest .
+     e18 "käib"  IS_INCLUDED  t1 "igal nädalal" 
+     e18 "käib"  INCLUDES  DCT 
+     e18 "käib"  SIMULTANEOUS  e19 "andmas" 
+     e18 "käib"  INCLUDES  e20 "andnud" 
+     e18 "käib"  INCLUDES  e21 "osutus" 
+     e18 "käib"  VAGUE  e22 "on rahul" 
+     e19 "andmas"  INCLUDES  DCT 
+
+ s7  " Õnneks on aidsiproov [e20 andnud ] positiivse tulemuse vaid ühel korral ja seegi [e21 osutus ] valepositiivseks , " [e22 on ] Olga Notberg [e22 rahul ] .
+     e20 "andnud"  BEFORE  DCT 
+     e20 "andnud"  BEFORE  e21 "osutus" 
+     e20 "andnud"  BEFORE  e22 "on rahul" 
+     e20 "andnud"  BEFORE  e24 "selgitas" 
+     e20 "andnud"  VAGUE  e23 "teen" 
+     e21 "osutus"  BEFORE  DCT 
+     e21 "osutus"  BEFORE  e22 "on rahul" 
+     e21 "osutus"  BEFORE  e24 "selgitas" 
+     e21 "osutus"  VAGUE  e23 "teen" 
+     e22 "on rahul"  BEFORE-OR-OVERLAP  DCT 
+     e22 "on rahul"  BEFORE-OR-OVERLAP  e24 "selgitas" 
+     e22 "on rahul"  VAGUE  e23 "teen" 
+
+ s8  " Positiivse vastuse korral [e23 teen ] alati kordusproovi , " [e24 selgitas ] spetsialist .
+     e23 "teen"  VAGUE  DCT 
+     e23 "teen"  VAGUE  e24 "selgitas" 
+     e23 "teen"  VAGUE  e25 "läheb" 
+     e24 "selgitas"  BEFORE-OR-OVERLAP  DCT 
+     e24 "selgitas"  VAGUE  e25 "läheb" 
+
+ s9  Nakatunu vereproov [e25 läheb ] Tallinnasse Merimetsa haigla kontroll-laborisse , kus [e26 saab ] [e27 teha ] eriti täpseid [e28 uuringuid ] .
+     e25 "läheb"  VAGUE  DCT 
+     e25 "läheb"  BEFORE  e27 "teha" 
+     e25 "läheb"  BEFORE  e29 "pole võimalik" 
+     e26 "saab"  VAGUE  DCT 
+     e26 "saab"  VAGUE  e27 "teha" 
+     e27 "teha"  VAGUE  DCT 
+     e27 "teha"  SIMULTANEOUS  e28 "uuringuid" 
+     e28 "uuringuid"  VAGUE  DCT 
+
+ s10  Seal [e29 pole ] enam [e29 võimalik ] anonüümseks [e30 jääda ] , sest [e31 tuleb ] [e32 esitada ] haigekassa kaart .
+     e29 "pole võimalik"  VAGUE  DCT 
+     e29 "pole võimalik"  AFTER  e32 "esitada" 
+     e29 "pole võimalik"  VAGUE  e30 "jääda" 
+     e29 "pole võimalik"  VAGUE  e33 "on kallis" 
+     e29 "pole võimalik"  VAGUE  e34 "on" 
+     e30 "jääda"  VAGUE  DCT 
+     e30 "jääda"  AFTER  e32 "esitada" 
+     e31 "tuleb"  VAGUE  DCT 
+     e31 "tuleb"  VAGUE  e32 "esitada" 
+     e32 "esitada"  VAGUE  DCT 
+
+ s11  Aidsi ravi [e33 on ] [e33 kallis ] , ühe kuuri maksumus [e34 on ] 10 000 - 11 000 krooni [t2 kuus ] .
+     e33 "on kallis"  VAGUE  DCT 
+     e33 "on kallis"  IDENTITY  e34 "on" 
+     e33 "on kallis"  VAGUE  e35 "võta" 
+     e33 "on kallis"  VAGUE  e36 "pärsivad" 
+     e34 "on"  SIMULTANEOUS  t2 "kuus" 
+     e34 "on"  VAGUE  DCT 
+     e34 "on"  VAGUE  e35 "võta" 
+     e34 "on"  VAGUE  e36 "pärsivad" 
+
+ s12  Ravimid ei [e35 võta ] küll haigust ära , kuid [e36 pärsivad ] viiruse [e37 paljunemist ] .
+     e35 "võta"  VAGUE  DCT 
+     e35 "võta"  SIMULTANEOUS  e36 "pärsivad" 
+     e35 "võta"  VAGUE  e38 "nõustas" 
+     e35 "võta"  VAGUE  e39 "sai nakkuse" 
+     e36 "pärsivad"  VAGUE  DCT 
+     e36 "pärsivad"  VAGUE  e37 "paljunemist" 
+     e36 "pärsivad"  VAGUE  e38 "nõustas" 
+     e36 "pärsivad"  VAGUE  e39 "sai nakkuse" 
+     e37 "paljunemist"  VAGUE  DCT 
+
+ s13  [t3 Eelmisel aastal ] [e38 nõustas ] Notberg HIV-positiivset Põlva noormeest , kes [e39 sai ] [e39 nakkuse ] Rootsis .
+     e38 "nõustas"  IS_INCLUDED  t3 "Eelmisel aastal" 
+     e38 "nõustas"  BEFORE  DCT 
+     e38 "nõustas"  AFTER  e39 "sai nakkuse" 
+     e38 "nõustas"  IS_INCLUDED  e41 "ole valmis" 
+     e39 "sai nakkuse"  BEFORE  DCT 
+
+ s14  Notbergi [e40 hinnangul ] ei [e41 ole ] Eesti ühiskond veel selleks [e41 valmis ] , et [e42 leppida ] aidsihaigega enda kõrval .
+     e40 "hinnangul"  BEFORE-OR-OVERLAP  DCT 
+     e40 "hinnangul"  IS_INCLUDED  e41 "ole valmis" 
+     e41 "ole valmis"  INCLUDES  DCT 
+     e41 "ole valmis"  SIMULTANEOUS  e42 "leppida" 
+     e41 "ole valmis"  INCLUDES  e45 "lisas" 
+     e41 "ole valmis"  SIMULTANEOUS  e43 "on karistatav" 
+     e42 "leppida"  INCLUDES  DCT 
+
+ s15  " Mujal maailmas [e43 on ] HI-viiruse kandja [e44 ahistamine ] [e43 karistatav ] , " [e45 lisas ] ta .
+     e43 "on karistatav"  INCLUDES  DCT 
+     e43 "on karistatav"  INCLUDES  e45 "lisas" 
+     e43 "on karistatav"  VAGUE  e44 "ahistamine" 
+     e43 "on karistatav"  VAGUE  e47 "jätkata" 
+     e44 "ahistamine"  VAGUE  DCT 
+     e45 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e45 "lisas"  VAGUE  e47 "jätkata" 
+
+ s16  Inimene [e46 võib ] tööd [e47 jätkata ] [t4 seni ] , kui ta oma ülesannetega toime [e48 tuleb ] .
+     e46 "võib"  VAGUE  DCT 
+     e46 "võib"  VAGUE  e47 "jätkata" 
+     e47 "jätkata"  BEFORE-OR-OVERLAP  t4 "seni" 
+     e47 "jätkata"  VAGUE  DCT 
+     e47 "jätkata"  SIMULTANEOUS  e48 "tuleb" 
+     e47 "jätkata"  VAGUE  e49 "ole nakkav" 
+     e47 "jätkata"  VAGUE  e50 "levib" 
+     e48 "tuleb"  VAGUE  DCT 
+
+ s17  Pealegi ei [e49 ole ] aids tavaolukorras [e49 nakkav ] , viirus [e50 levib ] ainult sugulisel teel , süstides või vere kaudu .
+     e49 "ole nakkav"  VAGUE  DCT 
+     e49 "ole nakkav"  VAGUE  e50 "levib" 
+     e49 "ole nakkav"  VAGUE  e51 "usu" 
+     e50 "levib"  VAGUE  DCT 
+     e50 "levib"  VAGUE  e51 "usu" 
+
+ s18  Ometi ei [e51 usu ] Notberg , et Tartus HI-viiruse [e52 kandjaid ] [e52 pole ] .
+     e51 "usu"  INCLUDES  DCT 
+     e51 "usu"  IS_INCLUDED  e52 "kandjaid pole" 
+     e51 "usu"  AFTER  e53 "sattunud" 
+     e51 "usu"  INCLUDES  e54 "nentis" 
+     e52 "kandjaid pole"  INCLUDES  DCT 
+     e52 "kandjaid pole"  INCLUDES  e53 "sattunud" 
+     e52 "kandjaid pole"  INCLUDES  e54 "nentis" 
+
+ s19  " Tõenäoliselt pole nad lihtsalt [e53 sattunud ] Tartu aidsikabineti vaatevälja , " [e54 nentis ] ta .
+     e53 "sattunud"  BEFORE  DCT 
+     e53 "sattunud"  BEFORE  e54 "nentis" 
+     e53 "sattunud"  IS_INCLUDED  e55 "on" 
+     e54 "nentis"  BEFORE-OR-OVERLAP  DCT 
+     e54 "nentis"  IS_INCLUDED  e55 "on" 
+
+ s20  Riigi finantseeritavaid aidsiennetuskeskusi [e55 on ] Eestis kolm : Tartus , Tallinnas ja Narvas .
+     e55 "on"  INCLUDES  DCT 
+     e55 "on"  SIMULTANEOUS  e56 "on" 
+
+ s21  Aidsiennetuskeskuse üks ülesandeid [e56 on ] [e57 jagada ] noortele konsultatsiooni .
+     e56 "on"  INCLUDES  DCT 
+     e56 "on"  VAGUE  e57 "jagada" 
+     e56 "on"  SIMULTANEOUS  e58 "pakub" 
+     e57 "jagada"  INCLUDES  DCT 
+
+ s22  Notberg [e58 pakub ] koolide terviseõpetajatele [e59 võimalust ] [e60 tellida ] noortele loenguid turvaseksist ning uimastitest ja aidsist hoidumisest .
+     e58 "pakub"  INCLUDES  DCT 
+     e58 "pakub"  VAGUE  e59 "võimalust" 
+     e58 "pakub"  INCLUDES  e65 "tõdes" 
+     e58 "pakub"  VAGUE  e61 "karda" 
+     e58 "pakub"  VAGUE  e62 "usuvad" 
+     e59 "võimalust"  VAGUE  DCT 
+     e59 "võimalust"  BEFORE-OR-OVERLAP  e60 "tellida" 
+     e60 "tellida"  VAGUE  DCT 
+
+ s23  " Noored ei [e61 karda ] ju midagi , nemad [e62 usuvad ] , et [e64 aidsi ] [e63 võib ] [e64 saada ] ainult kusagil Aafrikas , " [e65 tõdes ] ta .
+     e61 "karda"  INCLUDES  DCT 
+     e61 "karda"  INCLUDES  e65 "tõdes" 
+     e61 "karda"  SIMULTANEOUS  e62 "usuvad" 
+     e61 "karda"  VAGUE  e66 "surnud" 
+     e62 "usuvad"  INCLUDES  DCT 
+     e62 "usuvad"  INCLUDES  e65 "tõdes" 
+     e62 "usuvad"  VAGUE  e64 "aidsi saada" 
+     e62 "usuvad"  VAGUE  e66 "surnud" 
+     e64 "aidsi saada"  VAGUE  DCT 
+     e63 "võib"  VAGUE  DCT 
+     e63 "võib"  VAGUE  e64 "aidsi saada" 
+     e65 "tõdes"  BEFORE-OR-OVERLAP  DCT 
+     e65 "tõdes"  AFTER  e66 "surnud" 
+
+ s24  Ometi on Eestiski aidsi [e66 surnud ] üle 20 inimese .
+     e66 "surnud"  BEFORE  DCT 
+     e66 "surnud"  VAGUE  e67 "hävitab" 
+
+ s25  Aidsi põhjustav viirus [e67 hävitab ] organismi immuunsüsteemi , mis [e68 peaks ] inimest nii viiruste kui bakterite eest [e69 kaitsma ] .
+     e67 "hävitab"  VAGUE  DCT 
+     e67 "hävitab"  VAGUE  e69 "kaitsma" 
+     e67 "hävitab"  VAGUE  e70 "tutvustab" 
+     e68 "peaks"  VAGUE  DCT 
+     e68 "peaks"  VAGUE  e69 "kaitsma" 
+     e69 "kaitsma"  VAGUE  DCT 
+
+ s26  Notberg [e70 tutvustab ] noortele aidsi esmaseid [e71 sümptomeid ] : väsimus , palavik , lümfisõlmede suurenemine , kehakaalu langus jms.
+     e70 "tutvustab"  INCLUDES  DCT 
+     e70 "tutvustab"  VAGUE  e71 "sümptomeid" 
+     e71 "sümptomeid"  VAGUE  DCT 
+
+

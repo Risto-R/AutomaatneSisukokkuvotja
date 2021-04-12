@@ -1,0 +1,77 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a002.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Hispaania majandusminister Pedro Solbes [e1 kinnitab ] , et kaasmaalased pole ikka veel [e2 mõistnud ] euro väärtust ja [e3 loobivad ] seepärast kergel käel jootraha .
+     e1 "kinnitab"  BEFORE-OR-OVERLAP  DCT 
+     e1 "kinnitab"  IS_INCLUDED  e2 "mõistnud" 
+     e1 "kinnitab"  IS_INCLUDED  e3 "loobivad" 
+     e1 "kinnitab"  INCLUDES  e8 "kõneles" 
+     e1 "kinnitab"  IS_INCLUDED  e4 "kole on" 
+     e1 "kinnitab"  IS_INCLUDED  e9 "olukorrast" 
+     e2 "mõistnud"  INCLUDES  DCT 
+     e2 "mõistnud"  SIMULTANEOUS  e3 "loobivad" 
+     e2 "mõistnud"  INCLUDES  e4 "kole on" ka VAGUE
+     e2 "mõistnud"  INCLUDES  e8 "kõneles" 
+     e2 "mõistnud"  SIMULTANEOUS  e9 "olukorrast" 
+     e3 "loobivad"  INCLUDES  DCT 
+     e3 "loobivad"  INCLUDES  e4 "kole on" 
+     e3 "loobivad"  INCLUDES  e8 "kõneles" 
+     e3 "loobivad"  SIMULTANEOUS  e9 "olukorrast" 
+
+ s1  " [e4 Kole ] [e4 on ] [e5 vaadata ] , kui inimesed [e6 jätavad ] terve euro jootrahaks tassi kohvi eest , mis [e7 maksab ] vaid kaks eurot , " [e8 kõneles ] majandusminister [e9 olukorrast ] riigis , kus inflatsioon on [e10 tõusnud ] katastroofilise 4,1 protsendini .
+     e4 "kole on"  INCLUDES  DCT 
+     e4 "kole on"  INCLUDES  e8 "kõneles" 
+     e4 "kole on"  SIMULTANEOUS  e5 "vaadata" 
+     e4 "kole on"  IS_INCLUDED  e11 "on kõrgem" 
+     e5 "vaadata"  INCLUDES  DCT 
+     e5 "vaadata"  INCLUDES  e8 "kõneles" 
+     e5 "vaadata"  SIMULTANEOUS  e6 "jätavad" 
+     e6 "jätavad"  VAGUE  DCT 
+     e6 "jätavad"  IS_INCLUDED  e7 "maksab" 
+     e6 "jätavad"  VAGUE  e8 "kõneles" 
+     e7 "maksab"  INCLUDES  DCT 
+     e8 "kõneles"  BEFORE-OR-OVERLAP  DCT 
+     e8 "kõneles"  AFTER  e10 "tõusnud" 
+     e8 "kõneles"  IS_INCLUDED  e9 "olukorrast" 
+     e8 "kõneles"  IS_INCLUDED  e11 "on kõrgem" 
+     e9 "olukorrast"  INCLUDES  DCT 
+     e10 "tõusnud"  BEFORE  DCT 
+
+ s2  See [e11 on ] [e11 kõrgem ] kui teistes eurotsooni riikides .
+     e11 "on kõrgem"  INCLUDES  DCT 
+     e11 "on kõrgem"  AFTER  e13 "oli" 
+
+ s3  BBC [e12 kinnitusel ] [e13 oli ] Hispaanias enne euro [e14 tulekut ] [e15 kombeks ] [e16 anda ] jootrahaks 25 peseetat .
+     e12 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e12 "kinnitusel"  AFTER  e13 "oli" 
+     e12 "kinnitusel"  AFTER  e14 "tulekut" 
+     e12 "kinnitusel"  AFTER  e16 "anda" 
+     e13 "oli"  BEFORE  DCT 
+     e13 "oli"  BEFORE  e14 "tulekut" 
+     e13 "oli"  SIMULTANEOUS  e15 "kombeks" 
+     e13 "oli"  VAGUE  e16 "anda" 
+     e13 "oli"  SIMULTANEOUS  e17 "mahtunuks" 
+     e14 "tulekut"  BEFORE  DCT 
+     e14 "tulekut"  AFTER  e16 "anda" 
+     e15 "kombeks"  BEFORE  DCT 
+     e16 "anda"  VAGUE  DCT 
+
+ s4  Noid rahasid [e17 mahtunuks ] ühte eurosse 166.
+     e17 "mahtunuks"  BEFORE  DCT 
+     e17 "mahtunuks"  BEFORE  e19 "on" 
+
+ s5  Majandusministri [e18 arvates ] [e19 on ] just helde jootraha [e20 jagamine ] üks põhjus , miks elukallidus on riigis euro [e21 tulekuga ] järsult [e22 tõusnud ] .
+     e18 "arvates"  INCLUDES  DCT 
+     e18 "arvates"  IS_INCLUDED  e19 "on" 
+     e18 "arvates"  VAGUE  e20 "jagamine" 
+     e19 "on"  INCLUDES  DCT 
+     e19 "on"  SIMULTANEOUS  e20 "jagamine" 
+     e19 "on"  VAGUE  e22 "tõusnud" 
+     e20 "jagamine"  INCLUDES  DCT 
+     e20 "jagamine"  INCLUDES  e22 "tõusnud" 
+     e21 "tulekuga"  BEFORE  DCT 
+     e21 "tulekuga"  BEFORE-OR-OVERLAP  e22 "tõusnud" 
+     e22 "tõusnud"  BEFORE  DCT 
+
+

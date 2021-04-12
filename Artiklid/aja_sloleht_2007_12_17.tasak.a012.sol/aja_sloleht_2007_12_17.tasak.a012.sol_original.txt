@@ -1,7 +1,21 @@
 <div0><head> Trenni tehes pea meeles : </head><bibl> <author> SLÕL </author> </bibl>
-<p rend="bold"> <s> Trenni tehes ära vaata maha ! Langetades pea rinnale , väheneb õlavöötme- ja seljasirutajalihaste toonus , selg kumerdub ja kõht võlvub ette . </s> </p>
-<p> <s> Kui kannatad seljavalu või nõgusselgsuse all , pead treenima kõhu- ja tuharalihaseid ja venitama niude-nimmelihast ja reie tagumisi lihaseid . </s> </p>
-<p> <s> Halva rühi korral on koormusjärgne lihaste venitamine eriti oluline . </s> </p>
-<p> <s> Tee kõhulihaste harjutusi alati aeglases tempos , vastasel korral ei tööta kõhu rist- ja põikilihased , vaid neist võimsam sirglihas . </s> </p>
-<p> <s> Järgi kehahoidu . </s> <s> Kühmus seljaga aeroobikaharjutusi tehes langeb koormus lülisambale ja jalaliigestele ebaühtlaselt , kasu asemel võid tervisele hoopis kahju teha . </s> </p>
-<p> <s> Kõige tähtsam on rühi parandamiseks teha lihaskorsetti tugevdavaid jõuharjutusi . </s> </p></div0>
+<p rend="bold">
+ <s> Trenni tehes ära vaata maha ! Langetades pea rinnale , väheneb õlavöötme- ja seljasirutajalihaste toonus , selg kumerdub ja kõht võlvub ette . </s> 
+</p>
+<p>
+ <s> Kui kannatad seljavalu või nõgusselgsuse all , pead treenima kõhu- ja tuharalihaseid ja venitama niude-nimmelihast ja reie tagumisi lihaseid . </s> 
+</p>
+<p>
+ <s> Halva rühi korral on koormusjärgne lihaste venitamine eriti oluline . </s> 
+</p>
+<p>
+ <s> Tee kõhulihaste harjutusi alati aeglases tempos , vastasel korral ei tööta kõhu rist- ja põikilihased , vaid neist võimsam sirglihas . </s> 
+</p>
+<p>
+ <s> Järgi kehahoidu . </s>
+<s> Kühmus seljaga aeroobikaharjutusi tehes langeb koormus lülisambale ja jalaliigestele ebaühtlaselt , kasu asemel võid tervisele hoopis kahju teha . </s> 
+</p>
+<p>
+ <s> Kõige tähtsam on rühi parandamiseks teha lihaskorsetti tugevdavaid jõuharjutusi . </s> 
+</p>
+</div0>

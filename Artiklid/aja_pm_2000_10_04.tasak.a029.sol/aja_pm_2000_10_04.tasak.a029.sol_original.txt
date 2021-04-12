@@ -1,11 +1,41 @@
 <div0><head> Lühidalt </head>
-<p rend="bold"> <s> Eesti <hi rend="italic">show</hi>trupp võitis Venemaa telekonkursil esikoha </s> </p>
-<p> <s> Tallinna Lindakivi kultuurikeskuse <hi rend="italic">show</hi>-trupp IRIS on võitnud Moskvas rahvusvahelisel telekonkursil “ Utrennaja svezda ” ( “ Hommikutäht ” ) vokaalansamblite arvestuses esikoha . </s> <s> Võit on tähelepanuväärne , sest telekanal OPT transleerib konkurssi üle terve Venemaa . </s> </p>
-<p> <s> 1992. aastal võitis sama konkursi Narva tantsukollektiiv “ Ulitshnõi baletTänavaballett ” ) . </s> <s> Pooleteise aasta pärast ootab IRISt ees sama konkursi superfinaal . </s> <s> Lisaks on IRIS kutsutud juba rahvusvahelisele konkursile Jerevani . </s> <s> Eestis osaleb ansambel Raimond Valgre laulukonkursil Tartus . </s> <s> ( PM ) </s> </p>
-<p rend="bold"> <s> Soome popansambel Bomfunk MC's sihib MTV auhinda </s> </p>
-<p> <s> Bomfunk MC's kandideerib esimese Soome ansamblina populaarse muusikakanali MTV Euroopa auhindadele . </s> <s> Parima uustulnuka kategoorias on Bomfunki rivaalideks Blink 182 , Melanie C , Sonique ja Anastasia . </s> </p>
-<p> <s> Raymond Ebanksist ja Ismo Lappalaisest koosnev ansambel on viimasel aastal teinud tõelise tähelennu . </s> <s> Augusti algul tõusis tänavusel Pühajärve Beach Party'lgi osalenud Bomfunk MC'si singel “ Freestyler ” koguni Euroopa singlimüügi edetabeli esikohale . </s> </p>
-<p> <s> MTV Euroopa muusikaauhindu jagatakse 16. novembril Stockholmis . </s> <s> ( PM ) </s> </p>
-<p rend="bold"> <s> Ermitaaž eksponeerib esimest korda oma ajaloos autot </s> </p>
-<p> <s> Esimest korda oma 200-aastase ajaloo jooksul eksponeerib Peterburis asuv Ermitaazh oma seinte vahel autot - BMW M1 marki masin on tähelepanuväärne selle poolest , et kannab ameerika kuulsaima popkunstniku Andy Warholi käega tehtud maalinguid . </s> </p>
-<p> <s> Venemaa kõigi aegade suurimal Warholi-näitusel on väljas esinduslik valik kunstniku töid , millest varasemad pärinevad 1950. ja hilisemad 1980. aastatest . </s> <s> ( PM ) </s> </p></div0>
+<p rend="bold">
+ <s> Eesti <hi rend="italic">show</hi>trupp võitis Venemaa telekonkursil esikoha </s> 
+</p>
+<p>
+ <s> Tallinna Lindakivi kultuurikeskuse <hi rend="italic">show</hi>-trupp IRIS on võitnud Moskvas rahvusvahelisel telekonkursil “ Utrennaja svezda ” ( “ Hommikutäht ” ) vokaalansamblite arvestuses esikoha . </s>
+<s> Võit on tähelepanuväärne , sest telekanal OPT transleerib konkurssi üle terve Venemaa . </s> 
+</p>
+<p>
+ <s> 1992. aastal võitis sama konkursi Narva tantsukollektiiv “ Ulitshnõi baletTänavaballett ” ) . </s>
+<s> Pooleteise aasta pärast ootab IRISt ees sama konkursi superfinaal . </s>
+<s> Lisaks on IRIS kutsutud juba rahvusvahelisele konkursile Jerevani . </s>
+<s> Eestis osaleb ansambel Raimond Valgre laulukonkursil Tartus . </s>
+<s> ( PM ) </s> 
+</p>
+<p rend="bold">
+ <s> Soome popansambel Bomfunk MC's sihib MTV auhinda </s> 
+</p>
+<p>
+ <s> Bomfunk MC's kandideerib esimese Soome ansamblina populaarse muusikakanali MTV Euroopa auhindadele . </s>
+<s> Parima uustulnuka kategoorias on Bomfunki rivaalideks Blink 182 , Melanie C , Sonique ja Anastasia . </s> 
+</p>
+<p>
+ <s> Raymond Ebanksist ja Ismo Lappalaisest koosnev ansambel on viimasel aastal teinud tõelise tähelennu . </s>
+<s> Augusti algul tõusis tänavusel Pühajärve Beach Party'lgi osalenud Bomfunk MC'si singel “ Freestyler ” koguni Euroopa singlimüügi edetabeli esikohale . </s> 
+</p>
+<p>
+ <s> MTV Euroopa muusikaauhindu jagatakse 16. novembril Stockholmis . </s>
+<s> ( PM ) </s> 
+</p>
+<p rend="bold">
+ <s> Ermitaaž eksponeerib esimest korda oma ajaloos autot </s> 
+</p>
+<p>
+ <s> Esimest korda oma 200-aastase ajaloo jooksul eksponeerib Peterburis asuv Ermitaazh oma seinte vahel autot - BMW M1 marki masin on tähelepanuväärne selle poolest , et kannab ameerika kuulsaima popkunstniku Andy Warholi käega tehtud maalinguid . </s> 
+</p>
+<p>
+ <s> Venemaa kõigi aegade suurimal Warholi-näitusel on väljas esinduslik valik kunstniku töid , millest varasemad pärinevad 1950. ja hilisemad 1980. aastatest . </s>
+<s> ( PM ) </s> 
+</p>
+</div0>

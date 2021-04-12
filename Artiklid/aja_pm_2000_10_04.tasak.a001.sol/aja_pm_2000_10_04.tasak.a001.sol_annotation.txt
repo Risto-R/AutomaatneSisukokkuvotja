@@ -1,0 +1,207 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a001.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Põllumajandusülikoolis on [e1 tekitanud ] ärevust haridusministeeriumi [e2 kava ] [e3 jagada ] kool kaheks : [e4 luua ] tehnikaalade põhjal Tartusse uus rakenduslik kõrgkool ja [e5 liita ] ülejäänud erialad Tartu Ülikooliga .
+     e1 "tekitanud"  BEFORE-OR-OVERLAP  DCT 
+     e1 "tekitanud"  SIMULTANEOUS  e2 "kava" 
+     e1 "tekitanud"  BEFORE  e7 "rajataks" 
+     e2 "kava"  VAGUE  DCT 
+     e2 "kava"  BEFORE  e3 "jagada" 
+     e3 "jagada"  AFTER  DCT 
+     e3 "jagada"  SIMULTANEOUS  e4 "luua" 
+     e3 "jagada"  SIMULTANEOUS  e5 "liita" 
+     e4 "luua"  AFTER  DCT 
+     e4 "luua"  SIMULTANEOUS  e5 "liita" 
+     e5 "liita"  AFTER  DCT 
+
+ s1  Haridusministrit nõustavas komisjonis [e6 tekkinud ] idee kohaselt [e7 rajataks ] Tartu Lennukolledži ja põllumajandusülikooli tehnikaalade põhjal Tartu tehnikakõrgkool .
+     e6 "tekkinud"  BEFORE  DCT 
+     e6 "tekkinud"  BEFORE  e7 "rajataks" 
+     e7 "rajataks"  AFTER  DCT 
+     e7 "rajataks"  SIMULTANEOUS  e8 "liidetaks" 
+
+ s2  Tartu Ülikooliga [e8 liidetaks ] seega ainult osa erialasid , mitte terve põllumajandusülikool , nagu [t1 varem ] välja [e9 pakutud ] .
+     e8 "liidetaks"  AFTER  DCT 
+     e8 "liidetaks"  AFTER  e9 "pakutud" 
+     e8 "liidetaks"  SIMULTANEOUS  e11 "teostuma" 
+     e9 "pakutud"  IS_INCLUDED  t1 "varem" 
+     e9 "pakutud"  BEFORE  DCT 
+
+ s3  Idee [e10 peaks ] [e11 teostuma ] [t2 2002.-2003. ] aastal ] .
+     e10 "peaks"  AFTER  DCT 
+     e10 "peaks"  VAGUE  e11 "teostuma" 
+     e11 "teostuma"  IS_INCLUDED  t2 "2002.-" 
+     e11 "teostuma"  AFTER  DCT 
+     e11 "teostuma"  AFTER  e13 "kalduvad" 
+     e11 "teostuma"  AFTER  e16 "tõdes" 
+
+ s4  Poolt ja vastu
+ s5  " Mulle [e12 jäänud ] mulje järgi [e13 kalduvad ] komisjoni liikmed selgelt [e14 toetama ] põllumajandusülikooli [e15 poolitamist ] , " [e16 tõdes ] Tartu Postimehele Eesti Üliõpilaskondade Liidu juhatuse esimees Leif Kalev , kes [e17 kuulub ] ka ise haridusministrit nõustavasse komisjoni .
+     e12 "jäänud"  INCLUDES  DCT 
+     e12 "jäänud"  BEFORE  e15 "poolitamist" 
+     e12 "jäänud"  IS_INCLUDED  e13 "kalduvad" 
+     e13 "kalduvad"  INCLUDES  DCT 
+     e13 "kalduvad"  INCLUDES  e16 "tõdes" 
+     e13 "kalduvad"  SIMULTANEOUS  e14 "toetama" 
+     e13 "kalduvad"  VAGUE  e19 "on kasulik" 
+     e14 "toetama"  INCLUDES  DCT 
+     e14 "toetama"  BEFORE  e15 "poolitamist" 
+     e15 "poolitamist"  AFTER  DCT 
+     e16 "tõdes"  BEFORE-OR-OVERLAP  DCT 
+     e16 "tõdes"  IS_INCLUDED  e17 "kuulub" 
+     e16 "tõdes"  BEFORE  e19 "on kasulik" 
+     e17 "kuulub"  INCLUDES  DCT 
+
+ s6  Kalevi [e18 hinnangul ] [e19 on ] kooli kaheks [e20 jagamine ] [e19 kasulik ] vaid siis , kui sellest [e21 muutub ] tudengitele midagi paremaks ja [e22 õnnestub ] ka raha kokku [e23 hoida ] .
+     e18 "hinnangul"  BEFORE-OR-OVERLAP  DCT 
+     e18 "hinnangul"  BEFORE  e19 "on kasulik" 
+     e19 "on kasulik"  AFTER  DCT 
+     e19 "on kasulik"  INCLUDES  e20 "jagamine" 
+     e19 "on kasulik"  SIMULTANEOUS  e21 "muutub" 
+     e19 "on kasulik"  AFTER  e24 "Tuleks" 
+     e19 "on kasulik"  AFTER  e26 "nentis" 
+     e20 "jagamine"  AFTER  DCT 
+     e21 "muutub"  AFTER  DCT 
+     e21 "muutub"  SIMULTANEOUS  e22 "õnnestub" 
+     e21 "muutub"  SIMULTANEOUS  e23 "hoida" 
+     e22 "õnnestub"  AFTER  DCT 
+     e22 "õnnestub"  SIMULTANEOUS  e23 "hoida" 
+     e23 "hoida"  AFTER  DCT 
+
+ s7  " [e24 Tuleks ] [e25 küsida ] üliõpilaste arvamust , " [e26 nentis ] ta .
+     e24 "Tuleks"  AFTER  DCT 
+     e24 "Tuleks"  VAGUE  e25 "küsida" 
+     e24 "Tuleks"  OVERLAP-OR-AFTER  e27 "peab" 
+     e25 "küsida"  AFTER  DCT 
+     e25 "küsida"  AFTER  e26 "nentis" 
+     e26 "nentis"  BEFORE-OR-OVERLAP  DCT 
+     e26 "nentis"  IS_INCLUDED  e27 "peab" 
+
+ s8  Põllumajandusülikooli rektor Henn Elmet [e27 peab ] kooli [e28 jagamise ] ja teiste kõrgkoolidega [e29 liitmise ] [e30 ideed ] [e31 mõtlematuseks ] .
+     e27 "peab"  INCLUDES  DCT 
+     e27 "peab"  VAGUE  e30 "ideed" 
+     e27 "peab"  VAGUE  e31 "mõtlematuseks" 
+     e27 "peab"  BEFORE  e34 "anda" 
+     e27 "peab"  SIMULTANEOUS  e35 "on kindel" 
+     e28 "jagamise"  AFTER  DCT 
+     e28 "jagamise"  OVERLAP-OR-AFTER  e30 "ideed" 
+     e28 "jagamise"  SIMULTANEOUS  e29 "liitmise" 
+     e29 "liitmise"  AFTER  DCT 
+     e29 "liitmise"  OVERLAP-OR-AFTER  e30 "ideed" 
+     e30 "ideed"  VAGUE  DCT 
+     e31 "mõtlematuseks"  VAGUE  DCT 
+
+ s9  " Teiste koolidega [e32 integreerumine ] [e33 saab ] [e34 anda ] ainult negatiivse tulemuse , " [e35 on ] Elmet [e35 kindel ] .
+     e32 "integreerumine"  AFTER  DCT 
+     e32 "integreerumine"  BEFORE  e34 "anda" 
+     e33 "saab"  OVERLAP-OR-AFTER  DCT 
+     e33 "saab"  VAGUE  e34 "anda" 
+     e34 "anda"  OVERLAP-OR-AFTER  DCT 
+     e34 "anda"  AFTER  e35 "on kindel" 
+     e34 "anda"  AFTER  e39 "ebaõnnestunud" 
+     e34 "anda"  OVERLAP-OR-AFTER  e41 "jäänud" 
+     e35 "on kindel"  INCLUDES  DCT 
+     e35 "on kindel"  AFTER  e39 "ebaõnnestunud" 
+     e35 "on kindel"  IS_INCLUDED  e41 "jäänud" 
+
+ s10  Tema [e36 väitel ] on paljud senised kõrgkoolide ja teadusasutuste [e37 integreerimise ] [e38 katsed ] [e39 ebaõnnestunud ] ning igas põhjamaaski on põllumajanduserialadele [e40 spetsialiseerunud ] ülikool alles [e41 jäänud ] .
+     e36 "väitel"  BEFORE-OR-OVERLAP  DCT 
+     e36 "väitel"  AFTER  e39 "ebaõnnestunud" 
+     e37 "integreerimise"  BEFORE  DCT 
+     e37 "integreerimise"  OVERLAP-OR-AFTER  e38 "katsed" 
+     e38 "katsed"  BEFORE  DCT 
+     e38 "katsed"  BEFORE-OR-OVERLAP  e39 "ebaõnnestunud" 
+     e39 "ebaõnnestunud"  BEFORE  DCT 
+     e39 "ebaõnnestunud"  BEFORE-OR-OVERLAP  e41 "jäänud" 
+     e39 "ebaõnnestunud"  BEFORE  e43 "muudab" 
+     e40 "spetsialiseerunud"  INCLUDES  DCT 
+     e40 "spetsialiseerunud"  INCLUDES  e41 "jäänud" 
+     e41 "jäänud"  INCLUDES  DCT 
+     e41 "jäänud"  BEFORE-OR-OVERLAP  e43 "muudab" 
+
+ s11  Henn Elmeti [e42 hinnangul ] [e43 muudab ] põllumajandusülikooli [e44 jagamise ] raskeks ka see , et selle teaduskonnad ja instituudid on omavahel väga tihedalt [e45 seotud ] .
+     e42 "hinnangul"  BEFORE-OR-OVERLAP  DCT 
+     e42 "hinnangul"  BEFORE  e43 "muudab" 
+     e43 "muudab"  OVERLAP-OR-AFTER  DCT 
+     e43 "muudab"  BEFORE  e44 "jagamise" 
+     e43 "muudab"  IS_INCLUDED  e45 "seotud" 
+     e43 "muudab"  OVERLAP-OR-AFTER  e47 "on vastu" 
+     e44 "jagamise"  AFTER  DCT 
+     e45 "seotud"  INCLUDES  DCT 
+
+ s12  Aktiivne üliõpilasesindus
+ s13  Põllumajandusülikooli üliõpilasesinduse aseesimehe Karel Rüütli [e46 väitel ] [e47 on ] esinduse liikmed kooli [e48 jagamise ] [e47 vastu ] .
+     e46 "väitel"  BEFORE-OR-OVERLAP  DCT 
+     e46 "väitel"  IS_INCLUDED  e47 "on vastu" 
+     e47 "on vastu"  INCLUDES  DCT 
+     e47 "on vastu"  INCLUDES  e49 "kinnitab" 
+     e48 "jagamise"  AFTER  DCT 
+     e48 "jagamise"  AFTER  e47 "on vastu" 
+
+ s14  Vastuseisu [e49 kinnitab ] ka üliõpilasesinduse [e50 korraldatud ] [e51 küsitlus ] .
+     e49 "kinnitab"  BEFORE-OR-OVERLAP  DCT 
+     e49 "kinnitab"  AFTER  e50 "korraldatud" 
+     e49 "kinnitab"  AFTER  e51 "küsitlus" 
+     e49 "kinnitab"  AFTER  e54 "vastas" 
+     e50 "korraldatud"  BEFORE  DCT 
+     e50 "korraldatud"  BEFORE-OR-OVERLAP  e51 "küsitlus" 
+     e51 "küsitlus"  BEFORE  DCT 
+
+ s15  Küsimusele , kas nad [e52 pooldavad ] iseseisva põllumajandusülikooli [e53 kaotamist ] , [e54 vastas ] neli viiendikku tudengitest eitavalt .
+     e52 "pooldavad"  VAGUE  DCT 
+     e52 "pooldavad"  BEFORE-OR-OVERLAP  e53 "kaotamist" 
+     e52 "pooldavad"  INCLUDES  e54 "vastas" 
+     e53 "kaotamist"  AFTER  DCT 
+     e54 "vastas"  BEFORE  DCT 
+     e54 "vastas"  IS_INCLUDED  e55 "kuulu" 
+
+ s16  Rektor Elmet ei [e55 kuulu ] haridusministrit nõustavasse komisjoni , kuigi paljude teiste ülikoolide rektorid või esindajad [e56 kuuluvad ] .
+     e55 "kuulu"  INCLUDES  DCT 
+     e55 "kuulu"  SIMULTANEOUS  e56 "kuuluvad" 
+     e55 "kuulu"  SIMULTANEOUS  e58 "mõjutab" 
+     e56 "kuuluvad"  INCLUDES  DCT 
+
+ s17  Rüütli [e57 hinnangul ] [e58 mõjutab ] see komisjoni otsuseid .
+     e57 "hinnangul"  BEFORE-OR-OVERLAP  DCT 
+     e57 "hinnangul"  IS_INCLUDED  e58 "mõjutab" 
+     e58 "mõjutab"  INCLUDES  DCT 
+     e58 "mõjutab"  INCLUDES  e60 "märkis" 
+     e58 "mõjutab"  INCLUDES  e61 "näib" 
+     e58 "mõjutab"  SIMULTANEOUS  e59 "kalduvad" 
+
+ s18  " Komisjoni liikmed [e59 kalduvad ] vaadetelt koalitsiooni poole , aga meie rektor pigem opositsiooni poole , " [e60 märkis ] Rüütli , " [e61 näib ] , et valitsuse koridorides on asi juba ära [e62 otsustatud ] . "
+     e59 "kalduvad"  INCLUDES  DCT 
+     e59 "kalduvad"  INCLUDES  e60 "märkis" 
+     e59 "kalduvad"  INCLUDES  e63 "korraldab" 
+     e60 "märkis"  BEFORE-OR-OVERLAP  DCT 
+     e60 "märkis"  IS_INCLUDED  e61 "näib" 
+     e60 "märkis"  BEFORE  e63 "korraldab" 
+     e61 "näib"  VAGUE  DCT 
+     e61 "näib"  OVERLAP-OR-AFTER  e62 "otsustatud" 
+     e61 "näib"  INCLUDES  e63 "korraldab" 
+     e62 "otsustatud"  BEFORE  DCT 
+
+ s19  Põllumajandusülikooli tulevikuväljavaadete arutamiseks [e63 korraldab ] üliõpilasesindus [t4 täna ] [e64 arutelu ] , kuhu on [e65 esinema ] [e66 kutsutud ] haridusministeeriumi , ülikooli , põllumajandusülikooli ja lennukolledži esindajad .
+     e63 "korraldab"  IS_INCLUDED  t4 "täna" 
+     e63 "korraldab"  IS_INCLUDED  DCT 
+     e63 "korraldab"  BEFORE-OR-OVERLAP  e64 "arutelu" 
+     e63 "korraldab"  OVERLAP-OR-AFTER  e66 "kutsutud" 
+     e63 "korraldab"  AFTER  e67 "soovinud" 
+     e64 "arutelu"  IS_INCLUDED  DCT 
+     e65 "esinema"  IS_INCLUDED  DCT 
+     e65 "esinema"  AFTER  e66 "kutsutud" 
+     e66 "kutsutud"  BEFORE  DCT 
+
+ s20  Tartu Ülikooli rektor Jaak Aaviksoo ega Tartu Lennukolledži rektor Villu Mikita ei [e67 soovinud ] [t5 eile ] Tartu Postimehele Eesti Põllumajandusülikooli võimaliku [e68 poolitamise ] ning sellest tulenevat erialade [e69 ülevõtmise ] teemat [e70 kommenteerida ] .
+     e67 "soovinud"  IS_INCLUDED  t5 "eile" 
+     e67 "soovinud"  BEFORE  DCT 
+     e67 "soovinud"  BEFORE-OR-OVERLAP  e70 "kommenteerida" 
+     e68 "poolitamise"  AFTER  DCT 
+     e68 "poolitamise"  AFTER  e70 "kommenteerida" 
+     e68 "poolitamise"  BEFORE-OR-OVERLAP  e69 "ülevõtmise" 
+     e69 "ülevõtmise"  AFTER  DCT 
+     e69 "ülevõtmise"  AFTER  e70 "kommenteerida" 
+     e70 "kommenteerida"  BEFORE  DCT 
+
+

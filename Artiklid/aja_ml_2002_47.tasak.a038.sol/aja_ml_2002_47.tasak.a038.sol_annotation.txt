@@ -1,0 +1,236 @@
+==================================================
+     aja_ml_2002_47.tasak.a038.sol
+      DCT: 2002-11-21
+==================================================
+ s0  [t1 Kuuendat aastat ] peetava Pimedate Ööde [e1 Filmifestivali ] ( PÖFF ) [e2 juhatab ] kolmandat korda sisse tudengifilmide [e3 festival ] , seekord [t2 23.-29. ] novembrini ] Kinomajas .
+     e1 "Filmifestivali"  AFTER  DCT 
+     e1 "Filmifestivali"  OVERLAP-OR-AFTER  e2 "juhatab" 
+     e2 "juhatab"  AFTER  DCT 
+     e2 "juhatab"  BEFORE-OR-OVERLAP  e3 "festival" 
+     e2 "juhatab"  IS_INCLUDED  e4 "on põhjust" 
+     e3 "festival"  SIMULTANEOUS  t2 "23.-" 
+     e3 "festival"  AFTER  DCT 
+
+ s1  Selle üle [e4 on ] [e4 põhjust ] [e5 rõõmustada ] Tallinna Pedagoogikaülikooli filmitudengeil eesotsas nende juhi Rein Maraniga .
+     e4 "on põhjust"  INCLUDES  DCT 
+     e4 "on põhjust"  VAGUE  e5 "rõõmustada" 
+     e4 "on põhjust"  VAGUE  e6 "on pärit" 
+     e5 "rõõmustada"  VAGUE  DCT 
+
+ s2  79 tudengifilmi [e6 on ] [e6 pärit ] 32 riigist .
+     e6 "on pärit"  VAGUE  DCT 
+     e6 "on pärit"  VAGUE  e10 "näha" 
+
+ s3  Noortele [e7 mõeldud ] [e8 programmis ] " Vanad ja väärikad " [e9 saab ] [e10 näha ] poola filmiklassikute Andrzej Wajda , Roman Polanski , Krzysztof Zanussi ja Krzysztof Kieslowski noorpõlvefilme .
+     e7 "mõeldud"  VAGUE  DCT 
+     e7 "mõeldud"  BEFORE-OR-OVERLAP  e8 "programmis" 
+     e8 "programmis"  VAGUE  DCT 
+     e8 "programmis"  SIMULTANEOUS  e10 "näha" 
+     e9 "saab"  AFTER  DCT 
+     e9 "saab"  VAGUE  e10 "näha" 
+     e10 "näha"  AFTER  DCT 
+     e10 "näha"  SIMULTANEOUS  e11 "näidatakse" 
+
+ s4  Ka lastele midagi
+ s5  [t4 Kahe viimase aasta ] laste- ja noortefilme [e11 näidatakse ] [t5 [t6 sel ] aastal 23.-30. novembrini ] Nukuteatris .
+     e11 "näidatakse"  SIMULTANEOUS  t5 "sel aastal 23.-30. novembrini" 
+     e11 "näidatakse"  AFTER  DCT 
+     e11 "näidatakse"  AFTER  e12 "olnud" 
+
+ s6  Selle programmi raames on [t7 varasematel aastatel ] [e12 olnud ] vägagi huvitavaid töid , mida [e13 tasuks ] meiegi teismelistel [e14 näha ] .
+     e12 "olnud"  IS_INCLUDED  t7 "varasematel aastatel" 
+     e12 "olnud"  BEFORE  DCT 
+     e12 "olnud"  BEFORE  e13 "tasuks" 
+     e12 "olnud"  BEFORE  e14 "näha" 
+     e12 "olnud"  BEFORE  e16 "pandud" 
+     e13 "tasuks"  VAGUE  DCT 
+     e13 "tasuks"  BEFORE-OR-OVERLAP  e14 "näha" 
+     e14 "näha"  VAGUE  DCT 
+
+ s7  Astrid Lindgreni raamatute põhjal [e15 tehtud ] filmidest on kokku [e16 pandud ] [e17 eriprogramm ] .
+     e15 "tehtud"  BEFORE  DCT 
+     e15 "tehtud"  BEFORE  e16 "pandud" 
+     e16 "pandud"  BEFORE  DCT 
+     e16 "pandud"  BEFORE  e17 "eriprogramm" 
+     e16 "pandud"  BEFORE  e18 "on kohal" 
+     e17 "eriprogramm"  AFTER  DCT 
+
+ s8  Ka animafilmid [e18 on ] [e18 kohal ] - nagu [t8 eelmisel kolmel aastalgi ] .
+     e18 "on kohal"  IS_INCLUDED  t8 "eelmisel kolmel aastalgi" 
+     e18 "on kohal"  AFTER  DCT 
+     e18 "on kohal"  SIMULTANEOUS  e20 "näha" 
+
+ s9  Muu hulgas on selles [e19 programmis ] [e20 näha ] Inglise lastefilme , Jaapani lühianimafilme , samuti Eesti uusi animafilme ning vanameister Elbert Tuganovi retrospektiiv .
+     e19 "programmis"  AFTER  DCT 
+     e19 "programmis"  SIMULTANEOUS  e20 "näha" 
+     e20 "näha"  AFTER  DCT 
+     e20 "näha"  AFTER  e21 "langes" 
+
+ s10  Teatavasti [e21 langes ] vähemalt [t9 möödunud aastal ] [e22 PÖFFiga ] samale ajale Euroopa Filmiakadeemia auhindade [e23 kätteandmine ] .
+     e21 "langes"  IS_INCLUDED  t9 "möödunud aastal" 
+     e21 "langes"  BEFORE  DCT 
+     e21 "langes"  VAGUE  e22 "PÖFFiga" 
+     e21 "langes"  VAGUE  e23 "kätteandmine" 
+     e21 "langes"  BEFORE  e24 "kuulutatakse" 
+     e22 "PÖFFiga"  BEFORE  DCT 
+     e22 "PÖFFiga"  INCLUDES  e23 "kätteandmine" 
+     e23 "kätteandmine"  BEFORE  DCT 
+
+ s11  Seekord [e24 kuulutatakse ] Euroopa parimad filmid välja juhtumisi [e25 PÖFFi ] lõpupäeval [t10 7. detsembril ] .
+     e24 "kuulutatakse"  IS_INCLUDED  t10 "7. detsembril" 
+     e24 "kuulutatakse"  AFTER  DCT 
+     e24 "kuulutatakse"  IS_INCLUDED  e25 "PÖFFi" 
+     e24 "kuulutatakse"  OVERLAP-OR-AFTER  e26 "on kavas" 
+     e24 "kuulutatakse"  VAGUE  e27 "taotlevad" 
+     e25 "PÖFFi"  AFTER  DCT 
+
+ s12  Nagu [t11 mullu ] , [e26 on ] ka seekord festivali [e26 kavas ] mitmed Euroopa Filmiakadeemia auhindadele kandideerivad tööd ; viis neist [e27 taotlevad ] koguni parima filmi nimetust .
+     e26 "on kavas"  INCLUDES  DCT 
+     e26 "on kavas"  VAGUE  e27 "taotlevad" 
+     e26 "on kavas"  SIMULTANEOUS  e28 "on" 
+     e27 "taotlevad"  INCLUDES  DCT 
+     e27 "taotlevad"  VAGUE  e28 "on" 
+
+ s13  Programmis [e28 on ] ka kolm Euroopa parimaks dokumentaalfilmiks pürgivat teost .
+     e28 "on"  INCLUDES  DCT 
+     e28 "on"  SIMULTANEOUS  e30 "on" 
+
+ s14  Vene filmiloojad külas
+ s15  [e29 Festivalil ] [e30 on ] palju Vene filme ning sellega seoses ka rohkelt külalisi Venemaalt .
+     e29 "Festivalil"  AFTER  DCT 
+     e29 "Festivalil"  IS_INCLUDED  e30 "on" 
+     e30 "on"  INCLUDES  DCT 
+     e30 "on"  SIMULTANEOUS  e31 "on" 
+
+ s16  Külaliste nimekirjas [e31 on ] Andrei Kontšalovski oma viimase , Vene-Prantsuse koostööfilmiga " Hullumaja " , Valeri Fokin filmiga " Metamorfoos " , Aleksandr Mitta " Kõrvetava laupäevaga " , Valeri Todorovski " Armukesega " ja teised .
+     e31 "on"  INCLUDES  DCT 
+     e31 "on"  BEFORE-OR-OVERLAP  e32 "mõjub" 
+
+ s17  Kindlasti [e32 mõjub ] see värskendavalt , sest ega [t12 viimastel aegadel ] polegi Eesti publik Vene filme eriti [e33 näinud ] .
+     e32 "mõjub"  AFTER  DCT 
+     e32 "mõjub"  AFTER  e33 "näinud" 
+     e32 "mõjub"  OVERLAP-OR-AFTER  e34 "tulemas" 
+     e33 "näinud"  SIMULTANEOUS  t12 "viimastel aegadel" 
+     e33 "näinud"  BEFORE  DCT 
+
+ s18  Külalisi on [e34 tulemas ] veel Norrast , Soomest , Poolast , Moldovast , Rootsist , Islandilt , Saksamaalt .
+     e34 "tulemas"  AFTER  DCT 
+     e34 "tulemas"  SIMULTANEOUS  e35 "Oodata" 
+
+ s19  [e35 Oodata ] on ka indiaanifilmide staari Gojko Miticit .
+     e35 "Oodata"  OVERLAP-OR-AFTER  DCT 
+     e35 "Oodata"  BEFORE-OR-OVERLAP  e36 "on" 
+
+ s20  Oluline külaline oma seitsme varasema filmiga ja viimase tööga " Looduse lapsed " [e36 on ] islandi režissöör Fridrik Thor Fridriksson .
+     e36 "on"  AFTER  DCT 
+     e36 "on"  OVERLAP-OR-AFTER  e37 "näidatakse" 
+
+ s21  Siin [e37 näidatakse ] tema tööde retrospektiivi .
+     e37 "näidatakse"  AFTER  DCT 
+     e37 "näidatakse"  AFTER  e38 "tõusnud" 
+
+ s22  Eestist märgatavalt väiksema elanikkonnaga Island on [e38 tõusnud ] arvestatavaks filmimaaks .
+     e38 "tõusnud"  BEFORE  DCT 
+     e38 "tõusnud"  BEFORE  e40 "tulemas" 
+
+ s23  [e39 Festivalile ] on [e40 tulemas ] ka siin [t13 suvelgi ] [e41 viibinud ] poola nimekas stsenarist Krzysztof Piesiewicz ( Kieslowski värvitriloogia filmide stsenarist ) filmidega " Vaikus " ja " Taevas " .
+     e39 "Festivalile"  AFTER  DCT 
+     e39 "Festivalile"  SIMULTANEOUS  e40 "tulemas" 
+     e40 "tulemas"  AFTER  DCT 
+     e40 "tulemas"  AFTER  e41 "viibinud" 
+     e40 "tulemas"  IS_INCLUDED  e42 "on" 
+     e41 "viibinud"  IS_INCLUDED  t13 "suvelgi" 
+     e41 "viibinud"  BEFORE  DCT 
+
+ s24  Üldse [e42 on ] festivali põhiprogrammis 117 filmi .
+     e42 "on"  INCLUDES  DCT 
+     e42 "on"  VAGUE  e43 "nimetatud" 
+
+ s25  Lisaks eespool [e43 nimetatud ] maadele Ameerika Ühendriikidest , Prantsusmaalt , Suurbritanniast , Palestiinast , Mauritaaniast ja mujalt .
+     e43 "nimetatud"  BEFORE-OR-OVERLAP  DCT 
+     e43 "nimetatud"  VAGUE  e45 "pole" 
+     e43 "nimetatud"  VAGUE  e46 "on" 
+
+ s26  Aki Kaurismäki " Minevikuta mees " , mis meil [t14 praegu ] [e44 jookseb ] , programmis [e45 pole ] , küll aga [e46 on ] tema venna Mika Kaurismäki " Brasiilia helid " .
+     e44 "jookseb"  SIMULTANEOUS  t14 "praegu" 
+     e44 "jookseb"  INCLUDES  DCT 
+     e44 "jookseb"  SIMULTANEOUS  e45 "pole" 
+     e45 "pole"  INCLUDES  DCT 
+     e45 "pole"  SIMULTANEOUS  e46 "on" 
+     e45 "pole"  VAGUE  e48 "pakkuma" 
+     e46 "on"  INCLUDES  DCT 
+     e46 "on"  VAGUE  e48 "pakkuma" 
+
+ s27  Huvi [e47 peaksid ] [e48 pakkuma ] Hispaania tuntuima režissööri Pedro Almodóvari viimatine film " Räägi temaga " või sakslase Werner Herzogi [t15 kaks aastat tagasi ] [e49 tehtud ] " Võitmatu " .
+     e47 "peaksid"  VAGUE  DCT 
+     e47 "peaksid"  VAGUE  e48 "pakkuma" 
+     e48 "pakkuma"  VAGUE  DCT 
+     e48 "pakkuma"  AFTER  e49 "tehtud" 
+     e48 "pakkuma"  VAGUE  e50 "näevad" 
+     e49 "tehtud"  IS_INCLUDED  t15 "kaks aastat tagasi" 
+     e49 "tehtud"  BEFORE  DCT 
+
+ s28  Tallinlased [e50 näevad ] festivalifilme Sakala Keskuses , Kinomajas , Sõpruses ja Kosmoses ning Nukuteatris , tartlased kinos Illusioon ja Sadamateatris , viljandlased draamateatris Ugala .
+     e50 "näevad"  AFTER  DCT 
+     e50 "näevad"  INCLUDES  e53 "avatakse" 
+
+ s29  [e51 Festivali ] [e52 põhiprogramm ] [e53 avatakse ] [t16 reedel , 29. novembril kl 19 ] Sakala Keskuses Tom Tykweri filmiga " Taevas " ( Saksa-USA ) .
+     e51 "Festivali"  AFTER  DCT 
+     e51 "Festivali"  INCLUDES  e52 "põhiprogramm" 
+     e52 "põhiprogramm"  AFTER  DCT 
+     e52 "põhiprogramm"  OVERLAP-OR-AFTER  e53 "avatakse" 
+     e53 "avatakse"  SIMULTANEOUS  t16 "reedel , 29. novembril kl 19" 
+     e53 "avatakse"  AFTER  DCT 
+     e53 "avatakse"  BEFORE  e55 "esilinastub" 
+
+ s30  [e54 Lõpetamisel ] [t17 7. detsembril ] [e55 esilinastub ] uus Eesti mängufilm " Vanad ja kobedad saavad jalad alla " .
+     e54 "Lõpetamisel"  AFTER  DCT 
+     e54 "Lõpetamisel"  INCLUDES  e55 "esilinastub" 
+     e55 "esilinastub"  IS_INCLUDED  t17 "7. detsembril" 
+     e55 "esilinastub"  AFTER  DCT 
+     e55 "esilinastub"  OVERLAP-OR-AFTER  e56 "on kavas" 
+
+ s31  Eesti tegijailt [e56 on ] [e56 kavas ] veel Jüri Sillarti vastne dokumentaalfilm Leida Laiusest " Leida lugu " , Marko Raadi " Agent Sinikael " ning lühimängufilmid " Pääsemine " ( Hendrik Toompere ) ja " Ferdinand " ( Andri Luup ) .
+     e56 "on kavas"  INCLUDES  DCT 
+     e56 "on kavas"  INCLUDES  e57 "esitab" 
+
+ s32  Esto TV [e57 esitab ] filmi " Welcome to Estonia " .
+     e57 "esitab"  AFTER  DCT 
+     e57 "esitab"  VAGUE  e58 "pole" 
+
+ s33  " Nimed marmortahvlil " kui [t18 praegu ] kinoekraanidel linastuv film festivaliprogrammis [e58 pole ] .
+     e58 "pole"  INCLUDES  DCT 
+     e58 "pole"  VAGUE  e60 "olnud mängumaa" 
+
+ s34  Piletid odavad
+ s35  [t19 Seni ] on [e59 PÖFF ] [e60 olnud ] suuresti noore publiku [e60 mängumaa ] .
+     e59 "PÖFF"  BEFORE  DCT 
+     e59 "PÖFF"  SIMULTANEOUS  e60 "olnud mängumaa" 
+     e60 "olnud mängumaa"  BEFORE-OR-OVERLAP  t19 "Seni" 
+     e60 "olnud mängumaa"  BEFORE-OR-OVERLAP  DCT 
+     e60 "olnud mängumaa"  BEFORE-OR-OVERLAP  e61 "tähenda" 
+
+ s36  See ei [e61 tähenda ] , et nii [e62 peabki ] [e63 olema ] .
+     e61 "tähenda"  VAGUE  DCT 
+     e61 "tähenda"  VAGUE  e63 "olema" 
+     e61 "tähenda"  BEFORE-OR-OVERLAP  e64 "leidub" 
+     e62 "peabki"  VAGUE  DCT 
+     e62 "peabki"  VAGUE  e63 "olema" 
+     e63 "olema"  VAGUE  DCT 
+
+ s37  Seda enam et festivalifilmide hulgas [e64 leidub ] kindlasti ka vanemaid huvitava probleemistikuga töid .
+     e64 "leidub"  INCLUDES  DCT 
+     e64 "leidub"  INCLUDES  e65 "räägib" 
+
+ s38  Päris eakatest [e65 räägib ] näiteks " Looduse lapsed . "
+     e65 "räägib"  VAGUE  DCT 
+     e65 "räägib"  IS_INCLUDED  e66 "on madalamad" 
+
+ s39  Piletihinnad [e66 on ] [e66 madalamad ] kui muidu kinodes , 25-60 krooni ( vaid ööseanssidel Sõpruses 75 kr ) .
+     e66 "on madalamad"  INCLUDES  DCT 
+     e66 "on madalamad"  INCLUDES  e67 "on" 
+
+ s40  Sakala Keskuse suures saalis [e67 on ] filmidel ka eestikeelne tõlge .
+     e67 "on"  AFTER  DCT 
+
+

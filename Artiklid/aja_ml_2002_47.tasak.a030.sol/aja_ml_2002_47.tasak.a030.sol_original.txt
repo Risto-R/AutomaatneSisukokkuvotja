@@ -1,11 +1,37 @@
 <div0><head> Viljandimaa kutsub maaelukonverentsile </head>
-<p> <s> <hi rend="italic"> 20.11.2002 <bibl> <author> Heino Laiapea </author> </bibl> </hi> </s> </p>
-<p> <s> Viljandis peetakse 29. novembril konverents " Õitsev Viljandimaa - kas nostalgiline minevik või helge tulevik ? " . </s> <s> Viljandi asemaavanem Urmas Tuuleveski ütles , et konverentsi mõtte algatas kohalik taluliit . </s> </p>
-<p> <s> Konverentsi avab ETKLi juhatuse esimees Ilmar Haak , kavas on kümme sõnavõttu mitmete organisatsioonide esindajatelt . </s> </p>
-<p> <s> Ühenduse Kodukant Viljandimaa juhatuse esimees Kaja Kaur ütles , et konverentsi eesmärk on rääkida maaelu probleemidest nii , nagu need on . </s> </p>
-<p> <s> " Tahame teha eri organisatsioonidega rohkem koostööd , " nentis Kaur . </s> <s> " Tundub , et seni oleme liiga vähe omavahel suhelnud . </s> <s> " Ühine eesmärk on , et Viljandimaal säiliksid maakodud , ja sealsed inimesed leiaksid rakendust . </s> <s> Lisaks põllumajanduslikule suurtootmisele on maal väiketalud , kus elavatele inimestele tuleb leida tegevust oma piirkonnas . " </s> </p>
-<p> <s> Viljandi maavanem räägib tänasest Viljandimaast ja majandusminister Liina Tõnisson ettevõtluse arendamisest Viljandimaal . </s> <s> Eesti Maanaiste Ühenduse esimehelt Tiiu Soansilt on ettekanne peretaludest . </s> </p>
-<p> <s> Viljandi volikogu esimees Arnold Kimber räägib sellest , kuidas linn toetab maaettevõtlust ning professor Jaan Leetsar annab teada , kuidas jätta maale rohkem raha . </s> </p>
-<p> <s> Sakala peatoimetaja Eve Rohtla sõnul on Viljandimaal säilinud väga huvitava ajalooga häärbereid - need on Viljandimaa magnetiks . </s> </p>
-<p> <s> Konverentsi lõpus on kavas ühetunnine diskussioon ja otsuse vastuvõtmine . </s> </p>
-<p> <s> Korraldajate sõnul on maavalitsuse saalis kell 10 algavale konverentsile oodatud kõik inimesed , kes huvitatud Viljandimaa ajaloost ja arengust . </s> </p></div0>
+<p>
+ <s> <hi rend="italic"> 20.11.2002 <bibl> <author> Heino Laiapea </author> </bibl> </hi> </s> 
+</p>
+<p>
+ <s> Viljandis peetakse 29. novembril konverents " Õitsev Viljandimaa - kas nostalgiline minevik või helge tulevik ? " . </s>
+<s> Viljandi asemaavanem Urmas Tuuleveski ütles , et konverentsi mõtte algatas kohalik taluliit . </s> 
+</p>
+<p>
+ <s> Konverentsi avab ETKLi juhatuse esimees Ilmar Haak , kavas on kümme sõnavõttu mitmete organisatsioonide esindajatelt . </s> 
+</p>
+<p>
+ <s> Ühenduse Kodukant Viljandimaa juhatuse esimees Kaja Kaur ütles , et konverentsi eesmärk on rääkida maaelu probleemidest nii , nagu need on . </s> 
+</p>
+<p>
+ <s> " Tahame teha eri organisatsioonidega rohkem koostööd , " nentis Kaur . </s>
+<s> " Tundub , et seni oleme liiga vähe omavahel suhelnud . </s>
+<s> " Ühine eesmärk on , et Viljandimaal säiliksid maakodud , ja sealsed inimesed leiaksid rakendust . </s>
+<s> Lisaks põllumajanduslikule suurtootmisele on maal väiketalud , kus elavatele inimestele tuleb leida tegevust oma piirkonnas . " </s> 
+</p>
+<p>
+ <s> Viljandi maavanem räägib tänasest Viljandimaast ja majandusminister Liina Tõnisson ettevõtluse arendamisest Viljandimaal . </s>
+<s> Eesti Maanaiste Ühenduse esimehelt Tiiu Soansilt on ettekanne peretaludest . </s> 
+</p>
+<p>
+ <s> Viljandi volikogu esimees Arnold Kimber räägib sellest , kuidas linn toetab maaettevõtlust ning professor Jaan Leetsar annab teada , kuidas jätta maale rohkem raha . </s> 
+</p>
+<p>
+ <s> Sakala peatoimetaja Eve Rohtla sõnul on Viljandimaal säilinud väga huvitava ajalooga häärbereid - need on Viljandimaa magnetiks . </s> 
+</p>
+<p>
+ <s> Konverentsi lõpus on kavas ühetunnine diskussioon ja otsuse vastuvõtmine . </s> 
+</p>
+<p>
+ <s> Korraldajate sõnul on maavalitsuse saalis kell 10 algavale konverentsile oodatud kõik inimesed , kes huvitatud Viljandimaa ajaloost ja arengust . </s> 
+</p>
+</div0>

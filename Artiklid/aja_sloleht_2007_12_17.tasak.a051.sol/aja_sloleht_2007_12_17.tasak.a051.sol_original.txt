@@ -1,8 +1,30 @@
 <div0><head> Megaehmatus : miljoniline telefoniarve </head><bibl> <author> Välisajakirjanduse põhjal Arved Mahtra </author> </bibl>
-<p rend="bold"> <s> Kanadalast Piotr Staniaszeki tabas järjekordset mobiiliarvet avades ebameeldiv üllatus – mobiilifirma väitel oli ta kõnelnud rohkem kui 85 000 dollari ehk rohkem kui 890 930 krooni eest . </s> </p>
-<p> <s> Röögatu arve ei tekkinud siiski kallitest kaugekõnedest või lustiliinidele helistamisest . </s> <s> Staniaszek oli arvanud , et saab oma telefoni kasutada ka modemina ning mõnesajakroonise kuumaksu eest piiramatult netis surfata . </s> </p>
-<p> <s> Sidefirma Bell Mobility kundena laadis ta telefoni abil internetist alla täispikki mängufilme ja muid suuri faile . </s> <s> Et ta ületas nende allalaadimisega lepingus kindlaks määratud andmesidemahu , tiksutas telefonifirma arvet järjest suuremaks . </s> </p>
-<p> <s> Pärast seda , kui lepingutingimusi valesti mõistnud Staniaszek hiigelarve pärast lamenti lõi , tuli Bell Mobility talle vastu ning vähendas summa 3243 dollarile . </s> <s> Kuid Staniaszek pole ka sellega päri ja kavatseb arve vaidlustada . </s> </p>
-<p> <s> 22aastane Calgaryst pärit naftapuurija ütles novembrikuist arvet kommenteerides , et pidas seda esialgu eksituseks . </s> <s> Arve oli esmalt olnud 65 000 dollarit , piisavalt suur , ja mees võttis telefonifirmaga ühendust ning kurtis oma muret . </s> <s> Seks ajaks oli ta aga veel filme ja muud kraami alla laadinud ning arve oli kasvanud 85 000 dollarini . </s> </p>
-<p> <s> Staniaszeki sõnul on tema mobiiliarve tavaliselt umbes 150 dollarit ning seejuures saatvat Bell Mobility talle tihtipeale hoiatusi , et tema arve on väga suur . </s> <s> " Mõnikord on telefon välja lülitatud ka tavapärasest saja dollari võrra suurema arve puhul , " kurtis Staniaszek . " </s> <s> Nüüd on ülekulu 85 000 ja keegi ei võtnud vaevaks mind hoiatada . " </s> </p>
-<p> <s> Bell Mobility esindaja kinnitas , et firma on valmis arvet vähendama 3243 dollarile , sest just nii palju maksnuks Staniaszek allalaetud kraami eest juhul , kui ta kasutanuks kõige soodsamat andmesidelepingut . </s> </p></div0>
+<p rend="bold">
+ <s> Kanadalast Piotr Staniaszeki tabas järjekordset mobiiliarvet avades ebameeldiv üllatus – mobiilifirma väitel oli ta kõnelnud rohkem kui 85 000 dollari ehk rohkem kui 890 930 krooni eest . </s> 
+</p>
+<p>
+ <s> Röögatu arve ei tekkinud siiski kallitest kaugekõnedest või lustiliinidele helistamisest . </s>
+<s> Staniaszek oli arvanud , et saab oma telefoni kasutada ka modemina ning mõnesajakroonise kuumaksu eest piiramatult netis surfata . </s> 
+</p>
+<p>
+ <s> Sidefirma Bell Mobility kundena laadis ta telefoni abil internetist alla täispikki mängufilme ja muid suuri faile . </s>
+<s> Et ta ületas nende allalaadimisega lepingus kindlaks määratud andmesidemahu , tiksutas telefonifirma arvet järjest suuremaks . </s> 
+</p>
+<p>
+ <s> Pärast seda , kui lepingutingimusi valesti mõistnud Staniaszek hiigelarve pärast lamenti lõi , tuli Bell Mobility talle vastu ning vähendas summa 3243 dollarile . </s>
+<s> Kuid Staniaszek pole ka sellega päri ja kavatseb arve vaidlustada . </s> 
+</p>
+<p>
+ <s> 22aastane Calgaryst pärit naftapuurija ütles novembrikuist arvet kommenteerides , et pidas seda esialgu eksituseks . </s>
+<s> Arve oli esmalt olnud 65 000 dollarit , piisavalt suur , ja mees võttis telefonifirmaga ühendust ning kurtis oma muret . </s>
+<s> Seks ajaks oli ta aga veel filme ja muud kraami alla laadinud ning arve oli kasvanud 85 000 dollarini . </s> 
+</p>
+<p>
+ <s> Staniaszeki sõnul on tema mobiiliarve tavaliselt umbes 150 dollarit ning seejuures saatvat Bell Mobility talle tihtipeale hoiatusi , et tema arve on väga suur . </s>
+<s> " Mõnikord on telefon välja lülitatud ka tavapärasest saja dollari võrra suurema arve puhul , " kurtis Staniaszek . " </s>
+<s> Nüüd on ülekulu 85 000 ja keegi ei võtnud vaevaks mind hoiatada . " </s> 
+</p>
+<p>
+ <s> Bell Mobility esindaja kinnitas , et firma on valmis arvet vähendama 3243 dollarile , sest just nii palju maksnuks Staniaszek allalaetud kraami eest juhul , kui ta kasutanuks kõige soodsamat andmesidelepingut . </s> 
+</p>
+</div0>

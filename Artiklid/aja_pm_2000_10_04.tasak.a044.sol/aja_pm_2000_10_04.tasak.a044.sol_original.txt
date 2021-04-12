@@ -1,7 +1,25 @@
 <div0><head> Kohus saatis arhitekti kriminaalasja uurijaile tagasi </head>
-<p> <bibl> <author> <s> Tiiu Põld , tiiu.pold@postimees.ee </s> </author> </bibl> </p>
-<p> <s> Kuigi Haabersti linnaosa endine peaarhitekt Riho Hürden oli eile valmis Tallinna linnakohtust lahkuma kas süütu või süüdlasena , jäi ta mõlemast tiitlist ilma , sest kohus saatis ta kriminaalasja kaitsepolitseisse täiendavale eeluurimisele . </s> </p>
-<p> <s> Selg higine , ruttas Hürden pärast kohtumääruse ärakuulamist trepist alla . </s> <s> Käigu pealt lennutas ta üle õla lause : “ Terror kaitsepolitsei ja prokuratuuri poolt jätkub ! ” </s> </p>
-<p> <s> Päev varem süüdistas Hürden oma viimases sõnas samu ametkondi räiges seaduserikkumises , tema korruptsioonimaigulisi tegusid valgustanud ajakirjandust aga haiglases verejanus . </s> <s> “ Mulle on tekitatud palju teenimatut kahju , minu maine ja tervis on rikutud , ” sõnas Hürden . </s> </p>
-<p> <s> Prokurör Kristel Siitami sõnul pole välistatud , et Hürdeni olukord võib pärast eilset raskemaks minna . </s> <s> “ Kuigi kohus ei nõustunud Hürdeni väidetavate kuritegude kvalifikatsiooniga , andis ta tema kolme aasta tagusele tegutsemisele negatiivse hinnangu , ” selgitas Siitam . </s> </p>
-<p> <s> Süüdistuse kohaselt üritas linnaametnik Hürden pressida arhitekt Kalvi Voolaiult firmast Kavol Arhitektid välja 120 000 krooni . </s> <s> Lisaks süüdistati Hürdenit maksuametile tahtlikult moonutatud andmete esitamises . </s> <s> Kohtu lahendi kohaselt peab kaitsepolitsei esitama Hürdeni asjas uue süüdistuse teiste paragrahvide alusel . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Tiiu Põld , tiiu.pold@postimees.ee </s> </author> </bibl> 
+</p>
+<p>
+ <s> Kuigi Haabersti linnaosa endine peaarhitekt Riho Hürden oli eile valmis Tallinna linnakohtust lahkuma kas süütu või süüdlasena , jäi ta mõlemast tiitlist ilma , sest kohus saatis ta kriminaalasja kaitsepolitseisse täiendavale eeluurimisele . </s> 
+</p>
+<p>
+ <s> Selg higine , ruttas Hürden pärast kohtumääruse ärakuulamist trepist alla . </s>
+<s> Käigu pealt lennutas ta üle õla lause : “ Terror kaitsepolitsei ja prokuratuuri poolt jätkub ! ” </s> 
+</p>
+<p>
+ <s> Päev varem süüdistas Hürden oma viimases sõnas samu ametkondi räiges seaduserikkumises , tema korruptsioonimaigulisi tegusid valgustanud ajakirjandust aga haiglases verejanus . </s>
+<s> “ Mulle on tekitatud palju teenimatut kahju , minu maine ja tervis on rikutud , ” sõnas Hürden . </s> 
+</p>
+<p>
+ <s> Prokurör Kristel Siitami sõnul pole välistatud , et Hürdeni olukord võib pärast eilset raskemaks minna . </s>
+<s> “ Kuigi kohus ei nõustunud Hürdeni väidetavate kuritegude kvalifikatsiooniga , andis ta tema kolme aasta tagusele tegutsemisele negatiivse hinnangu , ” selgitas Siitam . </s> 
+</p>
+<p>
+ <s> Süüdistuse kohaselt üritas linnaametnik Hürden pressida arhitekt Kalvi Voolaiult firmast Kavol Arhitektid välja 120 000 krooni . </s>
+<s> Lisaks süüdistati Hürdenit maksuametile tahtlikult moonutatud andmete esitamises . </s>
+<s> Kohtu lahendi kohaselt peab kaitsepolitsei esitama Hürdeni asjas uue süüdistuse teiste paragrahvide alusel . </s> 
+</p>
+</div0>

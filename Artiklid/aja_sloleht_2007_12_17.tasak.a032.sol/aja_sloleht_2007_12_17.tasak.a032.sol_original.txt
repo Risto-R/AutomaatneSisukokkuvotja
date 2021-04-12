@@ -1,3 +1,14 @@
 <div0><head> AC Milan võitis klubide maailma karika </head><bibl> <author> Reuters/SLÕL </author> </bibl>
-<p rend="bold"> <s> JALGPALL : AC Milan võitis Tokyos klubide maailma karika , kui alistas finaalis Argentiina klubi Boca Juniorsi 4 : 2 ( 21. ja 71. </s> <s> Inzaghi , 50. </s> <s> Nesta , 61. </s> <s> Kaka – 22. Palacio , 85. Ledesma ) . </s> </p>
-<p> <s> Milani poolel hiilgas Kaka , kes arvatavasti kuulutatakse täna ka FIFA Aasta Mängijaks . </s> <s> Brasiillane lõi värava ja andis Inzaghile kaks resultatiivset söötu . </s> <s> « Maailma karikas oli üks väheseid auhindu , mis mul puudus . </s> <s> Imeline , et lõpuks sain teda oma käte vahel hoida , » ütles Kaka , kes varem tulnud maailmameistriks , Itaalia meistriks ja Euroopa Meistrite Liiga võitjaks . </s> </p></div0>
+<p rend="bold">
+ <s> JALGPALL : AC Milan võitis Tokyos klubide maailma karika , kui alistas finaalis Argentiina klubi Boca Juniorsi 4 : 2 ( 21. ja 71. </s>
+<s> Inzaghi , 50. </s>
+<s> Nesta , 61. </s>
+<s> Kaka – 22. Palacio , 85. Ledesma ) . </s> 
+</p>
+<p>
+ <s> Milani poolel hiilgas Kaka , kes arvatavasti kuulutatakse täna ka FIFA Aasta Mängijaks . </s>
+<s> Brasiillane lõi värava ja andis Inzaghile kaks resultatiivset söötu . </s>
+<s> « Maailma karikas oli üks väheseid auhindu , mis mul puudus . </s>
+<s> Imeline , et lõpuks sain teda oma käte vahel hoida , » ütles Kaka , kes varem tulnud maailmameistriks , Itaalia meistriks ja Euroopa Meistrite Liiga võitjaks . </s> 
+</p>
+</div0>

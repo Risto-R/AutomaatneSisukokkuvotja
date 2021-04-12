@@ -1,0 +1,106 @@
+==================================================
+     aja_ml_2002_47.tasak.a051.sol
+      DCT: 2002-11-20
+==================================================
+ s0  [t1 20.11.2002 ]
+ s1  Eestimaal [e1 on ] tuhandeid külasid , kus [e2 elab ] väga erinevate soovide ja võimalustega inimesi .
+     e1 "on"  INCLUDES  DCT 
+     e1 "on"  SIMULTANEOUS  e2 "elab" 
+     e1 "on"  INCLUDES  e3 "ühendab" ka VAGUE
+     e2 "elab"  INCLUDES  DCT 
+
+ s2  Kodukandi Liikumine [e3 ühendab ] aktiivsemaid , n-ö sädeinimesi ja külasid , kus [e4 tuntakse ] rõõmu [e5 koostegemisest ] , [e6 õppimisest ] , enese [e7 arendamisest ] ja uute kogemuste [e8 saamisest ] .
+     e3 "ühendab"  INCLUDES  DCT 
+     e3 "ühendab"  VAGUE  e4 "tuntakse" 
+     e3 "ühendab"  IS_INCLUDED  e10 "on" ka VAGUE
+     e4 "tuntakse"  INCLUDES  DCT 
+     e4 "tuntakse"  INCLUDES  e5 "koostegemisest" 
+     e4 "tuntakse"  INCLUDES  e6 "õppimisest" 
+     e4 "tuntakse"  INCLUDES  e7 "arendamisest" 
+     e4 "tuntakse"  INCLUDES  e8 "saamisest" 
+     e5 "koostegemisest"  INCLUDES  DCT 
+     e5 "koostegemisest"  VAGUE  e6 "õppimisest" 
+     e6 "õppimisest"  INCLUDES  DCT 
+     e6 "õppimisest"  VAGUE  e7 "arendamisest" 
+     e7 "arendamisest"  INCLUDES  DCT 
+     e7 "arendamisest"  VAGUE  e8 "saamisest" 
+     e8 "saamisest"  INCLUDES  DCT 
+
+ s3  Väga tähtis roll külaelu [e9 edendamisel ] [e10 on ] valdadel .
+     e9 "edendamisel"  INCLUDES  DCT 
+     e9 "edendamisel"  VAGUE  e10 "on" 
+     e10 "on"  INCLUDES  DCT 
+     e10 "on"  INCLUDES  e11 "on" 
+
+ s4  Seetõttu [e11 on ] ka meie [t2 tänase ] lehekülje teema just sellest valdkonnast .
+     e11 "on"  INCLUDES  DCT 
+     e11 "on"  VAGUE  e15 "saavad kasu" 
+
+ s5  Kui [e12 suudetakse ] [e13 saavutada ] head [e14 partnerlussuhted ] , [e15 saavad ] sellest [e15 kasu ] nii vald kui küla .
+     e12 "suudetakse"  VAGUE  DCT 
+     e12 "suudetakse"  BEFORE-OR-OVERLAP  e13 "saavutada" 
+     e12 "suudetakse"  BEFORE  e15 "saavad kasu" 
+     e13 "saavutada"  VAGUE  DCT 
+     e13 "saavutada"  BEFORE-OR-OVERLAP  e14 "partnerlussuhted" 
+     e14 "partnerlussuhted"  VAGUE  DCT 
+     e15 "saavad kasu"  VAGUE  DCT 
+     e15 "saavad kasu"  VAGUE  e16 "on tuua" 
+
+ s6  Meie liikmetel [e16 on ] [e16 tuua ] häid näiteid ühistest [e17 arendusprojektidest ] , valdadele nõuandva partnerina töötavatest külavanemate kogudest , vallaga läbi [e18 arutatud ] ja külainimeste aktiivsel osalusel [e19 koostatud ] külade arengukavadest , ühisjõul külakoolides lastele ja täiskasvanutele [e20 tegevuste ] [e21 käimapanemisest ] jm.
+     e16 "on tuua"  INCLUDES  DCT 
+     e16 "on tuua"  AFTER  e17 "arendusprojektidest" 
+     e16 "on tuua"  AFTER  e18 "arutatud" 
+     e16 "on tuua"  AFTER  e19 "koostatud" 
+     e16 "on tuua"  AFTER  e21 "käimapanemisest" 
+     e16 "on tuua"  SIMULTANEOUS  e23 "käivitamas" ka VAGUE
+     e16 "on tuua"  SIMULTANEOUS  e25 "suju" ka VAGUE
+     e17 "arendusprojektidest"  BEFORE-OR-OVERLAP  DCT 
+     e17 "arendusprojektidest"  VAGUE  e18 "arutatud" 
+     e17 "arendusprojektidest"  VAGUE  e21 "käimapanemisest" 
+     e18 "arutatud"  BEFORE  DCT 
+     e18 "arutatud"  VAGUE  e19 "koostatud" 
+     e19 "koostatud"  BEFORE  DCT 
+     e19 "koostatud"  VAGUE  e21 "käimapanemisest" 
+     e20 "tegevuste"  BEFORE-OR-OVERLAP  DCT 
+     e20 "tegevuste"  OVERLAP-OR-AFTER  e21 "käimapanemisest" 
+     e21 "käimapanemisest"  BEFORE  DCT 
+
+ s7  Samas ollakse paljudes külades alles omi [e22 tegevusi ] [e23 käivitamas ] ja hea [e24 koostöö ] vallaga ei [e25 suju ] mitte igal pool ühtviisi hästi .
+     e22 "tegevusi"  OVERLAP-OR-AFTER  DCT 
+     e22 "tegevusi"  OVERLAP-OR-AFTER  e23 "käivitamas" 
+     e23 "käivitamas"  INCLUDES  DCT 
+     e23 "käivitamas"  SIMULTANEOUS  e25 "suju" 
+     e23 "käivitamas"  INCLUDES  e28 "leiate ülevaate" 
+     e24 "koostöö"  INCLUDES  DCT 
+     e24 "koostöö"  SIMULTANEOUS  e25 "suju" 
+     e25 "suju"  INCLUDES  DCT 
+     e25 "suju"  INCLUDES  e28 "leiate ülevaate" 
+
+ s8  [e26 Koostöös ] Maalehega ja meie käivituva E-külade [e27 projekti ] toel [e28 leiate ] meie [e29 tegemistest ] , tublidest küladest ja sädeinimestest ning [e30 probleemidest ] [t3 igakuiselt ] [e28 ülevaate ] .
+     e26 "Koostöös"  INCLUDES  DCT 
+     e26 "Koostöös"  INCLUDES  e28 "leiate ülevaate" 
+     e26 "Koostöös"  SIMULTANEOUS  e27 "projekti" 
+     e27 "projekti"  INCLUDES  DCT 
+     e28 "leiate ülevaate"  IS_INCLUDED  t3 "igakuiselt" 
+     e28 "leiate ülevaate"  OVERLAP-OR-AFTER  DCT 
+     e28 "leiate ülevaate"  OVERLAP-OR-AFTER  e29 "tegemistest" 
+     e28 "leiate ülevaate"  OVERLAP-OR-AFTER  e30 "probleemidest" 
+     e28 "leiate ülevaate"  VAGUE  e31 "olete teretulnud" 
+     e29 "tegemistest"  VAGUE  DCT 
+     e30 "probleemidest"  VAGUE  DCT 
+
+ s9  [e31 Olete ] [e31 teretulnud ] nii meie [e32 tegemistes ] kaasa [e33 lööma ] kui [e34 tõstatatud ] teemadel arvamust [e35 avaldama ] .
+     e31 "olete teretulnud"  OVERLAP-OR-AFTER  DCT 
+     e31 "olete teretulnud"  BEFORE-OR-OVERLAP  e33 "lööma" 
+     e31 "olete teretulnud"  BEFORE-OR-OVERLAP  e35 "avaldama" 
+     e31 "olete teretulnud"  IS_INCLUDED  e32 "tegemistes" 
+     e32 "tegemistes"  OVERLAP-OR-AFTER  DCT 
+     e32 "tegemistes"  INCLUDES  e33 "lööma" 
+     e33 "lööma"  OVERLAP-OR-AFTER  DCT 
+     e33 "lööma"  SIMULTANEOUS  e35 "avaldama" 
+     e34 "tõstatatud"  BEFORE-OR-OVERLAP  DCT 
+     e34 "tõstatatud"  BEFORE  e35 "avaldama" 
+     e35 "avaldama"  OVERLAP-OR-AFTER  DCT 
+
+ s10  Sirje Kuusk , Kodukandi Liikumise juhatuse esimees
+

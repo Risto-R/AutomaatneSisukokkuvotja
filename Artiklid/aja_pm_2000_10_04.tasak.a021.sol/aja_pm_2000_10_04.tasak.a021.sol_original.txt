@@ -1,15 +1,50 @@
 <div0><head> Kas jätkub töökohti ? </head>
-<p> <bibl> <author> <s> AUNE PAST , TÜ õppejõud </s> </author> </bibl> </p>
-<p> <s> Tänavu istus Tartu Ülikoolis lisaks 15 riigieelarvelisele kohale koolipinki poolteist korda rohkem tasulistel kohtadel suhtekorraldusharidust nõutavaid noori inimesi , avatud ülikoolis veel samapalju . </s> </p>
-<p> <s> Paratamatult tekib küsimus , kas neile kõigile jätkub töökohti . </s> </p>
-<p rend="bold"> <s> Tööpõld laieneb </s> </p>
-<p> <s> Arvan , et ei õhuta tühje lootusi , öeldes , et Eesti vajab haritud kommunikatsioonispetsialiste . </s> </p>
-<p> <s> Suhtekorralduslik tööpõld on plahvatuslikult suurenenud . </s> <s> Ettevõtted seavad kasumi kõrval eesmärgiks kestmise , teadmiste kõrval muutub oluliseks tundetarkus , emotsioonide turg kasvab kiiremini kui asjastatud kaupade turg . </s> </p>
-<p> <s> Ühiskond ise muutub avatumaks ja avalikkuse toetuseta ei saa toimida ei riik ega eraettevõte . </s> </p>
-<p> <s> Globaalsete korporatsioonide kasutatav raha on suurem kui Eesti riigi eelarve , nende oskusteave turumajanduses aastatega kogutud . </s> <s> Sageli võtab erafirma enda kanda osa riigi ülesannetest , toetab seal , kus riik hakkama ei saa . </s> </p>
-<p> <s> Seega esitab ühiskond suhtekorraldusele uusi ja keerulisi nõudmisi , millega ei saa hakkama inimene , kel erialaseid teadmisi asendab soov hästi teenida , ennast eksponeerida ja suhelda . </s> </p>
-<p rend="bold"> <s> Spetsialiste vajatakse </s> </p>
-<p> <s> Ma ei näe veel niipea võimalust , et suhtekorralduse põhitehnikaid õppinud spetsialistid ei leiaks tööd tehnilisel ja müügitasandil . </s> <s> Ning et ühiskonnaanalüüsi ja strateegilise kommunikatsiooni oskusi õppinud spetsialiste ei vajataks tippjuhtide seas . </s> </p>
-<p> <s> Paraku ei saa siin aga juttugi olla spetsialistist , kes ühel päeval lihtsalt hakkab suhtekorraldajaks . </s> </p>
-<p> <s> Põhjanaabrid Soomes ja Rootsis ei taha kasutada endast kõneldes terminit “ suhtekorraldaja ” . </s> <s> See sõna on devalveerunud mitteharitud kolleegide tõttu . </s> <s> Enamik tipptegijaid nimetab end kommunikatsioonispetsialistiks . </s> </p>
-<p> <s> Nii arvangi , et noored kolleegid suhtekorraldajatena tööd ei saa . </s> <s> Loodan , et neist saavad tublid tegijad otsustamise tasandil , kommunikatsioonijuhtidena . </s> </p></div0>
+<p>
+ <bibl> <author> <s> AUNE PAST , TÜ õppejõud </s> </author> </bibl> 
+</p>
+<p>
+ <s> Tänavu istus Tartu Ülikoolis lisaks 15 riigieelarvelisele kohale koolipinki poolteist korda rohkem tasulistel kohtadel suhtekorraldusharidust nõutavaid noori inimesi , avatud ülikoolis veel samapalju . </s> 
+</p>
+<p>
+ <s> Paratamatult tekib küsimus , kas neile kõigile jätkub töökohti . </s> 
+</p>
+<p rend="bold">
+ <s> Tööpõld laieneb </s> 
+</p>
+<p>
+ <s> Arvan , et ei õhuta tühje lootusi , öeldes , et Eesti vajab haritud kommunikatsioonispetsialiste . </s> 
+</p>
+<p>
+ <s> Suhtekorralduslik tööpõld on plahvatuslikult suurenenud . </s>
+<s> Ettevõtted seavad kasumi kõrval eesmärgiks kestmise , teadmiste kõrval muutub oluliseks tundetarkus , emotsioonide turg kasvab kiiremini kui asjastatud kaupade turg . </s> 
+</p>
+<p>
+ <s> Ühiskond ise muutub avatumaks ja avalikkuse toetuseta ei saa toimida ei riik ega eraettevõte . </s> 
+</p>
+<p>
+ <s> Globaalsete korporatsioonide kasutatav raha on suurem kui Eesti riigi eelarve , nende oskusteave turumajanduses aastatega kogutud . </s>
+<s> Sageli võtab erafirma enda kanda osa riigi ülesannetest , toetab seal , kus riik hakkama ei saa . </s> 
+</p>
+<p>
+ <s> Seega esitab ühiskond suhtekorraldusele uusi ja keerulisi nõudmisi , millega ei saa hakkama inimene , kel erialaseid teadmisi asendab soov hästi teenida , ennast eksponeerida ja suhelda . </s> 
+</p>
+<p rend="bold">
+ <s> Spetsialiste vajatakse </s> 
+</p>
+<p>
+ <s> Ma ei näe veel niipea võimalust , et suhtekorralduse põhitehnikaid õppinud spetsialistid ei leiaks tööd tehnilisel ja müügitasandil . </s>
+<s> Ning et ühiskonnaanalüüsi ja strateegilise kommunikatsiooni oskusi õppinud spetsialiste ei vajataks tippjuhtide seas . </s> 
+</p>
+<p>
+ <s> Paraku ei saa siin aga juttugi olla spetsialistist , kes ühel päeval lihtsalt hakkab suhtekorraldajaks . </s> 
+</p>
+<p>
+ <s> Põhjanaabrid Soomes ja Rootsis ei taha kasutada endast kõneldes terminit “ suhtekorraldaja ” . </s>
+<s> See sõna on devalveerunud mitteharitud kolleegide tõttu . </s>
+<s> Enamik tipptegijaid nimetab end kommunikatsioonispetsialistiks . </s> 
+</p>
+<p>
+ <s> Nii arvangi , et noored kolleegid suhtekorraldajatena tööd ei saa . </s>
+<s> Loodan , et neist saavad tublid tegijad otsustamise tasandil , kommunikatsioonijuhtidena . </s> 
+</p>
+</div0>

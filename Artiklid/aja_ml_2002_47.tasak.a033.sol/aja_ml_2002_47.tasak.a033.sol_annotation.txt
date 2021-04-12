@@ -1,0 +1,186 @@
+==================================================
+     aja_ml_2002_47.tasak.a033.sol
+      DCT: 2002-11-21
+==================================================
+ s0  Tampere vanaautode klubi liikmed [e1 saavad ] kokku [t1 iga kuu ] [t2 esimesel kolmapäeval ] .
+     e1 "saavad"  IS_INCLUDED  t2 "esimesel kolmapäeval" 
+     e1 "saavad"  INCLUDES  DCT 
+     e1 "saavad"  SIMULTANEOUS  e2 "on" 
+
+ s1  Kohtumispaik [e2 on ] Restauranta - mõnus palkehitis Tampere lähedal Kangasala juures , põldude ja niitudega [e3 ümbritsetud ] Kirkkojärvi kaunil kaldal .
+     e2 "on"  INCLUDES  DCT 
+     e2 "on"  VAGUE  e4 "tuleb" 
+     e3 "ümbritsetud"  INCLUDES  DCT 
+
+ s2  Klubi keskuse nimi [e4 tuleb ] sõnadest " restaurointi " ( 'ennistamine' ) ja " järvenranta " .
+     e4 "tuleb"  VAGUE  DCT 
+     e4 "tuleb"  VAGUE  e6 "käiakse" 
+     e4 "tuleb"  VAGUE  e7 "ollakse" 
+
+ s3  Kui ei [e5 olda ] Restaurantas , [e6 käiakse ] külas mõnes firmas või siis [e7 ollakse ] kambakesi mõne sõiduriista kallal .
+     e5 "olda"  VAGUE  DCT 
+     e5 "olda"  VAGUE  e6 "käiakse" 
+     e5 "olda"  VAGUE  e7 "ollakse" 
+     e6 "käiakse"  VAGUE  DCT 
+     e6 "käiakse"  VAGUE  e7 "ollakse" 
+     e6 "käiakse"  VAGUE  e8 "pelga" ka SIMULTANEOUS
+     e7 "ollakse"  VAGUE  DCT 
+     e7 "ollakse"  VAGUE  e8 "pelga" ka SIMULTANEOUS
+
+ s4  Ka klubi juht , energiline Aimo Lahti ei [e8 pelga ] käsi õliseks [e9 teha ] .
+     e8 "pelga"  VAGUE  DCT 
+     e8 "pelga"  VAGUE  e9 "teha" 
+     e8 "pelga"  VAGUE  e11 "saanud ehteks" 
+     e9 "teha"  VAGUE  DCT 
+
+ s5  Sellise ühistöö viljana [e10 taassündinud ] Timo-nimeline rohekat karva bussiiludus - [t3 aastast 1929 ] pärit liinibuss pärisnimega Diamond T Special - on [e11 saanud ] klubiürituste [e11 ehteks ] .
+     e10 "taassündinud"  BEFORE  DCT 
+     e10 "taassündinud"  BEFORE  e11 "saanud ehteks" 
+     e11 "saanud ehteks"  BEFORE  DCT 
+     e11 "saanud ehteks"  BEFORE-OR-OVERLAP  e12 "Usun" 
+     e11 "saanud ehteks"  BEFORE  e13 "saavad" 
+
+ s6  [e12 Usun ] , et ka oma järge ootavad Soome vanim tuletõrjeauto Benz Gaggenau [t4 aastast 1922 ] , tuletõrjeauto Bedford ( [t5 1959 ] ) , Chevrolet' veoauto ( [t6 1946 ] ) ning väikebuss Goliath Express ( [t7 1960 ] ) [e13 saavad ] ühisel nõul ja jõul [e14 ennistatud ] niisama heal tasemel .
+     e12 "Usun"  INCLUDES  DCT 
+     e12 "Usun"  INCLUDES  e13 "saavad" 
+     e12 "Usun"  INCLUDES  e14 "ennistatud" 
+     e12 "Usun"  VAGUE  e15 "on" 
+     e13 "saavad"  OVERLAP-OR-AFTER  DCT 
+     e13 "saavad"  BEFORE-OR-OVERLAP  e14 "ennistatud" 
+     e13 "saavad"  VAGUE  e15 "on" 
+     e14 "ennistatud"  AFTER  DCT 
+
+ s7  Restaurantapäevad [t8 juunikuu teisel nädalavahetusel ] [e15 on ] meie vanamootorrattaklubi UNIC-MOTO korraldatavate Kurtna ( [t9 nüüd ] Tagadi ) restaureerijate päevade Soome analoog .
+     e15 "on"  IS_INCLUDED  t8 "juunikuu teisel nädalavahetusel" 
+     e15 "on"  VAGUE  DCT 
+     e15 "on"  VAGUE  e16 "Saadakse" 
+     e15 "on"  VAGUE  e17 "vahetatakse" 
+     e15 "on"  VAGUE  e18 "müüakse" 
+
+ s8  [e16 Saadakse ] kokku , tsiklite ja automobiilide osad kaasas , [e17 vahetatakse ] ja [e18 müüakse ] - et iga vajalik vidin [e19 satuks ] just tolle kätte , kes seda [e20 otsib ] .
+     e16 "Saadakse"  VAGUE  DCT 
+     e16 "Saadakse"  BEFORE  e17 "vahetatakse" 
+     e16 "Saadakse"  BEFORE  e18 "müüakse" 
+     e16 "Saadakse"  VAGUE  e21 "pakub" 
+     e17 "vahetatakse"  VAGUE  DCT 
+     e17 "vahetatakse"  VAGUE  e18 "müüakse" 
+     e17 "vahetatakse"  VAGUE  e21 "pakub" 
+     e18 "müüakse"  VAGUE  DCT 
+     e18 "müüakse"  BEFORE-OR-OVERLAP  e19 "satuks" 
+     e18 "müüakse"  VAGUE  e21 "pakub" 
+     e19 "satuks"  VAGUE  DCT 
+     e19 "satuks"  OVERLAP-OR-AFTER  e20 "otsib" 
+     e20 "otsib"  VAGUE  DCT 
+
+ s9  Soome suurim ja vanim (tehnika)vanakraamiturg [e21 pakub ] ka muud täikakaupa nagu meilgi .
+     e21 "pakub"  VAGUE  DCT 
+     e21 "pakub"  SIMULTANEOUS  e22 "Sündmuspaigaks on" 
+
+ s10  [e22 Sündmuspaigaks ] [e22 on ] Kangasalal asuva Pikkola kooli maa-ala .
+     e22 "Sündmuspaigaks on"  VAGUE  DCT 
+     e22 "Sündmuspaigaks on"  INCLUDES  e23 "märganud" 
+
+ s11  [t10 Nüüd ] on põhjanaabrid [e23 märganud ] , et ainuüksi suveüritusest [e24 jääb ] väheks ning vajalike osade [e25 leidmise ] huvides [e26 peab ] [t11 aastas ] kokku [e27 saama ] ka teist korda .
+     e23 "märganud"  SIMULTANEOUS  t10 "Nüüd" 
+     e23 "märganud"  INCLUDES  DCT 
+     e23 "märganud"  IS_INCLUDED  e24 "jääb" 
+     e23 "märganud"  INCLUDES  e28 "leiti" ka BEFORE-OR-OVERLAP
+     e24 "jääb"  INCLUDES  DCT 
+     e24 "jääb"  BEFORE-OR-OVERLAP  e27 "saama" 
+     e25 "leidmise"  AFTER  DCT 
+     e25 "leidmise"  AFTER  e27 "saama" 
+     e26 "peab"  OVERLAP-OR-AFTER  DCT 
+     e26 "peab"  BEFORE-OR-OVERLAP  e27 "saama" 
+     e27 "saama"  IS_INCLUDED  t11 "aastas" 
+     e27 "saama"  AFTER  DCT 
+
+ s12  Parim aeg [e28 leiti ] selleks [t12 augustikuu viimasel laupäeval ] .
+     e28 "leiti"  BEFORE  t12 "augustikuu viimasel laupäeval" 
+     e28 "leiti"  BEFORE  DCT 
+     e28 "leiti"  IS_INCLUDED  e30 "on tegevus" 
+
+ s13  Muuseumisõidukite [e29 hindamine ] [e30 on ] [e30 tegevus ] , milles Eestis [e31 astuti ] [t13 mullu ] alles esimesed sammud .
+     e29 "hindamine"  VAGUE  DCT 
+     e29 "hindamine"  IDENTITY  e30 "on tegevus" 
+     e30 "on tegevus"  VAGUE  DCT 
+     e30 "on tegevus"  VAGUE  e31 "astuti" 
+     e30 "on tegevus"  INCLUDES  e32 "võttes" 
+     e31 "astuti"  IS_INCLUDED  t13 "mullu" 
+     e31 "astuti"  BEFORE  DCT 
+
+ s14  Osalt seejuures Soomest malli [e32 võttes ] .
+     e32 "võttes"  BEFORE  DCT 
+     e32 "võttes"  IS_INCLUDED  e33 "jõuavad" 
+
+ s15  Mujal vanasõiduk maksuta
+ s16  Harrastussõidukid [e33 jõuavad ] kogu maailmas museaalse väärtusega sõiduriistade sekka [t14 25aastaseks ] [e34 saades ] .
+     e33 "jõuavad"  VAGUE  DCT 
+     e33 "jõuavad"  AFTER  e34 "saades" 
+     e33 "jõuavad"  BEFORE-OR-OVERLAP  e36 "läbivad" 
+     e33 "jõuavad"  BEFORE-OR-OVERLAP  e38 "saavad tunnistuse" 
+     e34 "saades"  SIMULTANEOUS  t14 "25aastaseks" 
+     e34 "saades"  VAGUE  DCT 
+
+ s17  Restaureeritud või algupärases seisukorras [e35 säilitatud ] liiklusvahendid [e36 läbivad ] seejärel [e37 ekspertiisi ] ja [e38 saavad ] vastava [e38 tunnistuse ] - [t15 nüüd ] ka meil .
+     e35 "säilitatud"  VAGUE  DCT 
+     e35 "säilitatud"  BEFORE  e36 "läbivad" 
+     e36 "läbivad"  VAGUE  DCT 
+     e36 "läbivad"  BEFORE  e38 "saavad tunnistuse" 
+     e36 "läbivad"  OVERLAP-OR-AFTER  e37 "ekspertiisi" 
+     e36 "läbivad"  BEFORE  e39 "omab" 
+     e36 "läbivad"  BEFORE  e42 "vabastatud" 
+     e37 "ekspertiisi"  VAGUE  DCT 
+     e38 "saavad tunnistuse"  VAGUE  DCT 
+     e38 "saavad tunnistuse"  BEFORE  e39 "omab" 
+     e38 "saavad tunnistuse"  BEFORE  e42 "vabastatud" 
+
+ s18  Museaalse väärtusega sõiduk [e39 omab ] mujal maailmas [e40 õiguse ] [e41 saada ] sellele vastav kindlustus ning on [e42 vabastatud ] sõidukimaksust .
+     e39 "omab"  INCLUDES  DCT 
+     e39 "omab"  VAGUE  e40 "õiguse" 
+     e39 "omab"  VAGUE  e42 "vabastatud" 
+     e39 "omab"  VAGUE  e44 "on ees" 
+     e40 "õiguse"  INCLUDES  DCT 
+     e40 "õiguse"  VAGUE  e41 "saada" 
+     e41 "saada"  INCLUDES  DCT 
+     e42 "vabastatud"  INCLUDES  DCT 
+     e42 "vabastatud"  VAGUE  e44 "on ees" 
+
+ s19  Selle saavutamise [e43 võitlus ] [e44 on ] meil alles [e44 ees ] , sest ametnikkonnal [e45 on ] [e45 kombeks ] [e46 teha ] seadust oma äranägemise järgi .
+     e43 "võitlus"  AFTER  DCT 
+     e43 "võitlus"  IS_INCLUDED  e44 "on ees" 
+     e44 "on ees"  INCLUDES  DCT 
+     e44 "on ees"  SIMULTANEOUS  e45 "on kombeks" 
+     e44 "on ees"  VAGUE  e46 "teha" 
+     e44 "on ees"  AFTER  e48 "juhindutud" 
+     e44 "on ees"  AFTER  e49 "vaadati" 
+     e45 "on kombeks"  INCLUDES  DCT 
+     e45 "on kombeks"  VAGUE  e46 "teha" 
+     e46 "teha"  INCLUDES  DCT 
+
+ s20  Näiteks vanasõiduki impordil rakendatava maksu [e47 kehtestamisel ] ei [e48 juhindutud ] Rahvusvahelise Vanasõidukiföderatsiooni klassifikatsioonist , vaid [e49 vaadati ] lakke .
+     e47 "kehtestamisel"  BEFORE  DCT 
+     e47 "kehtestamisel"  INCLUDES  e48 "juhindutud" 
+     e48 "juhindutud"  BEFORE  DCT 
+     e48 "juhindutud"  SIMULTANEOUS  e49 "vaadati" 
+     e48 "juhindutud"  BEFORE-OR-OVERLAP  e50 "kõlas" 
+     e48 "juhindutud"  VAGUE  e51 "jaksasite" 
+     e48 "juhindutud"  VAGUE  e54 "jaksa" 
+     e49 "vaadati"  BEFORE  DCT 
+     e49 "vaadati"  BEFORE-OR-OVERLAP  e50 "kõlas" 
+     e49 "vaadati"  VAGUE  e51 "jaksasite" 
+     e49 "vaadati"  VAGUE  e54 "jaksa" 
+
+ s21  Rahandustegelase kommentaar seejuures [e50 kõlas ] kummalise mätta otsast : [e51 jaksasite ] sellise auto [e52 osta ] , miks siis [t16 nüüd ] maksu [e53 maksta ] ei [e54 jaksa ] .
+     e50 "kõlas"  BEFORE  DCT 
+     e50 "kõlas"  AFTER  e51 "jaksasite" 
+     e50 "kõlas"  VAGUE  e54 "jaksa" 
+     e51 "jaksasite"  BEFORE  DCT 
+     e51 "jaksasite"  BEFORE-OR-OVERLAP  e52 "osta" 
+     e51 "jaksasite"  BEFORE  e54 "jaksa" 
+     e52 "osta"  BEFORE  DCT 
+     e53 "maksta"  VAGUE  DCT 
+     e53 "maksta"  OVERLAP-OR-AFTER  e54 "jaksa" 
+     e54 "jaksa"  SIMULTANEOUS  t16 "nüüd" 
+     e54 "jaksa"  INCLUDES  DCT 
+
+

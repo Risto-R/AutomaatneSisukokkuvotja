@@ -1,0 +1,135 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a041.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Valitsus [e1 tegi ] [t1 eile ] poliitilise [e1 otsuse ] [e2 ehitada ] kunstimuuseumi uus hoone Kadriorgu hoolimata sellest , et nii [e3 jäävad ] sobilikust asupaigast ilma sõjaväeluurajad ja Tallinna linnavõim [e4 pooldas ] muuseumimaja hoopis kesklinna .
+     e1 "tegi otsuse"  IS_INCLUDED  t1 "eile" 
+     e1 "tegi otsuse"  BEFORE  DCT 
+     e1 "tegi otsuse"  BEFORE  e2 "ehitada" 
+     e1 "tegi otsuse"  BEFORE  e3 "jäävad" 
+     e1 "tegi otsuse"  BEFORE  e6 "ütles" 
+     e1 "tegi otsuse"  IS_INCLUDED  e5 "on oluline" 
+     e2 "ehitada"  AFTER  DCT 
+     e2 "ehitada"  AFTER  e3 "jäävad" 
+     e3 "jäävad"  AFTER  DCT 
+     e3 "jäävad"  AFTER  e4 "pooldas" 
+     e4 "pooldas"  BEFORE  DCT 
+
+ s1  " Muuseum [e5 on ] [e5 oluline ] , " [e6 ütles ] Postimehele kultuuriminister Signe Kivi .
+     e5 "on oluline"  INCLUDES  DCT 
+     e5 "on oluline"  INCLUDES  e6 "ütles" 
+     e5 "on oluline"  SIMULTANEOUS  e7 "on" 
+     e6 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e6 "ütles"  IS_INCLUDED  e7 "on" 
+
+ s2  Tulevase muuseumi asukoht [e7 on ] Weizenbergi 34 , kus [t2 praegu ] [e8 asub ] endine haiglahoone , millest [t3 hiljem ] [e9 sai ] Eesti sõjaväeluure ( G2 ) peakorter .
+     e7 "on"  INCLUDES  DCT 
+     e7 "on"  SIMULTANEOUS  e8 "asub" 
+     e7 "on"  INCLUDES  e12 "kasvavad" 
+     e7 "on"  VAGUE  e11 "on" 
+     e8 "asub"  SIMULTANEOUS  t2 "praegu" 
+     e8 "asub"  INCLUDES  DCT 
+     e8 "asub"  AFTER  e9 "sai" 
+     e9 "sai"  IS_INCLUDED  t3 "hiljem" 
+     e9 "sai"  BEFORE  DCT 
+
+ s3  Luurajate [e10 ümberpaigutamise ] hind [e11 on ] 50 miljonit krooni , selle võrra [e12 kasvavad ] ka muuseumi ehituskulud .
+     e10 "ümberpaigutamise"  AFTER  DCT 
+     e10 "ümberpaigutamise"  VAGUE  e11 "on" 
+     e11 "on"  INCLUDES  DCT 
+     e11 "on"  BEFORE  e12 "kasvavad" 
+     e11 "on"  BEFORE  e16 "kasvada" 
+     e11 "on"  IS_INCLUDED  e14 "kujuneb" 
+     e12 "kasvavad"  AFTER  DCT 
+     e12 "kasvavad"  IS_INCLUDED  e14 "kujuneb" 
+     e12 "kasvavad"  SIMULTANEOUS  e16 "kasvada" 
+
+ s4  Valitsuse ametliku [e13 hinnangu ] järgi [e14 kujuneb ] ehituse maksumuseks 475 miljonit krooni , kuid summa [e15 võib ] [e16 kasvada ] ka 750 miljonini .
+     e13 "hinnangu"  BEFORE-OR-OVERLAP  DCT 
+     e13 "hinnangu"  BEFORE  e14 "kujuneb" 
+     e14 "kujuneb"  INCLUDES  DCT 
+     e14 "kujuneb"  VAGUE  e16 "kasvada" 
+     e14 "kujuneb"  AFTER  e17 "esitas" 
+     e15 "võib"  OVERLAP-OR-AFTER  DCT 
+     e15 "võib"  VAGUE  e16 "kasvada" 
+     e16 "kasvada"  OVERLAP-OR-AFTER  DCT 
+     e16 "kasvada"  AFTER  e17 "esitas" 
+
+ s5  Rahandusminister Siim Kallas [e17 esitas ] valitsusele neli alternatiivi muuseumiehituse rahastamiseks riigi ja erakapitali abil , millest [e18 valiti ] välja [e19 ehitamine ] üksnes riigieelarve vahenditega .
+     e17 "esitas"  BEFORE  DCT 
+     e17 "esitas"  BEFORE  e18 "valiti" 
+     e17 "esitas"  SIMULTANEOUS  e20 "olid" 
+     e18 "valiti"  BEFORE  DCT 
+     e18 "valiti"  BEFORE  e19 "ehitamine" 
+     e19 "ehitamine"  AFTER  DCT 
+
+ s6  Kõrvalejäänud variandid [e20 olid ] : pikaajaline [e21 laen ] ; [e22 faktooring ] ehk eelarvest [t4 tulevikus ] eraldatava raha arvel ehituse varasem rahastamine pankade poolt ; ehitise [e23 rajamine ] eraettevõtjate poolt , misjärel riik [e24 võtaks ] hoone pikaajalisele rendile .
+     e20 "olid"  BEFORE  DCT 
+     e20 "olid"  VAGUE  e21 "laen" 
+     e20 "olid"  VAGUE  e22 "faktooring" 
+     e20 "olid"  VAGUE  e23 "rajamine" 
+     e20 "olid"  VAGUE  e24 "võtaks" 
+     e20 "olid"  BEFORE  e25 "kujunenuks" 
+     e20 "olid"  BEFORE  e26 "välistanuks" 
+     e21 "laen"  VAGUE  DCT 
+     e21 "laen"  VAGUE  e22 "faktooring" 
+     e22 "faktooring"  VAGUE  DCT 
+     e23 "rajamine"  VAGUE  DCT 
+     e23 "rajamine"  BEFORE  e24 "võtaks" 
+     e24 "võtaks"  VAGUE  DCT 
+
+ s7  Need variandid aga [e25 kujunenuks ] kõik kokkuvõttes kallimaks kui ehitamine üksnes eelarvest , samuti [e26 välistanuks ] laenuvõtmine mõned välisabi vormid .
+     e25 "kujunenuks"  VAGUE  DCT 
+     e25 "kujunenuks"  SIMULTANEOUS  e26 "välistanuks" 
+     e25 "kujunenuks"  AFTER  e30 "tõdesid" 
+     e25 "kujunenuks"  INCLUDES  e27 "oleks risk" 
+     e25 "kujunenuks"  INCLUDES  e29 "leida" 
+     e26 "välistanuks"  VAGUE  DCT 
+     e26 "välistanuks"  AFTER  e30 "tõdesid" 
+     e26 "välistanuks"  INCLUDES  e27 "oleks risk" 
+     e26 "välistanuks"  INCLUDES  e29 "leida" 
+
+ s8  Erafirmale [e27 oleks ] [e28 muuseumiehitus ] [e27 risk ] ning soovijat tõenäoliselt keerukas [e29 leida ] , [e30 tõdesid ] ministrid [t5 eilsel ] [e31 kabinetiistungil ] .
+     e27 "oleks risk"  INCLUDES  DCT 
+     e27 "oleks risk"  AFTER  e30 "tõdesid" 
+     e27 "oleks risk"  INCLUDES  e28 "muuseumiehitus" 
+     e27 "oleks risk"  SIMULTANEOUS  e29 "leida" 
+     e27 "oleks risk"  INCLUDES  e33 "pole" 
+     e28 "muuseumiehitus"  AFTER  DCT 
+     e29 "leida"  INCLUDES  DCT 
+     e29 "leida"  AFTER  e30 "tõdesid" 
+     e29 "leida"  VAGUE  e33 "pole" 
+     e30 "tõdesid"  BEFORE  DCT 
+     e30 "tõdesid"  IS_INCLUDED  e31 "kabinetiistungil" 
+     e30 "tõdesid"  BEFORE  e33 "pole" 
+     e31 "kabinetiistungil"  IS_INCLUDED  t5 "eilsel" 
+     e31 "kabinetiistungil"  BEFORE  DCT 
+
+ s9  [t6 Järgmise aasta ] riigieelarve [e32 projektis ] [e33 pole ] ei [e34 muuseumiehituseks ] ega sõjaväeluure [e35 ümberpaigutamiseks ] sentigi , mistõttu [e36 ehituse ] tõenäoline [e37 algus ] [e38 jääb ] [t7 2002. aastasse ] .
+     e32 "projektis"  IS_INCLUDED  t6 "Järgmise aasta" 
+     e32 "projektis"  VAGUE  DCT 
+     e32 "projektis"  IS_INCLUDED  e33 "pole" 
+     e33 "pole"  INCLUDES  DCT 
+     e33 "pole"  BEFORE  e38 "jääb" 
+     e33 "pole"  BEFORE-OR-OVERLAP  e41 "pakkuma" 
+     e34 "muuseumiehituseks"  AFTER  DCT 
+     e34 "muuseumiehituseks"  AFTER  e35 "ümberpaigutamiseks" 
+     e35 "ümberpaigutamiseks"  AFTER  DCT 
+     e35 "ümberpaigutamiseks"  BEFORE  e36 "ehituse" 
+     e36 "ehituse"  VAGUE  t7 "2002. aastasse" 
+     e36 "ehituse"  AFTER  DCT 
+     e36 "ehituse"  INCLUDES  e37 "algus" 
+     e37 "algus"  IS_INCLUDED  t7 "2002. aastasse" 
+     e37 "algus"  AFTER  DCT 
+     e37 "algus"  VAGUE  e38 "jääb" 
+     e38 "jääb"  IS_INCLUDED  t7 "2002. aastasse" 
+     e38 "jääb"  AFTER  DCT 
+
+ s10  Ajakava [e39 peab ] valitsusele [e40 kinnitamiseks ] välja [e41 pakkuma ] kultuuriminister Kivi .
+     e39 "peab"  OVERLAP-OR-AFTER  DCT 
+     e39 "peab"  VAGUE  e41 "pakkuma" 
+     e40 "kinnitamiseks"  AFTER  DCT 
+     e40 "kinnitamiseks"  AFTER  e41 "pakkuma" 
+     e41 "pakkuma"  AFTER  DCT 
+
+

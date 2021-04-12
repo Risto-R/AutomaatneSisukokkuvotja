@@ -1,0 +1,76 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a010.sol
+      DCT: 2007-12-17
+==================================================
+ s0  KORVPALL
+ s1  Naiste Balti liigas [e1 said ] Eesti klubid [t1 eile ] kaks nappi kaotust
+     e1 "said"  IS_INCLUDED  t1 "eile" 
+     e1 "said"  BEFORE  DCT 
+     e1 "said"  INCLUDES  e2 "jäi" 
+
+ s2  Tallinna Living [e2 jäi ] alla BC Minsk 2006 naiskonnale 73 : 77 ( Livingu resultatiivseim Kerttu Jallai 20 punktiga ) ja TLÜ/Volta Berezina-RCOR-ile 76 : 77 ( Heila Rosenfeldt 25 ) .
+     e2 "jäi"  BEFORE  DCT 
+     e2 "jäi"  VAGUE  e3 "dramaatiline oli" 
+
+ s3  Eriti [e3 dramaatiline ] [e3 oli ] TLÜ ja Berezina [e4 kohtumine ] .
+     e3 "dramaatiline oli"  BEFORE  DCT 
+     e3 "dramaatiline oli"  SIMULTANEOUS  e4 "kohtumine" 
+     e3 "dramaatiline oli"  INCLUDES  e7 "pääses" 
+     e4 "kohtumine"  BEFORE  DCT 
+
+ s4  [e5 Jäänud ] kolmandal [e6 veerandajal ] 23 punktiga taha , [e7 pääses ] TLÜ [e8 lõpus ] ette .
+     e5 "Jäänud"  BEFORE  DCT 
+     e5 "Jäänud"  BEFORE  e7 "pääses" 
+     e5 "Jäänud"  IS_INCLUDED  e6 "veerandajal" 
+     e6 "veerandajal"  BEFORE  DCT 
+     e7 "pääses"  BEFORE  DCT 
+     e7 "pääses"  IS_INCLUDED  e8 "lõpus" 
+     e7 "pääses"  BEFORE  e11 "alustas" 
+     e8 "lõpus"  BEFORE  DCT 
+
+ s5  Kui [e9 mängida ] [e10 jäi ] [t2 12 sekundit ] , [e11 alustas ] TLÜ [e12 rünnakut ] kolmepunktilises eduseisus .
+     e9 "mängida"  SIMULTANEOUS  t2 "12 sekundit" 
+     e9 "mängida"  BEFORE  DCT 
+     e9 "mängida"  OVERLAP-OR-AFTER  e10 "jäi" 
+     e10 "jäi"  BEFORE-OR-OVERLAP  t2 "12 sekundit" 
+     e10 "jäi"  BEFORE  DCT 
+     e10 "jäi"  SIMULTANEOUS  e11 "alustas" 
+     e11 "alustas"  BEFORE  DCT 
+     e11 "alustas"  BEFORE-OR-OVERLAP  e12 "rünnakut" 
+     e11 "alustas"  BEFORE  e14 "tegi" 
+     e12 "rünnakut"  BEFORE  DCT 
+
+ s6  Kuid [t3 kaks sekundit ] enne [e13 lõppu ] [e14 tegi ] üks vastastest [e15 vaheltlõike ] , millele [e16 järgnes ] TLÜ ebasportlik [e17 viga ] .
+     e13 "lõppu"  OVERLAP-OR-AFTER  t3 "kaks sekundit" 
+     e13 "lõppu"  BEFORE  DCT 
+     e14 "tegi"  BEFORE-OR-OVERLAP  t3 "kaks sekundit" 
+     e14 "tegi"  BEFORE  DCT 
+     e14 "tegi"  BEFORE  e13 "lõppu" 
+     e14 "tegi"  BEFORE  e16 "järgnes" 
+     e14 "tegi"  SIMULTANEOUS  e15 "vaheltlõike" 
+     e14 "tegi"  BEFORE  e18 "tabas" 
+     e15 "vaheltlõike"  BEFORE  DCT 
+     e16 "järgnes"  BEFORE  DCT 
+     e16 "järgnes"  SIMULTANEOUS  e17 "viga" 
+     e17 "viga"  BEFORE  DCT 
+
+ s7  Berezina [e18 tabas ] ühe [e19 vabaviske ] ja [e20 küljeaudi ] järel [e21 kolmepunktiviske ] .
+     e18 "tabas"  BEFORE  DCT 
+     e18 "tabas"  AFTER  e19 "vabaviske" 
+     e18 "tabas"  AFTER  e20 "küljeaudi" 
+     e18 "tabas"  OVERLAP-OR-AFTER  e21 "kolmepunktiviske" 
+     e18 "tabas"  AFTER  e22 "võitnud" ka VAGUE
+     e18 "tabas"  AFTER  e23 "kaotanud" ka VAGUE
+     e19 "vabaviske"  BEFORE  DCT 
+     e19 "vabaviske"  BEFORE  e21 "kolmepunktiviske" 
+     e20 "küljeaudi"  BEFORE  DCT 
+     e20 "küljeaudi"  BEFORE  e21 "kolmepunktiviske" 
+     e21 "kolmepunktiviske"  BEFORE  DCT 
+
+ s8  [t4 Laupäeval ] oli TLÜ [e22 võitnud ] Minski 70 : 68 ( Ashley Wallace 22 ) , kuid Living [e23 kaotanud ] Berezinale 58 : 69 ( Jallai 20 ) .
+     e22 "võitnud"  IS_INCLUDED  t4 "Laupäeval" 
+     e22 "võitnud"  BEFORE  DCT 
+     e22 "võitnud"  VAGUE  e23 "kaotanud" 
+     e23 "kaotanud"  BEFORE  DCT 
+
+

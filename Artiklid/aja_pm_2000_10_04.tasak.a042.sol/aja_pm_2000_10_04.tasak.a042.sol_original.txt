@@ -1,32 +1,128 @@
 <div0><head> Metsamaa mõrva võimalikud vahendajad saavad süüdistuse </head>
-<p> <bibl> <author> <s> Rasmus Kagge , rasmus.kagge@postimees.ee </s> </author> </bibl> </p>
-<p rend="bold"> <s> Keskkriminaalpolitsei loodab täna esitada süüdistused Tallinna Keskturu direktori Vadim Polishtshuki väidetavatele ihukaitsjatele , keda kahtlustatakse ärimees Mait Metsamaa palgamõrva tellimise vahendamises . </s> </p>
-<p> <s> Kuigi ametlikult Tallinna Keskturu inseneri ja kontrolörina töötavad Sergei Normanov ( 26 ) ja Valeri Guznetsov ( 34 ) on olnud uurijale ütluste andmisel tõrksad , õnnestus keskkriminaalpolitseil tänu salajasele jälitustööle koguda piisavalt süütõendeid , et pärast meestele süüdistuste esitamist nõuda kohtult nende vahi all pidamise pikendust . </s> </p>
-<p> <s> Normanovi ja Guznetsovi vahistas keskkriminaalpolitsei 24. septembril . </s> </p>
-<p> <s> Esmaspäeva õhtul esitas keskkriminaalpolitsei juba ametliku süüdistuse mullu 12. oktoobril Lastekodu 26 majas Metsamaa tapnud Andrei Dudotshkinile ( 26 ) , kes on oma süüd ka tunnistanud . </s> </p>
-<p> <s> Postimehe andmetel ei teadnud Lasnamäel elav narkomaan , et mees , kelle ta oma endise koolivenna Normanovi tellimusel peab maha laskma , on endine Tallinna abilinnapea ja Keskturu nõukogu esimees Metsamaa . </s> </p>
-<p> <s> Väidetavalt teenis töötu Dudotshkin ühekordse tellimuse täitmise eest umbes 1000 USA dollarit ( praegu üle 17 000 Eesti krooni ) . </s> </p>
-<p> <s> Politsei ametliku uurimisversiooni järgi tellisid Tallinna Keskturul võimutsevad allilmategelased Mait Metsamaa tapmise selleks , et mitte maksta talle kaheksa miljoni krooni suurust hüvitist , mille eest ärimees nõustus turu erastamiskonkursist kõrvale jääma . </s> </p>
-<p> <s> Metsamaa palgamõrva uurimisega samaaegselt algatas keskkriminaalpolitsei eile ametkondliku juurdluse leidmaks oma töötajate hulgast isikud , kes avalikustasid ajakirjanduses laia kõlapinda tekitanud tapmise kohta kogutud materjalide üksikasju . </s> </p>
-<p> <s> Seetõttu keeldusid keskkriminaalpolitsei ametnikud eile igasugustest kommentaaridest , mis puudutavad Metsamaa mõrva lahendamise edusamme , ka ei andnud nad mingit hinnangut Polishtshuki EPL Online'ile antud intervjuule . </s> </p>
-<p rend="bold"> <s> Keskturu juhi versioon ärimehe tapmisest </s> </p>
-<p> <s> Tallinna Keskturu juhi Vadim Polishtshuki väitel sai Tallinna endise abilinnapea ja turu nõukogu liikme Mait Metsamaa tapmise tellimuse Jevgeni Bõkov noorem , keda politsei süüdistab ka Polishtshuki enda tapmiskatse korraldamises . </s> </p>
-<p> <s> Polishtshuki sõnul jälitas noorem Bõkov Metsamaad ka kolme inimese surmaga lõppenud liiklusõnnetuse ajal. </s> <s> ( Juulis 1999 kaotas Metsamaa Mercedes Tabasalus suurel kiirusel juhitavuse ja põrkas kokku kolme vastutuleva autoga . - PM ) </s> </p>
-<p> <s> “ Ta arvas , et Metsamaa lasi tappa ta isa ( Jevgeni Bõkov noorema sama nimega isa tapeti aprillis oma kodumaja ees Tallinnas - PM ) . </s> <s> Avariipaiga lähedal metsatukas sihtis Metsamaa autot samal ajal vintpüss . </s> <s> Ent siis pööras Metsamaa vastassuunavööndisse , ” rääkis Polishtshuk . </s> <s> Ligi kaks kuud hiljem tappis mõrvar Metsamaa siiski . </s> </p>
-<p> <s> Polishtshuki versiooni järgi palkasid mõrva tellijad nii tema kui ka Metsamaa tapmiseks kaks meest . </s> <s> “ Üks on arvatavasti Venemaale põgenenud , teine - mari rahvusest - istub kinni , ” ütles Polishtshuk . </s> <s> “ Bõkov oli vaid tellimuse täitja . </s> <s> Tellijaid oli üks . </s> <s> Kes , seda ma praegu ei ütle . ” </s> </p>
-<p> <s> Polishtshuki sõnul oli tapetavate nimekirjas veel kaks isikut , kes on seni elus . </s> <s> Neist ühel pole turuga vähimatki seost , ütles turujuht . </s> </p>
-<p rend="bold"> <s> Kes on Andrei Dudotshkin ? </s> <s> Kas ta töötas turul ? </s> </p>
-<p> <s> Ei töötanud . </s> <s> Ma ei ole tast kuulnud ka . </s> <s> Ma ei tea temast midagi . </s> <s> Sergei Normanov õppis Dudotshkiniga koos kutsekoolis . </s> <s> Guznetsovi ( teist vahialust - toim ) ta ei tundnud . </s> <s> Ta on Dudotshkinist vanem . </s> </p>
-<p rend="bold"> <s> Miks Dudotshkin väidab , et tema tappis Metsamaa ? </s> </p>
-<p> <s> Ta on ju narkomaan . </s> <s> Pane süstal lauale ja ta ütleb , et sa oled ta isa . </s> <s> Kas ta suudaks elada aasta pärast tulistamist , kui ta on mõrvatellimuse täitnud ? </s> <s> Tellijad oleks ta kohe koristanud . </s> <s> Ta võib ju välja rääkida . </s> </p>
-<p rend="bold"> <s> Miks ta seda siis ütleb ? </s> </p>
-<p> <s> Ma ei tea , mida ta ütles või kas leiti püstol . </s> <s> Seda tuleb politseilt küsida . </s> <s> Ma ei kommenteeri seda , sest ma ei tea , mis toimub . </s> <s> See , mis toimub , on provokatsioon . </s> <s> Kuna nad ei suutud mind tappa , siis nüüd üritavad nad tappa mind puhaste kätega . </s> </p>
-<p rend="bold"> <s> Kes ? </s> </p>
-<p> <s> Konkurendid . </s> <s> No mõelge , kes tollal tahtsid turgu endale ? </s> <s> Paljud tahtsid turgu . </s> <s> Kui mind poleks , saaks turu tagasi võtta . </s> <s> Kaks kuud krediiti pole ja turg ei tööta enam . </s> <s> Nad teavad seda . </s> </p>
-<p rend="bold"> <s> Teise Keskturule konkureerinud firma Rivingtoni Halduse OÜ taga olid Meelis Lao ja jurist Aivar Pihlak . </s> <s> Kas nemad võisid tellida mõrvad ? </s> </p>
-<p> <s> Ei , Meelis ei läheks selle peale välja . </s> </p>
-<p rend="bold"> <s> Kes te pärast Keskturu erastamist ameti poolest olete ? </s> </p>
-<p> <s> Koordinaator . </s> <s> Turu juhatuse koordinaator ja nõunik . </s> </p>
-<p rend="bold"> <s> Kas selline ametinimetus ongi töölepingus ? </s> <s> Kui suur teie palk on ? </s> </p>
-<p> <s> ( Vaatab lauakatte alt pabereid . ) </s> <s> Jah , koordinaator . </s> <s> 7000 krooni teenin . </s> </p>
-<p rend="italic"> <s> Allikas : EPL Online </s> </p></div0>
+<p>
+ <bibl> <author> <s> Rasmus Kagge , rasmus.kagge@postimees.ee </s> </author> </bibl> 
+</p>
+<p rend="bold">
+ <s> Keskkriminaalpolitsei loodab täna esitada süüdistused Tallinna Keskturu direktori Vadim Polishtshuki väidetavatele ihukaitsjatele , keda kahtlustatakse ärimees Mait Metsamaa palgamõrva tellimise vahendamises . </s> 
+</p>
+<p>
+ <s> Kuigi ametlikult Tallinna Keskturu inseneri ja kontrolörina töötavad Sergei Normanov ( 26 ) ja Valeri Guznetsov ( 34 ) on olnud uurijale ütluste andmisel tõrksad , õnnestus keskkriminaalpolitseil tänu salajasele jälitustööle koguda piisavalt süütõendeid , et pärast meestele süüdistuste esitamist nõuda kohtult nende vahi all pidamise pikendust . </s> 
+</p>
+<p>
+ <s> Normanovi ja Guznetsovi vahistas keskkriminaalpolitsei 24. septembril . </s> 
+</p>
+<p>
+ <s> Esmaspäeva õhtul esitas keskkriminaalpolitsei juba ametliku süüdistuse mullu 12. oktoobril Lastekodu 26 majas Metsamaa tapnud Andrei Dudotshkinile ( 26 ) , kes on oma süüd ka tunnistanud . </s> 
+</p>
+<p>
+ <s> Postimehe andmetel ei teadnud Lasnamäel elav narkomaan , et mees , kelle ta oma endise koolivenna Normanovi tellimusel peab maha laskma , on endine Tallinna abilinnapea ja Keskturu nõukogu esimees Metsamaa . </s> 
+</p>
+<p>
+ <s> Väidetavalt teenis töötu Dudotshkin ühekordse tellimuse täitmise eest umbes 1000 USA dollarit ( praegu üle 17 000 Eesti krooni ) . </s> 
+</p>
+<p>
+ <s> Politsei ametliku uurimisversiooni järgi tellisid Tallinna Keskturul võimutsevad allilmategelased Mait Metsamaa tapmise selleks , et mitte maksta talle kaheksa miljoni krooni suurust hüvitist , mille eest ärimees nõustus turu erastamiskonkursist kõrvale jääma . </s> 
+</p>
+<p>
+ <s> Metsamaa palgamõrva uurimisega samaaegselt algatas keskkriminaalpolitsei eile ametkondliku juurdluse leidmaks oma töötajate hulgast isikud , kes avalikustasid ajakirjanduses laia kõlapinda tekitanud tapmise kohta kogutud materjalide üksikasju . </s> 
+</p>
+<p>
+ <s> Seetõttu keeldusid keskkriminaalpolitsei ametnikud eile igasugustest kommentaaridest , mis puudutavad Metsamaa mõrva lahendamise edusamme , ka ei andnud nad mingit hinnangut Polishtshuki EPL Online'ile antud intervjuule . </s> 
+</p>
+<p rend="bold">
+ <s> Keskturu juhi versioon ärimehe tapmisest </s> 
+</p>
+<p>
+ <s> Tallinna Keskturu juhi Vadim Polishtshuki väitel sai Tallinna endise abilinnapea ja turu nõukogu liikme Mait Metsamaa tapmise tellimuse Jevgeni Bõkov noorem , keda politsei süüdistab ka Polishtshuki enda tapmiskatse korraldamises . </s> 
+</p>
+<p>
+ <s> Polishtshuki sõnul jälitas noorem Bõkov Metsamaad ka kolme inimese surmaga lõppenud liiklusõnnetuse ajal. </s>
+<s> ( Juulis 1999 kaotas Metsamaa Mercedes Tabasalus suurel kiirusel juhitavuse ja põrkas kokku kolme vastutuleva autoga . - PM ) </s> 
+</p>
+<p>
+ <s> “ Ta arvas , et Metsamaa lasi tappa ta isa ( Jevgeni Bõkov noorema sama nimega isa tapeti aprillis oma kodumaja ees Tallinnas - PM ) . </s>
+<s> Avariipaiga lähedal metsatukas sihtis Metsamaa autot samal ajal vintpüss . </s>
+<s> Ent siis pööras Metsamaa vastassuunavööndisse , ” rääkis Polishtshuk . </s>
+<s> Ligi kaks kuud hiljem tappis mõrvar Metsamaa siiski . </s> 
+</p>
+<p>
+ <s> Polishtshuki versiooni järgi palkasid mõrva tellijad nii tema kui ka Metsamaa tapmiseks kaks meest . </s>
+<s> “ Üks on arvatavasti Venemaale põgenenud , teine - mari rahvusest - istub kinni , ” ütles Polishtshuk . </s>
+<s> “ Bõkov oli vaid tellimuse täitja . </s>
+<s> Tellijaid oli üks . </s>
+<s> Kes , seda ma praegu ei ütle . ” </s> 
+</p>
+<p>
+ <s> Polishtshuki sõnul oli tapetavate nimekirjas veel kaks isikut , kes on seni elus . </s>
+<s> Neist ühel pole turuga vähimatki seost , ütles turujuht . </s> 
+</p>
+<p rend="bold">
+ <s> Kes on Andrei Dudotshkin ? </s>
+<s> Kas ta töötas turul ? </s> 
+</p>
+<p>
+ <s> Ei töötanud . </s>
+<s> Ma ei ole tast kuulnud ka . </s>
+<s> Ma ei tea temast midagi . </s>
+<s> Sergei Normanov õppis Dudotshkiniga koos kutsekoolis . </s>
+<s> Guznetsovi ( teist vahialust - toim ) ta ei tundnud . </s>
+<s> Ta on Dudotshkinist vanem . </s> 
+</p>
+<p rend="bold">
+ <s> Miks Dudotshkin väidab , et tema tappis Metsamaa ? </s> 
+</p>
+<p>
+ <s> Ta on ju narkomaan . </s>
+<s> Pane süstal lauale ja ta ütleb , et sa oled ta isa . </s>
+<s> Kas ta suudaks elada aasta pärast tulistamist , kui ta on mõrvatellimuse täitnud ? </s>
+<s> Tellijad oleks ta kohe koristanud . </s>
+<s> Ta võib ju välja rääkida . </s> 
+</p>
+<p rend="bold">
+ <s> Miks ta seda siis ütleb ? </s> 
+</p>
+<p>
+ <s> Ma ei tea , mida ta ütles või kas leiti püstol . </s>
+<s> Seda tuleb politseilt küsida . </s>
+<s> Ma ei kommenteeri seda , sest ma ei tea , mis toimub . </s>
+<s> See , mis toimub , on provokatsioon . </s>
+<s> Kuna nad ei suutud mind tappa , siis nüüd üritavad nad tappa mind puhaste kätega . </s> 
+</p>
+<p rend="bold">
+ <s> Kes ? </s> 
+</p>
+<p>
+ <s> Konkurendid . </s>
+<s> No mõelge , kes tollal tahtsid turgu endale ? </s>
+<s> Paljud tahtsid turgu . </s>
+<s> Kui mind poleks , saaks turu tagasi võtta . </s>
+<s> Kaks kuud krediiti pole ja turg ei tööta enam . </s>
+<s> Nad teavad seda . </s> 
+</p>
+<p rend="bold">
+ <s> Teise Keskturule konkureerinud firma Rivingtoni Halduse OÜ taga olid Meelis Lao ja jurist Aivar Pihlak . </s>
+<s> Kas nemad võisid tellida mõrvad ? </s> 
+</p>
+<p>
+ <s> Ei , Meelis ei läheks selle peale välja . </s> 
+</p>
+<p rend="bold">
+ <s> Kes te pärast Keskturu erastamist ameti poolest olete ? </s> 
+</p>
+<p>
+ <s> Koordinaator . </s>
+<s> Turu juhatuse koordinaator ja nõunik . </s> 
+</p>
+<p rend="bold">
+ <s> Kas selline ametinimetus ongi töölepingus ? </s>
+<s> Kui suur teie palk on ? </s> 
+</p>
+<p>
+ <s> ( Vaatab lauakatte alt pabereid . ) </s>
+<s> Jah , koordinaator . </s>
+<s> 7000 krooni teenin . </s> 
+</p>
+<p rend="italic">
+ <s> Allikas : EPL Online </s> 
+</p>
+</div0>

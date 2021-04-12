@@ -1,4 +1,13 @@
 <div0><head> Parima summa kogus Costa </head><bibl> <author> SLÕL </author> </bibl>
-<p rend="bold"> <s> Eesti meistrivõistluste soosikuks kerkis Jelena Glebova puudumisel mullune Eesti juunioride meister Svetlana Issakova , kes 129 punktiga noppiski esikoha . </s> </p>
-<p> <s> Suurima punktisumma ( 135 ) kogus aga hoopis juunioride parim , veel üks Anna Levandi õpilane Jasmine Alexandra Costa . </s> <s> " Ta harjutab koos minuga , on väga püüdlik ja treenib väga hoolikalt . </s> <s> Mul on tema võidu üle väga hea meel ! " tunnustas Glebova treeningukaaslast . </s> </p>
-<p> <s> Naisteklassis võtsid teise-kolmanda koha Johanna Allik ja lühikava võitnud Olga Ikonnikova . </s> </p></div0>
+<p rend="bold">
+ <s> Eesti meistrivõistluste soosikuks kerkis Jelena Glebova puudumisel mullune Eesti juunioride meister Svetlana Issakova , kes 129 punktiga noppiski esikoha . </s> 
+</p>
+<p>
+ <s> Suurima punktisumma ( 135 ) kogus aga hoopis juunioride parim , veel üks Anna Levandi õpilane Jasmine Alexandra Costa . </s>
+<s> " Ta harjutab koos minuga , on väga püüdlik ja treenib väga hoolikalt . </s>
+<s> Mul on tema võidu üle väga hea meel ! " tunnustas Glebova treeningukaaslast . </s> 
+</p>
+<p>
+ <s> Naisteklassis võtsid teise-kolmanda koha Johanna Allik ja lühikava võitnud Olga Ikonnikova . </s> 
+</p>
+</div0>

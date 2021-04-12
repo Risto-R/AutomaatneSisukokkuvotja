@@ -1,0 +1,158 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a033.sol
+      DCT: 2000-10-04
+==================================================
+ s0  [e1 Diilerivahetuse ] tõttu ei [e2 müüdud ] Eestis [t1 eelmisel kuul ] ühtegi Fordi .
+     e1 "Diilerivahetuse"  BEFORE  DCT 
+     e1 "Diilerivahetuse"  BEFORE  e2 "müüdud" 
+     e2 "müüdud"  SIMULTANEOUS  t1 "eelmisel kuul" 
+     e2 "müüdud"  BEFORE  DCT 
+     e2 "müüdud"  SIMULTANEOUS  e5 "jõutud" ka VAGUE
+     e2 "müüdud"  SIMULTANEOUS  e4 "müüdi" 
+
+ s1  Uue diileri [e3 kinnitusel ] autosid küll [e4 müüdi ] , kuid neid ei [e5 jõutud ] veel ostjatele kätte [e6 anda ] .
+     e3 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e3 "kinnitusel"  AFTER  e4 "müüdi" 
+     e4 "müüdi"  BEFORE  DCT 
+     e4 "müüdi"  SIMULTANEOUS  e5 "jõutud" 
+     e4 "müüdi"  IS_INCLUDED  e7 "müüdi" 
+     e4 "müüdi"  IS_INCLUDED  e8 "olid" 
+     e5 "jõutud"  BEFORE  DCT 
+     e5 "jõutud"  BEFORE-OR-OVERLAP  e6 "anda" 
+     e5 "jõutud"  IS_INCLUDED  e7 "müüdi" ka VAGUE
+     e5 "jõutud"  IS_INCLUDED  e8 "olid" ka VAGUE
+     e6 "anda"  BEFORE  DCT 
+
+ s2  Kokku [e7 müüdi ] [t2 septembris ] Eestis 1090 autot , neist 949 [e8 olid ] sõiduautod ja 141 veoautod .
+     e7 "müüdi"  IS_INCLUDED  t2 "septembris" 
+     e7 "müüdi"  BEFORE  DCT 
+     e7 "müüdi"  SIMULTANEOUS  e8 "olid" 
+     e7 "müüdi"  SIMULTANEOUS  e9 "müüjateks olid" ka VAGUE
+     e8 "olid"  BEFORE-OR-OVERLAP  DCT 
+     e8 "olid"  SIMULTANEOUS  e9 "müüjateks olid" ka VAGUE
+
+ s3  Suurimateks [e9 müüjateks ] kõikide sõiduvahendite kokkuvõttes [e9 olid ] Volkswagen , Toyota ja Peugeot vastavalt 100 , 95 ja 95 autoga .
+     e9 "müüjateks olid"  BEFORE  DCT 
+     e9 "müüjateks olid"  SIMULTANEOUS  e10 "olid automüüjad" 
+
+ s4  Sõiduautode seas [e10 olid ] suurimad [e10 automüüjad ] Toyota 92 , Volkswagen 91 ja Nissan 77 autoga .
+     e10 "olid automüüjad"  BEFORE  DCT 
+     e10 "olid automüüjad"  IS_INCLUDED  e11 "müünud" 
+     e10 "olid automüüjad"  IS_INCLUDED  e12 "järgnevad" 
+
+ s5  [t3 Üheksa kuuga ] on kõige rohkem autosid Eestisse [e11 müünud ] Peugeot , talle [e12 järgnevad ] Volkswagen , Toyota , Nissan , Mazda , Citroén ja Opel .
+     e11 "müünud"  IS_INCLUDED  t3 "Üheksa kuuga" 
+     e11 "müünud"  INCLUDES  DCT 
+     e11 "müünud"  SIMULTANEOUS  e12 "järgnevad" 
+     e11 "müünud"  SIMULTANEOUS  e13 "edestab" 
+     e11 "müünud"  SIMULTANEOUS  e14 "jääb" 
+     e12 "järgnevad"  INCLUDES  DCT 
+     e12 "järgnevad"  SIMULTANEOUS  e13 "edestab" 
+     e12 "järgnevad"  SIMULTANEOUS  e14 "jääb" 
+
+ s6  Peugeot [e13 edestab ] Volkswagenit [t4 hetkel ] 60 autoga , Toyota [e14 jääb ] maha 48 autoga .
+     e13 "edestab"  SIMULTANEOUS  t4 "hetkel" 
+     e13 "edestab"  INCLUDES  DCT 
+     e13 "edestab"  SIMULTANEOUS  e14 "jääb" 
+     e13 "edestab"  AFTER  e18 "aidanud" 
+     e13 "edestab"  IS_INCLUDED  e16 "on" 
+     e14 "jääb"  INCLUDES  DCT 
+     e14 "jääb"  AFTER  e18 "aidanud" 
+     e14 "jääb"  IS_INCLUDED  e16 "on" 
+
+ s7  Volkswageni müügijuhi Ivar Kulbini [e15 kinnitusel ] [e16 on ] salongis küll pisut vähem inimesi , kuid heale [e17 müügile ] on kaasa [e18 aidanud ] korralik kliendibaas , sest firmad [e19 tahavad ] autoparki [e20 täiendada ] .
+     e15 "kinnitusel"  BEFORE-OR-OVERLAP  DCT 
+     e15 "kinnitusel"  IS_INCLUDED  e16 "on" 
+     e16 "on"  INCLUDES  DCT 
+     e16 "on"  VAGUE  e18 "aidanud" ka INCLUDES
+     e16 "on"  OVERLAP-OR-AFTER  e21 "müüdud" 
+     e17 "müügile"  BEFORE  DCT 
+     e17 "müügile"  OVERLAP-OR-AFTER  e18 "aidanud" 
+     e18 "aidanud"  BEFORE  DCT 
+     e18 "aidanud"  IS_INCLUDED  e19 "tahavad" 
+     e18 "aidanud"  IS_INCLUDED  e21 "müüdud" 
+     e19 "tahavad"  INCLUDES  DCT 
+     e19 "tahavad"  BEFORE-OR-OVERLAP  e20 "täiendada" 
+     e20 "täiendada"  VAGUE  DCT 
+
+ s8  [t5 Aasta ] kokkuvõttes on [t6 üheksa kuuga ] [e21 müüdud ] 9283 autot , millest 1296 [e22 olid ] veoautod .
+     e21 "müüdud"  IS_INCLUDED  t6 "üheksa kuuga" 
+     e21 "müüdud"  BEFORE  DCT 
+     e21 "müüdud"  SIMULTANEOUS  e22 "olid" 
+     e21 "müüdud"  BEFORE-OR-OVERLAP  e23 "tuleb suurem" 
+     e22 "olid"  BEFORE-OR-OVERLAP  DCT 
+
+ s9  Nii [t7 eelmise aasta septembriga ] kui ka [t8 üheksa kuu ] kokkuvõttes [e23 tuleb ] [e24 müük ] ligi poole [e23 suurem ] .
+     e23 "tuleb suurem"  AFTER  t7 "eelmise aasta septembriga" 
+     e23 "tuleb suurem"  INCLUDES  DCT 
+     e23 "tuleb suurem"  OVERLAP-OR-AFTER  e24 "müük" 
+     e23 "tuleb suurem"  AFTER  e25 "edestas" 
+     e24 "müük"  BEFORE  DCT 
+
+ s10  [t9 Möödunud kuul ] [e25 edestas ] Viking Motors [t10 senist ] suurimat Opeli müüjat Ascarit .
+     e25 "edestas"  IS_INCLUDED  t9 "Möödunud kuul" 
+     e25 "edestas"  BEFORE  DCT 
+     e25 "edestas"  SIMULTANEOUS  e27 "aitasid" 
+
+ s11  Viking Motorsi müügidirektori Leemet Tamme [e26 sõnul ] [e27 aitasid ] numbrile kaasa ettevõtete [e28 suurostud ] .
+     e26 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e26 "sõnul"  AFTER  e27 "aitasid" 
+     e27 "aitasid"  BEFORE  DCT 
+     e27 "aitasid"  OVERLAP-OR-AFTER  e28 "suurostud" 
+     e27 "aitasid"  BEFORE  e30 "olema hea" 
+     e27 "aitasid"  BEFORE  e33 "ootab" 
+     e28 "suurostud"  BEFORE  DCT 
+
+ s12  Ka [t11 järgmisel kuul ] [e29 peaks ] Opeli tulemus [e30 olema ] päris [e30 hea ] - üle saja auto , seda tänu politseiameti [e31 autoostukonkursi ] [e32 võitmisele ] Ascari ja Carringu poolt , samuti [e33 ootab ] Viking Motorsis ligi 50 autot [e34 üleandmist ] .
+     e29 "peaks"  BEFORE-OR-OVERLAP  t11 "järgmisel kuul" 
+     e29 "peaks"  AFTER  DCT 
+     e29 "peaks"  BEFORE-OR-OVERLAP  e30 "olema hea" 
+     e30 "olema hea"  IS_INCLUDED  t11 "järgmisel kuul" 
+     e30 "olema hea"  AFTER  DCT 
+     e30 "olema hea"  AFTER  e32 "võitmisele" 
+     e30 "olema hea"  VAGUE  e33 "ootab" 
+     e30 "olema hea"  AFTER  e35 "müüdud" 
+     e31 "autoostukonkursi"  BEFORE  DCT 
+     e31 "autoostukonkursi"  BEFORE-OR-OVERLAP  e32 "võitmisele" 
+     e32 "võitmisele"  BEFORE  DCT 
+     e33 "ootab"  INCLUDES  DCT 
+     e33 "ootab"  BEFORE-OR-OVERLAP  e34 "üleandmist" 
+     e33 "ootab"  OVERLAP-OR-AFTER  e35 "müüdud" 
+     e34 "üleandmist"  AFTER  DCT 
+
+ s13  [t12 Septembris ] ei [e35 müüdud ] ühtegi Fordi .
+     e35 "müüdud"  IS_INCLUDED  t12 "Septembris" 
+     e35 "müüdud"  BEFORE  DCT 
+     e35 "müüdud"  BEFORE-OR-OVERLAP  e37 "tähendas" 
+
+ s14  [e36 Sõiduautomüügis ] [e37 tähendas ] see Fordile üldises edetabelis [e38 langemist ] 11. kohalt 14. kohale .
+     e36 "Sõiduautomüügis"  VAGUE  DCT 
+     e36 "Sõiduautomüügis"  VAGUE  e37 "tähendas" 
+     e37 "tähendas"  BEFORE  DCT 
+     e37 "tähendas"  VAGUE  e38 "langemist" 
+     e37 "tähendas"  BEFORE-OR-OVERLAP  e39 "tõdes" 
+     e37 "tähendas"  INCLUDES  e40 "saabus" 
+     e38 "langemist"  BEFORE  DCT 
+
+ s15  AS Info-Auto Fordi autosalongi müügidirektor Toomas Putmaker [e39 tõdes ] , et [t13 septembri viimastel päevadel ] 12 autot küll [e40 saabus ] , kuid statistikas [e41 läheb ] [e41 kirja ] üleandmisaeg , mis [e42 on ] nende autode puhul [t14 oktoobris ] .
+     e39 "tõdes"  BEFORE-OR-OVERLAP  DCT 
+     e39 "tõdes"  AFTER  e40 "saabus" 
+     e39 "tõdes"  AFTER  e43 "oli rebimine" 
+     e40 "saabus"  IS_INCLUDED  t13 "septembri viimastel päevadel" 
+     e40 "saabus"  BEFORE  DCT 
+     e40 "saabus"  BEFORE  e41 "läheb kirja" 
+     e40 "saabus"  IS_INCLUDED  e43 "oli rebimine" 
+     e41 "läheb kirja"  INCLUDES  DCT 
+     e41 "läheb kirja"  BEFORE-OR-OVERLAP  e42 "on" 
+     e42 "on"  IS_INCLUDED  t14 "oktoobris" 
+     e42 "on"  OVERLAP-OR-AFTER  DCT 
+
+ s16  [t15 Möödunud kuul ] [e43 oli ] väga tihe [e43 rebimine ] ka kõige enammüüduma automudeli osas .
+     e43 "oli rebimine"  IS_INCLUDED  t15 "Möödunud kuul" 
+     e43 "oli rebimine"  BEFORE  DCT 
+     e43 "oli rebimine"  SIMULTANEOUS  e44 "müüdud" 
+
+ s17  Nii on Volkswagen Borat/Golfi [e44 müüdud ] 54 autot , Nissan Almerat 46 , Toyota Avensist ja Daewoo Lanost 44 autot .
+     e44 "müüdud"  BEFORE  DCT 
+
+

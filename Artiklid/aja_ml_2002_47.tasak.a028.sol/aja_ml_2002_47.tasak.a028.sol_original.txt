@@ -1,10 +1,34 @@
 <div0><head> Omavoli tuleb lõhkuda </head>
-<p> <s> <hi rend="italic"> 20.11.2002 <bibl> <author> Merike Pitk </author> </bibl> </hi> </s> </p>
-<p> <s> Jagan nende arvamust , kes leiavad , et omavolilised ehitised tuleb lammutada . </s> <s> Olgu need siis kuurid või luksusvillad . </s> <s> Kui üks selline on pealinna lähedal magusas kohas maha tõmmatud , ei teki enam teistel ka kiusatust seadust rikkuda . </s> </p>
-<p> <s> Kui aga vallaametnike käsi ei ole tõusnud lammutuskäsku andma , siis ma ei usu eriti , et keskkonnainspektsioon nüüd suuremat innukust üles näitab . </s> </p>
-<p> <s> Üks Saare maavalitsuse ametnik leidis , et omavoliliste ehitiste mahatõmbamise kohustust keskkonnainspektsioonile delegeerida polegi õige , sest planeerimis- ja ehitustegevuse järelevalve on pandud ikkagi omavalitsustele . </s> </p>
-<p> <s> Kui linna- või vallaametnik seadustest kinni ei pea , siis on rahva valitud volikogul kohustus see ametnik välja vahetada . </s> </p>
-<p> <s> Mida teeb aga rahvas ? </s> <s> Rahvas kirub ja vingub niisama nurga taga , kui kusagil midagi omatahtsi püsti pannakse , randu suletakse ja seega sellesama rahva üle irvitatakse . </s> <s> Ei ole kuulda , et mõni vallaelanik oleks volikogult mõne ametniku vallandamist nõudnud . </s> </p>
-<p> <s> Kindlasti ei tasuks ka ainult omavolitsejaid siunata . </s> <s> Kui ühele tehakse keskkonnaministeeriumis erand ja antakse luba randa ehitada , siis on õigus ka teisel sama erandit tahta . </s> </p>
-<p> <s> Hiiumaa keskkonnaametnikud räägivad , et araverelisemad ainult seda ootavadki , millal Kassari saare kaitsealal seadustatakse ühe ettevõtja omavoliliselt püstitatud suvila , et siis ka ise kopp maasse lüüa . </s> </p>
-<p> <s> See , et minister Kranich ei vähendanud vandeadvokaat Kaasiku mereäärsel kinnistul ehituskeeluvööndit , annab lihtrahvale ehk natukegi lootust , et kõike ei määra raha . </s> </p></div0>
+<p>
+ <s> <hi rend="italic"> 20.11.2002 <bibl> <author> Merike Pitk </author> </bibl> </hi> </s> 
+</p>
+<p>
+ <s> Jagan nende arvamust , kes leiavad , et omavolilised ehitised tuleb lammutada . </s>
+<s> Olgu need siis kuurid või luksusvillad . </s>
+<s> Kui üks selline on pealinna lähedal magusas kohas maha tõmmatud , ei teki enam teistel ka kiusatust seadust rikkuda . </s> 
+</p>
+<p>
+ <s> Kui aga vallaametnike käsi ei ole tõusnud lammutuskäsku andma , siis ma ei usu eriti , et keskkonnainspektsioon nüüd suuremat innukust üles näitab . </s> 
+</p>
+<p>
+ <s> Üks Saare maavalitsuse ametnik leidis , et omavoliliste ehitiste mahatõmbamise kohustust keskkonnainspektsioonile delegeerida polegi õige , sest planeerimis- ja ehitustegevuse järelevalve on pandud ikkagi omavalitsustele . </s> 
+</p>
+<p>
+ <s> Kui linna- või vallaametnik seadustest kinni ei pea , siis on rahva valitud volikogul kohustus see ametnik välja vahetada . </s> 
+</p>
+<p>
+ <s> Mida teeb aga rahvas ? </s>
+<s> Rahvas kirub ja vingub niisama nurga taga , kui kusagil midagi omatahtsi püsti pannakse , randu suletakse ja seega sellesama rahva üle irvitatakse . </s>
+<s> Ei ole kuulda , et mõni vallaelanik oleks volikogult mõne ametniku vallandamist nõudnud . </s> 
+</p>
+<p>
+ <s> Kindlasti ei tasuks ka ainult omavolitsejaid siunata . </s>
+<s> Kui ühele tehakse keskkonnaministeeriumis erand ja antakse luba randa ehitada , siis on õigus ka teisel sama erandit tahta . </s> 
+</p>
+<p>
+ <s> Hiiumaa keskkonnaametnikud räägivad , et araverelisemad ainult seda ootavadki , millal Kassari saare kaitsealal seadustatakse ühe ettevõtja omavoliliselt püstitatud suvila , et siis ka ise kopp maasse lüüa . </s> 
+</p>
+<p>
+ <s> See , et minister Kranich ei vähendanud vandeadvokaat Kaasiku mereäärsel kinnistul ehituskeeluvööndit , annab lihtrahvale ehk natukegi lootust , et kõike ei määra raha . </s> 
+</p>
+</div0>

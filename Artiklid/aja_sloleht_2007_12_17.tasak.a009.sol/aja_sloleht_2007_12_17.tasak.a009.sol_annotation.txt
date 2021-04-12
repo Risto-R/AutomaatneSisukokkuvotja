@@ -1,0 +1,269 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a009.sol
+      DCT: 2007-12-17
+==================================================
+ s0  V’RKPALL
+ s1  Ei [e1 ole ] midagi uut siin vırkpallip‰ikese all . Eesti [e2 karikavıistluste ] [e3 finaali ] [e4 jıudsid ] Tallinna Selver ja Tartu Pere Leib ning 3 : 0 [e5 vıidu ] [e6 vıttis ] Selver .
+     e1 "ole"  INCLUDES  DCT 
+     e1 "ole"  INCLUDES  e4 "jıudsid" 
+     e1 "ole"  INCLUDES  e6 "vıttis" 
+     e1 "ole"  INCLUDES  e9 "j‰‰nud" 
+     e2 "karikavıistluste"  BEFORE-OR-OVERLAP  DCT 
+     e2 "karikavıistluste"  BEFORE-OR-OVERLAP  e3 "finaali" 
+     e3 "finaali"  BEFORE  DCT 
+     e3 "finaali"  OVERLAP-OR-AFTER  e4 "jıudsid" 
+     e4 "jıudsid"  BEFORE  DCT 
+     e4 "jıudsid"  BEFORE  e6 "vıttis" 
+     e4 "jıudsid"  AFTER  e9 "j‰‰nud" 
+     e5 "vıidu"  BEFORE  DCT 
+     e5 "vıidu"  OVERLAP-OR-AFTER  e6 "vıttis" 
+     e6 "vıttis"  BEFORE  DCT 
+     e6 "vıttis"  AFTER  e9 "j‰‰nud" 
+
+ s2  Tartlaste jıud oli Kuressaares [e7 peetud ] Final [e8 Fouril ] [e9 j‰‰nud ] [e10 poolfinaali ] , kus [e11 alistati ] P‰rnu VK 3 : 2 ( otsustav [e12 geim ] 16 : 14 ) .
+     e7 "peetud"  BEFORE  DCT 
+     e7 "peetud"  BEFORE-OR-OVERLAP  e8 "Fouril" 
+     e8 "Fouril"  BEFORE  DCT 
+     e8 "Fouril"  INCLUDES  e9 "j‰‰nud" 
+     e9 "j‰‰nud"  BEFORE  DCT 
+     e9 "j‰‰nud"  BEFORE-OR-OVERLAP  e11 "alistati" 
+     e9 "j‰‰nud"  OVERLAP-OR-AFTER  e10 "poolfinaali" 
+     e9 "j‰‰nud"  VAGUE  e14 "n‰inud" 
+     e10 "poolfinaali"  BEFORE  DCT 
+     e11 "alistati"  BEFORE  DCT 
+     e11 "alistati"  AFTER  e12 "geim" 
+     e12 "geim"  BEFORE  DCT 
+
+ s3  Selver oli [e13 poolfinaalis ] [e14 n‰inud ] ¸llatavalt suurt vaeva Sylvesteriga , [e15 vıites ] 3 : 1 ( 15 , 23 , -22 , 23 ) .
+     e13 "poolfinaalis"  BEFORE  DCT 
+     e13 "poolfinaalis"  INCLUDES  e14 "n‰inud" 
+     e14 "n‰inud"  BEFORE  DCT 
+     e14 "n‰inud"  BEFORE-OR-OVERLAP  e15 "vıites" 
+     e14 "n‰inud"  AFTER  e16 "N‰gime" 
+     e14 "n‰inud"  BEFORE  e20 "¸tles" 
+     e15 "vıites"  BEFORE  DCT 
+
+ s4  " [e16 N‰gime ] ette , et [t1 n‰dalavahetuse ] [e17 m‰ngud ] [e18 vıivad ] [e19 tulla ] k¸llalt [e19 rasked ] , " [e20 ¸tles ] Selveri peatreener Avo Keel .
+     e16 "N‰gime"  BEFORE  DCT 
+     e16 "N‰gime"  BEFORE  e19 "tulla rasked" 
+     e16 "N‰gime"  BEFORE  e20 "¸tles" 
+     e16 "N‰gime"  IS_INCLUDED  e22 "olnud tihe" 
+     e17 "m‰ngud"  IS_INCLUDED  t1 "n‰dalavahetuse" 
+     e17 "m‰ngud"  BEFORE  DCT 
+     e17 "m‰ngud"  SIMULTANEOUS  e19 "tulla rasked" 
+     e18 "vıivad"  BEFORE  DCT 
+     e18 "vıivad"  BEFORE-OR-OVERLAP  e19 "tulla rasked" 
+     e19 "tulla rasked"  BEFORE  DCT 
+     e20 "¸tles"  BEFORE-OR-OVERLAP  DCT 
+     e20 "¸tles"  IS_INCLUDED  e22 "olnud tihe" 
+
+ s5  " [t2 Detsembrikuu ] [e21 m‰ngudegraafik ] on [e22 olnud ] v‰ga [e22 tihe ] .
+     e21 "m‰ngudegraafik"  IS_INCLUDED  t2 "Detsembrikuu" 
+     e21 "m‰ngudegraafik"  BEFORE-OR-OVERLAP  DCT 
+     e21 "m‰ngudegraafik"  BEFORE-OR-OVERLAP  e22 "olnud tihe" 
+     e22 "olnud tihe"  BEFORE  DCT 
+     e22 "olnud tihe"  INCLUDES  e24 "pidas" 
+
+ s6  Kui f¸¸siliselt [e23 oligi ] meestel [e23 raske ] , siis nende vaim [e24 pidas ] vastu . "
+     e23 "oligi raske"  BEFORE  DCT 
+     e23 "oligi raske"  SIMULTANEOUS  e24 "pidas" 
+     e24 "pidas"  BEFORE  DCT 
+     e24 "pidas"  INCLUDES  e26 "andis" 
+
+ s7  [e25 Finaalis ] [e26 andis ] Selver vastasele [e27 geimides ] vastavalt 20 , 23 ja 22 punkti , [e28 vıites ] raskemalt kui [t3 hiljuti ] Balti liiga [e29 m‰ngus ] Tartus .
+     e25 "Finaalis"  BEFORE  DCT 
+     e25 "Finaalis"  INCLUDES  e26 "andis" 
+     e26 "andis"  BEFORE  DCT 
+     e26 "andis"  BEFORE  e28 "vıites" 
+     e26 "andis"  IS_INCLUDED  e27 "geimides" 
+     e26 "andis"  OVERLAP-OR-AFTER  e31 "p‰‰ses" 
+     e26 "andis"  OVERLAP-OR-AFTER  e32 "hoidis" 
+     e27 "geimides"  BEFORE  DCT 
+     e28 "vıites"  BEFORE  DCT 
+     e28 "vıites"  AFTER  e29 "m‰ngus" 
+     e29 "m‰ngus"  SIMULTANEOUS  t3 "hiljuti" 
+     e29 "m‰ngus"  BEFORE  DCT 
+
+ s8  Esimeses [e30 geimis ] [e31 p‰‰ses ] Selver kiiresti ette ja [e32 hoidis ] edu t‰nu heale servile k¸llalt kindlalt .
+     e30 "geimis"  BEFORE  DCT 
+     e30 "geimis"  INCLUDES  e31 "p‰‰ses" 
+     e31 "p‰‰ses"  BEFORE  DCT 
+     e31 "p‰‰ses"  BEFORE-OR-OVERLAP  e32 "hoidis" 
+     e31 "p‰‰ses"  BEFORE  e34 "p‰‰ses" 
+     e31 "p‰‰ses"  BEFORE  e35 "vıtsid" 
+     e31 "p‰‰ses"  BEFORE  e36 "l‰ksid" 
+     e31 "p‰‰ses"  BEFORE  e38 "hoidis" 
+     e32 "hoidis"  BEFORE  DCT 
+     e32 "hoidis"  BEFORE  e34 "p‰‰ses" 
+     e32 "hoidis"  BEFORE  e35 "vıtsid" 
+     e32 "hoidis"  BEFORE  e36 "l‰ksid" 
+     e32 "hoidis"  BEFORE  e38 "hoidis" 
+
+ s9  Teises [e33 geimis ] [e34 p‰‰ses ] omakorda Pere Leib ette 14 : 9 , aga pealinlased [e35 vıtsid ] kohe j‰rele ja [e36 l‰ksid ] ettegi 20 : 17. Ka kolmandas [e37 geimis ] [e38 hoidis ] Selver kerget initsiatiivi .
+     e33 "geimis"  BEFORE  DCT 
+     e33 "geimis"  INCLUDES  e34 "p‰‰ses" 
+     e34 "p‰‰ses"  BEFORE  DCT 
+     e34 "p‰‰ses"  BEFORE  e35 "vıtsid" 
+     e34 "p‰‰ses"  BEFORE  e38 "hoidis" 
+     e34 "p‰‰ses"  BEFORE  e44 "tıdes" 
+     e34 "p‰‰ses"  VAGUE  e39 "saime" 
+     e34 "p‰‰ses"  VAGUE  e40 "tuli" 
+     e35 "vıtsid"  BEFORE  DCT 
+     e35 "vıtsid"  BEFORE  e36 "l‰ksid" 
+     e35 "vıtsid"  BEFORE  e44 "tıdes" 
+     e35 "vıtsid"  VAGUE  e39 "saime" 
+     e35 "vıtsid"  VAGUE  e40 "tuli" 
+     e36 "l‰ksid"  BEFORE  DCT 
+     e36 "l‰ksid"  BEFORE  e38 "hoidis" 
+     e36 "l‰ksid"  BEFORE  e44 "tıdes" 
+     e36 "l‰ksid"  VAGUE  e39 "saime" 
+     e36 "l‰ksid"  VAGUE  e40 "tuli" 
+     e37 "geimis"  BEFORE  DCT 
+     e37 "geimis"  INCLUDES  e38 "hoidis" 
+     e38 "hoidis"  BEFORE  DCT 
+     e38 "hoidis"  BEFORE  e44 "tıdes" 
+     e38 "hoidis"  VAGUE  e39 "saime" 
+     e38 "hoidis"  VAGUE  e40 "tuli" 
+
+ s10  " Kohati [e39 saime ] paremini vastu kui Tartus , aga ikka [e40 tuli ] sisse ‰ravajumisi , millest [e41 m‰ngu ] tagasi [e42 saada ] [e43 oli ] [e43 keeruline ] , " [e44 tıdes ] Pere Leiva juhendaja Urmas Tali .
+     e39 "saime"  BEFORE  DCT 
+     e39 "saime"  BEFORE  e44 "tıdes" 
+     e39 "saime"  VAGUE  e40 "tuli" 
+     e39 "saime"  VAGUE  e49 "m‰‰ra" 
+     e40 "tuli"  BEFORE  DCT 
+     e40 "tuli"  BEFORE-OR-OVERLAP  e43 "oli keeruline" 
+     e40 "tuli"  BEFORE  e44 "tıdes" 
+     e40 "tuli"  VAGUE  e49 "m‰‰ra" 
+     e41 "m‰ngu"  BEFORE  DCT 
+     e41 "m‰ngu"  INCLUDES  e42 "saada" 
+     e42 "saada"  BEFORE  DCT 
+     e42 "saada"  OVERLAP-OR-AFTER  e43 "oli keeruline" 
+     e43 "oli keeruline"  BEFORE  DCT 
+     e43 "oli keeruline"  BEFORE  e44 "tıdes" 
+     e44 "tıdes"  BEFORE-OR-OVERLAP  DCT 
+     e44 "tıdes"  VAGUE  e49 "m‰‰ra" 
+
+ s11  " Kui [e45 geimilıpud ] [e46 l‰hevad ] k‰est , siis [e47 geimide ] [e48 keskosas ] toimuv v‰ga ei [e49 m‰‰ra ] . "
+     e45 "geimilıpud"  VAGUE  DCT 
+     e45 "geimilıpud"  INCLUDES  e46 "l‰hevad" 
+     e46 "l‰hevad"  VAGUE  DCT 
+     e46 "l‰hevad"  AFTER  e49 "m‰‰ra" 
+     e47 "geimide"  VAGUE  DCT 
+     e47 "geimide"  INCLUDES  e48 "keskosas" 
+     e48 "keskosas"  VAGUE  DCT 
+     e48 "keskosas"  BEFORE-OR-OVERLAP  e49 "m‰‰ra" 
+     e49 "m‰‰ra"  VAGUE  DCT 
+     e49 "m‰‰ra"  VAGUE  e50 "¸tles" 
+     e49 "m‰‰ra"  VAGUE  e52 "v‰sitas" 
+
+ s12  Tali [e50 ¸tles ] , et [t4 eelmise p‰eva ] raske [e51 m‰ng ] p‰rnakatega [e52 v‰sitas ] tema hoolealuseid .
+     e50 "¸tles"  BEFORE-OR-OVERLAP  DCT 
+     e50 "¸tles"  AFTER  e52 "v‰sitas" 
+     e50 "¸tles"  AFTER  e54 "polnud" 
+     e51 "m‰ng"  IS_INCLUDED  t4 "eelmise p‰eva" 
+     e51 "m‰ng"  BEFORE  DCT 
+     e51 "m‰ng"  BEFORE-OR-OVERLAP  e52 "v‰sitas" 
+     e52 "v‰sitas"  BEFORE  DCT 
+     e52 "v‰sitas"  BEFORE  e54 "polnud" 
+
+ s13  Sama teravat [e53 minekut ] kui [t5 laup‰eval ] [e54 polnud ] enam noorukesel diagonaalr¸ndajal Oliver Vennol .
+     e53 "minekut"  AFTER  t5 "laup‰eval" 
+     e53 "minekut"  BEFORE  DCT 
+     e53 "minekut"  VAGUE  e54 "polnud" 
+     e54 "polnud"  AFTER  t5 "laup‰eval" 
+     e54 "polnud"  BEFORE  DCT 
+     e54 "polnud"  BEFORE  e55 "nuriseda" 
+
+ s14  " Ega [e55 nuriseda ] [e56 saa ] .
+     e55 "nuriseda"  INCLUDES  DCT 
+     e55 "nuriseda"  VAGUE  e56 "saa" 
+     e55 "nuriseda"  AFTER  e59 "jıudsimegi" ka VAGUE
+     e55 "nuriseda"  INCLUDES  e60 "lausus" 
+     e55 "nuriseda"  SIMULTANEOUS  e57 "olgem ausad" ka VAGUE
+     e56 "saa"  INCLUDES  DCT 
+
+ s15  [e57 Olgem ] [e57 ausad ] , t‰nu temale me ¸ldse [e58 finaali ] [e59 jıudsimegi ] , " [e60 lausus ] Tali .
+     e57 "olgem ausad"  INCLUDES  DCT 
+     e57 "olgem ausad"  AFTER  e59 "jıudsimegi" 
+     e57 "olgem ausad"  INCLUDES  e60 "lausus" 
+     e57 "olgem ausad"  AFTER  e61 "tıi" 
+     e58 "finaali"  BEFORE  DCT 
+     e58 "finaali"  OVERLAP-OR-AFTER  e59 "jıudsimegi" 
+     e59 "jıudsimegi"  BEFORE  DCT 
+     e59 "jıudsimegi"  BEFORE  e60 "lausus" 
+     e59 "jıudsimegi"  AFTER  e61 "tıi" 
+     e60 "lausus"  BEFORE-OR-OVERLAP  DCT 
+     e60 "lausus"  AFTER  e61 "tıi" 
+
+ s16  Venno [e61 tıi ] [e62 poolfinaalis ] pluss-miinus arvestuses hiilgavad 26 punkti ja viimases [e63 geimis ] [e64 r¸nnakutest ] ¸ksinda pooled Pere Leiva punktid ( 8 ) .
+     e61 "tıi"  BEFORE  DCT 
+     e61 "tıi"  IS_INCLUDED  e62 "poolfinaalis" 
+     e61 "tıi"  IS_INCLUDED  e63 "geimis" 
+     e61 "tıi"  OVERLAP-OR-AFTER  e64 "r¸nnakutest" 
+     e61 "tıi"  AFTER  e65 "kippus" 
+     e61 "tıi"  BEFORE  e70 "muheles" 
+     e61 "tıi"  VAGUE  e68 "pole" 
+     e62 "poolfinaalis"  BEFORE  DCT 
+     e63 "geimis"  BEFORE  DCT 
+     e64 "r¸nnakutest"  BEFORE  DCT 
+
+ s17  " Ta k¸ll [e65 kippus ] lıpus [e66 v‰sima ] , aga kui sul [e67 on ] minekup‰ev , [e68 pole ] midagi tagasi [e69 hoida ] , " [e70 muheles ] Tali .
+     e65 "kippus"  BEFORE  DCT 
+     e65 "kippus"  BEFORE-OR-OVERLAP  e66 "v‰sima" 
+     e65 "kippus"  BEFORE  e70 "muheles" 
+     e65 "kippus"  IS_INCLUDED  e68 "pole" 
+     e65 "kippus"  BEFORE  e71 "ootab" 
+     e65 "kippus"  BEFORE  e76 "algas" 
+     e66 "v‰sima"  BEFORE  DCT 
+     e66 "v‰sima"  IS_INCLUDED  e67 "on" 
+     e66 "v‰sima"  VAGUE  e69 "hoida" 
+     e67 "on"  VAGUE  DCT 
+     e67 "on"  INCLUDES  e69 "hoida" 
+     e67 "on"  SIMULTANEOUS  e68 "pole" 
+     e68 "pole"  VAGUE  DCT 
+     e68 "pole"  VAGUE  e70 "muheles" 
+     e68 "pole"  VAGUE  e71 "ootab" 
+     e68 "pole"  VAGUE  e76 "algas" 
+     e69 "hoida"  VAGUE  DCT 
+     e69 "hoida"  BEFORE  e70 "muheles" 
+     e70 "muheles"  BEFORE-OR-OVERLAP  DCT 
+     e70 "muheles"  BEFORE-OR-OVERLAP  e76 "algas" 
+     e70 "muheles"  BEFORE  e71 "ootab" 
+
+ s18  Kui Selver [e71 ootab ] , kas [t6 neljap‰evaks ] [e72 jıuab ] Tallinna Prilepi klubi ja [e73 saab ] [e74 pidada ] ‰ra [e75 eurom‰ngu ] , siis Pere Leival [e76 algas ] [e77 jıulupuhkus ] .
+     e71 "ootab"  INCLUDES  DCT 
+     e71 "ootab"  BEFORE-OR-OVERLAP  e72 "jıuab" 
+     e71 "ootab"  BEFORE  e74 "pidada" 
+     e71 "ootab"  INCLUDES  e76 "algas" 
+     e71 "ootab"  BEFORE-OR-OVERLAP  e80 "otsustama" ka VAGUE
+     e71 "ootab"  VAGUE  e78 "p‰‰sevad" 
+     e72 "jıuab"  BEFORE-OR-OVERLAP  t6 "neljap‰evaks" 
+     e72 "jıuab"  OVERLAP-OR-AFTER  DCT 
+     e72 "jıuab"  BEFORE  e74 "pidada" 
+     e73 "saab"  AFTER  DCT 
+     e73 "saab"  VAGUE  e74 "pidada" 
+     e74 "pidada"  AFTER  DCT 
+     e74 "pidada"  SIMULTANEOUS  e75 "eurom‰ngu" 
+     e75 "eurom‰ngu"  AFTER  DCT 
+     e76 "algas"  BEFORE-OR-OVERLAP  DCT 
+     e76 "algas"  BEFORE-OR-OVERLAP  e77 "jıulupuhkus" 
+     e76 "algas"  BEFORE-OR-OVERLAP  e78 "p‰‰sevad" 
+     e76 "algas"  BEFORE  e80 "otsustama" 
+     e77 "jıulupuhkus"  INCLUDES  DCT 
+
+ s19  Vıırleegion‰rid [e78 p‰‰sevad ] [t7 n‰dalaks ] koju ning klubi [e79 peab ] [t8 reedeks ] [e80 otsustama ] , kas kehvalt m‰ngival slovakil Eduard Metelkal [e81 palutakse ] mitte [e82 naasta ] .
+     e78 "p‰‰sevad"  BEFORE-OR-OVERLAP  t7 "n‰dalaks" 
+     e78 "p‰‰sevad"  INCLUDES  DCT 
+     e78 "p‰‰sevad"  BEFORE  e80 "otsustama" 
+     e79 "peab"  BEFORE-OR-OVERLAP  t8 "reedeks" 
+     e79 "peab"  OVERLAP-OR-AFTER  DCT 
+     e79 "peab"  VAGUE  e80 "otsustama" 
+     e80 "otsustama"  BEFORE-OR-OVERLAP  t8 "reedeks" 
+     e80 "otsustama"  OVERLAP-OR-AFTER  DCT 
+     e80 "otsustama"  BEFORE  e81 "palutakse" 
+     e80 "otsustama"  BEFORE  e82 "naasta" 
+     e81 "palutakse"  AFTER  DCT 
+     e81 "palutakse"  BEFORE  e82 "naasta" 
+     e82 "naasta"  AFTER  DCT 
+
+

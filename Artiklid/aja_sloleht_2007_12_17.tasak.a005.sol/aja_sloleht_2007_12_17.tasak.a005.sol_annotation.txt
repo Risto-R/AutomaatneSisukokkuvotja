@@ -1,0 +1,124 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a005.sol
+      DCT: 2007-12-17
+==================================================
+ s0  [t1 Eile varahommikul ] [e1 pommitasid ] Türgi sõjalennukid mitut küla Põhja-Iraagi kurdi aladel .
+     e1 "pommitasid"  IS_INCLUDED  t1 "Eile varahommikul" 
+     e1 "pommitasid"  BEFORE  DCT 
+     e1 "pommitasid"  BEFORE-OR-OVERLAP  e4 "surma sai" 
+     e1 "pommitasid"  INCLUDES  e3 "tabasid" 
+
+ s1  Iraagi võimude [e2 teatel ] [e3 tabasid ] pommid vähemalt kümmet küla , [e4 surma ] [e4 sai ] üks naine .
+     e2 "teatel"  BEFORE-OR-OVERLAP  DCT 
+     e2 "teatel"  AFTER  e3 "tabasid" 
+     e2 "teatel"  AFTER  e4 "surma sai" 
+     e3 "tabasid"  BEFORE  DCT 
+     e3 "tabasid"  BEFORE-OR-OVERLAP  e4 "surma sai" 
+     e3 "tabasid"  AFTER  e7 "algas" 
+     e3 "tabasid"  BEFORE  e5 "väitsid" 
+     e3 "tabasid"  IS_INCLUDED  e8 "kestis" 
+     e4 "surma sai"  BEFORE  DCT 
+     e4 "surma sai"  AFTER  e7 "algas" 
+     e4 "surma sai"  BEFORE  e5 "väitsid" 
+     e4 "surma sai"  OVERLAP-OR-AFTER  e8 "kestis" 
+
+ s2  Jarawa ja Sankasari linnapead [e5 väitsid ] , et [e6 pommitamine ] [e7 algas ] juba [t2 kella kahe ajal öösel ] ning [e8 kestis ] vahetpidamata [t3 mitu tundi ] .
+     e5 "väitsid"  BEFORE-OR-OVERLAP  DCT 
+     e5 "väitsid"  AFTER  e6 "pommitamine" 
+     e5 "väitsid"  AFTER  e7 "algas" 
+     e5 "väitsid"  AFTER  e8 "kestis" 
+     e5 "väitsid"  AFTER  e9 "tehti" 
+     e6 "pommitamine"  BEFORE  DCT 
+     e6 "pommitamine"  OVERLAP-OR-AFTER  e7 "algas" 
+     e6 "pommitamine"  SIMULTANEOUS  e8 "kestis" 
+     e7 "algas"  SIMULTANEOUS  t2 "kella kahe ajal öösel" 
+     e7 "algas"  BEFORE  DCT 
+     e7 "algas"  BEFORE-OR-OVERLAP  e8 "kestis" 
+     e7 "algas"  BEFORE  e9 "tehti" 
+     e8 "kestis"  SIMULTANEOUS  t3 "mitu tundi" 
+     e8 "kestis"  BEFORE  DCT 
+     e8 "kestis"  INCLUDES  e9 "tehti" 
+
+ s3  Maatasa [e9 tehti ] uusehitisi ja koole .
+     e9 "tehti"  BEFORE  DCT 
+     e9 "tehti"  BEFORE  e10 "kinnitas" 
+     e9 "tehti"  BEFORE  e12 "väitis" 
+     e9 "tehti"  SIMULTANEOUS  e13 "olid" 
+
+ s4  Türgi armeejuhtkond [e10 kinnitas ] [e11 pommiheitmist ] , kuid [e12 väitis ] , et sihtmärgiks [e13 olid ] keelatud Kurdi Tööpartei sissilaagrid .
+     e10 "kinnitas"  BEFORE-OR-OVERLAP  DCT 
+     e10 "kinnitas"  AFTER  e11 "pommiheitmist" 
+     e10 "kinnitas"  BEFORE  e12 "väitis" 
+     e10 "kinnitas"  AFTER  e15 "käis" 
+     e11 "pommiheitmist"  BEFORE  DCT 
+     e12 "väitis"  BEFORE-OR-OVERLAP  DCT 
+     e12 "väitis"  AFTER  e13 "olid" 
+     e12 "väitis"  AFTER  e15 "käis" 
+     e13 "olid"  BEFORE  DCT 
+     e13 "olid"  SIMULTANEOUS  e15 "käis" 
+
+ s5  Türgi telekanalite [e14 teatel ] [e15 käis ] [e16 pommitamas ] 20-50 lennukit .
+     e14 "teatel"  BEFORE-OR-OVERLAP  DCT 
+     e14 "teatel"  AFTER  e15 "käis" 
+     e14 "teatel"  AFTER  e16 "pommitamas" 
+     e15 "käis"  BEFORE  DCT 
+     e15 "käis"  INCLUDES  e16 "pommitamas" 
+     e15 "käis"  BEFORE  e17 "ütles" 
+     e15 "käis"  BEFORE  e20 "jätkuvad" 
+     e16 "pommitamas"  BEFORE  DCT 
+
+ s6  Türgi asepeaminister Cemil Cicek [e17 ütles ] riigi uudisteagentuuri [e18 andmeil ] , et [e19 õhurünnakud ] [e20 jätkuvad ] ka [t4 lähinädalatel ] . "
+     e17 "ütles"  BEFORE-OR-OVERLAP  DCT 
+     e17 "ütles"  BEFORE  e18 "andmeil" 
+     e17 "ütles"  BEFORE  e20 "jätkuvad" 
+     e17 "ütles"  BEFORE  e23 "lausus" ka VAGUE
+     e17 "ütles"  BEFORE  e21 "jäta" 
+     e18 "andmeil"  BEFORE-OR-OVERLAP  DCT 
+     e18 "andmeil"  BEFORE  e19 "õhurünnakud" 
+     e18 "andmeil"  BEFORE  e20 "jätkuvad" 
+     e19 "õhurünnakud"  OVERLAP-OR-AFTER  DCT 
+     e19 "õhurünnakud"  SIMULTANEOUS  e20 "jätkuvad" 
+     e20 "jätkuvad"  IS_INCLUDED  t4 "lähinädalatel" 
+     e20 "jätkuvad"  OVERLAP-OR-AFTER  DCT 
+     e20 "jätkuvad"  AFTER  e23 "lausus" 
+     e20 "jätkuvad"  IS_INCLUDED  e21 "jäta" ka VAGUE
+
+ s7  Me ei [e21 jäta ] enne , kui kurdi mässulised on relvad maha [e22 pannud ] , " [e23 lausus ] Cicek .
+     e21 "jäta"  OVERLAP-OR-AFTER  DCT 
+     e21 "jäta"  AFTER  e23 "lausus" 
+     e21 "jäta"  OVERLAP-OR-AFTER  e22 "pannud" 
+     e21 "jäta"  AFTER  e24 "pommitanud" 
+     e21 "jäta"  AFTER  e26 "rakendati" 
+     e22 "pannud"  OVERLAP-OR-AFTER  DCT 
+     e22 "pannud"  AFTER  e23 "lausus" 
+     e23 "lausus"  BEFORE-OR-OVERLAP  DCT 
+     e23 "lausus"  AFTER  e24 "pommitanud" 
+     e23 "lausus"  AFTER  e26 "rakendati" 
+
+ s8  [t5 Varem ] on Türgi [e24 pommitanud ] Iraaki suurtükkidest ja [e25 teinud ] mõne [e25 kopterireidi ] , sõjalennukeid [e26 rakendati ] [e27 rünnakul ] esimest korda .
+     e24 "pommitanud"  IS_INCLUDED  t5 "Varem" 
+     e24 "pommitanud"  BEFORE  DCT 
+     e24 "pommitanud"  BEFORE  e26 "rakendati" 
+     e24 "pommitanud"  VAGUE  e25 "teinud kopterireidi" 
+     e24 "pommitanud"  BEFORE  e28 "teatas" 
+     e24 "pommitanud"  BEFORE  e29 "saatmisest" 
+     e25 "teinud kopterireidi"  IS_INCLUDED  t5 "Varem" 
+     e25 "teinud kopterireidi"  BEFORE  DCT 
+     e25 "teinud kopterireidi"  BEFORE  e26 "rakendati" 
+     e26 "rakendati"  BEFORE  DCT 
+     e26 "rakendati"  IS_INCLUDED  e27 "rünnakul" 
+     e26 "rakendati"  BEFORE  e28 "teatas" 
+     e26 "rakendati"  BEFORE  e29 "saatmisest" 
+     e27 "rünnakul"  BEFORE  DCT 
+
+ s9  Iraagi kurdi armee juhtkond [e28 teatas ] sõdurite [e29 saatmisest ] Türgi piiri äärde " [e30 uurima ] tehtud kahju ja [e31 aitama ] elanikke " .
+     e28 "teatas"  BEFORE-OR-OVERLAP  DCT 
+     e28 "teatas"  VAGUE  e29 "saatmisest" 
+     e29 "saatmisest"  BEFORE-OR-OVERLAP  DCT 
+     e29 "saatmisest"  BEFORE  e30 "uurima" 
+     e29 "saatmisest"  BEFORE  e31 "aitama" 
+     e30 "uurima"  OVERLAP-OR-AFTER  DCT 
+     e30 "uurima"  SIMULTANEOUS  e31 "aitama" 
+     e31 "aitama"  OVERLAP-OR-AFTER  DCT 
+
+

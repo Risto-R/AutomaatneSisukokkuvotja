@@ -1,0 +1,98 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a013.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Traditsioonilise Gunnar Uusi mälestusvõistluse [e1 põhiturniiril ] [e2 osales ] [t1 tänavu ] 36 mängijat .
+     e1 "põhiturniiril"  BEFORE  DCT 
+     e1 "põhiturniiril"  INCLUDES  e2 "osales" 
+     e2 "osales"  IS_INCLUDED  t1 "tänavu" 
+     e2 "osales"  BEFORE  DCT 
+     e2 "osales"  IS_INCLUDED  e4 "kuulus" 
+     e2 "osales"  SIMULTANEOUS  e5 "kohal olid" 
+
+ s1  [e3 Võistlus ] [e4 kuulus ] Eesti nädalalõputurniiride sarja , [e5 kohal ] [e5 olid ] mitmed vabariigi paremikku kuuluvad maletajad ja külalised Lätist .
+     e3 "Võistlus"  BEFORE  DCT 
+     e3 "Võistlus"  IS_INCLUDED  e4 "kuulus" 
+     e4 "kuulus"  BEFORE  DCT 
+     e4 "kuulus"  INCLUDES  e5 "kohal olid" 
+     e4 "kuulus"  INCLUDES  e7 "selgitati" 
+     e5 "kohal olid"  BEFORE  DCT 
+     e5 "kohal olid"  SIMULTANEOUS  e7 "selgitati" 
+
+ s2  [e6 Paremus ] [e7 selgitati ] viie vooruga šveitsi süsteemis .
+     e6 "Paremus"  BEFORE-OR-OVERLAP  DCT 
+     e6 "Paremus"  OVERLAP-OR-AFTER  e7 "selgitati" 
+     e7 "selgitati"  BEFORE  DCT 
+     e7 "selgitati"  BEFORE-OR-OVERLAP  e8 "õigustas" 
+
+ s3  Kõrgeimat paigutust [e8 õigustas ] Kaido Külaots , kes [e9 saavutas ] [e10 esikoha ] 4,5 punktiga .
+     e8 "õigustas"  BEFORE  DCT 
+     e8 "õigustas"  OVERLAP-OR-AFTER  e9 "saavutas" 
+     e8 "õigustas"  SIMULTANEOUS  e12 "jagasid" 
+     e9 "saavutas"  BEFORE  DCT 
+     e9 "saavutas"  BEFORE-OR-OVERLAP  e10 "esikoha" 
+     e10 "esikoha"  BEFORE-OR-OVERLAP  DCT 
+
+ s4  Teist kuni neljandat [e11 kohta ] [e12 jagasid ] nelja punktiga Olav Sepp , Meelis Kanep ja Tarvo Seeman .
+     e11 "kohta"  BEFORE-OR-OVERLAP  DCT 
+     e11 "kohta"  OVERLAP-OR-AFTER  e12 "jagasid" 
+     e12 "jagasid"  BEFORE  DCT 
+     e12 "jagasid"  SIMULTANEOUS  e13 "kogusid" 
+
+ s5  Pool punkti vähem [e13 kogusid ] Oleg Kortšagin , Deniss Kovaljov ja Enn Üksti , kes [e14 oli ] ühtlasi parim [e14 veteran ] .
+     e13 "kogusid"  BEFORE  DCT 
+     e13 "kogusid"  BEFORE-OR-OVERLAP  e14 "oli veteran" 
+     e13 "kogusid"  SIMULTANEOUS  e15 "jagasid" 
+     e14 "oli veteran"  BEFORE-OR-OVERLAP  DCT 
+
+ s6  Edukaimad tartlased Juri Seljodkin , Kusta Raudsepp ja Toivo Harujõe [e15 jagasid ] 3 punktiga 8. [e16 kohta ] .
+     e15 "jagasid"  BEFORE  DCT 
+     e15 "jagasid"  BEFORE-OR-OVERLAP  e16 "kohta" 
+     e15 "jagasid"  SIMULTANEOUS  e17 "naismaletaja oli" 
+     e16 "kohta"  BEFORE-OR-OVERLAP  DCT 
+
+ s7  Parim [e17 naismaletaja ] [e17 oli ] järjekordselt rahvusvaheline suurmeister Larissa Volpert .
+     e17 "naismaletaja oli"  BEFORE  DCT 
+     e17 "naismaletaja oli"  SIMULTANEOUS  e18 "võistlesid" ka VAGUE
+
+ s8  Noormaletajad [e18 võistlesid ] seekord eraldi kahes vanuserühmas .
+     e18 "võistlesid"  BEFORE  DCT 
+     e18 "võistlesid"  BEFORE-OR-OVERLAP  e19 "pälvis" 
+
+ s9  Tartu maletreeneri Aksel Rei õpilastest [e19 pälvis ] kuni 14aastaste vanuserühmas 4 punktiga [e20 esikoha ] Ilja Kravtšenko ( 13 ) .
+     e19 "pälvis"  BEFORE  DCT 
+     e19 "pälvis"  BEFORE-OR-OVERLAP  e20 "esikoha" 
+     e19 "pälvis"  BEFORE-OR-OVERLAP  e21 "jagas" 
+     e19 "pälvis"  BEFORE-OR-OVERLAP  e24 "jagas" 
+     e20 "esikoha"  BEFORE-OR-OVERLAP  DCT 
+
+ s10  Kaks aastat nooremate hulgas [e21 jagas ] Aleksei Gornõi ( 12 ) 4,5 punktiga [e22 esikohta ] Kohtla-Järve noormeestega , punkti vähem [e23 saanud ] Mikk Espenberg ( 12 ) [e24 jagas ] kolmandat [e25 kohta ] Kohtla-Järve , Rakvere ja Läti noorte maletajatega .
+     e21 "jagas"  BEFORE  DCT 
+     e21 "jagas"  BEFORE-OR-OVERLAP  e22 "esikohta" 
+     e21 "jagas"  SIMULTANEOUS  e24 "jagas" 
+     e21 "jagas"  BEFORE  e26 "on plaanis" 
+     e22 "esikohta"  BEFORE-OR-OVERLAP  DCT 
+     e23 "saanud"  BEFORE  DCT 
+     e24 "jagas"  BEFORE  DCT 
+     e24 "jagas"  AFTER  e23 "saanud" 
+     e24 "jagas"  VAGUE  e25 "kohta" 
+     e24 "jagas"  BEFORE  e26 "on plaanis" 
+     e25 "kohta"  BEFORE-OR-OVERLAP  DCT 
+
+ s11  Järgmise suurema üritusena [e26 on ] Tartu maletajail [t2 novembri keskel ] [e26 plaanis ] AVRO [e27 mälestusturniir ] .
+     e26 "on plaanis"  BEFORE-OR-OVERLAP  t2 "novembri keskel" 
+     e26 "on plaanis"  OVERLAP-OR-AFTER  DCT 
+     e26 "on plaanis"  BEFORE-OR-OVERLAP  e27 "mälestusturniir" 
+     e26 "on plaanis"  OVERLAP-OR-AFTER  e28 "pidamata" 
+     e27 "mälestusturniir"  IS_INCLUDED  t2 "novembri keskel" 
+     e27 "mälestusturniir"  AFTER  DCT 
+
+ s12  Kahjuks on [t3 seni ] [e28 pidamata ] kõik [t4 selle aasta ] Tartu [e29 meistrivõistlused ] .
+     e28 "pidamata"  BEFORE-OR-OVERLAP  t3 "seni" 
+     e28 "pidamata"  BEFORE-OR-OVERLAP  DCT 
+     e28 "pidamata"  BEFORE  e29 "meistrivõistlused" 
+     e29 "meistrivõistlused"  IS_INCLUDED  t4 "selle aasta" 
+     e29 "meistrivõistlused"  VAGUE  DCT 
+
+ s13  ( TPM )
+

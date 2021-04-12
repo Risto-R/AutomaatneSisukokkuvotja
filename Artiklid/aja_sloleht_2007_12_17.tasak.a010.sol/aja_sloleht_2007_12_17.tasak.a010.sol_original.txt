@@ -1,3 +1,13 @@
 <div0><head> TLÜ/Volta kaotas lõpusekunditel </head><bibl> <author> SLÕL </author> </bibl>
-<p rend="bold"> <s> KORVPALL : Naiste Balti liigas said Eesti klubid eile kaks nappi kaotust – Tallinna Living jäi alla BC Minsk 2006 naiskonnale 73 : 77 ( Livingu resultatiivseim Kerttu Jallai 20 punktiga ) ja TLÜ/Volta Berezina-RCOR-ile 76 : 77 ( Heila Rosenfeldt 25 ) . </s> </p>
-<p> <s> Eriti dramaatiline oli TLÜ ja Berezina kohtumine . </s> <s> Jäänud kolmandal veerandajal 23 punktiga taha , pääses TLÜ lõpus ette . </s> <s> Kui mängida jäi 12 sekundit , alustas TLÜ rünnakut kolmepunktilises eduseisus . </s> <s> Kuid kaks sekundit enne lõppu tegi üks vastastest vaheltlõike , millele järgnes TLÜ ebasportlik viga . </s> <s> Berezina tabas ühe vabaviske ja küljeaudi järel kolmepunktiviske . </s> <s> Laupäeval oli TLÜ võitnud Minski 70 : 68 ( Ashley Wallace 22 ) , kuid Living kaotanud Berezinale 58 : 69 ( Jallai 20 ) . </s> </p></div0>
+<p rend="bold">
+ <s> KORVPALL : Naiste Balti liigas said Eesti klubid eile kaks nappi kaotust – Tallinna Living jäi alla BC Minsk 2006 naiskonnale 73 : 77 ( Livingu resultatiivseim Kerttu Jallai 20 punktiga ) ja TLÜ/Volta Berezina-RCOR-ile 76 : 77 ( Heila Rosenfeldt 25 ) . </s> 
+</p>
+<p>
+ <s> Eriti dramaatiline oli TLÜ ja Berezina kohtumine . </s>
+<s> Jäänud kolmandal veerandajal 23 punktiga taha , pääses TLÜ lõpus ette . </s>
+<s> Kui mängida jäi 12 sekundit , alustas TLÜ rünnakut kolmepunktilises eduseisus . </s>
+<s> Kuid kaks sekundit enne lõppu tegi üks vastastest vaheltlõike , millele järgnes TLÜ ebasportlik viga . </s>
+<s> Berezina tabas ühe vabaviske ja küljeaudi järel kolmepunktiviske . </s>
+<s> Laupäeval oli TLÜ võitnud Minski 70 : 68 ( Ashley Wallace 22 ) , kuid Living kaotanud Berezinale 58 : 69 ( Jallai 20 ) . </s> 
+</p>
+</div0>

@@ -1,0 +1,201 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a031.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Valitsuses [t1 eile ] vastu [e1 võetud ] määruse kohaselt [e2 on ] [t2 edaspidi ] [e2 lubatud ] eriotstarbelise kütteõli [e3 müümine ] põllumeestele ja kaluritele kõikides tanklates .
+     e1 "võetud"  IS_INCLUDED  t1 "eile" 
+     e1 "võetud"  BEFORE  DCT 
+     e1 "võetud"  BEFORE  e3 "müümine" 
+     e2 "on lubatud"  BEFORE-OR-OVERLAP  t2 "edaspidi" 
+     e2 "on lubatud"  INCLUDES  DCT 
+     e2 "on lubatud"  INCLUDES  e3 "müümine" 
+     e2 "on lubatud"  SIMULTANEOUS  e5 "pidama" 
+     e3 "müümine"  OVERLAP-OR-AFTER  DCT 
+
+ s1  Uue müügikorra kohaselt ei [e4 pea ] müüjad enam [e5 pidama ] müügipäevikut , kuhu [e6 märgitakse ] [e7 müüdud ] kütuse kogus ning selle ostja ja tema allkiri .
+     e4 "pea"  INCLUDES  DCT 
+     e4 "pea"  VAGUE  e5 "pidama" 
+     e5 "pidama"  INCLUDES  DCT 
+     e5 "pidama"  VAGUE  e6 "märgitakse" 
+     e5 "pidama"  SIMULTANEOUS  e8 "kaob" 
+     e6 "märgitakse"  INCLUDES  DCT 
+     e6 "märgitakse"  AFTER  e7 "müüdud" 
+     e7 "müüdud"  VAGUE  DCT 
+
+ s2  Samuti [e8 kaob ] ostjatel [e9 vajadus ] kaasas [e10 kanda ] oma põllutöömasinate või paatide dokumente .
+     e8 "kaob"  INCLUDES  DCT 
+     e8 "kaob"  AFTER  e9 "vajadus" 
+     e8 "kaob"  VAGUE  e10 "kanda" 
+     e8 "kaob"  VAGUE  e11 "Trahvid" ka OVERLAP-OR-AFTER
+     e9 "vajadus"  BEFORE-OR-OVERLAP  DCT 
+     e9 "vajadus"  SIMULTANEOUS  e10 "kanda" 
+     e10 "kanda"  BEFORE-OR-OVERLAP  DCT 
+
+ s3  [e11 Trahvid ] liiga väikesed
+     e11 "Trahvid"  VAGUE  DCT 
+     e11 "Trahvid"  VAGUE  e13 "muudab" 
+     e11 "Trahvid"  VAGUE  e15 "paneb" 
+
+ s4  Põllumajandusminister Ivari Padari [e12 sõnul ] [e13 muudab ] uus [e14 kord ] põllumeeste elu tunduvalt lihtsamaks , kuid [e15 paneb ] suurema koorma politsei õlule , kelle [e16 ülesandeks ] [e16 on ] [e17 kontrollida ] , et erimärgistatud kütust ei [e18 kasutaks ] tavalised autojuhid , sest siis [e19 on ] [e19 tegemist ] [e20 seaduserikkumisega ] .
+     e12 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e12 "sõnul"  BEFORE  e13 "muudab" 
+     e13 "muudab"  OVERLAP-OR-AFTER  DCT 
+     e13 "muudab"  INCLUDES  e15 "paneb" 
+     e13 "muudab"  OVERLAP-OR-AFTER  e14 "kord" 
+     e13 "muudab"  IS_INCLUDED  e22 "on maksupettus" ka VAGUE
+     e14 "kord"  OVERLAP-OR-AFTER  DCT 
+     e15 "paneb"  OVERLAP-OR-AFTER  DCT 
+     e15 "paneb"  VAGUE  e16 "ülesandeks on" 
+     e15 "paneb"  IS_INCLUDED  e22 "on maksupettus" ka VAGUE
+     e16 "ülesandeks on"  OVERLAP-OR-AFTER  DCT 
+     e16 "ülesandeks on"  INCLUDES  e17 "kontrollida" 
+     e17 "kontrollida"  OVERLAP-OR-AFTER  DCT 
+     e17 "kontrollida"  VAGUE  e18 "kasutaks" 
+     e18 "kasutaks"  OVERLAP-OR-AFTER  DCT 
+     e18 "kasutaks"  VAGUE  e19 "on tegemist" 
+     e19 "on tegemist"  INCLUDES  DCT 
+     e19 "on tegemist"  VAGUE  e20 "seaduserikkumisega" 
+     e20 "seaduserikkumisega"  VAGUE  DCT 
+
+ s5  " Niinimetatud sinise kütuse [e21 kasutamine ] mujal kui põllutöömasinates [e22 on ] [e22 maksupettus ] , sest sinine kütus [e23 on ] märkimisväärselt madalama aktsiisiga kui tavaline diislikütus .
+     e21 "kasutamine"  VAGUE  DCT 
+     e21 "kasutamine"  IS_INCLUDED  e22 "on maksupettus" 
+     e22 "on maksupettus"  INCLUDES  DCT 
+     e22 "on maksupettus"  SIMULTANEOUS  e23 "on" 
+     e22 "on maksupettus"  INCLUDES  e27 "rääkis" ka VAGUE
+     e22 "on maksupettus"  SIMULTANEOUS  e25 "nähtud" 
+     e23 "on"  INCLUDES  DCT 
+
+ s6  Vale kütuse [e24 kasutamise ] eest on seadusega ette [e25 nähtud ] 200-300 päevapalga suurune [e26 trahv ] ehk kuni 13 800 krooni , " [e27 rääkis ] Padar .
+     e24 "kasutamise"  VAGUE  DCT 
+     e24 "kasutamise"  IS_INCLUDED  e25 "nähtud" 
+     e25 "nähtud"  INCLUDES  DCT 
+     e25 "nähtud"  INCLUDES  e27 "rääkis" 
+     e25 "nähtud"  VAGUE  e26 "trahv" 
+     e25 "nähtud"  IS_INCLUDED  e28 "on leebe" ka VAGUE
+     e26 "trahv"  VAGUE  DCT 
+     e27 "rääkis"  BEFORE-OR-OVERLAP  DCT 
+     e27 "rääkis"  IS_INCLUDED  e28 "on leebe" ka VAGUE
+
+ s7  Samas [e28 on ] tema [e29 sõnul ] selline [e30 karistus ] liiga [e28 leebe ] , sest kütuse [e31 õigsust ] [e32 kontrollitakse ] väga vähe ja inimesi selline [e33 trahv ] ei [e34 hirmuta ] .
+     e28 "on leebe"  INCLUDES  DCT 
+     e28 "on leebe"  INCLUDES  e29 "sõnul" 
+     e28 "on leebe"  VAGUE  e30 "karistus" 
+     e28 "on leebe"  VAGUE  e32 "kontrollitakse" 
+     e28 "on leebe"  VAGUE  e34 "hirmuta" 
+     e28 "on leebe"  INCLUDES  e39 "lisas" 
+     e28 "on leebe"  VAGUE  e36 "karistada" 
+     e29 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e30 "karistus"  VAGUE  DCT 
+     e31 "õigsust"  OVERLAP-OR-AFTER  DCT 
+     e31 "õigsust"  VAGUE  e32 "kontrollitakse" 
+     e32 "kontrollitakse"  OVERLAP-OR-AFTER  DCT 
+     e32 "kontrollitakse"  VAGUE  e34 "hirmuta" 
+     e33 "trahv"  VAGUE  DCT 
+     e33 "trahv"  VAGUE  e34 "hirmuta" 
+     e34 "hirmuta"  INCLUDES  DCT 
+
+ s8  " Inglismaal näiteks [e35 võib ] vale kütuse tarbijat [e36 karistada ] kuni 5000 naela ehk rohkem kui 130 000 krooniga , mis [e37 sunnib ] inimesi ka [e38 seaduskuulekusele ] , " [e39 lisas ] Padar .
+     e35 "võib"  INCLUDES  DCT 
+     e35 "võib"  BEFORE-OR-OVERLAP  e36 "karistada" 
+     e35 "võib"  INCLUDES  e39 "lisas" 
+     e36 "karistada"  VAGUE  DCT 
+     e36 "karistada"  IS_INCLUDED  e37 "sunnib" 
+     e36 "karistada"  VAGUE  e39 "lisas" 
+     e37 "sunnib"  INCLUDES  DCT 
+     e37 "sunnib"  BEFORE-OR-OVERLAP  e38 "seaduskuulekusele" 
+     e37 "sunnib"  INCLUDES  e39 "lisas" 
+     e38 "seaduskuulekusele"  VAGUE  DCT 
+     e39 "lisas"  BEFORE-OR-OVERLAP  DCT 
+     e39 "lisas"  BEFORE-OR-OVERLAP  e41 "raskendatud" ka VAGUE
+
+ s9  [e40 Kontroll ] [e41 raskendatud ]
+     e40 "Kontroll"  VAGUE  DCT 
+     e40 "Kontroll"  VAGUE  e41 "raskendatud" 
+     e41 "raskendatud"  VAGUE  DCT 
+     e41 "raskendatud"  IDENTITY  e43 "on raske" 
+
+ s10  Politseiameti korrakaitseosakonna juhtivinspektori Indrek Sirgi [e42 sõnul ] [e43 on ] politseil [e44 kütusekontrolli ] [e43 raske ] [e45 teostada ] , sest selleks [e46 puuduvad ] eelarves vajalikud summad .
+     e42 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e42 "sõnul"  IS_INCLUDED  e43 "on raske" 
+     e42 "sõnul"  IS_INCLUDED  e45 "teostada" 
+     e42 "sõnul"  IS_INCLUDED  e46 "puuduvad" 
+     e43 "on raske"  INCLUDES  DCT 
+     e43 "on raske"  VAGUE  e45 "teostada" 
+     e43 "on raske"  VAGUE  e46 "puuduvad" 
+     e43 "on raske"  OVERLAP-OR-AFTER  e47 "teinud" 
+     e43 "on raske"  OVERLAP-OR-AFTER  e48 "märkis" 
+     e44 "kütusekontrolli"  VAGUE  DCT 
+     e44 "kütusekontrolli"  VAGUE  e45 "teostada" 
+     e45 "teostada"  INCLUDES  DCT 
+     e46 "puuduvad"  INCLUDES  DCT 
+
+ s11  " [t3 Seni ] oleme seda [e47 teinud ] tolliameti aparatuuriga ja mitte kuigi tihti , " [e48 märkis ] Sirk .
+     e47 "teinud"  BEFORE-OR-OVERLAP  t3 "Seni" 
+     e47 "teinud"  BEFORE-OR-OVERLAP  DCT 
+     e47 "teinud"  BEFORE  e48 "märkis" 
+     e47 "teinud"  IS_INCLUDED  e50 "maksab" 
+     e47 "teinud"  IS_INCLUDED  e52 "kalliks teevad" 
+     e48 "märkis"  BEFORE-OR-OVERLAP  DCT 
+     e48 "märkis"  IS_INCLUDED  e50 "maksab" 
+     e48 "märkis"  IS_INCLUDED  e52 "kalliks teevad" 
+
+ s12  Tema [e49 sõnul ] [e50 maksab ] kütuseproovide [e51 võtmiseks ] vajalik aparatuur kuni 3000 krooni , kuid [e52 kalliks ] [e52 teevad ] selle proovidele [e53 esitatud ] kõrged [e54 nõudmised ] ja kuluv aeg .
+     e49 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e49 "sõnul"  IS_INCLUDED  e50 "maksab" 
+     e50 "maksab"  INCLUDES  DCT 
+     e50 "maksab"  IS_INCLUDED  e52 "kalliks teevad" 
+     e50 "maksab"  VAGUE  e51 "võtmiseks" 
+     e50 "maksab"  INCLUDES  e60 "läinud" ka VAGUE
+     e50 "maksab"  INCLUDES  e63 "lausus" ka VAGUE
+     e51 "võtmiseks"  VAGUE  DCT 
+     e52 "kalliks teevad"  INCLUDES  DCT 
+     e52 "kalliks teevad"  OVERLAP-OR-AFTER  e54 "nõudmised" 
+     e52 "kalliks teevad"  INCLUDES  e60 "läinud" ka VAGUE
+     e52 "kalliks teevad"  INCLUDES  e63 "lausus" ka VAGUE
+     e53 "esitatud"  BEFORE  DCT 
+     e53 "esitatud"  BEFORE-OR-OVERLAP  e54 "nõudmised" 
+     e54 "nõudmised"  BEFORE-OR-OVERLAP  DCT 
+
+ s13  " [t4 Kahe aasta taguste ] [e55 arvestuste ] kohaselt [e56 oleks ] kütuseproovide [e57 võtmine ] , nende [e58 analüüsimine ] ja [e59 hoidmine ] koos selle juurde tehtavate teiste kulutustega [e60 läinud ] [t5 aastas ] [e61 maksma ] mitu miljonit krooni , mida meie eelarves aga [e62 pole ] , " [e63 lausus ] Sirk .
+     e55 "arvestuste"  SIMULTANEOUS  t4 "Kahe aasta taguste" 
+     e55 "arvestuste"  BEFORE  DCT 
+     e55 "arvestuste"  IS_INCLUDED  e56 "oleks" 
+     e56 "oleks"  BEFORE-OR-OVERLAP  DCT 
+     e56 "oleks"  SIMULTANEOUS  e60 "läinud" 
+     e57 "võtmine"  BEFORE-OR-OVERLAP  DCT 
+     e57 "võtmine"  BEFORE-OR-OVERLAP  e60 "läinud" 
+     e58 "analüüsimine"  BEFORE-OR-OVERLAP  DCT 
+     e58 "analüüsimine"  BEFORE-OR-OVERLAP  e60 "läinud" 
+     e59 "hoidmine"  BEFORE-OR-OVERLAP  DCT 
+     e59 "hoidmine"  BEFORE-OR-OVERLAP  e60 "läinud" 
+     e60 "läinud"  IS_INCLUDED  t5 "aastas" 
+     e60 "läinud"  BEFORE  DCT 
+     e60 "läinud"  BEFORE-OR-OVERLAP  e61 "maksma" 
+     e60 "läinud"  BEFORE  e62 "pole" 
+     e60 "läinud"  BEFORE  e63 "lausus" 
+     e60 "läinud"  IS_INCLUDED  e64 "on" ka VAGUE
+     e61 "maksma"  BEFORE  DCT 
+     e61 "maksma"  BEFORE  e62 "pole" 
+     e61 "maksma"  BEFORE  e63 "lausus" 
+     e62 "pole"  INCLUDES  DCT 
+     e62 "pole"  INCLUDES  e63 "lausus" 
+     e63 "lausus"  BEFORE-OR-OVERLAP  DCT 
+     e63 "lausus"  IS_INCLUDED  e64 "on" 
+
+ s14  Sellest hoolimata [e64 on ] proovide aktiivne [e65 võtmine ] politseil pidevalt päevakorral , sest seda [e66 nõuavad ] mitmed seadused .
+     e64 "on"  INCLUDES  DCT 
+     e64 "on"  VAGUE  e65 "võtmine" 
+     e64 "on"  VAGUE  e66 "nõuavad" 
+     e64 "on"  INCLUDES  e67 "peetakse läbirääkimisi" 
+     e65 "võtmine"  VAGUE  DCT 
+     e65 "võtmine"  AFTER  e66 "nõuavad" 
+     e66 "nõuavad"  INCLUDES  DCT 
+
+ s15  [t6 Praegu ] [e67 peetakse ] [e67 läbirääkimisi ] erinevate asjasse puutuvate ministeeriumidega , [e68 leidmaks ] selleks vajalikku raha .
+     e67 "peetakse läbirääkimisi"  SIMULTANEOUS  t6 "Praegu" 
+     e67 "peetakse läbirääkimisi"  INCLUDES  DCT 
+     e67 "peetakse läbirääkimisi"  BEFORE-OR-OVERLAP  e68 "leidmaks" 
+     e68 "leidmaks"  AFTER  DCT 
+
+

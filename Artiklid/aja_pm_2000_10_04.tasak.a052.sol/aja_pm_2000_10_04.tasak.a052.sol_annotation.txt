@@ -1,0 +1,172 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a052.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Ajakirjanikud lausa [e1 kiskusid ] õblukese blondi naise autost välja .
+     e1 "kiskusid"  BEFORE  DCT 
+     e1 "kiskusid"  BEFORE  e2 "takistasid" 
+     e1 "kiskusid"  BEFORE  e3 "tundus" 
+     e1 "kiskusid"  BEFORE  e4 "möödunuks" 
+
+ s1  Kaamerate sähvimine ja küsimustetulv [e2 takistasid ] tema teed uksest sisse , trepist üles ning [e3 tundus ] , nagu [e4 möödunuks ] [t1 sel viivul ] korraga terve eluaeg .
+     e2 "takistasid"  BEFORE  DCT 
+     e2 "takistasid"  SIMULTANEOUS  e3 "tundus" 
+     e2 "takistasid"  BEFORE  e5 "jäänud" 
+     e3 "tundus"  BEFORE  DCT 
+     e3 "tundus"  INCLUDES  e4 "möödunuks" 
+     e3 "tundus"  BEFORE  e5 "jäänud" 
+     e4 "möödunuks"  SIMULTANEOUS  t1 "sel viivul" 
+     e4 "möödunuks"  BEFORE  DCT 
+     e4 "möödunuks"  BEFORE  e5 "jäänud" 
+
+ s2  Mitmekümne telekaamera rõnga vahele surutuna ei [e5 jäänud ] naisel üle muud , kui lähimale lauale [e6 karata ] ning seal parteikaaslaste juubeldavaid [e7 ovatsioone ] vastu [e8 võtta ] .
+     e5 "jäänud"  BEFORE  DCT 
+     e5 "jäänud"  INCLUDES  e6 "karata" 
+     e5 "jäänud"  INCLUDES  e8 "võtta" 
+     e5 "jäänud"  IS_INCLUDED  e9 "tunnistas" 
+     e6 "karata"  BEFORE  DCT 
+     e6 "karata"  BEFORE-OR-OVERLAP  e8 "võtta" 
+     e7 "ovatsioone"  BEFORE  DCT 
+     e7 "ovatsioone"  INCLUDES  e8 "võtta" 
+     e8 "võtta"  BEFORE  DCT 
+
+ s3  Kogu Taani [e9 tunnistas ] Pia Kjærsgaardi [e10 triumfi ] , sest " Ei eurorahale " kampaania meditsiiniõe haridusega liider [e11 võitis ] [t2 28. septembri ] [e12 referendumil ] hiilgavalt suuri ja vägevaid .
+     e9 "tunnistas"  BEFORE  DCT 
+     e9 "tunnistas"  AFTER  e10 "triumfi" 
+     e9 "tunnistas"  AFTER  e11 "võitis" 
+     e9 "tunnistas"  OVERLAP-OR-AFTER  e13 "paiskas" 
+     e10 "triumfi"  BEFORE  DCT 
+     e11 "võitis"  BEFORE  DCT 
+     e11 "võitis"  OVERLAP-OR-AFTER  e12 "referendumil" 
+     e12 "referendumil"  IS_INCLUDED  t2 "28. septembri" 
+     e12 "referendumil"  BEFORE  DCT 
+
+ s4  Pisike parempopulistlik Taani Rahvapartei [e13 paiskas ] põrmu kaheksakümmend protsenti riigi poliitliidritest , valitsuse , lõviosa opositsioonist ja söögilaua suurused lehereklaamid euroraha kasuks - [e14 omades ] ise [e15 toetust ] peamiselt juhtumisi samal arvamusel [e16 asunud ] puna-roheliselt vasaktiivalt .
+     e13 "paiskas"  BEFORE  DCT 
+     e13 "paiskas"  IS_INCLUDED  e14 "omades" 
+     e13 "paiskas"  BEFORE  e18 "tunnetaksid" 
+     e14 "omades"  BEFORE  DCT 
+     e14 "omades"  SIMULTANEOUS  e15 "toetust" 
+     e14 "omades"  SIMULTANEOUS  e16 "asunud" 
+     e15 "toetust"  BEFORE  DCT 
+     e15 "toetust"  VAGUE  e16 "asunud" 
+     e16 "asunud"  BEFORE  DCT 
+
+ s5  Kjærsgaardi võidu [e17 õhkkonda ] [e18 tunnetaksid ] kohalikud reformerid , isamaalased ja keskerakondlased siis , kui Tiit Toomsalu neile Riigikogus korraga ära [e19 teeks ] .
+     e17 "õhkkonda"  INCLUDES  DCT 
+     e17 "õhkkonda"  VAGUE  e18 "tunnetaksid" 
+     e18 "tunnetaksid"  AFTER  DCT 
+     e18 "tunnetaksid"  AFTER  e19 "teeks" 
+     e18 "tunnetaksid"  AFTER  e20 "teinud" 
+     e19 "teeks"  AFTER  DCT 
+
+ s6  Sest ka Taanis ei [e20 teinud ] tõsised poliitikud Kjærsgaardist eriti välja , kuni Rahvapartei loosung " Krooni ja isamaa eest " naelapea pihta [e21 virutas ] .
+     e20 "teinud"  BEFORE  DCT 
+     e20 "teinud"  BEFORE  e21 "virutas" 
+     e20 "teinud"  BEFORE  e22 "istusid" 
+     e20 "teinud"  BEFORE  e25 "rõõmustada" 
+     e21 "virutas"  BEFORE  DCT 
+
+ s7  Sotsiaaldemokraadist Taani peaminister Poul Nyrup Rasmusseni aatekaaslased [e22 istusid ] Kjærsgaardi tuhkatriinust kuningannaks [e23 tõusmise ] ajal nördinult oma fraktsiooni punalippudega dekoreeritud toas , ning sama vähe oli [e24 lüüasaamise ] üle [e25 rõõmustada ] Taani opositsioonilistel liberaalidel ja konservatiividel .
+     e22 "istusid"  BEFORE  DCT 
+     e22 "istusid"  SIMULTANEOUS  e23 "tõusmise" 
+     e22 "istusid"  SIMULTANEOUS  e25 "rõõmustada" 
+     e22 "istusid"  IS_INCLUDED  e27 "on kaotus" 
+     e23 "tõusmise"  BEFORE  DCT 
+     e23 "tõusmise"  SIMULTANEOUS  e24 "lüüasaamise" 
+     e24 "lüüasaamise"  BEFORE  DCT 
+     e24 "lüüasaamise"  VAGUE  e25 "rõõmustada" 
+     e25 "rõõmustada"  VAGUE  DCT 
+     e25 "rõõmustada"  IS_INCLUDED  e27 "on kaotus" 
+
+ s8  Sest 53,1% euroraha kõrvale [e26 lükanud ] valijaid [e27 on ] nende kõigi ühine [e27 kaotus ] .
+     e26 "lükanud"  BEFORE  DCT 
+     e26 "lükanud"  BEFORE  e27 "on kaotus" 
+     e27 "on kaotus"  INCLUDES  DCT 
+     e27 "on kaotus"  INCLUDES  e28 "juhib" 
+
+ s9  Rasmussen [e28 juhib ] [e29 lõhenenud ] Taani kõrval ka [e30 lõhenenud ] sotsiaaldemokraate , sest umbes 40% võimupartei toetajaist [e31 on ] euroraha [e31 vastu ] .
+     e28 "juhib"  INCLUDES  DCT 
+     e28 "juhib"  INCLUDES  e29 "lõhenenud" 
+     e28 "juhib"  INCLUDES  e30 "lõhenenud" 
+     e28 "juhib"  INCLUDES  e31 "on vastu" 
+     e28 "juhib"  INCLUDES  e32 "tuleb" 
+     e28 "juhib"  INCLUDES  e33 "pista" 
+     e29 "lõhenenud"  BEFORE  DCT 
+     e29 "lõhenenud"  SIMULTANEOUS  e30 "lõhenenud" 
+     e30 "lõhenenud"  BEFORE  DCT 
+     e30 "lõhenenud"  IS_INCLUDED  e31 "on vastu" 
+     e31 "on vastu"  INCLUDES  DCT 
+
+ s10  Oma ridades , ehkki väiksemal määral , [e32 tuleb ] euroskepsisega rinda [e33 pista ] ka Taani paremerakondadel .
+     e32 "tuleb"  INCLUDES  DCT 
+     e32 "tuleb"  VAGUE  e33 "pista" 
+     e32 "tuleb"  AFTER  e35 "paigutas" 
+     e33 "pista"  INCLUDES  DCT 
+     e33 "pista"  AFTER  e35 "paigutas" 
+
+ s11  Referendumijärgsel [t3 hommikul ] [e34 ilmunud ] Berlingske Tidende [e35 paigutas ] juhtkirja erandlikult esiküljele .
+     e34 "ilmunud"  IS_INCLUDED  t3 "hommikul" 
+     e34 "ilmunud"  BEFORE  DCT 
+     e34 "ilmunud"  AFTER  e35 "paigutas" 
+     e35 "paigutas"  BEFORE  DCT 
+     e35 "paigutas"  IS_INCLUDED  e36 "väljendab" 
+     e35 "paigutas"  IS_INCLUDED  e37 "kartust" 
+
+ s12  Pealkiri " Häbi " [e36 väljendab ] küll vähemuse , kuid ikkagi peaaegu poolte taanlaste meeleolu ja [e37 kartust ] , et see [e38 otsus ] [e39 asetab ] nad väljapoole Euroopa süvenevat koostööd .
+     e36 "väljendab"  INCLUDES  DCT 
+     e36 "väljendab"  BEFORE-OR-OVERLAP  e39 "asetab" 
+     e36 "väljendab"  IS_INCLUDED  e37 "kartust" 
+     e36 "väljendab"  INCLUDES  e42 "kurtis" 
+     e36 "väljendab"  INCLUDES  e43 "pidas" 
+     e36 "väljendab"  IS_INCLUDED  e41 "on õnnetus" 
+     e37 "kartust"  INCLUDES  DCT 
+     e37 "kartust"  AFTER  e38 "otsus" 
+     e37 "kartust"  INCLUDES  e42 "kurtis" 
+     e37 "kartust"  INCLUDES  e43 "pidas" 
+     e37 "kartust"  SIMULTANEOUS  e41 "on õnnetus" 
+     e38 "otsus"  BEFORE  DCT 
+     e38 "otsus"  BEFORE-OR-OVERLAP  e39 "asetab" 
+     e39 "asetab"  OVERLAP-OR-AFTER  DCT 
+
+ s13  " See [e40 otsus ] [e41 on ] [e41 õnnetus ] , " [e42 kurtis ] ajaleht ja [e43 pidas ] selle tagajärjena Taani [e44 taandumist ] euroliidu B-liikmeks .
+     e40 "otsus"  BEFORE  DCT 
+     e40 "otsus"  BEFORE  e41 "on õnnetus" 
+     e41 "on õnnetus"  INCLUDES  DCT 
+     e41 "on õnnetus"  INCLUDES  e42 "kurtis" 
+     e41 "on õnnetus"  INCLUDES  e46 "öelda" 
+     e42 "kurtis"  BEFORE  DCT 
+     e42 "kurtis"  SIMULTANEOUS  e43 "pidas" 
+     e42 "kurtis"  IS_INCLUDED  e46 "öelda" ka VAGUE
+     e43 "pidas"  BEFORE  DCT 
+     e43 "pidas"  BEFORE  e44 "taandumist" 
+     e43 "pidas"  IS_INCLUDED  e46 "öelda" ka VAGUE
+     e44 "taandumist"  OVERLAP-OR-AFTER  DCT 
+
+ s14  Ei [e45 saa ] kuidagi [e46 öelda ] , et euroraha kasuks [e47 rääkinuks ] taanlaste silmis vähe ratsionaalseid argumente , laenuintresside langus [e48 olgu ] vaid üheks [e48 näiteks ] .
+     e45 "saa"  INCLUDES  DCT 
+     e45 "saa"  VAGUE  e46 "öelda" 
+     e46 "öelda"  VAGUE  DCT 
+     e46 "öelda"  AFTER  e47 "rääkinuks" 
+     e46 "öelda"  AFTER  e49 "osutusid" 
+     e47 "rääkinuks"  BEFORE  DCT 
+     e47 "rääkinuks"  VAGUE  e48 "olgu näiteks" 
+     e48 "olgu näiteks"  VAGUE  DCT 
+
+ s15  Kuid kolmnurgas demokraatia , argumendid ja emotsioonid [e49 osutusid ] võitjaks kaks äärmist .
+     e49 "osutusid"  BEFORE  DCT 
+     e49 "osutusid"  VAGUE  e50 "pole ime" ka IS_INCLUDED
+
+ s16  [e50 Pole ] [e50 ime ] , et end demokraatlikuks pidavad valitsused [e51 üritavad ] [e52 rahvahääletusi ] [e53 korraldada ] enamasti juhtudel , kui tulemus [e54 on ] ette [e54 selge ] .
+     e50 "pole ime"  INCLUDES  DCT 
+     e50 "pole ime"  VAGUE  e51 "üritavad" 
+     e51 "üritavad"  VAGUE  DCT 
+     e51 "üritavad"  AFTER  e54 "on selge" 
+     e51 "üritavad"  BEFORE-OR-OVERLAP  e53 "korraldada" 
+     e52 "rahvahääletusi"  VAGUE  DCT 
+     e52 "rahvahääletusi"  OVERLAP-OR-AFTER  e53 "korraldada" 
+     e53 "korraldada"  VAGUE  DCT 
+     e53 "korraldada"  AFTER  e54 "on selge" 
+     e54 "on selge"  VAGUE  DCT 
+
+

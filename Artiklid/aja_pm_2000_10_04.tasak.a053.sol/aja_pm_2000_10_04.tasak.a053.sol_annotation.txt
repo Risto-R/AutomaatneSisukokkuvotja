@@ -1,0 +1,169 @@
+==================================================
+     aja_pm_2000_10_04.tasak.a053.sol
+      DCT: 2000-10-04
+==================================================
+ s0  Saksamaa [e1 ühinemise ] kümnenda aastapäeva [e2 pidustustele ] [e3 saabunud ] välismaised poliitikud [e4 tunnustasid ] riigi [t1 seniseid ] [e5 saavutusi ] , ent [e6 hoiatasid ] Saksa riigijuhte maal leviva paremäärmusluse ja korralageduse eest .
+     e1 "ühinemise"  BEFORE  DCT 
+     e1 "ühinemise"  BEFORE  e2 "pidustustele" 
+     e2 "pidustustele"  BEFORE  DCT 
+     e2 "pidustustele"  OVERLAP-OR-AFTER  e3 "saabunud" 
+     e3 "saabunud"  BEFORE  DCT 
+     e3 "saabunud"  BEFORE  e4 "tunnustasid" 
+     e4 "tunnustasid"  BEFORE  DCT 
+     e4 "tunnustasid"  AFTER  e5 "saavutusi" 
+     e4 "tunnustasid"  SIMULTANEOUS  e6 "hoiatasid" 
+     e4 "tunnustasid"  INCLUDES  e9 "tänas" 
+     e5 "saavutusi"  BEFORE-OR-OVERLAP  t1 "seniseid" 
+     e5 "saavutusi"  BEFORE  DCT 
+     e6 "hoiatasid"  BEFORE  DCT 
+     e6 "hoiatasid"  INCLUDES  e9 "tänas" 
+
+ s1  Dresdenis [e7 peetud ] [e8 aktusekõnes ] [e9 tänas ] Prantsusmaa president Jacques Chirac nii sakslasi kui nende naabreid [t2 kümne aasta eest ] [e10 langetatud ] ühinemis- [e11 otsuse ] eest .
+     e7 "peetud"  BEFORE  DCT 
+     e7 "peetud"  SIMULTANEOUS  e8 "aktusekõnes" 
+     e8 "aktusekõnes"  BEFORE  DCT 
+     e8 "aktusekõnes"  INCLUDES  e9 "tänas" 
+     e9 "tänas"  BEFORE  DCT 
+     e9 "tänas"  AFTER  e10 "langetatud" 
+     e9 "tänas"  AFTER  e11 "otsuse" 
+     e9 "tänas"  AFTER  e12 "sai" 
+     e9 "tänas"  INCLUDES  e15 "ütles" 
+     e10 "langetatud"  IS_INCLUDED  t2 "kümne aasta eest" 
+     e10 "langetatud"  BEFORE  DCT 
+     e10 "langetatud"  SIMULTANEOUS  e11 "otsuse" 
+     e11 "otsuse"  BEFORE  DCT 
+
+ s2  " Tänu sellele [e12 sai ] käesolev sajand , mille vältel oli Euroopa [e13 kogenud ] nii palju õudusi ja kannatusi , sajandiks , mil [e14 võidutsevad ] õigus , õiglus ja vabadus , " [e15 ütles ] Chirac .
+     e12 "sai"  BEFORE  DCT 
+     e12 "sai"  AFTER  e13 "kogenud" 
+     e12 "sai"  BEFORE  e14 "võidutsevad" 
+     e12 "sai"  BEFORE  e15 "ütles" 
+     e12 "sai"  BEFORE  e16 "olid" 
+     e13 "kogenud"  BEFORE  DCT 
+     e13 "kogenud"  BEFORE  e14 "võidutsevad" 
+     e14 "võidutsevad"  INCLUDES  DCT 
+     e15 "ütles"  BEFORE  DCT 
+     e15 "ütles"  IS_INCLUDED  e16 "olid" 
+
+ s3  Pidupäeva aktusekülalisteks [e16 olid ] Soome president Tarja Halonen , Rootsi peaminister Göran Persson , Poola peaminister Jerzy Buzek , Slovakkia valitsusjuht Mikulas Dzurinda , Ungari peaminister Viktor Orban ja tema Tshehhi kolleeg Milos Zeman .
+     e16 "olid"  BEFORE  DCT 
+     e16 "olid"  SIMULTANEOUS  e17 "esindas" 
+
+ s4  Venemaad [e17 esindas ] Föderatsiooninõukogu esimees Jegor Strojev ja USAd välisminister Madeleine Albright .
+     e17 "esindas"  BEFORE  DCT 
+     e17 "esindas"  OVERLAP-OR-AFTER  e18 "saatnud" 
+
+ s5  Suurbritannia oli Dresdenisse [e18 saatnud ] asepeaminister John Prescotti .
+     e18 "saatnud"  BEFORE  DCT 
+     e18 "saatnud"  BEFORE-OR-OVERLAP  e20 "ütles" 
+
+ s6  Kuigi peokülaliste seast [e19 puudus ] endine , nn ühinemiskantsler Helmut Kohl , [e20 ütles ] Chirac tema aadressil eriti sooje sõnu .
+     e19 "puudus"  BEFORE  DCT 
+     e19 "puudus"  INCLUDES  e20 "ütles" 
+     e20 "ütles"  BEFORE  DCT 
+     e20 "ütles"  IS_INCLUDED  e21 "polnud" 
+
+ s7  Helmut Kohl ise [e21 polnud ] piduliste nimistus , sest [e22 elab ] [t3 praegu ] raskelt üle Kristlik-Demokraatliku Partei ( CDU ) mainet laastavat [e23 finantsafääri ] .
+     e21 "polnud"  BEFORE  DCT 
+     e21 "polnud"  IS_INCLUDED  e22 "elab" 
+     e21 "polnud"  INCLUDES  e24 "pidas" 
+     e22 "elab"  SIMULTANEOUS  t3 "praegu" 
+     e22 "elab"  INCLUDES  DCT 
+     e22 "elab"  SIMULTANEOUS  e23 "finantsafääri" 
+     e23 "finantsafääri"  INCLUDES  DCT 
+
+ s8  Sakslaste rahvuspüha [e24 pidas ] ta [t4 eile ] perekonnaringis oma kodus Ludwigshafeni lähedal .
+     e24 "pidas"  IS_INCLUDED  t4 "eile" 
+     e24 "pidas"  BEFORE  DCT 
+     e24 "pidas"  AFTER  e27 "aitasid" 
+     e24 "pidas"  SIMULTANEOUS  e25 "nentis" 
+
+ s9  Saksamaa president Johannes Rau [e25 nentis ] , et [e26 ühinemisele ] [e27 aitasid ] otsustavalt kaasa omaaegse Saksa Demokraatliku Vabariigi kodanikud .
+     e25 "nentis"  BEFORE  DCT 
+     e25 "nentis"  AFTER  e26 "ühinemisele" 
+     e25 "nentis"  AFTER  e27 "aitasid" 
+     e25 "nentis"  BEFORE-OR-OVERLAP  e28 "häbenenud" 
+     e26 "ühinemisele"  BEFORE  DCT 
+     e26 "ühinemisele"  AFTER  e27 "aitasid" 
+     e27 "aitasid"  BEFORE  DCT 
+     e27 "aitasid"  BEFORE  e28 "häbenenud" 
+
+ s10  Samas ei [e28 häbenenud ] ta [e29 tunnistamast ] , et tänase Saksamaa idaosas [e30 on ] tööpuudus lääneosaga võrreldes peaaegu kaks korda [e30 suurem ] .
+     e28 "häbenenud"  BEFORE  DCT 
+     e28 "häbenenud"  SIMULTANEOUS  e29 "tunnistamast" 
+     e28 "häbenenud"  AFTER  e35 "saavutati" 
+     e28 "häbenenud"  INCLUDES  e31 "ütles" 
+     e29 "tunnistamast"  BEFORE  DCT 
+     e29 "tunnistamast"  IS_INCLUDED  e30 "on suurem" 
+     e30 "on suurem"  INCLUDES  DCT 
+
+ s11  Ungari endine peaminister Gyula Horn [e31 ütles ] [t5 eile ] Düsseldorfis [e32 korraldatud ] [e33 aktusel ] , et Saksamaa [e34 ühinemisega ] [e35 saavutati ] riikliku õigluse , demokraatia ja vaba turumajanduse rahvusvaheline heakskiit .
+     e31 "ütles"  IS_INCLUDED  t5 "eile" 
+     e31 "ütles"  BEFORE  DCT 
+     e31 "ütles"  AFTER  e34 "ühinemisega" 
+     e31 "ütles"  AFTER  e35 "saavutati" 
+     e31 "ütles"  IS_INCLUDED  e33 "aktusel" 
+     e31 "ütles"  VAGUE  e32 "korraldatud" 
+     e31 "ütles"  AFTER  e36 "oli välisminister" 
+     e32 "korraldatud"  BEFORE  DCT 
+     e32 "korraldatud"  BEFORE-OR-OVERLAP  e33 "aktusel" 
+     e33 "aktusel"  BEFORE  DCT 
+     e34 "ühinemisega"  BEFORE  DCT 
+     e34 "ühinemisega"  BEFORE-OR-OVERLAP  e35 "saavutati" 
+     e35 "saavutati"  BEFORE  DCT 
+     e35 "saavutati"  OVERLAP-OR-AFTER  e36 "oli välisminister" 
+
+ s12  Horn [e36 oli ] [t6 1989. aastal ] piiride [e37 avanemise ] aegu Ungari [e36 välisminister ] .
+     e36 "oli välisminister"  INCLUDES  t6 "1989. aastal" 
+     e36 "oli välisminister"  BEFORE  DCT 
+     e36 "oli välisminister"  INCLUDES  e37 "avanemise" 
+     e36 "oli välisminister"  BEFORE-OR-OVERLAP  e42 "käivitasid" 
+     e36 "oli välisminister"  BEFORE  e38 "tänas" 
+     e36 "oli välisminister"  BEFORE  e39 "meenutas" 
+     e37 "avanemise"  BEFORE  DCT 
+
+ s13  Saksamaa [t7 praegune ] liidukantsler Gerhard Schröder [e38 tänas ] Euroopa kõiki naaberriike toetuse eest ja [e39 meenutas ] , et just Kesk- ja Ida-Euroopas [e40 alanud ] [e41 reformiliikumised ] [e42 käivitasid ] omal ajal [e43 protsessi ] , mis [e44 viis ] Saksamaa riiklikule ühtsusele .
+     e38 "tänas"  BEFORE  DCT 
+     e38 "tänas"  SIMULTANEOUS  e39 "meenutas" 
+     e38 "tänas"  IS_INCLUDED  e45 "pühitsesid" 
+     e39 "meenutas"  BEFORE  DCT 
+     e39 "meenutas"  AFTER  e40 "alanud" 
+     e39 "meenutas"  AFTER  e42 "käivitasid" 
+     e39 "meenutas"  IS_INCLUDED  e45 "pühitsesid" 
+     e40 "alanud"  BEFORE  DCT 
+     e40 "alanud"  BEFORE-OR-OVERLAP  e41 "reformiliikumised" 
+     e41 "reformiliikumised"  BEFORE  DCT 
+     e41 "reformiliikumised"  BEFORE-OR-OVERLAP  e42 "käivitasid" 
+     e42 "käivitasid"  BEFORE  DCT 
+     e42 "käivitasid"  BEFORE-OR-OVERLAP  e43 "protsessi" 
+     e42 "käivitasid"  BEFORE  e44 "viis" 
+     e42 "käivitasid"  BEFORE  e45 "pühitsesid" 
+     e43 "protsessi"  BEFORE  DCT 
+     e43 "protsessi"  BEFORE-OR-OVERLAP  e44 "viis" 
+     e44 "viis"  BEFORE  DCT 
+
+ s14  [t8 Eile ] [e45 pühitsesid ] sajad tuhanded sakslased kogu maal [e46 ühinemise ] kümnendat [e47 aastapäeva ] .
+     e45 "pühitsesid"  IS_INCLUDED  t8 "Eile" 
+     e45 "pühitsesid"  BEFORE  DCT 
+     e45 "pühitsesid"  AFTER  e46 "ühinemise" 
+     e45 "pühitsesid"  SIMULTANEOUS  e47 "aastapäeva" 
+     e45 "pühitsesid"  INCLUDES  e48 "toonitas" 
+     e45 "pühitsesid"  SIMULTANEOUS  e49 "peame pidu" 
+     e46 "ühinemise"  BEFORE  DCT 
+     e46 "ühinemise"  BEFORE  e47 "aastapäeva" 
+     e47 "aastapäeva"  BEFORE  DCT 
+
+ s15  President Rau [e48 toonitas ] : " [t9 Täna ] [e49 peame ] [e49 pidu ] selle nimel , et Saksamaad ei [e50 lõhestaks ] enam ükski piir , mille lähedus [e51 põhjustaks ] [e52 inimjahti ] . "
+     e48 "toonitas"  IS_INCLUDED  t9 "Täna" 
+     e48 "toonitas"  BEFORE  DCT 
+     e48 "toonitas"  IS_INCLUDED  e49 "peame pidu" 
+     e49 "peame pidu"  IS_INCLUDED  t9 "Täna" 
+     e49 "peame pidu"  BEFORE  DCT 
+     e49 "peame pidu"  BEFORE  e50 "lõhestaks" 
+     e50 "lõhestaks"  OVERLAP-OR-AFTER  DCT 
+     e50 "lõhestaks"  BEFORE-OR-OVERLAP  e51 "põhjustaks" 
+     e51 "põhjustaks"  OVERLAP-OR-AFTER  DCT 
+     e51 "põhjustaks"  BEFORE-OR-OVERLAP  e52 "inimjahti" 
+     e52 "inimjahti"  OVERLAP-OR-AFTER  DCT 
+
+

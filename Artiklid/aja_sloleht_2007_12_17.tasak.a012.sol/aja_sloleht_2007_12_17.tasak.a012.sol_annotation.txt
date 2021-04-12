@@ -1,0 +1,73 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a012.sol
+      DCT: 2007-12-17
+==================================================
+ s0  Trenni [e1 tehes ] ära [e2 vaata ] maha ! [e3 Langetades ] pea rinnale , [e4 väheneb ] õlavöötme- ja seljasirutajalihaste toonus , selg [e5 kumerdub ] ja kõht [e6 võlvub ] ette .
+     e1 "tehes"  VAGUE  DCT 
+     e1 "tehes"  SIMULTANEOUS  e2 "vaata" 
+     e2 "vaata"  VAGUE  DCT 
+     e2 "vaata"  SIMULTANEOUS  e4 "väheneb" 
+     e2 "vaata"  VAGUE  e3 "Langetades" 
+     e2 "vaata"  VAGUE  e10 "venitama" ka IS_INCLUDED
+     e2 "vaata"  VAGUE  e9 "treenima" ka IS_INCLUDED
+     e3 "Langetades"  VAGUE  DCT 
+     e3 "Langetades"  BEFORE  e4 "väheneb" 
+     e4 "väheneb"  VAGUE  DCT 
+     e4 "väheneb"  SIMULTANEOUS  e5 "kumerdub" 
+     e5 "kumerdub"  VAGUE  DCT 
+     e5 "kumerdub"  SIMULTANEOUS  e6 "võlvub" 
+     e6 "võlvub"  VAGUE  DCT 
+     e6 "võlvub"  VAGUE  e10 "venitama" ka IS_INCLUDED
+     e6 "võlvub"  VAGUE  e9 "treenima" ka IS_INCLUDED
+
+ s1  Kui [e7 kannatad ] seljavalu või nõgusselgsuse all , [e8 pead ] [e9 treenima ] kõhu- ja tuharalihaseid ja [e10 venitama ] niude-nimmelihast ja reie tagumisi lihaseid .
+     e7 "kannatad"  VAGUE  DCT 
+     e7 "kannatad"  BEFORE-OR-OVERLAP  e10 "venitama" 
+     e7 "kannatad"  BEFORE-OR-OVERLAP  e9 "treenima" 
+     e8 "pead"  VAGUE  DCT 
+     e8 "pead"  VAGUE  e9 "treenima" 
+     e9 "treenima"  VAGUE  DCT 
+     e9 "treenima"  SIMULTANEOUS  e10 "venitama" 
+     e9 "treenima"  VAGUE  e12 "on oluline" ka BEFORE
+     e10 "venitama"  VAGUE  DCT 
+     e10 "venitama"  VAGUE  e12 "on oluline" ka SIMULTANEOUS
+
+ s2  Halva [e11 rühi ] korral [e12 on ] koormusjärgne lihaste [e13 venitamine ] eriti [e12 oluline ] .
+     e11 "rühi"  VAGUE  DCT 
+     e11 "rühi"  SIMULTANEOUS  e12 "on oluline" 
+     e12 "on oluline"  VAGUE  DCT 
+     e12 "on oluline"  SIMULTANEOUS  e13 "venitamine" 
+     e12 "on oluline"  VAGUE  e14 "Tee" ka INCLUDES
+     e12 "on oluline"  VAGUE  e15 "tööta" ka INCLUDES
+     e13 "venitamine"  VAGUE  DCT 
+
+ s3  [e14 Tee ] kõhulihaste harjutusi alati aeglases tempos , vastasel korral ei [e15 tööta ] kõhu rist- ja põikilihased , vaid neist võimsam sirglihas .
+     e14 "Tee"  VAGUE  DCT 
+     e14 "Tee"  VAGUE  e15 "tööta" 
+     e14 "Tee"  VAGUE  e16 "Järgi" ka SIMULTANEOUS
+     e15 "tööta"  VAGUE  DCT 
+     e15 "tööta"  VAGUE  e16 "Järgi" ka SIMULTANEOUS
+
+ s4  [e16 Järgi ] kehahoidu .
+     e16 "Järgi"  VAGUE  DCT 
+     e16 "Järgi"  VAGUE  e20 "kahju teha" ka IS_INCLUDED
+     e16 "Järgi"  VAGUE  e18 "langeb" ka SIMULTANEOUS
+
+ s5  Kühmus seljaga aeroobikaharjutusi [e17 tehes ] [e18 langeb ] koormus lülisambale ja jalaliigestele ebaühtlaselt , kasu asemel [e19 võid ] tervisele hoopis [e20 kahju ] [e20 teha ] .
+     e17 "tehes"  VAGUE  DCT 
+     e17 "tehes"  BEFORE-OR-OVERLAP  e20 "kahju teha" 
+     e17 "tehes"  SIMULTANEOUS  e18 "langeb" 
+     e18 "langeb"  VAGUE  DCT 
+     e18 "langeb"  BEFORE-OR-OVERLAP  e20 "kahju teha" 
+     e18 "langeb"  VAGUE  e21 "on" ka IS_INCLUDED
+     e19 "võid"  VAGUE  DCT 
+     e19 "võid"  VAGUE  e20 "kahju teha" 
+     e20 "kahju teha"  VAGUE  DCT 
+     e20 "kahju teha"  VAGUE  e21 "on" 
+
+ s6  Kõige tähtsam [e21 on ] rühi parandamiseks [e22 teha ] lihaskorsetti tugevdavaid jõuharjutusi .
+     e21 "on"  VAGUE  DCT 
+     e21 "on"  VAGUE  e22 "teha" 
+     e22 "teha"  VAGUE  DCT 
+
+

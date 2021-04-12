@@ -1,13 +1,43 @@
 <div0><head> Põllumeeste sinine kütus tuleb jaemüüki </head>
-<p> <bibl> <author> <s> Hindrek Riikoja , hindrek.riikoja@postimees.ee </s> </author> </bibl> </p>
-<p> <s> Valitsuses eile vastu võetud määruse kohaselt on edaspidi lubatud eriotstarbelise kütteõli müümine põllumeestele ja kaluritele kõikides tanklates . </s> </p>
-<p> <s> Uue müügikorra kohaselt ei pea müüjad enam pidama müügipäevikut , kuhu märgitakse müüdud kütuse kogus ning selle ostja ja tema allkiri . </s> <s> Samuti kaob ostjatel vajadus kaasas kanda oma põllutöömasinate või paatide dokumente . </s> </p>
-<p rend="bold"> <s> Trahvid liiga väikesed </s> </p>
-<p> <s> Põllumajandusminister Ivari Padari sõnul muudab uus kord põllumeeste elu tunduvalt lihtsamaks , kuid paneb suurema koorma politsei õlule , kelle ülesandeks on kontrollida , et erimärgistatud kütust ei kasutaks tavalised autojuhid , sest siis on tegemist seaduserikkumisega . </s> </p>
-<p> <s> “ Niinimetatud sinise kütuse kasutamine mujal kui põllutöömasinates on maksupettus , sest sinine kütus on märkimisväärselt madalama aktsiisiga kui tavaline diislikütus . </s> <s> Vale kütuse kasutamise eest on seadusega ette nähtud 200-300 päevapalga suurune trahv ehk kuni 13 800 krooni , ” rääkis Padar . </s> </p>
-<p> <s> Samas on tema sõnul selline karistus liiga leebe , sest kütuse õigsust kontrollitakse väga vähe ja inimesi selline trahv ei hirmuta . </s> <s> “ Inglismaal näiteks võib vale kütuse tarbijat karistada kuni 5000 naela ehk rohkem kui 130 000 krooniga , mis sunnib inimesi ka seaduskuulekusele , ” lisas Padar . </s> </p>
-<p rend="bold"> <s> Kontroll raskendatud </s> </p>
-<p> <s> Politseiameti korrakaitseosakonna juhtivinspektori Indrek Sirgi sõnul on politseil kütusekontrolli raske teostada , sest selleks puuduvad eelarves vajalikud summad . </s> <s> “ Seni oleme seda teinud tolliameti aparatuuriga ja mitte kuigi tihti , ” märkis Sirk . </s> </p>
-<p> <s> Tema sõnul maksab kütuseproovide võtmiseks vajalik aparatuur kuni 3000 krooni , kuid kalliks teevad selle proovidele esitatud kõrged nõudmised ja kuluv aeg . </s> </p>
-<p> <s> “ Kahe aasta taguste arvestuste kohaselt oleks kütuseproovide võtmine , nende analüüsimine ja hoidmine koos selle juurde tehtavate teiste kulutustega läinud aastas maksma mitu miljonit krooni , mida meie eelarves aga pole , ” lausus Sirk . </s> </p>
-<p> <s> Sellest hoolimata on proovide aktiivne võtmine politseil pidevalt päevakorral , sest seda nõuavad mitmed seadused . </s> <s> Praegu peetakse läbirääkimisi erinevate asjasse puutuvate ministeeriumidega , leidmaks selleks vajalikku raha . </s> </p></div0>
+<p>
+ <bibl> <author> <s> Hindrek Riikoja , hindrek.riikoja@postimees.ee </s> </author> </bibl> 
+</p>
+<p>
+ <s> Valitsuses eile vastu võetud määruse kohaselt on edaspidi lubatud eriotstarbelise kütteõli müümine põllumeestele ja kaluritele kõikides tanklates . </s> 
+</p>
+<p>
+ <s> Uue müügikorra kohaselt ei pea müüjad enam pidama müügipäevikut , kuhu märgitakse müüdud kütuse kogus ning selle ostja ja tema allkiri . </s>
+<s> Samuti kaob ostjatel vajadus kaasas kanda oma põllutöömasinate või paatide dokumente . </s> 
+</p>
+<p rend="bold">
+ <s> Trahvid liiga väikesed </s> 
+</p>
+<p>
+ <s> Põllumajandusminister Ivari Padari sõnul muudab uus kord põllumeeste elu tunduvalt lihtsamaks , kuid paneb suurema koorma politsei õlule , kelle ülesandeks on kontrollida , et erimärgistatud kütust ei kasutaks tavalised autojuhid , sest siis on tegemist seaduserikkumisega . </s> 
+</p>
+<p>
+ <s> “ Niinimetatud sinise kütuse kasutamine mujal kui põllutöömasinates on maksupettus , sest sinine kütus on märkimisväärselt madalama aktsiisiga kui tavaline diislikütus . </s>
+<s> Vale kütuse kasutamise eest on seadusega ette nähtud 200-300 päevapalga suurune trahv ehk kuni 13 800 krooni , ” rääkis Padar . </s> 
+</p>
+<p>
+ <s> Samas on tema sõnul selline karistus liiga leebe , sest kütuse õigsust kontrollitakse väga vähe ja inimesi selline trahv ei hirmuta . </s>
+<s> “ Inglismaal näiteks võib vale kütuse tarbijat karistada kuni 5000 naela ehk rohkem kui 130 000 krooniga , mis sunnib inimesi ka seaduskuulekusele , ” lisas Padar . </s> 
+</p>
+<p rend="bold">
+ <s> Kontroll raskendatud </s> 
+</p>
+<p>
+ <s> Politseiameti korrakaitseosakonna juhtivinspektori Indrek Sirgi sõnul on politseil kütusekontrolli raske teostada , sest selleks puuduvad eelarves vajalikud summad . </s>
+<s> “ Seni oleme seda teinud tolliameti aparatuuriga ja mitte kuigi tihti , ” märkis Sirk . </s> 
+</p>
+<p>
+ <s> Tema sõnul maksab kütuseproovide võtmiseks vajalik aparatuur kuni 3000 krooni , kuid kalliks teevad selle proovidele esitatud kõrged nõudmised ja kuluv aeg . </s> 
+</p>
+<p>
+ <s> “ Kahe aasta taguste arvestuste kohaselt oleks kütuseproovide võtmine , nende analüüsimine ja hoidmine koos selle juurde tehtavate teiste kulutustega läinud aastas maksma mitu miljonit krooni , mida meie eelarves aga pole , ” lausus Sirk . </s> 
+</p>
+<p>
+ <s> Sellest hoolimata on proovide aktiivne võtmine politseil pidevalt päevakorral , sest seda nõuavad mitmed seadused . </s>
+<s> Praegu peetakse läbirääkimisi erinevate asjasse puutuvate ministeeriumidega , leidmaks selleks vajalikku raha . </s> 
+</p>
+</div0>

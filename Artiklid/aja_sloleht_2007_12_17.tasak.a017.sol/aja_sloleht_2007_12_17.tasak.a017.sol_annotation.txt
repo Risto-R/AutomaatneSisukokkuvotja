@@ -1,0 +1,79 @@
+==================================================
+     aja_sloleht_2007_12_17.tasak.a017.sol
+      DCT: 2007-12-17
+==================================================
+ s0  USA teadlased [e1 peavad ] pikaealisuse puhul head füüsilist vormi saledusest tähtsamaks .
+     e1 "peavad"  INCLUDES  DCT 
+     e1 "peavad"  OVERLAP-OR-AFTER  e5 "oli" 
+
+ s1  Trenažööril tehtud testides [e2 osalenud ] naistel ja meestel , kes [e3 olid ] küll [e3 ülekaalulised ] , kuid [e4 treenitud ] , [e5 oli ] väiksem suremusrisk kui saledatel treenimata inimestel .
+     e2 "osalenud"  BEFORE  DCT 
+     e2 "osalenud"  IS_INCLUDED  e3 "olid ülekaalulised" 
+     e2 "osalenud"  IS_INCLUDED  e4 "treenitud" 
+     e3 "olid ülekaalulised"  BEFORE  DCT 
+     e3 "olid ülekaalulised"  INCLUDES  e5 "oli" 
+     e3 "olid ülekaalulised"  SIMULTANEOUS  e4 "treenitud" 
+     e4 "treenitud"  BEFORE  DCT 
+     e5 "oli"  BEFORE  DCT 
+     e5 "oli"  IS_INCLUDED  e6 "jälgisid" 
+
+ s2  Lõuna-California ülikooli liikumisekspert Steven Blair ja tema kolleegid [e6 jälgisid ] [t1 12 aasta vältel ] ligi 2600 [t2 üle 60aastast ] inimest .
+     e6 "jälgisid"  SIMULTANEOUS  t1 "12 aasta vältel" 
+     e6 "jälgisid"  BEFORE  DCT 
+     e6 "jälgisid"  INCLUDES  e7 "oli kõrgem" 
+
+ s3  Treenimata inimeste seas [e7 oli ] suremus neli korda [e7 kõrgem ] kui väga heas füüsilises vormis olnutel . "
+     e7 "oli kõrgem"  BEFORE  DCT 
+     e7 "oli kõrgem"  BEFORE  e12 "nendib" 
+     e7 "oli kõrgem"  IS_INCLUDED  e8 "kaitseb" ka VAGUE
+
+ s4  Heas vormis olek [e8 kaitseb ] [t3 üle 60aastaseid ] mehi ja naisi surma eest , ükskõik , kas nad [e9 on ] [e9 normaalkaalus ] , [e10 ülekaalulised ] või [e11 rasvunud ] , " [e12 nendib ] Blair .
+     e8 "kaitseb"  INCLUDES  DCT 
+     e8 "kaitseb"  INCLUDES  e10 "ülekaalulised" 
+     e8 "kaitseb"  INCLUDES  e11 "rasvunud" 
+     e8 "kaitseb"  INCLUDES  e12 "nendib" 
+     e8 "kaitseb"  INCLUDES  e9 "on normaalkaalus" 
+     e8 "kaitseb"  INCLUDES  e14 "on olulised" 
+     e9 "on normaalkaalus"  INCLUDES  DCT 
+     e9 "on normaalkaalus"  VAGUE  e10 "ülekaalulised" 
+     e10 "ülekaalulised"  INCLUDES  DCT 
+     e10 "ülekaalulised"  VAGUE  e11 "rasvunud" 
+     e11 "rasvunud"  INCLUDES  DCT 
+     e12 "nendib"  BEFORE-OR-OVERLAP  DCT 
+     e12 "nendib"  IS_INCLUDED  e14 "on olulised" 
+
+ s5  Tema [e13 sõnul ] [e14 on ] uuringu tulemused [e14 olulised ] , sest ülekaaluliste inimeste hulk [e15 kasvab ] üle maailma .
+     e13 "sõnul"  BEFORE-OR-OVERLAP  DCT 
+     e13 "sõnul"  IS_INCLUDED  e14 "on olulised" 
+     e14 "on olulised"  INCLUDES  DCT 
+     e14 "on olulised"  IS_INCLUDED  e15 "kasvab" 
+     e14 "on olulised"  VAGUE  e16 "keskendutakse" ka IS_INCLUDED
+     e14 "on olulised"  VAGUE  e18 "jäävad" ka IS_INCLUDED
+     e15 "kasvab"  INCLUDES  DCT 
+
+ s6  Kuid tihti [e16 keskendutakse ] vaid [e17 salenemisele ] , aktiivsus ja treenitus [e18 jäävad ] tagaplaanile .
+     e16 "keskendutakse"  INCLUDES  DCT 
+     e16 "keskendutakse"  SIMULTANEOUS  e17 "salenemisele" 
+     e16 "keskendutakse"  SIMULTANEOUS  e18 "jäävad" 
+     e16 "keskendutakse"  VAGUE  e19 "pole tarvis" 
+     e16 "keskendutakse"  VAGUE  e24 "on kasulik" 
+     e17 "salenemisele"  INCLUDES  DCT 
+     e17 "salenemisele"  SIMULTANEOUS  e18 "jäävad" 
+     e18 "jäävad"  INCLUDES  DCT 
+     e18 "jäävad"  VAGUE  e19 "pole tarvis" 
+     e18 "jäävad"  VAGUE  e24 "on kasulik" 
+
+ s7  Seega [e19 pole ] ülekaalulistel [e19 tarvis ] [e20 liikumist ] [e21 karta ] - pikaealisuseks [e22 pole ] tarvis drastilisi [e23 samme ] , ka mõõdukas füüsiline aktiivsus [e24 on ] tervisele [e24 kasulik ] .
+     e19 "pole tarvis"  INCLUDES  DCT 
+     e19 "pole tarvis"  SIMULTANEOUS  e22 "pole" 
+     e19 "pole tarvis"  VAGUE  e20 "liikumist" 
+     e19 "pole tarvis"  VAGUE  e21 "karta" 
+     e20 "liikumist"  VAGUE  DCT 
+     e21 "karta"  VAGUE  DCT 
+     e22 "pole"  VAGUE  DCT 
+     e22 "pole"  SIMULTANEOUS  e24 "on kasulik" 
+     e22 "pole"  VAGUE  e23 "samme" 
+     e23 "samme"  VAGUE  DCT 
+     e24 "on kasulik"  INCLUDES  DCT 
+
+
